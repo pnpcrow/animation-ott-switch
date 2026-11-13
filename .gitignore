@@ -11,3 +11,5 @@ playwright-report/
 Thumbs.db
 artifacts/
 .tmp/
+__pycache__/
+*.pyc

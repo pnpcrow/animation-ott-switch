@@ -1,0 +1,108 @@
+{
+  "annotationMethod": "Manual review of captured public official HTML, candidate ancestry and neighboring content; no evaluated model outputs used. Alternative IDs identify equivalent series-level artwork or synopsis.",
+  "pages": {
+    "witch": {
+      "title": "t3",
+      "image": "i1",
+      "description": "d2",
+      "note": "Visible title and series synopsis; official artwork metadata. Background recommendation cards are separate works."
+    },
+    "frieren": {
+      "title": "t3",
+      "image": "i1",
+      "description": "d2",
+      "note": "Subtitled version title is valid. Episode synopsis and recommendation cards are distractors."
+    },
+    "sakura": {
+      "title": "t2",
+      "image": "i1",
+      "description": "d1",
+      "accepted": { "image": ["i1", "i2"] },
+      "note": "Main landscape artwork and responsive portrait are equivalent. Text logo, WATCHA provider coin and episode images are not artwork targets."
+    },
+    "apothecary": {
+      "title": "t3",
+      "image": "i1",
+      "description": "__none__",
+      "note": "Actual captured synopsis is the literal placeholder {줄거리}; marketing copy and a different recommendation are not a plot."
+    },
+    "nia": {
+      "title": "t3",
+      "image": "i1",
+      "description": "d2",
+      "note": "Current work title and synopsis in detail layer; homepage recommendation images compete."
+    },
+    "rezero": {
+      "title": "t3",
+      "image": "i1",
+      "description": "d2",
+      "note": "Director-cut version label belongs to current title. Episode and recommendation descriptions compete."
+    },
+    "dungeon": {
+      "title": "t2",
+      "image": "i1",
+      "description": "d2",
+      "accepted": { "image": ["i1", "i2"], "description": ["d1", "d2"] },
+      "note": "Official artwork and hero backdrop are acceptable. Image i3/i4 are title graphics; descriptions d3 onward are episodes."
+    },
+    "dinner": {
+      "title": "t2",
+      "image": "i3",
+      "description": "d1",
+      "accepted": { "image": ["i1", "i3"] },
+      "note": "Title-logo alt gives clean series name. Hero backdrop and official OG artwork are acceptable; channel logos, title PNG and episode images are excluded."
+    },
+    "frieren-aniplus": {
+      "title": "t4",
+      "image": "i2",
+      "description": "d3",
+      "accepted": { "description": ["d2", "d3"] },
+      "note": "Visible work heading differs from generic service metadata. Later official OG artwork replaces generic event image. Metadata/visible series synopses equivalent."
+    },
+    "witch-tving": {
+      "title": "t3",
+      "image": "i4",
+      "description": "d1",
+      "accepted": { "image": ["i1", "i3", "i4"] },
+      "note": "Main h1 text/SEO includes episode 1; series logo alt is clean title. Main portrait and responsive/metadata landscape artwork equivalent; title PNG and episode cards excluded."
+    },
+    "frieren-tving": {
+      "title": "t3",
+      "image": "i4",
+      "description": "d1",
+      "accepted": { "image": ["i1", "i3", "i4"] },
+      "note": "Clean subtitle-version title comes from series logo alt, not episode-1 h1. Three series artwork renditions equivalent."
+    },
+    "witch-wavve": {
+      "title": "t4",
+      "image": "i2",
+      "description": "d4",
+      "accepted": { "description": ["d3", "d4"] },
+      "note": "Series poster differs from logo/episode thumbnails; visible clipped synopsis and full aria-label are equivalent series text."
+    },
+    "frieren-wavve-search": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Search results show several titles/versions; no work detail has been opened."
+    },
+    "dungeon-watcha-search": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Public search shell exposes only service marketing metadata, not a current work detail."
+    },
+    "dungeon-coupang-search": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Public anonymous browser received Access Denied; none of the requested work fields exists."
+    },
+    "witch-crunchyroll": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Anonymous browser received security verification page, not work detail. Captured title/description/favicon are not work metadata."
+    }
+  }
+}

@@ -1,0 +1,558 @@
+{
+  "model": "generic-dom-heuristic-compact",
+  "information": "Only document/options.text, same input as decision models; mechanical projection of frozen full-snapshot rules, no later rule tuning",
+  "summary": {
+    "calibration": {
+      "n": 30,
+      "correct": 25,
+      "accuracy": 0.8333333333333334,
+      "meanLatencyMs": 0.3040933333333342
+    },
+    "holdout": {
+      "n": 18,
+      "correct": 16,
+      "accuracy": 0.8888888888888888,
+      "meanLatencyMs": 0.09987777777777751
+    }
+  },
+  "results": [
+    {
+      "id": "witch-title",
+      "split": "calibration",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 2.0137
+    },
+    {
+      "id": "witch-image",
+      "split": "calibration",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "latencyMs": 0.33979999999999677
+    },
+    {
+      "id": "witch-description",
+      "split": "calibration",
+      "selectedId": "d2",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "correct": true,
+      "latencyMs": 0.11160000000000991
+    },
+    {
+      "id": "frieren-title",
+      "split": "calibration",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.07269999999999754
+    },
+    {
+      "id": "frieren-image",
+      "split": "calibration",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "latencyMs": 0.07869999999999777
+    },
+    {
+      "id": "frieren-description",
+      "split": "calibration",
+      "selectedId": "d2",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "correct": true,
+      "latencyMs": 2.7720999999999947
+    },
+    {
+      "id": "sakura-title",
+      "split": "holdout",
+      "selectedId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": true,
+      "latencyMs": 0.303600000000003
+    },
+    {
+      "id": "sakura-image",
+      "split": "holdout",
+      "selectedId": "i7",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "correct": false,
+      "latencyMs": 0.24869999999999948
+    },
+    {
+      "id": "sakura-description",
+      "split": "holdout",
+      "selectedId": "d3",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": false,
+      "latencyMs": 0.2330000000000041
+    },
+    {
+      "id": "apothecary-title",
+      "split": "calibration",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.14330000000001064
+    },
+    {
+      "id": "apothecary-image",
+      "split": "calibration",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "latencyMs": 0.11260000000000048
+    },
+    {
+      "id": "apothecary-description",
+      "split": "calibration",
+      "selectedId": "d3",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "latencyMs": 0.052599999999998204
+    },
+    {
+      "id": "nia-title",
+      "split": "calibration",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.10970000000000368
+    },
+    {
+      "id": "nia-image",
+      "split": "calibration",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "latencyMs": 0.10410000000000252
+    },
+    {
+      "id": "nia-description",
+      "split": "calibration",
+      "selectedId": "d5",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "correct": false,
+      "latencyMs": 0.12699999999999534
+    },
+    {
+      "id": "rezero-title",
+      "split": "holdout",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.11079999999999757
+    },
+    {
+      "id": "rezero-image",
+      "split": "holdout",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "latencyMs": 0.09909999999999286
+    },
+    {
+      "id": "rezero-description",
+      "split": "holdout",
+      "selectedId": "d2",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "correct": true,
+      "latencyMs": 0.0818000000000012
+    },
+    {
+      "id": "dungeon-title",
+      "split": "holdout",
+      "selectedId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": true,
+      "latencyMs": 0.08299999999999841
+    },
+    {
+      "id": "dungeon-image",
+      "split": "holdout",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "correct": true,
+      "latencyMs": 0.07250000000000512
+    },
+    {
+      "id": "dungeon-description",
+      "split": "holdout",
+      "selectedId": "d2",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d1",
+        "d2"
+      ],
+      "correct": true,
+      "latencyMs": 0.11129999999999995
+    },
+    {
+      "id": "dinner-title",
+      "split": "holdout",
+      "selectedId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": true,
+      "latencyMs": 0.11319999999999197
+    },
+    {
+      "id": "dinner-image",
+      "split": "holdout",
+      "selectedId": "i1",
+      "expectedId": "i3",
+      "acceptedIds": [
+        "i1",
+        "i3"
+      ],
+      "correct": true,
+      "latencyMs": 0.11010000000000275
+    },
+    {
+      "id": "dinner-description",
+      "split": "holdout",
+      "selectedId": "d1",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": true,
+      "latencyMs": 0.02740000000000009
+    },
+    {
+      "id": "frieren-aniplus-title",
+      "split": "calibration",
+      "selectedId": "t4",
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": true,
+      "latencyMs": 0.10580000000000211
+    },
+    {
+      "id": "frieren-aniplus-image",
+      "split": "calibration",
+      "selectedId": "i1",
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "latencyMs": 0.03470000000000084
+    },
+    {
+      "id": "frieren-aniplus-description",
+      "split": "calibration",
+      "selectedId": "d5",
+      "expectedId": "d3",
+      "acceptedIds": [
+        "d2",
+        "d3"
+      ],
+      "correct": false,
+      "latencyMs": 0.09799999999999898
+    },
+    {
+      "id": "witch-tving-title",
+      "split": "calibration",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.03979999999999961
+    },
+    {
+      "id": "witch-tving-image",
+      "split": "calibration",
+      "selectedId": "i1",
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": true,
+      "latencyMs": 0.08510000000001128
+    },
+    {
+      "id": "witch-tving-description",
+      "split": "calibration",
+      "selectedId": "d1",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": true,
+      "latencyMs": 1.193799999999996
+    },
+    {
+      "id": "frieren-tving-title",
+      "split": "calibration",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.1039999999999992
+    },
+    {
+      "id": "frieren-tving-image",
+      "split": "calibration",
+      "selectedId": "i1",
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": true,
+      "latencyMs": 0.2727000000000004
+    },
+    {
+      "id": "frieren-tving-description",
+      "split": "calibration",
+      "selectedId": "d1",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": true,
+      "latencyMs": 0.17829999999999302
+    },
+    {
+      "id": "witch-wavve-title",
+      "split": "calibration",
+      "selectedId": "t4",
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": true,
+      "latencyMs": 0.28000000000000114
+    },
+    {
+      "id": "witch-wavve-image",
+      "split": "calibration",
+      "selectedId": "i8",
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "latencyMs": 0.2861000000000047
+    },
+    {
+      "id": "witch-wavve-description",
+      "split": "calibration",
+      "selectedId": "d4",
+      "expectedId": "d4",
+      "acceptedIds": [
+        "d3",
+        "d4"
+      ],
+      "correct": true,
+      "latencyMs": 0.154200000000003
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "split": "calibration",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.06910000000000593
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "split": "calibration",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.04919999999999902
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "split": "calibration",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.06790000000000873
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "split": "holdout",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.015900000000002024
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "split": "holdout",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.010400000000004184
+    },
+    {
+      "id": "dungeon-watcha-search-description",
+      "split": "holdout",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.009600000000006048
+    },
+    {
+      "id": "dungeon-coupang-search-title",
+      "split": "holdout",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.14560000000000173
+    },
+    {
+      "id": "dungeon-coupang-search-image",
+      "split": "holdout",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.006199999999992656
+    },
+    {
+      "id": "dungeon-coupang-search-description",
+      "split": "holdout",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.015599999999992065
+    },
+    {
+      "id": "witch-crunchyroll-title",
+      "split": "calibration",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.0379999999999967
+    },
+    {
+      "id": "witch-crunchyroll-image",
+      "split": "calibration",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.014899999999997249
+    },
+    {
+      "id": "witch-crunchyroll-description",
+      "split": "calibration",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.013300000000000978
+    }
+  ]
+}

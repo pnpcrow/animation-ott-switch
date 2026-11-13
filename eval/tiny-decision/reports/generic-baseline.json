@@ -1,0 +1,660 @@
+{
+  "model": "generic-dom-heuristic",
+  "rulesFrozen": "before first scoring",
+  "summary": {
+    "calibration": {
+      "n": 30,
+      "correct": 24,
+      "accuracy": 0.8,
+      "meanLatencyMs": 0.09213666666666759
+    },
+    "holdout": {
+      "n": 18,
+      "correct": 17,
+      "accuracy": 0.9444444444444444,
+      "meanLatencyMs": 0.045055555555555155
+    }
+  },
+  "multiCandidate": {
+    "n": 38,
+    "correct": 32,
+    "accuracy": 0.8421052631578947,
+    "meanLatencyMs": 0.08803421052631677
+  },
+  "results": [
+    {
+      "id": "witch-title",
+      "split": "calibration",
+      "field": "title",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.894999999999996,
+      "multiCandidate": true
+    },
+    {
+      "id": "witch-image",
+      "split": "calibration",
+      "field": "image",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "latencyMs": 0.27549999999999386,
+      "multiCandidate": true
+    },
+    {
+      "id": "witch-description",
+      "split": "calibration",
+      "field": "description",
+      "selectedId": "d3",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "correct": false,
+      "latencyMs": 0.31990000000000407,
+      "multiCandidate": true
+    },
+    {
+      "id": "frieren-title",
+      "split": "calibration",
+      "field": "title",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.05819999999999936,
+      "multiCandidate": true
+    },
+    {
+      "id": "frieren-image",
+      "split": "calibration",
+      "field": "image",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "latencyMs": 0.037500000000008527,
+      "multiCandidate": true
+    },
+    {
+      "id": "frieren-description",
+      "split": "calibration",
+      "field": "description",
+      "selectedId": "d3",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "correct": false,
+      "latencyMs": 0.05760000000000787,
+      "multiCandidate": true
+    },
+    {
+      "id": "sakura-title",
+      "split": "holdout",
+      "field": "title",
+      "selectedId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": true,
+      "latencyMs": 0.0438000000000045,
+      "multiCandidate": true
+    },
+    {
+      "id": "sakura-image",
+      "split": "holdout",
+      "field": "image",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "correct": true,
+      "latencyMs": 0.043099999999995475,
+      "multiCandidate": true
+    },
+    {
+      "id": "sakura-description",
+      "split": "holdout",
+      "field": "description",
+      "selectedId": "d1",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": true,
+      "latencyMs": 0.08110000000000639,
+      "multiCandidate": true
+    },
+    {
+      "id": "apothecary-title",
+      "split": "calibration",
+      "field": "title",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.05910000000000082,
+      "multiCandidate": true
+    },
+    {
+      "id": "apothecary-image",
+      "split": "calibration",
+      "field": "image",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "latencyMs": 0.03789999999999338,
+      "multiCandidate": true
+    },
+    {
+      "id": "apothecary-description",
+      "split": "calibration",
+      "field": "description",
+      "selectedId": "d3",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "latencyMs": 0.04019999999999868,
+      "multiCandidate": true
+    },
+    {
+      "id": "nia-title",
+      "split": "calibration",
+      "field": "title",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.03660000000000707,
+      "multiCandidate": true
+    },
+    {
+      "id": "nia-image",
+      "split": "calibration",
+      "field": "image",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "latencyMs": 0.03149999999999409,
+      "multiCandidate": true
+    },
+    {
+      "id": "nia-description",
+      "split": "calibration",
+      "field": "description",
+      "selectedId": "d3",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "correct": false,
+      "latencyMs": 0.15219999999999345,
+      "multiCandidate": true
+    },
+    {
+      "id": "rezero-title",
+      "split": "holdout",
+      "field": "title",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.07330000000000325,
+      "multiCandidate": true
+    },
+    {
+      "id": "rezero-image",
+      "split": "holdout",
+      "field": "image",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "latencyMs": 0.04250000000000398,
+      "multiCandidate": true
+    },
+    {
+      "id": "rezero-description",
+      "split": "holdout",
+      "field": "description",
+      "selectedId": "d3",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "correct": false,
+      "latencyMs": 0.04769999999999186,
+      "multiCandidate": true
+    },
+    {
+      "id": "dungeon-title",
+      "split": "holdout",
+      "field": "title",
+      "selectedId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": true,
+      "latencyMs": 0.058099999999996044,
+      "multiCandidate": true
+    },
+    {
+      "id": "dungeon-image",
+      "split": "holdout",
+      "field": "image",
+      "selectedId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "correct": true,
+      "latencyMs": 0.03930000000001144,
+      "multiCandidate": true
+    },
+    {
+      "id": "dungeon-description",
+      "split": "holdout",
+      "field": "description",
+      "selectedId": "d1",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d1",
+        "d2"
+      ],
+      "correct": true,
+      "latencyMs": 0.03100000000000591,
+      "multiCandidate": true
+    },
+    {
+      "id": "dinner-title",
+      "split": "holdout",
+      "field": "title",
+      "selectedId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": true,
+      "latencyMs": 0.09329999999999927,
+      "multiCandidate": true
+    },
+    {
+      "id": "dinner-image",
+      "split": "holdout",
+      "field": "image",
+      "selectedId": "i1",
+      "expectedId": "i3",
+      "acceptedIds": [
+        "i1",
+        "i3"
+      ],
+      "correct": true,
+      "latencyMs": 0.04819999999999425,
+      "multiCandidate": true
+    },
+    {
+      "id": "dinner-description",
+      "split": "holdout",
+      "field": "description",
+      "selectedId": "d1",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": true,
+      "latencyMs": 0.01269999999999527,
+      "multiCandidate": false
+    },
+    {
+      "id": "frieren-aniplus-title",
+      "split": "calibration",
+      "field": "title",
+      "selectedId": "t4",
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": true,
+      "latencyMs": 0.030300000000011096,
+      "multiCandidate": true
+    },
+    {
+      "id": "frieren-aniplus-image",
+      "split": "calibration",
+      "field": "image",
+      "selectedId": "i1",
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "latencyMs": 0.01290000000000191,
+      "multiCandidate": false
+    },
+    {
+      "id": "frieren-aniplus-description",
+      "split": "calibration",
+      "field": "description",
+      "selectedId": "d4",
+      "expectedId": "d3",
+      "acceptedIds": [
+        "d2",
+        "d3"
+      ],
+      "correct": false,
+      "latencyMs": 0.17310000000000514,
+      "multiCandidate": true
+    },
+    {
+      "id": "witch-tving-title",
+      "split": "calibration",
+      "field": "title",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.07349999999999568,
+      "multiCandidate": true
+    },
+    {
+      "id": "witch-tving-image",
+      "split": "calibration",
+      "field": "image",
+      "selectedId": "i1",
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": true,
+      "latencyMs": 0.035899999999998045,
+      "multiCandidate": true
+    },
+    {
+      "id": "witch-tving-description",
+      "split": "calibration",
+      "field": "description",
+      "selectedId": "d1",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": true,
+      "latencyMs": 0.046700000000001296,
+      "multiCandidate": true
+    },
+    {
+      "id": "frieren-tving-title",
+      "split": "calibration",
+      "field": "title",
+      "selectedId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "latencyMs": 0.03619999999999379,
+      "multiCandidate": true
+    },
+    {
+      "id": "frieren-tving-image",
+      "split": "calibration",
+      "field": "image",
+      "selectedId": "i1",
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": true,
+      "latencyMs": 0.04059999999999775,
+      "multiCandidate": true
+    },
+    {
+      "id": "frieren-tving-description",
+      "split": "calibration",
+      "field": "description",
+      "selectedId": "d1",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": true,
+      "latencyMs": 0.06900000000000261,
+      "multiCandidate": true
+    },
+    {
+      "id": "witch-wavve-title",
+      "split": "calibration",
+      "field": "title",
+      "selectedId": "t4",
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": true,
+      "latencyMs": 0.06740000000000634,
+      "multiCandidate": true
+    },
+    {
+      "id": "witch-wavve-image",
+      "split": "calibration",
+      "field": "image",
+      "selectedId": "i2",
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": true,
+      "latencyMs": 0.047300000000007,
+      "multiCandidate": true
+    },
+    {
+      "id": "witch-wavve-description",
+      "split": "calibration",
+      "field": "description",
+      "selectedId": "d4",
+      "expectedId": "d4",
+      "acceptedIds": [
+        "d3",
+        "d4"
+      ],
+      "correct": true,
+      "latencyMs": 0.09720000000000084,
+      "multiCandidate": true
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "split": "calibration",
+      "field": "title",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.011600000000001387,
+      "multiCandidate": true
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "split": "calibration",
+      "field": "image",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.004400000000003956,
+      "multiCandidate": true
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "split": "calibration",
+      "field": "description",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.0037999999999982492,
+      "multiCandidate": true
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "split": "holdout",
+      "field": "title",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.004400000000003956,
+      "multiCandidate": false
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "split": "holdout",
+      "field": "image",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.004400000000003956,
+      "multiCandidate": false
+    },
+    {
+      "id": "dungeon-watcha-search-description",
+      "split": "holdout",
+      "field": "description",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.0040000000000048885,
+      "multiCandidate": false
+    },
+    {
+      "id": "dungeon-coupang-search-title",
+      "split": "holdout",
+      "field": "title",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.16339999999999577,
+      "multiCandidate": false
+    },
+    {
+      "id": "dungeon-coupang-search-image",
+      "split": "holdout",
+      "field": "image",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.015899999999987813,
+      "multiCandidate": false
+    },
+    {
+      "id": "dungeon-coupang-search-description",
+      "split": "holdout",
+      "field": "description",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.004799999999988813,
+      "multiCandidate": false
+    },
+    {
+      "id": "witch-crunchyroll-title",
+      "split": "calibration",
+      "field": "title",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.005700000000004479,
+      "multiCandidate": true
+    },
+    {
+      "id": "witch-crunchyroll-image",
+      "split": "calibration",
+      "field": "image",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.0037000000000091404,
+      "multiCandidate": false
+    },
+    {
+      "id": "witch-crunchyroll-description",
+      "split": "calibration",
+      "field": "description",
+      "selectedId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "latencyMs": 0.00359999999999161,
+      "multiCandidate": false
+    }
+  ]
+}

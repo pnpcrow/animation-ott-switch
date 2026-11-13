@@ -1,0 +1,2888 @@
+[
+  {
+    "id": "witch-title",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch",
+      "work": "witch",
+      "url": "https://laftel.net/item/42783",
+      "capturedAt": "2026-11-13T09:55:39.024Z",
+      "htmlSha256": "4dd9b1fe4b2cd135a68dbd6e712905be7aee32449e87a842316532dd5372c2e5"
+    },
+    "field": "title",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/42783\nDocument title: 어느 마녀가 죽을 때까지 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t3",
+        "text": "value=\"어느 마녀가 죽을 때까지\"; div.ItemHeader__ContentBlock-sc-91fceee4-1 kPsUio>div.ItemHeader__ItemInfoBlock-sc-91fceee4-4 llVLce>header.ItemInfoHeader__Block-sc-c243078e-0 lwQTw>h1.ItemInfoHeader__Title-sc-c243078e-1 gNLRIA @text visible; prev=4.2완결 next=드라마·판타지TVA"
+      },
+      {
+        "id": "t5",
+        "text": "value=\"시광대리인 3기 Part 1 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t8",
+        "text": "value=\"수왕무신 댄디바인 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t2",
+        "text": "value=\"어느 마녀가 죽을 때까지 ㅣ 라프텔\"; html>head>meta @og:title head-metadata"
+      },
+      {
+        "id": "t7",
+        "text": "value=\"(자막) 드래곤볼 슈퍼: 비루스 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t6",
+        "text": "value=\"FX 전사 쿠루미 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t4",
+        "text": "value=\"호랑이 들어와요 2 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t1",
+        "text": "value=\"어느 마녀가 죽을 때까지 라프텔 - 애니 추천 애니 스트리밍 서비스\"; html>head>title @text head-metadata"
+      }
+    ],
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-image",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch",
+      "work": "witch",
+      "url": "https://laftel.net/item/42783",
+      "capturedAt": "2026-11-13T09:55:39.024Z",
+      "htmlSha256": "4dd9b1fe4b2cd135a68dbd6e712905be7aee32449e87a842316532dd5372c2e5"
+    },
+    "field": "image",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/42783\nDocument title: 어느 마녀가 죽을 때까지 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "i6",
+        "text": "value=\"thumbnail.laftel.net/carousel/bac938bb-41b0-4a16-9a6f-b983307d8637.png\"; div>div.base-layout__Block-sc-56fd8889-0 kJLmsm>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=스스로 불러온 재앙에 짓눌려"
+      },
+      {
+        "id": "i4",
+        "text": "value=\"thumbnail.laftel.net/carousel/8b450407-d46c-4990-93c0-0ae5d8dc21d1.png\"; div>div.base-layout__Block-sc-56fd8889-0 mYcvM>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=몰아보기 시청하고 굿즈 받자!"
+      },
+      {
+        "id": "i1",
+        "text": "value=\"thumbnail.laftel.net/items/home/041ea335-93af-488a-a9e6-bb102dc7a52c.jpg\"; html>head>meta @og:image head-metadata"
+      },
+      {
+        "id": "i3",
+        "text": "value=\"thumbnail.laftel.net/carousel/086332b1-0a5c-4d9a-97b5-ace5b4388e4a.png\"; div>div.base-layout__Block-sc-56fd8889-0 cmyybI>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=명품 더빙으로 만나는 슈가슈가룬!"
+      },
+      {
+        "id": "i5",
+        "text": "value=\"thumbnail.laftel.net/carousel/d386e4c4-4173-457a-b4e0-a66bec09292f.png\"; div>div.base-layout__Block-sc-56fd8889-0 iLeldM>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=귀여운 아기 신령들이 돌아온다!"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "i8",
+        "text": "value=\"thumbnail.laftel.net/carousel/1f999d47-25c8-43db-b110-1ad7acebebe7.png\"; div>div.base-layout__Block-sc-56fd8889-0 kpSozu>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=다시 시작된 합체 로봇의 전설"
+      },
+      {
+        "id": "i2",
+        "text": "value=\"thumbnail.laftel.net/carousel/6dbf036a-38a0-4899-b56d-bd604d062912.png\"; div>div.base-layout__Block-sc-56fd8889-0 defqkd>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src visible; next=복습하고 극장판 보러 가자!"
+      },
+      {
+        "id": "i7",
+        "text": "value=\"thumbnail.laftel.net/carousel/eb0854cb-5fee-4815-8044-ad99e9824ab4.png\"; div>div.base-layout__Block-sc-56fd8889-0 giubtG>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=애니에서 듣던 명곡을 라이브로 만나자!"
+      }
+    ],
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-description",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch",
+      "work": "witch",
+      "url": "https://laftel.net/item/42783",
+      "capturedAt": "2026-11-13T09:55:39.024Z",
+      "htmlSha256": "4dd9b1fe4b2cd135a68dbd6e712905be7aee32449e87a842316532dd5372c2e5"
+    },
+    "field": "description",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/42783\nDocument title: 어느 마녀가 죽을 때까지 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "d4",
+        "text": "value=\"메구의 친구이자 학생인 피네가 마녀의 집에 상담을 하러 방문했다. 그녀의 소원은, 할아버지의 유품인 낡은 손목시계를 고치는 것. 움직이지 않게 된 손목시계는, 시계에 깃든 정령이 약해져 있는 것으로 보였는데.\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=2화 견습 마녀와 라피스의 사람들23분 · 2025.06."
+      },
+      {
+        "id": "d7",
+        "text": "value=\"메구와 소피는 이계 축제 현장에서 마리와 만났다. 그녀는 작년 축제에서 함께 불꽃놀이를 본 남성을 찾고 있었다. 올해에는 불꽃놀이를 하지 않는다는 걸 알고, 재회를 포기하는 그녀를 보고 메구는 함께 그 남성을 찾기로 결정했는데.\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=5화 제전의 밤하늘에 꽃은 핀다23분 · 2025.06.2"
+      },
+      {
+        "id": "d5",
+        "text": "value=\"파우스트가 집을 비우고, 집을 지키게 된 메구한테 동양에서 온 칠현인 중 하나인 '영지의 마녀' 이노리가 찾아왔다. 이노리는 메구와 대화를 하는 가운데, 그녀의 수명이 얼마 남지 않았다는 걸 꿰뚫어 보았는데.\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=3화 동쪽으로부터, 영지의 내방23분 · 2025.06.2"
+      },
+      {
+        "id": "d6",
+        "text": "value=\"메구와 동갑이면서 칠현인인 '축복의 마녀' 소피가 이계 축제를 위해 라피스에 방문했다. 소피는 아름다운 마법 퍼포먼스로 사람들을 기쁘게 해주었지만, 그녀의 목적은 '마법을 이 세상에서 없애는 것'이었는데.\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=4화 축복은 개문과 함께23분 · 2025.06.20"
+      },
+      {
+        "id": "d8",
+        "text": "value=\"기쁨의 눈물을 모으는 요령을 깨우치고, 효율 좋게 50알까지 눈물을 모으고 의기양양하게 웃는 메구. 눈물을 모으는 것에 열중한 나머지 중요한 감정을 놓치고 있는 메구를 보고, 파우스트는 그녀에게 마법을 쓰는 걸 금지한다고 말했는데.\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=6화 마법이 없는 해 질 녘 하늘은23분 · 2025.06"
+      },
+      {
+        "id": "d1",
+        "text": "value=\"어느 마녀가 죽을 때까지을(를) 라프텔에서 합법적으로 감상하세요. 세상의 모든 애니메이션을 고화질로 무제한 스트리밍하세요. 추억의 애니부터 분기별 신작까지 무제한 스트리밍 가능한 곳은 오직 라프텔. 뭘 볼 지 모를 땐, 덕후가 직접 엄선한 애\"; html>head>meta @description head-metadata; prev=어느 마녀가 죽을 때까지 라프텔 - 애니 추천 애니 스트리"
+      },
+      {
+        "id": "d3",
+        "text": "value=\"라피스 마을에서 사는 견습 마녀 메구 라즈베리는 17살이 되는 생일에, 스승인 '영년의 마녀' 파우스트로부터 여명 1년의 저주에 걸렸다는 선고를 받았다. 살 수 있는 방법은 불가능에 가까워서 부루퉁해져 있는 가운데, 어떤 소녀로부터 엄마가 잠\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=1화 여명 1년의 마녀23분 · 2025.06.13"
+      },
+      {
+        "id": "d2",
+        "text": "value=\"'너, 1년 뒤에 죽는다' 17세가 되는 생일을 맞이한 견습 마녀 메구 라즈베리는, 마법 스승이자 마법계 톱인 칠현인에 이름을 올린 '영년의 마녀' 파우스트로부터 갑작스럽게 여명 1년이라는 말을 듣게 되었다. 메구는 '죽음의 선고'라는 저주에\"; html>head>meta @og:description head-metadata"
+      }
+    ],
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-title",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren",
+      "work": "frieren",
+      "url": "https://laftel.net/item/41666",
+      "capturedAt": "2026-11-13T09:55:43.385Z",
+      "htmlSha256": "352332a321abbda3f38392a3e7db678a481177af2af15a67cb8e89cc06fa8647"
+    },
+    "field": "title",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/41666\nDocument title: (자막) 장송의 프리렌 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t8",
+        "text": "value=\"수왕무신 댄디바인 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t4",
+        "text": "value=\"호랑이 들어와요 2 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t7",
+        "text": "value=\"(자막) 드래곤볼 슈퍼: 비루스 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t2",
+        "text": "value=\"(자막) 장송의 프리렌 ㅣ 라프텔\"; html>head>meta @og:title head-metadata"
+      },
+      {
+        "id": "t5",
+        "text": "value=\"시광대리인 3기 Part 1 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t3",
+        "text": "value=\"(자막) 장송의 프리렌\"; div.ItemHeader__ContentBlock-sc-91fceee4-1 kPsUio>div.ItemHeader__ItemInfoBlock-sc-91fceee4-4 llVLce>header.ItemInfoHeader__Block-sc-c243078e-0 lwQTw>h1.ItemInfoHeader__Title-sc-c243078e-1 gNLRIA @text visible; prev=4.9완결 next=치유·드라마TVA"
+      },
+      {
+        "id": "t1",
+        "text": "value=\"(자막) 장송의 프리렌 라프텔 - 애니 추천 애니 스트리밍 서비스\"; html>head>title @text head-metadata"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t6",
+        "text": "value=\"FX 전사 쿠루미 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      }
+    ],
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-image",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren",
+      "work": "frieren",
+      "url": "https://laftel.net/item/41666",
+      "capturedAt": "2026-11-13T09:55:43.385Z",
+      "htmlSha256": "352332a321abbda3f38392a3e7db678a481177af2af15a67cb8e89cc06fa8647"
+    },
+    "field": "image",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/41666\nDocument title: (자막) 장송의 프리렌 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "i1",
+        "text": "value=\"thumbnail.laftel.net/items/home/4c17a007-ef14-46a2-b54a-e42d563154a1.jpg\"; html>head>meta @og:image head-metadata"
+      },
+      {
+        "id": "i6",
+        "text": "value=\"thumbnail.laftel.net/carousel/8b450407-d46c-4990-93c0-0ae5d8dc21d1.png\"; div>div.base-layout__Block-sc-56fd8889-0 mYcvM>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=몰아보기 시청하고 굿즈 받자!"
+      },
+      {
+        "id": "i5",
+        "text": "value=\"thumbnail.laftel.net/carousel/1f999d47-25c8-43db-b110-1ad7acebebe7.png\"; div>div.base-layout__Block-sc-56fd8889-0 kpSozu>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=다시 시작된 합체 로봇의 전설"
+      },
+      {
+        "id": "i4",
+        "text": "value=\"thumbnail.laftel.net/carousel/7e6f3672-1262-4390-b73a-e1d0bc4b2c37.png\"; div>div.base-layout__Block-sc-56fd8889-0 bceKds>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=누군가를 따라잡고 싶었던 적 있다면"
+      },
+      {
+        "id": "i7",
+        "text": "value=\"thumbnail.laftel.net/carousel/6dbf036a-38a0-4899-b56d-bd604d062912.png\"; div>div.base-layout__Block-sc-56fd8889-0 defqkd>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=복습하고 극장판 보러 가자!"
+      },
+      {
+        "id": "i8",
+        "text": "value=\"thumbnail.laftel.net/carousel/d386e4c4-4173-457a-b4e0-a66bec09292f.png\"; div>div.base-layout__Block-sc-56fd8889-0 iLeldM>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=귀여운 아기 신령들이 돌아온다!"
+      },
+      {
+        "id": "i2",
+        "text": "value=\"thumbnail.laftel.net/carousel/bac938bb-41b0-4a16-9a6f-b983307d8637.png\"; div>div.base-layout__Block-sc-56fd8889-0 kJLmsm>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src visible; next=스스로 불러온 재앙에 짓눌려"
+      },
+      {
+        "id": "i3",
+        "text": "value=\"thumbnail.laftel.net/carousel/086332b1-0a5c-4d9a-97b5-ace5b4388e4a.png\"; div>div.base-layout__Block-sc-56fd8889-0 cmyybI>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=명품 더빙으로 만나는 슈가슈가룬!"
+      }
+    ],
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-description",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren",
+      "work": "frieren",
+      "url": "https://laftel.net/item/41666",
+      "capturedAt": "2026-11-13T09:55:43.385Z",
+      "htmlSha256": "352332a321abbda3f38392a3e7db678a481177af2af15a67cb8e89cc06fa8647"
+    },
+    "field": "description",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/41666\nDocument title: (자막) 장송의 프리렌 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d6",
+        "text": "value=\"프리렌과 페른은 아이젠을 찾아간다. 옛정을 다지던 중 '대마법사 플람메의 수기'를 찾는 일을 도와 달라고 부탁하는 아이젠. 세 사람은 하이터가 생전에 알아낸 수기가 잠들어 있는 장소가 있는 숲속 깊은 곳으로 향한다. 플람메의 수기라고 불리는 \"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=4화 혼이 잠드는 땅26분 · 2023.09.30"
+      },
+      {
+        "id": "d3",
+        "text": "value=\"마왕을 물리치고 왕도로 개선한 용사 힘멜 일행. 각자가 모험을 했던 10년을 되돌아보며 앞으로의 인생에 대해 생각하는 가운데, 엘프인 프리렌은 감개에 젖지도 않고 다시 마법 탐구를 위한 여행을 떠난다. 50년 후 동료들과의 약속을 지키기 위해\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=1화 모험의 끝26분 · 2023.09.30"
+      },
+      {
+        "id": "d5",
+        "text": "value=\"교역 도시 바름을 방문한 프리렌과 페른. 장 보기를 분담하자고 말하는 프리렌을 수상하게 여긴 페른은 프리렌의 뒤를 미행한다. 과연 프리렌의 목적은... 그 후 두 사람은 어떤 마을을 찾아간다. 그곳에는 예전에 프리렌과 힘멜이 싸웠던 마족 크발\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=3화 사람을 죽이는 마법24분 · 2023.09.30"
+      },
+      {
+        "id": "d1",
+        "text": "value=\"(자막) 장송의 프리렌을(를) 라프텔에서 합법적으로 감상하세요. 세상의 모든 애니메이션을 고화질로 무제한 스트리밍하세요. 추억의 애니부터 분기별 신작까지 무제한 스트리밍 가능한 곳은 오직 라프텔. 뭘 볼 지 모를 땐, 덕후가 직접 엄선한 애니\"; html>head>meta @description head-metadata; prev=(자막) 장송의 프리렌 라프텔 - 애니 추천 애니 스트리밍"
+      },
+      {
+        "id": "d2",
+        "text": "value=\"용사 힘멜 일행과 함께 10년에 걸친 모험 끝에 마왕을 물리치고 세계에 평화를 가져온 마법사 프리렌. 천 년을 넘게 사는 엘프인 그녀는 힘멜 일행과 재회를 약속하고 혼자 여행을 떠난다. 그로부터 50년 후 프리렌은 힘멜을 찾아갔지만 50년 전\"; html>head>meta @og:description head-metadata"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "d7",
+        "text": "value=\"플람메가 남긴 수기에 적혀 있던 '혼이 잠드는 땅<오레올>'을 찾아가기로 결정한 프리렌과 페른은 아이젠과 헤어져 다시 여행을 떠난다. 지금은 마왕성이 있는 그 장소에서 힘멜과 다시 대화할 수 있을 것인가... 어떤 마을을 방문한 프리렌과 페른\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=5화 죽은 자의 환영24분 · 2023.10.07"
+      },
+      {
+        "id": "d4",
+        "text": "value=\"숲속 깊은 곳에 살고 있는 하이터를 찾아간 프리렌은 그와 함께 살고 있는 고아 페른과 만난다. 하이터로부터 그녀에게 마법을 가르쳐 줄 것을 부탁받은 프리렌. 그리고 어떤 사건을 계기로 페른과 함께 여행을 하게 된다. 여행을 하다 힘멜의 동상이\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=2화 딱히 마법이 아니어도…26분 · 2023.09.30"
+      },
+      {
+        "id": "d8",
+        "text": "value=\"리겔 협곡 근처 마을에서 지내고 있는 슈타르크는 홍경룡으로부터 마을을 지킨 것 때문에 영웅으로서 칭송받고 있지만 사실은 엄청난 겁쟁이였다. 하지만 슈타르크의 실력을 알아본 프리렌은 함께 홍경룡을 쓰러뜨리자고 말한다. 거대한 바위를 가를 정도의\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=6화 마을의 영웅24분 · 2023.10.14"
+      }
+    ],
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "sakura-title",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "sakura",
+      "work": "sakura",
+      "url": "https://tv.apple.com/kr/show/카드캡터-체리/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d",
+      "capturedAt": "2026-11-13T09:55:47.700Z",
+      "htmlSha256": "dc6ec1e86186fa8301f4e7d58acda1fd6acf76f8c70529bc35daa55a4b6d8b2c"
+    },
+    "field": "title",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://tv.apple.com/kr/show/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d\nDocument title: ‎카드캡터 체리 - Apple TV\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t2",
+        "text": "value=\"카드캡터 체리\"; article.lockup svelte-jyivf0>header.svelte-jyivf0>div.content-logo svelte-jyivf0>h1.visually-hidden svelte-jyivf0 @text visible"
+      },
+      {
+        "id": "t6",
+        "text": "value=\"콘텐츠 설명\"; div.section svelte-1snhg02 full-width secondary>div.section-content>div.about-product-footer svelte-1iomcve>h2.heading svelte-1iomcve @text visible; next=카드캡터 체리 일본 애니메이션 초등학교 4학년인 체리는 체"
+      },
+      {
+        "id": "t8",
+        "text": "value=\"정보\"; div.section-content>div.information-footer svelte-5tjack>section.information-group svelte-ruv4fw>h3.heading svelte-ruv4fw @text visible; next=스튜디오Kodansha Ltd.공개일2018년등급ALL제작"
+      },
+      {
+        "id": "t7",
+        "text": "value=\"일본 애니메이션\"; dialog.svelte-1p01z7>div.content-modal-container svelte-1ih6d3u hide-grad>div.header-container svelte-1ih6d3u>h2.subtitle svelte-1ih6d3u @text hidden; prev=카드캡터 체리"
+      },
+      {
+        "id": "t3",
+        "text": "value=\"시즌 1 시즌 2 시즌 1\"; div.section-content>div.header svelte-wpob41>div.header-title-wrapper svelte-wpob41>h2.title svelte-wpob41 @text visible"
+      },
+      {
+        "id": "t4",
+        "text": "value=\"관련 콘텐츠\"; div.rich-lockup-shelf-header svelte-1l4rc8w>div.header svelte-wpob41>div.header-title-wrapper svelte-wpob41>h2.title svelte-wpob41 title-link @text visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t5",
+        "text": "value=\"출연진 및 제작진\"; div.rich-lockup-shelf-header svelte-1l4rc8w>div.header svelte-wpob41>div.header-title-wrapper svelte-wpob41>h2.title svelte-wpob41 title-link @text visible"
+      },
+      {
+        "id": "t1",
+        "text": "value=\"‎카드캡터 체리 - Apple TV\"; html>head>title @text head-metadata"
+      }
+    ],
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "sakura-image",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "sakura",
+      "work": "sakura",
+      "url": "https://tv.apple.com/kr/show/카드캡터-체리/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d",
+      "capturedAt": "2026-11-13T09:55:47.700Z",
+      "htmlSha256": "dc6ec1e86186fa8301f4e7d58acda1fd6acf76f8c70529bc35daa55a4b6d8b2c"
+    },
+    "field": "image",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://tv.apple.com/kr/show/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d\nDocument title: ‎카드캡터 체리 - Apple TV\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "i7",
+        "text": "value=\"is1-ssl.mzstatic.com/image/thumb/prcxU0UtG4upT4GCI0TmQw/340x261KF.TVALC02.w…upT4GCI0TmQw/340x261KF.TVALC0\"; div.artwork svelte-n3nezg>div.artwork-component artwork-component--aspect-rati>picture.svelte-1fla0gl>img[role=presentation].artwork-component__contents artwork-component__i @src visible"
+      },
+      {
+        "id": "i8",
+        "text": "value=\"is1-ssl.mzstatic.com/image/thumb/Arjh_8_YHft_VW3ccA7ugw/340x261KF.TVALC02.w…t_VW3ccA7ugw/340x261KF.TVALC0\"; div.artwork svelte-n3nezg>div.artwork-component artwork-component--aspect-rati>picture.svelte-1fla0gl>img[role=presentation].artwork-component__contents artwork-component__i @src visible"
+      },
+      {
+        "id": "i3",
+        "text": "value=\"is1-ssl.mzstatic.com/image/thumb/GU6c8C2D2FB_AcxNjpWBlg/432x162.png\"; div.content-logo svelte-jyivf0>div>picture.picture svelte-4qfefc>img.svelte-4qfefc @src visible"
+      },
+      {
+        "id": "i1",
+        "text": "value=\"is1-ssl.mzstatic.com/image/thumb/W4o3eiYJEM7EJmAwP5W4Aw/1200x675sr.webp\"; div.LCP-artwork-desktop svelte-1psbnd5>div.artwork-component artwork-component--aspect-rati>picture.svelte-1fla0gl>img[role=presentation].artwork-component__contents artwork-component__i @src visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "i5",
+        "text": "value=\"is1-ssl.mzstatic.com/image/thumb/rxiex98S1S-dIJAhue_lTg/340x261KF.TVALC02.w…-dIJAhue_lTg/340x261KF.TVALC0\"; div.artwork svelte-n3nezg>div.artwork-component artwork-component--aspect-rati>picture.svelte-1fla0gl>img[role=presentation].artwork-component__contents artwork-component__i @src visible"
+      },
+      {
+        "id": "i6",
+        "text": "value=\"is1-ssl.mzstatic.com/image/thumb/1quBuJMoN3lgDt2zLv6e6w/340x261KF.TVALC02.w…lgDt2zLv6e6w/340x261KF.TVALC0\"; div.artwork svelte-n3nezg>div.artwork-component artwork-component--aspect-rati>picture.svelte-1fla0gl>img[role=presentation].artwork-component__contents artwork-component__i @src visible"
+      },
+      {
+        "id": "i2",
+        "text": "value=\"is1-ssl.mzstatic.com/image/thumb/Io_PCQl7UAfp6UleOXn8Bg/1200x2133nr.webp\"; div.LCP-artwork-mobile svelte-1psbnd5>div.artwork-component artwork-component--aspect-rati>picture.svelte-1fla0gl>img[role=presentation].artwork-component__contents artwork-component__i @src hidden"
+      },
+      {
+        "id": "i4",
+        "text": "value=\"is1-ssl.mzstatic.com/image/thumb/mkUOKzqX_44471CMwAmHKg/486x486SWL.TVARHBL1…471CMwAmHKg/486x486SWL.TVARHB\"; div.metadata svelte-jyivf0>div[role=img][label=WATCHA].content-provider-coin svelte-mtdipc>picture.picture svelte-4qfefc>img.svelte-4qfefc @src visible"
+      }
+    ],
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "sakura-description",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "sakura",
+      "work": "sakura",
+      "url": "https://tv.apple.com/kr/show/카드캡터-체리/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d",
+      "capturedAt": "2026-11-13T09:55:47.700Z",
+      "htmlSha256": "dc6ec1e86186fa8301f4e7d58acda1fd6acf76f8c70529bc35daa55a4b6d8b2c"
+    },
+    "field": "description",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://tv.apple.com/kr/show/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d\nDocument title: ‎카드캡터 체리 - Apple TV\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "d3",
+        "text": "value=\"새로운 학기, 화제의 중심은 특별활동에 관한 이야기다. 체리는 초등학교 때 했던 대로 치어리딩부에 들어가려고 하고, 지수 역시 계속 합창부에서 활동하기로 한다. 그러던 어느 날 체리는 지수와 함께 다빈이에게 받은 레시피로 케이크 만들기에 도전\"; div.grid svelte-n3nezg>div.metadata svelte-18ndiwl>div.content svelte-18ndiwl>div.description svelte-18ndiwl @text visible; prev=체리와 출구 없는 방"
+      },
+      {
+        "id": "d7",
+        "text": "value=\"체리는 루베리와 함께 저녁 장을 보면서 점점 더 가까워진다.다음 날 학교에서 루베리의 특별활동 부서를 얘기하던 중 지수는 합창부로 오길 권유한다. 음악실에서 샤오랑의 피아노 반주에 맞춰 지수와 듀엣으로 노래는 부르는 루베리. 둘의 아름다운 노\"; div.grid svelte-n3nezg>div.metadata svelte-18ndiwl>div.content svelte-18ndiwl>div.description svelte-18ndiwl @text hidden; prev=체리와 토끼와 달의 노래"
+      },
+      {
+        "id": "d1",
+        "text": "value=\"초등학교 4학년인 체리는 체육을 좋아하는 명랑하고 평범한 소녀... 어느 날 밤 이상한 꿈을 꾸고 난 체리는 아빠의 서재에서 꿈에서 본 책을 발견한다. 책 속에서 발견한 카드를 읽는 순간, 신비한 빛이 쏟아지면서 봉인된 카드의 파수꾼인 \\\"케로\"; span.svelte-jyivf0>div>div.truncate-wrapper svelte-1mbzmwz pill>p.content svelte-1mbzmwz title-3 with-more-button @text visible; next=더 보기"
+      },
+      {
+        "id": "d5",
+        "text": "value=\"체리와 멋진 전학생체리네 반에 새로운 전학생이 온다. 체리와 비슷한 이름을 가진, 외국 여러 나라에서 살다 왔다는 루베리. 친구 사이에도 높임말을 쓰는 엉뚱하면서도 귀여운 아이다. 체리와 루베리는 첫날부터 서로 호감을 느끼고 친구가 되기로 한\"; div.grid svelte-n3nezg>div.metadata svelte-18ndiwl>div.content svelte-18ndiwl>div.description svelte-18ndiwl @text visible; prev=체리와 멋진 전학생"
+      },
+      {
+        "id": "d2",
+        "text": "value=\"벚꽃이 만개한 신학기를 맞아 우수 중학교 1학년생이 된 체리. 홍콩에서 돌아온 샤오랑과 다시 만나 새로운 학교생활을 시작한다. 그러던 어느 날, 체리는 후드망토를 쓴 사람이 나오는 이상한 꿈을 꾸게 되고, 잠에서 깨니 기존의 체리카드가 전부 \"; div.grid svelte-n3nezg>div.metadata svelte-18ndiwl>div.content svelte-18ndiwl>div.description svelte-18ndiwl @text visible; prev=체리와 투명한 카드"
+      },
+      {
+        "id": "d4",
+        "text": "value=\"아침부터 종일 비가 내리는 하루. 체리는 점점 심해지는 빗줄기 때문에 점심 도시락도 밖에서 못 먹고 치어리딩부 첫 연습도 못하게 돼서 아쉬워한다. 방과 후 지수와 함께 집으로 돌아가다 비의 이상함을 느끼고 이번에도 카드로 인한 일인 줄 깨닫게\"; div.grid svelte-n3nezg>div.metadata svelte-18ndiwl>div.content svelte-18ndiwl>div.description svelte-18ndiwl @text visible; prev=체리와 호우주의보"
+      },
+      {
+        "id": "d6",
+        "text": "value=\"친구들과 함께 꽃놀이를 가기로 한 체리는 민지가 못 온다는 말에 서운해한다. 화창한 일요일 직접 만든 맛있는 도시락을 들고 모인 친구들. 다같이 둘러앉아 나눠먹으며 즐거운 시간을 보내고 있을 때 갑자기 이상한 힘이 체리를 끌어당긴다. 뒷걸음치\"; div.grid svelte-n3nezg>div.metadata svelte-18ndiwl>div.content svelte-18ndiwl>div.description svelte-18ndiwl @text visible; prev=체리와 힘겨운 꽃놀이"
+      },
+      {
+        "id": "d8",
+        "text": "value=\"Copyright © 2026 Apple Inc. 모든 권리 보유.\"; div.scrollable-page svelte-4odvlq>footer.svelte-15fwn9j>div.footer-contents svelte-15fwn9j>p.svelte-15fwn9j @text visible navigation; next=인터넷 서비스 약관 Apple TV 및 개인정보 쿠키 정책"
+      }
+    ],
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "apothecary-title",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "apothecary",
+      "work": "apothecary",
+      "url": "https://laftel.net/item/41714",
+      "capturedAt": "2026-11-13T09:55:51.859Z",
+      "htmlSha256": "e97b428ec1bede38c7175fff2a10507c6940ec5d0d720405341d7295c1387126"
+    },
+    "field": "title",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/41714\nDocument title: 약사의 혼잣말 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t7",
+        "text": "value=\"(자막) 드래곤볼 슈퍼: 비루스 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t5",
+        "text": "value=\"시광대리인 3기 Part 1 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t2",
+        "text": "value=\"약사의 혼잣말 ㅣ 라프텔\"; html>head>meta @og:title head-metadata"
+      },
+      {
+        "id": "t4",
+        "text": "value=\"호랑이 들어와요 2 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t8",
+        "text": "value=\"수왕무신 댄디바인 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t1",
+        "text": "value=\"약사의 혼잣말 라프텔 - 애니 추천 애니 스트리밍 서비스\"; html>head>title @text head-metadata"
+      },
+      {
+        "id": "t6",
+        "text": "value=\"FX 전사 쿠루미 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t3",
+        "text": "value=\"약사의 혼잣말\"; div.ItemHeader__ContentBlock-sc-91fceee4-1 kPsUio>div.ItemHeader__ItemInfoBlock-sc-91fceee4-4 llVLce>header.ItemInfoHeader__Block-sc-c243078e-0 lwQTw>h1.ItemInfoHeader__Title-sc-c243078e-1 gNLRIA @text visible; prev=4.7방영중 next=시대물·추리TVA"
+      }
+    ],
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "apothecary-image",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "apothecary",
+      "work": "apothecary",
+      "url": "https://laftel.net/item/41714",
+      "capturedAt": "2026-11-13T09:55:51.859Z",
+      "htmlSha256": "e97b428ec1bede38c7175fff2a10507c6940ec5d0d720405341d7295c1387126"
+    },
+    "field": "image",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/41714\nDocument title: 약사의 혼잣말 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "i1",
+        "text": "value=\"thumbnail.laftel.net/items/full/d10d1dee-784c-4a15-916a-565ab561c511.jpg\"; html>head>meta @og:image head-metadata"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "i7",
+        "text": "value=\"thumbnail.laftel.net/carousel/086332b1-0a5c-4d9a-97b5-ace5b4388e4a.png\"; div>div.base-layout__Block-sc-56fd8889-0 cmyybI>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=명품 더빙으로 만나는 슈가슈가룬!"
+      },
+      {
+        "id": "i6",
+        "text": "value=\"thumbnail.laftel.net/carousel/1f999d47-25c8-43db-b110-1ad7acebebe7.png\"; div>div.base-layout__Block-sc-56fd8889-0 kpSozu>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=다시 시작된 합체 로봇의 전설"
+      },
+      {
+        "id": "i2",
+        "text": "value=\"thumbnail.laftel.net/carousel/7e6f3672-1262-4390-b73a-e1d0bc4b2c37.png\"; div>div.base-layout__Block-sc-56fd8889-0 bceKds>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src visible; next=누군가를 따라잡고 싶었던 적 있다면"
+      },
+      {
+        "id": "i3",
+        "text": "value=\"thumbnail.laftel.net/carousel/8b450407-d46c-4990-93c0-0ae5d8dc21d1.png\"; div>div.base-layout__Block-sc-56fd8889-0 mYcvM>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=몰아보기 시청하고 굿즈 받자!"
+      },
+      {
+        "id": "i5",
+        "text": "value=\"thumbnail.laftel.net/carousel/bac938bb-41b0-4a16-9a6f-b983307d8637.png\"; div>div.base-layout__Block-sc-56fd8889-0 kJLmsm>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=스스로 불러온 재앙에 짓눌려"
+      },
+      {
+        "id": "i8",
+        "text": "value=\"thumbnail.laftel.net/carousel/6dbf036a-38a0-4899-b56d-bd604d062912.png\"; div>div.base-layout__Block-sc-56fd8889-0 defqkd>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=복습하고 극장판 보러 가자!"
+      },
+      {
+        "id": "i4",
+        "text": "value=\"thumbnail.laftel.net/carousel/eb0854cb-5fee-4815-8044-ad99e9824ab4.png\"; div>div.base-layout__Block-sc-56fd8889-0 giubtG>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=애니에서 듣던 명곡을 라이브로 만나자!"
+      }
+    ],
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "apothecary-description",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "apothecary",
+      "work": "apothecary",
+      "url": "https://laftel.net/item/41714",
+      "capturedAt": "2026-11-13T09:55:51.859Z",
+      "htmlSha256": "e97b428ec1bede38c7175fff2a10507c6940ec5d0d720405341d7295c1387126"
+    },
+    "field": "description",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/41714\nDocument title: 약사의 혼잣말 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d2",
+        "text": "value=\"{줄거리}\"; html>head>meta @og:description head-metadata"
+      },
+      {
+        "id": "d4",
+        "text": "value=\"이 작품은 아직 준비되지 않았어요. 아래 버튼을 눌러 작품을 요청하실 수 있습니다.\"; ul.Episodes__Block-sc-7fcfc95d-0 hLUITu>div.EmptyEpisodes__Block-sc-df570788-0 jiHJN>div.EmptyEpisodes__EmojiBox-sc-df570788-1 dJlZiA>div.EmptyEpisodes__Description-sc-df570788-2 fOzkwf @text visible"
+      },
+      {
+        "id": "d1",
+        "text": "value=\"약사의 혼잣말을(를) 라프텔에서 합법적으로 감상하세요. 세상의 모든 애니메이션을 고화질로 무제한 스트리밍하세요. 추억의 애니부터 분기별 신작까지 무제한 스트리밍 가능한 곳은 오직 라프텔. 뭘 볼 지 모를 땐, 덕후가 직접 엄선한 애니 명작들을\"; html>head>meta @description head-metadata; prev=약사의 혼잣말 라프텔 - 애니 추천 애니 스트리밍 서비스"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "d3",
+        "text": "value=\"(스튜딘 버전) 극장판 Fate/stay night : Unlimited Blade Works\"; a>div.BaseItemCard__Container-sc-c11ee635-0 jGfYTG>div.ItemCardPlainTitle__Container-sc-8a03aa25-0 cESp>p.ItemCardPlainTitle__Title-sc-8a03aa25-1 hmumXd @text visible"
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "nia-title",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "nia",
+      "work": "nia",
+      "url": "https://laftel.net/item/47452",
+      "capturedAt": "2026-11-13T09:55:56.168Z",
+      "htmlSha256": "8be5c527c98e628f59680cf9420a32b61eff1a829f4d779f89442e258ef53ea2"
+    },
+    "field": "title",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/47452\nDocument title: 흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t6",
+        "text": "value=\"FX 전사 쿠루미 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t4",
+        "text": "value=\"호랑이 들어와요 2 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t7",
+        "text": "value=\"(자막) 드래곤볼 슈퍼: 비루스 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t1",
+        "text": "value=\"흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담 라프텔 - 애니 추천 애니 스트리밍 서비스\"; html>head>title @text head-metadata"
+      },
+      {
+        "id": "t3",
+        "text": "value=\"흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담\"; div.ItemHeader__ContentBlock-sc-91fceee4-1 kPsUio>div.ItemHeader__ItemInfoBlock-sc-91fceee4-4 llVLce>header.ItemInfoHeader__Block-sc-c243078e-0 lwQTw>h1.ItemInfoHeader__Title-sc-c243078e-1 gNLRIA @text visible; prev=4.5선독점매주 화요일 next=액션·판타지TVA"
+      },
+      {
+        "id": "t2",
+        "text": "value=\"흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담 ㅣ 라프텔\"; html>head>meta @og:title head-metadata"
+      },
+      {
+        "id": "t8",
+        "text": "value=\"수왕무신 댄디바인 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t5",
+        "text": "value=\"시광대리인 3기 Part 1 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      }
+    ],
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "nia-image",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "nia",
+      "work": "nia",
+      "url": "https://laftel.net/item/47452",
+      "capturedAt": "2026-11-13T09:55:56.168Z",
+      "htmlSha256": "8be5c527c98e628f59680cf9420a32b61eff1a829f4d779f89442e258ef53ea2"
+    },
+    "field": "image",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/47452\nDocument title: 흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "i5",
+        "text": "value=\"thumbnail.laftel.net/carousel/d386e4c4-4173-457a-b4e0-a66bec09292f.png\"; div>div.base-layout__Block-sc-56fd8889-0 iLeldM>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=귀여운 아기 신령들이 돌아온다!"
+      },
+      {
+        "id": "i1",
+        "text": "value=\"thumbnail.laftel.net/items/home/8e8a2d6f-d2a7-4650-a34a-858948cebb6a.jpg\"; html>head>meta @og:image head-metadata"
+      },
+      {
+        "id": "i6",
+        "text": "value=\"thumbnail.laftel.net/carousel/6dbf036a-38a0-4899-b56d-bd604d062912.png\"; div>div.base-layout__Block-sc-56fd8889-0 defqkd>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=복습하고 극장판 보러 가자!"
+      },
+      {
+        "id": "i8",
+        "text": "value=\"thumbnail.laftel.net/carousel/7e6f3672-1262-4390-b73a-e1d0bc4b2c37.png\"; div>div.base-layout__Block-sc-56fd8889-0 bceKds>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=누군가를 따라잡고 싶었던 적 있다면"
+      },
+      {
+        "id": "i2",
+        "text": "value=\"thumbnail.laftel.net/carousel/8b450407-d46c-4990-93c0-0ae5d8dc21d1.png\"; div>div.base-layout__Block-sc-56fd8889-0 mYcvM>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src visible; next=몰아보기 시청하고 굿즈 받자!"
+      },
+      {
+        "id": "i3",
+        "text": "value=\"thumbnail.laftel.net/carousel/eb0854cb-5fee-4815-8044-ad99e9824ab4.png\"; div>div.base-layout__Block-sc-56fd8889-0 giubtG>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=애니에서 듣던 명곡을 라이브로 만나자!"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "i4",
+        "text": "value=\"thumbnail.laftel.net/carousel/1f999d47-25c8-43db-b110-1ad7acebebe7.png\"; div>div.base-layout__Block-sc-56fd8889-0 kpSozu>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=다시 시작된 합체 로봇의 전설"
+      },
+      {
+        "id": "i7",
+        "text": "value=\"thumbnail.laftel.net/carousel/bac938bb-41b0-4a16-9a6f-b983307d8637.png\"; div>div.base-layout__Block-sc-56fd8889-0 kJLmsm>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=스스로 불러온 재앙에 짓눌려"
+      }
+    ],
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "nia-description",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "nia",
+      "work": "nia",
+      "url": "https://laftel.net/item/47452",
+      "capturedAt": "2026-11-13T09:55:56.168Z",
+      "htmlSha256": "8be5c527c98e628f59680cf9420a32b61eff1a829f4d779f89442e258ef53ea2"
+    },
+    "field": "description",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/47452\nDocument title: 흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "d5",
+        "text": "value=\"왕도에서의 무대 공연을 크게 성공시킨 니아. 시녀인 리노키스는 드디어 아가씨를 독점할 수 있겠다며 의욕이 넘쳤지만, 그런 상황에서 샬로가 자러 왔다. 니아가 예전에 마피아와 재회하기로 약속한 걸 걱정하고 있었던 것이다. 한편 마피아 보스가 니\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=3화 무대의 막이 내린 뒤24분 · 2026.10.20"
+      },
+      {
+        "id": "d7",
+        "text": "value=\"학교생활이 시작되었다. 신입생 신체 측정이 진행되는 가운데, 체력 측정에서 왠지 모르게 대항심을 불태우는 레리아의 기록을 니아는 전부 뛰어넘었다. 그 후 니아는 고대하던 클럽 견학에서 텐파류 사범 대리 간돌프와 대면했지만, 힘으로 밀어붙이는 \"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=5화 매직비전 보급 활동 회의24분 · 2026.11.03"
+      },
+      {
+        "id": "d2",
+        "text": "value=\"'이왕이면, 싸우다가 죽고 싶었다' 한때 신살을 달성해 낸 대영웅은, 죽음 직전에 자신을 죽일 수 있을 정도로 강한 상대와 만나는 것을 꿈꿨다. 하지만 대영웅을 기다리고 있었던 병약한 귀족 영애로 전생하는 것이었다?! 아름다우며 병약한 영애 \"; div.ItemHeader__ContentBlock-sc-91fceee4-1 kPsUio>div.ItemHeader__ItemInfoBlock-sc-91fceee4-4 llVLce>div.ItemInfoBody__Block-sc-cd575292-0 jgtqjy>div.ItemInfoBody__DescriptionBlock-sc-cd575292-1 fFW @text visible; prev=1화 재생하기보고싶다에피소드 구매"
+      },
+      {
+        "id": "d4",
+        "text": "value=\"극단 '아이스 로즈'의 신입 여배우 샬로의 상대역으로 발탁되어 왕도에 찾아온 니아. 첫 주연이라는 것에 너무 긴장한 나머지 겉도는 샬로에게 아마추어 취급을 받으면서도, 니아는 샬로의 행동에 열받은 시녀 리노키스를 달래면서 진지하게 연습에 임했\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=2화 왕도에서의 일24분 · 2026.10.13"
+      },
+      {
+        "id": "d3",
+        "text": "value=\"자신보다 강한 상대와의 사투를 갈망했던 영웅의 영혼이, 수명이 얼마 남지 않은 영애 니아 리스톤의 몸에 머무르게 되었다. 영혼에 새겨진 '기'의 힘으로 병마를 물리친 니아는, 목검을 양단할 수준인 압도적인 전투력을 보이며 주변 사람들을 놀라게\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=1화 어둠에서 떠올라24분 · 2026.10.06"
+      },
+      {
+        "id": "d6",
+        "text": "value=\"6살이 된 니아는 알투아르 학교에 입학하기 위해 시녀인 리노키스와 함께 왕도에 찾아왔다. 학교에서 제3왕녀 힐데트라와 니아를 일방적으로 라이벌로 보고 있는 귀족 영애 레리아렛과 만났는데, 무려 두 사람도 매직비전 방송에 출연하는 동업자였다. \"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=4화 소녀들의 만남24분 · 2026.10.27"
+      },
+      {
+        "id": "d1",
+        "text": "value=\"흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담을(를) 라프텔에서 합법적으로 감상하세요. 세상의 모든 애니메이션을 고화질로 무제한 스트리밍하세요. 추억의 애니부터 분기별 신작까지 무제한 스트리밍 가능한 곳은 오직 라프텔\"; html>head>meta @description head-metadata; prev=흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 "
+      },
+      {
+        "id": "d8",
+        "text": "value=\"힐데의 제안으로 학생들 중에서 참가자를 모집하는 시청자 참가형 학교 무투 대회를 개최하는 것이 결정됐다. 촬영도 학생들이 스스로 진행하며, 전국에 방송될 예정이었다. 니아의 오빠인 닐의 인터뷰 영상을 시작으로 본방에서 펼쳐지는 격전에 학교의 \"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=6화 학교 무투 대회, 개최!24분 · 2026.11.10"
+      }
+    ],
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "rezero-title",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "rezero",
+      "work": "rezero",
+      "url": "https://laftel.net/item/39644",
+      "capturedAt": "2026-11-13T09:56:00.384Z",
+      "htmlSha256": "50135ad58a21dda3729a6d8dcff0f8c435801470b02110303debfb5afae6b487"
+    },
+    "field": "title",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/39644\nDocument title: Re : 제로부터 시작하는 이세계 생활 감독판 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t5",
+        "text": "value=\"시광대리인 3기 Part 1 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t1",
+        "text": "value=\"Re : 제로부터 시작하는 이세계 생활 감독판 라프텔 - 애니 추천 애니 스트리밍 서비스\"; html>head>title @text head-metadata"
+      },
+      {
+        "id": "t7",
+        "text": "value=\"(자막) 드래곤볼 슈퍼: 비루스 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t3",
+        "text": "value=\"Re : 제로부터 시작하는 이세계 생활 감독판\"; div.ItemHeader__ContentBlock-sc-91fceee4-1 kPsUio>div.ItemHeader__ItemInfoBlock-sc-91fceee4-4 llVLce>header.ItemInfoHeader__Block-sc-c243078e-0 lwQTw>h1.ItemInfoHeader__Title-sc-c243078e-1 gNLRIA @text visible; prev=4.7완결 next=이세계·모험TVA"
+      },
+      {
+        "id": "t2",
+        "text": "value=\"Re : 제로부터 시작하는 이세계 생활 감독판 ㅣ 라프텔\"; html>head>meta @og:title head-metadata"
+      },
+      {
+        "id": "t8",
+        "text": "value=\"수왕무신 댄디바인 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t4",
+        "text": "value=\"호랑이 들어와요 2 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      },
+      {
+        "id": "t6",
+        "text": "value=\"FX 전사 쿠루미 포스터\"; div.BaseItemCard__ThumbnailContainer-sc-c11ee635-1 b>div.BaseItemCard__OpacityWrapper-sc-c11ee635-2 dmvIn>picture.ItemCardThumbnail__ThumbnailPicture-sc-86920457->img.ItemCardThumbnail__ThumbnailImg-sc-86920457-1 CQ @alt visible"
+      }
+    ],
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "rezero-image",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "rezero",
+      "work": "rezero",
+      "url": "https://laftel.net/item/39644",
+      "capturedAt": "2026-11-13T09:56:00.384Z",
+      "htmlSha256": "50135ad58a21dda3729a6d8dcff0f8c435801470b02110303debfb5afae6b487"
+    },
+    "field": "image",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/39644\nDocument title: Re : 제로부터 시작하는 이세계 생활 감독판 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "i5",
+        "text": "value=\"thumbnail.laftel.net/carousel/1f999d47-25c8-43db-b110-1ad7acebebe7.png\"; div>div.base-layout__Block-sc-56fd8889-0 kpSozu>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=다시 시작된 합체 로봇의 전설"
+      },
+      {
+        "id": "i4",
+        "text": "value=\"thumbnail.laftel.net/carousel/8b450407-d46c-4990-93c0-0ae5d8dc21d1.png\"; div>div.base-layout__Block-sc-56fd8889-0 mYcvM>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=몰아보기 시청하고 굿즈 받자!"
+      },
+      {
+        "id": "i3",
+        "text": "value=\"thumbnail.laftel.net/carousel/086332b1-0a5c-4d9a-97b5-ace5b4388e4a.png\"; div>div.base-layout__Block-sc-56fd8889-0 cmyybI>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=명품 더빙으로 만나는 슈가슈가룬!"
+      },
+      {
+        "id": "i7",
+        "text": "value=\"thumbnail.laftel.net/carousel/7e6f3672-1262-4390-b73a-e1d0bc4b2c37.png\"; div>div.base-layout__Block-sc-56fd8889-0 bceKds>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=누군가를 따라잡고 싶었던 적 있다면"
+      },
+      {
+        "id": "i6",
+        "text": "value=\"thumbnail.laftel.net/carousel/eb0854cb-5fee-4815-8044-ad99e9824ab4.png\"; div>div.base-layout__Block-sc-56fd8889-0 giubtG>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=애니에서 듣던 명곡을 라이브로 만나자!"
+      },
+      {
+        "id": "i8",
+        "text": "value=\"thumbnail.laftel.net/carousel/6dbf036a-38a0-4899-b56d-bd604d062912.png\"; div>div.base-layout__Block-sc-56fd8889-0 defqkd>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src hidden; next=복습하고 극장판 보러 가자!"
+      },
+      {
+        "id": "i1",
+        "text": "value=\"thumbnail.laftel.net/items/home/61c5b6a6-d5d7-49ce-a129-8a170d6edfff.jpg\"; html>head>meta @og:image head-metadata"
+      },
+      {
+        "id": "i2",
+        "text": "value=\"thumbnail.laftel.net/carousel/d386e4c4-4173-457a-b4e0-a66bec09292f.png\"; div>div.base-layout__Block-sc-56fd8889-0 iLeldM>div.base-overlay__Block-sc-20c183e7-0 jXBIav>img.base-overlay__LogoImg-sc-20c183e7-1 ePESda @src visible; next=귀여운 아기 신령들이 돌아온다!"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      }
+    ],
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "rezero-description",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "rezero",
+      "work": "rezero",
+      "url": "https://laftel.net/item/39644",
+      "capturedAt": "2026-11-13T09:56:00.384Z",
+      "htmlSha256": "50135ad58a21dda3729a6d8dcff0f8c435801470b02110303debfb5afae6b487"
+    },
+    "field": "description",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://laftel.net/item/39644\nDocument title: Re : 제로부터 시작하는 이세계 생활 감독판 라프텔 - 애니 추천 애니 스트리밍 서비스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d6",
+        "text": "value=\"스바루는 로즈월 저택에서 첫 번째는 수면 중 의문의 쇠약사로, 두 번째는 누군가의 습격에 의해 죽임을 당한다. 적의 정체는 물론 목적조차 알 수 없었지만 ‘사슬 소리’만큼은 기억할 수 있었다. 이번에는 반드시 살아남겠다고 다짐한 그는…\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=4화 사슬 소리51분 · 2020.01.24"
+      },
+      {
+        "id": "d1",
+        "text": "value=\"Re : 제로부터 시작하는 이세계 생활 감독판을(를) 라프텔에서 합법적으로 감상하세요. 세상의 모든 애니메이션을 고화질로 무제한 스트리밍하세요. 추억의 애니부터 분기별 신작까지 무제한 스트리밍 가능한 곳은 오직 라프텔. 뭘 볼 지 모를 땐, \"; html>head>meta @description head-metadata; prev=Re : 제로부터 시작하는 이세계 생활 감독판 라프텔 - "
+      },
+      {
+        "id": "d5",
+        "text": "value=\"루그니카 왕국의 매더스 변경백 저택에 오게 된 스바루는 현재 국왕이 없는 루그니카 왕국의 실정과 왕 후보 리스트에 에밀리아가 올라와 있다는 사실을 알게 된다. 저택의 주인 로즈월은 에밀리아의 목숨을 구한 보답으로 스바루가 원하는 소원을 들어주\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=3화 로즈월 저택의 단란49분 · 2020.01.17"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "d7",
+        "text": "value=\"반드시 모두를 구해내겠다는 각오를 다시 한번 다진 스바루는, 로즈월 저택 관계자들로부터 신뢰를 얻기 위해 무리하게 웃으며 저택을 뛰어다닌다. 한편, 몸과 마음이 망가져가는 스바루를 위해, 에밀리아는 특별한 선물을 준비하는데.\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=5화 울고 울부짖고 울음을 그쳤으니까47분 · 2020.0"
+      },
+      {
+        "id": "d8",
+        "text": "value=\"울가름 무리에게서 몸을 내던져 아이들을 지킨 스바루. 그러나 그의 몸은 이미 수많은 저주가 얽히고설켜서 엉망진창이다. 베티는 저주를 건 장본인을 죽이지 않으면 스바루는 한나절도 못 가서 죽을 것이라 말하는데. 하지만 스바루는 담담히 자신의 죽\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=6화 도깨비 들린 짓49분 · 2020.02.07"
+      },
+      {
+        "id": "d4",
+        "text": "value=\"첫 번째는 누군가에게, 두 번째는 엘자에게, 세 번째는 얼간이에게 죽임을 당한 스바루. 그리고 네 번째. 그는 드디어 죽을 때마다 초기 상태로 돌아가는 ‘사망귀환’을 인식한다. 사테라와 펠트, 그리고 롬 영감의 운명을 바꾸기 위해, 네 번째 \"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=2화 재회의 마녀49분 · 2020.01.10"
+      },
+      {
+        "id": "d3",
+        "text": "value=\"편의점에서 집으로 돌아가던 길에 갑자기 이세계로 소환된 소년, 나츠키 스바루. 눈 앞에 펼쳐진 판타스틱한 세계에 놀란 그였지만, 이세계를 매일 방구석에 처박혀 즐기던 게임으로 여기는데. 그러나 자신이 특별한 힘도 기술도 가지고 있지 않다는 사\"; div>div.EpisodeItem__InfoBlock-sc-1d8e4c6-4 gyUfhQ>div.EpisodeItem__Info-sc-1d8e4c6-12 btoDoD>div.EpisodeItem__SummaryBlock-sc-1d8e4c6-16 ieUPxd @text visible; prev=1화 시작의 끝과 끝의 시작52분 · 2020.01.03"
+      },
+      {
+        "id": "d2",
+        "text": "value=\"편의점에 다녀오는 길에 갑자기 이 세계에 소환된 고등학생 나츠키 스바루. 이것이 요새 유행하는 이세계 소환인가?! 그러나 소환자는 없고, 강도의 습격을 받아 일찍부터 생명의 위기가 찾아온다. 그런 스바루를 구원한 것은, 수수께끼의 은발 미소녀\"; html>head>meta @og:description head-metadata"
+      }
+    ],
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-title",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon",
+      "work": "dungeon",
+      "url": "https://www.netflix.com/kr/title/81564899",
+      "capturedAt": "2026-11-13T09:56:07.002Z",
+      "htmlSha256": "8a38f8a97228f32550bd61a9c4373f6fd1528b7a69781a4145ecf638b06ee1dc"
+    },
+    "field": "title",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://www.netflix.com/kr/title/81564899\nDocument title: 던전밥, 지금 시청하세요 | 넷플릭스 공식 사이트\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t1",
+        "text": "value=\"던전밥, 지금 시청하세요 | 넷플릭스 공식 사이트\"; html>head>title @text head-metadata"
+      },
+      {
+        "id": "t2",
+        "text": "value=\"던전밥\"; div.default-ltr-iqcdef-cache-1l1uipj eaknp1y3>div.default-ltr-iqcdef-cache-11en623 eh9bske1>span.default-ltr-iqcdef-cache-5ur8x e1e0087u0>h1 @text visible"
+      },
+      {
+        "id": "t3",
+        "text": "value=\"예고편\"; div.default-ltr-iqcdef-cache-1mlxn48 eaknp1y2>div.default-ltr-iqcdef-cache-ppqefh er6ovcj0>div.default-ltr-iqcdef-cache-1evcz4i ee4rm1n0>h2.hcw-ltr-iqcdef-cache-wlowj5 e8zmz550 @text visible"
+      },
+      {
+        "id": "t4",
+        "text": "value=\"회차\"; div.default-ltr-iqcdef-cache-ppqefh er6ovcj0>div.default-ltr-iqcdef-cache-1evcz4i ee4rm1n0>div.default-ltr-iqcdef-cache-131yaqb er0mgrd1>h2.hcw-ltr-iqcdef-cache-wlowj5 e8zmz550 @text visible"
+      },
+      {
+        "id": "t6",
+        "text": "value=\"회원님이 좋아하실 만한 콘텐츠\"; div.default-ltr-iqcdef-cache-1mlxn48 eaknp1y2>div.default-ltr-iqcdef-cache-ppqefh er6ovcj0>div.default-ltr-iqcdef-cache-cjrdps ee4rm1n0>h2.hcw-ltr-iqcdef-cache-wlowj5 e8zmz550 @text visible"
+      },
+      {
+        "id": "t5",
+        "text": "value=\"상세 정보 보기\"; div.default-ltr-iqcdef-cache-1mlxn48 eaknp1y2>div.default-ltr-iqcdef-cache-ppqefh er6ovcj0>div.default-ltr-iqcdef-cache-1evcz4i ee4rm1n0>h2.hcw-ltr-iqcdef-cache-wlowj5 e8zmz550 @text visible"
+      },
+      {
+        "id": "t8",
+        "text": "value=\"나의 니즈에 꼭 맞는 멤버십\"; div.default-ltr-iqcdef-cache-1mlxn48 eaknp1y2>div.default-ltr-iqcdef-cache-ppqefh er6ovcj0>div.default-ltr-iqcdef-cache-1evcz4i ee4rm1n0>h2.hcw-ltr-iqcdef-cache-wlowj5 e8zmz550 @text visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t7",
+        "text": "value=\"지금 뜨는 콘텐츠\"; div.default-ltr-iqcdef-cache-1mlxn48 eaknp1y2>div.default-ltr-iqcdef-cache-ppqefh er6ovcj0>div.default-ltr-iqcdef-cache-cjrdps ee4rm1n0>h2.hcw-ltr-iqcdef-cache-wlowj5 e8zmz550 @text visible"
+      }
+    ],
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "quality": {
+      "observedCandidates": 13,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-image",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon",
+      "work": "dungeon",
+      "url": "https://www.netflix.com/kr/title/81564899",
+      "capturedAt": "2026-11-13T09:56:07.002Z",
+      "htmlSha256": "8a38f8a97228f32550bd61a9c4373f6fd1528b7a69781a4145ecf638b06ee1dc"
+    },
+    "field": "image",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://www.netflix.com/kr/title/81564899\nDocument title: 던전밥, 지금 시청하세요 | 넷플릭스 공식 사이트\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "i1",
+        "text": "value=\"occ-0-8123-993.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUJDbfBYUrZ…QVA2EpL70mi027SselxZtP\"; html>head>meta @og:image head-metadata"
+      },
+      {
+        "id": "i3",
+        "text": "value=\"occ-0-8123-993.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABZyOthTbqP0…WwyHuHNd-xjPyKyjeUV5j3\"; div.default-ltr-iqcdef-cache-16vnjd2 e7urdef6>div.default-ltr-iqcdef-cache-1n7zqh3 e7urdef5>div.default-ltr-iqcdef-cache-1j79f7y e4dxgft2>img.default-ltr-iqcdef-cache-1n55wri e4dxgft1 @src visible"
+      },
+      {
+        "id": "i8",
+        "text": "value=\"occ-0-8123-993.1.nflxso.net/dnm/api/v6/a3hnUaZnndQ4IeGOdnyRTW4nDRA/AAAABd9HfqPo9ap…bjwSFCWO6Hidn4Pu5fvP6z\"; ul.default-ltr-iqcdef-cache-r1prx9>li.default-ltr-iqcdef-cache-8dqysa e1rarlgy5>div.default-ltr-iqcdef-cache-bjn8wh e1rarlgy3>img.default-ltr-iqcdef-cache-16mbbb e1rarlgy2 @src hidden; next=27분"
+      },
+      {
+        "id": "i2",
+        "text": "value=\"occ-0-8123-993.1.nflxso.net/dnm/api/v6/MgXQGyNr1xbI8tJSYiMWv5kXg5g/AAAABfc17W-S0Ad…8YM8YI6VmvTZKLV2clngX6\"; div>div.default-ltr-iqcdef-cache-1r686xl eh9bske2>div.default-ltr-iqcdef-cache-lol706 e18t20cg2>img.default-ltr-iqcdef-cache-153nli6 e18t20cg0 @src visible"
+      },
+      {
+        "id": "i7",
+        "text": "value=\"occ-0-8123-993.1.nflxso.net/dnm/api/v6/a3hnUaZnndQ4IeGOdnyRTW4nDRA/AAAABfmD4Uy-FiW…B7agh6hkX2JdyG8pU6sLd2\"; ul.default-ltr-iqcdef-cache-r1prx9>li.default-ltr-iqcdef-cache-8dqysa e1rarlgy5>div.default-ltr-iqcdef-cache-bjn8wh e1rarlgy3>img.default-ltr-iqcdef-cache-16mbbb e1rarlgy2 @src hidden; next=26분"
+      },
+      {
+        "id": "i6",
+        "text": "value=\"occ-0-8123-993.1.nflxso.net/dnm/api/v6/a3hnUaZnndQ4IeGOdnyRTW4nDRA/AAAABTemOfsQE73…TzRjYndKjsPjrOYDbM2Kfr\"; li.default-ltr-iqcdef-cache-10fr2mt equrf4b0>button.default-ltr-iqcdef-cache-1h6dp90 epccd7w7>div.default-ltr-iqcdef-cache-bjn8wh epccd7w5>img.default-ltr-iqcdef-cache-1xtn0d2 epccd7w1 @src hidden; next=1분 24초"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "i5",
+        "text": "value=\"occ-0-8123-993.1.nflxso.net/dnm/api/v6/a3hnUaZnndQ4IeGOdnyRTW4nDRA/AAAABdD1Zge9r6T…PFp8t-jHBeNayko-EtmBzD\"; li.default-ltr-iqcdef-cache-10fr2mt equrf4b0>button.default-ltr-iqcdef-cache-1h6dp90 epccd7w7>div.default-ltr-iqcdef-cache-bjn8wh epccd7w5>img.default-ltr-iqcdef-cache-1xtn0d2 epccd7w1 @src hidden; next=1분 13초"
+      },
+      {
+        "id": "i4",
+        "text": "value=\"occ-0-8123-993.1.nflxso.net/dnm/api/v6/S4oi7EPZbv2UEPaukW54OORa0S8/AAAABYdtVwKd0sY…MvHPvBY3Ggg6YLPAo_l-6X\"; div.default-ltr-iqcdef-cache-16vnjd2 e7urdef6>div.default-ltr-iqcdef-cache-1n7zqh3 e7urdef5>div.default-ltr-iqcdef-cache-1j79f7y e4dxgft2>img.default-ltr-iqcdef-cache-1ccfi6a e4dxgft0 @src visible; next=던전밥"
+      }
+    ],
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-description",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon",
+      "work": "dungeon",
+      "url": "https://www.netflix.com/kr/title/81564899",
+      "capturedAt": "2026-11-13T09:56:07.002Z",
+      "htmlSha256": "8a38f8a97228f32550bd61a9c4373f6fd1528b7a69781a4145ecf638b06ee1dc"
+    },
+    "field": "description",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://www.netflix.com/kr/title/81564899\nDocument title: 던전밥, 지금 시청하세요 | 넷플릭스 공식 사이트\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d3",
+        "text": "value=\"참담한 좌절을 맛본 라이오스, 마르실, 칠책은 파린을 구하기 위해 곧바로 다시 던전에 들어간다. 게다가 이번에는 완벽한 생존 전략까지 세웠다.\"; li.default-ltr-iqcdef-cache-8dqysa e1rarlgy5>div.default-ltr-iqcdef-cache-1eiiwc6 e1rarlgy4>div.default-ltr-iqcdef-cache-1e4sizb e1rarlgy0>p.hcw-ltr-iqcdef-cache-18f4cyc e8zmz550 @text visible"
+      },
+      {
+        "id": "d2",
+        "text": "value=\"던전, 드래곤... 그리고 뜨끈한 몬스터 전골! ? 동료를 구하기 위해 저주받은 지하 왕국으로 뛰어든 모험가들. 수많은 몬스터를 '요리'하며 던전을 돌파해 간다.\"; html>head>meta @og:description head-metadata"
+      },
+      {
+        "id": "d5",
+        "text": "value=\"신비한 힘으로 움직이는 갑옷이 수호하는 비밀 장소에 들어선 라이오스 일행. 그런데 지금 이 몬스터가 지키고 있는 무언가가 왠지 맛있어 보인다.\"; li.default-ltr-iqcdef-cache-8dqysa e1rarlgy5>div.default-ltr-iqcdef-cache-1eiiwc6 e1rarlgy4>div.default-ltr-iqcdef-cache-1e4sizb e1rarlgy0>p.hcw-ltr-iqcdef-cache-18f4cyc e8zmz550 @text visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "d8",
+        "text": "value=\"배가 고픈 라이오스. 살아 있는 그림 속으로 음식을 구하러 갔다가 정체 모를 엘프에게 혼이 난다. 얼마 뒤, 소라게처럼 생긴 미믹과 함께 칠책이 덫에 걸린다.\"; li.default-ltr-iqcdef-cache-8dqysa e1rarlgy5>div.default-ltr-iqcdef-cache-1eiiwc6 e1rarlgy4>div.default-ltr-iqcdef-cache-1e4sizb e1rarlgy0>p.hcw-ltr-iqcdef-cache-18f4cyc e8zmz550 @text visible"
+      },
+      {
+        "id": "d7",
+        "text": "value=\"어느 모험가 일행이 보물 상자를 발견한다. 한편, 등골이 서늘해지는 유령들에게 쫓기는 라이오스와 동료들. 그 와중에 센시는 군침 도는 계획을 세운다.\"; li.default-ltr-iqcdef-cache-8dqysa e1rarlgy5>div.default-ltr-iqcdef-cache-1eiiwc6 e1rarlgy4>div.default-ltr-iqcdef-cache-1e4sizb e1rarlgy0>p.hcw-ltr-iqcdef-cache-18f4cyc e8zmz550 @text visible"
+      },
+      {
+        "id": "d4",
+        "text": "value=\"군침을 돌게 하는 냄새 때문에 잠에서 깬 마르실. 센시는 그런 마르실에게 균형 잡힌 식사를 해야 한다며 잔소리를 한다. 한편 일행은 바실리스크의 독에 중독된 모험가를 도와준다.\"; li.default-ltr-iqcdef-cache-8dqysa e1rarlgy5>div.default-ltr-iqcdef-cache-1eiiwc6 e1rarlgy4>div.default-ltr-iqcdef-cache-1e4sizb e1rarlgy0>p.hcw-ltr-iqcdef-cache-18f4cyc e8zmz550 @text visible"
+      },
+      {
+        "id": "d6",
+        "text": "value=\"미궁 지하 3층에 도달한 센시. 동료들을 이끌고 자신만의 비밀 텃밭으로 간다. 한편, 절박한 상황 때문에 심기가 불편한 오크 무리가 라이오스 일행 앞에 나타나 말을 건다.\"; li.default-ltr-iqcdef-cache-8dqysa e1rarlgy5>div.default-ltr-iqcdef-cache-1eiiwc6 e1rarlgy4>div.default-ltr-iqcdef-cache-1e4sizb e1rarlgy0>p.hcw-ltr-iqcdef-cache-18f4cyc e8zmz550 @text visible"
+      },
+      {
+        "id": "d1",
+        "text": "value=\"던전, 드래곤... 그리고 뜨끈한 몬스터 전골! ? 동료를 구하기 위해 저주받은 지하 왕국으로 뛰어든 모험가들. 수많은 몬스터를 '요리'하며 던전을 돌파해 간다. 예고편과 다른 영상을 감상해 보세요.\"; html>head>meta @description head-metadata"
+      }
+    ],
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dinner-title",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dinner",
+      "work": "dinner",
+      "url": "https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2",
+      "capturedAt": "2026-11-13T09:56:12.245Z",
+      "htmlSha256": "3a6dfa421326855fa3b4f60c2fcbf151fe0384e4cdf6cf4e2b16727c7b5e499a"
+    },
+    "field": "title",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2\nDocument title: 프라임 비디오: 수수께끼 풀이는 저녁식사 후에\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t7",
+        "text": "value=\"5. 양다리는 조심하십시오: 2번 파일 / 분실물 주인은 브이튜버 1번 파일\"; div.KIBhZI>div.ncJWWt>div>h3.hGJxLu @text visible"
+      },
+      {
+        "id": "t6",
+        "text": "value=\"4. 양다리는 조심하십시오: 1번 파일\"; div.KIBhZI>div.ncJWWt>div>h3.hGJxLu @text visible"
+      },
+      {
+        "id": "t1",
+        "text": "value=\"프라임 비디오: 수수께끼 풀이는 저녁식사 후에\"; html.a-ws a-js a-audio a-video a-canvas a-svg a-drag->head>title @text head-metadata"
+      },
+      {
+        "id": "t2",
+        "text": "value=\"수수께끼 풀이는 저녁식사 후에\"; div.fUpFEF>div.lz5SHd>picture>img.p30xyj @alt visible"
+      },
+      {
+        "id": "t4",
+        "text": "value=\"2. ‘살의의 파티에 오신 것을 환영합니다’ 2번 파일 / ‘죽은 자의 전언을 받으시지요’ 1번 파일\"; div.KIBhZI>div.ncJWWt>div>h3.hGJxLu @text visible"
+      },
+      {
+        "id": "t5",
+        "text": "value=\"3. ‘죽은 자의 전언을 받으시지요’ 2번 파일\"; div.KIBhZI>div.ncJWWt>div>h3.hGJxLu @text visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t3",
+        "text": "value=\"1. ‘살의의 파티에 오신 것을 환영합니다’ 1번 파일\"; div.KIBhZI>div.ncJWWt>div>h3.hGJxLu @text visible"
+      },
+      {
+        "id": "t8",
+        "text": "value=\"prime video\"; a>div.lz5SHd>picture>img.JoneUI @alt visible"
+      }
+    ],
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dinner-image",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dinner",
+      "work": "dinner",
+      "url": "https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2",
+      "capturedAt": "2026-11-13T09:56:12.245Z",
+      "htmlSha256": "3a6dfa421326855fa3b4f60c2fcbf151fe0384e4cdf6cf4e2b16727c7b5e499a"
+    },
+    "field": "image",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2\nDocument title: 프라임 비디오: 수수께끼 풀이는 저녁식사 후에\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "i3",
+        "text": "value=\"m.media-amazon.com/images/S/pv-target-images/7d32d5f6f1b6cf647b1a0333d13a…54928c9c80._SX1920_FMavif_PQ65_\"; div.M6O0NK>div.lz5SHd>picture>img.znZ24z @src visible"
+      },
+      {
+        "id": "i7",
+        "text": "value=\"m.media-amazon.com/images/S/pv-target-images/26b4a70fb59c15d707d6322026eb…ca9._BR-6_AC_SX480_FMavif_PQ65_\"; div.hhX9n2>div.lz5SHd>picture>img.iLEKPp znZ24z @src visible"
+      },
+      {
+        "id": "i8",
+        "text": "value=\"m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/m-r/Pr…white._CB554929912_SY75_FMwebp_\"; div.PXeGqA>div.lz5SHd>picture>img.Qc17RE JoneUI @src visible"
+      },
+      {
+        "id": "i5",
+        "text": "value=\"m.media-amazon.com/images/S/pv-target-images/19721b7708c26b283e139da70a54…f9cef2c9._BR-6_AC_SX500_FMwebp_\"; div.fUpFEF>div.lz5SHd>picture>img.p30xyj @src visible"
+      },
+      {
+        "id": "i2",
+        "text": "value=\"m.media-amazon.com/images/G/01/digital/video/web/logo-min-remaster.png\"; div.s_dUYM v8cDAt>div._vATAX>a[label=홈].dSVFqO tQDFiP>img.ikK3jr @src visible navigation"
+      },
+      {
+        "id": "i4",
+        "text": "value=\"m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/m-r/Pr…color._CB554929912_SY35_FMwebp_\"; a>div.lz5SHd>picture>img.JoneUI @src visible"
+      },
+      {
+        "id": "i6",
+        "text": "value=\"m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/m-r/Pr…CB554929912_BR-255_SY75_FMwebp_\"; div.PXeGqA>div.lz5SHd>picture>img.Qc17RE JoneUI @src visible"
+      },
+      {
+        "id": "i1",
+        "text": "value=\"m.media-amazon.com/images/S/pv-target-images/9dd51bca4d4ee8a3a9e7ab14c580…2ca90af6c81060edc188615fa4e4df9\"; html.a-ws a-js a-audio a-video a-canvas a-svg a-drag->head>meta @og:image head-metadata"
+      }
+    ],
+    "expectedId": "i3",
+    "acceptedIds": [
+      "i1",
+      "i3"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dinner-description",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dinner",
+      "work": "dinner",
+      "url": "https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2",
+      "capturedAt": "2026-11-13T09:56:12.245Z",
+      "htmlSha256": "3a6dfa421326855fa3b4f60c2fcbf151fe0384e4cdf6cf4e2b16727c7b5e499a"
+    },
+    "field": "description",
+    "scenario": [
+      "public-detail",
+      "competing-metadata"
+    ],
+    "document": "URL: https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2\nDocument title: 프라임 비디오: 수수께끼 풀이는 저녁식사 후에\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d1",
+        "text": "value=\"부유한 상속녀 호쇼 레이코는 새내기 형사로서 이중생활을 하고 있다. 그녀는 마찬가지로 부잣집 도련님인 카자마츠리 경부 밑에서 범죄와 맞서 싸운다. 매일 근무가 끝난 뒤, 레이코는 정장을 벗어 던지고 멋진 드레스 차림으로 저녁을 먹는다. 어려운\"; div.FWBzLL>div>div.ddn9Xq>div.o0Dhgv dv-dp-node-synopsis @text visible; next=IMDb 5.8/102025애니메이션•서스펜스•유머러스한"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      }
+    ],
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-aniplus-title",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-aniplus",
+      "work": "frieren",
+      "url": "https://www.aniplustv.com/items/3011",
+      "capturedAt": "2026-11-13T09:56:18.243Z",
+      "htmlSha256": "042abf6d7483e9c1b829e9ff8319ebc52407aa6fdd0c8d26263b8297a8dbf792"
+    },
+    "field": "title",
+    "scenario": [
+      "background-search-layer",
+      "japanese-alias",
+      "duplicate-metadata"
+    ],
+    "document": "URL: https://www.aniplustv.com/items/3011\nDocument title: 장송의 프리렌 - 애니플러스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t2",
+        "text": "value=\"한일 동시 방영 애니메이션 채널 - 애니플러스\"; html>head>meta @og:title head-metadata"
+      },
+      {
+        "id": "t4",
+        "text": "value=\"장송의 프리렌\"; div.detil_top>div.baner live_detail>div.float_right>h1 @text visible; next=감독사이토 케이이치로장르판타지제작매드하우스화수28화등급15"
+      },
+      {
+        "id": "t5",
+        "text": "value=\"에피소드\"; div.detail_view_layer>div.pop_padding_70>div.detil_group1 live_detail_epi>h1 @text visible"
+      },
+      {
+        "id": "t3",
+        "text": "value=\"장송의 프리렌 애니플러스\"; html>head>meta @og:title head-metadata"
+      },
+      {
+        "id": "t6",
+        "text": "value=\"등장인물\"; div.detail_view_layer>div.pop_padding_70>div.detil_group2>h1 @text visible; next=프리렌 성우: 타네자키 아츠미천년 넘게 사는 엘프로써 용사"
+      },
+      {
+        "id": "t1",
+        "text": "value=\"장송의 프리렌 - 애니플러스\"; html>head>title @text head-metadata"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t7",
+        "text": "value=\"스틸컷\"; div.detail_view_layer>div.pop_padding_70>div.detil_group3>h1 @text visible"
+      },
+      {
+        "id": "t8",
+        "text": "value=\"작품평가.\"; div.detail_view_layer>div.pop_padding_70>div.detil_group4>h1 @text visible; next=나의별점등록"
+      }
+    ],
+    "expectedId": "t4",
+    "acceptedIds": [
+      "t4"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-aniplus-image",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-aniplus",
+      "work": "frieren",
+      "url": "https://www.aniplustv.com/items/3011",
+      "capturedAt": "2026-11-13T09:56:18.243Z",
+      "htmlSha256": "042abf6d7483e9c1b829e9ff8319ebc52407aa6fdd0c8d26263b8297a8dbf792"
+    },
+    "field": "image",
+    "scenario": [
+      "background-search-layer",
+      "japanese-alias",
+      "duplicate-metadata"
+    ],
+    "document": "URL: https://www.aniplustv.com/items/3011\nDocument title: 장송의 프리렌 - 애니플러스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "i1",
+        "text": "value=\"www.aniplustv.com/mobile/img/event_0518.png\"; html>head>meta @og:image head-metadata"
+      },
+      {
+        "id": "i2",
+        "text": "value=\"ah9szoaj9w.ecn.cdn.ofs.kr/images/tvee-admin/content/CS_20231226204041.jpg\"; html>head>meta @og:image head-metadata"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      }
+    ],
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-aniplus-description",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-aniplus",
+      "work": "frieren",
+      "url": "https://www.aniplustv.com/items/3011",
+      "capturedAt": "2026-11-13T09:56:18.243Z",
+      "htmlSha256": "042abf6d7483e9c1b829e9ff8319ebc52407aa6fdd0c8d26263b8297a8dbf792"
+    },
+    "field": "description",
+    "scenario": [
+      "background-search-layer",
+      "japanese-alias",
+      "duplicate-metadata"
+    ],
+    "document": "URL: https://www.aniplustv.com/items/3011\nDocument title: 장송의 프리렌 - 애니플러스\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d5",
+        "text": "value=\"영락의 왕묘를 공략하면서 프리렌과 페른을 비롯한 12명이 제2차 시험에 합격했다. 제2차 시험을 진행하면서 산산조각 난 페른의 지팡이를 고치기 위해 프리렌은 어떤 장소로 찾아갔는데... 그리고 1급 마법사 선발 시험의 최종 시험, 그 합격의 \"; div.detil_group1 live_detail_epi>div.episode_list_group>div.episode_list>p @text visible"
+      },
+      {
+        "id": "d1",
+        "text": "value=\"가장 빠른 한일 동시 방영 채널. 분기별 최신 신작을 일본과 동시에 방영하는 라이브, 스파이 패밀리, 진격의 거인, 주술회전등 인기작품 고화질 무제한 스트리밍, 다운로드, 굿즈 판매.\"; html>head>meta @description head-metadata"
+      },
+      {
+        "id": "d2",
+        "text": "value=\"장송의 프리렌 - 용사 힘멜 일행과 함께 10년에 걸친 모험 끝에 마왕을 물리치고&nbsp;<br />세계에 평화를 가져온 마법사 프리렌.<br /><br />천 년을 넘게 사는 엘프인 그녀는 힘멜 일행과 재회를 약속하고 혼자 여행을 떠난다.\"; html>head>meta @description head-metadata"
+      },
+      {
+        "id": "d7",
+        "text": "value=\"제2차 시험의 합격 조건인 던전 최심부로 가기 위해서는 프리렌의 복제체를 쓰러뜨려야만 한다. 복제체 앞에서 뎅켄, 라비네 일행과 합류한 프리렌과 페른은 마법사들이 각자 가지고 있던 정보와 지식으로 복제체를 쓰러뜨릴 작전을 세운다. 그러던 중 \"; div.detil_group1 live_detail_epi>div.episode_list_group>div.episode_list>p @text visible"
+      },
+      {
+        "id": "d6",
+        "text": "value=\"영락의 왕묘에 있던 신화시대의 마물 슈피겔이 만든 복제체들. 슈피겔을 쓰러뜨리기 위해 프리렌과 페른은 프리렌의 복제체와 싸웠지만 고전했다. 한편, 뎅켄과 라비네 일행도 복제체와 싸웠지만 시험관인 1급 마법사 젠제의 복제체의 마법이 맹위를 떨쳤\"; div.detil_group1 live_detail_epi>div.episode_list_group>div.episode_list>p @text visible"
+      },
+      {
+        "id": "d8",
+        "text": "value=\"제2차 시험으로 던전 '영락의 왕묘'에 들어간 수험자들의 앞을 그들의 복제체가 막아섰다. 그 복제체는 마법에 의해 각자의 실력, 마력, 기술 등을 완전하게 복제한 실체였다. 그중에서 위벨은 자신의 복제체와 조우했다. 한편, 뎅켄 일행은 프리렌\"; div.detil_group1 live_detail_epi>div.episode_list_group>div.episode_list>p @text visible"
+      },
+      {
+        "id": "d3",
+        "text": "value=\"줄거리용사 힘멜 일행과 함께 10년에 걸친 모험 끝에 마왕을 물리치고 세계에 평화를 가져온 마법사 프리렌.천 년을 넘게 사는 엘프인 그녀는 힘멜 일행과 재회를 약속하고 혼자 여행을 떠난다.그로부터 50년 후 프리렌은 힘멜을 찾아갔지만 50년 \"; div.detil_top>div.baner live_detail>div.float_right>div.summary_text @text visible; prev=감독사이토 케이이치로장르판타지제작매드하우스화수28화등급15 next=TV본방재방"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "d4",
+        "text": "value=\"1급 마법사 시험의 최종 시험, 페른은 제리에로부터 합격이란 말을 듣는다. 이어서 뎅켄, 비어벨, 위벨 일행의 합격 여부는... 그리고 시험을 마친 수험자들 간에는 시험 시작 전에는 없었던 신기한 감정이... 그리고 프리렌 일행이 마법 도시 \"; div.detil_group1 live_detail_epi>div.episode_list_group>div.episode_list>p @text visible"
+      }
+    ],
+    "expectedId": "d3",
+    "acceptedIds": [
+      "d2",
+      "d3"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-tving-title",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-tving",
+      "work": "witch",
+      "url": "https://www.tving.com/contents/P001791654",
+      "capturedAt": "2026-11-13T09:56:23.833Z",
+      "htmlSha256": "66958e596e325178d22e463449a815257cd4b64c1e2230fd8b65cbec973f1ce1"
+    },
+    "field": "title",
+    "scenario": [
+      "episode-seo-title",
+      "image-title-logo",
+      "recommendation-cards"
+    ],
+    "document": "URL: https://www.tving.com/contents/P001791654\nDocument title: 어느 마녀가 죽을 때까지 1화 | TVING\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t3",
+        "text": "value=\"어느 마녀가 죽을 때까지\"; h1.css-7cjjxb ejzedzo6>div.css-1ysj6ud ejzedzo14>picture.loaded css-ovhph3 etlpyr40>img.loaded css-1doy9ip etlpyr42 @alt visible"
+      },
+      {
+        "id": "t1",
+        "text": "value=\"어느 마녀가 죽을 때까지 1화 | TVING\"; html.is-laptop>head>title @text head-metadata"
+      },
+      {
+        "id": "t4",
+        "text": "value=\"비슷한 콘텐츠\"; section.css-kclwhi er2fxal0>section.lists lists__noneLazy>div.layout__flex-left>h2.lists__title css-0 @text visible"
+      },
+      {
+        "id": "t2",
+        "text": "value=\"어느 마녀가 죽을 때까지 1화\"; div>main.is-desktop css-u8vffe e1ry4lr01>section.overflow-hidden>h1.sr-only @text visible; next=2025애니메이션SONY시즌 1개이용권 구독하고 시청하기찜"
+      }
+    ],
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-tving-image",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-tving",
+      "work": "witch",
+      "url": "https://www.tving.com/contents/P001791654",
+      "capturedAt": "2026-11-13T09:56:23.833Z",
+      "htmlSha256": "66958e596e325178d22e463449a815257cd4b64c1e2230fd8b65cbec973f1ce1"
+    },
+    "field": "image",
+    "scenario": [
+      "episode-seo-title",
+      "image-title-logo",
+      "recommendation-cards"
+    ],
+    "document": "URL: https://www.tving.com/contents/P001791654\nDocument title: 어느 마녀가 죽을 때까지 1화 | TVING\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "i8",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caie/CAIE0400/com/20260908/1726/E004…04598524.jpg/dims/resize/F_webp,60\"; div.item__thumb item__thumb-16x9>div.item__image lazy>picture.loaded css-ovhph3 etlpyr40>img.loaded css-1doy9ip etlpyr42 @src visible"
+      },
+      {
+        "id": "i7",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caie/CAIE0400/com/20260908/1725/E004…04598521.jpg/dims/resize/F_webp,60\"; div.item__thumb item__thumb-16x9>div.item__image lazy>picture.loaded css-ovhph3 etlpyr40>img.loaded css-1doy9ip etlpyr42 @src visible"
+      },
+      {
+        "id": "i3",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caip/CAIP0400/ko/20260908/1719/P0017…719/P001791654.jpg/dims/resize/128\"; article.css-1fvtr3l ejzedzo3>div.css-1dq3ly2 ejzedzo10>picture.css-ovhph3 etlpyr40>img.css-1doy9ip etlpyr42 @src hidden"
+      },
+      {
+        "id": "i1",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caip/CAIP0400/ko/20260908/1719/P0017…1719/P001791654.jpg/dims/resize/50\"; html.is-laptop>head>meta @og:image head-metadata"
+      },
+      {
+        "id": "i2",
+        "text": "value=\"image.tving.com/ntgs/operation/logo/2023/09/18/1695032536_1.svg\"; header.tvl-root tvl-gnb tvl-full>a[label=티빙].tvl-full__logo-link>div.tvl-seoul-logo>img.tvl-seoul-logo__img @src visible"
+      },
+      {
+        "id": "i4",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caip/CAIP0900/ko/20260908/1719/P0017…01791654.jpg/dims/resize/F_webp,48\"; div.css-l9hm3b ejzedzo4>div.css-eabzdp ejzedzo11>picture.loaded css-ovhph3 etlpyr40>img.loaded css-1doy9ip etlpyr42 @src visible"
+      },
+      {
+        "id": "i6",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caie/CAIE0400/com/20260908/1724/E004…04598523.jpg/dims/resize/F_webp,60\"; div.item__thumb item__thumb-16x9>div.item__image lazy>picture.loaded css-ovhph3 etlpyr40>img.loaded css-1doy9ip etlpyr42 @src visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "i5",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caip/CAIP1800/ko/20260908/1719/P0017…01791654.png/dims/resize/F_webp,80\"; h1.css-7cjjxb ejzedzo6>div.css-1ysj6ud ejzedzo14>picture.loaded css-ovhph3 etlpyr40>img.loaded css-1doy9ip etlpyr42 @src visible"
+      }
+    ],
+    "expectedId": "i4",
+    "acceptedIds": [
+      "i1",
+      "i3",
+      "i4"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-tving-description",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-tving",
+      "work": "witch",
+      "url": "https://www.tving.com/contents/P001791654",
+      "capturedAt": "2026-11-13T09:56:23.833Z",
+      "htmlSha256": "66958e596e325178d22e463449a815257cd4b64c1e2230fd8b65cbec973f1ce1"
+    },
+    "field": "description",
+    "scenario": [
+      "episode-seo-title",
+      "image-title-logo",
+      "recommendation-cards"
+    ],
+    "document": "URL: https://www.tving.com/contents/P001791654\nDocument title: 어느 마녀가 죽을 때까지 1화 | TVING\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d6",
+        "text": "value=\"메구와 소피는 이계 축제 현장에서 마리와 만났다. 그녀는 작년 축제에서 함께 불꽃놀이를 본 남성을 찾고 있었다. 올해에는 불꽃놀이를 하지 않는다는 걸 알고, 재회를 포기하는 그녀를 보고 메구는 함께 그 남성을 찾기로 결정했는데.\"; div.swiper-slide swiper-slide-item-4 swiper-slide-vi>a[label=5. 제전의 밤하늘에 꽃은 핀다].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=5. 제전의 밤하늘에 꽃은 핀다 next=2025.06.26 | 24분"
+      },
+      {
+        "id": "d4",
+        "text": "value=\"파우스트가 집을 비우고, 집을 지키게 된 메구한테 동양에서 온 칠현인 중 하나인 '영지의 마녀' 이노리가 찾아왔다. 이노리는 메구와 대화를 하는 가운데, 그녀의 수명이 얼마 남지 않았다는 걸 꿰뚫어 보았는데.\"; div.swiper-slide swiper-slide-item-2 swiper-slide-vi>a[label=3. 동쪽으로부터, 영지의 내방].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=3. 동쪽으로부터, 영지의 내방 next=2025.06.19 | 24분"
+      },
+      {
+        "id": "d7",
+        "text": "value=\"기쁨의 눈물을 모으는 요령을 깨우치고, 효율 좋게 50알까지 눈물을 모으고 의기양양하게 웃는 메구. 눈물을 모으는 것에 열중한 나머지 중요한 감정을 놓치고 있는 메구를 보고, 파우스트는 그녀에게 마법을 쓰는 걸 금지한다고 말했는데.\"; div.swiper-slide swiper-slide-item-5 item>a[label=6. 마법이 없는 해 질 녘 하늘은].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=6. 마법이 없는 해 질 녘 하늘은 next=2025.06.26 | 24분"
+      },
+      {
+        "id": "d1",
+        "text": "value=\"'너, 1년 뒤에 죽는다' 17세가 되는 생일을 맞이한 견습 마녀 메구 라즈베리는, 마법 스승이자 마법계 톱인 칠현인에 이름을 올린 '영년의 마녀' 파우스트로부터 갑작스럽게 여명 1년이라는 말을 듣게 되었다. 메구는 '죽음의 선고'라는 저주에\"; html.is-laptop>head>meta @description head-metadata"
+      },
+      {
+        "id": "d5",
+        "text": "value=\"메구와 동갑이면서 칠현인인 '축복의 마녀' 소피가 이계 축제를 위해 라피스에 방문했다. 소피는 아름다운 마법 퍼포먼스로 사람들을 기쁘게 해주었지만, 그녀의 목적은 '마법을 이 세상에서 없애는 것'이었는데.\"; div.swiper-slide swiper-slide-item-3 swiper-slide-vi>a[label=4. 축복은 개문과 함께].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=4. 축복은 개문과 함께 next=2025.06.19 | 24분"
+      },
+      {
+        "id": "d8",
+        "text": "value=\"'라피스의 마녀'라는 별칭을 얻은 메구는 20년에 한 번 열리는 대제전인 '마법 식전'에 참가하게 되었다. 마도사들로 붐비는 회장에서 메구는 무수히 많은 정령에 둘러싸인 정체불명의 소녀와 만나, 함께 회장을 돌아보게 되었는데.\"; div.swiper-slide swiper-slide-item-6 item>a[label=7. 언어와 재앙과 식전과].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=7. 언어와 재앙과 식전과 next=2025.07.03 | 24분"
+      },
+      {
+        "id": "d3",
+        "text": "value=\"메구의 친구이자 학생인 피네가 마녀의 집에 상담을 하러 방문했다. 그녀의 소원은, 할아버지의 유품인 낡은 손목시계를 고치는 것. 움직이지 않게 된 손목시계는, 시계에 깃든 정령이 약해져 있는 것으로 보였는데.\"; div.swiper-slide swiper-slide-item-1 swiper-slide-vi>a[label=2. 견습 마녀와 라피스의 사람들].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=2. 견습 마녀와 라피스의 사람들 next=2025.06.12 | 24분"
+      },
+      {
+        "id": "d2",
+        "text": "value=\"라피스 마을에서 사는 견습 마녀 메구 라즈베리는 17살이 되는 생일에, 스승인 '영년의 마녀' 파우스트로부터 여명 1년의 저주에 걸렸다는 선고를 받았다. 살 수 있는 방법은 불가능에 가까워서 부루퉁해져 있는 가운데, 어떤 소녀로부터 엄마가 잠\"; div.swiper-slide swiper-slide-item-0 swiper-slide-vi>a[label=1. 여명 1년의 마녀].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=1. 여명 1년의 마녀 next=2025.06.12 | 24분"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      }
+    ],
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-tving-title",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-tving",
+      "work": "frieren",
+      "url": "https://www.tving.com/contents/P001747384",
+      "capturedAt": "2026-11-13T09:56:29.963Z",
+      "htmlSha256": "498ded9238141d8657609652d8b786107163643c9bdc63abc38053de5ebb1e7c"
+    },
+    "field": "title",
+    "scenario": [
+      "episode-seo-title",
+      "dub-subtitle-labels"
+    ],
+    "document": "URL: https://www.tving.com/contents/P001747384\nDocument title: 장송의 프리렌 (자막) 1화 | TVING\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t4",
+        "text": "value=\"비슷한 콘텐츠\"; section.css-kclwhi er2fxal0>section.lists lists__noneLazy>div.layout__flex-left>h2.lists__title css-0 @text visible"
+      },
+      {
+        "id": "t2",
+        "text": "value=\"장송의 프리렌 (자막) 1화\"; div>main.is-desktop css-u8vffe e1ry4lr01>section.overflow-hidden>h1.sr-only @text visible; next=자막2023애니메이션애니플러스시즌 2개이용권 구독하고 시청"
+      },
+      {
+        "id": "t3",
+        "text": "value=\"장송의 프리렌 (자막)\"; h1.css-7cjjxb ejzedzo6>div.css-1ysj6ud ejzedzo14>picture.loaded css-ovhph3 etlpyr40>img.loaded css-1doy9ip etlpyr42 @alt visible"
+      },
+      {
+        "id": "t1",
+        "text": "value=\"장송의 프리렌 (자막) 1화 | TVING\"; html.is-laptop>head>title @text head-metadata"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      }
+    ],
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-tving-image",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-tving",
+      "work": "frieren",
+      "url": "https://www.tving.com/contents/P001747384",
+      "capturedAt": "2026-11-13T09:56:29.963Z",
+      "htmlSha256": "498ded9238141d8657609652d8b786107163643c9bdc63abc38053de5ebb1e7c"
+    },
+    "field": "image",
+    "scenario": [
+      "episode-seo-title",
+      "dub-subtitle-labels"
+    ],
+    "document": "URL: https://www.tving.com/contents/P001747384\nDocument title: 장송의 프리렌 (자막) 1화 | TVING\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "i8",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caie/CAIE0400/com/20231001/E00406244…04062441.jpg/dims/resize/F_webp,60\"; div.item__thumb item__thumb-16x9>div.item__image lazy>picture.loaded css-ovhph3 etlpyr40>img.loaded css-1doy9ip etlpyr42 @src visible"
+      },
+      {
+        "id": "i5",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caip/CAIP1800/ko/20231027/2300/P0017…01747384.png/dims/resize/F_webp,80\"; h1.css-7cjjxb ejzedzo6>div.css-1ysj6ud ejzedzo14>picture.loaded css-ovhph3 etlpyr40>img.loaded css-1doy9ip etlpyr42 @src visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "i4",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caip/CAIP0900/ko/20231027/2300/P0017…01747384.jpg/dims/resize/F_webp,48\"; div.css-l9hm3b ejzedzo4>div.css-eabzdp ejzedzo11>picture.loaded css-ovhph3 etlpyr40>img.loaded css-1doy9ip etlpyr42 @src visible"
+      },
+      {
+        "id": "i2",
+        "text": "value=\"image.tving.com/ntgs/operation/logo/2023/09/18/1695032536_1.svg\"; header.tvl-root tvl-gnb tvl-full>a[label=티빙].tvl-full__logo-link>div.tvl-seoul-logo>img.tvl-seoul-logo__img @src visible"
+      },
+      {
+        "id": "i1",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caip/CAIP0400/ko/20231027/2300/P0017…2300/P001747384.jpg/dims/resize/50\"; html.is-laptop>head>meta @og:image head-metadata"
+      },
+      {
+        "id": "i7",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caie/CAIE0400/com/20231001/E00406244…04062440.jpg/dims/resize/F_webp,60\"; div.item__thumb item__thumb-16x9>div.item__image lazy>picture.loaded css-ovhph3 etlpyr40>img.loaded css-1doy9ip etlpyr42 @src visible"
+      },
+      {
+        "id": "i3",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caip/CAIP0400/ko/20231027/2300/P0017…300/P001747384.jpg/dims/resize/128\"; article.css-1fvtr3l ejzedzo3>div.css-1dq3ly2 ejzedzo10>picture.css-ovhph3 etlpyr40>img.css-1doy9ip etlpyr42 @src hidden"
+      },
+      {
+        "id": "i6",
+        "text": "value=\"image.tving.com/ntgs/contents/CTC/caie/CAIE0400/com/20231001/E00406243…04062439.jpg/dims/resize/F_webp,60\"; div.item__thumb item__thumb-16x9>div.item__image lazy>picture.loaded css-ovhph3 etlpyr40>img.loaded css-1doy9ip etlpyr42 @src visible"
+      }
+    ],
+    "expectedId": "i4",
+    "acceptedIds": [
+      "i1",
+      "i3",
+      "i4"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-tving-description",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-tving",
+      "work": "frieren",
+      "url": "https://www.tving.com/contents/P001747384",
+      "capturedAt": "2026-11-13T09:56:29.963Z",
+      "htmlSha256": "498ded9238141d8657609652d8b786107163643c9bdc63abc38053de5ebb1e7c"
+    },
+    "field": "description",
+    "scenario": [
+      "episode-seo-title",
+      "dub-subtitle-labels"
+    ],
+    "document": "URL: https://www.tving.com/contents/P001747384\nDocument title: 장송의 프리렌 (자막) 1화 | TVING\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d6",
+        "text": "value=\"플람메가 남긴 수기에 적혀 있던 ′혼이 잠드는 땅<오레올>′을 찾아가기로 결정한 프리렌과 페른은 아이젠과 헤어져 다시 여행을 떠난다. 지금은 마왕성이 있는 그 장소에서 힘멜과 다시 대화할 수 있을 것인가... 어떤 마을을 방문한 프리렌과 페른\"; div.swiper-slide swiper-slide-item-4 swiper-slide-vi>a[label=제5화 죽은 자의 환영].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=제5화 죽은 자의 환영 next=2023.10.06 | 25분"
+      },
+      {
+        "id": "d8",
+        "text": "value=\"프리렌 일행은 해방제라고 불리는 축제를 하루 앞둔 마을에 도착했다. 그곳은 예전에 프리렌과 힘멜 일행이 마족으로부터 지켜낸 마을이었다. 마을에 세워진 동상을 보던 프리렌은 어떤 일을 떠올린다──. 그 후에 도착한 그라나트 백작이 다스리는 도시\"; div.swiper-slide swiper-slide-item-6 item>a[label=제7화 옛날이야기 같은 것].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=제7화 옛날이야기 같은 것 next=2023.10.20 | 25분"
+      },
+      {
+        "id": "d4",
+        "text": "value=\"교역 도시 바름을 방문한 프리렌과 페른. 장 보기를 분담하자고 말하는 프리렌을 수상하게 여긴 페른은 프리렌의 뒤를 미행한다. 과연 프리렌의 목적은... 그 후 두 사람은 어떤 마을을 찾아간다. 그곳에는 예전에 프리렌과 힘멜이 싸웠던 마족 크발\"; div.swiper-slide swiper-slide-item-2 swiper-slide-vi>a[label=제3화 사람을 죽이는 마법].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=제3화 사람을 죽이는 마법 next=2023.09.29 | 25분"
+      },
+      {
+        "id": "d7",
+        "text": "value=\"리겔 협곡 근처 마을에서 지내고 있는 슈타르크는 홍경룡으로부터 마을을 지킨 것 때문에 영웅으로서 칭송받고 있지만 사실은 엄청난 겁쟁이였다. 하지만 슈타르크의 실력을 알아본 프리렌은 함께 홍경룡을 쓰러뜨리자고 말한다. 거대한 바위를 가를 정도의\"; div.swiper-slide swiper-slide-item-5 item>a[label=제6화 마을의 영웅].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=제6화 마을의 영웅 next=2023.10.13 | 25분"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "d5",
+        "text": "value=\"프리렌과 페른은 아이젠을 찾아간다. 옛정을 다지던 중 ′대마법사 플람메의 수기′를 찾는 일을 도와 달라고 부탁하는 아이젠. 세 사람은 하이터가 생전에 알아낸 수기가 잠들어 있는 장소가 있는 숲속 깊은 곳으로 향한다. 플람메의 수기라고 불리는 \"; div.swiper-slide swiper-slide-item-3 swiper-slide-vi>a[label=제4화 혼이 잠드는 땅].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=제4화 혼이 잠드는 땅 next=2023.09.29 | 26분"
+      },
+      {
+        "id": "d1",
+        "text": "value=\"용사 힘멜 일행과 함께 10년에 걸친 모험 끝에 마왕을 물리치고 세계에 평화를 가져온 마법사 프리렌. 천 년을 넘게 사는 엘프인 그녀는 힘멜 일행과 재회를 약속하고 혼자 여행을 떠난다. 그로부터 50년 후 프리렌은 힘멜을 찾아갔지만 50년 전\"; html.is-laptop>head>meta @description head-metadata"
+      },
+      {
+        "id": "d2",
+        "text": "value=\"마왕을 물리치고 왕도로 개선한 용사 힘멜 일행. 각자가 모험을 했던 10년을 되돌아보며 앞으로의 인생에 대해 생각하는 가운데, 엘프인 프리렌은 감개에 젖지도 않고 다시 마법 탐구를 위한 여행을 떠난다. 50년 후 동료들과의 약속을 지키기 위해\"; div.swiper-slide swiper-slide-item-0 swiper-slide-vi>a[label=제1화 모험의 끝].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=제1화 모험의 끝 next=2023.09.29 | 26분"
+      },
+      {
+        "id": "d3",
+        "text": "value=\"숲속 깊은 곳에 살고 있는 하이터를 찾아간 프리렌은 그와 함께 살고 있는 고아 페른과 만난다. 하이터로부터 그녀에게 마법을 가르쳐 줄 것을 부탁받은 프리렌. 그리고 어떤 사건을 계기로 페른과 함께 여행을 하게 된다. 여행을 하다 힘멜의 동상이\"; div.swiper-slide swiper-slide-item-1 swiper-slide-vi>a[label=제2화 딱히 마법이 아니어도…].undefined css-4g6ai3 efqru170>div.item__info>p.item__subtitle item__line-3 @text visible; prev=제2화 딱히 마법이 아니어도… next=2023.09.29 | 26분"
+      }
+    ],
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-wavve-title",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-wavve",
+      "work": "witch",
+      "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+      "capturedAt": "2026-11-13T09:56:35.252Z",
+      "htmlSha256": "c3baf18105a1d5c22119d0f4a1f21f10d26cba0b9dfe3b5b8601b9a7a13d0817"
+    },
+    "field": "title",
+    "scenario": [
+      "image-title-logo",
+      "full-vs-truncated-synopsis",
+      "duplicate-metadata"
+    ],
+    "document": "URL: https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season\nDocument title: 어느 마녀가 죽을 때까지 : 웨이브\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t4",
+        "text": "value=\"어느 마녀가 죽을 때까지\"; em.logo>div.w-img__wrap>picture>img.w-img @alt visible"
+      },
+      {
+        "id": "t2",
+        "text": "value=\"Wavve(웨이브)\"; html>head>meta @og:title head-metadata"
+      },
+      {
+        "id": "t8",
+        "text": "value=\"23분 회 1. 여명 1년의 마녀\"; div.picture-area>div.w-img__wrap>picture>img.w-img thumb @alt visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t1",
+        "text": "value=\"어느 마녀가 죽을 때까지 : 웨이브\"; html>head>title @text head-metadata"
+      },
+      {
+        "id": "t3",
+        "text": "value=\"[wavve]어느 마녀가 죽을 때까지\"; html>head>meta @og:title head-metadata"
+      },
+      {
+        "id": "t7",
+        "text": "value=\"15세 이상 관람가 아이콘\"; dl.metadata-list>dd.dot-item>span>img @alt visible"
+      },
+      {
+        "id": "t5",
+        "text": "value=\"공지사항\"; footer.footer>div.footer-notice>div.footer-notice-inner>h2.footer-notice-hd @text visible navigation"
+      },
+      {
+        "id": "t6",
+        "text": "value=\"Wavve\"; nav.navbar-container>div.navbar-content>a.logo logo>img.default wavve-logo @alt visible navigation"
+      }
+    ],
+    "expectedId": "t4",
+    "acceptedIds": [
+      "t4"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-wavve-image",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-wavve",
+      "work": "witch",
+      "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+      "capturedAt": "2026-11-13T09:56:35.252Z",
+      "htmlSha256": "c3baf18105a1d5c22119d0f4a1f21f10d26cba0b9dfe3b5b8601b9a7a13d0817"
+    },
+    "field": "image",
+    "scenario": [
+      "image-title-logo",
+      "full-vs-truncated-synopsis",
+      "duplicate-metadata"
+    ],
+    "document": "URL: https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season\nDocument title: 어느 마녀가 죽을 때까지 : 웨이브\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "i8",
+        "text": "value=\"image.wavve.com/v1/thumbnails/240_135/meta/image/202509/17573830939751…age/202509/1757383093975155879.web\"; div.picture-area>div.w-img__wrap>picture>img.w-img thumb @src visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "i2",
+        "text": "value=\"image.wavve.com/v1/thumbnails/1240_698/meta/image/202509/1757326229391…age/202509/1757326229391943332.web\"; div.picture-area>div.w-img__wrap>picture>img.w-img poster-thumb @src visible"
+      },
+      {
+        "id": "i5",
+        "text": "value=\"image.wavve.com/v1/thumbnails/240_135/meta/image/202509/17573268544839…age/202509/1757326854483993311.web\"; div.picture-area>div.w-img__wrap>picture>img.w-img thumb @src visible"
+      },
+      {
+        "id": "i3",
+        "text": "value=\"image.wavve.com/v1/thumbnails/0_0/meta/image/202509/175732624373607399…age/202509/1757326243736073991.web\"; em.logo>div.w-img__wrap>picture>img.w-img @src visible"
+      },
+      {
+        "id": "i7",
+        "text": "value=\"image.wavve.com/v1/thumbnails/240_135/meta/image/202509/17573830556132…age/202509/1757383055613275072.web\"; div.picture-area>div.w-img__wrap>picture>img.w-img thumb @src visible"
+      },
+      {
+        "id": "i4",
+        "text": "value=\"www.wavve.com/static/element-icons-72-x-72-ic-vod-15-years-91e633a7.…2-x-72-ic-vod-15-years-91e633a7.svg\"; dl.metadata-list>dd.dot-item>span>img @src visible"
+      },
+      {
+        "id": "i1",
+        "text": "value=\"www.wavve.com/static/ci-wavve-112-x-24-19271ad2.svg\"; nav.navbar-container>div.navbar-content>a.logo logo>img.default wavve-logo @src visible navigation"
+      },
+      {
+        "id": "i6",
+        "text": "value=\"image.wavve.com/v1/thumbnails/240_135/meta/image/202509/17573830194380…age/202509/1757383019438078005.web\"; div.picture-area>div.w-img__wrap>picture>img.w-img thumb @src visible"
+      }
+    ],
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "quality": {
+      "observedCandidates": 16,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-wavve-description",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-wavve",
+      "work": "witch",
+      "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+      "capturedAt": "2026-11-13T09:56:35.252Z",
+      "htmlSha256": "c3baf18105a1d5c22119d0f4a1f21f10d26cba0b9dfe3b5b8601b9a7a13d0817"
+    },
+    "field": "description",
+    "scenario": [
+      "image-title-logo",
+      "full-vs-truncated-synopsis",
+      "duplicate-metadata"
+    ],
+    "document": "URL: https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season\nDocument title: 어느 마녀가 죽을 때까지 : 웨이브\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d4",
+        "text": "value=\"17세가 되는 생일을 맞이한 견습 마녀 메구 라즈베리는, 마법 스승이자 마법계 톱인 칠현인에 이름을 올린 '영년의 마녀' 파우스트로부터 갑작스럽게 여명 1년이라는 말을 듣게 되었다. 메구는 '죽음의 선고'라는 저주에 걸려 있었던 것이다. 저주\"; p.content-preview-box>div.content-clamp>span>span[label=17세가 되는 생일을 맞이한 견습 마녀 메구 ].text @aria-label visible; next=더보기"
+      },
+      {
+        "id": "d5",
+        "text": "value=\"라피스 마을에서 사는 견습 마녀 메구 라즈베리는 17살이 되는 생일에, 스승인 '영년의 마녀' 파우스트로부터 여명 1년의 저주에 걸렸다는 선고를 받았다. 살 수 있는 방법은 불가능에 가까워서 부루퉁해져 있는 가운데, 어떤 소녀로부터 엄마가 잠\"; a.episode-item-layout>div.episode-info-container>div.episode-description>p.episode-synopsis @text visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "d7",
+        "text": "value=\"파우스트가 집을 비우고, 집을 지키게 된 메구한테 동양에서 온 칠현인 중 하나인 '영지의 마녀' 이노리가 찾아왔다. 이노리는 메구와 대화를 하는 가운데, 그녀의 수명이 얼마 남지 않았다는 걸 꿰뚫어 보았는데...\"; a.episode-item-layout>div.episode-info-container>div.episode-description>p.episode-synopsis @text visible"
+      },
+      {
+        "id": "d6",
+        "text": "value=\"메구의 친구이자 학생인 피네가 마녀의 집에 상담을 하러 방문했다. 그녀의 소원은, 할아버지의 유품인 낡은 손목시계를 고치는 것. 움직이지 않게 된 손목시계는, 시계에 깃든 정령이 약해져 있는 것으로 보였는데...\"; a.episode-item-layout>div.episode-info-container>div.episode-description>p.episode-synopsis @text visible"
+      },
+      {
+        "id": "d8",
+        "text": "value=\"메구와 동갑이면서 칠현인인 '축복의 마녀' 소피가 이계 축제를 위해 라피스에 방문했다. 소피는 아름다운 마법 퍼포먼스로 사람들을 기쁘게 해주었지만, 그녀의 목적은 '마법을 이 세상에서 없애는 것'이었는데...\"; a.episode-item-layout>div.episode-info-container>div.episode-description>p.episode-synopsis @text visible"
+      },
+      {
+        "id": "d2",
+        "text": "value=\"1회 여명 1년의 마녀\"; html>head>meta @og:description head-metadata"
+      },
+      {
+        "id": "d1",
+        "text": "value=\"세상 얕은 콘텐츠부터 세상 딥한 콘텐츠까지 JUST DIVE! Wavve\"; html>head>meta @description head-metadata"
+      },
+      {
+        "id": "d3",
+        "text": "value=\"17세가 되는 생일을 맞이한 견습 마녀 메구 라즈베리는, 마법 스승이자 마법계 톱인 칠현인에 이름을 올린 '영년의 마녀' 파우스트로부터 갑작스럽게 여명 1년이라는 말을 듣게 되었다. 메구는 '죽음의 선고'라는 저주에 걸려 있었던 것이다. 저주\"; div.video-wrap>div.video-detail-area>div.detail-info-box player-detail>p.content-preview-box @text visible"
+      }
+    ],
+    "expectedId": "d4",
+    "acceptedIds": [
+      "d3",
+      "d4"
+    ],
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-wavve-search-title",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-wavve-search",
+      "work": "frieren",
+      "url": "https://www.wavve.com/search?searchWord=장송의%20프리렌",
+      "capturedAt": "2026-11-13T09:56:40.476Z",
+      "htmlSha256": "de5514ba2f4e0caf51b402c247cb283bfdcecf4f3ecffc0cb9496b0dcb0d16fb"
+    },
+    "field": "title",
+    "scenario": [
+      "search-not-detail",
+      "version-card-duplicates"
+    ],
+    "document": "URL: https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C\nDocument title: 장송의 프리렌 : 웨이브 검색결과\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t5",
+        "text": "value=\"에디터Pick34\"; div.search-body>div>section.title search-editorpick-title>h1.title-area @text visible; next=더보기"
+      },
+      {
+        "id": "t2",
+        "text": "value=\"Wavve(웨이브)\"; html>head>meta @og:title head-metadata"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t6",
+        "text": "value=\"자막으로 한 번, 더빙으로 두 번\"; section>div.multi portrait-cell>div.title>h1.title-area @text visible"
+      },
+      {
+        "id": "t8",
+        "text": "value=\"추운 겨울을 녹여줄 힐링 애니\"; section>div.multi portrait-cell>div.title>h1.title-area @text visible"
+      },
+      {
+        "id": "t3",
+        "text": "value=\"프로그램4\"; section>div.multi portrait-cell>div.title>h1.title-area @text visible"
+      },
+      {
+        "id": "t1",
+        "text": "value=\"장송의 프리렌 : 웨이브 검색결과\"; html>head>title @text head-metadata"
+      },
+      {
+        "id": "t7",
+        "text": "value=\"애니 속 확신의 성장캐\"; section>div.multi portrait-cell>div.title>h1.title-area @text visible"
+      },
+      {
+        "id": "t4",
+        "text": "value=\"에피소드76\"; section>div.multi landscape-cell>div.title>h1.title-area @text visible"
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-wavve-search-image",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-wavve-search",
+      "work": "frieren",
+      "url": "https://www.wavve.com/search?searchWord=장송의%20프리렌",
+      "capturedAt": "2026-11-13T09:56:40.476Z",
+      "htmlSha256": "de5514ba2f4e0caf51b402c247cb283bfdcecf4f3ecffc0cb9496b0dcb0d16fb"
+    },
+    "field": "image",
+    "scenario": [
+      "search-not-detail",
+      "version-card-duplicates"
+    ],
+    "document": "URL: https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C\nDocument title: 장송의 프리렌 : 웨이브 검색결과\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "i7",
+        "text": "value=\"image.wavve.com/v1/thumbnails/240_135/meta/image/202403/17101156292744…age/202403/1710115629274491574.web\"; div.picture-area>div.w-img__wrap>picture>img.w-img thumb-img @src visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "i6",
+        "text": "value=\"image.wavve.com/v1/thumbnails/240_135/meta/image/202403/17107208532779…age/202403/1710720853277903542.web\"; div.picture-area>div.w-img__wrap>picture>img.w-img thumb-img @src visible"
+      },
+      {
+        "id": "i4",
+        "text": "value=\"image.wavve.com/v1/thumbnails/240_360/meta/image/202601/17685493306304…age/202601/1768549330630488071.web\"; div.picture-area>div.w-img__wrap>picture>img.w-img thumb-img @src visible"
+      },
+      {
+        "id": "i3",
+        "text": "value=\"image.wavve.com/v1/thumbnails/240_360/meta/image/202408/17246509065994…age/202408/1724650906599491312.web\"; div.picture-area>div.w-img__wrap>picture>img.w-img thumb-img @src visible"
+      },
+      {
+        "id": "i1",
+        "text": "value=\"www.wavve.com/static/ci-wavve-112-x-24-19271ad2.svg\"; nav.navbar-container>div.navbar-content>a.logo logo>img.default wavve-logo @src visible navigation"
+      },
+      {
+        "id": "i2",
+        "text": "value=\"image.wavve.com/v1/thumbnails/240_360/meta/image/202310/16963987065195…age/202310/1696398706519541443.web\"; div.picture-area>div.w-img__wrap>picture>img.w-img thumb-img @src visible"
+      },
+      {
+        "id": "i5",
+        "text": "value=\"image.wavve.com/v1/thumbnails/240_135/meta/image/202403/17113255340133…age/202403/1711325534013306530.web\"; div.picture-area>div.w-img__wrap>picture>img.w-img thumb-img @src visible"
+      },
+      {
+        "id": "i8",
+        "text": "value=\"image.wavve.com/v1/thumbnails/240_135/meta/image/202403/17092562914392…age/202403/1709256291439263954.web\"; div.picture-area>div.w-img__wrap>picture>img.w-img thumb-img @src visible"
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-wavve-search-description",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-wavve-search",
+      "work": "frieren",
+      "url": "https://www.wavve.com/search?searchWord=장송의%20프리렌",
+      "capturedAt": "2026-11-13T09:56:40.476Z",
+      "htmlSha256": "de5514ba2f4e0caf51b402c247cb283bfdcecf4f3ecffc0cb9496b0dcb0d16fb"
+    },
+    "field": "description",
+    "scenario": [
+      "search-not-detail",
+      "version-card-duplicates"
+    ],
+    "document": "URL: https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C\nDocument title: 장송의 프리렌 : 웨이브 검색결과\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d6",
+        "text": "value=\"A랭크 파티를 이탈한 나는, 전 제자들과 미궁 심부를 목표로 한다.\"; div.swiper-wrapper>div.swiper-slide>div.thumb portrait>a[role=button][label=A랭크 파티를 이탈한 나는, 전 제자들과 미궁] @aria-label visible"
+      },
+      {
+        "id": "d2",
+        "text": "value=\"나 혼자만 레벨업 -ARISE FROM THE SHADOW- (자막)\"; div.swiper-wrapper>div.swiper-slide swiper-slide-active>div.thumb portrait>a[role=button][label=나 혼자만 레벨업 -ARISE FROM THE] @aria-label visible"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "d3",
+        "text": "value=\"슬라임을 잡으면서 300년, 모르는 사이에 레벨MAX가 되었습니다\"; div.swiper-wrapper>div.swiper-slide>div.thumb portrait>a[role=button][label=슬라임을 잡으면서 300년, 모르는 사이에 레] @aria-label visible"
+      },
+      {
+        "id": "d1",
+        "text": "value=\"세상 얕은 콘텐츠부터 세상 딥한 콘텐츠까지 JUST DIVE! Wavve\"; html>head>meta @description head-metadata"
+      },
+      {
+        "id": "d4",
+        "text": "value=\"헬 모드 ~파고들기 좋아하는 게이머는 폐급 설정 이세계에서 무쌍한다~\"; div.swiper-wrapper>div.swiper-slide>div.thumb portrait>a[role=button][label=헬 모드 ~파고들기 좋아하는 게이머는 폐급 설] @aria-label visible"
+      },
+      {
+        "id": "d5",
+        "text": "value=\"아군이 너무 약해 보조 마법으로 일관하던 궁정 마법사, 추방당해서 최강을 노린다\"; div.swiper-wrapper>div.swiper-slide>div.thumb portrait>a[role=button][label=아군이 너무 약해 보조 마법으로 일관하던 궁정] @aria-label visible"
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 6,
+      "presentedCandidates": 6,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-watcha-search-title",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon-watcha-search",
+      "work": "dungeon",
+      "url": "https://watcha.com/search?query=던전밥",
+      "capturedAt": "2026-11-13T09:56:45.033Z",
+      "htmlSha256": "3c6950d0031207936b05b8bb5e43ebda2ce7e0e3119793af46dac3dc1a5189e4"
+    },
+    "field": "title",
+    "scenario": [
+      "incomplete-search-shell"
+    ],
+    "document": "URL: https://watcha.com/ko/search?query=%EB%8D%98%EC%A0%84%EB%B0%A5\nDocument title: 왓챠\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t1",
+        "text": "value=\"왓챠\"; html>head>title @text head-metadata"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t2",
+        "text": "value=\"왓챠 - 13만 편의 영화, 드라마, 애니, 예능 무제한 감상\"; html>head>meta @og:title head-metadata"
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-watcha-search-image",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon-watcha-search",
+      "work": "dungeon",
+      "url": "https://watcha.com/search?query=던전밥",
+      "capturedAt": "2026-11-13T09:56:45.033Z",
+      "htmlSha256": "3c6950d0031207936b05b8bb5e43ebda2ce7e0e3119793af46dac3dc1a5189e4"
+    },
+    "field": "image",
+    "scenario": [
+      "incomplete-search-shell"
+    ],
+    "document": "URL: https://watcha.com/ko/search?query=%EB%8D%98%EC%A0%84%EB%B0%A5\nDocument title: 왓챠\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "i1",
+        "text": "value=\"an2-ast.amz.wtchn.net/erd/_rx_base/assets/C0AF6C4s.png\"; html>head>meta @og:image head-metadata"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-watcha-search-description",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon-watcha-search",
+      "work": "dungeon",
+      "url": "https://watcha.com/search?query=던전밥",
+      "capturedAt": "2026-11-13T09:56:45.033Z",
+      "htmlSha256": "3c6950d0031207936b05b8bb5e43ebda2ce7e0e3119793af46dac3dc1a5189e4"
+    },
+    "field": "description",
+    "scenario": [
+      "incomplete-search-shell"
+    ],
+    "document": "URL: https://watcha.com/ko/search?query=%EB%8D%98%EC%A0%84%EB%B0%A5\nDocument title: 왓챠\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d1",
+        "text": "value=\"모든 영화, 드라마, 다큐멘터리, 애니메이션, 웹툰을 언제 어디서나 최고의 화질로 무제한 감상하세요.\"; html>head>meta @description head-metadata; prev=왓챠"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-coupang-search-title",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon-coupang-search",
+      "work": "dungeon",
+      "url": "https://www.coupangplay.com/search?q=던전밥",
+      "capturedAt": "2026-11-13T09:56:48.999Z",
+      "htmlSha256": "7f970d5f5e9f1cb9a400055a00abff7209a07b0886e9db7165b4e14850a3a051"
+    },
+    "field": "title",
+    "scenario": [
+      "unsupported-browser-or-search"
+    ],
+    "document": "URL: https://www.coupangplay.com/search?q=%EB%8D%98%EC%A0%84%EB%B0%A5\nDocument title: Access Denied\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t1",
+        "text": "value=\"Access Denied\"; html>body>h1 @text visible; next=Reference #18.84a52b17.179456380"
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-coupang-search-image",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon-coupang-search",
+      "work": "dungeon",
+      "url": "https://www.coupangplay.com/search?q=던전밥",
+      "capturedAt": "2026-11-13T09:56:48.999Z",
+      "htmlSha256": "7f970d5f5e9f1cb9a400055a00abff7209a07b0886e9db7165b4e14850a3a051"
+    },
+    "field": "image",
+    "scenario": [
+      "unsupported-browser-or-search"
+    ],
+    "document": "URL: https://www.coupangplay.com/search?q=%EB%8D%98%EC%A0%84%EB%B0%A5\nDocument title: Access Denied\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 0,
+      "presentedCandidates": 0,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-coupang-search-description",
+    "split": "holdout",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon-coupang-search",
+      "work": "dungeon",
+      "url": "https://www.coupangplay.com/search?q=던전밥",
+      "capturedAt": "2026-11-13T09:56:48.999Z",
+      "htmlSha256": "7f970d5f5e9f1cb9a400055a00abff7209a07b0886e9db7165b4e14850a3a051"
+    },
+    "field": "description",
+    "scenario": [
+      "unsupported-browser-or-search"
+    ],
+    "document": "URL: https://www.coupangplay.com/search?q=%EB%8D%98%EC%A0%84%EB%B0%A5\nDocument title: Access Denied\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d1",
+        "text": "value=\"Reference #18.84a52b17.1794563805.1f7f13d3\"; html>body>p @text visible; prev=Access Denied next=https://errors.edgesuite.net/18."
+      },
+      {
+        "id": "d2",
+        "text": "value=\"https://errors.edgesuite.net/18.84a52b17.1794563805.1f7f13d3\"; html>body>p @text visible; prev=Reference #18.84a52b17.179456380"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-crunchyroll-title",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-crunchyroll",
+      "work": "witch",
+      "url": "https://www.crunchyroll.com/search?q=어느%20마녀가%20죽을%20때까지",
+      "capturedAt": "2026-11-13T09:56:53.041Z",
+      "htmlSha256": "ac6e83607ae5daa7a1fa44f2abdaf50b697fb3475e9a56af3cf788579e64f142"
+    },
+    "field": "title",
+    "scenario": [
+      "generic-service-marketing"
+    ],
+    "document": "URL: https://www.crunchyroll.com/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80\nDocument title: 잠시만 기다리십시오…\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the element giving the clean series/movie title of the currently opened work detail. Exclude episode names/numbers, service slogans, search-result or recommendation titles. Return none if no work detail is open or evidence is insufficient.",
+    "options": [
+      {
+        "id": "t1",
+        "text": "value=\"잠시만 기다리십시오…\"; html>head>title @text head-metadata"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "t4",
+        "text": "value=\"확인에 성공했습니다. www.crunchyroll.com 응답을 기다리는 중\"; div[role=main].main-wrapper _ce97572261739fafe3625dde>div.main-content>div>h2._f22477196d34ea3a72f8e63d @text hidden"
+      },
+      {
+        "id": "t3",
+        "text": "value=\"보안 확인 수행 중\"; body>div[role=main].main-wrapper _ce97572261739fafe3625dde>div.main-content>h2._94a16fa41185d4f8ab2c3cee _05d4ef400cb16de62fd23 @text visible; prev=www.crunchyroll.com next=이 웹 사이트는 보안 서비스를 사용하여 악의적인 봇으로부터"
+      },
+      {
+        "id": "t5",
+        "text": "value=\"www.crunchyroll.com 아이콘\"; div[role=main].main-wrapper _ce97572261739fafe3625dde>div.main-content>div._7d19a2b03df133a5c6e912d0>img._3d44008755b33d6cf6f2453e _723e1f7e4471cfe08b70a @alt hidden; next=www.crunchyroll.com"
+      },
+      {
+        "id": "t2",
+        "text": "value=\"www.crunchyroll.com\"; div[role=main].main-wrapper _ce97572261739fafe3625dde>div.main-content>div._7d19a2b03df133a5c6e912d0>h1 @text visible"
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-crunchyroll-image",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-crunchyroll",
+      "work": "witch",
+      "url": "https://www.crunchyroll.com/search?q=어느%20마녀가%20죽을%20때까지",
+      "capturedAt": "2026-11-13T09:56:53.041Z",
+      "htmlSha256": "ac6e83607ae5daa7a1fa44f2abdaf50b697fb3475e9a56af3cf788579e64f142"
+    },
+    "field": "image",
+    "scenario": [
+      "generic-service-marketing"
+    ],
+    "document": "URL: https://www.crunchyroll.com/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80\nDocument title: 잠시만 기다리십시오…\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select representative artwork for the currently opened series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode and recommendation thumbnails. Return none when no work detail or artwork evidence exists.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      },
+      {
+        "id": "i1",
+        "text": "value=\"www.crunchyroll.com/favicon.ico\"; div[role=main].main-wrapper _ce97572261739fafe3625dde>div.main-content>div._7d19a2b03df133a5c6e912d0>img._3d44008755b33d6cf6f2453e _723e1f7e4471cfe08b70a @src hidden; next=www.crunchyroll.com"
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-crunchyroll-description",
+    "split": "calibration",
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-crunchyroll",
+      "work": "witch",
+      "url": "https://www.crunchyroll.com/search?q=어느%20마녀가%20죽을%20때까지",
+      "capturedAt": "2026-11-13T09:56:53.041Z",
+      "htmlSha256": "ac6e83607ae5daa7a1fa44f2abdaf50b697fb3475e9a56af3cf788579e64f142"
+    },
+    "field": "description",
+    "scenario": [
+      "generic-service-marketing"
+    ],
+    "document": "URL: https://www.crunchyroll.com/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80\nDocument title: 잠시만 기다리십시오…\nCandidates are bounded observations from this same live DOM; head metadata may be hidden normally. Ancestors use >; adjacent text is local context.",
+    "question": "Select the series/movie plot synopsis of the currently opened work detail. Metadata or visible synopsis is valid; exclude episode plots, service marketing, placeholders, legal text and recommendations. Return none when the work or synopsis is absent.",
+    "options": [
+      {
+        "id": "d1",
+        "text": "value=\"이 웹 사이트는 보안 서비스를 사용하여 악의적인 봇으로부터 보호합니다. 이 페이지는 웹 사이트에서 사용자가 봇이 아님을 확인하는 동안에만 표시됩니다.\"; body>div[role=main].main-wrapper _ce97572261739fafe3625dde>div.main-content>p._cee447503e6c0729fd2968cc _f22477196d34ea3a72f8e @text visible; prev=보안 확인 수행 중"
+      },
+      {
+        "id": "__none__",
+        "text": "None: no suitable current-work element in the evidence."
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  }
+]
