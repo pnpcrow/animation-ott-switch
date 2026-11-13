@@ -1,0 +1,419 @@
+[
+  {
+    "id": "dandadan-netflix-title",
+    "split": "holdout",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dandadan-netflix",
+      "work": "dandadan",
+      "url": "https://www.netflix.com/kr/title/81736884",
+      "capturedAt": "2026-11-13T12:08:45.243Z",
+      "htmlSha256": "81f78403ec01c077f13e80882ea58ee09eb26c3de1016ded432d70bfb6792451"
+    },
+    "quality": {
+      "observedCandidates": 12,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "dandadan-netflix-image",
+    "split": "holdout",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dandadan-netflix",
+      "work": "dandadan",
+      "url": "https://www.netflix.com/kr/title/81736884",
+      "capturedAt": "2026-11-13T12:08:45.243Z",
+      "htmlSha256": "81f78403ec01c077f13e80882ea58ee09eb26c3de1016ded432d70bfb6792451"
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "dandadan-netflix-description",
+    "split": "holdout",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dandadan-netflix",
+      "work": "dandadan",
+      "url": "https://www.netflix.com/kr/title/81736884",
+      "capturedAt": "2026-11-13T12:08:45.243Z",
+      "htmlSha256": "81f78403ec01c077f13e80882ea58ee09eb26c3de1016ded432d70bfb6792451"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "spy-family-apple-title",
+    "split": "holdout",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "spy-family-apple",
+      "work": "spy-family",
+      "url": "https://tv.apple.com/kr/show/스파이-패밀리/umc.cmc.1vuf6gpxnoqci1yey2n13h3nx",
+      "capturedAt": "2026-11-13T12:08:50.536Z",
+      "htmlSha256": "9958984d1d87d123e064b42cecad52732a7cb2802fe2a8e2fd630ffb48c57e0a"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "spy-family-apple-image",
+    "split": "holdout",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "spy-family-apple",
+      "work": "spy-family",
+      "url": "https://tv.apple.com/kr/show/스파이-패밀리/umc.cmc.1vuf6gpxnoqci1yey2n13h3nx",
+      "capturedAt": "2026-11-13T12:08:50.536Z",
+      "htmlSha256": "9958984d1d87d123e064b42cecad52732a7cb2802fe2a8e2fd630ffb48c57e0a"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "spy-family-apple-description",
+    "split": "holdout",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "spy-family-apple",
+      "work": "spy-family",
+      "url": "https://tv.apple.com/kr/show/스파이-패밀리/umc.cmc.1vuf6gpxnoqci1yey2n13h3nx",
+      "capturedAt": "2026-11-13T12:08:50.536Z",
+      "htmlSha256": "9958984d1d87d123e064b42cecad52732a7cb2802fe2a8e2fd630ffb48c57e0a"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "chainsaw-tving-title",
+    "split": "holdout",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "chainsaw-tving",
+      "work": "chainsaw-man",
+      "url": "https://www.tving.com/contents/P001654042",
+      "capturedAt": "2026-11-13T12:08:56.610Z",
+      "htmlSha256": "7d4480554c258f458dfc5dcfc5dd1d53bc0454c969c0958b32c35e6ad04efdc5"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "chainsaw-tving-image",
+    "split": "holdout",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "chainsaw-tving",
+      "work": "chainsaw-man",
+      "url": "https://www.tving.com/contents/P001654042",
+      "capturedAt": "2026-11-13T12:08:56.610Z",
+      "htmlSha256": "7d4480554c258f458dfc5dcfc5dd1d53bc0454c969c0958b32c35e6ad04efdc5"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "chainsaw-tving-description",
+    "split": "holdout",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "chainsaw-tving",
+      "work": "chainsaw-man",
+      "url": "https://www.tving.com/contents/P001654042",
+      "capturedAt": "2026-11-13T12:08:56.610Z",
+      "htmlSha256": "7d4480554c258f458dfc5dcfc5dd1d53bc0454c969c0958b32c35e6ad04efdc5"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "demon-slayer-laftel-title",
+    "split": "holdout",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "demon-slayer-laftel",
+      "work": "demon-slayer",
+      "url": "https://laftel.net/item/40587",
+      "capturedAt": "2026-11-13T12:09:01.851Z",
+      "htmlSha256": "bdfebf151aa163c45a0a6c6778f31162a30fd4afceab63b0e2fd83643e494fa9"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "demon-slayer-laftel-image",
+    "split": "holdout",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "demon-slayer-laftel",
+      "work": "demon-slayer",
+      "url": "https://laftel.net/item/40587",
+      "capturedAt": "2026-11-13T12:09:01.851Z",
+      "htmlSha256": "bdfebf151aa163c45a0a6c6778f31162a30fd4afceab63b0e2fd83643e494fa9"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "demon-slayer-laftel-description",
+    "split": "holdout",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "demon-slayer-laftel",
+      "work": "demon-slayer",
+      "url": "https://laftel.net/item/40587",
+      "capturedAt": "2026-11-13T12:09:01.851Z",
+      "htmlSha256": "bdfebf151aa163c45a0a6c6778f31162a30fd4afceab63b0e2fd83643e494fa9"
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "new-search-laftel-title",
+    "split": "holdout",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "new-search-laftel",
+      "work": "none-search",
+      "url": "https://laftel.net/search?keyword=스파이%20패밀리",
+      "capturedAt": "2026-11-13T12:09:07.046Z",
+      "htmlSha256": "4a01ba181471e44e08a45587d3de02a79f80586fa13585b73bb4c00166504fb9"
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "new-search-laftel-image",
+    "split": "holdout",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "new-search-laftel",
+      "work": "none-search",
+      "url": "https://laftel.net/search?keyword=스파이%20패밀리",
+      "capturedAt": "2026-11-13T12:09:07.046Z",
+      "htmlSha256": "4a01ba181471e44e08a45587d3de02a79f80586fa13585b73bb4c00166504fb9"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "new-search-laftel-description",
+    "split": "holdout",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "new-search-laftel",
+      "work": "none-search",
+      "url": "https://laftel.net/search?keyword=스파이%20패밀리",
+      "capturedAt": "2026-11-13T12:09:07.046Z",
+      "htmlSha256": "4a01ba181471e44e08a45587d3de02a79f80586fa13585b73bb4c00166504fb9"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "new-help-netflix-title",
+    "split": "holdout",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "new-help-netflix",
+      "work": "none-help",
+      "url": "https://help.netflix.com/ko/node/47765",
+      "capturedAt": "2026-11-13T12:09:12.930Z",
+      "htmlSha256": "02dd90d39a4b32982d59c27913815736161d2431ae54de0e5681e1287ae35e52"
+    },
+    "quality": {
+      "observedCandidates": 13,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "new-help-netflix-image",
+    "split": "holdout",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "new-help-netflix",
+      "work": "none-help",
+      "url": "https://help.netflix.com/ko/node/47765",
+      "capturedAt": "2026-11-13T12:09:12.930Z",
+      "htmlSha256": "02dd90d39a4b32982d59c27913815736161d2431ae54de0e5681e1287ae35e52"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "new-help-netflix-description",
+    "split": "holdout",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "new-help-netflix",
+      "work": "none-help",
+      "url": "https://help.netflix.com/ko/node/47765",
+      "capturedAt": "2026-11-13T12:09:12.930Z",
+      "htmlSha256": "02dd90d39a4b32982d59c27913815736161d2431ae54de0e5681e1287ae35e52"
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  }
+]

@@ -1,0 +1,4 @@
+import test from "node:test";import assert from "node:assert/strict";
+import {refinedTemplates,refinedPrompt} from "./refined.mjs";
+const row={id:"private-case",field:"description",expectedId:"secret-node",pageEvidence:{url:"https://x.example/detail/1",documentTitle:"Some Show",headings:[],visibleDialogCount:0},options:[{id:"secret-node",text:"legacy",evidence:{value:"Observed story",nodes:[{tag:"p",attribute:"text",hidden:false}]}},{id:"__none__",text:"none"}]};
+test("development error refinements contain contrastive scope examples without gold",()=>{for(const t of refinedTemplates){const p=refinedPrompt(row,t,{indexBase:1});assert.ok(p.includes("Observed story"));assert.ok(p.includes("/search"));assert.ok(!p.includes(row.id));assert.ok(!p.includes(row.expectedId));assert.ok(p.endsWith("Best answer: ["));}});

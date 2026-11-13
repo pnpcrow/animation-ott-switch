@@ -1,0 +1,50 @@
+{
+  "version": 2,
+  "frozenAt": "2026-11-13T12:12:11.328Z",
+  "development": {
+    "cases": 48,
+    "pages": 16,
+    "previousAll48NowDevelopment": true
+  },
+  "holdout": {
+    "cases": 18,
+    "pages": 6,
+    "newWorks": 4,
+    "workDetailProviders": 4,
+    "nonDetailPages": 2,
+    "positiveFields": 12,
+    "negativeFields": 6
+  },
+  "collection": {
+    "browser": "Playwright Chromium, anonymous new contexts, ko-KR, 1440x1000",
+    "method": "domcontentloaded then 4.5 seconds; live DOM read without page modifications or sign-in",
+    "candidateCap": 8,
+    "candidatePolicy": "v1 generic extraction: bounded document-order candidates, exact-value dedup; first 8 plus none; SHA256-based deterministic shuffle by case ID; no labels or model output consulted",
+    "annotationMethod": "Human/agent review of captured official public HTML, element ancestry, local text and rendered screenshots. No evaluated model output was used. Candidate pools were fixed generically before annotation."
+  },
+  "poolRecall": {
+    "positiveGoldFields": 12,
+    "positiveGoldInPresentedPool": 12,
+    "allCasesWithAcceptedChoice": 18,
+    "denominatorAllCases": 18
+  },
+  "excludedCaptureAttempts": [
+    {
+      "url": "https://laftel.net/item/39431",
+      "observedDocumentTitle": "회원가입 / 로그인 - 라프텔",
+      "reason": "Initial intended detail redirected to login/age access page. Before model evaluation, replaced by a publicly readable movie in the same new franchise to meet the four-work-detail target.",
+      "replacementUrl": "https://laftel.net/item/40587",
+      "rawLocation": ".tmp/tiny-dom-v2-holdout/demon-slayer-laftel-blocked.html"
+    }
+  ],
+  "modelIsolation": "Model payload builders receive only input rows. Labels, annotation notes, work provenance and canonical title targets are separate and must not enter prompts. Template selection uses only development; new holdout labels remain unread by template author until selection is locked.",
+  "hashes": {
+    "development-inputs.json": "1964fe0e69340d29490fd466f31db4890de647cde6343ea35854fe0601029f7e",
+    "development-labels.json": "3b3221073527a7a4c169637f8f68c613c42a94b3d00dd35db397d9b5bd38b92a",
+    "development-observations.json": "b74b3c8ab71b8b817c722089293915a4b98f7e7145008ee78de0e5ad671908d9",
+    "holdout-inputs.json": "10e9dc2188098b04f0fdae3a89cc484358306f40259d408f2a5f27167aa5110a",
+    "holdout-labels.json": "4a9be08bca1b7aa415a33fc5238cea5df3c2fde2dcba94b51dc30a93d1594f0f",
+    "holdout-observations.json": "d3f4f5bfb374931770e4613721ba8fb0d0fd434ff3c6c485fd2c115ddcbfb1e5",
+    "holdout-annotations.json": "9c1fe849925a3948c45074adb23e5932233e45abfdb5f1655b614ee77702b6d9"
+  }
+}

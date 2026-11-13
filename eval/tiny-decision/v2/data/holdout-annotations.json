@@ -1,0 +1,49 @@
+{
+  "annotationMethod": "Human/agent review of captured official public HTML, element ancestry, local text and rendered screenshots. No evaluated model output was used. Candidate pools were fixed generically before annotation.",
+  "pages": {
+    "dandadan-netflix": {
+      "title": "t2",
+      "image": "i1",
+      "description": "d2",
+      "accepted": {"image": ["i1", "i2"], "description": ["d1", "d2"]},
+      "canonicalTitle": "단다단",
+      "note": "Clean series heading is distinct from decorated SEO title. Official artwork metadata and main backdrop both represent this series. The two metadata synopsis variants are equivalent for element selection; later descriptions are individual episodes. Title graphics are not representative artwork."
+    },
+    "spy-family-apple": {
+      "title": "t2",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {"image": ["i1", "i2"]},
+      "canonicalTitle": "스파이 패밀리",
+      "note": "Series heading/title-logo alt supplies clean title. Desktop landscape and responsive portrait artwork are both series artwork. The title PNG, provider coin and episode thumbnails are distractors. Repeated series synopsis nodes share one candidate value."
+    },
+    "chainsaw-tving": {
+      "title": "t3",
+      "image": "i1",
+      "description": "d1",
+      "canonicalTitle": "체인소 맨",
+      "note": "The page includes a series detail header and episode list. H1/SEO adds episode 1, while series artwork alt gives the clean series title. Official OG metadata is series artwork. Visible 19-block placeholder URLs are generic age-gating images, not artwork; title-logo PNG and episode images are excluded. Series metadata synopsis is distinct from episode summaries."
+    },
+    "demon-slayer-laftel": {
+      "title": "t3",
+      "image": "i1",
+      "description": "d2",
+      "canonicalTitle": "(자막) 극장판 귀멸의 칼날 : 남매의 연",
+      "note": "Movie detail opens as a modal over a homepage with many unrelated recommendation cards. Visible movie heading includes its subtitle/version label. Official movie artwork and plot metadata belong to the open work; homepage carousel graphics, recommendation titles and service marketing do not."
+    },
+    "new-search-laftel": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "canonicalTitle": null,
+      "note": "Only a search view is open. The query in its heading is not an opened work detail, and service image/marketing metadata are not work fields."
+    },
+    "new-help-netflix": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "canonicalTitle": null,
+      "note": "This is an official help article about searching/browsing, not a series or movie detail. Article heading, help icon and instructional prose remain negative candidates despite valid headings and metadata."
+    }
+  }
+}
