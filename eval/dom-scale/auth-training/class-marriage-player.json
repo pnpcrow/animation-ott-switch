@@ -1,0 +1,2178 @@
+{
+  "id": "auth-class-marriage-player",
+  "work": "class-marriage",
+  "provider": "laftel",
+  "observedKind": "fullplayer-playing",
+  "captureMethod": "existing authenticated Chrome, read-only CUA DOM",
+  "capturedAt": "2026-11-13T14:46:33.567Z",
+  "documentTitle": "반에서 가장 싫어하는 여자애와 결혼하게 되었다. 4화 다시보기 | 라프텔",
+  "enrichment": {
+    "computedLayout": true,
+    "privacy": "No body prefix, account fields, HTML, cookies, video URLs or user storage retained; profile images omitted.",
+    "version": "auth-read-only-v1"
+  },
+  "fields": {
+    "description": [
+      {
+        "id": "d1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/body:1/meta:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          },
+          {
+            "alt": null,
+            "attribute": "og:description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/body:1/meta:9",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          },
+          {
+            "alt": null,
+            "attribute": "twitter:description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/body:1/meta:17",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "반에서 가장 싫어하는 여자애와 결혼하게 되었다. 4화 - 야습 다시보기. 매일 서로에 대한 불만을 말하면서도, 순조롭게 결혼생활에 익숙해지기 시작한 사이토와 아카네. 그러나 어느 날 밤, 집에 귀신(?)이 출몰하면서 아카네는 한바탕 난리가 났다. 사이토는 오컬트에 대한 걸 믿지 않았지만"
+      },
+      {
+        "id": "d2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:2/div:1/div:1/div:2",
+            "renderedHeight": 42,
+            "renderedWidth": 910,
+            "tag": "div"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:2/span:1",
+            "renderedHeight": 59,
+            "renderedWidth": 896,
+            "tag": "span"
+          }
+        ],
+        "value": "매일 서로에 대한 불만을 말하면서도, 순조롭게 결혼생활에 익숙해지기 시작한 사이토와 아카네. 그러나 어느 날 밤, 집에 귀신(?)이 출몰하면서 아카네는 한바탕 난리가 났다. 사이토는 오컬트에 대한 걸 믿지 않았지만, 겁이 많은 아카네의 생활이 유령 탓에 피폐해지자 사촌 동생인 시세이에게"
+      },
+      {
+        "id": "d3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "div:1/div:1/div:1/p:1",
+            "renderedHeight": 42,
+            "renderedWidth": 918,
+            "tag": "p"
+          }
+        ],
+        "value": "말 그대로 처음부터 끝까지 시세이가 무쌍을 찍어버린 화였다 어째 시세이가 나온 파트는 다른 파트에 비해 더 재밌는듯ㅋㅋ"
+      },
+      {
+        "id": "d4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "div:1/div:1/div:1/p:1",
+            "renderedHeight": 21,
+            "renderedWidth": 918,
+            "tag": "p"
+          }
+        ],
+        "value": "아니 난 조기입학한 줄 알았는데 동갑이야??? 생일이 느려서 걍 오빠라 하는건가"
+      },
+      {
+        "id": "d5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "div:1/div:1/div:1/p:1",
+            "renderedHeight": 21,
+            "renderedWidth": 918,
+            "tag": "p"
+          }
+        ],
+        "value": "11:41 시세상 할때 시세이라고 나온이유가 저 은발여동생이름이 시세이였었구나 그냥 시세인줄"
+      }
+    ],
+    "image": [
+      {
+        "id": "i1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "og:image",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/body:1/meta:11",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          },
+          {
+            "alt": null,
+            "attribute": "twitter:image",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/body:1/meta:18",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          },
+          {
+            "alt": "4화 야습",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "https://thumbnail.laftel.net/assets/2025/01/90631/v30/a3e04aa5a007/Thumbnail.0000057.jpg"
+      },
+      {
+        "id": "i2",
+        "nodes": [
+          {
+            "alt": "1화 가장 싫어하는 여자애와 결혼했다",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "https://thumbnail.laftel.net/assets/2025/01/90241/v30/31b9fa66b09d/Thumbnail.0000057.jpg"
+      },
+      {
+        "id": "i3",
+        "nodes": [
+          {
+            "alt": "2화 새로운 생활",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "https://thumbnail.laftel.net/assets/2025/01/90456/v30/8a3df6aba539/Thumbnail.0000057.jpg"
+      },
+      {
+        "id": "i4",
+        "nodes": [
+          {
+            "alt": "3화 나의 신부",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "https://thumbnail.laftel.net/assets/2025/01/90544/v30/ef02babe6239/Thumbnail.0000057.jpg"
+      },
+      {
+        "id": "i5",
+        "nodes": [
+          {
+            "alt": "5화 지지 않을 테니까",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "https://thumbnail.laftel.net/assets/2025/02/90695/v30/1252993c52e0/Thumbnail.0000057.jpg"
+      },
+      {
+        "id": "i6",
+        "nodes": [
+          {
+            "alt": "6화 부부의 첫 데이트",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "https://thumbnail.laftel.net/assets/2025/02/90851/v30/4ed32732c575/Thumbnail.0000057.jpg"
+      },
+      {
+        "id": "i7",
+        "nodes": [
+          {
+            "alt": "7화 반지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "https://thumbnail.laftel.net/assets/2025/02/90992/v30/5c4fef428082/Thumbnail.0000057.jpg"
+      },
+      {
+        "id": "i8",
+        "nodes": [
+          {
+            "alt": "8화 선배",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "https://thumbnail.laftel.net/assets/2025/02/91131/v30/0efd870ad90f/Thumbnail.0000057.jpg"
+      },
+      {
+        "id": "i9",
+        "nodes": [
+          {
+            "alt": "9화 여동생 마음",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "https://thumbnail.laftel.net/assets/2025/03/91234/v30/4c88cc64651c/Thumbnail.0000057.jpg"
+      },
+      {
+        "id": "i10",
+        "nodes": [
+          {
+            "alt": "10화 여친 (임시)",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "https://thumbnail.laftel.net/assets/2025/03/91394/v30/d83beb74f13b/Thumbnail.0000057.jpg"
+      },
+      {
+        "id": "i11",
+        "nodes": [
+          {
+            "alt": "11화 목소리",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "https://thumbnail.laftel.net/assets/2025/03/91560/v30/48871a75c8a5/Thumbnail.0000057.jpg"
+      },
+      {
+        "id": "i12",
+        "nodes": [
+          {
+            "alt": "12화 가장 싫어하는 남자애와 결혼했다",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "https://thumbnail.laftel.net/assets/2025/03/91814/v30/81e624e3e7b8/Thumbnail.0000057.jpg"
+      },
+      {
+        "id": "i13",
+        "nodes": [
+          {
+            "alt": "레전드 등급 아이콘",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 50,
+            "naturalWidth": 50,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/header:1/picture:1/img:1",
+            "renderedHeight": 18,
+            "renderedWidth": 18,
+            "tag": "img"
+          },
+          {
+            "alt": "레전드 등급 아이콘",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 50,
+            "naturalWidth": 50,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/header:1/picture:1/img:1",
+            "renderedHeight": 18,
+            "renderedWidth": 18,
+            "tag": "img"
+          },
+          {
+            "alt": "레전드 등급 아이콘",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 50,
+            "naturalWidth": 50,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/header:1/picture:1/img:1",
+            "renderedHeight": 18,
+            "renderedWidth": 18,
+            "tag": "img"
+          }
+        ],
+        "value": "https://laftel.net/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flevelmark_legend.3ev16-th1ghog.webp&w=256&q=75"
+      }
+    ],
+    "title": [
+      {
+        "id": "t1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/body:1/title:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "title"
+          }
+        ],
+        "value": "반에서 가장 싫어하는 여자애와 결혼하게 되었다. 4화 다시보기 | 라프텔"
+      },
+      {
+        "id": "t2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "og:title",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/body:1/meta:8",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          },
+          {
+            "alt": null,
+            "attribute": "twitter:title",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "body"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/body:1/meta:16",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "반에서 가장 싫어하는 여자애와 결혼하게 되었다. 4화 - 야습"
+      },
+      {
+        "id": "t3",
+        "nodes": [
+          {
+            "alt": "1화 가장 싫어하는 여자애와 결혼했다",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "1화 가장 싫어하는 여자애와 결혼했다"
+      },
+      {
+        "id": "t4",
+        "nodes": [
+          {
+            "alt": "2화 새로운 생활",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "2화 새로운 생활"
+      },
+      {
+        "id": "t5",
+        "nodes": [
+          {
+            "alt": "3화 나의 신부",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "3화 나의 신부"
+      },
+      {
+        "id": "t6",
+        "nodes": [
+          {
+            "alt": "4화 야습",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "4화 야습"
+      },
+      {
+        "id": "t7",
+        "nodes": [
+          {
+            "alt": "5화 지지 않을 테니까",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "5화 지지 않을 테니까"
+      },
+      {
+        "id": "t8",
+        "nodes": [
+          {
+            "alt": "6화 부부의 첫 데이트",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "6화 부부의 첫 데이트"
+      },
+      {
+        "id": "t9",
+        "nodes": [
+          {
+            "alt": "7화 반지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "7화 반지"
+      },
+      {
+        "id": "t10",
+        "nodes": [
+          {
+            "alt": "8화 선배",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "8화 선배"
+      },
+      {
+        "id": "t11",
+        "nodes": [
+          {
+            "alt": "9화 여동생 마음",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "9화 여동생 마음"
+      },
+      {
+        "id": "t12",
+        "nodes": [
+          {
+            "alt": "10화 여친 (임시)",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "10화 여친 (임시)"
+      },
+      {
+        "id": "t13",
+        "nodes": [
+          {
+            "alt": "11화 목소리",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "11화 목소리"
+      },
+      {
+        "id": "t14",
+        "nodes": [
+          {
+            "alt": "12화 가장 싫어하는 남자애와 결혼했다",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 160,
+            "tag": "img"
+          }
+        ],
+        "value": "12화 가장 싫어하는 남자애와 결혼했다"
+      },
+      {
+        "id": "t15",
+        "nodes": [
+          {
+            "alt": "레전드 등급 아이콘",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 50,
+            "naturalWidth": 50,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/header:1/picture:1/img:1",
+            "renderedHeight": 18,
+            "renderedWidth": 18,
+            "tag": "img"
+          },
+          {
+            "alt": "레전드 등급 아이콘",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 50,
+            "naturalWidth": 50,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/header:1/picture:1/img:1",
+            "renderedHeight": 18,
+            "renderedWidth": 18,
+            "tag": "img"
+          },
+          {
+            "alt": "레전드 등급 아이콘",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 50,
+            "naturalWidth": 50,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/header:1/picture:1/img:1",
+            "renderedHeight": 18,
+            "renderedWidth": 18,
+            "tag": "img"
+          }
+        ],
+        "value": "레전드 등급 아이콘"
+      }
+    ]
+  },
+  "media": {
+    "fullscreen": false,
+    "playingCount": 1,
+    "videoCount": 1
+  },
+  "pageEvidence": {
+    "dialogs": [],
+    "documentTitle": "반에서 가장 싫어하는 여자애와 결혼하게 되었다. 4화 다시보기 | 라프텔",
+    "headings": [],
+    "url": "https://laftel.net/player/42628/80260",
+    "videos": [
+      {
+        "currentTime": 55.171778,
+        "ended": false,
+        "paused": false,
+        "readyState": 4,
+        "renderedHeight": 543,
+        "renderedWidth": 966
+      }
+    ],
+    "visibleDialogCount": 0
+  },
+  "pageUrl": "https://laftel.net/player/42628/80260",
+  "videoEvidence": [
+    {
+      "currentTime": 55.171778,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "renderedHeight": 543,
+      "renderedWidth": 966
+    }
+  ]
+}

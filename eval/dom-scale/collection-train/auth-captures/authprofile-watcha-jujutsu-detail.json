@@ -1,0 +1,2370 @@
+{
+  "id": "authprofile-watcha-jujutsu-detail",
+  "provider": "watcha",
+  "work": "jujutsu-kaisen",
+  "observedKind": "detail-with-preview-subscription-required",
+  "captureMethod": "authenticated-profile CUA read-only; actual page access state manually annotated",
+  "collectorVariant": "auth-read-only-v3",
+  "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+  "capturedAt": "2026-11-13T14:58:38.541Z",
+  "documentTitle": "극장판 주술회전 0 | 왓챠",
+  "enrichment": {
+    "computedLayout": true,
+    "privacy": "No body prefix, account fields, HTML, cookies, video URLs or user storage retained; profile images omitted.",
+    "version": "auth-read-only-v1"
+  },
+  "fields": {
+    "description": [
+      {
+        "id": "d1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0",
+              "관련 동영상"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:11",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          },
+          {
+            "alt": null,
+            "attribute": "og:description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0",
+              "관련 동영상"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:13",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "소꿉친구 리카를 사고로 잃고 원령으로 변한 그의 저주에 괴로워하던 유타는 최강의 주술사 사토루에 의해 주술고전에 들어간다. 한편, 과거 일반인을 학살해서 고전에서 추방된 최악의 주저사 게토 스구루가 나타난다. 1시간 44분"
+      },
+      {
+        "id": "d2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/section:1/div:3/p:1",
+            "renderedHeight": 88,
+            "renderedWidth": 400,
+            "tag": "p"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0"
+            ],
+            "parentRoles": [
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:2/div:2/section:1/p:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "p"
+          }
+        ],
+        "value": "소꿉친구 리카를 사고로 잃고 원령으로 변한 그의 저주에 괴로워하던 유타는 최강의 주술사 사토루에 의해 주술고전에 들어간다. 한편, 과거 일반인을 학살해서 고전에서 추방된 최악의 주저사 게토 스구루가 나타난다.더보기"
+      }
+    ],
+    "image": [
+      {
+        "id": "i1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "og:image",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0",
+              "관련 동영상"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:14",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          },
+          {
+            "alt": null,
+            "attribute": "twitter:image",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0",
+              "관련 동영상"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:17",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/012AnnZapgtok_3hz8wOPQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1KbklsMHNJbkFpT2lJdmRqSXZjM1J2Y21VdmFXMWhaMlV2TkRVeU1qUTNPRGc1T1RVMU56QXlJbjAuZU1iZzViajZZV1NsZlRnZS0yTm5SV3d1WGpuZWlickRGWXFCX2VoNWpacw=="
+      },
+      {
+        "id": "i2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 720,
+            "naturalWidth": 1280,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 1133,
+            "renderedWidth": 2014,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/UUBKlu-W8aZ3wZsJRefvSQ.webp?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USTRNSGczTWpCeE9EQWlYU3dpY0NJNklpOTJNaTl6ZEc5eVpTOXBiV0ZuWlM4ME5USXlORGM0T0RrNU5UVTNNRElpZlEucHB1ZVUyNHpibjNPeGY5SGJ2VnRWTFFyYXN1V3JVbmk3aWhZb1g3bVhkcw=="
+      },
+      {
+        "id": "i3",
+        "nodes": [
+          {
+            "alt": "극장판 주술회전 0",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 182,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "section:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 400,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/Avq97xhGBjDLwaAWnHoryQ.png?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKd0lqb2lMM1l5TDNOMGIzSmxMMmx0WVdkbEx6TXpNRFExTWpRM01UZ3hNelE0TVRraUxDSm9Jam94TWpCOS55bWQwYUZudEVtdllTVl9WVHNERzFkcndwYkVCN2VyeTc4WjVMS19fUHhv"
+      },
+      {
+        "id": "i4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 720,
+            "naturalWidth": 1280,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/section:2/div:1/img:1",
+            "renderedHeight": 545,
+            "renderedWidth": 968,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/vod/c_fill_auto,q_70,w_1280,h_720/2c9b52da8945103801895227368f0206/2c9b4a25894510350189522bcc01554c/thumbnail-hq/0005.jpg?sig=fc6c6a1b8a859e6b51b28a7ba93cd4d8830946b659ccb40f688da36ef43b238e"
+      },
+      {
+        "id": "i5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 60,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/div:1/div:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 60,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/div:1/div:1/img:1",
+            "renderedHeight": 20,
+            "renderedWidth": 20,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-mars.amz.wtchn.net/assets/icon/message-df210c8aa9561376a193a27d0057e56a96991cc1e29f1c39eeaa551b24feb96e.png"
+      },
+      {
+        "id": "i6",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 72,
+            "naturalWidth": 72,
+            "navigation": false,
+            "nearbyHeadings": [
+              "관련 동영상",
+              "감독/출연"
+            ],
+            "parentRoles": [
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/ul:1/li:1/img:1",
+            "renderedHeight": 24,
+            "renderedWidth": 24,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-mars.amz.wtchn.net/assets/reason_icons/rate_24-5db49e8f9ee19560cad3f9c50c839d4a05158f6f4ce8d3b5bc1e64d35c997c1b.png"
+      },
+      {
+        "id": "i7",
+        "nodes": [
+          {
+            "alt": "2차 예고편",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 331,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.youtube.com/vi/cUcw67t9O0g/0.jpg"
+      },
+      {
+        "id": "i8",
+        "nodes": [
+          {
+            "alt": "1차 예고편",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 331,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.youtube.com/vi/F8uPLJzR57w/0.jpg"
+      },
+      {
+        "id": "i9",
+        "nodes": [
+          {
+            "alt": "런칭 예고편",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 331,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.youtube.com/vi/QA1a-NCueRc/0.jpg"
+      },
+      {
+        "id": "i10",
+        "nodes": [
+          {
+            "alt": "박성후의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/-6GSImqI20vHADa2yC-EFA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh4TmpFd05qRTJPVGcwTlRZME1UQXpNREE1SW4wLmlZdmZxTE4wMWt2UGdGOGwxQXhTR29fczZPNGFXcE5TczlZcWUtU0N1R0k="
+      },
+      {
+        "id": "i11",
+        "nodes": [
+          {
+            "alt": "오가타 메구미의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/PqTV-lCx_K9Eyp2k9hiuWA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh4TmpJek1EUTROVE0zT0RRM05qWTRNVFE0SW4wLlJiQ01xWW5BTzNVM05PaGhVbnlORVk0aVZrRFZsTXBhdUNSNFluR1dqdUE="
+      },
+      {
+        "id": "i12",
+        "nodes": [
+          {
+            "alt": "하나자와 카나의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/8r3V6JapB2uslib-oZ5Qmg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh4TmpJeU56azBNalV5TVRnNE1qa3dOamswSW4wLjctVWFYdjNlbVNiVnBJMEc2a244VmhBUHZCeWFsa3Z6ZFB0eUFMV0pEOWs="
+      },
+      {
+        "id": "i13",
+        "nodes": [
+          {
+            "alt": "코마츠 미카코의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/G1xSilsaCiDF_HO3_pa2eg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeEwzQmxiM0JzWlM4eE5XWmpPVEU0Wm1ZelpqbGlZMk16T0RaalppNXFjR2NpZlEudUV1WXpqNWc1TExPaGFkWWw3a1UyVllyVlRqcTFMRWNHUFc1VWNTUU5URQ=="
+      },
+      {
+        "id": "i14",
+        "nodes": [
+          {
+            "alt": "우치야마 코우키의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/PUCkduB1iNoNzQQr3qAGOg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh5TVRFMU1EVTBOek14TWpZek1qWTROU0o5Li1ZS1FzVDI1VlBGdU5HQUhwZVhDUElORnhSWTNzYm5aZktVcmtOUTBibHc="
+      },
+      {
+        "id": "i15",
+        "nodes": [
+          {
+            "alt": "세키 토모카즈의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/C_FGpsQtSz2EDCWNDSdUXA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeEwzQmxiM0JzWlM4MFl6UTRPV00zWm1FNU1HVXhZekJsWkRZeU9TNXFjR2NpZlEuNGJkcWt3RVo0MzA0X3pJbElqMGh3Y0lubzkzcHlxMDFEUmVXMjFFQno1VQ=="
+      },
+      {
+        "id": "i16",
+        "nodes": [
+          {
+            "alt": "나카무라 유이치의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/97hdt2TcxD9r-C5X2wKukg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh4TmpJek56TTJOalk0TVRZeU56YzFNVGM1SW4wLlVaUnpmQlNTcVRybGZhYnROdm9uUXpDekJmc3piSmRUUnYxaUJpLWFXSEk="
+      },
+      {
+        "id": "i17",
+        "nodes": [
+          {
+            "alt": "사쿠라이 타카히로의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/vFga5n-mMkH3_nyMgXnVmw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh4TmpReU5EazVORFE0TXpVMk9UUTBPVGswSW4wLl83aHhYSFQ4TlJsQy1VWHNibWd3cDMzLVhycWJlaU1qVDY1dnNJckM1RGs="
+      },
+      {
+        "id": "i18",
+        "nodes": [
+          {
+            "alt": "이와타 미츠오의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/lp04Aw8OItJD71IPXyrl9A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh4TmpReU5UZzFPRFkwTkRJek5qTTVNRE0zSW4wLmwwX29IbzYxRXpsa0Vncnp2M3QtTnBDZUx3eGotV25VT09UZ3NzV1h0STQ="
+      }
+    ],
+    "title": [
+      {
+        "id": "t1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0",
+              "관련 동영상"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/title:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "title"
+          },
+          {
+            "alt": null,
+            "attribute": "og:title",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0",
+              "관련 동영상"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:12",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          },
+          {
+            "alt": null,
+            "attribute": "twitter:title",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0",
+              "관련 동영상"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:16",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "극장판 주술회전 0 | 왓챠"
+      },
+      {
+        "id": "t2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/section:1/div:1/h1:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "h1"
+          },
+          {
+            "alt": "극장판 주술회전 0",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 182,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "section:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 400,
+            "tag": "img"
+          }
+        ],
+        "value": "극장판 주술회전 0"
+      },
+      {
+        "id": "t3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "감독/출연",
+              "삽입곡"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "header:1/div:1/div:1/h2:1",
+            "renderedHeight": 26,
+            "renderedWidth": 91,
+            "tag": "h2"
+          }
+        ],
+        "value": "관련 동영상"
+      },
+      {
+        "id": "t4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "관련 동영상",
+              "삽입곡"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "header:1/div:1/div:1/h2:1",
+            "renderedHeight": 26,
+            "renderedWidth": 77,
+            "tag": "h2"
+          }
+        ],
+        "value": "감독/출연"
+      },
+      {
+        "id": "t5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "관련 동영상",
+              "감독/출연"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "header:1/div:1/div:1/h2:1",
+            "renderedHeight": 26,
+            "renderedWidth": 52,
+            "tag": "h2"
+          }
+        ],
+        "value": "삽입곡"
+      },
+      {
+        "id": "t6",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "header:1/div:1/div:1/h2:1",
+            "renderedHeight": 26,
+            "renderedWidth": 165,
+            "tag": "h2"
+          }
+        ],
+        "value": "왓챠피디아 사용자 평"
+      },
+      {
+        "id": "t7",
+        "nodes": [
+          {
+            "alt": "2차 예고편",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 331,
+            "tag": "img"
+          }
+        ],
+        "value": "2차 예고편"
+      },
+      {
+        "id": "t8",
+        "nodes": [
+          {
+            "alt": "1차 예고편",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 331,
+            "tag": "img"
+          }
+        ],
+        "value": "1차 예고편"
+      },
+      {
+        "id": "t9",
+        "nodes": [
+          {
+            "alt": "런칭 예고편",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 331,
+            "tag": "img"
+          }
+        ],
+        "value": "런칭 예고편"
+      },
+      {
+        "id": "t10",
+        "nodes": [
+          {
+            "alt": "박성후의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "박성후의 이미지"
+      },
+      {
+        "id": "t11",
+        "nodes": [
+          {
+            "alt": "오가타 메구미의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "오가타 메구미의 이미지"
+      },
+      {
+        "id": "t12",
+        "nodes": [
+          {
+            "alt": "하나자와 카나의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "하나자와 카나의 이미지"
+      },
+      {
+        "id": "t13",
+        "nodes": [
+          {
+            "alt": "코마츠 미카코의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "코마츠 미카코의 이미지"
+      },
+      {
+        "id": "t14",
+        "nodes": [
+          {
+            "alt": "우치야마 코우키의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "우치야마 코우키의 이미지"
+      },
+      {
+        "id": "t15",
+        "nodes": [
+          {
+            "alt": "세키 토모카즈의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "세키 토모카즈의 이미지"
+      },
+      {
+        "id": "t16",
+        "nodes": [
+          {
+            "alt": "나카무라 유이치의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "나카무라 유이치의 이미지"
+      },
+      {
+        "id": "t17",
+        "nodes": [
+          {
+            "alt": "사쿠라이 타카히로의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "사쿠라이 타카히로의 이미지"
+      },
+      {
+        "id": "t18",
+        "nodes": [
+          {
+            "alt": "이와타 미츠오의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "이와타 미츠오의 이미지"
+      }
+    ]
+  },
+  "media": {
+    "fullscreen": false,
+    "playingCount": 1,
+    "videoCount": 1
+  },
+  "pageEvidence": {
+    "dialogs": [],
+    "documentTitle": "극장판 주술회전 0 | 왓챠",
+    "headings": [
+      {
+        "hidden": true,
+        "text": "극장판 주술회전 0"
+      }
+    ],
+    "url": "https://watcha.com/ko/contents/m5Go91n?search_id=ee8da026-e664-4853-a86d-7bf6b55343fd",
+    "videos": [
+      {
+        "currentTime": 31.716271,
+        "ended": false,
+        "paused": false,
+        "readyState": 4,
+        "renderedHeight": 545,
+        "renderedWidth": 968
+      }
+    ],
+    "visibleDialogCount": 0
+  },
+  "pageUrl": "https://watcha.com/ko/contents/m5Go91n?search_id=ee8da026-e664-4853-a86d-7bf6b55343fd",
+  "videoEvidence": [
+    {
+      "currentTime": 31.716271,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "renderedHeight": 545,
+      "renderedWidth": 968
+    }
+  ]
+}

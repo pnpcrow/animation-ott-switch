@@ -1,0 +1,71 @@
+{
+  "frozenAt": "2026-11-13T15:01:37.124Z",
+  "note": "Additional cohort collected/annotated without inspecting model predictions; initial frozen cohort unchanged.",
+  "pages": 20,
+  "cases": 60,
+  "candidateCap": 12,
+  "observationCap": 18,
+  "sourceHashes": {
+    "additional-observations.json": "4839269d10f98b56ab984f5e9a9398c44472fe0405862866c259a231f9ef1292",
+    "additional-annotations.json": "488477b453d46f1d88d7298cb4503689cdd949f4b05955286c063ed7b2b9870d",
+    "additional-inputs.json": "83e087b15edd3670e14714ba689a3c97e30f51f63fb731b35508041a4b261eb8",
+    "additional-labels.json": "f2f7a9f5e85ba798e05343de29c85d71f85fa17cdda0a014445a0a41b90b3170",
+    "collect-additions.mjs": "7d555abf5588102ac5622f4ca5341f151f6b9ea918a393cc08ab79723be25676",
+    "annotate-additions.mjs": "8fd11279cff23964628aaaf50cf6a4cdecbe58b18a5bff48c779bb2b347a4e30",
+    "auth-captures/auth-coupang-jujutsu-detail.json": "9f55a75519e72a74bd10a72335f9ace34c214bdfe6262b639bbf26f49dcdf7e8",
+    "auth-captures/auth-coupang-jujutsu-player.json": "ec88462dc8df908a8aab73d418eebbf2816ffe5fae3e8d3ab5d01b80e9f94e27",
+    "auth-captures/auth-coupang-jujutsu-search.json": "fe816988938d36c18caa6edfa340686a4f8e9742b9dcf707be536288a889ce45",
+    "auth-captures/auth-crunchyroll-jujutsu-search.json": "7cdc07049951210f6e0a89331acf46ce9985cf435b6250e28d93547da4e84ccc",
+    "auth-captures/auth-crunchyroll-witch-detail.json": "25ecdd51425e5c9ff5c3277bd2502459226c83929e7902a38c9e6f6ddec1b3b2",
+    "auth-captures/auth-crunchyroll-witch-player.json": "b50171904f79297e52e2ad5d9e148fab003e43d040424882dbca68102d9f2a0e",
+    "auth-captures/auth-crunchyroll-witch-search.json": "698dece13652b4f75665d7e98591db871ec04b36aa08a798fa7cf4618bd350f3",
+    "auth-captures/authprofile-prime-blade-detail.json": "4f2eda46253aeee5099e0da490db81ca68cc227439df9ea0e6a19239b46b7cf0",
+    "auth-captures/authprofile-prime-blade-search.json": "fd61b1f3d2c686859f8675fc5b8542dc9bcbd9fec0d46b98c8c830d80313f65e",
+    "auth-captures/authprofile-prime-hazbin-detail.json": "0dea81c139bde173ec7c5ef4c21e17570228a0fa9a729f9107564272f73abe11",
+    "auth-captures/authprofile-watcha-frieren-preview-detail.json": "a51b9f2301aaa4994c7dadc941c13e7006cb91c01e84681f81f492969ea82c14",
+    "auth-captures/authprofile-watcha-jujutsu-detail.json": "c9160d62dc1a09938c2cfe0df394f52072f6d2dece4f6055ae9995594694a5e2",
+    "auth-captures/authprofile-watcha-jujutsu-search.json": "9e36e1a3eb388d0e01784d007fd11dc8157097a056c391131b6c2995693cb551",
+    "auth-collector-v3.mjs": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a"
+  },
+  "works": [
+    "chainsaw-man",
+    "witch",
+    "jujutsu-kaisen",
+    "frieren",
+    "hazbin-hotel",
+    "blade-of-the-immortal"
+  ],
+  "coverage": {
+    "aniplus": {
+      "search-empty": 2
+    },
+    "wavve": {
+      "search": 2,
+      "detail": 1,
+      "login": 1
+    },
+    "tving": {
+      "search": 1
+    },
+    "crunchyroll": {
+      "detail": 1,
+      "full-player": 1,
+      "search-empty": 1,
+      "search": 1
+    },
+    "coupang": {
+      "search": 1,
+      "detail-with-preview": 1,
+      "full-player": 1
+    },
+    "watcha": {
+      "detail-with-preview": 2,
+      "search": 1
+    },
+    "prime": {
+      "detail-with-preview": 1,
+      "search": 1,
+      "detail": 1
+    }
+  }
+}

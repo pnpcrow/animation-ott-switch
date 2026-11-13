@@ -1,0 +1,2341 @@
+{
+  "id": "auth-coupang-jujutsu-search",
+  "provider": "coupang",
+  "work": "jujutsu-kaisen",
+  "observedKind": "search",
+  "captureMethod": "authenticated-profile CUA read-only; actual page access state manually annotated",
+  "collectorVariant": "auth-read-only-v3",
+  "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+  "capturedAt": "2026-11-13T14:58:27.299Z",
+  "documentTitle": "쿠팡플레이",
+  "enrichment": {
+    "computedLayout": true,
+    "privacy": "No body prefix, account fields, HTML, cookies, video URLs or user storage retained; profile images omitted.",
+    "version": "auth-read-only-v1"
+  },
+  "fields": {
+    "description": [
+      {
+        "id": "d1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "\"주술회전\" 검색 결과",
+              "TV & 영화"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:3",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "이제 쿠팡 회원이면 쿠팡플레이 무료 시청"
+      },
+      {
+        "id": "d2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "role": "button",
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "role": "button",
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/p:1",
+            "renderedHeight": 71,
+            "renderedWidth": 218,
+            "tag": "p"
+          }
+        ],
+        "value": "극장판 소드 아트 온라인: 프로그레시브 - 짙은 어둠의 스케르초"
+      },
+      {
+        "id": "d3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "role": "button",
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "role": "button",
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/p:1",
+            "renderedHeight": 71,
+            "renderedWidth": 218,
+            "tag": "p"
+          }
+        ],
+        "value": "특별편집판 기동전사 건담 철혈의 오펀스 우르드 헌트: 작은 도전자의 궤적"
+      },
+      {
+        "id": "d4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "후반 6분, 먼 거리에서 강력한 무회전슛으로 원더골을 기록한 나상호",
+              "2023년 4월 1일 (토)"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "role": "button",
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "role": "button",
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/p:1",
+            "renderedHeight": 71,
+            "renderedWidth": 218,
+            "tag": "p"
+          }
+        ],
+        "value": "후반 6분, 먼 거리에서 강력한 무회전슛으로 원더골을 기록한 나상호"
+      },
+      {
+        "id": "d5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "\"민희진, 주술경영 허위 아니다\"...하이브 손 들어준 검찰 [지금이뉴스]",
+              "2026년 6월 11일 (목)"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "role": "button",
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "role": "button",
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/p:1",
+            "renderedHeight": 71,
+            "renderedWidth": 218,
+            "tag": "p"
+          }
+        ],
+        "value": "\"민희진, 주술경영 허위 아니다\"...하이브 손 들어준 검찰 [지금이뉴스]"
+      },
+      {
+        "id": "d6",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": true,
+            "nearbyHeadings": [
+              "\"주술회전\" 검색 결과",
+              "TV & 영화"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "footer"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "footer"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/footer:1/div:3/p:1",
+            "renderedHeight": 72,
+            "renderedWidth": 1342,
+            "tag": "p"
+          }
+        ],
+        "value": "쿠팡(주) | 대표이사: 로저스 해롤드 린 (Rogers Harold Lynn) | 사업자 등록번호: 120-88-00767 사업자정보 확인 통신판매업신고: 2026-서울광진-1253 | 호스팅 서비스 사업자: AWS 코리아 | 주소: (05050) 서울특별시 광진구 아차산로 412, "
+      }
+    ],
+    "image": [
+      {
+        "id": "i1",
+        "nodes": [
+          {
+            "alt": "Coupang Play",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 121,
+            "naturalWidth": 778,
+            "navigation": false,
+            "nearbyHeadings": [
+              "\"주술회전\" 검색 결과",
+              "TV & 영화"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "header:1/div:1/a:1/img:1",
+            "renderedHeight": 28,
+            "renderedWidth": 180,
+            "tag": "img"
+          }
+        ],
+        "value": "https://assets.coupangplay.com/images/web_gnb_logo_new-light.webp"
+      },
+      {
+        "id": "i2",
+        "nodes": [
+          {
+            "alt": "Coupang Play",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 121,
+            "naturalWidth": 778,
+            "navigation": false,
+            "nearbyHeadings": [
+              "\"주술회전\" 검색 결과",
+              "TV & 영화"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "header:1/div:1/a:1/img:2",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "https://assets.coupangplay.com/images/web_gnb_logo_new.webp"
+      },
+      {
+        "id": "i3",
+        "nodes": [
+          {
+            "alt": "주술회전",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/84b84af0-277f-4e7f-b936-11c5825c005d/background/43627595-a21f-44da-8981-29a360e0e382.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i4",
+        "nodes": [
+          {
+            "alt": "무티: 주술 살인",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/765453f2-d01e-48f8-aa62-d531340f5ffc/background/62ed045f-b13f-433c-8ad4-2a6ad38c6f03.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i5",
+        "nodes": [
+          {
+            "alt": "괴수 8호",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/4c46d16c-d1b0-4ac0-8f19-c2c3ae8fba20/background/0e08bdb9-42c9-432f-bc33-692750e65fea.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i6",
+        "nodes": [
+          {
+            "alt": "마슐",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/fdfd2a76-d267-4a08-8ad2-c9e56b8a96fc/background/be67fb50-f6d6-4343-8401-d08dd4ac3950.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i7",
+        "nodes": [
+          {
+            "alt": "스파이 패밀리",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/85169019-0c37-4b34-b1d9-517b0e84cafb/background/320f1a74-8174-4a61-b797-e833f66846d6.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i8",
+        "nodes": [
+          {
+            "alt": "전생했더니 슬라임이었던 건에 대하여",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/6efa9323-d6a1-48b7-91c4-388ea4318a93/background/088eb1cc-87e7-4227-9f19-6348b230e45a.jpeg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i9",
+        "nodes": [
+          {
+            "alt": "원펀맨",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/730eaeed-b053-406f-b5b5-c95cb4cd8739/background/b8ed09fb-f727-4cde-9854-54d8190b6ba8.jpeg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i10",
+        "nodes": [
+          {
+            "alt": "원피스",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/16791ab6-306e-4522-b022-41ce47087354/background/33535ec6-8232-409d-8402-67c49dee3dc5.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i11",
+        "nodes": [
+          {
+            "alt": "하이큐!!",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/37538a87-0181-47f0-96e4-ff1c89824b8d/background/1704329044849-Animax_haikyuu_Horizontal-Poster_svod.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i12",
+        "nodes": [
+          {
+            "alt": "모브 사이코 100",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/5b240ee5-ac3d-41d5-a995-cc9700dc8472/background/f673a7d5-5db1-4455-b36e-b52e0422ce45.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i13",
+        "nodes": [
+          {
+            "alt": "강철의 연금술사 BROTHERHOOD",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/f9048a3e-4b1a-4dfa-a262-615cbbf519c7/background/b03ceb35-7746-4005-9ee5-f83d50289c27.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i14",
+        "nodes": [
+          {
+            "alt": "군체",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/0a66d933-0c7a-4279-8271-fc4718ca5157/background/0523553c-6fa6-49ff-bbd9-38e8997626a8.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i15",
+        "nodes": [
+          {
+            "alt": "너 말고 다른 연애",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/890a023f-29d1-4485-a4de-82acd4ab00c0/background/fbdb16b6-5c57-4fd2-91e7-d6584fabfaab.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i16",
+        "nodes": [
+          {
+            "alt": "드래곤볼Z KAI",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/f46ed23a-f1ba-4d90-9dcd-e7465833d136/background/fc1e3a6b-b282-4cc3-8116-0827cf645066.jpeg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i17",
+        "nodes": [
+          {
+            "alt": "진격의 거인 OAD",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/6a5bea0d-b13f-431a-b9ee-77118c284cb2/background/d457af41-4aa5-436e-8f8e-b1a29fcabc76.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i18",
+        "nodes": [
+          {
+            "alt": "반지의 제왕: 로히림의 전쟁",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 122,
+            "renderedWidth": 217,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/dda807f4-24bc-4036-b0bc-20bcd499298c/background/77e08e8e-1542-4462-8fca-24d9e94dfdf5.jpg?imwidth=350&imscalingMode=aspectFit"
+      }
+    ],
+    "title": [
+      {
+        "id": "t1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "\"주술회전\" 검색 결과",
+              "TV & 영화"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/title:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "title"
+          }
+        ],
+        "value": "쿠팡플레이"
+      },
+      {
+        "id": "t2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "TV & 영화",
+              "스토어"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "body"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "body"
+              }
+            ],
+            "path": "div:1/div:1/div:1/h1:1",
+            "renderedHeight": 30,
+            "renderedWidth": 1373,
+            "tag": "h1"
+          }
+        ],
+        "value": "\"주술회전\" 검색 결과"
+      },
+      {
+        "id": "t3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "스토어",
+              "하이라이트"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:2/div:2/h1:1",
+            "renderedHeight": 28,
+            "renderedWidth": 1406,
+            "tag": "h1"
+          }
+        ],
+        "value": "TV & 영화"
+      },
+      {
+        "id": "t4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "TV & 영화",
+              "하이라이트"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:2/div:3/h1:1",
+            "renderedHeight": 28,
+            "renderedWidth": 1406,
+            "tag": "h1"
+          }
+        ],
+        "value": "스토어"
+      },
+      {
+        "id": "t5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "무회전 중거리슛을 선보인 하키미",
+              "2024년 11월 23일 (토)"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:2/div:4/h1:1",
+            "renderedHeight": 28,
+            "renderedWidth": 1406,
+            "tag": "h1"
+          }
+        ],
+        "value": "하이라이트"
+      },
+      {
+        "id": "t6",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "2024년 11월 23일 (토)"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:1/div:1/h1:1",
+            "renderedHeight": 45,
+            "renderedWidth": 218,
+            "tag": "h1"
+          }
+        ],
+        "value": "무회전 중거리슛을 선보인 하키미"
+      },
+      {
+        "id": "t7",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "2024년 8월 24일 (토)"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:2/div:1/h1:1",
+            "renderedHeight": 45,
+            "renderedWidth": 218,
+            "tag": "h1"
+          }
+        ],
+        "value": "뚝! 떨어지는 김진혁의 엄청난 무회전슛"
+      },
+      {
+        "id": "t8",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "2023년 12월 6일 (수)"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:3/div:1/h1:1",
+            "renderedHeight": 45,
+            "renderedWidth": 218,
+            "tag": "h1"
+          }
+        ],
+        "value": "후반 32분, 무회전슛으로 골문을 조준하는 김대원"
+      },
+      {
+        "id": "t9",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "2023년 9월 30일 (토)"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:4/div:1/h1:1",
+            "renderedHeight": 45,
+            "renderedWidth": 218,
+            "tag": "h1"
+          }
+        ],
+        "value": "전반 22분, 무회전 슈팅으로 골문을 노려본 한찬희"
+      },
+      {
+        "id": "t10",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "2024년 4월 16일 (화)"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:5/div:1/h1:1",
+            "renderedHeight": 45,
+            "renderedWidth": 218,
+            "tag": "h1"
+          }
+        ],
+        "value": "상대 골키퍼 선방에 막히는 이강희의 무회전 중거리슛"
+      },
+      {
+        "id": "t11",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "2022년 8월 14일 (일)"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:6/div:1/h1:1",
+            "renderedHeight": 45,
+            "renderedWidth": 218,
+            "tag": "h1"
+          }
+        ],
+        "value": "전반 18분, 무회전 프리킥으로 선제골을 넣은 윤빛가람"
+      },
+      {
+        "id": "t12",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "2022년 8월 10일 (수)"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:7/div:1/h1:1",
+            "renderedHeight": 45,
+            "renderedWidth": 218,
+            "tag": "h1"
+          }
+        ],
+        "value": "후반 41분, 먼 거리 무회전 슈팅으로 선제골을 넣은 갈레고"
+      },
+      {
+        "id": "t13",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "2023년 4월 1일 (토)"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:8/div:1/h1:1",
+            "renderedHeight": 68,
+            "renderedWidth": 218,
+            "tag": "h1"
+          }
+        ],
+        "value": "후반 6분, 먼 거리에서 강력한 무회전슛으로 원더골을 기록한 나상호"
+      },
+      {
+        "id": "t14",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "무회전 중거리슛을 선보인 하키미"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:1/div:1/h2:1",
+            "renderedHeight": 18,
+            "renderedWidth": 218,
+            "tag": "h2"
+          }
+        ],
+        "value": "2024년 11월 23일 (토)"
+      },
+      {
+        "id": "t15",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "뚝! 떨어지는 김진혁의 엄청난 무회전슛"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:2/div:1/h2:1",
+            "renderedHeight": 18,
+            "renderedWidth": 218,
+            "tag": "h2"
+          }
+        ],
+        "value": "2024년 8월 24일 (토)"
+      },
+      {
+        "id": "t16",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "후반 32분, 무회전슛으로 골문을 조준하는 김대원"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:3/div:1/h2:1",
+            "renderedHeight": 18,
+            "renderedWidth": 218,
+            "tag": "h2"
+          }
+        ],
+        "value": "2023년 12월 6일 (수)"
+      },
+      {
+        "id": "t17",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "전반 22분, 무회전 슈팅으로 골문을 노려본 한찬희"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:4/div:1/h2:1",
+            "renderedHeight": 18,
+            "renderedWidth": 218,
+            "tag": "h2"
+          }
+        ],
+        "value": "2023년 9월 30일 (토)"
+      },
+      {
+        "id": "t18",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "상대 골키퍼 선방에 막히는 이강희의 무회전 중거리슛"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "span"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "span:1/div:5/div:1/h2:1",
+            "renderedHeight": 18,
+            "renderedWidth": 218,
+            "tag": "h2"
+          }
+        ],
+        "value": "2024년 4월 16일 (화)"
+      }
+    ]
+  },
+  "media": {
+    "fullscreen": false,
+    "playingCount": 0,
+    "videoCount": 0
+  },
+  "pageEvidence": {
+    "dialogs": [],
+    "documentTitle": "쿠팡플레이",
+    "headings": [
+      {
+        "hidden": false,
+        "text": "\"주술회전\" 검색 결과"
+      },
+      {
+        "hidden": false,
+        "text": "TV & 영화"
+      },
+      {
+        "hidden": false,
+        "text": "스토어"
+      },
+      {
+        "hidden": false,
+        "text": "하이라이트"
+      },
+      {
+        "hidden": false,
+        "text": "무회전 중거리슛을 선보인 하키미"
+      },
+      {
+        "hidden": false,
+        "text": "뚝! 떨어지는 김진혁의 엄청난 무회전슛"
+      },
+      {
+        "hidden": false,
+        "text": "후반 32분, 무회전슛으로 골문을 조준하는 김대원"
+      },
+      {
+        "hidden": false,
+        "text": "전반 22분, 무회전 슈팅으로 골문을 노려본 한찬희"
+      }
+    ],
+    "url": "https://www.coupangplay.com/query-st?src=page_search&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "videos": [],
+    "visibleDialogCount": 0
+  },
+  "pageUrl": "https://www.coupangplay.com/query-st?src=page_search&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+  "videoEvidence": []
+}

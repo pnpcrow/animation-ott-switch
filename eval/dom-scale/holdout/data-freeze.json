@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-11-13T14:57:03.712Z",
+  "modelOutputsInspected": false,
+  "annotatorParticipatedInModelTuning": false,
+  "attempts": 52,
+  "pages": 40,
+  "cases": 120,
+  "missingGoldCases": 3,
+  "hashes": {
+    "observations.json": "aa4cb61ec66e0c492e5c1fde83c947e128928820424851df1f48334d4d8b7c4c",
+    "auth-observations.json": "0f22e55c56e78d2696a86e8a9005c95a378ba7a253b8ccff42113ba2fe61f803",
+    "auth-annotation-evidence.json": "c508a61dd703e12846461208d7fedd690815ef1f612aead4334db1471c700fbb",
+    "annotations.json": "4af0ee5ce30bd7e1f76e028fa9090e6479894345f6b64979db8bb68f1110cf85",
+    "inputs.json": "37e497ed05497b5d39ae9f50ede2d2d881af405b6a8cdbcdf240b1ebd62207d3",
+    "labels.json": "8a37b4db641c11d00824ada8ca521e38b8b06f122f74dc0026064eb5d2082fdc",
+    "annotate.mjs": "5c54ca1563c0409f3237c06ae40730b216b0292f9e1cd07c8c90c3f62ce5c79e",
+    "build.mjs": "589db73ae9b4049842b6f26c839782328249d964342c770aa2e3346e443e159c",
+    "sanitize.mjs": "b0d95cc4037eb794acefdd04595b9a7714493d5630ac9a684080c1396dda68b8",
+    "manifest.json": "f3b09bb1e86a7e783dc87d8b9b5b4933a9739493c150939d249b9d13b566679c",
+    "reserved-work-hashes.json": "96f35bae8a3418433b4bc66fe0724e1bbf6f1bec6ac6bdce71f94451da7f369e"
+  }
+}

@@ -1,0 +1,11 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {createHash} from 'node:crypto';
+const hash=s=>createHash('sha256').update(s).digest('hex');
+const files=['observations.json','annotations.json','inputs.json','labels.json','coverage.json','collect.mjs','annotate.mjs','sanitize.mjs'];
+const hashes={};for(const name of files)hashes[name]=hash(await readFile(`eval/dom-scale/collection-train/${name}`));
+const observations=JSON.parse(await readFile('eval/dom-scale/collection-train/observations.json','utf8'));
+const ann=JSON.parse(await readFile('eval/dom-scale/collection-train/annotations.json','utf8'));
+const pageManifests=ann.map(a=>{const p=observations.find(p=>p.id===a.pageId);return {pageId:a.pageId,provider:a.provider,work:a.work,pageKind:a.pageKind,sourceUrl:a.sourceUrl,actualUrl:a.actualUrl,collectorVariant:a.collectorVariant,originalHtmlSha256:p?.htmlSha256||null,duplicateOf:a.duplicateOf||null};});
+const authHashes={};for(const name of ['collector.mjs','class-marriage-modal.json','class-marriage-player.json'])authHashes[name]=hash(await readFile(`eval/dom-scale/auth-training/${name}`));
+await writeFile('eval/dom-scale/collection-train/frozen-manifest.json',JSON.stringify({frozenAt:new Date().toISOString(),cohort:'public-58-auth-laftel-2-v1.1',revision:'Before predictions: auth top-level media.fullscreen was observed but v1 copied null; v1.1 preserves actual value. No candidate or label change.',selection:'Manual labels fixed before predictions. No model output inspected while collecting or annotating.',candidateCap:12,observationCap:18,none:'__none__',sourceHashes:hashes,authSourceHashes:authHashes,pages:pageManifests,reservedServiceHoldout:['netflix','apple'],reservedWorkHoldout:['skip-and-loafer','mob-psycho-100','cyberpunk-edgerunners','komi-cant-communicate','saiki-k','blue-period','bocchi-the-rock','k-on','oshi-no-ko','odd-taxi','spirited-away','howls-moving-castle','hunter-x-hunter','bleach','blue-exorcist','mononogatari'],incidentals:'Unmodified incidental recommendation mentions may contain reserved titles. Split isolation applies to annotated target or search work; this is not absence of those tokens anywhere in input.'},null,2)+'\n');
+console.log(JSON.stringify({pages:pageManifests.length,inputsSha256:hashes['inputs.json'],labelsSha256:hashes['labels.json']}));

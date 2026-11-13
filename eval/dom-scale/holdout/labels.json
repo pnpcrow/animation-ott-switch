@@ -1,0 +1,3747 @@
+[
+  {
+    "id": "h001-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h001",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://www.netflix.com/kr/title/81681471",
+      "capturedAt": "2026-11-13T14:42:01.382Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "d2f14de47f6d95a4f03c52211b2a3e227772dcc2efb516e3af46d7e32d0d64af"
+    },
+    "quality": {
+      "observedCandidates": 12,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h001-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h001",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://www.netflix.com/kr/title/81681471",
+      "capturedAt": "2026-11-13T14:42:01.382Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "d2f14de47f6d95a4f03c52211b2a3e227772dcc2efb516e3af46d7e32d0d64af"
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h001-description",
+    "field": "description",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h001",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://www.netflix.com/kr/title/81681471",
+      "capturedAt": "2026-11-13T14:42:01.382Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "d2f14de47f6d95a4f03c52211b2a3e227772dcc2efb516e3af46d7e32d0d64af"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h002-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h002",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "cyberpunk-edgerunners",
+      "url": "https://www.netflix.com/kr/title/81054853",
+      "capturedAt": "2026-11-13T14:42:01.208Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "5ec3349eee1c429248a7f570c2356ad0fe04a46570cf16a7c262e660c2666323"
+    },
+    "quality": {
+      "observedCandidates": 12,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h002-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h002",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "cyberpunk-edgerunners",
+      "url": "https://www.netflix.com/kr/title/81054853",
+      "capturedAt": "2026-11-13T14:42:01.208Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "5ec3349eee1c429248a7f570c2356ad0fe04a46570cf16a7c262e660c2666323"
+    },
+    "quality": {
+      "observedCandidates": 16,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h002-description",
+    "field": "description",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h002",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "cyberpunk-edgerunners",
+      "url": "https://www.netflix.com/kr/title/81054853",
+      "capturedAt": "2026-11-13T14:42:01.208Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "5ec3349eee1c429248a7f570c2356ad0fe04a46570cf16a7c262e660c2666323"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h003-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h003",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "saiki-k",
+      "url": "https://www.netflix.com/kr/title/80117781",
+      "capturedAt": "2026-11-13T14:42:08.908Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "4434d32d87f4c269a5618e7332c35b593b670d607e86b0cbf774a0b94a8bd0f8"
+    },
+    "quality": {
+      "observedCandidates": 12,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h003-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h003",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "saiki-k",
+      "url": "https://www.netflix.com/kr/title/80117781",
+      "capturedAt": "2026-11-13T14:42:08.908Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "4434d32d87f4c269a5618e7332c35b593b670d607e86b0cbf774a0b94a8bd0f8"
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h003-description",
+    "field": "description",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h003",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "saiki-k",
+      "url": "https://www.netflix.com/kr/title/80117781",
+      "capturedAt": "2026-11-13T14:42:08.908Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "4434d32d87f4c269a5618e7332c35b593b670d607e86b0cbf774a0b94a8bd0f8"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h004-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h004",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "komi-cant-communicate",
+      "url": "https://www.netflix.com/kr/title/81228573",
+      "capturedAt": "2026-11-13T14:42:10.573Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "c6d3ff651b1c3c0afe3010178c48e95370e8e7898d566cc50d877ef49ba30ea5"
+    },
+    "quality": {
+      "observedCandidates": 13,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h004-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h004",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "komi-cant-communicate",
+      "url": "https://www.netflix.com/kr/title/81228573",
+      "capturedAt": "2026-11-13T14:42:10.573Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "c6d3ff651b1c3c0afe3010178c48e95370e8e7898d566cc50d877ef49ba30ea5"
+    },
+    "quality": {
+      "observedCandidates": 17,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h004-description",
+    "field": "description",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h004",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "komi-cant-communicate",
+      "url": "https://www.netflix.com/kr/title/81228573",
+      "capturedAt": "2026-11-13T14:42:10.573Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "c6d3ff651b1c3c0afe3010178c48e95370e8e7898d566cc50d877ef49ba30ea5"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h005-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h005",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "blue-period",
+      "url": "https://www.netflix.com/kr/title/81318842",
+      "capturedAt": "2026-11-13T14:42:16.873Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "0d6234c79540f4c689efc7974372be80b76189a0c459643a43e98a50cfc33f8d"
+    },
+    "quality": {
+      "observedCandidates": 13,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h005-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h005",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "blue-period",
+      "url": "https://www.netflix.com/kr/title/81318842",
+      "capturedAt": "2026-11-13T14:42:16.873Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "0d6234c79540f4c689efc7974372be80b76189a0c459643a43e98a50cfc33f8d"
+    },
+    "quality": {
+      "observedCandidates": 17,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h005-description",
+    "field": "description",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h005",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "blue-period",
+      "url": "https://www.netflix.com/kr/title/81318842",
+      "capturedAt": "2026-11-13T14:42:16.873Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "0d6234c79540f4c689efc7974372be80b76189a0c459643a43e98a50cfc33f8d"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h006-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h006",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "mob-psycho-100",
+      "url": "https://www.netflix.com/kr/title/80179798",
+      "capturedAt": "2026-11-13T14:42:18.737Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "7ba8c721f93a84b5a7dd8c281769f27ac5e6bf73565a286c20b5c9d278defdd5"
+    },
+    "quality": {
+      "observedCandidates": 12,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h006-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h006",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "mob-psycho-100",
+      "url": "https://www.netflix.com/kr/title/80179798",
+      "capturedAt": "2026-11-13T14:42:18.737Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "7ba8c721f93a84b5a7dd8c281769f27ac5e6bf73565a286c20b5c9d278defdd5"
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h006-description",
+    "field": "description",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h006",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "mob-psycho-100",
+      "url": "https://www.netflix.com/kr/title/80179798",
+      "capturedAt": "2026-11-13T14:42:18.737Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "7ba8c721f93a84b5a7dd8c281769f27ac5e6bf73565a286c20b5c9d278defdd5"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h007-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h007",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://www.netflix.com/search?q=%EC%8A%A4%ED%82%B5%EA%B3%BC%20%EB%A1%9C%ED%8D%BC",
+      "capturedAt": "2026-11-13T14:42:24.096Z",
+      "requestedKind": "search",
+      "observedKind": "login",
+      "captureSha256": "edfbe34c276804430bd13dae4cad482ce4638d1f017f58ec0654c4d677b2c636"
+    },
+    "quality": {
+      "observedCandidates": 12,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h007-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h007",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://www.netflix.com/search?q=%EC%8A%A4%ED%82%B5%EA%B3%BC%20%EB%A1%9C%ED%8D%BC",
+      "capturedAt": "2026-11-13T14:42:24.096Z",
+      "requestedKind": "search",
+      "observedKind": "login",
+      "captureSha256": "edfbe34c276804430bd13dae4cad482ce4638d1f017f58ec0654c4d677b2c636"
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h007-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h007",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://www.netflix.com/search?q=%EC%8A%A4%ED%82%B5%EA%B3%BC%20%EB%A1%9C%ED%8D%BC",
+      "capturedAt": "2026-11-13T14:42:24.096Z",
+      "requestedKind": "search",
+      "observedKind": "login",
+      "captureSha256": "edfbe34c276804430bd13dae4cad482ce4638d1f017f58ec0654c4d677b2c636"
+    },
+    "quality": {
+      "observedCandidates": 13,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h015-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h015",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "mob-psycho-100",
+      "url": "https://tv.apple.com/kr/show/%EB%AA%A8%EB%B8%8C%EC%82%AC%EC%9D%B4%EC%BD%94100/umc.cmc.3fcfxpl733t5fzl2ob612r3on",
+      "capturedAt": "2026-11-13T14:42:58.054Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "febe9073be28fe0fdc9db0aefdb9961da630e41f2030460349128335f7d50aaf"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 11,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h015-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h015",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "mob-psycho-100",
+      "url": "https://tv.apple.com/kr/show/%EB%AA%A8%EB%B8%8C%EC%82%AC%EC%9D%B4%EC%BD%94100/umc.cmc.3fcfxpl733t5fzl2ob612r3on",
+      "capturedAt": "2026-11-13T14:42:58.054Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "febe9073be28fe0fdc9db0aefdb9961da630e41f2030460349128335f7d50aaf"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h015-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h015",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "mob-psycho-100",
+      "url": "https://tv.apple.com/kr/show/%EB%AA%A8%EB%B8%8C%EC%82%AC%EC%9D%B4%EC%BD%94100/umc.cmc.3fcfxpl733t5fzl2ob612r3on",
+      "capturedAt": "2026-11-13T14:42:58.054Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "febe9073be28fe0fdc9db0aefdb9961da630e41f2030460349128335f7d50aaf"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h016-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h016",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://tv.apple.com/kr/show/%EC%8A%A4%ED%82%B5%EA%B3%BC-%EB%A1%9C%ED%8D%BC/umc.cmc.39pmvds25qdwutg5xtprs73hc",
+      "capturedAt": "2026-11-13T14:43:03.243Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "e343e459aebd55e367045beb85e8815646ec5b76567b07f8933026fddf6350fe"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 11,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h016-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h016",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://tv.apple.com/kr/show/%EC%8A%A4%ED%82%B5%EA%B3%BC-%EB%A1%9C%ED%8D%BC/umc.cmc.39pmvds25qdwutg5xtprs73hc",
+      "capturedAt": "2026-11-13T14:43:03.243Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "e343e459aebd55e367045beb85e8815646ec5b76567b07f8933026fddf6350fe"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h016-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h016",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://tv.apple.com/kr/show/%EC%8A%A4%ED%82%B5%EA%B3%BC-%EB%A1%9C%ED%8D%BC/umc.cmc.39pmvds25qdwutg5xtprs73hc",
+      "capturedAt": "2026-11-13T14:43:03.243Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "e343e459aebd55e367045beb85e8815646ec5b76567b07f8933026fddf6350fe"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h017-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h017",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "odd-taxi",
+      "url": "https://tv.apple.com/kr/show/%EC%98%A4%EB%93%9C-%ED%83%9D%EC%8B%9C/umc.cmc.5gv0dudnaj025ewqa9hlydobc",
+      "capturedAt": "2026-11-13T14:43:04.148Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "dba949b288443ee1dc6905d655be8a97c2665e7e53399654f10827470f00b931"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 11,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h017-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h017",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "odd-taxi",
+      "url": "https://tv.apple.com/kr/show/%EC%98%A4%EB%93%9C-%ED%83%9D%EC%8B%9C/umc.cmc.5gv0dudnaj025ewqa9hlydobc",
+      "capturedAt": "2026-11-13T14:43:04.148Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "dba949b288443ee1dc6905d655be8a97c2665e7e53399654f10827470f00b931"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h017-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h017",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "odd-taxi",
+      "url": "https://tv.apple.com/kr/show/%EC%98%A4%EB%93%9C-%ED%83%9D%EC%8B%9C/umc.cmc.5gv0dudnaj025ewqa9hlydobc",
+      "capturedAt": "2026-11-13T14:43:04.148Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "dba949b288443ee1dc6905d655be8a97c2665e7e53399654f10827470f00b931"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h018-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h018",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "bleach",
+      "url": "https://tv.apple.com/kr/show/%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8E%E1%85%B5/umc.cmc.4r3on444y1qa08tr1wo38xekh",
+      "capturedAt": "2026-11-13T14:43:09.218Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "19a4c00f0043a81781badb70b1caaa4a705dbe7e55087059913bdcf3ae7c06aa"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 11,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h018-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h018",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "bleach",
+      "url": "https://tv.apple.com/kr/show/%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8E%E1%85%B5/umc.cmc.4r3on444y1qa08tr1wo38xekh",
+      "capturedAt": "2026-11-13T14:43:09.218Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "19a4c00f0043a81781badb70b1caaa4a705dbe7e55087059913bdcf3ae7c06aa"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h018-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h018",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "bleach",
+      "url": "https://tv.apple.com/kr/show/%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8E%E1%85%B5/umc.cmc.4r3on444y1qa08tr1wo38xekh",
+      "capturedAt": "2026-11-13T14:43:09.218Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "19a4c00f0043a81781badb70b1caaa4a705dbe7e55087059913bdcf3ae7c06aa"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h019-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h019",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "hunter-x-hunter",
+      "url": "https://tv.apple.com/kr/show/%E1%84%92%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A5x%E1%84%92%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A5/umc.cmc.6iubybdmze8hzxhis7q2gzmk3",
+      "capturedAt": "2026-11-13T14:43:10.419Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "d6c21aaf7dcf515701b671c1e1ff1ff76914696320997999ccf2f8c0c91a1198"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 11,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h019-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h019",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "hunter-x-hunter",
+      "url": "https://tv.apple.com/kr/show/%E1%84%92%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A5x%E1%84%92%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A5/umc.cmc.6iubybdmze8hzxhis7q2gzmk3",
+      "capturedAt": "2026-11-13T14:43:10.419Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "d6c21aaf7dcf515701b671c1e1ff1ff76914696320997999ccf2f8c0c91a1198"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h019-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h019",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "hunter-x-hunter",
+      "url": "https://tv.apple.com/kr/show/%E1%84%92%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A5x%E1%84%92%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A5/umc.cmc.6iubybdmze8hzxhis7q2gzmk3",
+      "capturedAt": "2026-11-13T14:43:10.419Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "d6c21aaf7dcf515701b671c1e1ff1ff76914696320997999ccf2f8c0c91a1198"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h020-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h020",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "blue-exorcist",
+      "url": "https://tv.apple.com/kr/show/%E1%84%8E%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%A6%E1%86%A8%E1%84%89%E1%85%A9%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3/umc.cmc.2lu6vl2448varf8p6w07bepih",
+      "capturedAt": "2026-11-13T14:43:15.133Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "a6ca8869cef1da3551c38310542a20720cc51e367fe8b4b3ff906d451e83cf44"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 11,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h020-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h020",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "blue-exorcist",
+      "url": "https://tv.apple.com/kr/show/%E1%84%8E%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%A6%E1%86%A8%E1%84%89%E1%85%A9%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3/umc.cmc.2lu6vl2448varf8p6w07bepih",
+      "capturedAt": "2026-11-13T14:43:15.133Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "a6ca8869cef1da3551c38310542a20720cc51e367fe8b4b3ff906d451e83cf44"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h020-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h020",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "blue-exorcist",
+      "url": "https://tv.apple.com/kr/show/%E1%84%8E%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%A6%E1%86%A8%E1%84%89%E1%85%A9%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3/umc.cmc.2lu6vl2448varf8p6w07bepih",
+      "capturedAt": "2026-11-13T14:43:15.133Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "a6ca8869cef1da3551c38310542a20720cc51e367fe8b4b3ff906d451e83cf44"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h021-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h021",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "mononogatari",
+      "url": "https://tv.apple.com/kr/show/%E1%84%86%E1%85%A9%E1%84%82%E1%85%A9%E1%84%82%E1%85%A9%E1%84%80%E1%85%A1%E1%84%90%E1%85%A1%E1%84%85%E1%85%B5/umc.cmc.5lscyxz7xdd03k2jwqkujeios",
+      "capturedAt": "2026-11-13T14:43:16.952Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "6b47e637b55dc1c5998d50f8a98c3558859212924e525df56e84770d9b9f57a9"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 11,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h021-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h021",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "mononogatari",
+      "url": "https://tv.apple.com/kr/show/%E1%84%86%E1%85%A9%E1%84%82%E1%85%A9%E1%84%82%E1%85%A9%E1%84%80%E1%85%A1%E1%84%90%E1%85%A1%E1%84%85%E1%85%B5/umc.cmc.5lscyxz7xdd03k2jwqkujeios",
+      "capturedAt": "2026-11-13T14:43:16.952Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "6b47e637b55dc1c5998d50f8a98c3558859212924e525df56e84770d9b9f57a9"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h021-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h021",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "mononogatari",
+      "url": "https://tv.apple.com/kr/show/%E1%84%86%E1%85%A9%E1%84%82%E1%85%A9%E1%84%82%E1%85%A9%E1%84%80%E1%85%A1%E1%84%90%E1%85%A1%E1%84%85%E1%85%B5/umc.cmc.5lscyxz7xdd03k2jwqkujeios",
+      "capturedAt": "2026-11-13T14:43:16.952Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "6b47e637b55dc1c5998d50f8a98c3558859212924e525df56e84770d9b9f57a9"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h022-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h022",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "mob-psycho-100",
+      "url": "https://tv.apple.com/kr/show/%EB%AA%A8%EB%B8%8C%EC%82%AC%EC%9D%B4%EC%BD%94100/umc.cmc.3fcfxpl733t5fzl2ob612r3on",
+      "capturedAt": "2026-11-13T14:43:23.632Z",
+      "requestedKind": "description-modal",
+      "observedKind": "description-modal",
+      "captureSha256": "808275d3dae534d774508a3ac8a19654d621cde5db5b021f17a9b8e0040cec46"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 11,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h022-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h022",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "mob-psycho-100",
+      "url": "https://tv.apple.com/kr/show/%EB%AA%A8%EB%B8%8C%EC%82%AC%EC%9D%B4%EC%BD%94100/umc.cmc.3fcfxpl733t5fzl2ob612r3on",
+      "capturedAt": "2026-11-13T14:43:23.632Z",
+      "requestedKind": "description-modal",
+      "observedKind": "description-modal",
+      "captureSha256": "808275d3dae534d774508a3ac8a19654d621cde5db5b021f17a9b8e0040cec46"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h022-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h022",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "mob-psycho-100",
+      "url": "https://tv.apple.com/kr/show/%EB%AA%A8%EB%B8%8C%EC%82%AC%EC%9D%B4%EC%BD%94100/umc.cmc.3fcfxpl733t5fzl2ob612r3on",
+      "capturedAt": "2026-11-13T14:43:23.632Z",
+      "requestedKind": "description-modal",
+      "observedKind": "description-modal",
+      "captureSha256": "808275d3dae534d774508a3ac8a19654d621cde5db5b021f17a9b8e0040cec46"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h023-title",
+    "field": "title",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h023",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://tv.apple.com/kr/show/%EC%8A%A4%ED%82%B5%EA%B3%BC-%EB%A1%9C%ED%8D%BC/umc.cmc.39pmvds25qdwutg5xtprs73hc",
+      "capturedAt": "2026-11-13T14:43:25.366Z",
+      "requestedKind": "description-modal",
+      "observedKind": "description-modal",
+      "captureSha256": "96fdbee3c8b17bb1d02d59802505df1fb9df8221c8f2607d02bdc749e7a7786c"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 11,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h023-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h023",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://tv.apple.com/kr/show/%EC%8A%A4%ED%82%B5%EA%B3%BC-%EB%A1%9C%ED%8D%BC/umc.cmc.39pmvds25qdwutg5xtprs73hc",
+      "capturedAt": "2026-11-13T14:43:25.366Z",
+      "requestedKind": "description-modal",
+      "observedKind": "description-modal",
+      "captureSha256": "96fdbee3c8b17bb1d02d59802505df1fb9df8221c8f2607d02bdc749e7a7786c"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h023-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h023",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://tv.apple.com/kr/show/%EC%8A%A4%ED%82%B5%EA%B3%BC-%EB%A1%9C%ED%8D%BC/umc.cmc.39pmvds25qdwutg5xtprs73hc",
+      "capturedAt": "2026-11-13T14:43:25.366Z",
+      "requestedKind": "description-modal",
+      "observedKind": "description-modal",
+      "captureSha256": "96fdbee3c8b17bb1d02d59802505df1fb9df8221c8f2607d02bdc749e7a7786c"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h024-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h024",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "mob-psycho-100",
+      "url": "https://tv.apple.com/kr/search?term=%EB%AA%A8%EB%B8%8C%EC%82%AC%EC%9D%B4%EC%BD%94100",
+      "capturedAt": "2026-11-13T14:43:28.155Z",
+      "requestedKind": "search",
+      "observedKind": "search-landing",
+      "captureSha256": "0bc227920297c033378d1204b875557c144f9ab505c0735e377ca6189d9abc8a"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h024-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h024",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "mob-psycho-100",
+      "url": "https://tv.apple.com/kr/search?term=%EB%AA%A8%EB%B8%8C%EC%82%AC%EC%9D%B4%EC%BD%94100",
+      "capturedAt": "2026-11-13T14:43:28.155Z",
+      "requestedKind": "search",
+      "observedKind": "search-landing",
+      "captureSha256": "0bc227920297c033378d1204b875557c144f9ab505c0735e377ca6189d9abc8a"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h024-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h024",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "mob-psycho-100",
+      "url": "https://tv.apple.com/kr/search?term=%EB%AA%A8%EB%B8%8C%EC%82%AC%EC%9D%B4%EC%BD%94100",
+      "capturedAt": "2026-11-13T14:43:28.155Z",
+      "requestedKind": "search",
+      "observedKind": "search-landing",
+      "captureSha256": "0bc227920297c033378d1204b875557c144f9ab505c0735e377ca6189d9abc8a"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h028-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h028",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://laftel.net/search?keyword=%EB%B4%87%EC%B9%98",
+      "capturedAt": "2026-11-13T14:43:37.774Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "972a3572f6a668798a89c2de1f75d89c0efa33d9be9236ed8f33722c3ad845c0"
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h028-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h028",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://laftel.net/search?keyword=%EB%B4%87%EC%B9%98",
+      "capturedAt": "2026-11-13T14:43:37.774Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "972a3572f6a668798a89c2de1f75d89c0efa33d9be9236ed8f33722c3ad845c0"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h028-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h028",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://laftel.net/search?keyword=%EB%B4%87%EC%B9%98",
+      "capturedAt": "2026-11-13T14:43:37.774Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "972a3572f6a668798a89c2de1f75d89c0efa33d9be9236ed8f33722c3ad845c0"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h029-title",
+    "field": "title",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h029",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://laftel.net/search?keyword=%EB%B4%87%EC%B9%98&modal=41087",
+      "capturedAt": "2026-11-13T14:43:40.640Z",
+      "requestedKind": "modal",
+      "observedKind": "work-modal",
+      "captureSha256": "6df0411f5b6132ea738abcd64729f6797d83fbb049f0221aaf104c91e28044c8"
+    },
+    "quality": {
+      "observedCandidates": 16,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h029-image",
+    "field": "image",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h029",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://laftel.net/search?keyword=%EB%B4%87%EC%B9%98&modal=41087",
+      "capturedAt": "2026-11-13T14:43:40.640Z",
+      "requestedKind": "modal",
+      "observedKind": "work-modal",
+      "captureSha256": "6df0411f5b6132ea738abcd64729f6797d83fbb049f0221aaf104c91e28044c8"
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h029-description",
+    "field": "description",
+    "expectedId": "d3",
+    "acceptedIds": [
+      "d2",
+      "d3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h029",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://laftel.net/search?keyword=%EB%B4%87%EC%B9%98&modal=41087",
+      "capturedAt": "2026-11-13T14:43:40.640Z",
+      "requestedKind": "modal",
+      "observedKind": "work-modal",
+      "captureSha256": "6df0411f5b6132ea738abcd64729f6797d83fbb049f0221aaf104c91e28044c8"
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h030-title",
+    "field": "title",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h030",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://laftel.net/item/41087",
+      "capturedAt": "2026-11-13T14:43:42.491Z",
+      "requestedKind": "detail",
+      "observedKind": "work-modal",
+      "captureSha256": "98112641457fd798d7c27ef6cb107a479613f8f672533ffffe25fec4d7f9110d"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h030-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h030",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://laftel.net/item/41087",
+      "capturedAt": "2026-11-13T14:43:42.491Z",
+      "requestedKind": "detail",
+      "observedKind": "work-modal",
+      "captureSha256": "98112641457fd798d7c27ef6cb107a479613f8f672533ffffe25fec4d7f9110d"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h030-description",
+    "field": "description",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2",
+      "d3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h030",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://laftel.net/item/41087",
+      "capturedAt": "2026-11-13T14:43:42.491Z",
+      "requestedKind": "detail",
+      "observedKind": "work-modal",
+      "captureSha256": "98112641457fd798d7c27ef6cb107a479613f8f672533ffffe25fec4d7f9110d"
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h031-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h031",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://laftel.net/search?keyword=%EC%8A%A4%ED%82%B5%EA%B3%BC%20%EB%A1%9C%ED%8D%BC",
+      "capturedAt": "2026-11-13T14:43:45.931Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "8f2567fd7dd09227386593170d11faaafef06a234f9ae7208093d728648fd570"
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h031-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h031",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://laftel.net/search?keyword=%EC%8A%A4%ED%82%B5%EA%B3%BC%20%EB%A1%9C%ED%8D%BC",
+      "capturedAt": "2026-11-13T14:43:45.931Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "8f2567fd7dd09227386593170d11faaafef06a234f9ae7208093d728648fd570"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h031-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h031",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://laftel.net/search?keyword=%EC%8A%A4%ED%82%B5%EA%B3%BC%20%EB%A1%9C%ED%8D%BC",
+      "capturedAt": "2026-11-13T14:43:45.931Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "8f2567fd7dd09227386593170d11faaafef06a234f9ae7208093d728648fd570"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h032-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h032",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://laftel.net/search?keyword=%EC%98%A4%EB%93%9C%20%ED%83%9D%EC%8B%9C",
+      "capturedAt": "2026-11-13T14:43:47.015Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "9a2fe5d7be2a8894f7154a8d972a1b4cfdca8e0d96f475f41b99a17c6f6f3eb8"
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h032-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h032",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://laftel.net/search?keyword=%EC%98%A4%EB%93%9C%20%ED%83%9D%EC%8B%9C",
+      "capturedAt": "2026-11-13T14:43:47.015Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "9a2fe5d7be2a8894f7154a8d972a1b4cfdca8e0d96f475f41b99a17c6f6f3eb8"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h032-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h032",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://laftel.net/search?keyword=%EC%98%A4%EB%93%9C%20%ED%83%9D%EC%8B%9C",
+      "capturedAt": "2026-11-13T14:43:47.015Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "9a2fe5d7be2a8894f7154a8d972a1b4cfdca8e0d96f475f41b99a17c6f6f3eb8"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h033-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h033",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://www.tving.com/search?keyword=%EC%8A%A4%ED%82%B5%EA%B3%BC%20%EB%A1%9C%ED%8D%BC",
+      "capturedAt": "2026-11-13T14:43:50.439Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "169cb6c8c638a789c6f4ebc91f052bb58e18c3540bab51242b986b0f42d4781a"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h033-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h033",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://www.tving.com/search?keyword=%EC%8A%A4%ED%82%B5%EA%B3%BC%20%EB%A1%9C%ED%8D%BC",
+      "capturedAt": "2026-11-13T14:43:50.439Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "169cb6c8c638a789c6f4ebc91f052bb58e18c3540bab51242b986b0f42d4781a"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h033-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h033",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://www.tving.com/search?keyword=%EC%8A%A4%ED%82%B5%EA%B3%BC%20%EB%A1%9C%ED%8D%BC",
+      "capturedAt": "2026-11-13T14:43:50.439Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "169cb6c8c638a789c6f4ebc91f052bb58e18c3540bab51242b986b0f42d4781a"
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h034-title",
+    "field": "title",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h034",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://www.tving.com/contents/P001707310",
+      "capturedAt": "2026-11-13T14:43:51.996Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "915b33c4d4ece37e7026187bebfaad05c99f0e04309683bdee22643be29d3cdc"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h034-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i3",
+      "i4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h034",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://www.tving.com/contents/P001707310",
+      "capturedAt": "2026-11-13T14:43:51.996Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "915b33c4d4ece37e7026187bebfaad05c99f0e04309683bdee22643be29d3cdc"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h034-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h034",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://www.tving.com/contents/P001707310",
+      "capturedAt": "2026-11-13T14:43:51.996Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "915b33c4d4ece37e7026187bebfaad05c99f0e04309683bdee22643be29d3cdc"
+    },
+    "quality": {
+      "observedCandidates": 17,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h035-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h035",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://www.tving.com/search?keyword=%EB%B4%87%EC%B9%98",
+      "capturedAt": "2026-11-13T14:43:54.859Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "e7c9e82d242130616d472663bfd73093f41b0cc09d1fa079edfc8a8527ced7b6"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h035-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h035",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://www.tving.com/search?keyword=%EB%B4%87%EC%B9%98",
+      "capturedAt": "2026-11-13T14:43:54.859Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "e7c9e82d242130616d472663bfd73093f41b0cc09d1fa079edfc8a8527ced7b6"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h035-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h035",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://www.tving.com/search?keyword=%EB%B4%87%EC%B9%98",
+      "capturedAt": "2026-11-13T14:43:54.859Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "e7c9e82d242130616d472663bfd73093f41b0cc09d1fa079edfc8a8527ced7b6"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h036-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h036",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://www.tving.com/search?keyword=%EC%98%A4%EB%93%9C%20%ED%83%9D%EC%8B%9C",
+      "capturedAt": "2026-11-13T14:43:56.591Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "b4b809534af8d4f7248afbd035b2e2d1a967fd047788b28444ce44d14a637408"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h036-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h036",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://www.tving.com/search?keyword=%EC%98%A4%EB%93%9C%20%ED%83%9D%EC%8B%9C",
+      "capturedAt": "2026-11-13T14:43:56.591Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "b4b809534af8d4f7248afbd035b2e2d1a967fd047788b28444ce44d14a637408"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h036-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h036",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://www.tving.com/search?keyword=%EC%98%A4%EB%93%9C%20%ED%83%9D%EC%8B%9C",
+      "capturedAt": "2026-11-13T14:43:56.591Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "b4b809534af8d4f7248afbd035b2e2d1a967fd047788b28444ce44d14a637408"
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h037-title",
+    "field": "title",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h037",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://laftel.net/search?keyword=%EC%8A%A4%ED%82%B5%EA%B3%BC+%EB%A1%9C%ED%8D%BC&modal=41363",
+      "capturedAt": "2026-11-13T14:45:08.189Z",
+      "requestedKind": "modal",
+      "observedKind": "work-modal",
+      "captureSha256": "ef6fc5f3d678752b4aa2f4d0ba6827d10a36dce68c801ca0b594803777b0e50b"
+    },
+    "quality": {
+      "observedCandidates": 16,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h037-image",
+    "field": "image",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h037",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://laftel.net/search?keyword=%EC%8A%A4%ED%82%B5%EA%B3%BC+%EB%A1%9C%ED%8D%BC&modal=41363",
+      "capturedAt": "2026-11-13T14:45:08.189Z",
+      "requestedKind": "modal",
+      "observedKind": "work-modal",
+      "captureSha256": "ef6fc5f3d678752b4aa2f4d0ba6827d10a36dce68c801ca0b594803777b0e50b"
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h037-description",
+    "field": "description",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h037",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://laftel.net/search?keyword=%EC%8A%A4%ED%82%B5%EA%B3%BC+%EB%A1%9C%ED%8D%BC&modal=41363",
+      "capturedAt": "2026-11-13T14:45:08.189Z",
+      "requestedKind": "modal",
+      "observedKind": "work-modal",
+      "captureSha256": "ef6fc5f3d678752b4aa2f4d0ba6827d10a36dce68c801ca0b594803777b0e50b"
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h038-title",
+    "field": "title",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h038",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://laftel.net/item/41363",
+      "capturedAt": "2026-11-13T14:45:08.414Z",
+      "requestedKind": "detail",
+      "observedKind": "work-modal",
+      "captureSha256": "fd52be211a7bea5ea52c0888425772dbba732f00d6c8e66f49a24fb4cd8b6da1"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h038-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h038",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://laftel.net/item/41363",
+      "capturedAt": "2026-11-13T14:45:08.414Z",
+      "requestedKind": "detail",
+      "observedKind": "work-modal",
+      "captureSha256": "fd52be211a7bea5ea52c0888425772dbba732f00d6c8e66f49a24fb4cd8b6da1"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h038-description",
+    "field": "description",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h038",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "skip-and-loafer",
+      "url": "https://laftel.net/item/41363",
+      "capturedAt": "2026-11-13T14:45:08.414Z",
+      "requestedKind": "detail",
+      "observedKind": "work-modal",
+      "captureSha256": "fd52be211a7bea5ea52c0888425772dbba732f00d6c8e66f49a24fb4cd8b6da1"
+    },
+    "quality": {
+      "observedCandidates": 17,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h039-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h039",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://laftel.net/search?keyword=%EC%98%A4%EB%93%9C+%ED%83%9D%EC%8B%9C&modal=40892",
+      "capturedAt": "2026-11-13T14:45:12.372Z",
+      "requestedKind": "modal",
+      "observedKind": "login",
+      "captureSha256": "aa6c0ac1fd7b285fb8d77b3d7b095c0a7da9faa4ed7686704b1e43d33a482f44"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h039-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h039",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://laftel.net/search?keyword=%EC%98%A4%EB%93%9C+%ED%83%9D%EC%8B%9C&modal=40892",
+      "capturedAt": "2026-11-13T14:45:12.372Z",
+      "requestedKind": "modal",
+      "observedKind": "login",
+      "captureSha256": "aa6c0ac1fd7b285fb8d77b3d7b095c0a7da9faa4ed7686704b1e43d33a482f44"
+    },
+    "quality": {
+      "observedCandidates": 0,
+      "presentedCandidates": 0,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h039-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h039",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://laftel.net/search?keyword=%EC%98%A4%EB%93%9C+%ED%83%9D%EC%8B%9C&modal=40892",
+      "capturedAt": "2026-11-13T14:45:12.372Z",
+      "requestedKind": "modal",
+      "observedKind": "login",
+      "captureSha256": "aa6c0ac1fd7b285fb8d77b3d7b095c0a7da9faa4ed7686704b1e43d33a482f44"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h040-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h040",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://laftel.net/item/40892",
+      "capturedAt": "2026-11-13T14:45:12.773Z",
+      "requestedKind": "detail",
+      "observedKind": "login",
+      "captureSha256": "3a43311535f58e0a92cecd65b3ed0bc2cd8967fbd231f8bd133da06b4c986cf8"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h040-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h040",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://laftel.net/item/40892",
+      "capturedAt": "2026-11-13T14:45:12.773Z",
+      "requestedKind": "detail",
+      "observedKind": "login",
+      "captureSha256": "3a43311535f58e0a92cecd65b3ed0bc2cd8967fbd231f8bd133da06b4c986cf8"
+    },
+    "quality": {
+      "observedCandidates": 0,
+      "presentedCandidates": 0,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h040-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h040",
+      "provider": "laftel",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://laftel.net/item/40892",
+      "capturedAt": "2026-11-13T14:45:12.773Z",
+      "requestedKind": "detail",
+      "observedKind": "login",
+      "captureSha256": "3a43311535f58e0a92cecd65b3ed0bc2cd8967fbd231f8bd133da06b4c986cf8"
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h041-title",
+    "field": "title",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h041",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://www.tving.com/contents/P001682518",
+      "capturedAt": "2026-11-13T14:45:17.247Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "8015e17fb8276a774dde5ce76e2373002495a5b197cce3611bcbe608c150a290"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h041-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i3",
+      "i4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h041",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://www.tving.com/contents/P001682518",
+      "capturedAt": "2026-11-13T14:45:17.247Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "8015e17fb8276a774dde5ce76e2373002495a5b197cce3611bcbe608c150a290"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h041-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h041",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://www.tving.com/contents/P001682518",
+      "capturedAt": "2026-11-13T14:45:17.247Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "8015e17fb8276a774dde5ce76e2373002495a5b197cce3611bcbe608c150a290"
+    },
+    "quality": {
+      "observedCandidates": 17,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h042-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h042",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://www.tving.com/contents/P001682518",
+      "capturedAt": "2026-11-13T14:45:22.902Z",
+      "requestedKind": "playback-access",
+      "observedKind": "subscription-modal",
+      "captureSha256": "80736f17f4720364baa35925b9049ba0558927747f43d5ab4697206762055b7e"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h042-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h042",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://www.tving.com/contents/P001682518",
+      "capturedAt": "2026-11-13T14:45:22.902Z",
+      "requestedKind": "playback-access",
+      "observedKind": "subscription-modal",
+      "captureSha256": "80736f17f4720364baa35925b9049ba0558927747f43d5ab4697206762055b7e"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h042-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h042",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "bocchi-the-rock",
+      "url": "https://www.tving.com/contents/P001682518",
+      "capturedAt": "2026-11-13T14:45:22.902Z",
+      "requestedKind": "playback-access",
+      "observedKind": "subscription-modal",
+      "captureSha256": "80736f17f4720364baa35925b9049ba0558927747f43d5ab4697206762055b7e"
+    },
+    "quality": {
+      "observedCandidates": 17,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h043-title",
+    "field": "title",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h043",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://www.tving.com/contents/P001602295",
+      "capturedAt": "2026-11-13T14:45:21.806Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "c60392245348c770bf6dfa44493af377f3f1e68f8ed799128775545798f53aa6"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h043-image",
+    "field": "image",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h043",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://www.tving.com/contents/P001602295",
+      "capturedAt": "2026-11-13T14:45:21.806Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "c60392245348c770bf6dfa44493af377f3f1e68f8ed799128775545798f53aa6"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h043-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h043",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://www.tving.com/contents/P001602295",
+      "capturedAt": "2026-11-13T14:45:21.806Z",
+      "requestedKind": "detail",
+      "observedKind": "detail",
+      "captureSha256": "c60392245348c770bf6dfa44493af377f3f1e68f8ed799128775545798f53aa6"
+    },
+    "quality": {
+      "observedCandidates": 17,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h044-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h044",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://www.tving.com/contents/P001602295",
+      "capturedAt": "2026-11-13T14:46:41.204Z",
+      "requestedKind": "playback-access",
+      "observedKind": "subscription-modal",
+      "captureSha256": "78a37dd679f0e1abb0eaab3ca6eb6e34c075e17a5824744008359870ba5f8f25"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h044-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h044",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://www.tving.com/contents/P001602295",
+      "capturedAt": "2026-11-13T14:46:41.204Z",
+      "requestedKind": "playback-access",
+      "observedKind": "subscription-modal",
+      "captureSha256": "78a37dd679f0e1abb0eaab3ca6eb6e34c075e17a5824744008359870ba5f8f25"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h044-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h044",
+      "provider": "tving",
+      "cohort": "unseen-work",
+      "work": "odd-taxi",
+      "url": "https://www.tving.com/contents/P001602295",
+      "capturedAt": "2026-11-13T14:46:41.204Z",
+      "requestedKind": "playback-access",
+      "observedKind": "subscription-modal",
+      "captureSha256": "78a37dd679f0e1abb0eaab3ca6eb6e34c075e17a5824744008359870ba5f8f25"
+    },
+    "quality": {
+      "observedCandidates": 17,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h047-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h047",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://tv.apple.com/kr/show/%EC%8A%A4%ED%82%B5%EA%B3%BC-%EB%A1%9C%ED%8D%BC/umc.cmc.39pmvds25qdwutg5xtprs73hc",
+      "capturedAt": "2026-11-13T14:46:52.766Z",
+      "requestedKind": "login-modal",
+      "observedKind": "login-modal",
+      "captureSha256": "8d92df783d04c945d26d411effd68c6590e349a2b3d4f03d654ab2e0372eed3d"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 11,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h047-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h047",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://tv.apple.com/kr/show/%EC%8A%A4%ED%82%B5%EA%B3%BC-%EB%A1%9C%ED%8D%BC/umc.cmc.39pmvds25qdwutg5xtprs73hc",
+      "capturedAt": "2026-11-13T14:46:52.766Z",
+      "requestedKind": "login-modal",
+      "observedKind": "login-modal",
+      "captureSha256": "8d92df783d04c945d26d411effd68c6590e349a2b3d4f03d654ab2e0372eed3d"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h047-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "h047",
+      "provider": "apple",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://tv.apple.com/kr/show/%EC%8A%A4%ED%82%B5%EA%B3%BC-%EB%A1%9C%ED%8D%BC/umc.cmc.39pmvds25qdwutg5xtprs73hc",
+      "capturedAt": "2026-11-13T14:46:52.766Z",
+      "requestedKind": "login-modal",
+      "observedKind": "login-modal",
+      "captureSha256": "8d92df783d04c945d26d411effd68c6590e349a2b3d4f03d654ab2e0372eed3d"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h048-title",
+    "field": "title",
+    "expectedId": "t14",
+    "acceptedIds": [
+      "t14"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h048",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://www.netflix.com/title/81681471",
+      "capturedAt": "2026-11-13T14:53:42.788Z",
+      "requestedKind": "authenticated-detail",
+      "observedKind": "work-modal",
+      "captureSha256": "0082ab47118414442a026c02a98b9c7484948571480f698da27e2a9314867b32"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": false,
+      "missingGold": true,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [
+        "t14"
+      ],
+      "expectedOutsidePool": true,
+      "allAcceptedOutsidePool": true
+    }
+  },
+  {
+    "id": "h048-image",
+    "field": "image",
+    "expectedId": "__missing_observed_image__",
+    "acceptedIds": [],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h048",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://www.netflix.com/title/81681471",
+      "capturedAt": "2026-11-13T14:53:42.788Z",
+      "requestedKind": "authenticated-detail",
+      "observedKind": "work-modal",
+      "captureSha256": "0082ab47118414442a026c02a98b9c7484948571480f698da27e2a9314867b32"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": false,
+      "missingGold": true,
+      "missingFromOriginalObservedPool": true,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": true,
+      "allAcceptedOutsidePool": true
+    }
+  },
+  {
+    "id": "h048-description",
+    "field": "description",
+    "expectedId": "d3",
+    "acceptedIds": [
+      "d3"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h048",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://www.netflix.com/title/81681471",
+      "capturedAt": "2026-11-13T14:53:42.788Z",
+      "requestedKind": "authenticated-detail",
+      "observedKind": "work-modal",
+      "captureSha256": "0082ab47118414442a026c02a98b9c7484948571480f698da27e2a9314867b32"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h049-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h049",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://www.netflix.com/watch/81681473",
+      "capturedAt": "2026-11-13T14:54:34.420Z",
+      "requestedKind": "playback",
+      "observedKind": "full-player",
+      "captureSha256": "cf30c43d5ef5196e893b01ac36c927622829b2123edb26ef0b6656e73aec0969"
+    },
+    "quality": {
+      "observedCandidates": 10,
+      "presentedCandidates": 10,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h049-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h049",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://www.netflix.com/watch/81681473",
+      "capturedAt": "2026-11-13T14:54:34.420Z",
+      "requestedKind": "playback",
+      "observedKind": "full-player",
+      "captureSha256": "cf30c43d5ef5196e893b01ac36c927622829b2123edb26ef0b6656e73aec0969"
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h049-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h049",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "skip-and-loafer",
+      "url": "https://www.netflix.com/watch/81681473",
+      "capturedAt": "2026-11-13T14:54:34.420Z",
+      "requestedKind": "playback",
+      "observedKind": "full-player",
+      "captureSha256": "cf30c43d5ef5196e893b01ac36c927622829b2123edb26ef0b6656e73aec0969"
+    },
+    "quality": {
+      "observedCandidates": 9,
+      "presentedCandidates": 9,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h050-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h050",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "komi-cant-communicate",
+      "url": "https://www.netflix.com/search?q=%EC%BD%94%EB%AF%B8%20%EC%96%91%EC%9D%80%20%EC%BB%A4%EB%AE%A4%EC%A6%9D%EC%9E%85%EB%8B%88%EB%8B%A4",
+      "capturedAt": "2026-11-13T14:54:54.537Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "86f78ee78c433eda3fb27c48e8454b857c6fa754bdacd139bffbf61f89e3fada"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h050-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h050",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "komi-cant-communicate",
+      "url": "https://www.netflix.com/search?q=%EC%BD%94%EB%AF%B8%20%EC%96%91%EC%9D%80%20%EC%BB%A4%EB%AE%A4%EC%A6%9D%EC%9E%85%EB%8B%88%EB%8B%A4",
+      "capturedAt": "2026-11-13T14:54:54.537Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "86f78ee78c433eda3fb27c48e8454b857c6fa754bdacd139bffbf61f89e3fada"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h050-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h050",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "komi-cant-communicate",
+      "url": "https://www.netflix.com/search?q=%EC%BD%94%EB%AF%B8%20%EC%96%91%EC%9D%80%20%EC%BB%A4%EB%AE%A4%EC%A6%9D%EC%9E%85%EB%8B%88%EB%8B%A4",
+      "capturedAt": "2026-11-13T14:54:54.537Z",
+      "requestedKind": "search",
+      "observedKind": "search",
+      "captureSha256": "86f78ee78c433eda3fb27c48e8454b857c6fa754bdacd139bffbf61f89e3fada"
+    },
+    "quality": {
+      "observedCandidates": 13,
+      "presentedCandidates": 12,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h051-title",
+    "field": "title",
+    "expectedId": "t11",
+    "acceptedIds": [
+      "t11"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h051",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "komi-cant-communicate",
+      "url": "https://www.netflix.com/search?q=%EC%BD%94%EB%AF%B8%20%EC%96%91%EC%9D%80%20%EC%BB%A4%EB%AE%A4%EC%A6%9D%EC%9E%85%EB%8B%88%EB%8B%A4&jbv=81228573",
+      "capturedAt": "2026-11-13T14:55:03.745Z",
+      "requestedKind": "modal",
+      "observedKind": "work-modal",
+      "captureSha256": "dabdfe04c68202404c7bc223c219030c395dcb00e40724f5107a68d407d6b7ca"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h051-image",
+    "field": "image",
+    "expectedId": "__missing_observed_image__",
+    "acceptedIds": [],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h051",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "komi-cant-communicate",
+      "url": "https://www.netflix.com/search?q=%EC%BD%94%EB%AF%B8%20%EC%96%91%EC%9D%80%20%EC%BB%A4%EB%AE%A4%EC%A6%9D%EC%9E%85%EB%8B%88%EB%8B%A4&jbv=81228573",
+      "capturedAt": "2026-11-13T14:55:03.745Z",
+      "requestedKind": "modal",
+      "observedKind": "work-modal",
+      "captureSha256": "dabdfe04c68202404c7bc223c219030c395dcb00e40724f5107a68d407d6b7ca"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": false,
+      "missingGold": true,
+      "missingFromOriginalObservedPool": true,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": true,
+      "allAcceptedOutsidePool": true
+    }
+  },
+  {
+    "id": "h051-description",
+    "field": "description",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h051",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "komi-cant-communicate",
+      "url": "https://www.netflix.com/search?q=%EC%BD%94%EB%AF%B8%20%EC%96%91%EC%9D%80%20%EC%BB%A4%EB%AE%A4%EC%A6%9D%EC%9E%85%EB%8B%88%EB%8B%A4&jbv=81228573",
+      "capturedAt": "2026-11-13T14:55:03.745Z",
+      "requestedKind": "modal",
+      "observedKind": "work-modal",
+      "captureSha256": "dabdfe04c68202404c7bc223c219030c395dcb00e40724f5107a68d407d6b7ca"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "actualTargetPresent": true,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h052-title",
+    "field": "title",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h052",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "komi-cant-communicate",
+      "url": "https://www.netflix.com/watch/81239509",
+      "capturedAt": "2026-11-13T14:55:25.244Z",
+      "requestedKind": "playback",
+      "observedKind": "full-player",
+      "captureSha256": "270581c911d7b41d295bc07504caa9d6418aaa0ba6a2bcee709573fbdb38744a"
+    },
+    "quality": {
+      "observedCandidates": 10,
+      "presentedCandidates": 10,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h052-image",
+    "field": "image",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h052",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "komi-cant-communicate",
+      "url": "https://www.netflix.com/watch/81239509",
+      "capturedAt": "2026-11-13T14:55:25.244Z",
+      "requestedKind": "playback",
+      "observedKind": "full-player",
+      "captureSha256": "270581c911d7b41d295bc07504caa9d6418aaa0ba6a2bcee709573fbdb38744a"
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "h052-description",
+    "field": "description",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "h052",
+      "provider": "netflix",
+      "cohort": "unseen-service",
+      "work": "komi-cant-communicate",
+      "url": "https://www.netflix.com/watch/81239509",
+      "capturedAt": "2026-11-13T14:55:25.244Z",
+      "requestedKind": "playback",
+      "observedKind": "full-player",
+      "captureSha256": "270581c911d7b41d295bc07504caa9d6418aaa0ba6a2bcee709573fbdb38744a"
+    },
+    "quality": {
+      "observedCandidates": 9,
+      "presentedCandidates": 9,
+      "actualTargetPresent": false,
+      "candidateRecall": true,
+      "missingGold": false,
+      "missingFromOriginalObservedPool": false,
+      "outsidePoolAcceptedIds": [],
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "plannedAt": "2026-11-13T14:54:31.736Z",
+  "jobs": [
+    {
+      "id": "more-aniplus-chainsaw-man-search",
+      "provider": "aniplus",
+      "work": "chainsaw-man",
+      "title": "체인소 맨",
+      "url": "https://www.aniplustv.com/Search?st=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8"
+    },
+    {
+      "id": "more-aniplus-witch-search",
+      "provider": "aniplus",
+      "work": "witch",
+      "title": "어느 마녀가 죽을 때까지",
+      "url": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80"
+    },
+    {
+      "id": "more-wavve-chainsaw-man-search",
+      "provider": "wavve",
+      "work": "chainsaw-man",
+      "title": "체인소 맨",
+      "url": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8"
+    },
+    {
+      "id": "more-wavve-witch-search",
+      "provider": "wavve",
+      "work": "witch",
+      "title": "어느 마녀가 죽을 때까지",
+      "url": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80"
+    },
+    {
+      "id": "more-tving-chainsaw-man-search",
+      "provider": "tving",
+      "work": "chainsaw-man",
+      "title": "체인소 맨",
+      "url": "https://www.tving.com/search?keyword=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8"
+    }
+  ],
+  "reason": "Fill missing search/detail work coverage on services with only six or seven captured pages; same already reserved training work groups. Collection and annotation remain blind to predictions."
+}

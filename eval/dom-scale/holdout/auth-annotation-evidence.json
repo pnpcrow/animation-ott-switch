@@ -1,0 +1,24 @@
+[
+  {
+    "pageId": "h048",
+    "image": {
+      "alt": "스킵과 로퍼",
+      "class": "playerModel--player__storyArt has-smaller-buttons detail-modal",
+      "height": 477,
+      "value": "https://occ-0-8124-64.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABcQPn2fh1GWLNEnvb35umulTcdmzyWj8u04AE0QFk4iLSL0riguBOmJSddqbox4t0jDJpDAmfGj_paJEYOvRGcOBNtrNUGh58YqN.webp?r=e84",
+      "width": 848
+    },
+    "reason": "Actual current-work storyArt; absent from first18 generic image candidates."
+  },
+  {
+    "pageId": "h051",
+    "image": {
+      "alt": "코미 양은 커뮤증입니다",
+      "class": "playerModel--player__storyArt has-smaller-buttons detail-modal",
+      "height": 477,
+      "value": "https://occ-0-8124-64.1.nflxso.net/dnm/api/v6/E8vDc_W8CLv7-yMQu8KMEC7Rrr8/AAAABarCb9phh7O1JTuJfOD89MOq2trCqYifwMyWsUAlHMo5b7KON7V64hCtXGuVID5mDFlBPXg_b5hEb2_aM4IAhdyNwMnPMul7rQ-r.webp?r=5cf",
+      "width": 848
+    },
+    "reason": "Current work modal storyArt independent of bounded candidates."
+  }
+]

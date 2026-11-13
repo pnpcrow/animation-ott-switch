@@ -1,0 +1,3655 @@
+{
+  "id": "auth-coupang-jujutsu-detail",
+  "provider": "coupang",
+  "work": "jujutsu-kaisen",
+  "observedKind": "detail-with-preview",
+  "captureMethod": "authenticated-profile CUA read-only; actual page access state manually annotated",
+  "collectorVariant": "auth-read-only-v3",
+  "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+  "capturedAt": "2026-11-13T14:58:46.782Z",
+  "documentTitle": "쿠팡플레이",
+  "enrichment": {
+    "computedLayout": true,
+    "privacy": "No body prefix, account fields, HTML, cookies, video URLs or user storage retained; profile images omitted.",
+    "version": "auth-read-only-v1"
+  },
+  "fields": {
+    "description": [
+      {
+        "id": "d1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:3",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "이제 쿠팡 회원이면 쿠팡플레이 무료 시청"
+      },
+      {
+        "id": "d2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "role": "region",
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "role": "region",
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:5/div:11",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "div"
+          }
+        ],
+        "value": "Descriptionsdescriptions off, selected"
+      },
+      {
+        "id": "d3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": 0,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "role": "dialog",
+                "tag": "div"
+              },
+              {
+                "role": "region",
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "role": "dialog",
+                "tag": "div"
+              },
+              {
+                "role": "region",
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:6/p:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "p"
+          }
+        ],
+        "value": "Beginning of dialog window. Escape will cancel and close the window."
+      },
+      {
+        "id": "d4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "실종된 사람이 많이 발생한 사연 있는 서양식 저택을 조사하기 위해 파견된 주술사 우타히메와 메이메이. 저택에 잠입해 주령의 결계술을 눈치챈 두 사람, 그때 건물이 무너지기 시작한다."
+      },
+      {
+        "id": "d5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "텐겐과의 적합자인 성장체, 그 소녀의 호위와 말소라는 임무를 맡은 고죠와 게토. 성장체 아마나이 리코를 노리는 건 주저사 집단 Q, 그리고 텐겐을 숭배하는 종교단체인 반성교다."
+      },
+      {
+        "id": "d6",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "아마나이의 현상금을 노리는 주저사들을 물리친 고죠와 게토. 그때 갑자기 아마나이의 휴대폰이 진동하고, 그 안에는 붙잡힌 쿠로이의 모습이 있었다."
+      },
+      {
+        "id": "d7",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "게토가 아마나이에게 손을 내민 그 순간, 최악의 사태가 발생한다. 아연해하며 멍하니 서 있는 게토 앞에 후시구로 토우지가 모습을 드러낸다."
+      },
+      {
+        "id": "d8",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "2007년 8월. 고죠는 최강이 되어 임무도 전부 혼자서 해내게 되었다. 그로 인해 필연적으로 게토는 혼자 있는 일이 늘었다."
+      },
+      {
+        "id": "d9",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "임무를 끝낸 이타도리, 후시구로, 쿠기사키. 이타도리는 영화를 보러, 쿠기사키는 쇼핑하러 가려고 하지만, 후시구로는 그런 두 사람을 거들떠보지도 않고 혼자 이지치의 차를 타고 돌아간다."
+      },
+      {
+        "id": "d10",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "움직이는 사지를 얻기 위해 주령 측과 내통하고 있던 교토교의 메카마루, 무타 코키치. 교섭은 결렬되고 마히토와의 싸움을 피할 수 없게 된다."
+      },
+      {
+        "id": "d11",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "2018년 10월 31일 19시, 시부야에 장막이 쳐진다. 장막 안에는 수많은 일반인이 갇히고 전파도 차단된다. 피해를 최소한으로 막기 위해 고죠는 혼자 시부야역 지하 플랫폼으로 간다."
+      },
+      {
+        "id": "d12",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "시부야역 지하 플랫폼. 일반인이 방패가 된 상황 속에서도 죠고, 하나미, 쵸소우를 압도하며 궁지로 몰아넣는 고죠."
+      },
+      {
+        "id": "d13",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "마히토를 쫓아 메이지진구마에역에서 시부야역으로 가던 이타도리 앞에 갑자기 나타난 것은 귀를 뒤덮는 형태로 변한 작은 메카마루였다."
+      },
+      {
+        "id": "d14",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "나나미, 후시구로, 이노와 합류한 이타도리는 나나미의 지시를 받고 후시구로, 이노와 함께 주술사를 들여보내지 않는 장막을 풀기로 한다."
+      },
+      {
+        "id": "d15",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "이타도리와 후시구로는 주저사 아와사카의 술식을 공략해서 주술사를 들여보내지 않는 장막을 푸는 것에 성공한다."
+      },
+      {
+        "id": "d16",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "이누마키의 도움으로 간신히 시부야역 구내에 도착한 이타도리. 그런 이타도리 앞에 나타난 쵸소우는 동생의 원수라며 다짜고짜 공격한다."
+      },
+      {
+        "id": "d17",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "게토 스구루의 껍데기를 뒤집어쓴 누군가가 불러낸 특급 특정 질병 주령과 대치하는 메이메이와 우이우이. 메이메이는 상황을 냉정하게 분석하고, 우이우이는 어떤 대책을 실행한다."
+      },
+      {
+        "id": "d18",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/p:3",
+            "renderedHeight": 48,
+            "renderedWidth": 184,
+            "tag": "p"
+          }
+        ],
+        "value": "특급 주령 다곤의 영역 전개 탕온평선에 의해 궁지에 몰린 나나미, 마키, 나오비토. 그때 나타난 후시구로의 가세로 사지에서 활로를 찾지만, 갑자기 토우지가 난입힌다."
+      }
+    ],
+    "image": [
+      {
+        "id": "i1",
+        "nodes": [
+          {
+            "alt": "Coupang Play",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 121,
+            "naturalWidth": 778,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "header:1/div:1/a:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "https://assets.coupangplay.com/images/web_gnb_logo_new-light.webp"
+      },
+      {
+        "id": "i2",
+        "nodes": [
+          {
+            "alt": "Coupang Play",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 121,
+            "naturalWidth": 778,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "header:1/div:1/a:1/img:2",
+            "renderedHeight": 28,
+            "renderedWidth": 180,
+            "tag": "img"
+          }
+        ],
+        "value": "https://assets.coupangplay.com/images/web_gnb_logo_new.webp"
+      },
+      {
+        "id": "i3",
+        "nodes": [
+          {
+            "alt": "banner",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 630,
+            "naturalWidth": 2578,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:1/img:1",
+            "renderedHeight": 102,
+            "renderedWidth": 416,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/assets/feed-banners/d9b15649-3cee-4047-b4da-1109060b9bd2/banners/1793848131445-web"
+      },
+      {
+        "id": "i4",
+        "nodes": [
+          {
+            "alt": "괴수 8호",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/4c46d16c-d1b0-4ac0-8f19-c2c3ae8fba20/background/0e08bdb9-42c9-432f-bc33-692750e65fea.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i5",
+        "nodes": [
+          {
+            "alt": "마슐",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "마슐"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/fdfd2a76-d267-4a08-8ad2-c9e56b8a96fc/background/be67fb50-f6d6-4343-8401-d08dd4ac3950.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i6",
+        "nodes": [
+          {
+            "alt": "스파이 패밀리",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "스파이 패밀리"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/85169019-0c37-4b34-b1d9-517b0e84cafb/background/320f1a74-8174-4a61-b797-e833f66846d6.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i7",
+        "nodes": [
+          {
+            "alt": "진격의 거인 OAD",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "진격의 거인 OAD"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/6a5bea0d-b13f-431a-b9ee-77118c284cb2/background/d457af41-4aa5-436e-8f8e-b1a29fcabc76.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i8",
+        "nodes": [
+          {
+            "alt": "원피스",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "원피스"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/16791ab6-306e-4522-b022-41ce47087354/background/33535ec6-8232-409d-8402-67c49dee3dc5.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i9",
+        "nodes": [
+          {
+            "alt": "전생했더니 슬라임이었던 건에 대하여",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "전생했더니 슬라임이었던 건에 대하여"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/6efa9323-d6a1-48b7-91c4-388ea4318a93/background/088eb1cc-87e7-4227-9f19-6348b230e45a.jpeg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i10",
+        "nodes": [
+          {
+            "alt": "강철의 연금술사 BROTHERHOOD",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "강철의 연금술사 BROTHERHOOD"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/f9048a3e-4b1a-4dfa-a262-615cbbf519c7/background/b03ceb35-7746-4005-9ee5-f83d50289c27.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i11",
+        "nodes": [
+          {
+            "alt": "극장판 주술회전 0",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/fe944d59-f792-4293-9dfc-dac0227fdf3f/background/51cebfe6-983e-4023-8612-3d3dd4298f2a.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i12",
+        "nodes": [
+          {
+            "alt": "원펀맨",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "원펀맨"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/730eaeed-b053-406f-b5b5-c95cb4cd8739/background/b8ed09fb-f727-4cde-9854-54d8190b6ba8.jpeg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i13",
+        "nodes": [
+          {
+            "alt": "하이큐!!",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "하이큐!!"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/37538a87-0181-47f0-96e4-ff1c89824b8d/background/1704329044849-Animax_haikyuu_Horizontal-Poster_svod.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i14",
+        "nodes": [
+          {
+            "alt": "체인소 맨",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "체인소 맨"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/67632674-40b0-4cd1-8fd6-7838f4ec7ea8/background/5fff7d9e-55b5-41a3-9b64-2a98cd3b3051.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i15",
+        "nodes": [
+          {
+            "alt": "군체",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "군체"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/0a66d933-0c7a-4279-8271-fc4718ca5157/background/0523553c-6fa6-49ff-bbd9-38e8997626a8.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i16",
+        "nodes": [
+          {
+            "alt": "모브 사이코 100",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "모브 사이코 100"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/5b240ee5-ac3d-41d5-a995-cc9700dc8472/background/f673a7d5-5db1-4455-b36e-b52e0422ce45.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i17",
+        "nodes": [
+          {
+            "alt": "그랑블루",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "그랑블루"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/7095d1ea-59e3-4d6d-92ee-32be6e4940d4/background/1d6d992f-77e4-4355-9674-22a733d545e1.jpg?imwidth=350&imscalingMode=aspectFit"
+      },
+      {
+        "id": "i18",
+        "nodes": [
+          {
+            "alt": "드래곤볼Z KAI",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "드래곤볼Z KAI"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "https://img.coupangstreaming.com/titles/f46ed23a-f1ba-4d90-9dcd-e7465833d136/background/fc1e3a6b-b282-4cc3-8116-0827cf645066.jpeg?imwidth=350&imscalingMode=aspectFit"
+      }
+    ],
+    "title": [
+      {
+        "id": "t1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/title:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "title"
+          }
+        ],
+        "value": "쿠팡플레이"
+      },
+      {
+        "id": "t2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "마슐"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/h1:1",
+            "renderedHeight": 23,
+            "renderedWidth": 196,
+            "tag": "h1"
+          },
+          {
+            "alt": "괴수 8호",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "괴수 8호"
+      },
+      {
+        "id": "t3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/h1:1",
+            "renderedHeight": 23,
+            "renderedWidth": 196,
+            "tag": "h1"
+          },
+          {
+            "alt": "마슐",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "마슐"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "마슐"
+      },
+      {
+        "id": "t4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/h1:1",
+            "renderedHeight": 23,
+            "renderedWidth": 196,
+            "tag": "h1"
+          },
+          {
+            "alt": "스파이 패밀리",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "스파이 패밀리"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "스파이 패밀리"
+      },
+      {
+        "id": "t5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/h1:1",
+            "renderedHeight": 23,
+            "renderedWidth": 196,
+            "tag": "h1"
+          },
+          {
+            "alt": "진격의 거인 OAD",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "진격의 거인 OAD"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "진격의 거인 OAD"
+      },
+      {
+        "id": "t6",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/h1:1",
+            "renderedHeight": 23,
+            "renderedWidth": 196,
+            "tag": "h1"
+          },
+          {
+            "alt": "원피스",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "원피스"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "원피스"
+      },
+      {
+        "id": "t7",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/h1:1",
+            "renderedHeight": 45,
+            "renderedWidth": 196,
+            "tag": "h1"
+          },
+          {
+            "alt": "전생했더니 슬라임이었던 건에 대하여",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "전생했더니 슬라임이었던 건에 대하여"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "전생했더니 슬라임이었던 건에 대하여"
+      },
+      {
+        "id": "t8",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/h1:1",
+            "renderedHeight": 45,
+            "renderedWidth": 196,
+            "tag": "h1"
+          },
+          {
+            "alt": "강철의 연금술사 BROTHERHOOD",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "강철의 연금술사 BROTHERHOOD"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "강철의 연금술사 BROTHERHOOD"
+      },
+      {
+        "id": "t9",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/h1:1",
+            "renderedHeight": 23,
+            "renderedWidth": 196,
+            "tag": "h1"
+          },
+          {
+            "alt": "극장판 주술회전 0",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "극장판 주술회전 0"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "극장판 주술회전 0"
+      },
+      {
+        "id": "t10",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/h1:1",
+            "renderedHeight": 23,
+            "renderedWidth": 196,
+            "tag": "h1"
+          },
+          {
+            "alt": "원펀맨",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "원펀맨"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "원펀맨"
+      },
+      {
+        "id": "t11",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/h1:1",
+            "renderedHeight": 23,
+            "renderedWidth": 196,
+            "tag": "h1"
+          },
+          {
+            "alt": "하이큐!!",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "하이큐!!"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "하이큐!!"
+      },
+      {
+        "id": "t12",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/h1:1",
+            "renderedHeight": 23,
+            "renderedWidth": 196,
+            "tag": "h1"
+          },
+          {
+            "alt": "체인소 맨",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "체인소 맨"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "체인소 맨"
+      },
+      {
+        "id": "t13",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:2/h1:1",
+            "renderedHeight": 23,
+            "renderedWidth": 196,
+            "tag": "h1"
+          },
+          {
+            "alt": "군체",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "군체"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "군체"
+      },
+      {
+        "id": "t14",
+        "nodes": [
+          {
+            "alt": "Coupang Play",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 121,
+            "naturalWidth": 778,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "header:1/div:1/a:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": "Coupang Play",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 121,
+            "naturalWidth": 778,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "header:1/div:1/a:1/img:2",
+            "renderedHeight": 28,
+            "renderedWidth": 180,
+            "tag": "img"
+          }
+        ],
+        "value": "Coupang Play"
+      },
+      {
+        "id": "t15",
+        "nodes": [
+          {
+            "alt": "banner",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 630,
+            "naturalWidth": 2578,
+            "navigation": false,
+            "nearbyHeadings": [
+              "괴수 8호"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/a:1/div:1/img:1",
+            "renderedHeight": 102,
+            "renderedWidth": 416,
+            "tag": "img"
+          }
+        ],
+        "value": "banner"
+      },
+      {
+        "id": "t16",
+        "nodes": [
+          {
+            "alt": "모브 사이코 100",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "모브 사이코 100"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "모브 사이코 100"
+      },
+      {
+        "id": "t17",
+        "nodes": [
+          {
+            "alt": "그랑블루",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "그랑블루"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "그랑블루"
+      },
+      {
+        "id": "t18",
+        "nodes": [
+          {
+            "alt": "드래곤볼Z KAI",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 270,
+            "naturalWidth": 480,
+            "navigation": false,
+            "nearbyHeadings": [
+              "드래곤볼Z KAI"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 196,
+            "tag": "img"
+          }
+        ],
+        "value": "드래곤볼Z KAI"
+      }
+    ]
+  },
+  "media": {
+    "fullscreen": false,
+    "playingCount": 1,
+    "videoCount": 1
+  },
+  "pageEvidence": {
+    "dialogs": [
+      {
+        "ariaModal": null,
+        "headings": [],
+        "hidden": true,
+        "index": 0,
+        "open": false,
+        "role": "dialog",
+        "tag": "div"
+      }
+    ],
+    "documentTitle": "쿠팡플레이",
+    "headings": [
+      {
+        "hidden": true,
+        "text": "괴수 8호"
+      },
+      {
+        "hidden": true,
+        "text": "마슐"
+      },
+      {
+        "hidden": true,
+        "text": "스파이 패밀리"
+      },
+      {
+        "hidden": true,
+        "text": "진격의 거인 OAD"
+      },
+      {
+        "hidden": true,
+        "text": "원피스"
+      },
+      {
+        "hidden": true,
+        "text": "전생했더니 슬라임이었던 건에 대하여"
+      },
+      {
+        "hidden": true,
+        "text": "강철의 연금술사 BROTHERHOOD"
+      },
+      {
+        "hidden": true,
+        "text": "극장판 주술회전 0"
+      }
+    ],
+    "url": "https://www.coupangplay.com/titles?titleId=84b84af0-277f-4e7f-b936-11c5825c005d&type=TVSHOW&availability=SVOD&live=&rowId=MLRedis&trackId=MLRedis&src=page_search_grouping&sourceType=page_discover_title_detail%3Apage_search&supportLive=&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "videos": [
+      {
+        "currentTime": 16.974931,
+        "ended": false,
+        "paused": false,
+        "readyState": 4,
+        "renderedHeight": 512,
+        "renderedWidth": 911
+      }
+    ],
+    "visibleDialogCount": 0
+  },
+  "pageUrl": "https://www.coupangplay.com/titles?titleId=84b84af0-277f-4e7f-b936-11c5825c005d&type=TVSHOW&availability=SVOD&live=&rowId=MLRedis&trackId=MLRedis&src=page_search_grouping&sourceType=page_discover_title_detail%3Apage_search&supportLive=&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+  "videoEvidence": [
+    {
+      "currentTime": 16.974931,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "renderedHeight": 512,
+      "renderedWidth": 911
+    }
+  ]
+}

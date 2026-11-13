@@ -1,0 +1,316 @@
+[
+  {
+    "id": "h001",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "skip-and-loafer",
+    "requestedKind": "detail",
+    "url": "https://www.netflix.com/kr/title/81681471"
+  },
+  {
+    "id": "h002",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "cyberpunk-edgerunners",
+    "requestedKind": "detail",
+    "url": "https://www.netflix.com/kr/title/81054853"
+  },
+  {
+    "id": "h003",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "saiki-k",
+    "requestedKind": "detail",
+    "url": "https://www.netflix.com/kr/title/80117781"
+  },
+  {
+    "id": "h004",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "komi-cant-communicate",
+    "requestedKind": "detail",
+    "url": "https://www.netflix.com/kr/title/81228573"
+  },
+  {
+    "id": "h005",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "blue-period",
+    "requestedKind": "detail",
+    "url": "https://www.netflix.com/kr/title/81318842"
+  },
+  {
+    "id": "h006",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "mob-psycho-100",
+    "requestedKind": "detail",
+    "url": "https://www.netflix.com/kr/title/80179798"
+  },
+  {
+    "id": "h007",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "skip-and-loafer",
+    "requestedKind": "search",
+    "url": "https://www.netflix.com/search?q=%EC%8A%A4%ED%82%B5%EA%B3%BC%20%EB%A1%9C%ED%8D%BC"
+  },
+  {
+    "id": "h008",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "cyberpunk-edgerunners",
+    "requestedKind": "search",
+    "url": "https://www.netflix.com/search?q=%EC%82%AC%EC%9D%B4%EB%B2%84%ED%8E%91%ED%81%AC%3A%20%EC%97%A3%EC%A7%80%EB%9F%AC%EB%84%88"
+  },
+  {
+    "id": "h009",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "saiki-k",
+    "requestedKind": "modal",
+    "url": "https://www.netflix.com/browse?jbv=80117781"
+  },
+  {
+    "id": "h010",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "komi-cant-communicate",
+    "requestedKind": "modal",
+    "url": "https://www.netflix.com/browse?jbv=81228573"
+  },
+  {
+    "id": "h011",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "blue-period",
+    "requestedKind": "playback",
+    "url": "https://www.netflix.com/watch/81318842"
+  },
+  {
+    "id": "h012",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "mob-psycho-100",
+    "requestedKind": "playback",
+    "url": "https://www.netflix.com/watch/80179798"
+  },
+  {
+    "id": "h013",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "skip-and-loafer",
+    "requestedKind": "trailer-modal",
+    "url": "https://www.netflix.com/kr/title/81681471",
+    "action": {
+      "name": "예고편"
+    }
+  },
+  {
+    "id": "h014",
+    "provider": "netflix",
+    "cohort": "unseen-service",
+    "work": "cyberpunk-edgerunners",
+    "requestedKind": "trailer-modal",
+    "url": "https://www.netflix.com/kr/title/81054853",
+    "action": {
+      "name": "예고편"
+    }
+  },
+  {
+    "id": "h015",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "mob-psycho-100",
+    "requestedKind": "detail",
+    "url": "https://tv.apple.com/kr/show/모브사이코100/umc.cmc.3fcfxpl733t5fzl2ob612r3on"
+  },
+  {
+    "id": "h016",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "skip-and-loafer",
+    "requestedKind": "detail",
+    "url": "https://tv.apple.com/kr/show/스킵과-로퍼/umc.cmc.39pmvds25qdwutg5xtprs73hc"
+  },
+  {
+    "id": "h017",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "odd-taxi",
+    "requestedKind": "detail",
+    "url": "https://tv.apple.com/kr/show/오드-택시/umc.cmc.5gv0dudnaj025ewqa9hlydobc"
+  },
+  {
+    "id": "h018",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "bleach",
+    "requestedKind": "detail",
+    "url": "https://tv.apple.com/kr/show/%E1%84%87%E1%85%B3%E1%86%AF%E1%84%85%E1%85%B5%E1%84%8E%E1%85%B5/umc.cmc.4r3on444y1qa08tr1wo38xekh"
+  },
+  {
+    "id": "h019",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "hunter-x-hunter",
+    "requestedKind": "detail",
+    "url": "https://tv.apple.com/kr/show/%E1%84%92%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A5x%E1%84%92%E1%85%A5%E1%86%AB%E1%84%90%E1%85%A5/umc.cmc.6iubybdmze8hzxhis7q2gzmk3"
+  },
+  {
+    "id": "h020",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "blue-exorcist",
+    "requestedKind": "detail",
+    "url": "https://tv.apple.com/kr/show/%E1%84%8E%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%B4-%E1%84%8B%E1%85%A6%E1%86%A8%E1%84%89%E1%85%A9%E1%84%89%E1%85%B5%E1%84%89%E1%85%B3%E1%84%90%E1%85%B3/umc.cmc.2lu6vl2448varf8p6w07bepih"
+  },
+  {
+    "id": "h021",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "mononogatari",
+    "requestedKind": "detail",
+    "url": "https://tv.apple.com/kr/show/%E1%84%86%E1%85%A9%E1%84%82%E1%85%A9%E1%84%82%E1%85%A9%E1%84%80%E1%85%A1%E1%84%90%E1%85%A1%E1%84%85%E1%85%B5/umc.cmc.5lscyxz7xdd03k2jwqkujeios"
+  },
+  {
+    "id": "h022",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "mob-psycho-100",
+    "requestedKind": "description-modal",
+    "url": "https://tv.apple.com/kr/show/모브사이코100/umc.cmc.3fcfxpl733t5fzl2ob612r3on",
+    "action": {
+      "name": "더 보기",
+      "exact": true,
+      "index": 0
+    }
+  },
+  {
+    "id": "h023",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "skip-and-loafer",
+    "requestedKind": "description-modal",
+    "url": "https://tv.apple.com/kr/show/스킵과-로퍼/umc.cmc.39pmvds25qdwutg5xtprs73hc",
+    "action": {
+      "name": "더 보기",
+      "exact": true,
+      "index": 0
+    }
+  },
+  {
+    "id": "h024",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "mob-psycho-100",
+    "requestedKind": "search",
+    "url": "https://tv.apple.com/kr/search?term=%EB%AA%A8%EB%B8%8C%EC%82%AC%EC%9D%B4%EC%BD%94100"
+  },
+  {
+    "id": "h025",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "odd-taxi",
+    "requestedKind": "search",
+    "url": "https://tv.apple.com/kr/search?term=%EC%98%A4%EB%93%9C%20%ED%83%9D%EC%8B%9C"
+  },
+  {
+    "id": "h026",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "mob-psycho-100",
+    "requestedKind": "playback-access",
+    "url": "https://tv.apple.com/kr/show/모브사이코100/umc.cmc.3fcfxpl733t5fzl2ob612r3on",
+    "action": {
+      "name": "로그인",
+      "exact": false,
+      "index": 0
+    }
+  },
+  {
+    "id": "h027",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "skip-and-loafer",
+    "requestedKind": "playback-access",
+    "url": "https://tv.apple.com/kr/show/스킵과-로퍼/umc.cmc.39pmvds25qdwutg5xtprs73hc",
+    "action": {
+      "name": "로그인",
+      "exact": false,
+      "index": 0
+    }
+  },
+  {
+    "id": "h028",
+    "provider": "laftel",
+    "cohort": "unseen-work",
+    "work": "bocchi-the-rock",
+    "requestedKind": "search",
+    "url": "https://laftel.net/search?keyword=봇치"
+  },
+  {
+    "id": "h029",
+    "provider": "laftel",
+    "cohort": "unseen-work",
+    "work": "bocchi-the-rock",
+    "requestedKind": "modal",
+    "url": "https://laftel.net/search?keyword=%EB%B4%87%EC%B9%98&modal=41087"
+  },
+  {
+    "id": "h030",
+    "provider": "laftel",
+    "cohort": "unseen-work",
+    "work": "bocchi-the-rock",
+    "requestedKind": "detail",
+    "url": "https://laftel.net/item/41087"
+  },
+  {
+    "id": "h031",
+    "provider": "laftel",
+    "cohort": "unseen-work",
+    "work": "skip-and-loafer",
+    "requestedKind": "search",
+    "url": "https://laftel.net/search?keyword=스킵과%20로퍼"
+  },
+  {
+    "id": "h032",
+    "provider": "laftel",
+    "cohort": "unseen-work",
+    "work": "odd-taxi",
+    "requestedKind": "search",
+    "url": "https://laftel.net/search?keyword=오드%20택시"
+  },
+  {
+    "id": "h033",
+    "provider": "tving",
+    "cohort": "unseen-work",
+    "work": "skip-and-loafer",
+    "requestedKind": "search",
+    "url": "https://www.tving.com/search?keyword=스킵과%20로퍼"
+  },
+  {
+    "id": "h034",
+    "provider": "tving",
+    "cohort": "unseen-work",
+    "work": "skip-and-loafer",
+    "requestedKind": "detail",
+    "url": "https://www.tving.com/contents/P001707310"
+  },
+  {
+    "id": "h035",
+    "provider": "tving",
+    "cohort": "unseen-work",
+    "work": "bocchi-the-rock",
+    "requestedKind": "search",
+    "url": "https://www.tving.com/search?keyword=봇치"
+  },
+  {
+    "id": "h036",
+    "provider": "tving",
+    "cohort": "unseen-work",
+    "work": "odd-taxi",
+    "requestedKind": "search",
+    "url": "https://www.tving.com/search?keyword=오드%20택시"
+  }
+]

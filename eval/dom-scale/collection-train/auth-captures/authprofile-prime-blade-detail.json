@@ -1,0 +1,2461 @@
+{
+  "id": "authprofile-prime-blade-detail",
+  "provider": "prime",
+  "work": "blade-of-the-immortal",
+  "observedKind": "detail-subscription-required",
+  "captureMethod": "authenticated-profile CUA read-only; actual page access state manually annotated",
+  "collectorVariant": "auth-read-only-v3",
+  "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+  "capturedAt": "2026-11-13T14:58:48.557Z",
+  "documentTitle": "프라임 비디오: 무한의 주인",
+  "enrichment": {
+    "computedLayout": true,
+    "privacy": "No body prefix, account fields, HTML, cookies, video URLs or user storage retained; profile images omitted.",
+    "version": "auth-read-only-v1"
+  },
+  "fields": {
+    "description": [
+      {
+        "id": "d1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "무한의 주인",
+              "북두의 권 -Fist of the North Star-"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:16",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "성인용 애니메이션 뮤지컬 시리즈 '해즈빈 호텔'은 지옥의 공주 찰리가 넘쳐나는 지옥 왕국의 인구를 평화적으로 줄이기 위해 악령들을 재활한다는 불가능해 보이는 임무를 실행하는 모습을 보여준다. 천국에서 실시하는 연례행사인 '전멸의 날'이 끝나자 찰리는 호텔을 연다. 손님들이 자신들도 구원"
+      },
+      {
+        "id": "d2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:3/div:1/div:1/div:1",
+            "renderedHeight": 75,
+            "renderedWidth": 665,
+            "tag": "div"
+          }
+        ],
+        "value": "무사가 존재하던 시대의 에도. '100인 살해'라 불리는 불사신이 있었으니, 그의 이름은 만지였다. 만지는 살해된 부모의 복수를 맹세한 린이라는 소녀와 만난다. 린은 만지에게 복수를 위한 여행의 호위가 돼달라고 부탁하고, 만지는 처음에는 거절하지만 린에게서 죽은 여동생의 모습을 떠올리고"
+      },
+      {
+        "id": "d3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "aria-label",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "article:1/section:1/div:1/button:1",
+            "renderedHeight": 143,
+            "renderedWidth": 254,
+            "tag": "button"
+          }
+        ],
+        "value": "HIKARU UTADA SCIENCE FICTION TOUR 2024"
+      },
+      {
+        "id": "d4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "aria-label",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "article:1/section:1/div:1/button:1",
+            "renderedHeight": 143,
+            "renderedWidth": 254,
+            "tag": "button"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              }
+            ],
+            "path": "li:1/article:1/div:1/p:1",
+            "renderedHeight": 41,
+            "renderedWidth": 254,
+            "tag": "p"
+          }
+        ],
+        "value": "【Limited Exclusive】Opening footage from Blade of the Immortal"
+      }
+    ],
+    "image": [
+      {
+        "id": "i1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "og:image",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "무한의 주인",
+              "북두의 권 -Fist of the North Star-"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:18",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/d20d8c5fbc36ccd2dd265cc4a54a072b61ac12fd9508cc03f65edab5bbe8a5b7.jpg"
+      },
+      {
+        "id": "i2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 62,
+            "naturalWidth": 320,
+            "navigation": true,
+            "nearbyHeadings": [
+              "무한의 주인",
+              "북두의 권 -Fist of the North Star-"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "nav"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "nav"
+              }
+            ],
+            "path": "div:1/div:1/a:1/img:1",
+            "renderedHeight": 16,
+            "renderedWidth": 84,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 62,
+            "naturalWidth": 320,
+            "navigation": true,
+            "nearbyHeadings": [
+              "무한의 주인",
+              "북두의 권 -Fist of the North Star-"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "role": "presentation",
+                "tag": "li"
+              },
+              {
+                "role": "presentation",
+                "tag": "ul"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "role": "presentation",
+                "tag": "li"
+              },
+              {
+                "role": "presentation",
+                "tag": "ul"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "ul:1/li:2/a:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/G/01/digital/video/web/logo-min-remaster.png"
+      },
+      {
+        "id": "i3",
+        "nodes": [
+          {
+            "alt": "무한의 주인",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 139,
+            "naturalWidth": 248,
+            "navigation": true,
+            "nearbyHeadings": [
+              "무한의 주인"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": "무한의 주인",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 139,
+            "naturalWidth": 248,
+            "navigation": true,
+            "nearbyHeadings": [
+              "무한의 주인"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 140,
+            "renderedWidth": 249,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/dcde235bfa7005b29c3bd87c296913418d778b67177810e8d330652275cb69e3._UR1920,1080_SX372_FMavif_PQ65_.jpg"
+      },
+      {
+        "id": "i4",
+        "nodes": [
+          {
+            "alt": "북두의 권 -Fist of the North Star-",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 139,
+            "naturalWidth": 248,
+            "navigation": true,
+            "nearbyHeadings": [
+              "북두의 권 -Fist of the North Star-"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": "북두의 권 -Fist of the North Star-",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 139,
+            "naturalWidth": 248,
+            "navigation": true,
+            "nearbyHeadings": [
+              "북두의 권 -Fist of the North Star-"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 140,
+            "renderedWidth": 249,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/4fb315588275bfa7dc1457a0dd4fa60b52d03472c2ddba81b1334e2b1672d664._UR1920,1080_SX372_FMavif_PQ65_.jpg"
+      },
+      {
+        "id": "i5",
+        "nodes": [
+          {
+            "alt": "꼭두각시 서커스",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 139,
+            "naturalWidth": 248,
+            "navigation": true,
+            "nearbyHeadings": [
+              "꼭두각시 서커스"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": "꼭두각시 서커스",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 139,
+            "naturalWidth": 248,
+            "navigation": true,
+            "nearbyHeadings": [
+              "꼭두각시 서커스"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 140,
+            "renderedWidth": 249,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/4c22f1536f46b7a8a61920e69ec880ecbe4269b6e2bd308ada5b777eaa140d9f._UR1920,1080_SX372_FMwebp_.png"
+      },
+      {
+        "id": "i6",
+        "nodes": [
+          {
+            "alt": "빈란드 사가",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 139,
+            "naturalWidth": 248,
+            "navigation": true,
+            "nearbyHeadings": [
+              "빈란드 사가"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": "빈란드 사가",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 139,
+            "naturalWidth": 248,
+            "navigation": true,
+            "nearbyHeadings": [
+              "빈란드 사가"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 140,
+            "renderedWidth": 249,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/4fbfb774215f4950b7ce069e8b0c63c3755572a7784f0a0fd415bd5d96b68680._UR1920,1080_SX372_FMavif_PQ65_.jpg"
+      },
+      {
+        "id": "i7",
+        "nodes": [
+          {
+            "alt": "무한의 주인",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 900,
+            "naturalWidth": 1600,
+            "navigation": false,
+            "nearbyHeadings": [
+              "무한의 주인"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 809,
+            "renderedWidth": 1438,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/65519362e7b97515776d378263db4900fa1b3fa0247370d1b1cb132a3bcf1580._SX1920_FMavif_PQ65_.jpg"
+      },
+      {
+        "id": "i8",
+        "nodes": [
+          {
+            "alt": "prime video",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 34,
+            "naturalWidth": 58,
+            "navigation": false,
+            "nearbyHeadings": [
+              "무한의 주인"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/picture:1/img:1",
+            "renderedHeight": 35,
+            "renderedWidth": 59,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/m-r/Prime/logos/channels-logo-color._CB554929912_SY52.5_FMwebp_.png"
+      },
+      {
+        "id": "i9",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 75,
+            "naturalWidth": 126,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 28,
+            "renderedWidth": 47,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/m-r/Prime/logos/channels-logo-white._CB554929912_BR-255_SY90_FMwebp_.png"
+      },
+      {
+        "id": "i10",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 229,
+            "naturalWidth": 408,
+            "navigation": false,
+            "nearbyHeadings": [
+              "1. 1막 - 만남"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 172,
+            "renderedWidth": 306,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/dc0cd12a0134f3fc4dcd0d2f27505418a5b5bb83e4ef5af868f1eb0a1eb2104e._BR-6_AC_SX720_FMavif_PQ65_.jpg"
+      },
+      {
+        "id": "i11",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 75,
+            "naturalWidth": 126,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 28,
+            "renderedWidth": 47,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 75,
+            "naturalWidth": 126,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 28,
+            "renderedWidth": 47,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 75,
+            "naturalWidth": 126,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 28,
+            "renderedWidth": 47,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/G/01/digital/video/merch/subs/benefit-id/m-r/Prime/logos/channels-logo-white._CB554929912_SY90_FMwebp_.png"
+      },
+      {
+        "id": "i12",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 229,
+            "naturalWidth": 408,
+            "navigation": false,
+            "nearbyHeadings": [
+              "2. 2 막 - 개벽"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 172,
+            "renderedWidth": 306,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/e2fe19cdbd9fce983f275cf235e48ac67d2211166c16730b5aefb7fcd9229654._BR-6_AC_SX720_FMavif_PQ65_.jpg"
+      },
+      {
+        "id": "i13",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 229,
+            "naturalWidth": 408,
+            "navigation": false,
+            "nearbyHeadings": [
+              "3. 3막 - 몽탄"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 172,
+            "renderedWidth": 306,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/b30e608008416cbeec1f01631de5fd25b94b0bb2868e96a01abd5cdcbe4e0da1._BR-6_AC_SX720_FMavif_PQ65_.jpg"
+      },
+      {
+        "id": "i14",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 229,
+            "naturalWidth": 408,
+            "navigation": false,
+            "nearbyHeadings": [
+              "4. 4막 - 흔들리는 린"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 172,
+            "renderedWidth": 306,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/844cd4073f94cadb96221a9c6652057da2d20030efc9dfe37c411ca20421bd87._BR-6_AC_SX720_FMavif_PQ65_.jpg"
+      },
+      {
+        "id": "i15",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 229,
+            "naturalWidth": 408,
+            "navigation": false,
+            "nearbyHeadings": [
+              "5. 5막 - 벌레의 노래"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 172,
+            "renderedWidth": 306,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/9230f712839a6dbd09018d3a42c05d4aef5a2f92e2d0ab1afc4903a1b01b7fb5._BR-6_AC_SX720_FMavif_PQ65_.jpg"
+      },
+      {
+        "id": "i16",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 229,
+            "naturalWidth": 408,
+            "navigation": false,
+            "nearbyHeadings": [
+              "6. 6막 - 날개"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 172,
+            "renderedWidth": 306,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/f56a4624c3d2a03f335d1c2a8a67ba51b00588bccbe4edf4d5e22470533f056f._BR-6_AC_SX720_FMavif_PQ65_.jpg"
+      },
+      {
+        "id": "i17",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 229,
+            "naturalWidth": 408,
+            "navigation": false,
+            "nearbyHeadings": [
+              "7. 7막 - 불길한 그림자"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 172,
+            "renderedWidth": 306,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/a107f93af0e9b53e199feb4c40e7f290bc21a653a34fe8c552860b7410750930._BR-6_AC_SX720_FMavif_PQ65_.jpg"
+      },
+      {
+        "id": "i18",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 229,
+            "naturalWidth": 408,
+            "navigation": false,
+            "nearbyHeadings": [
+              "8. 8막 - 무해류"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": 172,
+            "renderedWidth": 306,
+            "tag": "img"
+          }
+        ],
+        "value": "https://m.media-amazon.com/images/S/pv-target-images/dbc2593225315239be3aa9a5fda5ceca4a61327f33e56518ab96ed4a8f63d700._BR-6_AC_SX720_FMavif_PQ65_.jpg"
+      }
+    ],
+    "title": [
+      {
+        "id": "t1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "무한의 주인",
+              "북두의 권 -Fist of the North Star-"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/title:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "title"
+          }
+        ],
+        "value": "프라임 비디오: 무한의 주인"
+      },
+      {
+        "id": "t2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:2/div:1/div:1/h1:1",
+            "renderedHeight": 67,
+            "renderedWidth": 760,
+            "tag": "h1"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": true,
+            "nearbyHeadings": [
+              "북두의 권 -Fist of the North Star-",
+              "꼭두각시 서커스"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "path": "a:1/div:2/div:1/h3:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "role": "presentation",
+            "tag": "h3"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": true,
+            "nearbyHeadings": [
+              "북두의 권 -Fist of the North Star-",
+              "꼭두각시 서커스"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "path": "a:1/div:2/div:1/h3:1",
+            "renderedHeight": 24,
+            "renderedWidth": 249,
+            "role": "presentation",
+            "tag": "h3"
+          }
+        ],
+        "value": "무한의 주인"
+      },
+      {
+        "id": "t3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": true,
+            "nearbyHeadings": [
+              "무한의 주인",
+              "꼭두각시 서커스"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "path": "a:1/div:2/div:1/h3:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "role": "presentation",
+            "tag": "h3"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": true,
+            "nearbyHeadings": [
+              "무한의 주인",
+              "꼭두각시 서커스"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "path": "a:1/div:2/div:1/h3:1",
+            "renderedHeight": 48,
+            "renderedWidth": 249,
+            "role": "presentation",
+            "tag": "h3"
+          },
+          {
+            "alt": "북두의 권 -Fist of the North Star-",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 139,
+            "naturalWidth": 248,
+            "navigation": true,
+            "nearbyHeadings": [
+              "북두의 권 -Fist of the North Star-"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "북두의 권 -Fist of the North Star-"
+      },
+      {
+        "id": "t4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": true,
+            "nearbyHeadings": [
+              "무한의 주인",
+              "북두의 권 -Fist of the North Star-"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "path": "a:1/div:2/div:1/h3:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "role": "presentation",
+            "tag": "h3"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": true,
+            "nearbyHeadings": [
+              "무한의 주인",
+              "북두의 권 -Fist of the North Star-"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "path": "a:1/div:2/div:1/h3:1",
+            "renderedHeight": 24,
+            "renderedWidth": 249,
+            "role": "presentation",
+            "tag": "h3"
+          },
+          {
+            "alt": "꼭두각시 서커스",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 139,
+            "naturalWidth": 248,
+            "navigation": true,
+            "nearbyHeadings": [
+              "꼭두각시 서커스"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "꼭두각시 서커스"
+      },
+      {
+        "id": "t5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": true,
+            "nearbyHeadings": [
+              "무한의 주인",
+              "북두의 권 -Fist of the North Star-"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "path": "a:1/div:2/div:1/h3:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "role": "presentation",
+            "tag": "h3"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": true,
+            "nearbyHeadings": [
+              "무한의 주인",
+              "북두의 권 -Fist of the North Star-"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "article"
+              }
+            ],
+            "path": "a:1/div:2/div:1/h3:1",
+            "renderedHeight": 24,
+            "renderedWidth": 249,
+            "role": "presentation",
+            "tag": "h3"
+          },
+          {
+            "alt": "빈란드 사가",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 139,
+            "naturalWidth": 248,
+            "navigation": true,
+            "nearbyHeadings": [
+              "빈란드 사가"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "빈란드 사가"
+      },
+      {
+        "id": "t6",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "1. 1막 - 만남"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "div:1/div:1/div:1/h3:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "h3"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "1. 1막 - 만남"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:3/div:3/div:1/h3:1",
+            "renderedHeight": 24,
+            "renderedWidth": 306,
+            "tag": "h3"
+          }
+        ],
+        "value": "1. 1막 - 만남"
+      },
+      {
+        "id": "t7",
+        "nodes": [
+          {
+            "alt": "prime video",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 34,
+            "naturalWidth": 58,
+            "navigation": false,
+            "nearbyHeadings": [
+              "무한의 주인"
+            ],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "a:1/div:1/picture:1/img:1",
+            "renderedHeight": 35,
+            "renderedWidth": 59,
+            "tag": "img"
+          }
+        ],
+        "value": "prime video"
+      }
+    ]
+  },
+  "media": {
+    "fullscreen": false,
+    "playingCount": 0,
+    "videoCount": 1
+  },
+  "pageEvidence": {
+    "dialogs": [],
+    "documentTitle": "프라임 비디오: 무한의 주인",
+    "headings": [
+      {
+        "hidden": false,
+        "text": "무한의 주인"
+      }
+    ],
+    "url": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01?ref_=atv_sr_fle_c_sr782405_pvsearchresults_1_1",
+    "videos": [
+      {
+        "currentTime": 0,
+        "ended": false,
+        "paused": true,
+        "readyState": 0,
+        "renderedHeight": 0,
+        "renderedWidth": 0
+      }
+    ],
+    "visibleDialogCount": 0
+  },
+  "pageUrl": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01?ref_=atv_sr_fle_c_sr782405_pvsearchresults_1_1",
+  "videoEvidence": [
+    {
+      "currentTime": 0,
+      "ended": false,
+      "paused": true,
+      "readyState": 0,
+      "renderedHeight": 0,
+      "renderedWidth": 0
+    }
+  ]
+}

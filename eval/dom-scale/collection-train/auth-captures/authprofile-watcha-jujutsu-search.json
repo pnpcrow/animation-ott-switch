@@ -1,0 +1,556 @@
+{
+  "id": "authprofile-watcha-jujutsu-search",
+  "provider": "watcha",
+  "work": "jujutsu-kaisen",
+  "observedKind": "search",
+  "captureMethod": "authenticated-profile CUA read-only; actual page access state manually annotated",
+  "collectorVariant": "auth-read-only-v3",
+  "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+  "capturedAt": "2026-11-13T14:58:05.603Z",
+  "documentTitle": "왓챠",
+  "enrichment": {
+    "computedLayout": true,
+    "privacy": "No body prefix, account fields, HTML, cookies, video URLs or user storage retained; profile images omitted.",
+    "version": "auth-read-only-v1"
+  },
+  "fields": {
+    "description": [
+      {
+        "id": "d1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:7",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          },
+          {
+            "alt": null,
+            "attribute": "og:description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:12",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "모든 영화, 드라마, 다큐멘터리, 애니메이션, 웹툰을 언제 어디서나 최고의 화질로 무제한 감상하세요."
+      }
+    ],
+    "image": [
+      {
+        "id": "i1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "og:image",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:13",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "https://an2-ast.amz.wtchn.net/erd/_rx_base/assets/C0AF6C4s.png"
+      },
+      {
+        "id": "i2",
+        "nodes": [
+          {
+            "alt": "주술회전",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 470,
+            "naturalWidth": 317,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 70,
+            "renderedWidth": 48,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/Fsk4nopY-RkLeeWnj2165w.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk16RTNlRFEzTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpJME1qVXhORE0wTWpRMU9URTFNVFFpZlEuOFdXR3hPNFRpZWRDYmNVY2tkWHJyNVNDampkbDlNel9zQUdhWVV0VGg0TQ=="
+      },
+      {
+        "id": "i3",
+        "nodes": [
+          {
+            "alt": "극장판 주술회전 0",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 470,
+            "naturalWidth": 317,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 70,
+            "renderedWidth": 48,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/gZDI8WDGf3DyXHkUtlVwUA.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk16RTNlRFEzTUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpJek5UY3hPVFF6TURZMk56Y3lPREVpZlEuWEJKeks1ZndNSWJxUEduaUNRYktqRXQ4OHMtTmNUanJVOFowWnB2WF9fMA=="
+      },
+      {
+        "id": "i4",
+        "nodes": [
+          {
+            "alt": "주술회전, 영역 전개를 시작한다",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 300,
+            "naturalWidth": 300,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 48,
+            "renderedWidth": 48,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/YXo90YdU5qwGWzJq7fytMQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk16QXdlRE13TUhFNE1DSmRMQ0p3SWpvaUwzWXlMM04wYjNKbEwybHRZV2RsTHpFMk9UTTNPRFUwTnpZeU5EVTFNakkwT1RraWZRLkw2YmNiVGFaUXJzNW55M3Z3Z3piekNQcndiZnRjWWw0eGVoa2tyd0lLZ2s="
+      }
+    ],
+    "title": [
+      {
+        "id": "t1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/title:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "title"
+          }
+        ],
+        "value": "왓챠"
+      },
+      {
+        "id": "t2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "og:title",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:9",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "왓챠 - 13만 편의 영화, 드라마, 애니, 예능 무제한 감상"
+      },
+      {
+        "id": "t3",
+        "nodes": [
+          {
+            "alt": "주술회전",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 470,
+            "naturalWidth": 317,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 70,
+            "renderedWidth": 48,
+            "tag": "img"
+          }
+        ],
+        "value": "주술회전"
+      },
+      {
+        "id": "t4",
+        "nodes": [
+          {
+            "alt": "극장판 주술회전 0",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 470,
+            "naturalWidth": 317,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 70,
+            "renderedWidth": 48,
+            "tag": "img"
+          }
+        ],
+        "value": "극장판 주술회전 0"
+      },
+      {
+        "id": "t5",
+        "nodes": [
+          {
+            "alt": "주술회전, 영역 전개를 시작한다",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 300,
+            "naturalWidth": 300,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "a:1/div:1/div:1/img:1",
+            "renderedHeight": 48,
+            "renderedWidth": 48,
+            "tag": "img"
+          }
+        ],
+        "value": "주술회전, 영역 전개를 시작한다"
+      }
+    ]
+  },
+  "media": {
+    "fullscreen": false,
+    "playingCount": 0,
+    "videoCount": 0
+  },
+  "pageEvidence": {
+    "dialogs": [],
+    "documentTitle": "왓챠",
+    "headings": [],
+    "url": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "videos": [],
+    "visibleDialogCount": 0
+  },
+  "pageUrl": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+  "videoEvidence": []
+}

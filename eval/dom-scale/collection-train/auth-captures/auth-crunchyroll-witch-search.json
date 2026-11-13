@@ -1,0 +1,4074 @@
+{
+  "id": "auth-crunchyroll-witch-search",
+  "provider": "crunchyroll",
+  "work": "witch",
+  "observedKind": "search",
+  "captureMethod": "authenticated-profile CUA read-only; actual page access state manually annotated",
+  "collectorVariant": "auth-read-only-v3",
+  "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+  "capturedAt": "2026-11-13T14:57:37.165Z",
+  "documentTitle": "크런치롤: 인기 애니메이션 시청, 게임 플레이 & 온라인 쇼핑",
+  "enrichment": {
+    "computedLayout": true,
+    "privacy": "No body prefix, account fields, HTML, cookies, video URLs or user storage retained; profile images omitted.",
+    "version": "auth-read-only-v1"
+  },
+  "fields": {
+    "description": [
+      {
+        "id": "d1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "상위 결과",
+              "어느 마녀가 죽을 때까지"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:5",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "방대한 애니메이션 시리즈와 극장판 라인업을 만날 수 있는 애니메이션의 성지, 크런치롤과 함께 모험을 떠나보세요. 《원피스》, 《주술회전》, 《체인소 맨》, 《진격의 거인》 등 최고 히트작들의 매력적인 세계관이 여러분을 기다립니다. 지금 바로 무료 체험을 시작하고, 크런치롤과 함께 짜릿한"
+      },
+      {
+        "id": "d2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "둘러보기",
+              "리소스"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:1/p:1",
+            "renderedHeight": 60,
+            "renderedWidth": 372,
+            "tag": "p"
+          }
+        ],
+        "value": "궁극의 애니메이션 플랫폼, 크런치롤에 오신 것을 환영합니다. 최고의 시리즈와 극장판 라인업, 동시 방영 신작까지 마음껏 즐겨보세요."
+      },
+      {
+        "id": "d3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "Update your web browser!"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:2/div:1/p:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "p"
+          }
+        ],
+        "value": "Oh no! It looks like you’re using a web browser we don’t support! Please consider updating your internet browser to unlock thousands of anime titles!"
+      },
+      {
+        "id": "d4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": 2,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "크런치롤을 큰 화면에서 즐기세요"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:2/div:1/p:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "p"
+          }
+        ],
+        "value": "TV나 스트리밍 기기, 게임 콘솔에 크런치롤 앱을 다운로드하여 최애 작품들을 마음껏 시청하세요!"
+      },
+      {
+        "id": "d5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": 3,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "새 PIN 만들기"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:1/p:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "p"
+          }
+        ],
+        "value": "다음에 더 쉽게 액세스할 수 있도록 새 프로필의 PIN을 생성하시겠습니까?"
+      },
+      {
+        "id": "d6",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": 4,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "동의 선호도 관리"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/div:1/div:2/p:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "p"
+          }
+        ],
+        "value": "이러한 쿠키는 웹사이트의 작동을 위해 필요하며, 당사 시스템에서 비활성화할 수 없습니다. 이러한 쿠키는 일반적으로 개인정보 기본 설정, 로그인 또는 양식 작성 등의 서비스 요청에 해당하는 귀하의 행동에만 반응하여 설정됩니다. 귀하는 이러한 쿠키를 차단하거나 경고하도록 브라우저를 설정할 "
+      },
+      {
+        "id": "d7",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "aria-label",
+            "dialogIndex": 4,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "동의 선호도 관리"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "div:1/div:2/div:1/button:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "button"
+          }
+        ],
+        "value": "필수 쿠키 - 공급업체 세부 정보 버튼이 공급업체 목록 메뉴를 엽니다."
+      },
+      {
+        "id": "d8",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": 4,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "동의 선호도 관리"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/div:2/div:2/p:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "p"
+          }
+        ],
+        "value": "이러한 쿠키를 통해 웹사이트는 개선된 기능 및 개인화를 제공할 수 있습니다. 이러한 쿠키는 당사, 또는 당사 페이지에 당사가 서비스를 추가한 제3자 제공업체가 설정할 수 있습니다. 이러한 쿠키를 허용하지 않으실 경우 다음 서비스 중 일부 또는 전부가 제대로 작동하지 않을 수 있습니다."
+      },
+      {
+        "id": "d9",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "aria-label",
+            "dialogIndex": 4,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "동의 선호도 관리"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "div:2/div:2/div:1/button:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "button"
+          }
+        ],
+        "value": "기능 쿠키 - 공급업체 세부 정보 버튼이 공급업체 목록 메뉴를 엽니다."
+      },
+      {
+        "id": "d10",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": 4,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "동의 선호도 관리"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/div:3/div:2/p:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "p"
+          }
+        ],
+        "value": "당사는 이러한 쿠키를 통해 방문 및 트래픽 소스를 계산하여, 사이트의 성능을 측정 및 개선할 수 있습니다. 이를 통해 가장 인기 있는 페이지와 가장 인기 없는 페이지를 파악하고, 방문자가 사이트에서 어떻게 이동하는지 확인할 수 있습니다."
+      },
+      {
+        "id": "d11",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "aria-label",
+            "dialogIndex": 4,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "동의 선호도 관리"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "div:3/div:2/div:1/button:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "button"
+          }
+        ],
+        "value": "성능 쿠키 - 공급업체 세부 정보 버튼이 공급업체 목록 메뉴를 엽니다."
+      },
+      {
+        "id": "d12",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": 4,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "동의 선호도 관리"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/div:4/div:2/p:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "p"
+          }
+        ],
+        "value": "이러한 쿠키는 당사 파트너가 당사 사이트를 통해 설정할 수 있습니다. 파트너는 이러한 쿠키를 통해 귀하의 관심사 프로필을 구축하고 다른 사이트에서 관련 광고를 귀하에게 표시하며, 당사 사이트에서 귀하가 동일한 광고를 보는 빈도를 제한하고, 귀하의 관심사와 관련된 콘텐츠를 표시 및 제공할"
+      },
+      {
+        "id": "d13",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "aria-label",
+            "dialogIndex": 4,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "동의 선호도 관리"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "div:4/div:2/div:1/button:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "button"
+          }
+        ],
+        "value": "타게팅 쿠키 - 공급업체 세부 정보 버튼이 공급업체 목록 메뉴를 엽니다."
+      }
+    ],
+    "image": [
+      {
+        "id": "i1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 60,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=60%2Cheight=90%2Cblur=50/display/keyart/T00349902-base_asset_2x3-ko-KR"
+      },
+      {
+        "id": "i2",
+        "nodes": [
+          {
+            "alt": "어느 마녀가 죽을 때까지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": "어느 마녀가 죽을 때까지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 60,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=60%2Cheight=90/display/keyart/T00349902-base_asset_2x3-ko-KR"
+      },
+      {
+        "id": "i3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 330,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=640%2Cheight=360%2Cblur=50/display/keyart/T00349902-base_asset_16x9-ko-KR"
+      },
+      {
+        "id": "i4",
+        "nodes": [
+          {
+            "alt": "어느 마녀가 죽을 때까지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 330,
+            "tag": "img"
+          },
+          {
+            "alt": "어느 마녀가 죽을 때까지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=640%2Cheight=360/display/keyart/T00349902-base_asset_16x9-ko-KR"
+      },
+      {
+        "id": "i5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 60,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=60%2Cheight=90%2Cblur=50/display/keyart/T00374354-base_asset_2x3-ko-KR"
+      },
+      {
+        "id": "i6",
+        "nodes": [
+          {
+            "alt": "네가 죽을 때까지 사랑하고 싶어",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": "네가 죽을 때까지 사랑하고 싶어",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 60,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=60%2Cheight=90/display/keyart/T00374354-base_asset_2x3-ko-KR"
+      },
+      {
+        "id": "i7",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 330,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=640%2Cheight=360%2Cblur=50/display/keyart/T00374354-base_asset_16x9-ko-KR"
+      },
+      {
+        "id": "i8",
+        "nodes": [
+          {
+            "alt": "네가 죽을 때까지 사랑하고 싶어",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 330,
+            "tag": "img"
+          },
+          {
+            "alt": "네가 죽을 때까지 사랑하고 싶어",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=640%2Cheight=360/display/keyart/T00374354-base_asset_16x9-ko-KR"
+      },
+      {
+        "id": "i9",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 60,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=60%2Cheight=90%2Cblur=50/display/keyart/T00365589-base_asset_2x3-ko-KR"
+      },
+      {
+        "id": "i10",
+        "nodes": [
+          {
+            "alt": "그 마녀를 풀어줘",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": "그 마녀를 풀어줘",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 60,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=60%2Cheight=90/display/keyart/T00365589-base_asset_2x3-ko-KR"
+      },
+      {
+        "id": "i11",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 330,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=640%2Cheight=360%2Cblur=50/display/keyart/T00365589-base_asset_16x9-ko-KR"
+      },
+      {
+        "id": "i12",
+        "nodes": [
+          {
+            "alt": "그 마녀를 풀어줘",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 330,
+            "tag": "img"
+          },
+          {
+            "alt": "그 마녀를 풀어줘",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=640%2Cheight=360/display/keyart/T00365589-base_asset_16x9-ko-KR"
+      },
+      {
+        "id": "i13",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 60,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=60%2Cheight=90%2Cblur=50/display/keyart/T00378072-base_asset_2x3-ja-JP"
+      },
+      {
+        "id": "i14",
+        "nodes": [
+          {
+            "alt": "안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다.",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": "안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다.",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 60,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=60%2Cheight=90/display/keyart/T00378072-base_asset_2x3-ja-JP"
+      },
+      {
+        "id": "i15",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 330,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=640%2Cheight=360%2Cblur=50/display/keyart/T00378072-base_asset_16x9-ja-JP"
+      },
+      {
+        "id": "i16",
+        "nodes": [
+          {
+            "alt": "안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다.",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 186,
+            "renderedWidth": 330,
+            "tag": "img"
+          },
+          {
+            "alt": "안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다.",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 360,
+            "naturalWidth": 640,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=640%2Cheight=360/display/keyart/T00378072-base_asset_16x9-ja-JP"
+      },
+      {
+        "id": "i17",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:1/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 60,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=60%2Cheight=90%2Cblur=50/display/keyart/T00384009-base_asset_2x3-ja-JP"
+      },
+      {
+        "id": "i18",
+        "nodes": [
+          {
+            "alt": "세계 최강의 마녀, 시작했습니다",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 60,
+            "tag": "img"
+          }
+        ],
+        "value": "https://imgsrv.crunchyroll.com/cdn-cgi/image/fit=contain%2Cformat=auto%2Cquality=85%2Cwidth=60%2Cheight=90/display/keyart/T00384009-base_asset_2x3-ja-JP"
+      }
+    ],
+    "title": [
+      {
+        "id": "t1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "상위 결과",
+              "어느 마녀가 죽을 때까지"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/title:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "title"
+          }
+        ],
+        "value": "크런치롤: 인기 애니메이션 시청, 게임 플레이 & 온라인 쇼핑"
+      },
+      {
+        "id": "t2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "어느 마녀가 죽을 때까지",
+              "네가 죽을 때까지 사랑하고 싶어"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:2/div:1/div:1/h1:1",
+            "renderedHeight": 28,
+            "renderedWidth": 1050,
+            "tag": "h1"
+          }
+        ],
+        "value": "상위 결과"
+      },
+      {
+        "id": "t3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "네가 죽을 때까지 사랑하고 싶어",
+              "그 마녀를 풀어줘"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:1/h2:1",
+            "renderedHeight": 22,
+            "renderedWidth": 330,
+            "tag": "h2"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "네가 죽을 때까지 사랑하고 싶어",
+              "그 마녀를 풀어줘"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:1/h2:1",
+            "renderedHeight": 22,
+            "renderedWidth": 258,
+            "tag": "h2"
+          },
+          {
+            "alt": "어느 마녀가 죽을 때까지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "어느 마녀가 죽을 때까지"
+      },
+      {
+        "id": "t4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "어느 마녀가 죽을 때까지",
+              "그 마녀를 풀어줘"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:2/div:1/h2:1",
+            "renderedHeight": 22,
+            "renderedWidth": 330,
+            "tag": "h2"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "어느 마녀가 죽을 때까지",
+              "그 마녀를 풀어줘"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:2/div:1/h2:1",
+            "renderedHeight": 22,
+            "renderedWidth": 258,
+            "tag": "h2"
+          },
+          {
+            "alt": "네가 죽을 때까지 사랑하고 싶어",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "네가 죽을 때까지 사랑하고 싶어"
+      },
+      {
+        "id": "t5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "어느 마녀가 죽을 때까지",
+              "네가 죽을 때까지 사랑하고 싶어"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:3/div:1/h2:1",
+            "renderedHeight": 22,
+            "renderedWidth": 330,
+            "tag": "h2"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "어느 마녀가 죽을 때까지",
+              "네가 죽을 때까지 사랑하고 싶어"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:3/div:1/h2:1",
+            "renderedHeight": 22,
+            "renderedWidth": 258,
+            "tag": "h2"
+          },
+          {
+            "alt": "그 마녀를 풀어줘",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "그 마녀를 풀어줘"
+      },
+      {
+        "id": "t6",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "어느 마녀가 죽을 때까지",
+              "네가 죽을 때까지 사랑하고 싶어"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:4/div:1/h2:1",
+            "renderedHeight": 44,
+            "renderedWidth": 330,
+            "tag": "h2"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "어느 마녀가 죽을 때까지",
+              "네가 죽을 때까지 사랑하고 싶어"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:4/div:1/h2:1",
+            "renderedHeight": 22,
+            "renderedWidth": 258,
+            "tag": "h2"
+          },
+          {
+            "alt": "안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다.",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "안녕하세요. 반한 사람에게 사랑의 묘약을 의뢰받은 마녀입니다."
+      },
+      {
+        "id": "t7",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "어느 마녀가 죽을 때까지",
+              "네가 죽을 때까지 사랑하고 싶어"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:2/div:1/div:2/h2:1",
+            "renderedHeight": 28,
+            "renderedWidth": 1050,
+            "tag": "h2"
+          }
+        ],
+        "value": "시리즈"
+      },
+      {
+        "id": "t8",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "어느 마녀가 죽을 때까지",
+              "네가 죽을 때까지 사랑하고 싶어"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:5/div:1/h2:1",
+            "renderedHeight": 22,
+            "renderedWidth": 258,
+            "tag": "h2"
+          },
+          {
+            "alt": "세계 최강의 마녀, 시작했습니다",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 60,
+            "tag": "img"
+          },
+          {
+            "alt": "세계 최강의 마녀, 시작했습니다",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "세계 최강의 마녀, 시작했습니다"
+      },
+      {
+        "id": "t9",
+        "nodes": [
+          {
+            "alt": "기동전사 건담 수성의 마녀",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 90,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 90,
+            "renderedWidth": 60,
+            "tag": "img"
+          },
+          {
+            "alt": "기동전사 건담 수성의 마녀",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "기동전사 건담 수성의 마녀"
+      },
+      {
+        "id": "t10",
+        "nodes": [
+          {
+            "alt": "이세계 실격",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 180,
+            "naturalWidth": 320,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 88,
+            "renderedWidth": 156,
+            "tag": "img"
+          },
+          {
+            "alt": "이세계 실격",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 180,
+            "naturalWidth": 320,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 88,
+            "renderedWidth": 156,
+            "tag": "img"
+          },
+          {
+            "alt": "이세계 실격",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 180,
+            "naturalWidth": 320,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "picture"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "figure"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "figure:1/div:1/picture:2/img:1",
+            "renderedHeight": 88,
+            "renderedWidth": 156,
+            "tag": "img"
+          }
+        ],
+        "value": "이세계 실격"
+      },
+      {
+        "id": "t11",
+        "nodes": [
+          {
+            "alt": "Close unsupported",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "Update your web browser!"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "Close unsupported"
+      },
+      {
+        "id": "t12",
+        "nodes": [
+          {
+            "alt": "Get Chrome",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "Update your web browser!"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "ul:1/li:1/a:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "Get Chrome"
+      },
+      {
+        "id": "t13",
+        "nodes": [
+          {
+            "alt": "Get Firefox",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "Update your web browser!"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "ul:1/li:2/a:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "Get Firefox"
+      },
+      {
+        "id": "t14",
+        "nodes": [
+          {
+            "alt": "Get Safari",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "Update your web browser!"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "ul:1/li:3/a:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "Get Safari"
+      },
+      {
+        "id": "t15",
+        "nodes": [
+          {
+            "alt": "Get Edge",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "Update your web browser!"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "ul:1/li:4/a:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "Get Edge"
+      },
+      {
+        "id": "t16",
+        "nodes": [
+          {
+            "alt": "회사 로고",
+            "attribute": "alt",
+            "dialogIndex": 4,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 153,
+            "naturalWidth": 2016,
+            "navigation": false,
+            "nearbyHeadings": [
+              "개인정보 선호 센터",
+              "동의 선호도 관리"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "role": "dialog",
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "role": "dialog",
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "회사 로고"
+      },
+      {
+        "id": "t17",
+        "nodes": [
+          {
+            "alt": "Powered by Onetrust",
+            "attribute": "alt",
+            "dialogIndex": 4,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 53,
+            "naturalWidth": 568,
+            "navigation": false,
+            "nearbyHeadings": [
+              "개인정보 선호 센터",
+              "동의 선호도 관리"
+            ],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "role": "dialog",
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "role": "dialog",
+                "tag": "div"
+              }
+            ],
+            "path": "div:3/div:2/a:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "Powered by Onetrust"
+      }
+    ]
+  },
+  "media": {
+    "fullscreen": false,
+    "playingCount": 0,
+    "videoCount": 0
+  },
+  "pageEvidence": {
+    "dialogs": [
+      {
+        "ariaModal": null,
+        "headings": [
+          "계속하려면 이메일 주소를 확인하세요"
+        ],
+        "hidden": true,
+        "index": 0,
+        "open": false,
+        "tag": "dialog"
+      },
+      {
+        "ariaModal": null,
+        "headings": [
+          "계속하려면 사용자 이름을 만드세요"
+        ],
+        "hidden": true,
+        "index": 1,
+        "open": false,
+        "tag": "dialog"
+      },
+      {
+        "ariaModal": null,
+        "headings": [
+          "크런치롤을 큰 화면에서 즐기세요"
+        ],
+        "hidden": true,
+        "index": 2,
+        "open": false,
+        "tag": "dialog"
+      },
+      {
+        "ariaModal": null,
+        "headings": [
+          "새 PIN 만들기"
+        ],
+        "hidden": true,
+        "index": 3,
+        "open": false,
+        "tag": "dialog"
+      },
+      {
+        "ariaModal": "true",
+        "headings": [
+          "개인정보 선호 센터",
+          "동의 선호도 관리"
+        ],
+        "hidden": true,
+        "index": 4,
+        "open": false,
+        "role": "dialog",
+        "tag": "div"
+      },
+      {
+        "ariaModal": null,
+        "headings": [
+          "이 프로필이 삭제되었습니다."
+        ],
+        "hidden": true,
+        "index": 5,
+        "open": false,
+        "tag": "dialog"
+      }
+    ],
+    "documentTitle": "크런치롤: 인기 애니메이션 시청, 게임 플레이 & 온라인 쇼핑",
+    "headings": [
+      {
+        "hidden": false,
+        "text": "상위 결과"
+      }
+    ],
+    "url": "https://www.crunchyroll.com/ko/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+    "videos": [],
+    "visibleDialogCount": 0
+  },
+  "pageUrl": "https://www.crunchyroll.com/ko/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+  "videoEvidence": []
+}

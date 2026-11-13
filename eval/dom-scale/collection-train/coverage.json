@@ -1,0 +1,43 @@
+{
+  "pages": 60,
+  "cases": 180,
+  "positiveCases": 73,
+  "providers": {
+    "laftel": 16,
+    "crunchyroll": 6,
+    "prime": 8,
+    "tving": 7,
+    "coupang": 4,
+    "aniplus": 6,
+    "wavve": 6,
+    "watcha": 7
+  },
+  "pageKinds": {
+    "search": 18,
+    "work-modal": 3,
+    "login": 2,
+    "player-login-gate": 4,
+    "challenge": 6,
+    "blocked": 4,
+    "detail": 20,
+    "detail-unavailable": 2,
+    "full-player": 1
+  },
+  "workGroups": [
+    "jujutsu-kaisen",
+    "attack-on-titan",
+    "frieren",
+    "blade-of-the-immortal",
+    "karakuri-circus",
+    "ghost-in-the-shell",
+    "hazbin-hotel",
+    "look-back",
+    "witch",
+    "apothecary",
+    "rezero",
+    "none-home",
+    "chainsaw-man",
+    "class-marriage"
+  ],
+  "allAcceptedOutsidePool": 0
+}

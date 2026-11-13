@@ -1,0 +1,58 @@
+{
+  "pages": 80,
+  "cases": 240,
+  "answerablePositiveDecisions": 91,
+  "noneDecisions": 146,
+  "collectorMissDecisions": 3,
+  "duplicateDecisions": 3,
+  "distinctTargetWorks": [
+    "jujutsu-kaisen",
+    "attack-on-titan",
+    "frieren",
+    "blade-of-the-immortal",
+    "karakuri-circus",
+    "ghost-in-the-shell",
+    "hazbin-hotel",
+    "look-back",
+    "witch",
+    "apothecary",
+    "rezero",
+    "none-home",
+    "chainsaw-man",
+    "class-marriage"
+  ],
+  "providers": {
+    "laftel": 16,
+    "crunchyroll": 10,
+    "prime": 11,
+    "tving": 8,
+    "coupang": 7,
+    "aniplus": 8,
+    "wavve": 10,
+    "watcha": 10
+  },
+  "pageKinds": {
+    "search": 25,
+    "work-modal": 3,
+    "login": 3,
+    "player-login-gate": 4,
+    "challenge": 6,
+    "blocked": 4,
+    "detail": 23,
+    "detail-unavailable": 2,
+    "full-player": 3,
+    "search-empty": 3,
+    "detail-with-preview": 4
+  },
+  "actualPlayingEpisodePages": [
+    "auth-class-marriage-player",
+    "auth-crunchyroll-witch-player",
+    "auth-coupang-jujutsu-player"
+  ],
+  "limitations": [
+    "Coupang detail title/description definitely present outside candidate collection; exact omitted artwork URL not retained. Three missing-gold decisions preserved, never labeled none.",
+    "Watcha login link remained visible; Prime required subscription. These existing-profile states do not establish authenticated/full-player access.",
+    "Initial repeated anonymous challenge/search/login shells remain raw attempts; downstream training dedup/split policy must avoid duplicated negatives crossing folds.",
+    "Initial exploratory navigation selector failures and one corrected mistyped URL were not retained as canonical captures; disclosed in README."
+  ]
+}

@@ -1,0 +1,379 @@
+{
+  "plannedAt": "2026-11-13T14:45:44.696Z",
+  "candidateCap": 12,
+  "observationCap": 18,
+  "jobs": [
+    {
+      "provider": "laftel",
+      "work": "jujutsu-kaisen",
+      "title": "주술회전",
+      "url": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "kind": "search",
+      "id": "scale-laftel-jujutsu-kaisen-search"
+    },
+    {
+      "provider": "laftel",
+      "work": "attack-on-titan",
+      "title": "진격의 거인",
+      "url": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "kind": "search",
+      "id": "scale-laftel-attack-on-titan-search"
+    },
+    {
+      "provider": "laftel",
+      "work": "frieren",
+      "title": "장송의 프리렌",
+      "url": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "kind": "search",
+      "id": "scale-laftel-frieren-search"
+    },
+    {
+      "provider": "aniplus",
+      "work": "jujutsu-kaisen",
+      "title": "주술회전",
+      "url": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "kind": "search",
+      "id": "scale-aniplus-jujutsu-kaisen-search"
+    },
+    {
+      "provider": "aniplus",
+      "work": "attack-on-titan",
+      "title": "진격의 거인",
+      "url": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "kind": "search",
+      "id": "scale-aniplus-attack-on-titan-search"
+    },
+    {
+      "provider": "aniplus",
+      "work": "frieren",
+      "title": "장송의 프리렌",
+      "url": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "kind": "search",
+      "id": "scale-aniplus-frieren-search"
+    },
+    {
+      "provider": "crunchyroll",
+      "work": "jujutsu-kaisen",
+      "title": "주술회전",
+      "url": "https://www.crunchyroll.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "kind": "search",
+      "id": "scale-crunchyroll-jujutsu-kaisen-search"
+    },
+    {
+      "provider": "crunchyroll",
+      "work": "attack-on-titan",
+      "title": "진격의 거인",
+      "url": "https://www.crunchyroll.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "kind": "search",
+      "id": "scale-crunchyroll-attack-on-titan-search"
+    },
+    {
+      "provider": "crunchyroll",
+      "work": "frieren",
+      "title": "장송의 프리렌",
+      "url": "https://www.crunchyroll.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "kind": "search",
+      "id": "scale-crunchyroll-frieren-search"
+    },
+    {
+      "provider": "prime",
+      "work": "jujutsu-kaisen",
+      "title": "주술회전",
+      "url": "https://www.primevideo.com/search?phrase=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "kind": "search",
+      "id": "scale-prime-jujutsu-kaisen-search"
+    },
+    {
+      "provider": "prime",
+      "work": "attack-on-titan",
+      "title": "진격의 거인",
+      "url": "https://www.primevideo.com/search?phrase=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "kind": "search",
+      "id": "scale-prime-attack-on-titan-search"
+    },
+    {
+      "provider": "prime",
+      "work": "frieren",
+      "title": "장송의 프리렌",
+      "url": "https://www.primevideo.com/search?phrase=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "kind": "search",
+      "id": "scale-prime-frieren-search"
+    },
+    {
+      "provider": "wavve",
+      "work": "jujutsu-kaisen",
+      "title": "주술회전",
+      "url": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "kind": "search",
+      "id": "scale-wavve-jujutsu-kaisen-search"
+    },
+    {
+      "provider": "wavve",
+      "work": "attack-on-titan",
+      "title": "진격의 거인",
+      "url": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "kind": "search",
+      "id": "scale-wavve-attack-on-titan-search"
+    },
+    {
+      "provider": "wavve",
+      "work": "frieren",
+      "title": "장송의 프리렌",
+      "url": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "kind": "search",
+      "id": "scale-wavve-frieren-search"
+    },
+    {
+      "provider": "tving",
+      "work": "jujutsu-kaisen",
+      "title": "주술회전",
+      "url": "https://www.tving.com/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "kind": "search",
+      "id": "scale-tving-jujutsu-kaisen-search"
+    },
+    {
+      "provider": "tving",
+      "work": "attack-on-titan",
+      "title": "진격의 거인",
+      "url": "https://www.tving.com/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "kind": "search",
+      "id": "scale-tving-attack-on-titan-search"
+    },
+    {
+      "provider": "tving",
+      "work": "frieren",
+      "title": "장송의 프리렌",
+      "url": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "kind": "search",
+      "id": "scale-tving-frieren-search"
+    },
+    {
+      "provider": "coupang",
+      "work": "jujutsu-kaisen",
+      "title": "주술회전",
+      "url": "https://www.coupangplay.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "kind": "search",
+      "id": "scale-coupang-jujutsu-kaisen-search"
+    },
+    {
+      "provider": "coupang",
+      "work": "attack-on-titan",
+      "title": "진격의 거인",
+      "url": "https://www.coupangplay.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "kind": "search",
+      "id": "scale-coupang-attack-on-titan-search"
+    },
+    {
+      "provider": "coupang",
+      "work": "frieren",
+      "title": "장송의 프리렌",
+      "url": "https://www.coupangplay.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "kind": "search",
+      "id": "scale-coupang-frieren-search"
+    },
+    {
+      "provider": "watcha",
+      "work": "jujutsu-kaisen",
+      "title": "주술회전",
+      "url": "https://watcha.com/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "kind": "search",
+      "id": "scale-watcha-jujutsu-kaisen-search"
+    },
+    {
+      "provider": "watcha",
+      "work": "attack-on-titan",
+      "title": "진격의 거인",
+      "url": "https://watcha.com/search?query=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "kind": "search",
+      "id": "scale-watcha-attack-on-titan-search"
+    },
+    {
+      "provider": "watcha",
+      "work": "frieren",
+      "title": "장송의 프리렌",
+      "url": "https://watcha.com/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "kind": "search",
+      "id": "scale-watcha-frieren-search"
+    },
+    {
+      "provider": "prime",
+      "work": "blade-of-the-immortal",
+      "title": "무한의 주인",
+      "url": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01",
+      "kind": "detail",
+      "id": "scale-prime-blade-of-the-immortal-detail"
+    },
+    {
+      "provider": "prime",
+      "work": "karakuri-circus",
+      "title": "꼭두각시 서커스",
+      "url": "https://www.primevideo.com/-/ko/detail/0RMO6B95JK1V641KSQV6W0VIQH",
+      "kind": "detail",
+      "id": "scale-prime-karakuri-circus-detail"
+    },
+    {
+      "provider": "prime",
+      "work": "ghost-in-the-shell",
+      "title": "공각기동대",
+      "url": "https://www.primevideo.com/-/ko/detail/0MRWXUDE3L303XFEJRNWB20S3O",
+      "kind": "detail",
+      "id": "scale-prime-ghost-in-the-shell-detail"
+    },
+    {
+      "provider": "prime",
+      "work": "hazbin-hotel",
+      "title": "해즈빈 호텔",
+      "url": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "kind": "detail",
+      "id": "scale-prime-hazbin-hotel-detail"
+    },
+    {
+      "provider": "prime",
+      "work": "look-back",
+      "title": "룩백",
+      "url": "https://www.primevideo.com/-/ko/detail/0UA9Q3CLPT1Q1GZL2M0N4JRHRL",
+      "kind": "detail",
+      "id": "scale-prime-look-back-detail"
+    },
+    {
+      "provider": "tving",
+      "work": "jujutsu-kaisen",
+      "title": "주술회전",
+      "url": "https://www.tving.com/contents/P001336142",
+      "kind": "detail",
+      "id": "scale-tving-jujutsu-kaisen-detail"
+    },
+    {
+      "provider": "tving",
+      "work": "attack-on-titan",
+      "title": "진격의 거인",
+      "url": "https://www.tving.com/contents/P001319056",
+      "kind": "detail",
+      "id": "scale-tving-attack-on-titan-detail"
+    },
+    {
+      "provider": "tving",
+      "work": "frieren",
+      "title": "장송의 프리렌",
+      "url": "https://www.tving.com/contents/P001747384",
+      "kind": "detail",
+      "id": "scale-tving-frieren-detail"
+    },
+    {
+      "provider": "tving",
+      "work": "chainsaw-man",
+      "title": "체인소 맨",
+      "url": "https://www.tving.com/contents/P001654042",
+      "kind": "detail",
+      "id": "scale-tving-chainsaw-man-detail"
+    },
+    {
+      "provider": "watcha",
+      "work": "jujutsu-kaisen",
+      "title": "극장판 주술회전 0",
+      "url": "https://watcha.com/ko/contents/m5Go91n",
+      "kind": "detail",
+      "id": "scale-watcha-jujutsu-kaisen-detail"
+    },
+    {
+      "provider": "watcha",
+      "work": "chainsaw-man",
+      "title": "체인소 맨",
+      "url": "https://watcha.com/ko/contents/tPJZ6jo",
+      "kind": "detail",
+      "id": "scale-watcha-chainsaw-man-detail"
+    },
+    {
+      "provider": "watcha",
+      "work": "frieren",
+      "title": "장송의 프리렌",
+      "url": "https://watcha.com/ko/contents/tRN7gzz",
+      "kind": "detail",
+      "id": "scale-watcha-frieren-detail"
+    },
+    {
+      "provider": "watcha",
+      "work": "attack-on-titan",
+      "title": "진격의 거인 The Final Season 파트 1",
+      "url": "https://watcha.com/ko/contents/tEqZbVd",
+      "kind": "detail",
+      "id": "scale-watcha-attack-on-titan-detail"
+    },
+    {
+      "provider": "crunchyroll",
+      "work": "jujutsu-kaisen",
+      "title": "JUJUTSU KAISEN",
+      "url": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen",
+      "kind": "detail",
+      "id": "scale-crunchyroll-jujutsu-kaisen-detail"
+    },
+    {
+      "provider": "crunchyroll",
+      "work": "frieren",
+      "title": "Frieren",
+      "url": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
+      "kind": "detail",
+      "id": "scale-crunchyroll-frieren-detail"
+    },
+    {
+      "provider": "crunchyroll",
+      "work": "jujutsu-kaisen",
+      "title": "JUJUTSU KAISEN 0",
+      "url": "https://www.crunchyroll.com/watch/G4VUQ9ZQ3",
+      "kind": "player-entry",
+      "id": "scale-crunchyroll-jujutsu-kaisen-watch"
+    },
+    {
+      "provider": "laftel",
+      "work": "witch",
+      "title": "어느 마녀가 죽을 때까지",
+      "url": "https://laftel.net/item/42783",
+      "kind": "detail",
+      "id": "scale-laftel-witch-detail"
+    },
+    {
+      "provider": "laftel",
+      "work": "apothecary",
+      "title": "약사의 혼잣말",
+      "url": "https://laftel.net/item/41714",
+      "kind": "detail",
+      "id": "scale-laftel-apothecary-detail"
+    },
+    {
+      "provider": "laftel",
+      "work": "rezero",
+      "title": "Re:제로부터 시작하는 이세계 생활",
+      "url": "https://laftel.net/item/39644",
+      "kind": "detail",
+      "id": "scale-laftel-rezero-detail"
+    },
+    {
+      "provider": "coupang",
+      "work": "none-home",
+      "title": "쿠팡플레이",
+      "url": "https://www.coupangplay.com/",
+      "kind": "home",
+      "id": "scale-coupang-home"
+    }
+  ],
+  "workGroups": [
+    "jujutsu-kaisen",
+    "attack-on-titan",
+    "frieren",
+    "blade-of-the-immortal",
+    "karakuri-circus",
+    "ghost-in-the-shell",
+    "hazbin-hotel",
+    "look-back",
+    "chainsaw-man",
+    "witch",
+    "apothecary",
+    "rezero",
+    "none-home"
+  ],
+  "forbiddenProviders": [
+    "netflix",
+    "apple"
+  ],
+  "note": "Search flows on Laftel/Aniplus/Wavve may add observed detail/modal and playback-entry captures after actual UI clicks. No fabricated DOM or player; failed clicks are retained in actions."
+}

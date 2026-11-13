@@ -1,0 +1,1019 @@
+[
+  {
+    "pageId": "scale-laftel-jujutsu-kaisen-search",
+    "provider": "laftel",
+    "work": "jujutsu-kaisen",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "actualUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84"
+  },
+  {
+    "pageId": "scale-laftel-attack-on-titan-search",
+    "provider": "laftel",
+    "work": "attack-on-titan",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+    "actualUrl": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8"
+  },
+  {
+    "pageId": "scale-laftel-frieren-search",
+    "provider": "laftel",
+    "work": "frieren",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+    "actualUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C"
+  },
+  {
+    "pageId": "scale-laftel-jujutsu-kaisen-search-opened-work",
+    "provider": "laftel",
+    "work": "jujutsu-kaisen",
+    "pageKind": "work-modal",
+    "rationale": "Visible work heading and series plot in search overlay; preview video poster, not episode thumbnails.",
+    "fields": {
+      "title": "t3",
+      "image": "i2",
+      "description": "d2"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "actualUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84&modal=39986"
+  },
+  {
+    "pageId": "scale-laftel-attack-on-titan-search-opened-work",
+    "provider": "laftel",
+    "work": "attack-on-titan",
+    "pageKind": "login",
+    "rationale": "Actual navigation reached login, not selected work.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+    "actualUrl": "https://laftel.net/auth/login?next=%2Fsearch%3Fkeyword%3D%25EC%25A7%2584%25EA%25B2%25A9%25EC%259D%2598%2B%25EA%25B1%25B0%25EC%259D%25B8%26modal%3D23232"
+  },
+  {
+    "pageId": "scale-laftel-frieren-search-opened-work",
+    "provider": "laftel",
+    "work": "frieren",
+    "pageKind": "work-modal",
+    "rationale": "Opened work overlay despite stale search head metadata and no ARIA dialog. Muted preview does not make it a full player.",
+    "fields": {
+      "title": "t3",
+      "image": "i2",
+      "description": "d2"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+    "actualUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98+%ED%94%84%EB%A6%AC%EB%A0%8C&modal=41666"
+  },
+  {
+    "pageId": "scale-laftel-jujutsu-kaisen-search-playback-entry",
+    "provider": "laftel",
+    "work": "jujutsu-kaisen",
+    "pageKind": "player-login-gate",
+    "rationale": "Full episode player shell requests login; video readyState0 and no playback. Do not count as actual playing coverage.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "actualUrl": "https://laftel.net/player/39986/42164"
+  },
+  {
+    "pageId": "scale-laftel-frieren-search-playback-entry",
+    "provider": "laftel",
+    "work": "frieren",
+    "pageKind": "player-login-gate",
+    "rationale": "Full episode player shell requests login; video readyState0 and no playback. Do not count as actual playing coverage.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+    "actualUrl": "https://laftel.net/player/41666/65123"
+  },
+  {
+    "pageId": "scale-crunchyroll-jujutsu-kaisen-search",
+    "provider": "crunchyroll",
+    "work": "jujutsu-kaisen",
+    "pageKind": "challenge",
+    "rationale": "Browser security challenge; no bypass attempted and no work detail observed.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.crunchyroll.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "actualUrl": "https://www.crunchyroll.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84"
+  },
+  {
+    "pageId": "scale-crunchyroll-attack-on-titan-search",
+    "provider": "crunchyroll",
+    "work": "attack-on-titan",
+    "pageKind": "challenge",
+    "rationale": "Browser security challenge; no bypass attempted and no work detail observed.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.crunchyroll.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+    "actualUrl": "https://www.crunchyroll.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8"
+  },
+  {
+    "pageId": "scale-crunchyroll-frieren-search",
+    "provider": "crunchyroll",
+    "work": "frieren",
+    "pageKind": "challenge",
+    "rationale": "Browser security challenge; no bypass attempted and no work detail observed.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.crunchyroll.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+    "actualUrl": "https://www.crunchyroll.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C"
+  },
+  {
+    "pageId": "scale-prime-jujutsu-kaisen-search",
+    "provider": "prime",
+    "work": "jujutsu-kaisen",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.primevideo.com/search?phrase=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "actualUrl": "https://www.primevideo.com/search?phrase=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84"
+  },
+  {
+    "pageId": "scale-prime-attack-on-titan-search",
+    "provider": "prime",
+    "work": "attack-on-titan",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.primevideo.com/search?phrase=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+    "actualUrl": "https://www.primevideo.com/search?phrase=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8"
+  },
+  {
+    "pageId": "scale-prime-frieren-search",
+    "provider": "prime",
+    "work": "frieren",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.primevideo.com/search?phrase=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+    "actualUrl": "https://www.primevideo.com/search?phrase=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C"
+  },
+  {
+    "pageId": "scale-tving-jujutsu-kaisen-search",
+    "provider": "tving",
+    "work": "jujutsu-kaisen",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.tving.com/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "actualUrl": "https://www.tving.com/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84"
+  },
+  {
+    "pageId": "scale-tving-frieren-search",
+    "provider": "tving",
+    "work": "frieren",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+    "actualUrl": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C"
+  },
+  {
+    "pageId": "scale-tving-attack-on-titan-search",
+    "provider": "tving",
+    "work": "attack-on-titan",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.tving.com/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+    "actualUrl": "https://www.tving.com/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8"
+  },
+  {
+    "pageId": "scale-coupang-jujutsu-kaisen-search",
+    "provider": "coupang",
+    "work": "jujutsu-kaisen",
+    "pageKind": "blocked",
+    "rationale": "Access denied response, no work detail observed.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.coupangplay.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "actualUrl": "https://www.coupangplay.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84"
+  },
+  {
+    "pageId": "scale-coupang-frieren-search",
+    "provider": "coupang",
+    "work": "frieren",
+    "pageKind": "blocked",
+    "rationale": "Access denied response, no work detail observed.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.coupangplay.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+    "actualUrl": "https://www.coupangplay.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C"
+  },
+  {
+    "pageId": "scale-coupang-attack-on-titan-search",
+    "provider": "coupang",
+    "work": "attack-on-titan",
+    "pageKind": "blocked",
+    "rationale": "Access denied response, no work detail observed.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.coupangplay.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+    "actualUrl": "https://www.coupangplay.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8"
+  },
+  {
+    "pageId": "scale-prime-blade-of-the-immortal-detail",
+    "provider": "prime",
+    "work": "blade-of-the-immortal",
+    "pageKind": "detail",
+    "rationale": "h1 series name, OG artwork and full-width 1600x900 hero, series plot metadata.",
+    "fields": {
+      "title": "t2",
+      "image": [
+        "i1",
+        "i3"
+      ],
+      "description": "d1"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01",
+    "actualUrl": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01"
+  },
+  {
+    "pageId": "scale-prime-karakuri-circus-detail",
+    "provider": "prime",
+    "work": "karakuri-circus",
+    "pageKind": "detail",
+    "rationale": "Same observed title/hero/plot relations; episode names and channel logos excluded.",
+    "fields": {
+      "title": "t2",
+      "image": [
+        "i1",
+        "i3"
+      ],
+      "description": "d1"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.primevideo.com/-/ko/detail/0RMO6B95JK1V641KSQV6W0VIQH",
+    "actualUrl": "https://www.primevideo.com/-/ko/detail/0RMO6B95JK1V641KSQV6W0VIQH"
+  },
+  {
+    "pageId": "scale-prime-ghost-in-the-shell-detail",
+    "provider": "prime",
+    "work": "ghost-in-the-shell",
+    "pageKind": "detail",
+    "rationale": "Title-logo alt supplies clean name, but title-logo image i5 is not artwork; hero i3 is 1600x900.",
+    "fields": {
+      "title": "t2",
+      "image": [
+        "i1",
+        "i3"
+      ],
+      "description": "d1"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.primevideo.com/-/ko/detail/0MRWXUDE3L303XFEJRNWB20S3O",
+    "actualUrl": "https://www.primevideo.com/-/ko/detail/0MRWXUDE3L303XFEJRNWB20S3O"
+  },
+  {
+    "pageId": "scale-prime-hazbin-hotel-detail",
+    "provider": "prime",
+    "work": "hazbin-hotel",
+    "pageKind": "detail",
+    "rationale": "Title-logo alt supplies clean name; artwork i3 is full hero, i5 is title logo.",
+    "fields": {
+      "title": "t2",
+      "image": [
+        "i1",
+        "i3"
+      ],
+      "description": "d1"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+    "actualUrl": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE"
+  },
+  {
+    "pageId": "scale-prime-look-back-detail",
+    "provider": "prime",
+    "work": "look-back",
+    "pageKind": "detail",
+    "rationale": "Movie detail with clear plot; recommendation title aria-label is not its synopsis.",
+    "fields": {
+      "title": "t2",
+      "image": [
+        "i1",
+        "i3"
+      ],
+      "description": "d1"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.primevideo.com/-/ko/detail/0UA9Q3CLPT1Q1GZL2M0N4JRHRL",
+    "actualUrl": "https://www.primevideo.com/-/ko/detail/0UA9Q3CLPT1Q1GZL2M0N4JRHRL"
+  },
+  {
+    "pageId": "scale-tving-jujutsu-kaisen-detail",
+    "provider": "tving",
+    "work": "jujutsu-kaisen",
+    "pageKind": "detail",
+    "rationale": "h1 and browser title append 1화; clean name is image alt. Artwork metadata/landscape/portrait accepted; title logo i5 excluded.",
+    "fields": {
+      "title": "t3",
+      "image": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "description": "d1"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.tving.com/contents/P001336142",
+    "actualUrl": "https://www.tving.com/contents/P001336142"
+  },
+  {
+    "pageId": "scale-tving-attack-on-titan-detail",
+    "provider": "tving",
+    "work": "attack-on-titan",
+    "pageKind": "detail",
+    "rationale": "Adult placeholder thumbnails i3/i4 are not artwork; work-specific OG image retained. No full video element.",
+    "fields": {
+      "title": "t3",
+      "image": "i1",
+      "description": "d1"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.tving.com/contents/P001319056",
+    "actualUrl": "https://www.tving.com/contents/P001319056"
+  },
+  {
+    "pageId": "scale-tving-frieren-detail",
+    "provider": "tving",
+    "work": "frieren",
+    "pageKind": "detail",
+    "rationale": "Series synopsis metadata differs from episode summaries; poster and artwork metadata accepted, title logo excluded.",
+    "fields": {
+      "title": "t3",
+      "image": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "description": "d1"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.tving.com/contents/P001747384",
+    "actualUrl": "https://www.tving.com/contents/P001747384"
+  },
+  {
+    "pageId": "scale-crunchyroll-jujutsu-kaisen-detail",
+    "provider": "crunchyroll",
+    "work": "jujutsu-kaisen",
+    "pageKind": "challenge",
+    "rationale": "Browser security challenge; no bypass attempted and no work detail observed.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen",
+    "actualUrl": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen"
+  },
+  {
+    "pageId": "scale-crunchyroll-frieren-detail",
+    "provider": "crunchyroll",
+    "work": "frieren",
+    "pageKind": "challenge",
+    "rationale": "Browser security challenge; no bypass attempted and no work detail observed.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
+    "actualUrl": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end"
+  },
+  {
+    "pageId": "scale-crunchyroll-jujutsu-kaisen-watch",
+    "provider": "crunchyroll",
+    "work": "jujutsu-kaisen",
+    "pageKind": "challenge",
+    "rationale": "Browser security challenge; no bypass attempted and no work detail observed.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.crunchyroll.com/watch/G4VUQ9ZQ3",
+    "actualUrl": "https://www.crunchyroll.com/watch/G4VUQ9ZQ3"
+  },
+  {
+    "pageId": "scale-laftel-witch-detail",
+    "provider": "laftel",
+    "work": "witch",
+    "pageKind": "detail",
+    "rationale": "Clean h1 and work-specific OG artwork/plot; ignore generic description and home recommendations behind overlay.",
+    "fields": {
+      "title": "t3",
+      "image": "i1",
+      "description": "d2"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/item/42783",
+    "actualUrl": "https://laftel.net/item/42783"
+  },
+  {
+    "pageId": "scale-laftel-apothecary-detail",
+    "provider": "laftel",
+    "work": "apothecary",
+    "pageKind": "detail-unavailable",
+    "rationale": "Work title/artwork exist but page says unavailable; {줄거리} is a placeholder, not a synopsis.",
+    "fields": {
+      "title": "t3",
+      "image": "i1",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/item/41714",
+    "actualUrl": "https://laftel.net/item/41714"
+  },
+  {
+    "pageId": "scale-laftel-witch-detail-playback-entry",
+    "provider": "laftel",
+    "work": "witch",
+    "pageKind": "player-login-gate",
+    "rationale": "Full episode player shell requests login; video readyState0 and no playback. Do not count as actual playing coverage.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/item/42783",
+    "actualUrl": "https://laftel.net/player/42783/83850"
+  },
+  {
+    "pageId": "scale-laftel-rezero-detail",
+    "provider": "laftel",
+    "work": "rezero",
+    "pageKind": "detail",
+    "rationale": "Work h1/OG artwork/series plot; background home titles are distractors.",
+    "fields": {
+      "title": "t3",
+      "image": "i1",
+      "description": "d2"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/item/39644",
+    "actualUrl": "https://laftel.net/item/39644"
+  },
+  {
+    "pageId": "scale-laftel-apothecary-detail-playback-entry",
+    "provider": "laftel",
+    "work": "apothecary",
+    "pageKind": "detail-unavailable",
+    "rationale": "Click did not enter a player; same unavailable detail. Duplicate state retained as attempt, excluded from training.",
+    "fields": {
+      "title": "t3",
+      "image": "i1",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/item/41714",
+    "actualUrl": "https://laftel.net/item/41714",
+    "duplicateOf": "scale-laftel-apothecary-detail"
+  },
+  {
+    "pageId": "scale-laftel-rezero-detail-playback-entry",
+    "provider": "laftel",
+    "work": "rezero",
+    "pageKind": "player-login-gate",
+    "rationale": "Full episode player shell requests login; video readyState0 and no playback. Do not count as actual playing coverage.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://laftel.net/item/39644",
+    "actualUrl": "https://laftel.net/player/39644/36886"
+  },
+  {
+    "pageId": "scale-coupang-home",
+    "provider": "coupang",
+    "work": "none-home",
+    "pageKind": "blocked",
+    "rationale": "Access denied response, no work detail observed.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.coupangplay.com/",
+    "actualUrl": "https://www.coupangplay.com/"
+  },
+  {
+    "pageId": "scale-tving-chainsaw-man-detail",
+    "provider": "tving",
+    "work": "chainsaw-man",
+    "pageKind": "detail",
+    "rationale": "Age-gated placeholder images excluded. Series synopsis and clean title observed despite episode-suffixed browser title.",
+    "fields": {
+      "title": "t3",
+      "image": "i1",
+      "description": "d1"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.tving.com/contents/P001654042",
+    "actualUrl": "https://www.tving.com/contents/P001654042"
+  },
+  {
+    "pageId": "scale-aniplus-frieren-search",
+    "provider": "aniplus",
+    "work": "frieren",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+    "actualUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C"
+  },
+  {
+    "pageId": "scale-aniplus-attack-on-titan-search",
+    "provider": "aniplus",
+    "work": "attack-on-titan",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+    "actualUrl": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8"
+  },
+  {
+    "pageId": "scale-aniplus-jujutsu-kaisen-search",
+    "provider": "aniplus",
+    "work": "jujutsu-kaisen",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "actualUrl": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84"
+  },
+  {
+    "pageId": "scale-aniplus-attack-on-titan-search-opened-work",
+    "provider": "aniplus",
+    "work": "attack-on-titan",
+    "pageKind": "detail",
+    "rationale": "Work heading, second work-specific image metadata, both series-synopsis metadata and visible plot.",
+    "fields": {
+      "title": "t6",
+      "image": "i2",
+      "description": [
+        "d2",
+        "d4"
+      ]
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+    "actualUrl": "https://www.aniplustv.com/items/3034"
+  },
+  {
+    "pageId": "scale-aniplus-jujutsu-kaisen-search-opened-work",
+    "provider": "aniplus",
+    "work": "jujutsu-kaisen",
+    "pageKind": "detail",
+    "rationale": "Site has conflicting generic and work metadata; use clean work heading, second artwork and plot.",
+    "fields": {
+      "title": "t6",
+      "image": "i2",
+      "description": [
+        "d2",
+        "d4"
+      ]
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "actualUrl": "https://www.aniplustv.com/items/2336"
+  },
+  {
+    "pageId": "scale-aniplus-frieren-search-opened-work",
+    "provider": "aniplus",
+    "work": "frieren",
+    "pageKind": "detail",
+    "rationale": "Opening work through actual search-card click; h2 clean title, specific artwork and synopsis.",
+    "fields": {
+      "title": "t6",
+      "image": "i2",
+      "description": [
+        "d2",
+        "d4"
+      ]
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+    "actualUrl": "https://www.aniplustv.com/items/3011"
+  },
+  {
+    "pageId": "scale-wavve-frieren-search",
+    "provider": "wavve",
+    "work": "frieren",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+    "actualUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C"
+  },
+  {
+    "pageId": "scale-wavve-attack-on-titan-search",
+    "provider": "wavve",
+    "work": "attack-on-titan",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+    "actualUrl": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8"
+  },
+  {
+    "pageId": "scale-wavve-frieren-search-opened-work",
+    "provider": "wavve",
+    "work": "frieren",
+    "pageKind": "detail",
+    "rationale": "URL contains player but observed screen is season detail with zero video elements; heading,1240x698 hero and series plot.",
+    "fields": {
+      "title": "t4",
+      "image": "i2",
+      "description": [
+        "d3",
+        "d4"
+      ]
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+    "actualUrl": "https://www.wavve.com/player/vod?programid=C6101_C61000000690&landing=season"
+  },
+  {
+    "pageId": "scale-wavve-attack-on-titan-search-opened-work",
+    "provider": "wavve",
+    "work": "attack-on-titan",
+    "pageKind": "login",
+    "rationale": "Actual navigation reached login, not selected work.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+    "actualUrl": "https://www.wavve.com/member/login?referer=%2Fsearch%3FsearchWord%3D%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8"
+  },
+  {
+    "pageId": "scale-wavve-jujutsu-kaisen-search",
+    "provider": "wavve",
+    "work": "jujutsu-kaisen",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "actualUrl": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84"
+  },
+  {
+    "pageId": "scale-wavve-jujutsu-kaisen-search-opened-work",
+    "provider": "wavve",
+    "work": "jujutsu-kaisen",
+    "pageKind": "detail",
+    "rationale": "Clean title alt and large hero; monochrome title logo i3 and episode summaries excluded.",
+    "fields": {
+      "title": "t4",
+      "image": "i2",
+      "description": [
+        "d4",
+        "d3"
+      ]
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "actualUrl": "https://www.wavve.com/player/vod?programid=C6101_C61000000329&landing=season"
+  },
+  {
+    "pageId": "scale-watcha-jujutsu-kaisen-search",
+    "provider": "watcha",
+    "work": "jujutsu-kaisen",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://watcha.com/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "actualUrl": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84"
+  },
+  {
+    "pageId": "scale-watcha-frieren-search",
+    "provider": "watcha",
+    "work": "frieren",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://watcha.com/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+    "actualUrl": "https://watcha.com/ko/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C"
+  },
+  {
+    "pageId": "scale-watcha-attack-on-titan-search",
+    "provider": "watcha",
+    "work": "attack-on-titan",
+    "pageKind": "search",
+    "rationale": "Search/list page, no work detail open; presence of title-matching cards is insufficient.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://watcha.com/search?query=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+    "actualUrl": "https://watcha.com/ko/search?query=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8"
+  },
+  {
+    "pageId": "scale-watcha-jujutsu-kaisen-detail",
+    "provider": "watcha",
+    "work": "jujutsu-kaisen",
+    "pageKind": "detail",
+    "rationale": "Movie metadata and visible work h1/synopsis; same hero appears blurred background and foreground; title logo excluded.",
+    "fields": {
+      "title": "t2",
+      "image": [
+        "i1",
+        "i2"
+      ],
+      "description": [
+        "d1",
+        "d2"
+      ]
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://watcha.com/ko/contents/m5Go91n",
+    "actualUrl": "https://watcha.com/ko/contents/m5Go91n"
+  },
+  {
+    "pageId": "scale-watcha-chainsaw-man-detail",
+    "provider": "watcha",
+    "work": "chainsaw-man",
+    "pageKind": "detail",
+    "rationale": "Work h1 and synopsis metadata; i2 official foreground/background artwork, i3 title logo.",
+    "fields": {
+      "title": "t2",
+      "image": [
+        "i1",
+        "i2"
+      ],
+      "description": "d1"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://watcha.com/ko/contents/tPJZ6jo",
+    "actualUrl": "https://watcha.com/ko/contents/tPJZ6jo"
+  },
+  {
+    "pageId": "scale-watcha-frieren-detail",
+    "provider": "watcha",
+    "work": "frieren",
+    "pageKind": "detail",
+    "rationale": "Series detail visible despite lower page loading indicator; clear work metadata/hero/plot.",
+    "fields": {
+      "title": "t2",
+      "image": [
+        "i1",
+        "i2"
+      ],
+      "description": "d1"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://watcha.com/ko/contents/tRN7gzz",
+    "actualUrl": "https://watcha.com/ko/contents/tRN7gzz"
+  },
+  {
+    "pageId": "scale-watcha-attack-on-titan-detail",
+    "provider": "watcha",
+    "work": "attack-on-titan",
+    "pageKind": "detail",
+    "rationale": "Series detail; season name text d2 is not synopsis.",
+    "fields": {
+      "title": "t2",
+      "image": [
+        "i1",
+        "i2"
+      ],
+      "description": "d1"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "public-generic-v2-media",
+    "sourceUrl": "https://watcha.com/ko/contents/tEqZbVd",
+    "actualUrl": "https://watcha.com/ko/contents/tEqZbVd"
+  },
+  {
+    "pageId": "auth-class-marriage-modal",
+    "provider": "laftel",
+    "work": "class-marriage",
+    "pageKind": "work-modal",
+    "rationale": "Authenticated actual work modal; search title remains stale. Poster variants accepted, series synopsis before episode summaries.",
+    "fields": {
+      "title": "t3",
+      "image": [
+        "i2",
+        "i3"
+      ],
+      "description": "d3"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "auth-read-only-v1",
+    "sourceUrl": "https://laftel.net/search?keyword=%EB%B0%98%EC%97%90%EC%84%9C+%EB%91%90+%EB%B2%88%EC%A7%B8%EB%A1%9C+%EA%B7%80%EC%97%AC%EC%9A%B4+%EC%97%AC%EC%9E%90%EC%95%A0%EC%99%80+%EC%B9%9C%EA%B5%AC%EA%B0%80+%EB%90%98%EC%97%88%EB%8B%A4&modal=42628",
+    "actualUrl": "https://laftel.net/search?keyword=%EB%B0%98%EC%97%90%EC%84%9C+%EB%91%90+%EB%B2%88%EC%A7%B8%EB%A1%9C+%EA%B7%80%EC%97%AC%EC%9A%B4+%EC%97%AC%EC%9E%90%EC%95%A0%EC%99%80+%EC%B9%9C%EA%B5%AC%EA%B0%80+%EB%90%98%EC%97%88%EB%8B%A4&modal=42628"
+  },
+  {
+    "pageId": "auth-class-marriage-player",
+    "provider": "laftel",
+    "work": "class-marriage",
+    "pageKind": "full-player",
+    "rationale": "Authenticated full episode player. Actual media paused=false,currentTime55,readyState4; all extraction decisions abstain.",
+    "fields": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__"
+    },
+    "reviewedBeforePredictions": true,
+    "collectorVariant": "auth-read-only-v1",
+    "sourceUrl": "https://laftel.net/player/42628/80260",
+    "actualUrl": "https://laftel.net/player/42628/80260"
+  }
+]

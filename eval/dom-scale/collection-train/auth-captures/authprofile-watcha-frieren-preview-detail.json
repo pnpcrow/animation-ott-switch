@@ -1,0 +1,2414 @@
+{
+  "id": "authprofile-watcha-frieren-preview-detail",
+  "provider": "watcha",
+  "work": "frieren",
+  "observedKind": "detail-with-preview-subscription-required",
+  "captureMethod": "authenticated-profile CUA read-only; actual page access state manually annotated",
+  "collectorVariant": "auth-read-only-v3",
+  "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+  "capturedAt": "2026-11-13T14:57:19.354Z",
+  "documentTitle": "장송의 프리렌 | 왓챠",
+  "enrichment": {
+    "computedLayout": true,
+    "privacy": "No body prefix, account fields, HTML, cookies, video URLs or user storage retained; profile images omitted.",
+    "version": "auth-read-only-v1"
+  },
+  "fields": {
+    "description": [
+      {
+        "id": "d1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌",
+              "감독/출연"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:11",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          },
+          {
+            "alt": null,
+            "attribute": "og:description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌",
+              "감독/출연"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:13",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "천 년 넘게 사는 엘프 프리렌은 동료들과 재회를 약속하고 여행을 떠나지만, 50년 뒤 만난 동료들은 나이가 들어 곧 죽음을 맞이한다. 프리렌은 무지한 자신을 통감하고, 인간에 대해 알기 위한 여행을 시작한다."
+      },
+      {
+        "id": "d2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/section:1/div:3/p:1",
+            "renderedHeight": 88,
+            "renderedWidth": 400,
+            "tag": "p"
+          },
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌"
+            ],
+            "parentRoles": [
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:2/div:2/section:1/p:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "p"
+          }
+        ],
+        "value": "천 년 넘게 사는 엘프 프리렌은 동료들과 재회를 약속하고 여행을 떠나지만, 50년 뒤 만난 동료들은 나이가 들어 곧 죽음을 맞이한다. 프리렌은 무지한 자신을 통감하고, 인간에 대해 알기 위한 여행을 시작한다.더보기"
+      }
+    ],
+    "image": [
+      {
+        "id": "i1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "og:image",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌",
+              "감독/출연"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:14",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          },
+          {
+            "alt": null,
+            "attribute": "twitter:image",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌",
+              "감독/출연"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:17",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/L29yJpzBf5GmsYIaZ0-pjg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1KbklsMHNJbkFpT2lJdmRqSXZjM1J2Y21VdmFXMWhaMlV2TVRZNU5UTTFOemc1TnpRMk1qVXhOVEU1TlNKOS5IQ3FiNE1kWGNXR3BBVkdlZGxJbjh1UVdNd0N1b0RPbGt2SzBnd3FXUEJR"
+      },
+      {
+        "id": "i2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 720,
+            "naturalWidth": 1280,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 1133,
+            "renderedWidth": 2014,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/gRMqmY9S1F-V_TW6Ex00bg.webp?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USTRNSGczTWpCeE9EQWlYU3dpY0NJNklpOTJNaTl6ZEc5eVpTOXBiV0ZuWlM4eE5qazFNelUzT0RrM05EWXlOVEUxTVRrMUluMC5nY3JaUUgtTGJWUmIteTg1cEczYXBKTU5UX1lKd3V1a0Q2b1RMUTNRVElF"
+      },
+      {
+        "id": "i3",
+        "nodes": [
+          {
+            "alt": "장송의 프리렌",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 328,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "section:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 400,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/7JqZLCtF5IJcmhUViDnhFA.png?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKd0lqb2lMM1l5TDNOMGIzSmxMMmx0WVdkbEx6RXlPRGs1TkRBeE1EVTBPVFV4TVRVMklpd2lhQ0k2TVRJd2ZRLlhBUmNud085dC0yZTN1ODhRMWpXOHVnUU5iMUpWTTZHTkdJVDlucHl2RWc="
+      },
+      {
+        "id": "i4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 720,
+            "naturalWidth": 1280,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/section:2/div:1/img:1",
+            "renderedHeight": 545,
+            "renderedWidth": 968,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/vod/c_fill_auto,q_70,w_1280,h_720/2c9b2cdb8ae9e183018afe055a66014b/2c9b38658af937d4018afe08e35b1ab9/thumbnail-hq/0004.jpg?sig=8eaa9f1b6cf696a5ec51f7d9e17199222735adfb43f44b15082a0a48b03f4a05"
+      },
+      {
+        "id": "i5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 60,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/div:1/div:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          },
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 60,
+            "naturalWidth": 60,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/div:1/div:1/img:1",
+            "renderedHeight": 20,
+            "renderedWidth": 20,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-mars.amz.wtchn.net/assets/icon/message-df210c8aa9561376a193a27d0057e56a96991cc1e29f1c39eeaa551b24feb96e.png"
+      },
+      {
+        "id": "i6",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 72,
+            "naturalWidth": 72,
+            "navigation": false,
+            "nearbyHeadings": [
+              "감독/출연",
+              "삽입곡"
+            ],
+            "parentRoles": [
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "li"
+              },
+              {
+                "tag": "ul"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/ul:1/li:1/img:1",
+            "renderedHeight": 24,
+            "renderedWidth": 24,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-mars.amz.wtchn.net/assets/reason_icons/rate_24-5db49e8f9ee19560cad3f9c50c839d4a05158f6f4ce8d3b5bc1e64d35c997c1b.png"
+      },
+      {
+        "id": "i7",
+        "nodes": [
+          {
+            "alt": "타네자키 아츠미의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/tYmydnwbqGZtu_wrOqJM4A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh5TXpJME5qWXlNemMxTVRFd05USTBOU0o5LkNaaXk3UkRJLTFEMkdORUtmUGNfY3VOR1JjNjdZVkh4OVpDekhpZllueUk="
+      },
+      {
+        "id": "i8",
+        "nodes": [
+          {
+            "alt": "이치노세 카나의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/1DgBXBX56EABCZnvDEZxWQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh4TmpFM01EQTFOemd6TlRnME1qUXhOVFEySW4wLmVOZlpsWGJibzJiUFpaeU1mY0gyY0hSQmNSTEtaTzFHblhNVjl3cDZLdnM="
+      },
+      {
+        "id": "i9",
+        "nodes": [
+          {
+            "alt": "코바야시 치아키의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/Td0yzj37POiVit_pRNDzdQ.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh4TmpJeU5EVTVNekUxTkRNek5UVTJNRGN4SW4wLkNFOFpBdVVtODBJdDc1M0RaV1BLT0lmZFlSSVhpUU1zMjg2b1g4emNETE0="
+      },
+      {
+        "id": "i10",
+        "nodes": [
+          {
+            "alt": "오카모토 노부히코의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/OfMoSmG2Hr6yErFJ0F76kw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh4TmpFeE9EQTBPVE0zTURVeE5qVTNNVGM0SW4wLkJkYndZZlQwTXVpSTlUMWlsSEhYeUV1WWN5Um80STBfNzhnbEdRdXUxYXc="
+      },
+      {
+        "id": "i11",
+        "nodes": [
+          {
+            "alt": "토우치 히로키의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/vS_A7e8rQ6WyRoDprhCQzw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh4TmpJMU56TTJNVGN3T0RRek56TXlNVE0zSW4wLnpzaTEzMGlCV0ctcXpHVEJLSXE0bmJQc1ZETHpNb2VGMTVJNS01ZEU5OUE="
+      },
+      {
+        "id": "i12",
+        "nodes": [
+          {
+            "alt": "우에다 요지의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/6sZJJMrlDG0Fdwb-lnDLVg.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1USXdlREV5TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNCbGNuTnZiaTh4TmpFeU9ETTFOek13TVRJME1EUTRPVGMzSW4wLmZYdzZCMHlkdjJUNGdVbTdPR1hvTVF6UUdQOEc3aDdmNWhld1Q4cUZwRDg="
+      },
+      {
+        "id": "i13",
+        "nodes": [
+          {
+            "alt": "사이토 케이이치로의 이미지",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 144,
+            "naturalWidth": 144,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-mars.amz.wtchn.net/assets/aio_person_thumbnail-69b3caf75e0490149795dc723b319e50e64a171b4eb6af90047dd342de2b8461.png"
+      },
+      {
+        "id": "i14",
+        "nodes": [
+          {
+            "alt": "勇者",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 800,
+            "naturalWidth": 800,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://is1-ssl.mzstatic.com/image/thumb/Features211/v4/04/88/2b/04882b3a-f2fc-61ce-c77b-3c826b915a95/mzl.gsiktrix.jpg/800x800cc.jpg"
+      },
+      {
+        "id": "i15",
+        "nodes": [
+          {
+            "alt": "The End of One Journey",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 800,
+            "naturalWidth": 800,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          },
+          {
+            "alt": "The Party of Heroes Returns",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 800,
+            "naturalWidth": 800,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "https://is1-ssl.mzstatic.com/image/thumb/Music126/v4/74/ee/a9/74eea99e-00d8-2c85-8dc5-3a670464fd31/pr_source.png/800x800cc.jpg"
+      },
+      {
+        "id": "i16",
+        "nodes": [
+          {
+            "alt": "박민기",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 100,
+            "naturalWidth": 100,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "article:1/div:1/a:1/img:1",
+            "renderedHeight": 38,
+            "renderedWidth": 38,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/KOZxEeUoNjv6bs7_ILPK6A.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1UQXdlREV3TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNWelpYSXZaR1ZtWVhWc2RGOXdjbTltYVd4bFgybHRZV2RsTDNCeWIyWnBiR1ZmTURrdWNHNW5JbjAuWnVBTVVSdkxMZW50N1NvNDBtMTVnd2h0UG1CUnNWNFpJWnZaVzI3TnlQRQ=="
+      },
+      {
+        "id": "i17",
+        "nodes": [
+          {
+            "alt": "가현",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 100,
+            "naturalWidth": 100,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "article:1/div:1/a:1/img:1",
+            "renderedHeight": 38,
+            "renderedWidth": 38,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/rboVLs4fQECxvg_EuXa6Gw.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1UQXdlREV3TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNWelpYSXZXVTFMY1cxbGEwOXljV3h2UkM5d2NtOW1hV3hsTHpFMk1qazROekl5TmpVME9EQXdNemcyTlRZaWZRLkJ2TnJIcEgySWdLX09vWEU1Q0NWWUozX1FXWWJwRjJqcXdsUjZwei1iYTQ="
+      },
+      {
+        "id": "i18",
+        "nodes": [
+          {
+            "alt": "모몽가악개김효민",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 100,
+            "naturalWidth": 100,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "article:1/div:1/a:1/img:1",
+            "renderedHeight": 38,
+            "renderedWidth": 38,
+            "tag": "img"
+          }
+        ],
+        "value": "https://an2-img.amz.wtchn.net/image/v2/2XIuiwo81lMh96Sjs_feig.jpg?jwt=ZXlKaGJHY2lPaUpJVXpJMU5pSjkuZXlKdmNIUnpJanBiSW1SZk1UQXdlREV3TUNKZExDSndJam9pTDNZeUwzTjBiM0psTDNWelpYSXZibUkwZUd0Q1IycE9TelZQUVM5d2NtOW1hV3hsTHpJd01UZzBOVFkwT1RVME56VTRNekVpZlEuMnlJMEM2bzBYdnV1a3lZeWxsT3NJZER4UVlxLVNzVnYxUy1PdUVqQ3R2NA=="
+      }
+    ],
+    "title": [
+      {
+        "id": "t1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌",
+              "감독/출연"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/title:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "title"
+          },
+          {
+            "alt": null,
+            "attribute": "og:title",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌",
+              "감독/출연"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:12",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          },
+          {
+            "alt": null,
+            "attribute": "twitter:title",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌",
+              "감독/출연"
+            ],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:16",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "장송의 프리렌 | 왓챠"
+      },
+      {
+        "id": "t2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "section:1/section:1/div:1/h1:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "h1"
+          },
+          {
+            "alt": "장송의 프리렌",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 328,
+            "navigation": false,
+            "nearbyHeadings": [
+              "장송의 프리렌"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "section"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "section:1/div:1/div:1/img:1",
+            "renderedHeight": 110,
+            "renderedWidth": 400,
+            "tag": "img"
+          }
+        ],
+        "value": "장송의 프리렌"
+      },
+      {
+        "id": "t3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "삽입곡",
+              "왓챠피디아 사용자 평"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "header:1/div:1/div:1/h2:1",
+            "renderedHeight": 26,
+            "renderedWidth": 77,
+            "tag": "h2"
+          }
+        ],
+        "value": "감독/출연"
+      },
+      {
+        "id": "t4",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [
+              "감독/출연",
+              "왓챠피디아 사용자 평"
+            ],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "header:1/div:1/div:1/h2:1",
+            "renderedHeight": 26,
+            "renderedWidth": 52,
+            "tag": "h2"
+          }
+        ],
+        "value": "삽입곡"
+      },
+      {
+        "id": "t5",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "header"
+              },
+              {
+                "tag": "section"
+              }
+            ],
+            "path": "header:1/div:1/div:1/h2:1",
+            "renderedHeight": 26,
+            "renderedWidth": 165,
+            "tag": "h2"
+          }
+        ],
+        "value": "왓챠피디아 사용자 평"
+      },
+      {
+        "id": "t6",
+        "nodes": [
+          {
+            "alt": "타네자키 아츠미의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "타네자키 아츠미의 이미지"
+      },
+      {
+        "id": "t7",
+        "nodes": [
+          {
+            "alt": "이치노세 카나의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "이치노세 카나의 이미지"
+      },
+      {
+        "id": "t8",
+        "nodes": [
+          {
+            "alt": "코바야시 치아키의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "코바야시 치아키의 이미지"
+      },
+      {
+        "id": "t9",
+        "nodes": [
+          {
+            "alt": "오카모토 노부히코의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "오카모토 노부히코의 이미지"
+      },
+      {
+        "id": "t10",
+        "nodes": [
+          {
+            "alt": "토우치 히로키의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "토우치 히로키의 이미지"
+      },
+      {
+        "id": "t11",
+        "nodes": [
+          {
+            "alt": "우에다 요지의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 120,
+            "naturalWidth": 120,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "우에다 요지의 이미지"
+      },
+      {
+        "id": "t12",
+        "nodes": [
+          {
+            "alt": "사이토 케이이치로의 이미지",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 144,
+            "naturalWidth": 144,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "a"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "사이토 케이이치로의 이미지"
+      },
+      {
+        "id": "t13",
+        "nodes": [
+          {
+            "alt": "勇者",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 800,
+            "naturalWidth": 800,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "勇者"
+      },
+      {
+        "id": "t14",
+        "nodes": [
+          {
+            "alt": "The End of One Journey",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 800,
+            "naturalWidth": 800,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "The End of One Journey"
+      },
+      {
+        "id": "t15",
+        "nodes": [
+          {
+            "alt": "The Party of Heroes Returns",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 800,
+            "naturalWidth": 800,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 62,
+            "renderedWidth": 62,
+            "tag": "img"
+          }
+        ],
+        "value": "The Party of Heroes Returns"
+      },
+      {
+        "id": "t16",
+        "nodes": [
+          {
+            "alt": "박민기",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 100,
+            "naturalWidth": 100,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "article:1/div:1/a:1/img:1",
+            "renderedHeight": 38,
+            "renderedWidth": 38,
+            "tag": "img"
+          }
+        ],
+        "value": "박민기"
+      },
+      {
+        "id": "t17",
+        "nodes": [
+          {
+            "alt": "가현",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 100,
+            "naturalWidth": 100,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "article:1/div:1/a:1/img:1",
+            "renderedHeight": 38,
+            "renderedWidth": 38,
+            "tag": "img"
+          }
+        ],
+        "value": "가현"
+      },
+      {
+        "id": "t18",
+        "nodes": [
+          {
+            "alt": "모몽가악개김효민",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 100,
+            "naturalWidth": 100,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "a"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "article"
+              },
+              {
+                "tag": "li"
+              }
+            ],
+            "path": "article:1/div:1/a:1/img:1",
+            "renderedHeight": 38,
+            "renderedWidth": 38,
+            "tag": "img"
+          }
+        ],
+        "value": "모몽가악개김효민"
+      }
+    ]
+  },
+  "media": {
+    "fullscreen": false,
+    "playingCount": 1,
+    "videoCount": 1
+  },
+  "pageEvidence": {
+    "dialogs": [],
+    "documentTitle": "장송의 프리렌 | 왓챠",
+    "headings": [
+      {
+        "hidden": true,
+        "text": "장송의 프리렌"
+      }
+    ],
+    "url": "https://watcha.com/ko/contents/tRN7gzz",
+    "videos": [
+      {
+        "currentTime": 13.513194,
+        "ended": false,
+        "paused": false,
+        "readyState": 4,
+        "renderedHeight": 545,
+        "renderedWidth": 968
+      }
+    ],
+    "visibleDialogCount": 0
+  },
+  "pageUrl": "https://watcha.com/ko/contents/tRN7gzz",
+  "videoEvidence": [
+    {
+      "currentTime": 13.513194,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "renderedHeight": 545,
+      "renderedWidth": 968
+    }
+  ]
+}

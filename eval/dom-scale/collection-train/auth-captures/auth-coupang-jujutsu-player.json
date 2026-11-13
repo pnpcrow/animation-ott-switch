@@ -1,0 +1,420 @@
+{
+  "id": "auth-coupang-jujutsu-player",
+  "provider": "coupang",
+  "work": "jujutsu-kaisen",
+  "observedKind": "full-player",
+  "captureMethod": "authenticated-profile CUA read-only; actual page access state manually annotated",
+  "collectorVariant": "auth-read-only-v3",
+  "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+  "capturedAt": "2026-11-13T14:59:47.389Z",
+  "documentTitle": "쿠팡플레이",
+  "enrichment": {
+    "computedLayout": true,
+    "privacy": "No body prefix, account fields, HTML, cookies, video URLs or user storage retained; profile images omitted.",
+    "version": "auth-read-only-v1"
+  },
+  "fields": {
+    "description": [
+      {
+        "id": "d1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "description",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/meta:3",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "meta"
+          }
+        ],
+        "value": "이제 쿠팡 회원이면 쿠팡플레이 무료 시청"
+      },
+      {
+        "id": "d2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "role": "region",
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "role": "region",
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:3/div:5/div:11",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "div"
+          }
+        ],
+        "value": "Descriptionsdescriptions off, selected"
+      },
+      {
+        "id": "d3",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": 0,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": true,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "role": "dialog",
+                "tag": "div"
+              },
+              {
+                "role": "region",
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "role": "dialog",
+                "tag": "div"
+              },
+              {
+                "role": "region",
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:3/div:6/p:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "p"
+          }
+        ],
+        "value": "Beginning of dialog window. Escape will cancel and close the window."
+      }
+    ],
+    "image": [
+      {
+        "id": "i1",
+        "nodes": [
+          {
+            "alt": "이 콘텐츠는 만 15세 이상은 누구나 시청할 수 있습니다.",
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 150,
+            "naturalWidth": 148,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 81,
+            "renderedWidth": 80,
+            "tag": "img"
+          }
+        ],
+        "value": "https://assets.coupangplay.com/assets/icons/rating/broadcasted_15.svg"
+      },
+      {
+        "id": "i2",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "src",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 27,
+            "naturalWidth": 37,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "h4"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "h4"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/h4:1/img:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "img"
+          }
+        ],
+        "value": "https://assets.coupangplay.com/assets/icons/icon-player-pass-badge-ko.svg"
+      }
+    ],
+    "title": [
+      {
+        "id": "t1",
+        "nodes": [
+          {
+            "alt": null,
+            "attribute": "text",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": true,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": null,
+            "naturalWidth": null,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "head"
+              },
+              {
+                "tag": "html"
+              }
+            ],
+            "path": "html:1/head:1/title:1",
+            "renderedHeight": null,
+            "renderedWidth": null,
+            "tag": "title"
+          }
+        ],
+        "value": "쿠팡플레이"
+      },
+      {
+        "id": "t2",
+        "nodes": [
+          {
+            "alt": "이 콘텐츠는 만 15세 이상은 누구나 시청할 수 있습니다.",
+            "attribute": "alt",
+            "dialogIndex": null,
+            "enrichmentMatch": "direct-read-only-observation",
+            "enrichmentMatched": true,
+            "hidden": false,
+            "inDialog": false,
+            "inLastVisibleDialogInDom": false,
+            "inert": false,
+            "naturalHeight": 150,
+            "naturalWidth": 148,
+            "navigation": false,
+            "nearbyHeadings": [],
+            "parentRoles": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "parents": [
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              },
+              {
+                "tag": "div"
+              }
+            ],
+            "path": "div:1/div:1/div:1/img:1",
+            "renderedHeight": 81,
+            "renderedWidth": 80,
+            "tag": "img"
+          }
+        ],
+        "value": "이 콘텐츠는 만 15세 이상은 누구나 시청할 수 있습니다."
+      }
+    ]
+  },
+  "media": {
+    "fullscreen": false,
+    "playingCount": 1,
+    "videoCount": 1
+  },
+  "pageEvidence": {
+    "dialogs": [
+      {
+        "ariaModal": null,
+        "headings": [],
+        "hidden": true,
+        "index": 0,
+        "open": false,
+        "role": "dialog",
+        "tag": "div"
+      }
+    ],
+    "documentTitle": "쿠팡플레이",
+    "headings": [],
+    "url": "https://www.coupangplay.com/play/84b84af0-277f-4e7f-b936-11c5825c005d/tvshow?order=0&sourceType=page_discover_title_detail%3Apage_search",
+    "videos": [
+      {
+        "currentTime": 55.966209,
+        "ended": false,
+        "paused": false,
+        "readyState": 4,
+        "renderedHeight": 792,
+        "renderedWidth": 1454
+      }
+    ],
+    "visibleDialogCount": 0
+  },
+  "pageUrl": "https://www.coupangplay.com/play/84b84af0-277f-4e7f-b936-11c5825c005d/tvshow?order=0&sourceType=page_discover_title_detail%3Apage_search",
+  "videoEvidence": [
+    {
+      "currentTime": 55.966209,
+      "ended": false,
+      "paused": false,
+      "readyState": 4,
+      "renderedHeight": 792,
+      "renderedWidth": 1454
+    }
+  ]
+}

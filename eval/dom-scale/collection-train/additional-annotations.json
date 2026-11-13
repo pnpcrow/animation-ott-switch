@@ -1,0 +1,302 @@
+[
+  {
+    "pageId": "more-aniplus-chainsaw-man-search",
+    "pageKind": "search-empty",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "rationale": "Observed search returned zero results for query with a space. Failed open-work click retained as attempt, not a fictitious detail.",
+    "provider": "aniplus",
+    "work": "chainsaw-man",
+    "url": "https://www.aniplustv.com/Search?st=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+    "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "more-aniplus-witch-search",
+    "pageKind": "search-empty",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "rationale": "Observed search returned zero results; no detail opened.",
+    "provider": "aniplus",
+    "work": "witch",
+    "url": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+    "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "more-wavve-witch-search",
+    "pageKind": "search",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "rationale": "Search contains program and episode matches but no opened work.",
+    "provider": "wavve",
+    "work": "witch",
+    "url": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+    "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "more-wavve-chainsaw-man-search",
+    "pageKind": "search",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "rationale": "Search result listing mixes programs, a movie and episodes. No active detail.",
+    "provider": "wavve",
+    "work": "chainsaw-man",
+    "url": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+    "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "more-wavve-witch-search-opened-work",
+    "pageKind": "detail",
+    "title": "t4",
+    "image": "i2",
+    "description": [
+      "d4",
+      "d3"
+    ],
+    "rationale": "Observed season detail reached through actual result click. Clean title alt,1240x698 work hero, aria-label/full and visible shortened series synopsis. /player route has zero videos; not full player.",
+    "provider": "wavve",
+    "work": "witch",
+    "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+    "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "more-wavve-chainsaw-man-search-opened-work",
+    "pageKind": "login",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "rationale": "Actual result click redirected to login. No authenticated work evidence.",
+    "provider": "wavve",
+    "work": "chainsaw-man",
+    "url": "https://www.wavve.com/member/login?referer=%2Fsearch%3FsearchWord%3D%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+    "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "more-tving-chainsaw-man-search",
+    "pageKind": "search",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "rationale": "Search result listing. Recommendations and matching card metadata do not establish an opened work.",
+    "provider": "tving",
+    "work": "chainsaw-man",
+    "url": "https://www.tving.com/search?keyword=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+    "sourceUrl": "https://www.tving.com/search?keyword=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "auth-crunchyroll-witch-detail",
+    "pageKind": "detail",
+    "title": "t3",
+    "image": [
+      "i1",
+      "i3"
+    ],
+    "description": "d2",
+    "authState": "signed-in",
+    "rationale": "Visible clean h1 and series synopsis. OG title still prepends Watch; OG description is marketing. Official metadata artwork and unblurred full-width hero accepted; series logo and episode thumbnails excluded.",
+    "provider": "crunchyroll",
+    "work": "witch",
+    "url": "https://www.crunchyroll.com/ko/series/GMEHME72W/once-upon-a-witchs-death",
+    "sourceUrl": "https://www.crunchyroll.com/ko/series/GMEHME72W/once-upon-a-witchs-death",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "auth-crunchyroll-witch-player",
+    "pageKind": "full-player",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "authState": "signed-in",
+    "rationale": "Actual episode player with visible elapsed time and DOM playingCount1/currentTime>0/readyState4. All extraction fields abstain; episode title/plot are distractors.",
+    "provider": "crunchyroll",
+    "work": "witch",
+    "url": "https://www.crunchyroll.com/ko/watch/G8WU7VM4J/the-witch-with-one-year-to-live",
+    "sourceUrl": "https://www.crunchyroll.com/ko/watch/G8WU7VM4J/the-witch-with-one-year-to-live",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "auth-crunchyroll-jujutsu-search",
+    "pageKind": "search-empty",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "authState": "signed-in",
+    "rationale": "Actual authenticated search input contains 주술회전 and UI reports no results. Do not treat generic service metadata as work.",
+    "provider": "crunchyroll",
+    "work": "jujutsu-kaisen",
+    "url": "https://www.crunchyroll.com/ko/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "sourceUrl": "https://www.crunchyroll.com/ko/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "auth-crunchyroll-witch-search",
+    "pageKind": "search",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "authState": "signed-in",
+    "rationale": "Actual search shows series and episode matches plus related works; no work detail opened.",
+    "provider": "crunchyroll",
+    "work": "witch",
+    "url": "https://www.crunchyroll.com/ko/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+    "sourceUrl": "https://www.crunchyroll.com/ko/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "auth-coupang-jujutsu-search",
+    "pageKind": "search",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "authState": "signed-in",
+    "rationale": "Observed q URL initially left input empty. Typing the actual query and Enter navigated to /query-st?keyword=; results include programs, paid movies and highlights. No detail open.",
+    "provider": "coupang",
+    "work": "jujutsu-kaisen",
+    "url": "https://www.coupangplay.com/query-st?src=page_search&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "sourceUrl": "https://www.coupangplay.com/query-st?src=page_search&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "auth-coupang-jujutsu-detail",
+    "pageKind": "detail-with-preview",
+    "title": "__missing__",
+    "image": "__missing__",
+    "description": "__missing__",
+    "authState": "signed-in",
+    "missingGold": true,
+    "rationale": "Actual selected work detail and preview are visible, with clean series title and series synopsis in the rendered UI. First18 candidates instead contain recommendations, episode synopses and unrelated images; no valid current-work candidate in any field. This is recorded as collector failure, not none. No missing value is injected into the model pool.",
+    "missingEvidence": {
+      "title": "Rendered current-work label 주술회전 was visible outside captured heading/alt candidates.",
+      "description": "Rendered 시놉시스 begins 고등학생 이타도리는 저주에 습격 당한 친구를 구하기 위해; none of captured18 descriptions contains this series synopsis.",
+      "image": "No current-work artwork survives original18 observations. Rendered hero is in preview mode; the omitted static artwork URL was not retained, so its exact source is unresolved and not invented."
+    },
+    "provider": "coupang",
+    "work": "jujutsu-kaisen",
+    "url": "https://www.coupangplay.com/titles?titleId=84b84af0-277f-4e7f-b936-11c5825c005d&type=TVSHOW&availability=SVOD&live=&rowId=MLRedis&trackId=MLRedis&src=page_search_grouping&sourceType=page_discover_title_detail%3Apage_search&supportLive=&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "sourceUrl": "https://www.coupangplay.com/titles?titleId=84b84af0-277f-4e7f-b936-11c5825c005d&type=TVSHOW&availability=SVOD&live=&rowId=MLRedis&trackId=MLRedis&src=page_search_grouping&sourceType=page_discover_title_detail%3Apage_search&supportLive=&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "auth-coupang-jujutsu-player",
+    "pageKind": "full-player",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "authState": "signed-in",
+    "rationale": "Actual full episode player displays elapsed 00:32/23:56 and DOM video paused=false/currentTime>0. All extraction fields abstain. Tab closed after observation.",
+    "provider": "coupang",
+    "work": "jujutsu-kaisen",
+    "url": "https://www.coupangplay.com/play/84b84af0-277f-4e7f-b936-11c5825c005d/tvshow?order=0&sourceType=page_discover_title_detail%3Apage_search",
+    "sourceUrl": "https://www.coupangplay.com/play/84b84af0-277f-4e7f-b936-11c5825c005d/tvshow?order=0&sourceType=page_discover_title_detail%3Apage_search",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "authprofile-watcha-frieren-preview-detail",
+    "pageKind": "detail-with-preview",
+    "title": "t2",
+    "image": [
+      "i1",
+      "i2"
+    ],
+    "description": [
+      "d1",
+      "d2"
+    ],
+    "authState": "login-link-and-subscription-required",
+    "rationale": "Existing Chrome profile shows a public work detail, login link and subscription-required watch link; do not claim authenticated playback. Auto-playing preview is detail, not full player. Clean h1, work artwork and series plot accepted; title logo, actors and preview stills excluded.",
+    "provider": "watcha",
+    "work": "frieren",
+    "url": "https://watcha.com/ko/contents/tRN7gzz",
+    "sourceUrl": "https://watcha.com/ko/contents/tRN7gzz",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "authprofile-watcha-jujutsu-search",
+    "pageKind": "search",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "authState": "login-link-visible",
+    "rationale": "Hydrated actual search now displays series, movie and collection results. No work detail open.",
+    "provider": "watcha",
+    "work": "jujutsu-kaisen",
+    "url": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "sourceUrl": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "authprofile-watcha-jujutsu-detail",
+    "pageKind": "detail-with-preview",
+    "title": "t2",
+    "image": [
+      "i1",
+      "i2"
+    ],
+    "description": [
+      "d1",
+      "d2"
+    ],
+    "authState": "login-link-and-subscription-required",
+    "rationale": "Movie opened by actual result link. Auto-playing preview, subscription/buy controls and login link visible; no purchase or full playback attempted. Movie title/artwork/synopsis accepted, trailer stills and cast images excluded.",
+    "provider": "watcha",
+    "work": "jujutsu-kaisen",
+    "url": "https://watcha.com/ko/contents/m5Go91n?search_id=ee8da026-e664-4853-a86d-7bf6b55343fd",
+    "sourceUrl": "https://watcha.com/ko/contents/m5Go91n?search_id=ee8da026-e664-4853-a86d-7bf6b55343fd",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "authprofile-prime-hazbin-detail",
+    "pageKind": "detail-with-preview",
+    "title": "t2",
+    "image": [
+      "i1",
+      "i3"
+    ],
+    "description": "d1",
+    "authState": "subscription-required",
+    "rationale": "Current work detail with auto-playing hero preview and join-Prime controls. Clean title from title-logo alt; artwork OG/full-width hero accepted, title-logo image excluded. Not a full player.",
+    "provider": "prime",
+    "work": "hazbin-hotel",
+    "url": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+    "sourceUrl": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "authprofile-prime-blade-search",
+    "pageKind": "search",
+    "title": "__none__",
+    "image": "__none__",
+    "description": "__none__",
+    "authState": "subscription-required",
+    "rationale": "Actual site search submitted through visible search field and Enter; resulting URL phrase holds 무한의 주인. Hidden/stale video element remains after SPA navigation. Search policy abstains.",
+    "provider": "prime",
+    "work": "blade-of-the-immortal",
+    "url": "https://www.primevideo.com/-/ko/search?ie=UTF8&ref_=atv_nb_sug&phrase=%EB%AC%B4%ED%95%9C%EC%9D%98+%EC%A3%BC%EC%9D%B8",
+    "sourceUrl": "https://www.primevideo.com/-/ko/search?ie=UTF8&ref_=atv_nb_sug&phrase=%EB%AC%B4%ED%95%9C%EC%9D%98+%EC%A3%BC%EC%9D%B8",
+    "reviewedBeforePredictions": true
+  },
+  {
+    "pageId": "authprofile-prime-blade-detail",
+    "pageKind": "detail",
+    "title": "t2",
+    "image": "i7",
+    "description": "d2",
+    "authState": "subscription-required",
+    "rationale": "Actual result-card navigation changed visible work to 무한의 주인 while OG description/image still describe 해즈빈 호텔. Clean current h1, visible 1438x809 hero i7 and visible current series synopsis d2 are accepted; stale metadata and hidden search cards rejected.",
+    "provider": "prime",
+    "work": "blade-of-the-immortal",
+    "url": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01?ref_=atv_sr_fle_c_sr782405_pvsearchresults_1_1",
+    "sourceUrl": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01?ref_=atv_sr_fle_c_sr782405_pvsearchresults_1_1",
+    "reviewedBeforePredictions": true
+  }
+]

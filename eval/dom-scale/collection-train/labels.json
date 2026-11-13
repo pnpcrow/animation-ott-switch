@@ -1,0 +1,5242 @@
+[
+  {
+    "id": "scale-laftel-jujutsu-kaisen-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:32.909Z",
+      "htmlSha256": "a503b17c806e7287ac1b983a0d1c87c9d846c0ade604f53da6ce81610ba23106",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-jujutsu-kaisen-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:32.909Z",
+      "htmlSha256": "a503b17c806e7287ac1b983a0d1c87c9d846c0ade604f53da6ce81610ba23106",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-jujutsu-kaisen-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:32.909Z",
+      "htmlSha256": "a503b17c806e7287ac1b983a0d1c87c9d846c0ade604f53da6ce81610ba23106",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-attack-on-titan-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:32.941Z",
+      "htmlSha256": "9a2050cd2138e7923ae61373dec624db44e9bbbeaf0591afc47a99b7910c9f23",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-attack-on-titan-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:32.941Z",
+      "htmlSha256": "9a2050cd2138e7923ae61373dec624db44e9bbbeaf0591afc47a99b7910c9f23",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-attack-on-titan-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:32.941Z",
+      "htmlSha256": "9a2050cd2138e7923ae61373dec624db44e9bbbeaf0591afc47a99b7910c9f23",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-frieren-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-frieren-search",
+      "work": "frieren",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:33.040Z",
+      "htmlSha256": "bcdcaf5b007f38b9253eed02d5d46d99aa6a5cc6551fe2c3c4e8315181e32ade",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-frieren-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-frieren-search",
+      "work": "frieren",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:33.040Z",
+      "htmlSha256": "bcdcaf5b007f38b9253eed02d5d46d99aa6a5cc6551fe2c3c4e8315181e32ade",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-frieren-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-frieren-search",
+      "work": "frieren",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:33.040Z",
+      "htmlSha256": "bcdcaf5b007f38b9253eed02d5d46d99aa6a5cc6551fe2c3c4e8315181e32ade",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-jujutsu-kaisen-search-opened-work-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-jujutsu-kaisen-search-opened-work",
+      "work": "jujutsu-kaisen",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84&modal=39986",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "work-modal",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:36.450Z",
+      "htmlSha256": "f503904a364dbc5f1e708cb69a3c211ac8bc0c09a670c60244ac1f328d55a699",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 17,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-jujutsu-kaisen-search-opened-work-image",
+    "split": "development",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-jujutsu-kaisen-search-opened-work",
+      "work": "jujutsu-kaisen",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84&modal=39986",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "work-modal",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:36.450Z",
+      "htmlSha256": "f503904a364dbc5f1e708cb69a3c211ac8bc0c09a670c60244ac1f328d55a699",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-jujutsu-kaisen-search-opened-work-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-jujutsu-kaisen-search-opened-work",
+      "work": "jujutsu-kaisen",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84&modal=39986",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "work-modal",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:36.450Z",
+      "htmlSha256": "f503904a364dbc5f1e708cb69a3c211ac8bc0c09a670c60244ac1f328d55a699",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-attack-on-titan-search-opened-work-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-attack-on-titan-search-opened-work",
+      "work": "attack-on-titan",
+      "provider": "laftel",
+      "url": "https://laftel.net/auth/login?next=%2Fsearch%3Fkeyword%3D%25EC%25A7%2584%25EA%25B2%25A9%25EC%259D%2598%2B%25EA%25B1%25B0%25EC%259D%25B8%26modal%3D23232",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "login",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:36.458Z",
+      "htmlSha256": "b5a8ac585bc43bd1c5810ecb34a2719da684c0e328356bff76dcdc6d93c9effd",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-attack-on-titan-search-opened-work-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-attack-on-titan-search-opened-work",
+      "work": "attack-on-titan",
+      "provider": "laftel",
+      "url": "https://laftel.net/auth/login?next=%2Fsearch%3Fkeyword%3D%25EC%25A7%2584%25EA%25B2%25A9%25EC%259D%2598%2B%25EA%25B1%25B0%25EC%259D%25B8%26modal%3D23232",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "login",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:36.458Z",
+      "htmlSha256": "b5a8ac585bc43bd1c5810ecb34a2719da684c0e328356bff76dcdc6d93c9effd",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 0,
+      "presentedCandidates": 0,
+      "emptyConcretePool": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-attack-on-titan-search-opened-work-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-attack-on-titan-search-opened-work",
+      "work": "attack-on-titan",
+      "provider": "laftel",
+      "url": "https://laftel.net/auth/login?next=%2Fsearch%3Fkeyword%3D%25EC%25A7%2584%25EA%25B2%25A9%25EC%259D%2598%2B%25EA%25B1%25B0%25EC%259D%25B8%26modal%3D23232",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "login",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:36.458Z",
+      "htmlSha256": "b5a8ac585bc43bd1c5810ecb34a2719da684c0e328356bff76dcdc6d93c9effd",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-frieren-search-opened-work-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-frieren-search-opened-work",
+      "work": "frieren",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98+%ED%94%84%EB%A6%AC%EB%A0%8C&modal=41666",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "work-modal",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:36.759Z",
+      "htmlSha256": "6e82d0d41ed53a21a5dc8d7f8cef8b13266446c03b3259a37d1d74931e4546d8",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-frieren-search-opened-work-image",
+    "split": "development",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-frieren-search-opened-work",
+      "work": "frieren",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98+%ED%94%84%EB%A6%AC%EB%A0%8C&modal=41666",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "work-modal",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:36.759Z",
+      "htmlSha256": "6e82d0d41ed53a21a5dc8d7f8cef8b13266446c03b3259a37d1d74931e4546d8",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-frieren-search-opened-work-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-frieren-search-opened-work",
+      "work": "frieren",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98+%ED%94%84%EB%A6%AC%EB%A0%8C&modal=41666",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "work-modal",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:36.759Z",
+      "htmlSha256": "6e82d0d41ed53a21a5dc8d7f8cef8b13266446c03b3259a37d1d74931e4546d8",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-jujutsu-kaisen-search-playback-entry",
+      "work": "jujutsu-kaisen",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/39986/42164",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "player-login-gate",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:40.254Z",
+      "htmlSha256": "79ebfb6b77dcb508900c8ab8193658e4449f304b94088160910385b5e5b8d94c",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-jujutsu-kaisen-search-playback-entry",
+      "work": "jujutsu-kaisen",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/39986/42164",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "player-login-gate",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:40.254Z",
+      "htmlSha256": "79ebfb6b77dcb508900c8ab8193658e4449f304b94088160910385b5e5b8d94c",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-jujutsu-kaisen-search-playback-entry",
+      "work": "jujutsu-kaisen",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/39986/42164",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "player-login-gate",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:40.254Z",
+      "htmlSha256": "79ebfb6b77dcb508900c8ab8193658e4449f304b94088160910385b5e5b8d94c",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-frieren-search-playback-entry-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-frieren-search-playback-entry",
+      "work": "frieren",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/41666/65123",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "player-login-gate",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:40.563Z",
+      "htmlSha256": "291932b97993e295066980c27bb029f8b076ae24fa5c8edf6df5ffd5150f9e2e",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-frieren-search-playback-entry-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-frieren-search-playback-entry",
+      "work": "frieren",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/41666/65123",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "player-login-gate",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:40.563Z",
+      "htmlSha256": "291932b97993e295066980c27bb029f8b076ae24fa5c8edf6df5ffd5150f9e2e",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-frieren-search-playback-entry-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-frieren-search-playback-entry",
+      "work": "frieren",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/41666/65123",
+      "sourceUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "player-login-gate",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:40.563Z",
+      "htmlSha256": "291932b97993e295066980c27bb029f8b076ae24fa5c8edf6df5ffd5150f9e2e",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 7,
+      "presentedCandidates": 7,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-jujutsu-kaisen-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.crunchyroll.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:51.752Z",
+      "htmlSha256": "b64bf4c2aa8de966a9980f13e35b6e99dca4014780928920993d2ba4f2ed4c11",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-jujutsu-kaisen-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.crunchyroll.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:51.752Z",
+      "htmlSha256": "b64bf4c2aa8de966a9980f13e35b6e99dca4014780928920993d2ba4f2ed4c11",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-jujutsu-kaisen-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.crunchyroll.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:51.752Z",
+      "htmlSha256": "b64bf4c2aa8de966a9980f13e35b6e99dca4014780928920993d2ba4f2ed4c11",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-attack-on-titan-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.crunchyroll.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:56.210Z",
+      "htmlSha256": "4a8dd8d369d754168c987146c8e860e5de5445357cbd6d58dee27333aff4cfc7",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-attack-on-titan-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.crunchyroll.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:56.210Z",
+      "htmlSha256": "4a8dd8d369d754168c987146c8e860e5de5445357cbd6d58dee27333aff4cfc7",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-attack-on-titan-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.crunchyroll.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:41:56.210Z",
+      "htmlSha256": "4a8dd8d369d754168c987146c8e860e5de5445357cbd6d58dee27333aff4cfc7",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-frieren-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-frieren-search",
+      "work": "frieren",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.crunchyroll.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:00.621Z",
+      "htmlSha256": "d952f333f0ab76ea60d28015579d6d55ac0861904e4584336887b458f501beb7",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-frieren-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-frieren-search",
+      "work": "frieren",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.crunchyroll.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:00.621Z",
+      "htmlSha256": "d952f333f0ab76ea60d28015579d6d55ac0861904e4584336887b458f501beb7",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-frieren-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-frieren-search",
+      "work": "frieren",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.crunchyroll.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:00.621Z",
+      "htmlSha256": "d952f333f0ab76ea60d28015579d6d55ac0861904e4584336887b458f501beb7",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-jujutsu-kaisen-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/search?phrase=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.primevideo.com/search?phrase=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:03.303Z",
+      "htmlSha256": "f0d2455fc7edc3ecb87cbe9b8e9c95b431ea7920f2e12bda5ab6113a015edfac",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-jujutsu-kaisen-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/search?phrase=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.primevideo.com/search?phrase=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:03.303Z",
+      "htmlSha256": "f0d2455fc7edc3ecb87cbe9b8e9c95b431ea7920f2e12bda5ab6113a015edfac",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-jujutsu-kaisen-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/search?phrase=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.primevideo.com/search?phrase=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:03.303Z",
+      "htmlSha256": "f0d2455fc7edc3ecb87cbe9b8e9c95b431ea7920f2e12bda5ab6113a015edfac",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 13,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-attack-on-titan-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/search?phrase=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.primevideo.com/search?phrase=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:03.970Z",
+      "htmlSha256": "32da9e4b103ed854c002418f2cd46f997461c636ebf344e43b34e8d3b0452784",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-attack-on-titan-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/search?phrase=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.primevideo.com/search?phrase=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:03.970Z",
+      "htmlSha256": "32da9e4b103ed854c002418f2cd46f997461c636ebf344e43b34e8d3b0452784",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-attack-on-titan-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/search?phrase=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.primevideo.com/search?phrase=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:03.970Z",
+      "htmlSha256": "32da9e4b103ed854c002418f2cd46f997461c636ebf344e43b34e8d3b0452784",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-frieren-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-frieren-search",
+      "work": "frieren",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/search?phrase=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.primevideo.com/search?phrase=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:06.380Z",
+      "htmlSha256": "7485ff8014358ea623f2bb6fb048b8604f3d740ba250f62baa70646a503b1456",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-frieren-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-frieren-search",
+      "work": "frieren",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/search?phrase=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.primevideo.com/search?phrase=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:06.380Z",
+      "htmlSha256": "7485ff8014358ea623f2bb6fb048b8604f3d740ba250f62baa70646a503b1456",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-frieren-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-frieren-search",
+      "work": "frieren",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/search?phrase=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.primevideo.com/search?phrase=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:06.380Z",
+      "htmlSha256": "7485ff8014358ea623f2bb6fb048b8604f3d740ba250f62baa70646a503b1456",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 9,
+      "presentedCandidates": 9,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-jujutsu-kaisen-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "tving",
+      "url": "https://www.tving.com/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.tving.com/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:24.854Z",
+      "htmlSha256": "6f7330a5253cef00a723dd26ca7f7c685fde84b2bd78de78b6f3cca1cb276949",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-jujutsu-kaisen-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "tving",
+      "url": "https://www.tving.com/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.tving.com/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:24.854Z",
+      "htmlSha256": "6f7330a5253cef00a723dd26ca7f7c685fde84b2bd78de78b6f3cca1cb276949",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-jujutsu-kaisen-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "tving",
+      "url": "https://www.tving.com/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.tving.com/search?keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:24.854Z",
+      "htmlSha256": "6f7330a5253cef00a723dd26ca7f7c685fde84b2bd78de78b6f3cca1cb276949",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 9,
+      "presentedCandidates": 9,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-frieren-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-frieren-search",
+      "work": "frieren",
+      "provider": "tving",
+      "url": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:26.875Z",
+      "htmlSha256": "10e77ef0a62bd7766e5ab26efa33488cbd160757c48879bedfe78ca4c380fb77",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-frieren-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-frieren-search",
+      "work": "frieren",
+      "provider": "tving",
+      "url": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:26.875Z",
+      "htmlSha256": "10e77ef0a62bd7766e5ab26efa33488cbd160757c48879bedfe78ca4c380fb77",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-frieren-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-frieren-search",
+      "work": "frieren",
+      "provider": "tving",
+      "url": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:26.875Z",
+      "htmlSha256": "10e77ef0a62bd7766e5ab26efa33488cbd160757c48879bedfe78ca4c380fb77",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 7,
+      "presentedCandidates": 7,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-attack-on-titan-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "tving",
+      "url": "https://www.tving.com/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.tving.com/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:26.680Z",
+      "htmlSha256": "0c2ea5883b4f4c52a8c2619fd0bdbc86583caeec5e8baa33a5148a071444a4f7",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-attack-on-titan-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "tving",
+      "url": "https://www.tving.com/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.tving.com/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:26.680Z",
+      "htmlSha256": "0c2ea5883b4f4c52a8c2619fd0bdbc86583caeec5e8baa33a5148a071444a4f7",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-attack-on-titan-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "tving",
+      "url": "https://www.tving.com/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.tving.com/search?keyword=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:26.680Z",
+      "htmlSha256": "0c2ea5883b4f4c52a8c2619fd0bdbc86583caeec5e8baa33a5148a071444a4f7",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 12,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-coupang-jujutsu-kaisen-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-coupang-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.coupangplay.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "blocked",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:29.330Z",
+      "htmlSha256": "fffc1dfd802edf0deeb9c67666b0ccad7685b5038ab2e36d0ef5819fbd51e9c1",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-coupang-jujutsu-kaisen-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-coupang-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.coupangplay.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "blocked",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:29.330Z",
+      "htmlSha256": "fffc1dfd802edf0deeb9c67666b0ccad7685b5038ab2e36d0ef5819fbd51e9c1",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 0,
+      "presentedCandidates": 0,
+      "emptyConcretePool": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-coupang-jujutsu-kaisen-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-coupang-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.coupangplay.com/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "blocked",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:29.330Z",
+      "htmlSha256": "fffc1dfd802edf0deeb9c67666b0ccad7685b5038ab2e36d0ef5819fbd51e9c1",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-coupang-frieren-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-coupang-frieren-search",
+      "work": "frieren",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.coupangplay.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "blocked",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:32.043Z",
+      "htmlSha256": "ab1ca9d45ab3a1cbcc201a7ed774ee40712fefe3ed973768f5746ef9935ee00e",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-coupang-frieren-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-coupang-frieren-search",
+      "work": "frieren",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.coupangplay.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "blocked",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:32.043Z",
+      "htmlSha256": "ab1ca9d45ab3a1cbcc201a7ed774ee40712fefe3ed973768f5746ef9935ee00e",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 0,
+      "presentedCandidates": 0,
+      "emptyConcretePool": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-coupang-frieren-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-coupang-frieren-search",
+      "work": "frieren",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.coupangplay.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "blocked",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:32.043Z",
+      "htmlSha256": "ab1ca9d45ab3a1cbcc201a7ed774ee40712fefe3ed973768f5746ef9935ee00e",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-coupang-attack-on-titan-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-coupang-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.coupangplay.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "blocked",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:35.771Z",
+      "htmlSha256": "8cc331db5c76e6538faec03483d5c3c5127c34ce7bae5479852b5f0958e46f45",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-coupang-attack-on-titan-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-coupang-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.coupangplay.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "blocked",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:35.771Z",
+      "htmlSha256": "8cc331db5c76e6538faec03483d5c3c5127c34ce7bae5479852b5f0958e46f45",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 0,
+      "presentedCandidates": 0,
+      "emptyConcretePool": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-coupang-attack-on-titan-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-coupang-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.coupangplay.com/search?q=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "blocked",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:35.771Z",
+      "htmlSha256": "8cc331db5c76e6538faec03483d5c3c5127c34ce7bae5479852b5f0958e46f45",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-blade-of-the-immortal-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-blade-of-the-immortal-detail",
+      "work": "blade-of-the-immortal",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:41.344Z",
+      "htmlSha256": "f72f58b83a681b93e65f8b2a906f839675e3ba5e1aca5f824b5713bd579967b9",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-blade-of-the-immortal-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-blade-of-the-immortal-detail",
+      "work": "blade-of-the-immortal",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:41.344Z",
+      "htmlSha256": "f72f58b83a681b93e65f8b2a906f839675e3ba5e1aca5f824b5713bd579967b9",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-blade-of-the-immortal-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-blade-of-the-immortal-detail",
+      "work": "blade-of-the-immortal",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:41.344Z",
+      "htmlSha256": "f72f58b83a681b93e65f8b2a906f839675e3ba5e1aca5f824b5713bd579967b9",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-karakuri-circus-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-karakuri-circus-detail",
+      "work": "karakuri-circus",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0RMO6B95JK1V641KSQV6W0VIQH",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0RMO6B95JK1V641KSQV6W0VIQH",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:42.522Z",
+      "htmlSha256": "8b46a8d6ead218722922ddf600aa4c645f448b4c749e24d2ecbda6eaa9664bf7",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-karakuri-circus-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-karakuri-circus-detail",
+      "work": "karakuri-circus",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0RMO6B95JK1V641KSQV6W0VIQH",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0RMO6B95JK1V641KSQV6W0VIQH",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:42.522Z",
+      "htmlSha256": "8b46a8d6ead218722922ddf600aa4c645f448b4c749e24d2ecbda6eaa9664bf7",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-karakuri-circus-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-karakuri-circus-detail",
+      "work": "karakuri-circus",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0RMO6B95JK1V641KSQV6W0VIQH",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0RMO6B95JK1V641KSQV6W0VIQH",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:42.522Z",
+      "htmlSha256": "8b46a8d6ead218722922ddf600aa4c645f448b4c749e24d2ecbda6eaa9664bf7",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-ghost-in-the-shell-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-ghost-in-the-shell-detail",
+      "work": "ghost-in-the-shell",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0MRWXUDE3L303XFEJRNWB20S3O",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0MRWXUDE3L303XFEJRNWB20S3O",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:45.026Z",
+      "htmlSha256": "7571f0acc69a4005882d4298a5034d1354c63647fe04d84102d249e9e6c87146",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-ghost-in-the-shell-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-ghost-in-the-shell-detail",
+      "work": "ghost-in-the-shell",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0MRWXUDE3L303XFEJRNWB20S3O",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0MRWXUDE3L303XFEJRNWB20S3O",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:45.026Z",
+      "htmlSha256": "7571f0acc69a4005882d4298a5034d1354c63647fe04d84102d249e9e6c87146",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-ghost-in-the-shell-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-ghost-in-the-shell-detail",
+      "work": "ghost-in-the-shell",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0MRWXUDE3L303XFEJRNWB20S3O",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0MRWXUDE3L303XFEJRNWB20S3O",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:45.026Z",
+      "htmlSha256": "7571f0acc69a4005882d4298a5034d1354c63647fe04d84102d249e9e6c87146",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-hazbin-hotel-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-hazbin-hotel-detail",
+      "work": "hazbin-hotel",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:49.305Z",
+      "htmlSha256": "d444e1921f8bb4b4f33a5b985d4a2dc506a5173cf5a55d11c8931cc348efcb22",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-hazbin-hotel-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-hazbin-hotel-detail",
+      "work": "hazbin-hotel",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:49.305Z",
+      "htmlSha256": "d444e1921f8bb4b4f33a5b985d4a2dc506a5173cf5a55d11c8931cc348efcb22",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-hazbin-hotel-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-hazbin-hotel-detail",
+      "work": "hazbin-hotel",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:49.305Z",
+      "htmlSha256": "d444e1921f8bb4b4f33a5b985d4a2dc506a5173cf5a55d11c8931cc348efcb22",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-look-back-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-look-back-detail",
+      "work": "look-back",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0UA9Q3CLPT1Q1GZL2M0N4JRHRL",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0UA9Q3CLPT1Q1GZL2M0N4JRHRL",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:51.195Z",
+      "htmlSha256": "0e859ffa522e1838b59f21ff5976e94f80a03efcde6442ea3e47a863146ce4a1",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 6,
+      "presentedCandidates": 6,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-look-back-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-look-back-detail",
+      "work": "look-back",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0UA9Q3CLPT1Q1GZL2M0N4JRHRL",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0UA9Q3CLPT1Q1GZL2M0N4JRHRL",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:51.195Z",
+      "htmlSha256": "0e859ffa522e1838b59f21ff5976e94f80a03efcde6442ea3e47a863146ce4a1",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-prime-look-back-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-prime-look-back-detail",
+      "work": "look-back",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0UA9Q3CLPT1Q1GZL2M0N4JRHRL",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0UA9Q3CLPT1Q1GZL2M0N4JRHRL",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:51.195Z",
+      "htmlSha256": "0e859ffa522e1838b59f21ff5976e94f80a03efcde6442ea3e47a863146ce4a1",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-jujutsu-kaisen-detail-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-jujutsu-kaisen-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "tving",
+      "url": "https://www.tving.com/contents/P001336142",
+      "sourceUrl": "https://www.tving.com/contents/P001336142",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:53.340Z",
+      "htmlSha256": "aeabbe8a42316fe4ccb41b8c8ab0e6a09daa4928252252e981f8615bc0b5b343",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-jujutsu-kaisen-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i3",
+      "i4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-jujutsu-kaisen-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "tving",
+      "url": "https://www.tving.com/contents/P001336142",
+      "sourceUrl": "https://www.tving.com/contents/P001336142",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:53.340Z",
+      "htmlSha256": "aeabbe8a42316fe4ccb41b8c8ab0e6a09daa4928252252e981f8615bc0b5b343",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-jujutsu-kaisen-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-jujutsu-kaisen-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "tving",
+      "url": "https://www.tving.com/contents/P001336142",
+      "sourceUrl": "https://www.tving.com/contents/P001336142",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:53.340Z",
+      "htmlSha256": "aeabbe8a42316fe4ccb41b8c8ab0e6a09daa4928252252e981f8615bc0b5b343",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-attack-on-titan-detail-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-attack-on-titan-detail",
+      "work": "attack-on-titan",
+      "provider": "tving",
+      "url": "https://www.tving.com/contents/P001319056",
+      "sourceUrl": "https://www.tving.com/contents/P001319056",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:57.280Z",
+      "htmlSha256": "c4da6ea0a92f9063c1a1b34f907a86550efada31c47d44c4a3cc4e74ed2d00e1",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-attack-on-titan-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-attack-on-titan-detail",
+      "work": "attack-on-titan",
+      "provider": "tving",
+      "url": "https://www.tving.com/contents/P001319056",
+      "sourceUrl": "https://www.tving.com/contents/P001319056",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:57.280Z",
+      "htmlSha256": "c4da6ea0a92f9063c1a1b34f907a86550efada31c47d44c4a3cc4e74ed2d00e1",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-attack-on-titan-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-attack-on-titan-detail",
+      "work": "attack-on-titan",
+      "provider": "tving",
+      "url": "https://www.tving.com/contents/P001319056",
+      "sourceUrl": "https://www.tving.com/contents/P001319056",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:57.280Z",
+      "htmlSha256": "c4da6ea0a92f9063c1a1b34f907a86550efada31c47d44c4a3cc4e74ed2d00e1",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-frieren-detail-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-frieren-detail",
+      "work": "frieren",
+      "provider": "tving",
+      "url": "https://www.tving.com/contents/P001747384",
+      "sourceUrl": "https://www.tving.com/contents/P001747384",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:58.356Z",
+      "htmlSha256": "36964f665cc1af2843b306c92ad9b4c413211b1f2810fa7bc39678b80686132b",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-frieren-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i3",
+      "i4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-frieren-detail",
+      "work": "frieren",
+      "provider": "tving",
+      "url": "https://www.tving.com/contents/P001747384",
+      "sourceUrl": "https://www.tving.com/contents/P001747384",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:58.356Z",
+      "htmlSha256": "36964f665cc1af2843b306c92ad9b4c413211b1f2810fa7bc39678b80686132b",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-frieren-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-frieren-detail",
+      "work": "frieren",
+      "provider": "tving",
+      "url": "https://www.tving.com/contents/P001747384",
+      "sourceUrl": "https://www.tving.com/contents/P001747384",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:42:58.356Z",
+      "htmlSha256": "36964f665cc1af2843b306c92ad9b4c413211b1f2810fa7bc39678b80686132b",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-jujutsu-kaisen-detail-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-jujutsu-kaisen-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen",
+      "sourceUrl": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:07.568Z",
+      "htmlSha256": "9a01efa2feefdd5c5910c5bb685601df825e16b621a4fc8d47fa83fe20cb1f02",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-jujutsu-kaisen-detail-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-jujutsu-kaisen-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen",
+      "sourceUrl": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:07.568Z",
+      "htmlSha256": "9a01efa2feefdd5c5910c5bb685601df825e16b621a4fc8d47fa83fe20cb1f02",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-jujutsu-kaisen-detail-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-jujutsu-kaisen-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen",
+      "sourceUrl": "https://www.crunchyroll.com/series/GRDV0019R/jujutsu-kaisen",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:07.568Z",
+      "htmlSha256": "9a01efa2feefdd5c5910c5bb685601df825e16b621a4fc8d47fa83fe20cb1f02",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-frieren-detail-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-frieren-detail",
+      "work": "frieren",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
+      "sourceUrl": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:10.735Z",
+      "htmlSha256": "9a28a38b4d5a35c415b4ea1fa271faac6ceca2fe924be392e4500dbe785633ab",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-frieren-detail-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-frieren-detail",
+      "work": "frieren",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
+      "sourceUrl": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:10.735Z",
+      "htmlSha256": "9a28a38b4d5a35c415b4ea1fa271faac6ceca2fe924be392e4500dbe785633ab",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-frieren-detail-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-frieren-detail",
+      "work": "frieren",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
+      "sourceUrl": "https://www.crunchyroll.com/series/GG5H5XQX4/frieren-beyond-journeys-end",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:10.735Z",
+      "htmlSha256": "9a28a38b4d5a35c415b4ea1fa271faac6ceca2fe924be392e4500dbe785633ab",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-jujutsu-kaisen-watch-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-jujutsu-kaisen-watch",
+      "work": "jujutsu-kaisen",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/watch/G4VUQ9ZQ3",
+      "sourceUrl": "https://www.crunchyroll.com/watch/G4VUQ9ZQ3",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:13.693Z",
+      "htmlSha256": "28e5fe994649e2d5c1638fcf5e1d6d757c156432fc97f1ede2bebc025da0e1c2",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-jujutsu-kaisen-watch-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-jujutsu-kaisen-watch",
+      "work": "jujutsu-kaisen",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/watch/G4VUQ9ZQ3",
+      "sourceUrl": "https://www.crunchyroll.com/watch/G4VUQ9ZQ3",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:13.693Z",
+      "htmlSha256": "28e5fe994649e2d5c1638fcf5e1d6d757c156432fc97f1ede2bebc025da0e1c2",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-crunchyroll-jujutsu-kaisen-watch-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-crunchyroll-jujutsu-kaisen-watch",
+      "work": "jujutsu-kaisen",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/watch/G4VUQ9ZQ3",
+      "sourceUrl": "https://www.crunchyroll.com/watch/G4VUQ9ZQ3",
+      "pageKind": "challenge",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:13.693Z",
+      "htmlSha256": "28e5fe994649e2d5c1638fcf5e1d6d757c156432fc97f1ede2bebc025da0e1c2",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-witch-detail-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-witch-detail",
+      "work": "witch",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/42783",
+      "sourceUrl": "https://laftel.net/item/42783",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:15.331Z",
+      "htmlSha256": "3d1219df6ca7a99ff8981268594dec3ac573e830af6bccb21004fe65d0bcb77f",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-witch-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-witch-detail",
+      "work": "witch",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/42783",
+      "sourceUrl": "https://laftel.net/item/42783",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:15.331Z",
+      "htmlSha256": "3d1219df6ca7a99ff8981268594dec3ac573e830af6bccb21004fe65d0bcb77f",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-witch-detail-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-witch-detail",
+      "work": "witch",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/42783",
+      "sourceUrl": "https://laftel.net/item/42783",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:15.331Z",
+      "htmlSha256": "3d1219df6ca7a99ff8981268594dec3ac573e830af6bccb21004fe65d0bcb77f",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-apothecary-detail-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-apothecary-detail",
+      "work": "apothecary",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/41714",
+      "sourceUrl": "https://laftel.net/item/41714",
+      "pageKind": "detail-unavailable",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:18.828Z",
+      "htmlSha256": "807de0c83a7f9b4e0b31d55b2c92fbc2bbd7e18b1070e747018684bdbaa9d3a9",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-apothecary-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-apothecary-detail",
+      "work": "apothecary",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/41714",
+      "sourceUrl": "https://laftel.net/item/41714",
+      "pageKind": "detail-unavailable",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:18.828Z",
+      "htmlSha256": "807de0c83a7f9b4e0b31d55b2c92fbc2bbd7e18b1070e747018684bdbaa9d3a9",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-apothecary-detail-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-apothecary-detail",
+      "work": "apothecary",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/41714",
+      "sourceUrl": "https://laftel.net/item/41714",
+      "pageKind": "detail-unavailable",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:18.828Z",
+      "htmlSha256": "807de0c83a7f9b4e0b31d55b2c92fbc2bbd7e18b1070e747018684bdbaa9d3a9",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 6,
+      "presentedCandidates": 6,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-witch-detail-playback-entry-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-witch-detail-playback-entry",
+      "work": "witch",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/42783/83850",
+      "sourceUrl": "https://laftel.net/item/42783",
+      "pageKind": "player-login-gate",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:19.862Z",
+      "htmlSha256": "543b98cc55bbb59f2df62dd12a98264c7ba91c486dc8aa6369170ce6191d3097",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-witch-detail-playback-entry-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-witch-detail-playback-entry",
+      "work": "witch",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/42783/83850",
+      "sourceUrl": "https://laftel.net/item/42783",
+      "pageKind": "player-login-gate",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:19.862Z",
+      "htmlSha256": "543b98cc55bbb59f2df62dd12a98264c7ba91c486dc8aa6369170ce6191d3097",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-witch-detail-playback-entry-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-witch-detail-playback-entry",
+      "work": "witch",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/42783/83850",
+      "sourceUrl": "https://laftel.net/item/42783",
+      "pageKind": "player-login-gate",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:19.862Z",
+      "htmlSha256": "543b98cc55bbb59f2df62dd12a98264c7ba91c486dc8aa6369170ce6191d3097",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 6,
+      "presentedCandidates": 6,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-rezero-detail-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-rezero-detail",
+      "work": "rezero",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/39644",
+      "sourceUrl": "https://laftel.net/item/39644",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:20.826Z",
+      "htmlSha256": "42fa8aa5e2b4153279e90111c918db9fee5c509074bcb48044f5245e66d5a910",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-rezero-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-rezero-detail",
+      "work": "rezero",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/39644",
+      "sourceUrl": "https://laftel.net/item/39644",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:20.826Z",
+      "htmlSha256": "42fa8aa5e2b4153279e90111c918db9fee5c509074bcb48044f5245e66d5a910",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-rezero-detail-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-rezero-detail",
+      "work": "rezero",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/39644",
+      "sourceUrl": "https://laftel.net/item/39644",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:20.826Z",
+      "htmlSha256": "42fa8aa5e2b4153279e90111c918db9fee5c509074bcb48044f5245e66d5a910",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-apothecary-detail-playback-entry-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-apothecary-detail-playback-entry",
+      "work": "apothecary",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/41714",
+      "sourceUrl": "https://laftel.net/item/41714",
+      "pageKind": "detail-unavailable",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:23.614Z",
+      "htmlSha256": "bd62331050cd1d8920e26799d68351767c87e269c26c4baecc20e71e96a702db",
+      "duplicateOf": "scale-laftel-apothecary-detail"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": true
+    }
+  },
+  {
+    "id": "scale-laftel-apothecary-detail-playback-entry-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-apothecary-detail-playback-entry",
+      "work": "apothecary",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/41714",
+      "sourceUrl": "https://laftel.net/item/41714",
+      "pageKind": "detail-unavailable",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:23.614Z",
+      "htmlSha256": "bd62331050cd1d8920e26799d68351767c87e269c26c4baecc20e71e96a702db",
+      "duplicateOf": "scale-laftel-apothecary-detail"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": true
+    }
+  },
+  {
+    "id": "scale-laftel-apothecary-detail-playback-entry-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-apothecary-detail-playback-entry",
+      "work": "apothecary",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/41714",
+      "sourceUrl": "https://laftel.net/item/41714",
+      "pageKind": "detail-unavailable",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:23.614Z",
+      "htmlSha256": "bd62331050cd1d8920e26799d68351767c87e269c26c4baecc20e71e96a702db",
+      "duplicateOf": "scale-laftel-apothecary-detail"
+    },
+    "quality": {
+      "observedCandidates": 6,
+      "presentedCandidates": 6,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": true
+    }
+  },
+  {
+    "id": "scale-laftel-rezero-detail-playback-entry-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-rezero-detail-playback-entry",
+      "work": "rezero",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/39644/36886",
+      "sourceUrl": "https://laftel.net/item/39644",
+      "pageKind": "player-login-gate",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:24.395Z",
+      "htmlSha256": "e00d37631c39ff79dec91eab9fee731cb2277d93da0b12bc99ff86b68176089c",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-rezero-detail-playback-entry-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-rezero-detail-playback-entry",
+      "work": "rezero",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/39644/36886",
+      "sourceUrl": "https://laftel.net/item/39644",
+      "pageKind": "player-login-gate",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:24.395Z",
+      "htmlSha256": "e00d37631c39ff79dec91eab9fee731cb2277d93da0b12bc99ff86b68176089c",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-laftel-rezero-detail-playback-entry-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-laftel-rezero-detail-playback-entry",
+      "work": "rezero",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/39644/36886",
+      "sourceUrl": "https://laftel.net/item/39644",
+      "pageKind": "player-login-gate",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:24.395Z",
+      "htmlSha256": "e00d37631c39ff79dec91eab9fee731cb2277d93da0b12bc99ff86b68176089c",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-coupang-home-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-coupang-home",
+      "work": "none-home",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/",
+      "sourceUrl": "https://www.coupangplay.com/",
+      "pageKind": "blocked",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:24.657Z",
+      "htmlSha256": "6f2b330f523cc4af5ade84e237bc51b1e6dbb458294aeb9848091a6e2694ff45",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-coupang-home-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-coupang-home",
+      "work": "none-home",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/",
+      "sourceUrl": "https://www.coupangplay.com/",
+      "pageKind": "blocked",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:24.657Z",
+      "htmlSha256": "6f2b330f523cc4af5ade84e237bc51b1e6dbb458294aeb9848091a6e2694ff45",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 0,
+      "presentedCandidates": 0,
+      "emptyConcretePool": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-coupang-home-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-coupang-home",
+      "work": "none-home",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/",
+      "sourceUrl": "https://www.coupangplay.com/",
+      "pageKind": "blocked",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:24.657Z",
+      "htmlSha256": "6f2b330f523cc4af5ade84e237bc51b1e6dbb458294aeb9848091a6e2694ff45",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-chainsaw-man-detail-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-chainsaw-man-detail",
+      "work": "chainsaw-man",
+      "provider": "tving",
+      "url": "https://www.tving.com/contents/P001654042",
+      "sourceUrl": "https://www.tving.com/contents/P001654042",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:46.520Z",
+      "htmlSha256": "69acfc2f018e650d85597c023324086f3db6d74e19426a3a0ff54ad83f779e00",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-chainsaw-man-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-chainsaw-man-detail",
+      "work": "chainsaw-man",
+      "provider": "tving",
+      "url": "https://www.tving.com/contents/P001654042",
+      "sourceUrl": "https://www.tving.com/contents/P001654042",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:46.520Z",
+      "htmlSha256": "69acfc2f018e650d85597c023324086f3db6d74e19426a3a0ff54ad83f779e00",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-tving-chainsaw-man-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-tving-chainsaw-man-detail",
+      "work": "chainsaw-man",
+      "provider": "tving",
+      "url": "https://www.tving.com/contents/P001654042",
+      "sourceUrl": "https://www.tving.com/contents/P001654042",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:43:46.520Z",
+      "htmlSha256": "69acfc2f018e650d85597c023324086f3db6d74e19426a3a0ff54ad83f779e00",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-frieren-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-frieren-search",
+      "work": "frieren",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:33.544Z",
+      "htmlSha256": "0d9b3d3eb2d3553dd9e712261fb934b455fcdc708fd0f2dd2545e82ba3ad1cb4",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-frieren-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-frieren-search",
+      "work": "frieren",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:33.544Z",
+      "htmlSha256": "0d9b3d3eb2d3553dd9e712261fb934b455fcdc708fd0f2dd2545e82ba3ad1cb4",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-frieren-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-frieren-search",
+      "work": "frieren",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:33.544Z",
+      "htmlSha256": "0d9b3d3eb2d3553dd9e712261fb934b455fcdc708fd0f2dd2545e82ba3ad1cb4",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-attack-on-titan-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:33.576Z",
+      "htmlSha256": "4e366c506157634fa9d09b649ed13a15481df0f87b37ffc47efa6f9aa16414ea",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-attack-on-titan-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:33.576Z",
+      "htmlSha256": "4e366c506157634fa9d09b649ed13a15481df0f87b37ffc47efa6f9aa16414ea",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-attack-on-titan-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:33.576Z",
+      "htmlSha256": "4e366c506157634fa9d09b649ed13a15481df0f87b37ffc47efa6f9aa16414ea",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-jujutsu-kaisen-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:33.571Z",
+      "htmlSha256": "06aa7433cb363e69af45d0ff79042d5087d7992f19a5c87b6d4e3fa007bb8814",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-jujutsu-kaisen-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:33.571Z",
+      "htmlSha256": "06aa7433cb363e69af45d0ff79042d5087d7992f19a5c87b6d4e3fa007bb8814",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-jujutsu-kaisen-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:33.571Z",
+      "htmlSha256": "06aa7433cb363e69af45d0ff79042d5087d7992f19a5c87b6d4e3fa007bb8814",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-attack-on-titan-search-opened-work-title",
+    "split": "development",
+    "expectedId": "t6",
+    "acceptedIds": [
+      "t6"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-attack-on-titan-search-opened-work",
+      "work": "attack-on-titan",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/items/3034",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:43.123Z",
+      "htmlSha256": "37a1275a5097f24fbeb4ef96c6cd7def3d0d19c4f2c4e3cfc0d32d14495e74ec",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-attack-on-titan-search-opened-work-image",
+    "split": "development",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-attack-on-titan-search-opened-work",
+      "work": "attack-on-titan",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/items/3034",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:43.123Z",
+      "htmlSha256": "37a1275a5097f24fbeb4ef96c6cd7def3d0d19c4f2c4e3cfc0d32d14495e74ec",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-attack-on-titan-search-opened-work-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2",
+      "d4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-attack-on-titan-search-opened-work",
+      "work": "attack-on-titan",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/items/3034",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:43.123Z",
+      "htmlSha256": "37a1275a5097f24fbeb4ef96c6cd7def3d0d19c4f2c4e3cfc0d32d14495e74ec",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 9,
+      "presentedCandidates": 9,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-title",
+    "split": "development",
+    "expectedId": "t6",
+    "acceptedIds": [
+      "t6"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-jujutsu-kaisen-search-opened-work",
+      "work": "jujutsu-kaisen",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/items/2336",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:43.246Z",
+      "htmlSha256": "7ef584a9080966bc6f90dba920df324fa3affb58785cd0354e575c6a2282af88",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-image",
+    "split": "development",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-jujutsu-kaisen-search-opened-work",
+      "work": "jujutsu-kaisen",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/items/2336",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:43.246Z",
+      "htmlSha256": "7ef584a9080966bc6f90dba920df324fa3affb58785cd0354e575c6a2282af88",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2",
+      "d4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-jujutsu-kaisen-search-opened-work",
+      "work": "jujutsu-kaisen",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/items/2336",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:43.246Z",
+      "htmlSha256": "7ef584a9080966bc6f90dba920df324fa3affb58785cd0354e575c6a2282af88",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-frieren-search-opened-work-title",
+    "split": "development",
+    "expectedId": "t6",
+    "acceptedIds": [
+      "t6"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-frieren-search-opened-work",
+      "work": "frieren",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/items/3011",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:43.261Z",
+      "htmlSha256": "2f8ecbf1a1c1e6afa39f084a84de99249dfb6310a0d6b38b7bbee46e8ec7d517",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-frieren-search-opened-work-image",
+    "split": "development",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-frieren-search-opened-work",
+      "work": "frieren",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/items/3011",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:43.261Z",
+      "htmlSha256": "2f8ecbf1a1c1e6afa39f084a84de99249dfb6310a0d6b38b7bbee46e8ec7d517",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-aniplus-frieren-search-opened-work-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2",
+      "d4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-aniplus-frieren-search-opened-work",
+      "work": "frieren",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/items/3011",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:43.261Z",
+      "htmlSha256": "2f8ecbf1a1c1e6afa39f084a84de99249dfb6310a0d6b38b7bbee46e8ec7d517",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-frieren-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-frieren-search",
+      "work": "frieren",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:47.665Z",
+      "htmlSha256": "acc6f78c27f34481807028af88fbba769cde3ef230699aa337808b75bc17c7a2",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-frieren-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-frieren-search",
+      "work": "frieren",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:47.665Z",
+      "htmlSha256": "acc6f78c27f34481807028af88fbba769cde3ef230699aa337808b75bc17c7a2",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-frieren-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-frieren-search",
+      "work": "frieren",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:47.665Z",
+      "htmlSha256": "acc6f78c27f34481807028af88fbba769cde3ef230699aa337808b75bc17c7a2",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 7,
+      "presentedCandidates": 7,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-attack-on-titan-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:48.337Z",
+      "htmlSha256": "60269664340fd2c7c22b33b2f6133ad15cd68db3dd4710a7d886a2524a3fb19e",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-attack-on-titan-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:48.337Z",
+      "htmlSha256": "60269664340fd2c7c22b33b2f6133ad15cd68db3dd4710a7d886a2524a3fb19e",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-attack-on-titan-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:48.337Z",
+      "htmlSha256": "60269664340fd2c7c22b33b2f6133ad15cd68db3dd4710a7d886a2524a3fb19e",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 7,
+      "presentedCandidates": 7,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-frieren-search-opened-work-title",
+    "split": "development",
+    "expectedId": "t4",
+    "acceptedIds": [
+      "t4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-frieren-search-opened-work",
+      "work": "frieren",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000690&landing=season",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:50.997Z",
+      "htmlSha256": "b7848b3c2c9cb6b468f27b88e58c1e49a09a345aed43585ffda9a2a5bc83b33a",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-frieren-search-opened-work-image",
+    "split": "development",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-frieren-search-opened-work",
+      "work": "frieren",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000690&landing=season",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:50.997Z",
+      "htmlSha256": "b7848b3c2c9cb6b468f27b88e58c1e49a09a345aed43585ffda9a2a5bc83b33a",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-frieren-search-opened-work-description",
+    "split": "development",
+    "expectedId": "d3",
+    "acceptedIds": [
+      "d3",
+      "d4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-frieren-search-opened-work",
+      "work": "frieren",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000690&landing=season",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:50.997Z",
+      "htmlSha256": "b7848b3c2c9cb6b468f27b88e58c1e49a09a345aed43585ffda9a2a5bc83b33a",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-attack-on-titan-search-opened-work-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-attack-on-titan-search-opened-work",
+      "work": "attack-on-titan",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/member/login?referer=%2Fsearch%3FsearchWord%3D%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "login",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:51.705Z",
+      "htmlSha256": "19e2ceca67c7a7f182c9a3d50a1ef23a7f998f8eafb040f6be6d0dc73b519b93",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 16,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-attack-on-titan-search-opened-work-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-attack-on-titan-search-opened-work",
+      "work": "attack-on-titan",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/member/login?referer=%2Fsearch%3FsearchWord%3D%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "login",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:51.705Z",
+      "htmlSha256": "19e2ceca67c7a7f182c9a3d50a1ef23a7f998f8eafb040f6be6d0dc73b519b93",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 7,
+      "presentedCandidates": 7,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-attack-on-titan-search-opened-work-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-attack-on-titan-search-opened-work",
+      "work": "attack-on-titan",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/member/login?referer=%2Fsearch%3FsearchWord%3D%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "login",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:51.705Z",
+      "htmlSha256": "19e2ceca67c7a7f182c9a3d50a1ef23a7f998f8eafb040f6be6d0dc73b519b93",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-jujutsu-kaisen-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:53.004Z",
+      "htmlSha256": "53810998b542d3a030d302028272b4ec02c76e91f7e2d9f46b20c65e8eca3a52",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-jujutsu-kaisen-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:53.004Z",
+      "htmlSha256": "53810998b542d3a030d302028272b4ec02c76e91f7e2d9f46b20c65e8eca3a52",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-jujutsu-kaisen-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:53.004Z",
+      "htmlSha256": "53810998b542d3a030d302028272b4ec02c76e91f7e2d9f46b20c65e8eca3a52",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-jujutsu-kaisen-search-opened-work-title",
+    "split": "development",
+    "expectedId": "t4",
+    "acceptedIds": [
+      "t4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-jujutsu-kaisen-search-opened-work",
+      "work": "jujutsu-kaisen",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000329&landing=season",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:56.322Z",
+      "htmlSha256": "36be505df88946d935fb29f8d1af3d297af702df420dd500a4fc147d29cc06ce",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-jujutsu-kaisen-search-opened-work-image",
+    "split": "development",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-jujutsu-kaisen-search-opened-work",
+      "work": "jujutsu-kaisen",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000329&landing=season",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:56.322Z",
+      "htmlSha256": "36be505df88946d935fb29f8d1af3d297af702df420dd500a4fc147d29cc06ce",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 16,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-wavve-jujutsu-kaisen-search-opened-work-description",
+    "split": "development",
+    "expectedId": "d4",
+    "acceptedIds": [
+      "d4",
+      "d3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-wavve-jujutsu-kaisen-search-opened-work",
+      "work": "jujutsu-kaisen",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000329&landing=season",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:44:56.322Z",
+      "htmlSha256": "36be505df88946d935fb29f8d1af3d297af702df420dd500a4fc147d29cc06ce",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-jujutsu-kaisen-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://watcha.com/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:48.757Z",
+      "htmlSha256": "72e97de0c450b7a3b293c10f8c85b9dadb4611bc12f33e0b2e660d8f354c1f1e",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-jujutsu-kaisen-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://watcha.com/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:48.757Z",
+      "htmlSha256": "72e97de0c450b7a3b293c10f8c85b9dadb4611bc12f33e0b2e660d8f354c1f1e",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-jujutsu-kaisen-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-jujutsu-kaisen-search",
+      "work": "jujutsu-kaisen",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://watcha.com/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:48.757Z",
+      "htmlSha256": "72e97de0c450b7a3b293c10f8c85b9dadb4611bc12f33e0b2e660d8f354c1f1e",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-frieren-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-frieren-search",
+      "work": "frieren",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://watcha.com/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:48.938Z",
+      "htmlSha256": "ea7da2f2bf114ae3ce0c3e3ce6732a654ad27bf1670595fa6e6a1ede9a587c93",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-frieren-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-frieren-search",
+      "work": "frieren",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://watcha.com/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:48.938Z",
+      "htmlSha256": "ea7da2f2bf114ae3ce0c3e3ce6732a654ad27bf1670595fa6e6a1ede9a587c93",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-frieren-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-frieren-search",
+      "work": "frieren",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "sourceUrl": "https://watcha.com/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:48.938Z",
+      "htmlSha256": "ea7da2f2bf114ae3ce0c3e3ce6732a654ad27bf1670595fa6e6a1ede9a587c93",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-attack-on-titan-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/search?query=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://watcha.com/search?query=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:49.055Z",
+      "htmlSha256": "1cc40370762458fdff0d55b8bb99ea210696b8a58152c805731949c2b8bb5ea5",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-attack-on-titan-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/search?query=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://watcha.com/search?query=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:49.055Z",
+      "htmlSha256": "1cc40370762458fdff0d55b8bb99ea210696b8a58152c805731949c2b8bb5ea5",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-attack-on-titan-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-attack-on-titan-search",
+      "work": "attack-on-titan",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/search?query=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "sourceUrl": "https://watcha.com/search?query=%EC%A7%84%EA%B2%A9%EC%9D%98%20%EA%B1%B0%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:49.055Z",
+      "htmlSha256": "1cc40370762458fdff0d55b8bb99ea210696b8a58152c805731949c2b8bb5ea5",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-jujutsu-kaisen-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-jujutsu-kaisen-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/m5Go91n",
+      "sourceUrl": "https://watcha.com/ko/contents/m5Go91n",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:52.590Z",
+      "htmlSha256": "199a0307b0413d0f467b755f5566f7e0dc44ac9727c7abad8f4526e60483622b",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-jujutsu-kaisen-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-jujutsu-kaisen-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/m5Go91n",
+      "sourceUrl": "https://watcha.com/ko/contents/m5Go91n",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:52.590Z",
+      "htmlSha256": "199a0307b0413d0f467b755f5566f7e0dc44ac9727c7abad8f4526e60483622b",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-jujutsu-kaisen-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-jujutsu-kaisen-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/m5Go91n",
+      "sourceUrl": "https://watcha.com/ko/contents/m5Go91n",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:52.590Z",
+      "htmlSha256": "199a0307b0413d0f467b755f5566f7e0dc44ac9727c7abad8f4526e60483622b",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-chainsaw-man-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-chainsaw-man-detail",
+      "work": "chainsaw-man",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/tPJZ6jo",
+      "sourceUrl": "https://watcha.com/ko/contents/tPJZ6jo",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:52.901Z",
+      "htmlSha256": "4a59c9b16b56a3c4145af80efb449347983eaf2fefb4745ad3f73d3830cf8720",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-chainsaw-man-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-chainsaw-man-detail",
+      "work": "chainsaw-man",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/tPJZ6jo",
+      "sourceUrl": "https://watcha.com/ko/contents/tPJZ6jo",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:52.901Z",
+      "htmlSha256": "4a59c9b16b56a3c4145af80efb449347983eaf2fefb4745ad3f73d3830cf8720",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-chainsaw-man-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-chainsaw-man-detail",
+      "work": "chainsaw-man",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/tPJZ6jo",
+      "sourceUrl": "https://watcha.com/ko/contents/tPJZ6jo",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:52.901Z",
+      "htmlSha256": "4a59c9b16b56a3c4145af80efb449347983eaf2fefb4745ad3f73d3830cf8720",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-frieren-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-frieren-detail",
+      "work": "frieren",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/tRN7gzz",
+      "sourceUrl": "https://watcha.com/ko/contents/tRN7gzz",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:52.952Z",
+      "htmlSha256": "df195cc5509c8e3d750ea6ff6d007ba2d15a5df8fd0ce7c4de0c8e2eef607ce9",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-frieren-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-frieren-detail",
+      "work": "frieren",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/tRN7gzz",
+      "sourceUrl": "https://watcha.com/ko/contents/tRN7gzz",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:52.952Z",
+      "htmlSha256": "df195cc5509c8e3d750ea6ff6d007ba2d15a5df8fd0ce7c4de0c8e2eef607ce9",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-frieren-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-frieren-detail",
+      "work": "frieren",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/tRN7gzz",
+      "sourceUrl": "https://watcha.com/ko/contents/tRN7gzz",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:52.952Z",
+      "htmlSha256": "df195cc5509c8e3d750ea6ff6d007ba2d15a5df8fd0ce7c4de0c8e2eef607ce9",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-attack-on-titan-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-attack-on-titan-detail",
+      "work": "attack-on-titan",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/tEqZbVd",
+      "sourceUrl": "https://watcha.com/ko/contents/tEqZbVd",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:56.875Z",
+      "htmlSha256": "ce2d2146c4627558347f18be3be18e2f77e1b79b0ec77967f4160aa181f544a5",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-attack-on-titan-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-attack-on-titan-detail",
+      "work": "attack-on-titan",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/tEqZbVd",
+      "sourceUrl": "https://watcha.com/ko/contents/tEqZbVd",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:56.875Z",
+      "htmlSha256": "ce2d2146c4627558347f18be3be18e2f77e1b79b0ec77967f4160aa181f544a5",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "scale-watcha-attack-on-titan-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "scale-watcha-attack-on-titan-detail",
+      "work": "attack-on-titan",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/tEqZbVd",
+      "sourceUrl": "https://watcha.com/ko/contents/tEqZbVd",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "capturedAt": "2026-11-13T14:45:56.875Z",
+      "htmlSha256": "ce2d2146c4627558347f18be3be18e2f77e1b79b0ec77967f4160aa181f544a5",
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "auth-class-marriage-modal-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "auth-class-marriage-modal",
+      "work": "class-marriage",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EB%B0%98%EC%97%90%EC%84%9C+%EB%91%90+%EB%B2%88%EC%A7%B8%EB%A1%9C+%EA%B7%80%EC%97%AC%EC%9A%B4+%EC%97%AC%EC%9E%90%EC%95%A0%EC%99%80+%EC%B9%9C%EA%B5%AC%EA%B0%80+%EB%90%98%EC%97%88%EB%8B%A4&modal=42628",
+      "sourceUrl": "https://laftel.net/search?keyword=%EB%B0%98%EC%97%90%EC%84%9C+%EB%91%90+%EB%B2%88%EC%A7%B8%EB%A1%9C+%EA%B7%80%EC%97%AC%EC%9A%B4+%EC%97%AC%EC%9E%90%EC%95%A0%EC%99%80+%EC%B9%9C%EA%B5%AC%EA%B0%80+%EB%90%98%EC%97%88%EB%8B%A4&modal=42628",
+      "pageKind": "work-modal",
+      "collectorVariant": "auth-read-only-v1",
+      "capturedAt": "2026-11-13T14:45:34.161Z",
+      "htmlSha256": null,
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 17,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "auth-class-marriage-modal-image",
+    "split": "development",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2",
+      "i3"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "auth-class-marriage-modal",
+      "work": "class-marriage",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EB%B0%98%EC%97%90%EC%84%9C+%EB%91%90+%EB%B2%88%EC%A7%B8%EB%A1%9C+%EA%B7%80%EC%97%AC%EC%9A%B4+%EC%97%AC%EC%9E%90%EC%95%A0%EC%99%80+%EC%B9%9C%EA%B5%AC%EA%B0%80+%EB%90%98%EC%97%88%EB%8B%A4&modal=42628",
+      "sourceUrl": "https://laftel.net/search?keyword=%EB%B0%98%EC%97%90%EC%84%9C+%EB%91%90+%EB%B2%88%EC%A7%B8%EB%A1%9C+%EA%B7%80%EC%97%AC%EC%9A%B4+%EC%97%AC%EC%9E%90%EC%95%A0%EC%99%80+%EC%B9%9C%EA%B5%AC%EA%B0%80+%EB%90%98%EC%97%88%EB%8B%A4&modal=42628",
+      "pageKind": "work-modal",
+      "collectorVariant": "auth-read-only-v1",
+      "capturedAt": "2026-11-13T14:45:34.161Z",
+      "htmlSha256": null,
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "auth-class-marriage-modal-description",
+    "split": "development",
+    "expectedId": "d3",
+    "acceptedIds": [
+      "d3"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "auth-class-marriage-modal",
+      "work": "class-marriage",
+      "provider": "laftel",
+      "url": "https://laftel.net/search?keyword=%EB%B0%98%EC%97%90%EC%84%9C+%EB%91%90+%EB%B2%88%EC%A7%B8%EB%A1%9C+%EA%B7%80%EC%97%AC%EC%9A%B4+%EC%97%AC%EC%9E%90%EC%95%A0%EC%99%80+%EC%B9%9C%EA%B5%AC%EA%B0%80+%EB%90%98%EC%97%88%EB%8B%A4&modal=42628",
+      "sourceUrl": "https://laftel.net/search?keyword=%EB%B0%98%EC%97%90%EC%84%9C+%EB%91%90+%EB%B2%88%EC%A7%B8%EB%A1%9C+%EA%B7%80%EC%97%AC%EC%9A%B4+%EC%97%AC%EC%9E%90%EC%95%A0%EC%99%80+%EC%B9%9C%EA%B5%AC%EA%B0%80+%EB%90%98%EC%97%88%EB%8B%A4&modal=42628",
+      "pageKind": "work-modal",
+      "collectorVariant": "auth-read-only-v1",
+      "capturedAt": "2026-11-13T14:45:34.161Z",
+      "htmlSha256": null,
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "auth-class-marriage-player-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "auth-class-marriage-player",
+      "work": "class-marriage",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/42628/80260",
+      "sourceUrl": "https://laftel.net/player/42628/80260",
+      "pageKind": "full-player",
+      "collectorVariant": "auth-read-only-v1",
+      "capturedAt": "2026-11-13T14:46:33.567Z",
+      "htmlSha256": null,
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "auth-class-marriage-player-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "auth-class-marriage-player",
+      "work": "class-marriage",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/42628/80260",
+      "sourceUrl": "https://laftel.net/player/42628/80260",
+      "pageKind": "full-player",
+      "collectorVariant": "auth-read-only-v1",
+      "capturedAt": "2026-11-13T14:46:33.567Z",
+      "htmlSha256": null,
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 13,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  },
+  {
+    "id": "auth-class-marriage-player-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-authenticated-dom",
+      "pageId": "auth-class-marriage-player",
+      "work": "class-marriage",
+      "provider": "laftel",
+      "url": "https://laftel.net/player/42628/80260",
+      "sourceUrl": "https://laftel.net/player/42628/80260",
+      "pageKind": "full-player",
+      "collectorVariant": "auth-read-only-v1",
+      "capturedAt": "2026-11-13T14:46:33.567Z",
+      "htmlSha256": null,
+      "duplicateOf": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "excludeFromTraining": false
+    }
+  }
+]

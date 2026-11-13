@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-11-13T15:05:03.826Z",
+  "predictionsInspected": false,
+  "dataFreezeSha256": "69d8b9a27c0ce91e495ee9851ae060c0c27d836c553e39fd99f21954bcc531a7",
+  "scorerSha256": "a83b11896989c3a6dd8e0b59e0c4f1ac844835bb56539a882036293104a8fa3d",
+  "recipes": [
+    "full-natural",
+    "full-compact",
+    "small-compact"
+  ],
+  "modes": [
+    "full",
+    "micro2"
+  ],
+  "primary": "exact accepted-ID selection accuracy over every scored field, including missing-gold and execution failures",
+  "secondary": [
+    "same-page all-three correctness",
+    "positive selection precision/recall",
+    "none precision/recall and false-positive count",
+    "conditional accuracy given gold candidate in fixed pool",
+    "provider/cohort/field/observed-kind/public-or-authenticated breakdown"
+  ],
+  "uncertainty": "2,000 canonical-work-family cluster bootstrap resamples; paired bootstrap accuracy differences between predeclared variants",
+  "limitations": [
+    "two held-out services only",
+    "DOM candidate selection, not end-to-end cross-OTT matching",
+    "CPU inference timings are not browser timings"
+  ]
+}

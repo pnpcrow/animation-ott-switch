@@ -1,0 +1,112 @@
+[
+  {
+    "id": "h037",
+    "provider": "laftel",
+    "cohort": "unseen-work",
+    "work": "skip-and-loafer",
+    "requestedKind": "modal",
+    "url": "https://laftel.net/search?keyword=%EC%8A%A4%ED%82%B5%EA%B3%BC+%EB%A1%9C%ED%8D%BC&modal=41363"
+  },
+  {
+    "id": "h038",
+    "provider": "laftel",
+    "cohort": "unseen-work",
+    "work": "skip-and-loafer",
+    "requestedKind": "detail",
+    "url": "https://laftel.net/item/41363"
+  },
+  {
+    "id": "h039",
+    "provider": "laftel",
+    "cohort": "unseen-work",
+    "work": "odd-taxi",
+    "requestedKind": "modal",
+    "url": "https://laftel.net/search?keyword=%EC%98%A4%EB%93%9C+%ED%83%9D%EC%8B%9C&modal=40892"
+  },
+  {
+    "id": "h040",
+    "provider": "laftel",
+    "cohort": "unseen-work",
+    "work": "odd-taxi",
+    "requestedKind": "detail",
+    "url": "https://laftel.net/item/40892"
+  },
+  {
+    "id": "h041",
+    "provider": "tving",
+    "cohort": "unseen-work",
+    "work": "bocchi-the-rock",
+    "requestedKind": "detail",
+    "url": "https://www.tving.com/contents/P001682518"
+  },
+  {
+    "id": "h042",
+    "provider": "tving",
+    "cohort": "unseen-work",
+    "work": "bocchi-the-rock",
+    "requestedKind": "playback-access",
+    "url": "https://www.tving.com/contents/P001682518",
+    "action": {
+      "name": "이용권 구독하고 시청하기",
+      "waitMs": 5000
+    }
+  },
+  {
+    "id": "h043",
+    "provider": "tving",
+    "cohort": "unseen-work",
+    "work": "odd-taxi",
+    "requestedKind": "detail",
+    "url": "https://www.tving.com/contents/P001602295"
+  },
+  {
+    "id": "h044",
+    "provider": "tving",
+    "cohort": "unseen-work",
+    "work": "odd-taxi",
+    "requestedKind": "playback-access",
+    "url": "https://www.tving.com/contents/P001602295",
+    "action": {
+      "name": "이용권 구독하고 시청하기",
+      "waitMs": 5000
+    }
+  },
+  {
+    "id": "h045",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "mob-psycho-100",
+    "requestedKind": "search",
+    "url": "https://tv.apple.com/kr/search?term=%EB%AA%A8%EB%B8%8C%EC%82%AC%EC%9D%B4%EC%BD%94100",
+    "action": {
+      "kind": "search",
+      "query": "모브사이코100",
+      "waitMs": 3000
+    }
+  },
+  {
+    "id": "h046",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "odd-taxi",
+    "requestedKind": "search",
+    "url": "https://tv.apple.com/kr/search?term=%EC%98%A4%EB%93%9C%20%ED%83%9D%EC%8B%9C",
+    "action": {
+      "kind": "search",
+      "query": "오드 택시",
+      "waitMs": 3000
+    }
+  },
+  {
+    "id": "h047",
+    "provider": "apple",
+    "cohort": "unseen-service",
+    "work": "skip-and-loafer",
+    "requestedKind": "login-modal",
+    "url": "https://tv.apple.com/kr/show/스킵과-로퍼/umc.cmc.39pmvds25qdwutg5xtprs73hc",
+    "action": {
+      "name": "로그인",
+      "waitMs": 10000
+    }
+  }
+]

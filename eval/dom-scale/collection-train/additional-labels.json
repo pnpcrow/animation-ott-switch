@@ -1,0 +1,1989 @@
+[
+  {
+    "id": "more-aniplus-chainsaw-man-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-aniplus-chainsaw-man-search",
+      "work": "chainsaw-man",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "pageKind": "search-empty",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:54:39.944Z",
+      "htmlSha256": "7ef5bcc29b5e2af2f1ccc30a8f6824433840a6a24be59fadd855967627823c4b"
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-aniplus-chainsaw-man-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-aniplus-chainsaw-man-search",
+      "work": "chainsaw-man",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "pageKind": "search-empty",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:54:39.944Z",
+      "htmlSha256": "7ef5bcc29b5e2af2f1ccc30a8f6824433840a6a24be59fadd855967627823c4b"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-aniplus-chainsaw-man-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-aniplus-chainsaw-man-search",
+      "work": "chainsaw-man",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "pageKind": "search-empty",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:54:39.944Z",
+      "htmlSha256": "7ef5bcc29b5e2af2f1ccc30a8f6824433840a6a24be59fadd855967627823c4b"
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-aniplus-witch-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-aniplus-witch-search",
+      "work": "witch",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "pageKind": "search-empty",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:54:40.665Z",
+      "htmlSha256": "e1c0ddca19eb3149d01afb67e77aabc11008a9b04ef682d34ef1f8a3ad5c831c"
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-aniplus-witch-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-aniplus-witch-search",
+      "work": "witch",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "pageKind": "search-empty",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:54:40.665Z",
+      "htmlSha256": "e1c0ddca19eb3149d01afb67e77aabc11008a9b04ef682d34ef1f8a3ad5c831c"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-aniplus-witch-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-aniplus-witch-search",
+      "work": "witch",
+      "provider": "aniplus",
+      "url": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "sourceUrl": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "pageKind": "search-empty",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:54:40.665Z",
+      "htmlSha256": "e1c0ddca19eb3149d01afb67e77aabc11008a9b04ef682d34ef1f8a3ad5c831c"
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-wavve-witch-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-wavve-witch-search",
+      "work": "witch",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:54:57.413Z",
+      "htmlSha256": "bb5701aff90a78cc425d125a24839a1126cdd9c4d936ff8a922a737a736014ec"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-wavve-witch-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-wavve-witch-search",
+      "work": "witch",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:54:57.413Z",
+      "htmlSha256": "bb5701aff90a78cc425d125a24839a1126cdd9c4d936ff8a922a737a736014ec"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-wavve-witch-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-wavve-witch-search",
+      "work": "witch",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:54:57.413Z",
+      "htmlSha256": "bb5701aff90a78cc425d125a24839a1126cdd9c4d936ff8a922a737a736014ec"
+    },
+    "quality": {
+      "observedCandidates": 6,
+      "presentedCandidates": 6,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-wavve-chainsaw-man-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-wavve-chainsaw-man-search",
+      "work": "chainsaw-man",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:54:57.650Z",
+      "htmlSha256": "9993a39a433d70535d7558d12fdcc0d5788c9874e79829797c122ecf79d6d52c"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-wavve-chainsaw-man-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-wavve-chainsaw-man-search",
+      "work": "chainsaw-man",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:54:57.650Z",
+      "htmlSha256": "9993a39a433d70535d7558d12fdcc0d5788c9874e79829797c122ecf79d6d52c"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-wavve-chainsaw-man-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-wavve-chainsaw-man-search",
+      "work": "chainsaw-man",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:54:57.650Z",
+      "htmlSha256": "9993a39a433d70535d7558d12fdcc0d5788c9874e79829797c122ecf79d6d52c"
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-wavve-witch-search-opened-work-title",
+    "split": "development",
+    "expectedId": "t4",
+    "acceptedIds": [
+      "t4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-wavve-witch-search-opened-work",
+      "work": "witch",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:55:00.685Z",
+      "htmlSha256": "d50910e996deebf89838d20cf310715c0250cf0ac72e9c2c9baaa738a21b9f8f"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-wavve-witch-search-opened-work-image",
+    "split": "development",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-wavve-witch-search-opened-work",
+      "work": "witch",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:55:00.685Z",
+      "htmlSha256": "d50910e996deebf89838d20cf310715c0250cf0ac72e9c2c9baaa738a21b9f8f"
+    },
+    "quality": {
+      "observedCandidates": 16,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-wavve-witch-search-opened-work-description",
+    "split": "development",
+    "expectedId": "d4",
+    "acceptedIds": [
+      "d4",
+      "d3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-wavve-witch-search-opened-work",
+      "work": "witch",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "pageKind": "detail",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:55:00.685Z",
+      "htmlSha256": "d50910e996deebf89838d20cf310715c0250cf0ac72e9c2c9baaa738a21b9f8f"
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-wavve-chainsaw-man-search-opened-work-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-wavve-chainsaw-man-search-opened-work",
+      "work": "chainsaw-man",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/member/login?referer=%2Fsearch%3FsearchWord%3D%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "pageKind": "login",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:55:01.016Z",
+      "htmlSha256": "a6e83245449c8307592b241f02e227b0cd74da333fe401ef745aae46d2b585d7"
+    },
+    "quality": {
+      "observedCandidates": 16,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-wavve-chainsaw-man-search-opened-work-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-wavve-chainsaw-man-search-opened-work",
+      "work": "chainsaw-man",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/member/login?referer=%2Fsearch%3FsearchWord%3D%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "pageKind": "login",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:55:01.016Z",
+      "htmlSha256": "a6e83245449c8307592b241f02e227b0cd74da333fe401ef745aae46d2b585d7"
+    },
+    "quality": {
+      "observedCandidates": 7,
+      "presentedCandidates": 7,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-wavve-chainsaw-man-search-opened-work-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-wavve-chainsaw-man-search-opened-work",
+      "work": "chainsaw-man",
+      "provider": "wavve",
+      "url": "https://www.wavve.com/member/login?referer=%2Fsearch%3FsearchWord%3D%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "sourceUrl": "https://www.wavve.com/search?searchWord=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "pageKind": "login",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:55:01.016Z",
+      "htmlSha256": "a6e83245449c8307592b241f02e227b0cd74da333fe401ef745aae46d2b585d7"
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-tving-chainsaw-man-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-tving-chainsaw-man-search",
+      "work": "chainsaw-man",
+      "provider": "tving",
+      "url": "https://www.tving.com/search?keyword=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "sourceUrl": "https://www.tving.com/search?keyword=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:55:05.079Z",
+      "htmlSha256": "77005cc3fffa6006ac186448beb34b3a22b2067b36d16c3976b8a42784aa8868"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-tving-chainsaw-man-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-tving-chainsaw-man-search",
+      "work": "chainsaw-man",
+      "provider": "tving",
+      "url": "https://www.tving.com/search?keyword=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "sourceUrl": "https://www.tving.com/search?keyword=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:55:05.079Z",
+      "htmlSha256": "77005cc3fffa6006ac186448beb34b3a22b2067b36d16c3976b8a42784aa8868"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "more-tving-chainsaw-man-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "more-tving-chainsaw-man-search",
+      "work": "chainsaw-man",
+      "provider": "tving",
+      "url": "https://www.tving.com/search?keyword=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "sourceUrl": "https://www.tving.com/search?keyword=%EC%B2%B4%EC%9D%B8%EC%86%8C%20%EB%A7%A8",
+      "pageKind": "search",
+      "collectorVariant": "public-generic-v2-media",
+      "collectorSha256": null,
+      "authState": "anonymous-isolated",
+      "capturedAt": "2026-11-13T14:55:05.079Z",
+      "htmlSha256": "77005cc3fffa6006ac186448beb34b3a22b2067b36d16c3976b8a42784aa8868"
+    },
+    "quality": {
+      "observedCandidates": 7,
+      "presentedCandidates": 7,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-crunchyroll-witch-detail-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-crunchyroll-witch-detail",
+      "work": "witch",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/ko/series/GMEHME72W/once-upon-a-witchs-death",
+      "sourceUrl": "https://www.crunchyroll.com/ko/series/GMEHME72W/once-upon-a-witchs-death",
+      "pageKind": "detail",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:56:29.034Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-crunchyroll-witch-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i3"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-crunchyroll-witch-detail",
+      "work": "witch",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/ko/series/GMEHME72W/once-upon-a-witchs-death",
+      "sourceUrl": "https://www.crunchyroll.com/ko/series/GMEHME72W/once-upon-a-witchs-death",
+      "pageKind": "detail",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:56:29.034Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-crunchyroll-witch-detail-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-crunchyroll-witch-detail",
+      "work": "witch",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/ko/series/GMEHME72W/once-upon-a-witchs-death",
+      "sourceUrl": "https://www.crunchyroll.com/ko/series/GMEHME72W/once-upon-a-witchs-death",
+      "pageKind": "detail",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:56:29.034Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-crunchyroll-witch-player-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-crunchyroll-witch-player",
+      "work": "witch",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/ko/watch/G8WU7VM4J/the-witch-with-one-year-to-live",
+      "sourceUrl": "https://www.crunchyroll.com/ko/watch/G8WU7VM4J/the-witch-with-one-year-to-live",
+      "pageKind": "full-player",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:56:53.963Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-crunchyroll-witch-player-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-crunchyroll-witch-player",
+      "work": "witch",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/ko/watch/G8WU7VM4J/the-witch-with-one-year-to-live",
+      "sourceUrl": "https://www.crunchyroll.com/ko/watch/G8WU7VM4J/the-witch-with-one-year-to-live",
+      "pageKind": "full-player",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:56:53.963Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-crunchyroll-witch-player-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-crunchyroll-witch-player",
+      "work": "witch",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/ko/watch/G8WU7VM4J/the-witch-with-one-year-to-live",
+      "sourceUrl": "https://www.crunchyroll.com/ko/watch/G8WU7VM4J/the-witch-with-one-year-to-live",
+      "pageKind": "full-player",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:56:53.963Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-crunchyroll-jujutsu-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-crunchyroll-jujutsu-search",
+      "work": "jujutsu-kaisen",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/ko/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.crunchyroll.com/ko/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search-empty",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:57:12.420Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-crunchyroll-jujutsu-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-crunchyroll-jujutsu-search",
+      "work": "jujutsu-kaisen",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/ko/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.crunchyroll.com/ko/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search-empty",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:57:12.420Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 10,
+      "presentedCandidates": 10,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-crunchyroll-jujutsu-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-crunchyroll-jujutsu-search",
+      "work": "jujutsu-kaisen",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/ko/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.crunchyroll.com/ko/search?q=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search-empty",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:57:12.420Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-crunchyroll-witch-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-crunchyroll-witch-search",
+      "work": "witch",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/ko/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "sourceUrl": "https://www.crunchyroll.com/ko/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "pageKind": "search",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:57:37.165Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 17,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-crunchyroll-witch-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-crunchyroll-witch-search",
+      "work": "witch",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/ko/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "sourceUrl": "https://www.crunchyroll.com/ko/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "pageKind": "search",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:57:37.165Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-crunchyroll-witch-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-crunchyroll-witch-search",
+      "work": "witch",
+      "provider": "crunchyroll",
+      "url": "https://www.crunchyroll.com/ko/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "sourceUrl": "https://www.crunchyroll.com/ko/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "pageKind": "search",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:57:37.165Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 13,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-coupang-jujutsu-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-coupang-jujutsu-search",
+      "work": "jujutsu-kaisen",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/query-st?src=page_search&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.coupangplay.com/query-st?src=page_search&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:58:27.299Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-coupang-jujutsu-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-coupang-jujutsu-search",
+      "work": "jujutsu-kaisen",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/query-st?src=page_search&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.coupangplay.com/query-st?src=page_search&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:58:27.299Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-coupang-jujutsu-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-coupang-jujutsu-search",
+      "work": "jujutsu-kaisen",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/query-st?src=page_search&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.coupangplay.com/query-st?src=page_search&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:58:27.299Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 6,
+      "presentedCandidates": 6,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-coupang-jujutsu-detail-title",
+    "split": "development",
+    "expectedId": "__missing__",
+    "acceptedIds": [
+      "__missing__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-coupang-jujutsu-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/titles?titleId=84b84af0-277f-4e7f-b936-11c5825c005d&type=TVSHOW&availability=SVOD&live=&rowId=MLRedis&trackId=MLRedis&src=page_search_grouping&sourceType=page_discover_title_detail%3Apage_search&supportLive=&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.coupangplay.com/titles?titleId=84b84af0-277f-4e7f-b936-11c5825c005d&type=TVSHOW&availability=SVOD&live=&rowId=MLRedis&trackId=MLRedis&src=page_search_grouping&sourceType=page_discover_title_detail%3Apage_search&supportLive=&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "detail-with-preview",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:58:46.782Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": true,
+      "allAcceptedOutsidePool": true,
+      "collectorMiss": true,
+      "missingGold": true,
+      "excludeFromTraining": true,
+      "missingEvidence": "Rendered current-work label 주술회전 was visible outside captured heading/alt candidates."
+    }
+  },
+  {
+    "id": "auth-coupang-jujutsu-detail-image",
+    "split": "development",
+    "expectedId": "__missing__",
+    "acceptedIds": [
+      "__missing__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-coupang-jujutsu-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/titles?titleId=84b84af0-277f-4e7f-b936-11c5825c005d&type=TVSHOW&availability=SVOD&live=&rowId=MLRedis&trackId=MLRedis&src=page_search_grouping&sourceType=page_discover_title_detail%3Apage_search&supportLive=&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.coupangplay.com/titles?titleId=84b84af0-277f-4e7f-b936-11c5825c005d&type=TVSHOW&availability=SVOD&live=&rowId=MLRedis&trackId=MLRedis&src=page_search_grouping&sourceType=page_discover_title_detail%3Apage_search&supportLive=&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "detail-with-preview",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:58:46.782Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": true,
+      "allAcceptedOutsidePool": true,
+      "collectorMiss": true,
+      "missingGold": true,
+      "excludeFromTraining": true,
+      "missingEvidence": "No current-work artwork survives original18 observations. Rendered hero is in preview mode; the omitted static artwork URL was not retained, so its exact source is unresolved and not invented."
+    }
+  },
+  {
+    "id": "auth-coupang-jujutsu-detail-description",
+    "split": "development",
+    "expectedId": "__missing__",
+    "acceptedIds": [
+      "__missing__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-coupang-jujutsu-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/titles?titleId=84b84af0-277f-4e7f-b936-11c5825c005d&type=TVSHOW&availability=SVOD&live=&rowId=MLRedis&trackId=MLRedis&src=page_search_grouping&sourceType=page_discover_title_detail%3Apage_search&supportLive=&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://www.coupangplay.com/titles?titleId=84b84af0-277f-4e7f-b936-11c5825c005d&type=TVSHOW&availability=SVOD&live=&rowId=MLRedis&trackId=MLRedis&src=page_search_grouping&sourceType=page_discover_title_detail%3Apage_search&supportLive=&keyword=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "detail-with-preview",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:58:46.782Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": true,
+      "allAcceptedOutsidePool": true,
+      "collectorMiss": true,
+      "missingGold": true,
+      "excludeFromTraining": true,
+      "missingEvidence": "Rendered 시놉시스 begins 고등학생 이타도리는 저주에 습격 당한 친구를 구하기 위해; none of captured18 descriptions contains this series synopsis."
+    }
+  },
+  {
+    "id": "auth-coupang-jujutsu-player-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-coupang-jujutsu-player",
+      "work": "jujutsu-kaisen",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/play/84b84af0-277f-4e7f-b936-11c5825c005d/tvshow?order=0&sourceType=page_discover_title_detail%3Apage_search",
+      "sourceUrl": "https://www.coupangplay.com/play/84b84af0-277f-4e7f-b936-11c5825c005d/tvshow?order=0&sourceType=page_discover_title_detail%3Apage_search",
+      "pageKind": "full-player",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:59:47.389Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-coupang-jujutsu-player-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-coupang-jujutsu-player",
+      "work": "jujutsu-kaisen",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/play/84b84af0-277f-4e7f-b936-11c5825c005d/tvshow?order=0&sourceType=page_discover_title_detail%3Apage_search",
+      "sourceUrl": "https://www.coupangplay.com/play/84b84af0-277f-4e7f-b936-11c5825c005d/tvshow?order=0&sourceType=page_discover_title_detail%3Apage_search",
+      "pageKind": "full-player",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:59:47.389Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "auth-coupang-jujutsu-player-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "auth-coupang-jujutsu-player",
+      "work": "jujutsu-kaisen",
+      "provider": "coupang",
+      "url": "https://www.coupangplay.com/play/84b84af0-277f-4e7f-b936-11c5825c005d/tvshow?order=0&sourceType=page_discover_title_detail%3Apage_search",
+      "sourceUrl": "https://www.coupangplay.com/play/84b84af0-277f-4e7f-b936-11c5825c005d/tvshow?order=0&sourceType=page_discover_title_detail%3Apage_search",
+      "pageKind": "full-player",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "signed-in",
+      "capturedAt": "2026-11-13T14:59:47.389Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-watcha-frieren-preview-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-watcha-frieren-preview-detail",
+      "work": "frieren",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/tRN7gzz",
+      "sourceUrl": "https://watcha.com/ko/contents/tRN7gzz",
+      "pageKind": "detail-with-preview",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "login-link-and-subscription-required",
+      "capturedAt": "2026-11-13T14:57:19.354Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-watcha-frieren-preview-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-watcha-frieren-preview-detail",
+      "work": "frieren",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/tRN7gzz",
+      "sourceUrl": "https://watcha.com/ko/contents/tRN7gzz",
+      "pageKind": "detail-with-preview",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "login-link-and-subscription-required",
+      "capturedAt": "2026-11-13T14:57:19.354Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-watcha-frieren-preview-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-watcha-frieren-preview-detail",
+      "work": "frieren",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/tRN7gzz",
+      "sourceUrl": "https://watcha.com/ko/contents/tRN7gzz",
+      "pageKind": "detail-with-preview",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "login-link-and-subscription-required",
+      "capturedAt": "2026-11-13T14:57:19.354Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-watcha-jujutsu-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-watcha-jujutsu-search",
+      "work": "jujutsu-kaisen",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "login-link-visible",
+      "capturedAt": "2026-11-13T14:58:05.603Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-watcha-jujutsu-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-watcha-jujutsu-search",
+      "work": "jujutsu-kaisen",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "login-link-visible",
+      "capturedAt": "2026-11-13T14:58:05.603Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-watcha-jujutsu-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-watcha-jujutsu-search",
+      "work": "jujutsu-kaisen",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "sourceUrl": "https://watcha.com/ko/search?query=%EC%A3%BC%EC%88%A0%ED%9A%8C%EC%A0%84",
+      "pageKind": "search",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "login-link-visible",
+      "capturedAt": "2026-11-13T14:58:05.603Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-watcha-jujutsu-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-watcha-jujutsu-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/m5Go91n?search_id=ee8da026-e664-4853-a86d-7bf6b55343fd",
+      "sourceUrl": "https://watcha.com/ko/contents/m5Go91n?search_id=ee8da026-e664-4853-a86d-7bf6b55343fd",
+      "pageKind": "detail-with-preview",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "login-link-and-subscription-required",
+      "capturedAt": "2026-11-13T14:58:38.541Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-watcha-jujutsu-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-watcha-jujutsu-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/m5Go91n?search_id=ee8da026-e664-4853-a86d-7bf6b55343fd",
+      "sourceUrl": "https://watcha.com/ko/contents/m5Go91n?search_id=ee8da026-e664-4853-a86d-7bf6b55343fd",
+      "pageKind": "detail-with-preview",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "login-link-and-subscription-required",
+      "capturedAt": "2026-11-13T14:58:38.541Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-watcha-jujutsu-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-watcha-jujutsu-detail",
+      "work": "jujutsu-kaisen",
+      "provider": "watcha",
+      "url": "https://watcha.com/ko/contents/m5Go91n?search_id=ee8da026-e664-4853-a86d-7bf6b55343fd",
+      "sourceUrl": "https://watcha.com/ko/contents/m5Go91n?search_id=ee8da026-e664-4853-a86d-7bf6b55343fd",
+      "pageKind": "detail-with-preview",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "login-link-and-subscription-required",
+      "capturedAt": "2026-11-13T14:58:38.541Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-prime-hazbin-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-prime-hazbin-detail",
+      "work": "hazbin-hotel",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "pageKind": "detail-with-preview",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "subscription-required",
+      "capturedAt": "2026-11-13T14:58:06.088Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-prime-hazbin-detail-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i3"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-prime-hazbin-detail",
+      "work": "hazbin-hotel",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "pageKind": "detail-with-preview",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "subscription-required",
+      "capturedAt": "2026-11-13T14:58:06.088Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-prime-hazbin-detail-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-prime-hazbin-detail",
+      "work": "hazbin-hotel",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0HZWTBZYQQXYW48YBANMDM2MZE",
+      "pageKind": "detail-with-preview",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "subscription-required",
+      "capturedAt": "2026-11-13T14:58:06.088Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-prime-blade-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-prime-blade-search",
+      "work": "blade-of-the-immortal",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/search?ie=UTF8&ref_=atv_nb_sug&phrase=%EB%AC%B4%ED%95%9C%EC%9D%98+%EC%A3%BC%EC%9D%B8",
+      "sourceUrl": "https://www.primevideo.com/-/ko/search?ie=UTF8&ref_=atv_nb_sug&phrase=%EB%AC%B4%ED%95%9C%EC%9D%98+%EC%A3%BC%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "subscription-required",
+      "capturedAt": "2026-11-13T14:58:38.693Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 6,
+      "presentedCandidates": 6,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-prime-blade-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-prime-blade-search",
+      "work": "blade-of-the-immortal",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/search?ie=UTF8&ref_=atv_nb_sug&phrase=%EB%AC%B4%ED%95%9C%EC%9D%98+%EC%A3%BC%EC%9D%B8",
+      "sourceUrl": "https://www.primevideo.com/-/ko/search?ie=UTF8&ref_=atv_nb_sug&phrase=%EB%AC%B4%ED%95%9C%EC%9D%98+%EC%A3%BC%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "subscription-required",
+      "capturedAt": "2026-11-13T14:58:38.693Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-prime-blade-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-prime-blade-search",
+      "work": "blade-of-the-immortal",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/search?ie=UTF8&ref_=atv_nb_sug&phrase=%EB%AC%B4%ED%95%9C%EC%9D%98+%EC%A3%BC%EC%9D%B8",
+      "sourceUrl": "https://www.primevideo.com/-/ko/search?ie=UTF8&ref_=atv_nb_sug&phrase=%EB%AC%B4%ED%95%9C%EC%9D%98+%EC%A3%BC%EC%9D%B8",
+      "pageKind": "search",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "subscription-required",
+      "capturedAt": "2026-11-13T14:58:38.693Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-prime-blade-detail-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-prime-blade-detail",
+      "work": "blade-of-the-immortal",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01?ref_=atv_sr_fle_c_sr782405_pvsearchresults_1_1",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01?ref_=atv_sr_fle_c_sr782405_pvsearchresults_1_1",
+      "pageKind": "detail",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "subscription-required",
+      "capturedAt": "2026-11-13T14:58:48.557Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 7,
+      "presentedCandidates": 7,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-prime-blade-detail-image",
+    "split": "development",
+    "expectedId": "i7",
+    "acceptedIds": [
+      "i7"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-prime-blade-detail",
+      "work": "blade-of-the-immortal",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01?ref_=atv_sr_fle_c_sr782405_pvsearchresults_1_1",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01?ref_=atv_sr_fle_c_sr782405_pvsearchresults_1_1",
+      "pageKind": "detail",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "subscription-required",
+      "capturedAt": "2026-11-13T14:58:48.557Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 12,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  },
+  {
+    "id": "authprofile-prime-blade-detail-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-browser-profile-dom",
+      "pageId": "authprofile-prime-blade-detail",
+      "work": "blade-of-the-immortal",
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01?ref_=atv_sr_fle_c_sr782405_pvsearchresults_1_1",
+      "sourceUrl": "https://www.primevideo.com/-/ko/detail/0I1FLPJR5P008ZZEZY0YFF5M01?ref_=atv_sr_fle_c_sr782405_pvsearchresults_1_1",
+      "pageKind": "detail",
+      "collectorVariant": "auth-read-only-v3",
+      "collectorSha256": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "authState": "subscription-required",
+      "capturedAt": "2026-11-13T14:58:48.557Z",
+      "htmlSha256": null
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false,
+      "collectorMiss": false,
+      "missingGold": false,
+      "excludeFromTraining": false,
+      "missingEvidence": null
+    }
+  }
+]

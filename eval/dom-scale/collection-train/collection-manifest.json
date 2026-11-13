@@ -1,0 +1,29 @@
+{
+  "frozenAt": "2026-11-13T15:06:17.076Z",
+  "cohortCount": 2,
+  "pages": 80,
+  "cases": 240,
+  "mergeRule": "Concatenate initial inputs/labels with additional inputs/labels by unique id; no candidate or gold modifications. Training split/dedup documented separately by training pipeline.",
+  "cohorts": [
+    {
+      "manifest": "frozen-manifest.json",
+      "sha256": "2dd6657b25a207b0948dea06d6015e849056bca34c5a357f060cae5b83b874be",
+      "input": "inputs.json",
+      "labels": "labels.json",
+      "pages": 60,
+      "cases": 180,
+      "authCollectorSource": "auth-collector-v1.mjs"
+    },
+    {
+      "manifest": "additional-manifest.json",
+      "sha256": "d87a8e7467cfae1d6d8c1e01bbc64cd2ea64d172673c496eeb6781a31d4db115",
+      "input": "additional-inputs.json",
+      "labels": "additional-labels.json",
+      "pages": 20,
+      "cases": 60,
+      "authCollectorSource": "auth-collector-v3.mjs"
+    }
+  ],
+  "coverage": "final-coverage.json",
+  "audit": "audit.json"
+}

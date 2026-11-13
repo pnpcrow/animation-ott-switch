@@ -1,0 +1,554 @@
+{
+  "version": "independent-dom-scale-holdout-v1",
+  "annotatedAt": "2026-11-13T14:56:26.797Z",
+  "protocol": "Manual DOM/screenshot review by holdout collector before model predictions. All attempts retained; duplicate, no-effect and transient states excluded explicitly. No candidate insertion/reordering based on labels.",
+  "pages": {
+    "h001": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d2",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ],
+        "description": [
+          "d1",
+          "d2"
+        ]
+      },
+      "note": "Clean series heading; official OG and main hero artwork; head synopsis with trailing watch CTA and plain visible synopsis are equivalent plot evidence."
+    },
+    "h002": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d2",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ],
+        "description": [
+          "d1",
+          "d2"
+        ]
+      },
+      "note": "Clean series heading; official OG and main hero artwork; head synopsis with trailing watch CTA and plain visible synopsis are equivalent plot evidence."
+    },
+    "h003": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d2",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ],
+        "description": [
+          "d1",
+          "d2"
+        ]
+      },
+      "note": "Clean series heading; official OG and main hero artwork; head synopsis with trailing watch CTA and plain visible synopsis are equivalent plot evidence."
+    },
+    "h004": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d2",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ],
+        "description": [
+          "d1",
+          "d2"
+        ]
+      },
+      "note": "Clean series heading; official OG and main hero artwork; head synopsis with trailing watch CTA and plain visible synopsis are equivalent plot evidence."
+    },
+    "h005": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d2",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ],
+        "description": [
+          "d1",
+          "d2"
+        ]
+      },
+      "note": "Clean series heading; official OG and main hero artwork; head synopsis with trailing watch CTA and plain visible synopsis are equivalent plot evidence."
+    },
+    "h006": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d2",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ],
+        "description": [
+          "d1",
+          "d2"
+        ]
+      },
+      "note": "Clean series heading; official OG and main hero artwork; head synopsis with trailing watch CTA and plain visible synopsis are equivalent plot evidence."
+    },
+    "h007": {
+      "include": true,
+      "observedKind": "login",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Search route redirects to login; no work detail open."
+    },
+    "h008": {
+      "include": false,
+      "observedKind": "login",
+      "reason": "Same login-only state as prior search redirect.",
+      "duplicateOf": "h007"
+    },
+    "h009": {
+      "include": false,
+      "observedKind": "detail",
+      "reason": "Anonymous modal route redirected to the already captured public detail; no actual modal.",
+      "duplicateOf": "h003"
+    },
+    "h010": {
+      "include": false,
+      "observedKind": "detail",
+      "reason": "Anonymous modal route redirected to the already captured public detail; no actual modal.",
+      "duplicateOf": "h004"
+    },
+    "h011": {
+      "include": false,
+      "observedKind": "detail",
+      "reason": "Requested watch route redirected to the already captured public detail; no actual player.",
+      "duplicateOf": "h005"
+    },
+    "h012": {
+      "include": false,
+      "observedKind": "detail",
+      "reason": "Requested watch route redirected to the already captured public detail; no actual player.",
+      "duplicateOf": "h006"
+    },
+    "h013": {
+      "include": false,
+      "observedKind": "detail",
+      "reason": "Trailer action target absent; unchanged public detail.",
+      "duplicateOf": "h001"
+    },
+    "h014": {
+      "include": false,
+      "observedKind": "detail",
+      "reason": "Trailer action target absent; unchanged public detail.",
+      "duplicateOf": "h002"
+    },
+    "h015": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ]
+      },
+      "note": "Current series title and plot; desktop and responsive hero artwork valid. Title graphic, WATCHA provider icon, episode cards excluded."
+    },
+    "h016": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ]
+      },
+      "note": "Current series title and plot; desktop and responsive hero artwork valid. Title graphic, WATCHA provider icon, episode cards excluded."
+    },
+    "h017": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ]
+      },
+      "note": "Current series title and plot; desktop and responsive hero artwork valid. Title graphic, WATCHA provider icon, episode cards excluded."
+    },
+    "h018": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ]
+      },
+      "note": "Current series title and plot; desktop and responsive hero artwork valid. Title graphic, WATCHA provider icon, episode cards excluded."
+    },
+    "h019": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ]
+      },
+      "note": "Current series title and plot; desktop and responsive hero artwork valid. Title graphic, WATCHA provider icon, episode cards excluded."
+    },
+    "h020": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ]
+      },
+      "note": "Current series title and plot; desktop and responsive hero artwork valid. Title graphic, WATCHA provider icon, episode cards excluded."
+    },
+    "h021": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t2",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ]
+      },
+      "note": "Current series title and plot; desktop and responsive hero artwork valid. Title graphic, WATCHA provider icon, episode cards excluded."
+    },
+    "h022": {
+      "include": true,
+      "observedKind": "description-modal",
+      "title": "t2",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ]
+      },
+      "note": "Expanded current-work synopsis in a visible dialog over the same detail; not an auth dialog or player."
+    },
+    "h023": {
+      "include": true,
+      "observedKind": "description-modal",
+      "title": "t2",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {
+        "image": [
+          "i1",
+          "i2"
+        ]
+      },
+      "note": "Expanded current-work synopsis in a visible dialog over the same detail; not an auth dialog or player."
+    },
+    "h024": {
+      "include": true,
+      "observedKind": "search-landing",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Direct term route did not populate query; popular-search landing, no current work."
+    },
+    "h025": {
+      "include": false,
+      "observedKind": "search-landing",
+      "reason": "Same unpopulated popular-search landing as h024.",
+      "duplicateOf": "h024"
+    },
+    "h026": {
+      "include": false,
+      "observedKind": "detail",
+      "reason": "Login click had no visible modal at capture; unchanged detail.",
+      "duplicateOf": "h015"
+    },
+    "h027": {
+      "include": false,
+      "observedKind": "auth-loading",
+      "reason": "Sign-in spinner is a transient state; stable loaded login captured separately in h047.",
+      "duplicateOf": null
+    },
+    "h028": {
+      "include": true,
+      "observedKind": "search",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Search results/list alone do not constitute an opened work detail."
+    },
+    "h031": {
+      "include": true,
+      "observedKind": "search",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Search results/list alone do not constitute an opened work detail."
+    },
+    "h032": {
+      "include": true,
+      "observedKind": "search",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Search results/list alone do not constitute an opened work detail."
+    },
+    "h033": {
+      "include": true,
+      "observedKind": "search",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Search results/list alone do not constitute an opened work detail."
+    },
+    "h035": {
+      "include": true,
+      "observedKind": "search",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Search results/list alone do not constitute an opened work detail."
+    },
+    "h036": {
+      "include": true,
+      "observedKind": "search",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Search results/list alone do not constitute an opened work detail."
+    },
+    "h029": {
+      "include": true,
+      "observedKind": "work-modal",
+      "title": "t3",
+      "image": "i2",
+      "description": "d3",
+      "accepted": {
+        "description": [
+          "d2",
+          "d3"
+        ]
+      },
+      "note": "Search head retains generic Laftel OG; current native work overlay has clean heading, main video poster and plot. It lacks ARIA dialog semantics."
+    },
+    "h030": {
+      "include": true,
+      "observedKind": "work-modal",
+      "title": "t3",
+      "image": "i1",
+      "description": "d2",
+      "accepted": {
+        "description": [
+          "d2",
+          "d3"
+        ]
+      },
+      "note": "Direct item URL opens the current work over the home page. Official work OG is valid; home carousel artwork is unrelated."
+    },
+    "h034": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t3",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {
+        "image": [
+          "i1",
+          "i3",
+          "i4"
+        ]
+      },
+      "note": "Head title includes episode number; clean series heading t3. OG, landscape hero and portrait poster valid; title logo and episode cards excluded."
+    },
+    "h037": {
+      "include": true,
+      "observedKind": "work-modal",
+      "title": "t3",
+      "image": "i2",
+      "description": "d2",
+      "accepted": {},
+      "note": "Search metadata stays generic; current work video poster and series plot belong to the native modal, which lacks ARIA dialog semantics."
+    },
+    "h038": {
+      "include": true,
+      "observedKind": "work-modal",
+      "title": "t3",
+      "image": "i1",
+      "description": "d2",
+      "accepted": {},
+      "note": "Direct item work overlay; current official metadata is valid despite unrelated home carousels and recommendation descriptions."
+    },
+    "h039": {
+      "include": true,
+      "observedKind": "login",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Age-restricted work modal route redirects to sign-in. No work detail is open."
+    },
+    "h040": {
+      "include": true,
+      "observedKind": "login",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Direct item age-gate redirects to sign-in but stale work synopsis remains in head; still no work detail."
+    },
+    "h041": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t3",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {
+        "image": [
+          "i1",
+          "i3",
+          "i4"
+        ]
+      },
+      "note": "Clean series heading and plot; official metadata, landscape hero and portrait poster valid; title-logo image excluded."
+    },
+    "h042": {
+      "include": true,
+      "observedKind": "subscription-modal",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Blocking subscription offer covers the detail after play access click; no actual full player."
+    },
+    "h043": {
+      "include": true,
+      "observedKind": "detail",
+      "title": "t3",
+      "image": "i1",
+      "description": "d1",
+      "accepted": {},
+      "note": "Official OG artwork is valid. Body landscape/portrait images are generic 19+ blocking placeholders, not representative art; text title-logo also excluded."
+    },
+    "h044": {
+      "include": true,
+      "observedKind": "subscription-modal",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Blocking subscription offer covers the detail after play access click; no actual full player."
+    },
+    "h045": {
+      "include": false,
+      "observedKind": "search-landing",
+      "reason": "Entered query visible but popular results remain; no verified query-specific results. Duplicate semantic landing state.",
+      "duplicateOf": "h024"
+    },
+    "h046": {
+      "include": false,
+      "observedKind": "search-landing",
+      "reason": "Entered query visible but popular results remain; no verified query-specific results. Duplicate semantic landing state.",
+      "duplicateOf": "h024"
+    },
+    "h047": {
+      "include": true,
+      "observedKind": "login-modal",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Stable Apple email login dialog blocks underlying detail. Credentials are empty; no actual playback."
+    },
+    "h048": {
+      "include": true,
+      "observedKind": "work-modal",
+      "title": "t14",
+      "image": "__missing_observed_image__",
+      "description": "d3",
+      "accepted": {
+        "image": []
+      },
+      "note": "Authenticated title URL opens a native work modal above the home DOM. Clean title t14 is outside fixed12; actual storyArt was verified independently but is absent from original18 image candidates. Neither case is relabeled none.",
+      "missingObservedFields": [
+        "image"
+      ]
+    },
+    "h049": {
+      "include": true,
+      "observedKind": "full-player",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Actual play-link navigation; paused=false, currentTime=4.09, readyState=4, video1438x797. Captured immediately then closed."
+    },
+    "h050": {
+      "include": true,
+      "observedKind": "search",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Authenticated query result page has a matching work link, without opening its detail."
+    },
+    "h051": {
+      "include": true,
+      "observedKind": "work-modal",
+      "title": "t11",
+      "image": "__missing_observed_image__",
+      "description": "d1",
+      "accepted": {
+        "image": []
+      },
+      "note": "Authenticated search result opened a current-work native modal. Current-work storyArt verified independently but original18 image candidates contain preceding result artwork. Preview video in the detail is not a full player.",
+      "missingObservedFields": [
+        "image"
+      ]
+    },
+    "h052": {
+      "include": true,
+      "observedKind": "full-player",
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "note": "Actual play-link navigation; paused=false, currentTime=6.596577, readyState=4, video1438x792. Captured immediately then closed."
+    }
+  }
+}

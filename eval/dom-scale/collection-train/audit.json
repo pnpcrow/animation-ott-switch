@@ -1,0 +1,324 @@
+{
+  "auditedAt": "2026-11-13T15:06:17.072Z",
+  "hashChecks": [
+    {
+      "file": "observations.json",
+      "expected": "6038b4d3844d8749f07baee3e45955c4f5bac7b562875e14cde0859792aa5758",
+      "actual": "6038b4d3844d8749f07baee3e45955c4f5bac7b562875e14cde0859792aa5758",
+      "match": true
+    },
+    {
+      "file": "annotations.json",
+      "expected": "a3461821f3beba48c7a6230619df2bd4b1a034586ecdad3a7b88e98e15e9fa2d",
+      "actual": "a3461821f3beba48c7a6230619df2bd4b1a034586ecdad3a7b88e98e15e9fa2d",
+      "match": true
+    },
+    {
+      "file": "inputs.json",
+      "expected": "fc8edf472d0e9fe86b7f5f182d70145569ea8d0aafa5c64fa6b93745f85c2163",
+      "actual": "fc8edf472d0e9fe86b7f5f182d70145569ea8d0aafa5c64fa6b93745f85c2163",
+      "match": true
+    },
+    {
+      "file": "labels.json",
+      "expected": "8262e030ae5edc9c5c95134f8e5e9815b9407929e24b853f8b01b8719cb2470f",
+      "actual": "8262e030ae5edc9c5c95134f8e5e9815b9407929e24b853f8b01b8719cb2470f",
+      "match": true
+    },
+    {
+      "file": "coverage.json",
+      "expected": "4f53ca04f0f80024eed06817b2438fcd0ca17714d68dce94bddc0f39edb5d28c",
+      "actual": "4f53ca04f0f80024eed06817b2438fcd0ca17714d68dce94bddc0f39edb5d28c",
+      "match": true
+    },
+    {
+      "file": "collect.mjs",
+      "expected": "db45ae5aec51f76a79ab5fcf2ff8831c99f02df320c89e21856e3b70de0a1060",
+      "actual": "db45ae5aec51f76a79ab5fcf2ff8831c99f02df320c89e21856e3b70de0a1060",
+      "match": true
+    },
+    {
+      "file": "annotate.mjs",
+      "expected": "66306f4b60ac60630fbb2e5634219ec907e30393f45963488aea59ee3fc2d781",
+      "actual": "66306f4b60ac60630fbb2e5634219ec907e30393f45963488aea59ee3fc2d781",
+      "match": true
+    },
+    {
+      "file": "sanitize.mjs",
+      "expected": "6dcda0fb7fc1a676069e0a56ed02c46ec4e726c35135ec8e1f14f419a64e020a",
+      "actual": "6dcda0fb7fc1a676069e0a56ed02c46ec4e726c35135ec8e1f14f419a64e020a",
+      "match": true
+    },
+    {
+      "file": "additional-observations.json",
+      "expected": "4839269d10f98b56ab984f5e9a9398c44472fe0405862866c259a231f9ef1292",
+      "actual": "4839269d10f98b56ab984f5e9a9398c44472fe0405862866c259a231f9ef1292",
+      "match": true
+    },
+    {
+      "file": "additional-annotations.json",
+      "expected": "488477b453d46f1d88d7298cb4503689cdd949f4b05955286c063ed7b2b9870d",
+      "actual": "488477b453d46f1d88d7298cb4503689cdd949f4b05955286c063ed7b2b9870d",
+      "match": true
+    },
+    {
+      "file": "additional-inputs.json",
+      "expected": "83e087b15edd3670e14714ba689a3c97e30f51f63fb731b35508041a4b261eb8",
+      "actual": "83e087b15edd3670e14714ba689a3c97e30f51f63fb731b35508041a4b261eb8",
+      "match": true
+    },
+    {
+      "file": "additional-labels.json",
+      "expected": "f2f7a9f5e85ba798e05343de29c85d71f85fa17cdda0a014445a0a41b90b3170",
+      "actual": "f2f7a9f5e85ba798e05343de29c85d71f85fa17cdda0a014445a0a41b90b3170",
+      "match": true
+    },
+    {
+      "file": "collect-additions.mjs",
+      "expected": "7d555abf5588102ac5622f4ca5341f151f6b9ea918a393cc08ab79723be25676",
+      "actual": "7d555abf5588102ac5622f4ca5341f151f6b9ea918a393cc08ab79723be25676",
+      "match": true
+    },
+    {
+      "file": "annotate-additions.mjs",
+      "expected": "8fd11279cff23964628aaaf50cf6a4cdecbe58b18a5bff48c779bb2b347a4e30",
+      "actual": "8fd11279cff23964628aaaf50cf6a4cdecbe58b18a5bff48c779bb2b347a4e30",
+      "match": true
+    },
+    {
+      "file": "auth-captures/auth-coupang-jujutsu-detail.json",
+      "expected": "9f55a75519e72a74bd10a72335f9ace34c214bdfe6262b639bbf26f49dcdf7e8",
+      "actual": "9f55a75519e72a74bd10a72335f9ace34c214bdfe6262b639bbf26f49dcdf7e8",
+      "match": true
+    },
+    {
+      "file": "auth-captures/auth-coupang-jujutsu-player.json",
+      "expected": "ec88462dc8df908a8aab73d418eebbf2816ffe5fae3e8d3ab5d01b80e9f94e27",
+      "actual": "ec88462dc8df908a8aab73d418eebbf2816ffe5fae3e8d3ab5d01b80e9f94e27",
+      "match": true
+    },
+    {
+      "file": "auth-captures/auth-coupang-jujutsu-search.json",
+      "expected": "fe816988938d36c18caa6edfa340686a4f8e9742b9dcf707be536288a889ce45",
+      "actual": "fe816988938d36c18caa6edfa340686a4f8e9742b9dcf707be536288a889ce45",
+      "match": true
+    },
+    {
+      "file": "auth-captures/auth-crunchyroll-jujutsu-search.json",
+      "expected": "7cdc07049951210f6e0a89331acf46ce9985cf435b6250e28d93547da4e84ccc",
+      "actual": "7cdc07049951210f6e0a89331acf46ce9985cf435b6250e28d93547da4e84ccc",
+      "match": true
+    },
+    {
+      "file": "auth-captures/auth-crunchyroll-witch-detail.json",
+      "expected": "25ecdd51425e5c9ff5c3277bd2502459226c83929e7902a38c9e6f6ddec1b3b2",
+      "actual": "25ecdd51425e5c9ff5c3277bd2502459226c83929e7902a38c9e6f6ddec1b3b2",
+      "match": true
+    },
+    {
+      "file": "auth-captures/auth-crunchyroll-witch-player.json",
+      "expected": "b50171904f79297e52e2ad5d9e148fab003e43d040424882dbca68102d9f2a0e",
+      "actual": "b50171904f79297e52e2ad5d9e148fab003e43d040424882dbca68102d9f2a0e",
+      "match": true
+    },
+    {
+      "file": "auth-captures/auth-crunchyroll-witch-search.json",
+      "expected": "698dece13652b4f75665d7e98591db871ec04b36aa08a798fa7cf4618bd350f3",
+      "actual": "698dece13652b4f75665d7e98591db871ec04b36aa08a798fa7cf4618bd350f3",
+      "match": true
+    },
+    {
+      "file": "auth-captures/authprofile-prime-blade-detail.json",
+      "expected": "4f2eda46253aeee5099e0da490db81ca68cc227439df9ea0e6a19239b46b7cf0",
+      "actual": "4f2eda46253aeee5099e0da490db81ca68cc227439df9ea0e6a19239b46b7cf0",
+      "match": true
+    },
+    {
+      "file": "auth-captures/authprofile-prime-blade-search.json",
+      "expected": "fd61b1f3d2c686859f8675fc5b8542dc9bcbd9fec0d46b98c8c830d80313f65e",
+      "actual": "fd61b1f3d2c686859f8675fc5b8542dc9bcbd9fec0d46b98c8c830d80313f65e",
+      "match": true
+    },
+    {
+      "file": "auth-captures/authprofile-prime-hazbin-detail.json",
+      "expected": "0dea81c139bde173ec7c5ef4c21e17570228a0fa9a729f9107564272f73abe11",
+      "actual": "0dea81c139bde173ec7c5ef4c21e17570228a0fa9a729f9107564272f73abe11",
+      "match": true
+    },
+    {
+      "file": "auth-captures/authprofile-watcha-frieren-preview-detail.json",
+      "expected": "a51b9f2301aaa4994c7dadc941c13e7006cb91c01e84681f81f492969ea82c14",
+      "actual": "a51b9f2301aaa4994c7dadc941c13e7006cb91c01e84681f81f492969ea82c14",
+      "match": true
+    },
+    {
+      "file": "auth-captures/authprofile-watcha-jujutsu-detail.json",
+      "expected": "c9160d62dc1a09938c2cfe0df394f52072f6d2dece4f6055ae9995594694a5e2",
+      "actual": "c9160d62dc1a09938c2cfe0df394f52072f6d2dece4f6055ae9995594694a5e2",
+      "match": true
+    },
+    {
+      "file": "auth-captures/authprofile-watcha-jujutsu-search.json",
+      "expected": "9e36e1a3eb388d0e01784d007fd11dc8157097a056c391131b6c2995693cb551",
+      "actual": "9e36e1a3eb388d0e01784d007fd11dc8157097a056c391131b6c2995693cb551",
+      "match": true
+    },
+    {
+      "file": "auth-collector-v3.mjs",
+      "expected": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "actual": "0c7e1ea4a71a79df7781624289ae7d02d827f382448e7b185ab4ef1eec934f0a",
+      "match": true
+    },
+    {
+      "file": "eval/dom-scale/collection-train/auth-collector-v1.mjs",
+      "expected": "ae74ce008daf29f04dd051d1fd56fb9ca3a97f21114854234393d3198b64d19a",
+      "actual": "ae74ce008daf29f04dd051d1fd56fb9ca3a97f21114854234393d3198b64d19a",
+      "match": true
+    },
+    {
+      "file": "eval/dom-scale/auth-training/class-marriage-modal.json",
+      "expected": "9a71d2d815a662231912a64c73d16aae1c8148535de8822967da849b1d412266",
+      "actual": "9a71d2d815a662231912a64c73d16aae1c8148535de8822967da849b1d412266",
+      "match": true
+    },
+    {
+      "file": "eval/dom-scale/auth-training/class-marriage-player.json",
+      "expected": "d8b0cb6ac62e2aa2f0ecfcad50bcccd39833a7348fd25d2216d3c6e56bd886f0",
+      "actual": "d8b0cb6ac62e2aa2f0ecfcad50bcccd39833a7348fd25d2216d3c6e56bd886f0",
+      "match": true
+    }
+  ],
+  "privacy": [
+    {
+      "file": "observations.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "inputs.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "additional-observations.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "additional-inputs.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/auth-coupang-jujutsu-detail.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/auth-coupang-jujutsu-player.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/auth-coupang-jujutsu-search.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/auth-crunchyroll-jujutsu-search.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/auth-crunchyroll-witch-detail.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/auth-crunchyroll-witch-player.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/auth-crunchyroll-witch-search.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/authprofile-prime-blade-detail.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/authprofile-prime-blade-search.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/authprofile-prime-hazbin-detail.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/authprofile-watcha-frieren-preview-detail.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/authprofile-watcha-jujutsu-detail.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    },
+    {
+      "file": "auth-captures/authprofile-watcha-jujutsu-search.json",
+      "personalEmailPattern": false,
+      "sensitiveQueryPattern": false,
+      "cookieStorageKeys": false,
+      "authBodyPrefix": false
+    }
+  ],
+  "schema": {
+    "uniqueCaseIds": true,
+    "labelCountMatches": true,
+    "allSourceProvidersAllowed": true,
+    "reservedWorkTargetsExcluded": true,
+    "reservedServicesExcluded": true,
+    "noAnnotationMetadataInInputs": true,
+    "max13Options": true,
+    "noneExactlyOnce": true,
+    "allLabelReferencesValidOrRecordedMiss": true
+  },
+  "sourceHistory": "Frozen first-cohort collector source recovered from current source by removing only subsequent data-uia profile filter; recovered bytes exactly match original frozen SHA256. Candidate/gold/input files unchanged during audit."
+}
