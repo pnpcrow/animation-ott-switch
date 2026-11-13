@@ -1,0 +1,1485 @@
+[
+  {
+    "id": "witch-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch",
+      "work": "witch",
+      "url": "https://laftel.net/item/42783",
+      "capturedAt": "2026-11-13T09:55:39.024Z",
+      "htmlSha256": "4dd9b1fe4b2cd135a68dbd6e712905be7aee32449e87a842316532dd5372c2e5"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch",
+      "work": "witch",
+      "url": "https://laftel.net/item/42783",
+      "capturedAt": "2026-11-13T09:55:39.024Z",
+      "htmlSha256": "4dd9b1fe4b2cd135a68dbd6e712905be7aee32449e87a842316532dd5372c2e5"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch",
+      "work": "witch",
+      "url": "https://laftel.net/item/42783",
+      "capturedAt": "2026-11-13T09:55:39.024Z",
+      "htmlSha256": "4dd9b1fe4b2cd135a68dbd6e712905be7aee32449e87a842316532dd5372c2e5"
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren",
+      "work": "frieren",
+      "url": "https://laftel.net/item/41666",
+      "capturedAt": "2026-11-13T09:55:43.385Z",
+      "htmlSha256": "352332a321abbda3f38392a3e7db678a481177af2af15a67cb8e89cc06fa8647"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren",
+      "work": "frieren",
+      "url": "https://laftel.net/item/41666",
+      "capturedAt": "2026-11-13T09:55:43.385Z",
+      "htmlSha256": "352332a321abbda3f38392a3e7db678a481177af2af15a67cb8e89cc06fa8647"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren",
+      "work": "frieren",
+      "url": "https://laftel.net/item/41666",
+      "capturedAt": "2026-11-13T09:55:43.385Z",
+      "htmlSha256": "352332a321abbda3f38392a3e7db678a481177af2af15a67cb8e89cc06fa8647"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "sakura-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "sakura",
+      "work": "sakura",
+      "url": "https://tv.apple.com/kr/show/카드캡터-체리/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d",
+      "capturedAt": "2026-11-13T09:55:47.700Z",
+      "htmlSha256": "dc6ec1e86186fa8301f4e7d58acda1fd6acf76f8c70529bc35daa55a4b6d8b2c"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "sakura-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "sakura",
+      "work": "sakura",
+      "url": "https://tv.apple.com/kr/show/카드캡터-체리/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d",
+      "capturedAt": "2026-11-13T09:55:47.700Z",
+      "htmlSha256": "dc6ec1e86186fa8301f4e7d58acda1fd6acf76f8c70529bc35daa55a4b6d8b2c"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "sakura-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "sakura",
+      "work": "sakura",
+      "url": "https://tv.apple.com/kr/show/카드캡터-체리/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d",
+      "capturedAt": "2026-11-13T09:55:47.700Z",
+      "htmlSha256": "dc6ec1e86186fa8301f4e7d58acda1fd6acf76f8c70529bc35daa55a4b6d8b2c"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "apothecary-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "apothecary",
+      "work": "apothecary",
+      "url": "https://laftel.net/item/41714",
+      "capturedAt": "2026-11-13T09:55:51.859Z",
+      "htmlSha256": "e97b428ec1bede38c7175fff2a10507c6940ec5d0d720405341d7295c1387126"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "apothecary-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "apothecary",
+      "work": "apothecary",
+      "url": "https://laftel.net/item/41714",
+      "capturedAt": "2026-11-13T09:55:51.859Z",
+      "htmlSha256": "e97b428ec1bede38c7175fff2a10507c6940ec5d0d720405341d7295c1387126"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "apothecary-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "apothecary",
+      "work": "apothecary",
+      "url": "https://laftel.net/item/41714",
+      "capturedAt": "2026-11-13T09:55:51.859Z",
+      "htmlSha256": "e97b428ec1bede38c7175fff2a10507c6940ec5d0d720405341d7295c1387126"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "nia-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "nia",
+      "work": "nia",
+      "url": "https://laftel.net/item/47452",
+      "capturedAt": "2026-11-13T09:55:56.168Z",
+      "htmlSha256": "8be5c527c98e628f59680cf9420a32b61eff1a829f4d779f89442e258ef53ea2"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "nia-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "nia",
+      "work": "nia",
+      "url": "https://laftel.net/item/47452",
+      "capturedAt": "2026-11-13T09:55:56.168Z",
+      "htmlSha256": "8be5c527c98e628f59680cf9420a32b61eff1a829f4d779f89442e258ef53ea2"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "nia-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "nia",
+      "work": "nia",
+      "url": "https://laftel.net/item/47452",
+      "capturedAt": "2026-11-13T09:55:56.168Z",
+      "htmlSha256": "8be5c527c98e628f59680cf9420a32b61eff1a829f4d779f89442e258ef53ea2"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "rezero-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "rezero",
+      "work": "rezero",
+      "url": "https://laftel.net/item/39644",
+      "capturedAt": "2026-11-13T09:56:00.384Z",
+      "htmlSha256": "50135ad58a21dda3729a6d8dcff0f8c435801470b02110303debfb5afae6b487"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "rezero-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "rezero",
+      "work": "rezero",
+      "url": "https://laftel.net/item/39644",
+      "capturedAt": "2026-11-13T09:56:00.384Z",
+      "htmlSha256": "50135ad58a21dda3729a6d8dcff0f8c435801470b02110303debfb5afae6b487"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "rezero-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "rezero",
+      "work": "rezero",
+      "url": "https://laftel.net/item/39644",
+      "capturedAt": "2026-11-13T09:56:00.384Z",
+      "htmlSha256": "50135ad58a21dda3729a6d8dcff0f8c435801470b02110303debfb5afae6b487"
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon",
+      "work": "dungeon",
+      "url": "https://www.netflix.com/kr/title/81564899",
+      "capturedAt": "2026-11-13T09:56:07.002Z",
+      "htmlSha256": "8a38f8a97228f32550bd61a9c4373f6fd1528b7a69781a4145ecf638b06ee1dc"
+    },
+    "quality": {
+      "observedCandidates": 13,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon",
+      "work": "dungeon",
+      "url": "https://www.netflix.com/kr/title/81564899",
+      "capturedAt": "2026-11-13T09:56:07.002Z",
+      "htmlSha256": "8a38f8a97228f32550bd61a9c4373f6fd1528b7a69781a4145ecf638b06ee1dc"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon",
+      "work": "dungeon",
+      "url": "https://www.netflix.com/kr/title/81564899",
+      "capturedAt": "2026-11-13T09:56:07.002Z",
+      "htmlSha256": "8a38f8a97228f32550bd61a9c4373f6fd1528b7a69781a4145ecf638b06ee1dc"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dinner-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dinner",
+      "work": "dinner",
+      "url": "https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2",
+      "capturedAt": "2026-11-13T09:56:12.245Z",
+      "htmlSha256": "3a6dfa421326855fa3b4f60c2fcbf151fe0384e4cdf6cf4e2b16727c7b5e499a"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dinner-image",
+    "split": "development",
+    "expectedId": "i3",
+    "acceptedIds": [
+      "i1",
+      "i3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dinner",
+      "work": "dinner",
+      "url": "https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2",
+      "capturedAt": "2026-11-13T09:56:12.245Z",
+      "htmlSha256": "3a6dfa421326855fa3b4f60c2fcbf151fe0384e4cdf6cf4e2b16727c7b5e499a"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dinner-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dinner",
+      "work": "dinner",
+      "url": "https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2",
+      "capturedAt": "2026-11-13T09:56:12.245Z",
+      "htmlSha256": "3a6dfa421326855fa3b4f60c2fcbf151fe0384e4cdf6cf4e2b16727c7b5e499a"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-aniplus-title",
+    "split": "development",
+    "expectedId": "t4",
+    "acceptedIds": [
+      "t4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-aniplus",
+      "work": "frieren",
+      "url": "https://www.aniplustv.com/items/3011",
+      "capturedAt": "2026-11-13T09:56:18.243Z",
+      "htmlSha256": "042abf6d7483e9c1b829e9ff8319ebc52407aa6fdd0c8d26263b8297a8dbf792"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-aniplus-image",
+    "split": "development",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-aniplus",
+      "work": "frieren",
+      "url": "https://www.aniplustv.com/items/3011",
+      "capturedAt": "2026-11-13T09:56:18.243Z",
+      "htmlSha256": "042abf6d7483e9c1b829e9ff8319ebc52407aa6fdd0c8d26263b8297a8dbf792"
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-aniplus-description",
+    "split": "development",
+    "expectedId": "d3",
+    "acceptedIds": [
+      "d2",
+      "d3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-aniplus",
+      "work": "frieren",
+      "url": "https://www.aniplustv.com/items/3011",
+      "capturedAt": "2026-11-13T09:56:18.243Z",
+      "htmlSha256": "042abf6d7483e9c1b829e9ff8319ebc52407aa6fdd0c8d26263b8297a8dbf792"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-tving-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-tving",
+      "work": "witch",
+      "url": "https://www.tving.com/contents/P001791654",
+      "capturedAt": "2026-11-13T09:56:23.833Z",
+      "htmlSha256": "66958e596e325178d22e463449a815257cd4b64c1e2230fd8b65cbec973f1ce1"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-tving-image",
+    "split": "development",
+    "expectedId": "i4",
+    "acceptedIds": [
+      "i1",
+      "i3",
+      "i4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-tving",
+      "work": "witch",
+      "url": "https://www.tving.com/contents/P001791654",
+      "capturedAt": "2026-11-13T09:56:23.833Z",
+      "htmlSha256": "66958e596e325178d22e463449a815257cd4b64c1e2230fd8b65cbec973f1ce1"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-tving-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-tving",
+      "work": "witch",
+      "url": "https://www.tving.com/contents/P001791654",
+      "capturedAt": "2026-11-13T09:56:23.833Z",
+      "htmlSha256": "66958e596e325178d22e463449a815257cd4b64c1e2230fd8b65cbec973f1ce1"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-tving-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-tving",
+      "work": "frieren",
+      "url": "https://www.tving.com/contents/P001747384",
+      "capturedAt": "2026-11-13T09:56:29.963Z",
+      "htmlSha256": "498ded9238141d8657609652d8b786107163643c9bdc63abc38053de5ebb1e7c"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-tving-image",
+    "split": "development",
+    "expectedId": "i4",
+    "acceptedIds": [
+      "i1",
+      "i3",
+      "i4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-tving",
+      "work": "frieren",
+      "url": "https://www.tving.com/contents/P001747384",
+      "capturedAt": "2026-11-13T09:56:29.963Z",
+      "htmlSha256": "498ded9238141d8657609652d8b786107163643c9bdc63abc38053de5ebb1e7c"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-tving-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-tving",
+      "work": "frieren",
+      "url": "https://www.tving.com/contents/P001747384",
+      "capturedAt": "2026-11-13T09:56:29.963Z",
+      "htmlSha256": "498ded9238141d8657609652d8b786107163643c9bdc63abc38053de5ebb1e7c"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-wavve-title",
+    "split": "development",
+    "expectedId": "t4",
+    "acceptedIds": [
+      "t4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-wavve",
+      "work": "witch",
+      "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+      "capturedAt": "2026-11-13T09:56:35.252Z",
+      "htmlSha256": "c3baf18105a1d5c22119d0f4a1f21f10d26cba0b9dfe3b5b8601b9a7a13d0817"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-wavve-image",
+    "split": "development",
+    "expectedId": "i2",
+    "acceptedIds": [
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-wavve",
+      "work": "witch",
+      "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+      "capturedAt": "2026-11-13T09:56:35.252Z",
+      "htmlSha256": "c3baf18105a1d5c22119d0f4a1f21f10d26cba0b9dfe3b5b8601b9a7a13d0817"
+    },
+    "quality": {
+      "observedCandidates": 16,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-wavve-description",
+    "split": "development",
+    "expectedId": "d4",
+    "acceptedIds": [
+      "d3",
+      "d4"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-wavve",
+      "work": "witch",
+      "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+      "capturedAt": "2026-11-13T09:56:35.252Z",
+      "htmlSha256": "c3baf18105a1d5c22119d0f4a1f21f10d26cba0b9dfe3b5b8601b9a7a13d0817"
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-wavve-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-wavve-search",
+      "work": "frieren",
+      "url": "https://www.wavve.com/search?searchWord=장송의%20프리렌",
+      "capturedAt": "2026-11-13T09:56:40.476Z",
+      "htmlSha256": "de5514ba2f4e0caf51b402c247cb283bfdcecf4f3ecffc0cb9496b0dcb0d16fb"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-wavve-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-wavve-search",
+      "work": "frieren",
+      "url": "https://www.wavve.com/search?searchWord=장송의%20프리렌",
+      "capturedAt": "2026-11-13T09:56:40.476Z",
+      "htmlSha256": "de5514ba2f4e0caf51b402c247cb283bfdcecf4f3ecffc0cb9496b0dcb0d16fb"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "frieren-wavve-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "frieren-wavve-search",
+      "work": "frieren",
+      "url": "https://www.wavve.com/search?searchWord=장송의%20프리렌",
+      "capturedAt": "2026-11-13T09:56:40.476Z",
+      "htmlSha256": "de5514ba2f4e0caf51b402c247cb283bfdcecf4f3ecffc0cb9496b0dcb0d16fb"
+    },
+    "quality": {
+      "observedCandidates": 6,
+      "presentedCandidates": 6,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-watcha-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon-watcha-search",
+      "work": "dungeon",
+      "url": "https://watcha.com/search?query=던전밥",
+      "capturedAt": "2026-11-13T09:56:45.033Z",
+      "htmlSha256": "3c6950d0031207936b05b8bb5e43ebda2ce7e0e3119793af46dac3dc1a5189e4"
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-watcha-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon-watcha-search",
+      "work": "dungeon",
+      "url": "https://watcha.com/search?query=던전밥",
+      "capturedAt": "2026-11-13T09:56:45.033Z",
+      "htmlSha256": "3c6950d0031207936b05b8bb5e43ebda2ce7e0e3119793af46dac3dc1a5189e4"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-watcha-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon-watcha-search",
+      "work": "dungeon",
+      "url": "https://watcha.com/search?query=던전밥",
+      "capturedAt": "2026-11-13T09:56:45.033Z",
+      "htmlSha256": "3c6950d0031207936b05b8bb5e43ebda2ce7e0e3119793af46dac3dc1a5189e4"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-coupang-search-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon-coupang-search",
+      "work": "dungeon",
+      "url": "https://www.coupangplay.com/search?q=던전밥",
+      "capturedAt": "2026-11-13T09:56:48.999Z",
+      "htmlSha256": "7f970d5f5e9f1cb9a400055a00abff7209a07b0886e9db7165b4e14850a3a051"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-coupang-search-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon-coupang-search",
+      "work": "dungeon",
+      "url": "https://www.coupangplay.com/search?q=던전밥",
+      "capturedAt": "2026-11-13T09:56:48.999Z",
+      "htmlSha256": "7f970d5f5e9f1cb9a400055a00abff7209a07b0886e9db7165b4e14850a3a051"
+    },
+    "quality": {
+      "observedCandidates": 0,
+      "presentedCandidates": 0,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dungeon-coupang-search-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dungeon-coupang-search",
+      "work": "dungeon",
+      "url": "https://www.coupangplay.com/search?q=던전밥",
+      "capturedAt": "2026-11-13T09:56:48.999Z",
+      "htmlSha256": "7f970d5f5e9f1cb9a400055a00abff7209a07b0886e9db7165b4e14850a3a051"
+    },
+    "quality": {
+      "observedCandidates": 2,
+      "presentedCandidates": 2,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-crunchyroll-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-crunchyroll",
+      "work": "witch",
+      "url": "https://www.crunchyroll.com/search?q=어느%20마녀가%20죽을%20때까지",
+      "capturedAt": "2026-11-13T09:56:53.041Z",
+      "htmlSha256": "ac6e83607ae5daa7a1fa44f2abdaf50b697fb3475e9a56af3cf788579e64f142"
+    },
+    "quality": {
+      "observedCandidates": 5,
+      "presentedCandidates": 5,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-crunchyroll-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-crunchyroll",
+      "work": "witch",
+      "url": "https://www.crunchyroll.com/search?q=어느%20마녀가%20죽을%20때까지",
+      "capturedAt": "2026-11-13T09:56:53.041Z",
+      "htmlSha256": "ac6e83607ae5daa7a1fa44f2abdaf50b697fb3475e9a56af3cf788579e64f142"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "witch-crunchyroll-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "witch-crunchyroll",
+      "work": "witch",
+      "url": "https://www.crunchyroll.com/search?q=어느%20마녀가%20죽을%20때까지",
+      "capturedAt": "2026-11-13T09:56:53.041Z",
+      "htmlSha256": "ac6e83607ae5daa7a1fa44f2abdaf50b697fb3475e9a56af3cf788579e64f142"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false
+    }
+  },
+  {
+    "id": "dandadan-netflix-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dandadan-netflix",
+      "work": "dandadan",
+      "url": "https://www.netflix.com/kr/title/81736884",
+      "capturedAt": "2026-11-13T12:08:45.243Z",
+      "htmlSha256": "81f78403ec01c077f13e80882ea58ee09eb26c3de1016ded432d70bfb6792451"
+    },
+    "quality": {
+      "observedCandidates": 12,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "dandadan-netflix-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dandadan-netflix",
+      "work": "dandadan",
+      "url": "https://www.netflix.com/kr/title/81736884",
+      "capturedAt": "2026-11-13T12:08:45.243Z",
+      "htmlSha256": "81f78403ec01c077f13e80882ea58ee09eb26c3de1016ded432d70bfb6792451"
+    },
+    "quality": {
+      "observedCandidates": 15,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "dandadan-netflix-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "dandadan-netflix",
+      "work": "dandadan",
+      "url": "https://www.netflix.com/kr/title/81736884",
+      "capturedAt": "2026-11-13T12:08:45.243Z",
+      "htmlSha256": "81f78403ec01c077f13e80882ea58ee09eb26c3de1016ded432d70bfb6792451"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "spy-family-apple-title",
+    "split": "development",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "spy-family-apple",
+      "work": "spy-family",
+      "url": "https://tv.apple.com/kr/show/스파이-패밀리/umc.cmc.1vuf6gpxnoqci1yey2n13h3nx",
+      "capturedAt": "2026-11-13T12:08:50.536Z",
+      "htmlSha256": "9958984d1d87d123e064b42cecad52732a7cb2802fe2a8e2fd630ffb48c57e0a"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "spy-family-apple-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "spy-family-apple",
+      "work": "spy-family",
+      "url": "https://tv.apple.com/kr/show/스파이-패밀리/umc.cmc.1vuf6gpxnoqci1yey2n13h3nx",
+      "capturedAt": "2026-11-13T12:08:50.536Z",
+      "htmlSha256": "9958984d1d87d123e064b42cecad52732a7cb2802fe2a8e2fd630ffb48c57e0a"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "spy-family-apple-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "spy-family-apple",
+      "work": "spy-family",
+      "url": "https://tv.apple.com/kr/show/스파이-패밀리/umc.cmc.1vuf6gpxnoqci1yey2n13h3nx",
+      "capturedAt": "2026-11-13T12:08:50.536Z",
+      "htmlSha256": "9958984d1d87d123e064b42cecad52732a7cb2802fe2a8e2fd630ffb48c57e0a"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "chainsaw-tving-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "chainsaw-tving",
+      "work": "chainsaw-man",
+      "url": "https://www.tving.com/contents/P001654042",
+      "capturedAt": "2026-11-13T12:08:56.610Z",
+      "htmlSha256": "7d4480554c258f458dfc5dcfc5dd1d53bc0454c969c0958b32c35e6ad04efdc5"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "chainsaw-tving-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "chainsaw-tving",
+      "work": "chainsaw-man",
+      "url": "https://www.tving.com/contents/P001654042",
+      "capturedAt": "2026-11-13T12:08:56.610Z",
+      "htmlSha256": "7d4480554c258f458dfc5dcfc5dd1d53bc0454c969c0958b32c35e6ad04efdc5"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "chainsaw-tving-description",
+    "split": "development",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "chainsaw-tving",
+      "work": "chainsaw-man",
+      "url": "https://www.tving.com/contents/P001654042",
+      "capturedAt": "2026-11-13T12:08:56.610Z",
+      "htmlSha256": "7d4480554c258f458dfc5dcfc5dd1d53bc0454c969c0958b32c35e6ad04efdc5"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "demon-slayer-laftel-title",
+    "split": "development",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "demon-slayer-laftel",
+      "work": "demon-slayer",
+      "url": "https://laftel.net/item/40587",
+      "capturedAt": "2026-11-13T12:09:01.851Z",
+      "htmlSha256": "bdfebf151aa163c45a0a6c6778f31162a30fd4afceab63b0e2fd83643e494fa9"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "demon-slayer-laftel-image",
+    "split": "development",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "demon-slayer-laftel",
+      "work": "demon-slayer",
+      "url": "https://laftel.net/item/40587",
+      "capturedAt": "2026-11-13T12:09:01.851Z",
+      "htmlSha256": "bdfebf151aa163c45a0a6c6778f31162a30fd4afceab63b0e2fd83643e494fa9"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "demon-slayer-laftel-description",
+    "split": "development",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "demon-slayer-laftel",
+      "work": "demon-slayer",
+      "url": "https://laftel.net/item/40587",
+      "capturedAt": "2026-11-13T12:09:01.851Z",
+      "htmlSha256": "bdfebf151aa163c45a0a6c6778f31162a30fd4afceab63b0e2fd83643e494fa9"
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "new-search-laftel-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "new-search-laftel",
+      "work": "none-search",
+      "url": "https://laftel.net/search?keyword=스파이%20패밀리",
+      "capturedAt": "2026-11-13T12:09:07.046Z",
+      "htmlSha256": "4a01ba181471e44e08a45587d3de02a79f80586fa13585b73bb4c00166504fb9"
+    },
+    "quality": {
+      "observedCandidates": 3,
+      "presentedCandidates": 3,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "new-search-laftel-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "new-search-laftel",
+      "work": "none-search",
+      "url": "https://laftel.net/search?keyword=스파이%20패밀리",
+      "capturedAt": "2026-11-13T12:09:07.046Z",
+      "htmlSha256": "4a01ba181471e44e08a45587d3de02a79f80586fa13585b73bb4c00166504fb9"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "new-search-laftel-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "new-search-laftel",
+      "work": "none-search",
+      "url": "https://laftel.net/search?keyword=스파이%20패밀리",
+      "capturedAt": "2026-11-13T12:09:07.046Z",
+      "htmlSha256": "4a01ba181471e44e08a45587d3de02a79f80586fa13585b73bb4c00166504fb9"
+    },
+    "quality": {
+      "observedCandidates": 1,
+      "presentedCandidates": 1,
+      "atLeastThreeCandidates": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "new-help-netflix-title",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "new-help-netflix",
+      "work": "none-help",
+      "url": "https://help.netflix.com/ko/node/47765",
+      "capturedAt": "2026-11-13T12:09:12.930Z",
+      "htmlSha256": "02dd90d39a4b32982d59c27913815736161d2431ae54de0e5681e1287ae35e52"
+    },
+    "quality": {
+      "observedCandidates": 13,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "new-help-netflix-image",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "new-help-netflix",
+      "work": "none-help",
+      "url": "https://help.netflix.com/ko/node/47765",
+      "capturedAt": "2026-11-13T12:09:12.930Z",
+      "htmlSha256": "02dd90d39a4b32982d59c27913815736161d2431ae54de0e5681e1287ae35e52"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "new-help-netflix-description",
+    "split": "development",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "new-help-netflix",
+      "work": "none-help",
+      "url": "https://help.netflix.com/ko/node/47765",
+      "capturedAt": "2026-11-13T12:09:12.930Z",
+      "htmlSha256": "02dd90d39a4b32982d59c27913815736161d2431ae54de0e5681e1287ae35e52"
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  }
+]

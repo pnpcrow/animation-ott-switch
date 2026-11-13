@@ -1,0 +1,50 @@
+{
+  "annotationMethod": "Agent review of anonymous live DOM captures, rendered screenshots, metadata and local node relationships before any evaluated model output. Candidate inputs were built using the fixed first-eight policy before labels were attached.",
+  "pages": {
+    "violet-netflix": {
+      "title": "t2",
+      "image": "i1",
+      "description": "d2",
+      "accepted": { "image": ["i1", "i2"], "description": ["d1", "d2"] },
+      "canonicalTitle": "바이올렛 에버가든",
+      "note": "The clean h1 names the series. OG artwork and the 1440x658 main backdrop are both representative series imagery. The Netflix ribbon and text-title artwork are not posters; later images and paragraphs belong to trailers/episodes. Both official metadata synopsis versions describe the series, while the description-tag version appends a generic viewing CTA. The page preview video was playing but this remained the anonymous work-detail page, not a full playback route."
+    },
+    "hero-apple": {
+      "title": "t2",
+      "image": "i1",
+      "description": "d1",
+      "accepted": { "image": ["i1", "i2"] },
+      "canonicalTitle": "나의 히어로 아카데미아",
+      "note": "Clean series h1/title-logo alt names the current work. Desktop landscape and responsive mobile portrait are official series artwork. The separate text-logo and WATCHA provider coin are distractors, as are episode cards. The first plot paragraph gives the series premise; subsequent candidate plots describe individual episodes."
+    },
+    "bebop-tving": {
+      "title": "t3",
+      "image": "i1",
+      "description": "d1",
+      "canonicalTitle": "카우보이비밥",
+      "note": "Document title and h1 text append episode 1; title image alt gives the clean series title. Official OG artwork remains a series image even though the visible large image nodes are age-gating placeholders. Logo, age placeholders and episode thumbnails do not qualify as representative artwork. Metadata supplies the series synopsis; episode card paragraphs give separate episode plots."
+    },
+    "tutu-laftel": {
+      "title": "t3",
+      "image": "i1",
+      "description": "d2",
+      "accepted": { "description": ["d2", "d3"] },
+      "canonicalTitle": "프린세스 츄츄",
+      "note": "Current series is displayed in a detail modal over a populated homepage. Visible modal heading gives the clean series name. OG artwork belongs to the current work while first-eight non-metadata images are unrelated homepage carousel graphics. OG plot and the visible modal synopsis are equivalent apart from the more-view affordance; generic marketing and subsequent episode summaries are excluded."
+    },
+    "genre-netflix": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "canonicalTitle": null,
+      "note": "Genre landing/index page with category headings, a collage, many catalogue cards and service marketing; no single work detail is open. A work name in a card or a generic anime heading cannot identify a currently open work."
+    },
+    "policy-laftel": {
+      "title": "__none__",
+      "image": "__none__",
+      "description": "__none__",
+      "canonicalTitle": null,
+      "note": "Official service-terms document, not a work detail. Document/article headings and legal paragraphs are negative candidates. The observed image pool is empty; retain this genuinely empty field but report it separately from nontrivial multiple-choice decisions."
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# Install CPU torch separately: pip install torch==2.15.0 --index-url https://download.pytorch.org/whl/cpu
+transformers==5.22.2
+tokenizers==0.23.3
+safetensors==0.8.0
+numpy==2.5.4
+onnx==1.23.2
+onnxruntime==1.31.1

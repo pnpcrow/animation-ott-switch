@@ -1,0 +1,438 @@
+[
+  {
+    "id": "violet-netflix-title",
+    "split": "holdout",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "violet-netflix",
+      "work": "violet-evergarden",
+      "url": "https://www.netflix.com/kr/title/80182123",
+      "capturedAt": "2026-11-13T12:56:49.656Z",
+      "htmlSha256": "bf897818bc2f4fb0fd0be0256576fd6cecb49aac8b93d0b94c27ae51813f262e"
+    },
+    "quality": {
+      "observedCandidates": 13,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "violet-netflix-image",
+    "split": "holdout",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "violet-netflix",
+      "work": "violet-evergarden",
+      "url": "https://www.netflix.com/kr/title/80182123",
+      "capturedAt": "2026-11-13T12:56:49.656Z",
+      "htmlSha256": "bf897818bc2f4fb0fd0be0256576fd6cecb49aac8b93d0b94c27ae51813f262e"
+    },
+    "quality": {
+      "observedCandidates": 17,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "violet-netflix-description",
+    "split": "holdout",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d1",
+      "d2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "violet-netflix",
+      "work": "violet-evergarden",
+      "url": "https://www.netflix.com/kr/title/80182123",
+      "capturedAt": "2026-11-13T12:56:49.656Z",
+      "htmlSha256": "bf897818bc2f4fb0fd0be0256576fd6cecb49aac8b93d0b94c27ae51813f262e"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "hero-apple-title",
+    "split": "holdout",
+    "expectedId": "t2",
+    "acceptedIds": [
+      "t2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "hero-apple",
+      "work": "my-hero-academia",
+      "url": "https://tv.apple.com/kr/show/나의-히어로-아카데미아/umc.cmc.q5m1ulm329damie9vyu8ooty",
+      "capturedAt": "2026-11-13T12:56:55.881Z",
+      "htmlSha256": "b87aae7831cd67a60835f3c5fb53f7548481d1269050570386c5e2f6e04c1c59"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "hero-apple-image",
+    "split": "holdout",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1",
+      "i2"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "hero-apple",
+      "work": "my-hero-academia",
+      "url": "https://tv.apple.com/kr/show/나의-히어로-아카데미아/umc.cmc.q5m1ulm329damie9vyu8ooty",
+      "capturedAt": "2026-11-13T12:56:55.881Z",
+      "htmlSha256": "b87aae7831cd67a60835f3c5fb53f7548481d1269050570386c5e2f6e04c1c59"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "hero-apple-description",
+    "split": "holdout",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "hero-apple",
+      "work": "my-hero-academia",
+      "url": "https://tv.apple.com/kr/show/나의-히어로-아카데미아/umc.cmc.q5m1ulm329damie9vyu8ooty",
+      "capturedAt": "2026-11-13T12:56:55.881Z",
+      "htmlSha256": "b87aae7831cd67a60835f3c5fb53f7548481d1269050570386c5e2f6e04c1c59"
+    },
+    "quality": {
+      "observedCandidates": 8,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "bebop-tving-title",
+    "split": "holdout",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "bebop-tving",
+      "work": "cowboy-bebop",
+      "url": "https://www.tving.com/contents/P001774558",
+      "capturedAt": "2026-11-13T12:57:02.359Z",
+      "htmlSha256": "2a2612590aea288b1f15d93f8303f8c0227e1ec868c2ffa86be31a761b07df08"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "bebop-tving-image",
+    "split": "holdout",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "bebop-tving",
+      "work": "cowboy-bebop",
+      "url": "https://www.tving.com/contents/P001774558",
+      "capturedAt": "2026-11-13T12:57:02.359Z",
+      "htmlSha256": "2a2612590aea288b1f15d93f8303f8c0227e1ec868c2ffa86be31a761b07df08"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "bebop-tving-description",
+    "split": "holdout",
+    "expectedId": "d1",
+    "acceptedIds": [
+      "d1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "bebop-tving",
+      "work": "cowboy-bebop",
+      "url": "https://www.tving.com/contents/P001774558",
+      "capturedAt": "2026-11-13T12:57:02.359Z",
+      "htmlSha256": "2a2612590aea288b1f15d93f8303f8c0227e1ec868c2ffa86be31a761b07df08"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "tutu-laftel-title",
+    "split": "holdout",
+    "expectedId": "t3",
+    "acceptedIds": [
+      "t3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "tutu-laftel",
+      "work": "princess-tutu",
+      "url": "https://laftel.net/item/15371",
+      "capturedAt": "2026-11-13T12:57:07.723Z",
+      "htmlSha256": "0d7f475dbdf9c1993ebe97b93ad7b6e4b8472bb1520d64bc37d8e1cce8eb3ef4"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "tutu-laftel-image",
+    "split": "holdout",
+    "expectedId": "i1",
+    "acceptedIds": [
+      "i1"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "tutu-laftel",
+      "work": "princess-tutu",
+      "url": "https://laftel.net/item/15371",
+      "capturedAt": "2026-11-13T12:57:07.723Z",
+      "htmlSha256": "0d7f475dbdf9c1993ebe97b93ad7b6e4b8472bb1520d64bc37d8e1cce8eb3ef4"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "tutu-laftel-description",
+    "split": "holdout",
+    "expectedId": "d2",
+    "acceptedIds": [
+      "d2",
+      "d3"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "tutu-laftel",
+      "work": "princess-tutu",
+      "url": "https://laftel.net/item/15371",
+      "capturedAt": "2026-11-13T12:57:07.723Z",
+      "htmlSha256": "0d7f475dbdf9c1993ebe97b93ad7b6e4b8472bb1520d64bc37d8e1cce8eb3ef4"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "genre-netflix-title",
+    "split": "holdout",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "genre-netflix",
+      "work": "none-genre",
+      "url": "https://www.netflix.com/kr/browse/genre/6721",
+      "capturedAt": "2026-11-13T12:57:15.240Z",
+      "htmlSha256": "83941339242dd4395d12461666ed77123066aa95eec18c9539b27c95eadf506a"
+    },
+    "quality": {
+      "observedCandidates": 14,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "genre-netflix-image",
+    "split": "holdout",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "genre-netflix",
+      "work": "none-genre",
+      "url": "https://www.netflix.com/kr/browse/genre/6721",
+      "capturedAt": "2026-11-13T12:57:15.240Z",
+      "htmlSha256": "83941339242dd4395d12461666ed77123066aa95eec18c9539b27c95eadf506a"
+    },
+    "quality": {
+      "observedCandidates": 4,
+      "presentedCandidates": 4,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "genre-netflix-description",
+    "split": "holdout",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "genre-netflix",
+      "work": "none-genre",
+      "url": "https://www.netflix.com/kr/browse/genre/6721",
+      "capturedAt": "2026-11-13T12:57:15.240Z",
+      "htmlSha256": "83941339242dd4395d12461666ed77123066aa95eec18c9539b27c95eadf506a"
+    },
+    "quality": {
+      "observedCandidates": 11,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "policy-laftel-title",
+    "split": "holdout",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "policy-laftel",
+      "work": "none-policy",
+      "url": "https://policy.laftel.net/service/",
+      "capturedAt": "2026-11-13T12:57:20.656Z",
+      "htmlSha256": "5e9f55c2d9a61ed6f5b29f93f5c18b472cdb8090bde7be8af66f25214378bf39"
+    },
+    "quality": {
+      "observedCandidates": 12,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "policy-laftel-image",
+    "split": "holdout",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "policy-laftel",
+      "work": "none-policy",
+      "url": "https://policy.laftel.net/service/",
+      "capturedAt": "2026-11-13T12:57:20.656Z",
+      "htmlSha256": "5e9f55c2d9a61ed6f5b29f93f5c18b472cdb8090bde7be8af66f25214378bf39"
+    },
+    "quality": {
+      "observedCandidates": 0,
+      "presentedCandidates": 0,
+      "atLeastThreeCandidates": false,
+      "emptyConcretePool": true,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  },
+  {
+    "id": "policy-laftel-description",
+    "split": "holdout",
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "provenance": {
+      "kind": "real-public-dom",
+      "pageId": "policy-laftel",
+      "work": "none-policy",
+      "url": "https://policy.laftel.net/service/",
+      "capturedAt": "2026-11-13T12:57:20.656Z",
+      "htmlSha256": "5e9f55c2d9a61ed6f5b29f93f5c18b472cdb8090bde7be8af66f25214378bf39"
+    },
+    "quality": {
+      "observedCandidates": 18,
+      "presentedCandidates": 8,
+      "atLeastThreeCandidates": true,
+      "emptyConcretePool": false,
+      "expectedOutsidePool": false,
+      "allAcceptedOutsidePool": false
+    }
+  }
+]

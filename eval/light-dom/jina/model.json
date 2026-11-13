@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "model": "jinaai/jina-reranker-v1-tiny-en",
+  "revision": "aca45de6945b5dc6399abcd2a9c55ded5dc9111f",
+  "license": "Apache-2.0",
+  "parameters": 33046273,
+  "architecture": "JinaBERT cross-encoder, 4 layers, hidden size 384, ALiBi",
+  "maximumInputTokens": 8192,
+  "files": {
+    "config.json": {
+      "bytes": 1206,
+      "sha256": "dc70646aa6c9e75e3c513cc9c037f35ad54308001c3961d45c0f69749bcfb022"
+    },
+    "onnx/model_quantized.onnx": {
+      "bytes": 33424854,
+      "sha256": "5fa8508528828b4ad9bc97c97b6e020984e3b745fbcb53f0a907e68704f8a18a"
+    },
+    "special_tokens_map.json": {
+      "bytes": 280,
+      "sha256": "06e405a36dfe4b9604f484f6a1e619af1a7f7d09e34a8555eb0b77b66318067f"
+    },
+    "tokenizer.json": {
+      "bytes": 2030772,
+      "sha256": "0046da43cc8c424b317f56b092b0512aaaa65c4f925d2f16af9d9eeb4d0ef902"
+    },
+    "tokenizer_config.json": {
+      "bytes": 1215,
+      "sha256": "d291c6652d96d56ffdbcf1ea19d9bae5ed79003f7648c627e725a619227ce8fa"
+    }
+  },
+  "totalBytes": 35458327,
+  "preparedAt": "2026-11-13T13:13:23Z",
+  "remoteModelCodeExecuted": false,
+  "limitations": "English-only training and published evaluations; no Korean or DOM-specific capability is claimed. This is a sub-50MB negative/control candidate for the Korean DOM task."
+}

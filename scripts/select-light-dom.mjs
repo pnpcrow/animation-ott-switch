@@ -1,0 +1,15 @@
+import { readFile, writeFile } from "node:fs/promises";
+import { createHash } from "node:crypto";
+import { selectConfiguration } from "../eval/light-dom/selection.mjs";
+const args = Object.fromEntries(process.argv.slice(2).map(s => { const i = s.indexOf("="); return [s.slice(2, i), s.slice(i + 1)]; }));
+if (!args.report || !args.output) throw new Error("--report=path --output=path required");
+const bytes = await readFile(args.report), report = JSON.parse(bytes);
+if (!report.finishedAt || report.error) throw new Error("Completed inference only");
+const jobBytes = await readFile(args.jobs || ".tmp/light-dom-development-jobs.json");
+const digest = b => createHash("sha256").update(b).digest("hex");
+if (report.jobsSha256 !== digest(jobBytes)) throw new Error("Inference and planned inputs disagree");
+const jobs = JSON.parse(jobBytes), labelBytes = await readFile("eval/light-dom/data/development-labels.json");
+const selection = selectConfiguration(jobs, JSON.parse(labelBytes), report.predictions);
+Object.assign(selection, { model: report.model, revision: report.revision, modelSha256: report.modelSha256, source: args.report, sourceSha256: digest(bytes), jobsSha256: digest(jobBytes), labelSha256: digest(labelBytes), inputsSha256: jobs.inputsSha256, templateSha256: jobs.templateSha256 });
+await writeFile(args.output, JSON.stringify(selection, null, 2) + "\n", { flag: "wx" });
+console.log(JSON.stringify({ selected: selection.selected, perTemplate: selection.perTemplate, lockedAt: selection.lockedAt }));

@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "frozenAt": "2026-11-13T12:58:48.009Z",
+  "development": {
+    "cases": 66,
+    "pages": 22,
+    "consumedPrevious48Plus18": true,
+    "oldCandidatesLabelsOrderPreserved": true
+  },
+  "holdout": {
+    "cases": 18,
+    "pages": 6,
+    "newWorks": 4,
+    "detailPages": 4,
+    "nonDetailPages": 2,
+    "detailProviders": 4,
+    "positiveFields": 12,
+    "negativeFields": 6,
+    "emptyConcretePools": 1
+  },
+  "collection": {
+    "browser": "Playwright Chromium; anonymous separate contexts; ko-KR; 1440x1000",
+    "method": "domcontentloaded then 4.5 seconds; no sign-in or DOM edits; original HTML/screenshots stored only in ignored .tmp/light-dom-holdout",
+    "candidatePolicy": "Unmodified v1 generic collector plus v2 observation enrichment; first eight exact-value candidate groups; add none; deterministic SHA256 shuffle by case+candidate ID; no label-based insertion or pruning",
+    "annotationMethod": "Agent review of anonymous live DOM captures, rendered screenshots, metadata and local node relationships before any evaluated model output. Candidate inputs were built using the fixed first-eight policy before labels were attached.",
+    "task": "Current work title, representative artwork, and series/movie plot synopsis element selection. Not search result matching or navigation success."
+  },
+  "poolRecall": {
+    "positiveGoldFields": 12,
+    "positiveWithAcceptedChoice": 12,
+    "allCasesWithAcceptedChoice": 18,
+    "total": 18
+  },
+  "exclusions": [],
+  "modelIsolation": "All previously scored 66 cases are development. New candidate inputs, labels and annotations stay unread by model/template authors until all choices are frozen. The dataset annotator sees pages and gold but no evaluated model outputs. Input JSON contains observed evidence only.",
+  "limitations": "Same four established provider layouts; new works and two new non-detail page types. Six page clusters, not eighteen independent sites. Anonymous access, not authenticated catalogue coverage. One empty concrete image pool is trivial and must be distinguished in results.",
+  "hashes": {
+    "development-inputs.json": "ee7d11bf1ee8f9e72623a78e89dcb19d2d826e337d9d7c65de4250c23b8282a6",
+    "development-labels.json": "0befb471e18279b01bc735617731ed78e5b3dfff1510e40b663c33c4157a703b",
+    "development-observations.json": "316875001b34f939f5ca5f865a14b2cb223b5c92f603ae5d1194a7987321c473",
+    "holdout-inputs.json": "98eb8348358892e0ca601ab185623781175b6b2efbcfbc28b473b7de643880ae",
+    "holdout-labels.json": "21699dbe709838822bc4b8aa59428caadc9685a07594bc4a0bfed7d8b641f252",
+    "holdout-observations.json": "8e8e1bbd1beb3adf036ffe3e1953f723751e72b000c63d91798e85fa37f5fb0e",
+    "holdout-annotations.json": "57ab16a2af3ce01b87aaf11cc459d0e44519a79304d2834abb3e8510af45330c"
+  }
+}

@@ -19,6 +19,7 @@ jobs:
       - run: npm run check
       - run: npm run test:decision-eval
       - run: npm run test:decision-eval-v2
+      - run: npm run test:light-dom
       - run: npx playwright install --with-deps chromium
       - run: npm run test:e2e
       - run: npm run package
