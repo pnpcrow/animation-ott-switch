@@ -5,11 +5,13 @@ import {
   cleanTitle,
   detectProvider,
   normalizeTitle,
+  providerTitleId,
   providers,
   safeProviderUrl,
   titleVariants,
 } from "./identity";
 import { extractPage } from "./extract";
+import { readSearchResults } from "./search-results";
 
 export interface SearchCandidate {
   title: string;
@@ -53,7 +55,7 @@ export function matchCandidates(
     ...new Map(
       candidates
         .filter((c) => safeProviderUrl(provider, c.url))
-        .map((c) => [canonicalizeProviderUrl(c.url)!, c]),
+        .map((c) => [providerTitleId(c.url)!, c]),
     ).values(),
   ];
   const exact = unique.filter(
@@ -81,12 +83,10 @@ export function matchCandidates(
       "ambiguous",
       "같은 제목의 여러 버전이 있습니다. 자막·더빙·시즌을 확인한 뒤 연결하세요.",
       {
-        candidates: active
-          .slice(0, 8)
-          .map(({ title, url }) => ({
-            title,
-            url: canonicalizeProviderUrl(url)!,
-          })),
+        candidates: active.slice(0, 8).map(({ title, url }) => ({
+          title,
+          url: canonicalizeProviderUrl(url)!,
+        })),
       },
     );
   if (exact.some((c) => c.upcoming && !c.expired))
@@ -171,75 +171,40 @@ async function request(
   return { body: await readResponse(response), url: finalUrl };
 }
 
-function attrTitle(anchor: Element): string {
-  return cleanTitle(
-    anchor.getAttribute("aria-label") ||
-      anchor.getAttribute("title") ||
-      anchor.querySelector(
-        '.search-card-title, [data-testid="title"], [data-uia="title-card-title"], h2, h3',
-      )?.textContent ||
-      anchor.querySelector("img[alt]")?.getAttribute("alt") ||
-      anchor.textContent ||
-      "",
-  );
+/** Refresh only a validated official detail URL, with the same bounds as search. */
+export async function readDetailPage(
+  provider: ProviderId,
+  url: string,
+): Promise<PageTitle | null> {
+  if (url.length > 4096 || !safeProviderUrl(provider, url)) return null;
+  try {
+    const response = await request(url, provider);
+    if (
+      !safeProviderUrl(provider, response.url) ||
+      providerTitleId(response.url) !== providerTitleId(url)
+    )
+      return null;
+    const { document } = parseHTML(response.body);
+    const detail = extractPage(document as unknown as Document, response.url);
+    return detail &&
+      detail.provider === provider &&
+      providerTitleId(detail.url) === providerTitleId(url)
+      ? detail
+      : null;
+  } catch {
+    // Login/challenge/network errors do not establish a new title or availability.
+    return null;
+  }
 }
 
-/** Service-worker compatible HTML parsing. Never inserts fetched markup into a live DOM. */
+/** Uses the same title-card evidence for server HTML and live browser search. */
 export function parseSearchHtml(
   provider: ProviderId,
   html: string,
   baseUrl: string,
 ): SearchResult {
   const { document } = parseHTML(html);
-  const title = document.querySelector("title")?.textContent ?? "";
-  if (/just a moment|access denied|로그인|sign in/i.test(title))
-    return {
-      candidates: [],
-      complete: false,
-      reason: "로그인 또는 사이트의 접근 확인이 필요합니다.",
-    };
-  const candidates: SearchCandidate[] = [];
-  // Apple search-card anchors exclude editorial/recommended titles elsewhere on the page.
-  const anchors =
-    provider === "apple"
-      ? document.querySelectorAll(
-          'a[data-testid="search-card-lockup"], a.search-card',
-        )
-      : document.querySelectorAll("a[href]");
-  for (const anchor of anchors) {
-    if (candidates.length >= 200) break;
-    let url: string;
-    try {
-      url = new URL(anchor.getAttribute("href") ?? "", baseUrl).href;
-    } catch {
-      continue;
-    }
-    if (!safeProviderUrl(provider, url)) continue;
-    const candidateTitle = attrTitle(anchor);
-    if (candidateTitle && candidateTitle.length <= 400)
-      candidates.push({
-        title: candidateTitle,
-        url: canonicalizeProviderUrl(url)!,
-      });
-  }
-  // Only explicit service-rendered no-result evidence counts as a complete empty search.
-  // Generic empty SPA shells and recommendations never mean the title is absent.
-  const noResults =
-    provider === "apple" &&
-    !!document.querySelector(".search-page__error-message") &&
-    /검색 결과가 없습니다|no results/i.test(
-      document.querySelector(".search-page__error-message")?.textContent ?? "",
-    );
-  return {
-    candidates,
-    complete: noResults,
-    ...(candidates.length || noResults
-      ? {}
-      : {
-          reason:
-            "이 사이트는 검색 결과를 브라우저에서 불러옵니다. 공식 검색에서 확인해 주세요.",
-        }),
-  };
+  return readSearchResults(document as unknown as Document, provider, baseUrl);
 }
 
 async function searchLaftel(title: string): Promise<SearchResult> {

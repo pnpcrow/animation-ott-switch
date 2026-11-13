@@ -207,11 +207,19 @@ describe("page metadata extraction", () => {
 });
 
 describe("conservative catalogue matching", () => {
+  it("deduplicates a standalone and modal link for the same Laftel work", () => {
+    expect(
+      matchCandidates("laftel", page, [
+        { title: page.title, url: "https://laftel.net/item/41666" },
+        { title: page.title, url: "https://laftel.net/?modal=41666" },
+      ]).status,
+    ).toBe("available");
+  });
   it("parses live official Apple search card attributes", () => {
     const parsed = parseSearchHtml(
       "apple",
       fixture("apple-search.html"),
-      "https://tv.apple.com/kr/search",
+      "https://tv.apple.com/kr/search?term=Snoopy",
     );
     expect(
       parsed.candidates.some((c) => c.title.includes("The Snoopy Show")),
@@ -293,14 +301,14 @@ describe("conservative catalogue matching", () => {
       parseSearchHtml(
         "apple",
         '<html><body><div id="app"></div></body></html>',
-        "https://tv.apple.com/kr/search",
+        "https://tv.apple.com/kr/search?term=Snoopy",
       ).complete,
     ).toBe(false);
     expect(
       parseSearchHtml(
         "apple",
         '<html><body><p class="search-page__error-message">검색 결과가 없습니다.</p></body></html>',
-        "https://tv.apple.com/kr/search",
+        "https://tv.apple.com/kr/search?term=Snoopy",
       ).complete,
     ).toBe(true);
     expect(matchCandidates("netflix", page, []).status).toBe("unknown");
@@ -309,7 +317,7 @@ describe("conservative catalogue matching", () => {
     const result = parseSearchHtml(
       "apple",
       '<html><body><a data-testid="search-card-lockup" aria-label="더 스누피 쇼" href="/kr/show/name/umc.cmc.123"><img alt=""><p>TV 프로그램</p></a><a href="https://evil.test/show">Bad</a></body></html>',
-      "https://tv.apple.com/kr/search",
+      "https://tv.apple.com/kr/search?term=Snoopy",
     );
     expect(result.candidates).toEqual([
       {
@@ -346,23 +354,21 @@ describe("network boundaries and public search", () => {
   it("verifies the Laftel catalogue and handles incomplete pagination safely", async () => {
     vi.stubGlobal(
       "fetch",
-      vi
-        .fn()
-        .mockResolvedValue(
-          new Response(
-            JSON.stringify({
-              count: 1,
-              results: [
-                {
-                  id: 41666,
-                  name: "(자막) 장송의 프리렌",
-                  is_expired: false,
-                  is_viewing: true,
-                },
-              ],
-            }),
-          ),
+      vi.fn().mockResolvedValue(
+        new Response(
+          JSON.stringify({
+            count: 1,
+            results: [
+              {
+                id: 41666,
+                name: "(자막) 장송의 프리렌",
+                is_expired: false,
+                is_viewing: true,
+              },
+            ],
+          }),
         ),
+      ),
     );
     expect(await searchProvider("laftel", page)).toMatchObject({
       status: "available",
