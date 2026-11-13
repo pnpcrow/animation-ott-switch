@@ -12,7 +12,10 @@ async function collect(dir, prefix = "") {
   return result;
 }
 // Inspect both source and the actual built manifest; never zip a stale identity.
-const { version } = await verifyProjectIdentity({ includeDist: true });
+const { version } = await verifyProjectIdentity({
+  root: process.cwd(),
+  includeDist: true,
+});
 await mkdir("release", { recursive: true });
 const path = `release/ott-switch-${version}.zip`;
 await writeFile(path, zipSync(await collect("dist"), { level: 9 }));

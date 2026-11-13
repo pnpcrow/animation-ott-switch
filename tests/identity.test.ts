@@ -1,4 +1,5 @@
 import { readFileSync } from "node:fs";
+import { spawnSync } from "node:child_process";
 import {
   mkdtemp,
   mkdir,
@@ -9,6 +10,7 @@ import {
 } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { basename, dirname, join } from "node:path";
+import { fileURLToPath } from "node:url";
 import { describe, expect, it } from "vitest";
 
 const { publicKeyIdentity, validateIdentity, verifyProjectIdentity } =
@@ -214,4 +216,79 @@ describe("registered extension identity", () => {
       await rm(target, { recursive: true, force: true });
     }
   });
+
+  it.each(["build", "package"])(
+    "checks the actual working directory before the %s script writes output",
+    async (script) => {
+      const temporary = await mkdtemp(
+        join(tmpdir(), "ott-switch-identity-cwd-"),
+      );
+      try {
+        const current = fixture();
+        await Promise.all([
+          mkdir(join(temporary, "config")),
+          mkdir(join(temporary, "public")),
+        ]);
+        await Promise.all([
+          writeFile(
+            join(temporary, "config", "extension-identity.json"),
+            JSON.stringify(current.identity),
+          ),
+          writeFile(
+            join(temporary, "package.json"),
+            JSON.stringify(current.packageJson),
+          ),
+          writeFile(
+            join(temporary, "public", "manifest.json"),
+            JSON.stringify(
+              script === "build"
+                ? { ...current.manifest, name: "Wrong source identity" }
+                : current.manifest,
+            ),
+          ),
+        ]);
+        if (script === "package") {
+          await mkdir(join(temporary, "dist"));
+          await writeFile(
+            join(temporary, "dist", "manifest.json"),
+            JSON.stringify({
+              ...current.manifest,
+              name: "Wrong packaged identity",
+            }),
+          );
+        }
+        const child = spawnSync(
+          process.execPath,
+          [fileURLToPath(new URL(`../scripts/${script}.mjs`, import.meta.url))],
+          {
+            cwd: temporary,
+            encoding: "utf8",
+            timeout: 10_000,
+            windowsHide: true,
+          },
+        );
+        expect(child.error).toBeUndefined();
+        expect(child.status).not.toBe(0);
+        expect(child.stderr).toContain(
+          script === "build"
+            ? "manifest name differs from the registered identity"
+            : "dist manifest name differs from source",
+        );
+        const { access } = await import("node:fs/promises");
+        await expect(
+          access(join(temporary, script === "build" ? "dist" : "release")),
+        ).rejects.toMatchObject({ code: "ENOENT" });
+      } finally {
+        const target = await realpath(temporary);
+        if (
+          dirname(target) !== (await realpath(tmpdir())) ||
+          !basename(target).startsWith("ott-switch-identity-cwd-")
+        )
+          throw new Error(
+            "Refusing to remove an unexpected script test directory",
+          );
+        await rm(target, { recursive: true, force: true });
+      }
+    },
+  );
 });
