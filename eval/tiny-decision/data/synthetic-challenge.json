@@ -1,0 +1,494 @@
+[
+  {
+    "id": "synthetic-active-dialog-title",
+    "split": "holdout",
+    "cohort": "synthetic-challenge",
+    "field": "title",
+    "scenario": [
+      "active-dialog-hidden-old-main"
+    ],
+    "document": "Same URL. The active dialog is open. A previous detail remains hidden in main.",
+    "question": "Choose the current work title element, not a background work or service brand.",
+    "options": [
+      {
+        "id": "n3",
+        "text": "nav>h1 text=MoonScreen"
+      },
+      {
+        "id": "n1",
+        "text": "main[hidden]>h1 text=유리숲의 지도사"
+      },
+      {
+        "id": "n2",
+        "text": "dialog[open][aria-modal=true]>h1 text=별가루 수선공"
+      },
+      {
+        "id": "__none__",
+        "text": "None: missing or insufficient evidence."
+      }
+    ],
+    "expectedId": "n2",
+    "acceptedIds": [
+      "n2"
+    ],
+    "independentSample": false,
+    "provenance": {
+      "kind": "synthetic-challenge",
+      "fictional": true,
+      "source": "challenge.mjs",
+      "annotationMethod": "Authored explicit fictional state and reference; no evaluated model predictions used",
+      "specificationSha256": "c41aabdbaf608eee11a4edd4ff2bbc62d9e343c911dae9c75851fe24f2bca6bd"
+    }
+  },
+  {
+    "id": "synthetic-stale-watch-metadata",
+    "split": "holdout",
+    "cohort": "synthetic-challenge",
+    "field": "title",
+    "scenario": [
+      "watch-prefix-stale-brand-metadata"
+    ],
+    "document": "SPA navigation completed. Document title and OG title were not refreshed; current main is visible.",
+    "question": "Choose the element containing the clean current series title, excluding service marketing and Watch-prefixed metadata.",
+    "options": [
+      {
+        "id": "n3",
+        "text": "head>meta[og:title] content=Watch 유리숲의 지도사 | MoonScreen"
+      },
+      {
+        "id": "n2",
+        "text": "main>h1 text=은빛 우편함의 마녀"
+      },
+      {
+        "id": "n1",
+        "text": "head>title text=Watch Popular Stories, Play Games & Shop Online"
+      },
+      {
+        "id": "__none__",
+        "text": "None: missing or insufficient evidence."
+      }
+    ],
+    "expectedId": "n2",
+    "acceptedIds": [
+      "n2"
+    ],
+    "independentSample": false,
+    "provenance": {
+      "kind": "synthetic-challenge",
+      "fictional": true,
+      "source": "challenge.mjs",
+      "annotationMethod": "Authored explicit fictional state and reference; no evaluated model predictions used",
+      "specificationSha256": "8f52a69f609c4d1d9acf4b3576575271674dc69577aaf19097ac559f3bf2b8c7"
+    }
+  },
+  {
+    "id": "synthetic-episode-versus-series",
+    "split": "holdout",
+    "cohort": "synthetic-challenge",
+    "field": "title",
+    "scenario": [
+      "episode-heading-series-logo"
+    ],
+    "document": "Current series detail includes episode 7 and a series title logo. Both are visible in main.",
+    "question": "Choose the series title element rather than the currently selected episode title.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: missing or insufficient evidence."
+      },
+      {
+        "id": "n3",
+        "text": "head>title text=Watch 달빛 철도의 수습 기사 7화"
+      },
+      {
+        "id": "n2",
+        "text": "main>header>h1>img alt=달빛 철도의 수습 기사 src=https://img.example/title.png"
+      },
+      {
+        "id": "n1",
+        "text": "main>section[episodes]>h1 text=7화: 마지막 열쇠"
+      }
+    ],
+    "expectedId": "n2",
+    "acceptedIds": [
+      "n2"
+    ],
+    "independentSample": false,
+    "provenance": {
+      "kind": "synthetic-challenge",
+      "fictional": true,
+      "source": "challenge.mjs",
+      "annotationMethod": "Authored explicit fictional state and reference; no evaluated model predictions used",
+      "specificationSha256": "cc4e8922bedee81a4a512cb27030ff848916174408fd38a839f826511026ae3a"
+    }
+  },
+  {
+    "id": "synthetic-preview-replaced-poster",
+    "split": "holdout",
+    "cohort": "synthetic-challenge",
+    "field": "image",
+    "scenario": [
+      "preview-video-dom-replacement"
+    ],
+    "document": "Same URL and work. Preview started: old img is disconnected; a connected video now supplies its poster attribute.",
+    "question": "Choose a representative image URL from the currently connected work panel. Exclude detached nodes and title logos.",
+    "options": [
+      {
+        "id": "n2",
+        "text": "main>video connected=true poster=https://img.example/series-poster.jpg"
+      },
+      {
+        "id": "n3",
+        "text": "main>h1>img connected=true alt=별가루 수선공 src=https://img.example/title-logo.png"
+      },
+      {
+        "id": "__none__",
+        "text": "None: missing or insufficient evidence."
+      },
+      {
+        "id": "n1",
+        "text": "img connected=false src=https://img.example/old-poster.jpg"
+      }
+    ],
+    "expectedId": "n2",
+    "acceptedIds": [
+      "n2"
+    ],
+    "independentSample": false,
+    "provenance": {
+      "kind": "synthetic-challenge",
+      "fictional": true,
+      "source": "challenge.mjs",
+      "annotationMethod": "Authored explicit fictional state and reference; no evaluated model predictions used",
+      "specificationSha256": "ad39dd998ee787ccd3cf3491ac45ed22b25996455b7828cb5cfb7ea9bc304098"
+    }
+  },
+  {
+    "id": "synthetic-recommendation-description",
+    "split": "holdout",
+    "cohort": "synthetic-challenge",
+    "field": "description",
+    "scenario": [
+      "recommendation-plot-versus-main-plot"
+    ],
+    "document": "Open dialog heading: 은빛 우편함의 마녀. Related cards are in an aside outside that dialog.",
+    "question": "Choose the current series synopsis, not a recommendation or service description.",
+    "options": [
+      {
+        "id": "n3",
+        "text": "footer>p text=지금 가입하고 매주 새로운 작품을 만나세요."
+      },
+      {
+        "id": "n1",
+        "text": "aside>article>h2 text=달빛 철도의 수습 기사; p=신입 기사가 달의 역을 순회하며 잃어버린 승객들을 찾는다."
+      },
+      {
+        "id": "__none__",
+        "text": "None: missing or insufficient evidence."
+      },
+      {
+        "id": "n2",
+        "text": "dialog[open]>h1 text=은빛 우편함의 마녀; next p=배달되지 않은 편지를 모으는 마녀가 마지막 수신인을 찾아 나선다."
+      }
+    ],
+    "expectedId": "n2",
+    "acceptedIds": [
+      "n2"
+    ],
+    "independentSample": false,
+    "provenance": {
+      "kind": "synthetic-challenge",
+      "fictional": true,
+      "source": "challenge.mjs",
+      "annotationMethod": "Authored explicit fictional state and reference; no evaluated model predictions used",
+      "specificationSha256": "ed68e30120c6d248c9cbf39d7aa9a04106216de3074b6fbdd14b9efe636b95ba"
+    }
+  },
+  {
+    "id": "synthetic-search-season-match",
+    "split": "holdout",
+    "cohort": "synthetic-challenge",
+    "field": "search-match",
+    "scenario": [
+      "exact-title-season-medium-match"
+    ],
+    "document": "Target from source: title=별가루 수선공; season=1; medium=animation-series; year=2024. These are search result cards.",
+    "question": "Choose the candidate for the same work and season. A matching title alone is insufficient when season or medium differs.",
+    "options": [
+      {
+        "id": "n1",
+        "text": "a href=/work/302 title=별가루 수선공 season=2 medium=animation-series year=2026"
+      },
+      {
+        "id": "n3",
+        "text": "a href=/work/401 title=별가루 수선공 season=1 medium=live-action-series year=2024"
+      },
+      {
+        "id": "n2",
+        "text": "a href=/work/301 title=별가루 수선공 season=1 medium=animation-series year=2024"
+      },
+      {
+        "id": "__none__",
+        "text": "None: missing or insufficient evidence."
+      }
+    ],
+    "expectedId": "n2",
+    "acceptedIds": [
+      "n2"
+    ],
+    "independentSample": false,
+    "provenance": {
+      "kind": "synthetic-challenge",
+      "fictional": true,
+      "source": "challenge.mjs",
+      "annotationMethod": "Authored explicit fictional state and reference; no evaluated model predictions used",
+      "specificationSha256": "d74767109b27a2c4bbe26b1c88005335fd9d001ea431281d7b530a86d2f5df83"
+    }
+  },
+  {
+    "id": "synthetic-search-ambiguous-title",
+    "split": "holdout",
+    "cohort": "synthetic-challenge",
+    "field": "search-match",
+    "scenario": [
+      "insufficient-identity-evidence"
+    ],
+    "document": "Target: title=은빛 우편함. Source has no year, medium, season or external identifier. Both exact-title results below are plausible.",
+    "question": "Choose a result only when evidence uniquely identifies the same work. Otherwise choose none.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: missing or insufficient evidence."
+      },
+      {
+        "id": "n2",
+        "text": "a href=/work/502 title=은빛 우편함 medium=series year=2021"
+      },
+      {
+        "id": "n1",
+        "text": "a href=/work/501 title=은빛 우편함 medium=movie year=2021"
+      },
+      {
+        "id": "n3",
+        "text": "a href=/work/503 title=은빛 우편함의 귀환 medium=series year=2025"
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "independentSample": false,
+    "provenance": {
+      "kind": "synthetic-challenge",
+      "fictional": true,
+      "source": "challenge.mjs",
+      "annotationMethod": "Authored explicit fictional state and reference; no evaluated model predictions used",
+      "specificationSha256": "baa61e1c78e7c96a61948cbe0659889968fcc5760837c3494b7254d0bf3fd52a"
+    }
+  },
+  {
+    "id": "synthetic-missing-synopsis",
+    "split": "holdout",
+    "cohort": "synthetic-challenge",
+    "field": "description",
+    "scenario": [
+      "placeholder-and-marketing-only"
+    ],
+    "document": "Work detail heading: 별가루 수선공. No actual plot text is loaded; only the listed text nodes exist.",
+    "question": "Choose a real current-work synopsis. A placeholder, subscription message or copyright notice is not a synopsis.",
+    "options": [
+      {
+        "id": "n3",
+        "text": "footer>p text=Copyright 2026 Fictional Screen. All rights reserved."
+      },
+      {
+        "id": "n1",
+        "text": "main>section[description]>p text=줄거리를 준비 중입니다."
+      },
+      {
+        "id": "__none__",
+        "text": "None: missing or insufficient evidence."
+      },
+      {
+        "id": "n2",
+        "text": "main>aside>p text=지금 구독하면 광고 없이 감상할 수 있습니다."
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "independentSample": false,
+    "provenance": {
+      "kind": "synthetic-challenge",
+      "fictional": true,
+      "source": "challenge.mjs",
+      "annotationMethod": "Authored explicit fictional state and reference; no evaluated model predictions used",
+      "specificationSha256": "4ddd3c25e30241f9565b43e524f4539468905a0a490a17077dc726c5791dc5e9"
+    }
+  },
+  {
+    "id": "synthetic-stacked-dialog-title",
+    "split": "holdout",
+    "cohort": "synthetic-challenge",
+    "field": "title",
+    "scenario": [
+      "foreground-dialog-versus-visible-inert-dialog"
+    ],
+    "document": "Two dialogs overlap. The first stays rendered but is inert; the second is the active foreground modal.",
+    "question": "Choose the title in the active foreground work dialog.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: missing or insufficient evidence."
+      },
+      {
+        "id": "n2",
+        "text": "dialog[open][aria-modal=true][data-layer=foreground]>h1 text=구름 등대의 야간지기"
+      },
+      {
+        "id": "n3",
+        "text": "main>h1 text=이번 주 인기 작품"
+      },
+      {
+        "id": "n1",
+        "text": "dialog[open][inert]>h1 text=유리숲의 지도사"
+      }
+    ],
+    "expectedId": "n2",
+    "acceptedIds": [
+      "n2"
+    ],
+    "independentSample": false,
+    "provenance": {
+      "kind": "synthetic-challenge",
+      "fictional": true,
+      "source": "challenge.mjs",
+      "annotationMethod": "Authored explicit fictional state and reference; no evaluated model predictions used",
+      "specificationSha256": "af7db523e82dbc4f537bbf369bd8c3f9c214f90e44f5765c6bb70a13a708a942"
+    }
+  },
+  {
+    "id": "synthetic-search-observed-alias",
+    "split": "holdout",
+    "cohort": "synthetic-challenge",
+    "field": "search-match",
+    "scenario": [
+      "explicit-bilingual-alias"
+    ],
+    "document": "Source detail explicitly lists title=우주 정거장의 밤당번; alternateName=Night Shift at Orbital Station; season=1; medium=animation-series.",
+    "question": "Choose the matching work using the observed alias and season. Do not invent translations or merge seasons.",
+    "options": [
+      {
+        "id": "__none__",
+        "text": "None: missing or insufficient evidence."
+      },
+      {
+        "id": "n3",
+        "text": "a href=/work/603 title=Night Shift season=1 medium=live-action-series"
+      },
+      {
+        "id": "n1",
+        "text": "a href=/work/601 title=Night Shift at Orbital Station season=1 medium=animation-series"
+      },
+      {
+        "id": "n2",
+        "text": "a href=/work/602 title=Night Shift at Orbital Station season=2 medium=animation-series"
+      }
+    ],
+    "expectedId": "n1",
+    "acceptedIds": [
+      "n1"
+    ],
+    "independentSample": false,
+    "provenance": {
+      "kind": "synthetic-challenge",
+      "fictional": true,
+      "source": "challenge.mjs",
+      "annotationMethod": "Authored explicit fictional state and reference; no evaluated model predictions used",
+      "specificationSha256": "802598eca2168a93f763b30015ebf80e71cff2260c0bcfda7d4b3fd4d26c6998"
+    }
+  },
+  {
+    "id": "synthetic-closed-modal-title",
+    "split": "holdout",
+    "cohort": "synthetic-challenge",
+    "field": "title",
+    "scenario": [
+      "closed-modal-and-search-background"
+    ],
+    "document": "The work dialog was closed. Current screen is search results; no work detail is open. The old dialog subtree still exists hidden.",
+    "question": "Choose the title of the currently open work detail, or none when no detail is open. Search-card titles are not an open detail.",
+    "options": [
+      {
+        "id": "n2",
+        "text": "main[role=search]>article>h2 text=별가루 수선공"
+      },
+      {
+        "id": "n1",
+        "text": "dialog[hidden][open=false]>h1 text=별가루 수선공"
+      },
+      {
+        "id": "__none__",
+        "text": "None: missing or insufficient evidence."
+      },
+      {
+        "id": "n3",
+        "text": "main[role=search]>article>h2 text=은빛 우편함의 마녀"
+      }
+    ],
+    "expectedId": "__none__",
+    "acceptedIds": [
+      "__none__"
+    ],
+    "independentSample": false,
+    "provenance": {
+      "kind": "synthetic-challenge",
+      "fictional": true,
+      "source": "challenge.mjs",
+      "annotationMethod": "Authored explicit fictional state and reference; no evaluated model predictions used",
+      "specificationSha256": "e212e6e80b9d0c78de61ad667b43e4392f80ddeb3507755e543c58901c5e6244"
+    }
+  },
+  {
+    "id": "synthetic-accessible-full-synopsis",
+    "split": "holdout",
+    "cohort": "synthetic-challenge",
+    "field": "description",
+    "scenario": [
+      "accessible-full-text-versus-clipped-text"
+    ],
+    "document": "Current detail: 구름 등대의 야간지기. The visual paragraph is clipped; its child accessibility label contains the full same synopsis.",
+    "question": "Choose the complete available series synopsis rather than the shortened visible preview or an episode plot.",
+    "options": [
+      {
+        "id": "n1",
+        "text": "main>p text=구름 위 등대를 지키는 소년이... 더보기"
+      },
+      {
+        "id": "__none__",
+        "text": "None: missing or insufficient evidence."
+      },
+      {
+        "id": "n2",
+        "text": "main>p>span aria-label=구름 위 등대를 지키는 소년이 길을 잃은 별들을 안내하며 사라진 아버지의 항로를 찾아간다."
+      },
+      {
+        "id": "n3",
+        "text": "main>section[episodes]>article>p text=1화: 소년은 첫 근무일에 고장 난 등불을 발견하고 수리를 시작한다."
+      }
+    ],
+    "expectedId": "n2",
+    "acceptedIds": [
+      "n2"
+    ],
+    "independentSample": false,
+    "provenance": {
+      "kind": "synthetic-challenge",
+      "fictional": true,
+      "source": "challenge.mjs",
+      "annotationMethod": "Authored explicit fictional state and reference; no evaluated model predictions used",
+      "specificationSha256": "3bfec8e32af886ba13df0276d738a00a6a1c4317358a21d89efeaa589ed15eff"
+    }
+  }
+]
