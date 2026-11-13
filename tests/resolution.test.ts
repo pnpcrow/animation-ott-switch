@@ -234,6 +234,48 @@ describe("public search and rendered fallback policy", () => {
 });
 
 describe("legacy title repair and resolution cache", () => {
+  it.each([
+    "Crunchyroll: Watch Popular Anime, Play Games & Shop Online",
+    "Another Movie",
+  ])(
+    "never replaces the requested work with an unrelated refreshed title: %s",
+    async (title) => {
+      const source = {
+        ...page,
+        provider: "crunchyroll" as const,
+        url: "https://www.crunchyroll.com/series/G123",
+        title: "Watch Dogs",
+      };
+      mocks.readDetailPage.mockResolvedValue({ ...source, title });
+      await resolution.resolveProvider(source, "watcha");
+      expect(mocks.searchProvider).toHaveBeenCalledWith(
+        "watcha",
+        expect.objectContaining({
+          title: "Watch Dogs",
+          aliases: [],
+        }),
+      );
+    },
+  );
+  it("repairs the reported Korean prefix even when source refresh is unavailable", async () => {
+    const source = {
+      ...page,
+      provider: "crunchyroll" as const,
+      url: "https://www.crunchyroll.com/series/G123",
+      title: "Watch 어느 마녀가 죽을 때까지",
+      aliases: ["Watch 어느 마녀가 죽을 때까지"],
+    };
+    mocks.readDetailPage.mockResolvedValue(null);
+    await resolution.resolveProvider(source, "laftel");
+    expect(mocks.searchProvider).toHaveBeenCalledWith(
+      "laftel",
+      expect.objectContaining({
+        title: "어느 마녀가 죽을 때까지",
+        aliases: [],
+      }),
+    );
+    expect(mocks.readDetailPage).not.toHaveBeenCalled();
+  });
   it("uses refreshed official source evidence rather than a dirty bookmark confirming itself", async () => {
     const dirty = {
       ...page,

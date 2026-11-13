@@ -79,4 +79,78 @@ describe("official detail title refresh", () => {
     vi.stubGlobal("fetch", vi.fn().mockResolvedValue(response));
     expect(await readDetailPage("netflix", netflix)).toBeNull();
   });
+
+  it.each([
+    "<title>Crunchyroll: Watch Popular Anime, Play Games &amp; Shop Online</title>",
+    "<h1>Crunchyroll: Watch Popular Anime, Play Games &amp; Shop Online</h1>",
+    '<script type="application/ld+json">{"@type":"TVSeries","name":"Crunchyroll: Watch Popular Anime, Play Games & Shop Online"}</script>',
+    '<meta property="og:title" content="Watch Popular Anime, Play Games &amp; Shop Online">',
+  ])(
+    "rejects the Crunchyroll landing shell at the expected series URL: %s",
+    async (markup) => {
+      const url = "https://www.crunchyroll.com/series/G123";
+      const response = new Response(
+        `<html><head></head><body>${markup}</body></html>`,
+      );
+      Object.defineProperty(response, "url", { value: url });
+      vi.stubGlobal("fetch", vi.fn().mockResolvedValue(response));
+      expect(await readDetailPage("crunchyroll", url)).toBeNull();
+    },
+  );
+
+  it("rejects service-branded landing text instead of treating it as a work", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi
+        .fn()
+        .mockResolvedValue(
+          new Response(
+            "<html><head><title>Netflix: Watch TV Shows Online, Watch Movies Online</title></head></html>",
+          ),
+        ),
+    );
+    expect(await readDetailPage("netflix", netflix)).toBeNull();
+  });
+
+  it("uses the real work heading when Crunchyroll keeps generic page metadata", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi
+        .fn()
+        .mockResolvedValue(
+          new Response(
+            "<html><head><title>Crunchyroll: Watch Popular Anime, Play Games &amp; Shop Online</title></head><body><h1>어느 마녀가 죽을 때까지</h1></body></html>",
+          ),
+        ),
+    );
+    expect(
+      (
+        await readDetailPage(
+          "crunchyroll",
+          "https://www.crunchyroll.com/series/G123",
+        )
+      )?.title,
+    ).toBe("어느 마녀가 죽을 때까지");
+  });
+
+  it("keeps a genuine Watch title when refreshing source metadata", async () => {
+    vi.stubGlobal(
+      "fetch",
+      vi
+        .fn()
+        .mockResolvedValue(
+          new Response(
+            '<html><head><meta property="og:title" content="Watch Watch Dogs | Crunchyroll"><script type="application/ld+json">{"@type":"TVSeries","name":"Watch Dogs"}</script></head><body><h1>Watch Dogs</h1></body></html>',
+          ),
+        ),
+    );
+    expect(
+      (
+        await readDetailPage(
+          "crunchyroll",
+          "https://www.crunchyroll.com/series/G123",
+        )
+      )?.title,
+    ).toBe("Watch Dogs");
+  });
 });

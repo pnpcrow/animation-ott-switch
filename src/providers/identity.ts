@@ -1,4 +1,4 @@
-import type { ProviderDefinition, ProviderId } from "../core/types";
+import type { PageTitle, ProviderDefinition, ProviderId } from "../core/types";
 
 export const providers: ProviderDefinition[] = [
   {
@@ -271,7 +271,10 @@ export function cleanTitle(value: string): string {
     /^\s*(?:\((?:자막|더빙|한국어 더빙|한글자막)\)|\[(?:자막|더빙)\])\s*/i,
     "",
   );
-  if (brandedWatch) title = title.replace(/^Watch\s+/i, "");
+  // Korean service titles sometimes retain an English CTA even in JSON-LD and
+  // old bookmarks. This mixed-language wrapper must also be cleaned offline.
+  if (brandedWatch || /^Watch\s+(?=\p{Script=Hangul})/iu.test(title))
+    title = title.replace(/^Watch\s+/i, "");
   if (/(?:넷플릭스|Netflix)/i.test(raw) && brandSuffix.test(raw)) {
     title = title.replace(/\s*(?:다시\s*)?(?:시청하기|보기)$/, "");
   }
@@ -279,6 +282,31 @@ export function cleanTitle(value: string): string {
 }
 
 export type PageTitleSource = "metadata" | "label" | "title";
+
+function isServicePageTitle(value: string): boolean {
+  return (
+    /^(?:라프텔(?:\s*-.*)?|Netflix|넷플릭스|Apple\s*TV\+?|Crunchyroll|애니플러스|ANIPLUS|Prime Video|Wavve(?:\(웨이브\))?|웨이브|TVING|티빙|쿠팡플레이|Coupang Play|왓챠|WATCHA)$/i.test(
+      value,
+    ) ||
+    /^(?:Crunchyroll|Netflix|Prime\s*Video|Apple\s*TV\+?)\s*[:|–—-]\s*(?:(?:watch|stream)\s+(?:popular\s+anime|anime(?:\s+online)?|tv\s+shows|movies)\b|(?:official|home)\s*(?:site|page)?\b)/i.test(
+      value,
+    ) ||
+    /^(?:Watch\s+)?Popular Anime,?\s*Play Games\s*(?:&|and)\s*Shop Online[.!]?$/i.test(
+      value,
+    ) ||
+    /애니 추천 애니 스트리밍 서비스|한일 동시\s*방영.*채널/.test(value)
+  );
+}
+
+/** A service shell can be returned at a detail URL without redirecting. */
+export function isWorkTitle(value: string): boolean {
+  return (
+    value.length > 0 &&
+    value.length <= 400 &&
+    !isServicePageTitle(value) &&
+    !/^(?:홈|Home|Search|검색|로그인|Sign in)$/i.test(value)
+  );
+}
 
 /** Metadata/CTA labels have known watch wrappers; names and poster alt text do not. */
 export function cleanPageTitle(
@@ -294,11 +322,11 @@ export function cleanPageTitle(
     a.toLocaleLowerCase("en-US") === b.toLocaleLowerCase("en-US");
   // A JSON-LD/poster title can legitimately begin with Watch. It takes precedence
   // over the metadata convention, including "Watch Watch Dogs | Netflix".
-  const same = trusted.find((title) => equal(title, undecorated));
-  if (same) return same;
   const stripped = undecorated.replace(/^Watch\s+/i, "");
   const reference = trusted.find((title) => equal(title, stripped));
   if (reference) return reference;
+  const same = trusted.find((title) => equal(title, undecorated));
+  if (same) return same;
   const normalized = cleanTitle(raw);
   if (normalized !== undecorated) return normalized;
   if (
@@ -321,6 +349,36 @@ export function cleanSearchTitle(
   return provider
     ? cleanPageTitle(value, provider, "title", references)
     : cleanTitle(value);
+}
+
+/** Shared by direct links and background searches; does not mutate saved metadata. */
+export function cleanSearchPage(
+  page: PageTitle,
+  evidence: readonly string[] = [],
+): PageTitle {
+  const candidate = cleanSearchTitle(
+    page.title,
+    page.provider,
+    evidence.length
+      ? evidence
+      : page.aliases.filter((alias) => alias !== page.title),
+  );
+  const aliases = [
+    ...new Set(
+      page.aliases.map((alias) =>
+        cleanSearchTitle(alias, page.provider, [candidate, ...evidence]),
+      ),
+    ),
+  ].filter((alias) => alias && !isServicePageTitle(alias));
+  // Saved/manual titles may legitimately be named Home or Search. Only service
+  // marketing text is excluded here; generic navigation checks belong to DOM extraction.
+  const title =
+    candidate && !isServicePageTitle(candidate) ? candidate : aliases[0] || "";
+  return {
+    ...page,
+    title,
+    aliases: aliases.filter((alias) => alias !== title).slice(0, 30),
+  };
 }
 
 export function normalizeTitle(value: string): string {

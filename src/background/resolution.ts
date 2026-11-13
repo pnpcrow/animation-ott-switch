@@ -1,7 +1,9 @@
 import { repository } from "../core/repository";
 import type { Availability, PageTitle, ProviderId } from "../core/types";
 import {
-  cleanSearchTitle,
+  cleanSearchPage,
+  normalizeTitle,
+  titleVariants,
   providerTitleId,
   safeProviderUrl,
 } from "../providers/identity";
@@ -27,6 +29,7 @@ async function prepareQuery(
   page: PageTitle,
   aliases: string[] = page.aliases,
 ): Promise<PageTitle> {
+  page = cleanSearchPage(page);
   let refreshed: PageTitle | null = null;
   if (
     /^\s*Watch\s+/i.test(page.title) &&
@@ -42,27 +45,30 @@ async function prepareQuery(
     if (refreshedSources.size > 50)
       refreshedSources.delete(refreshedSources.keys().next().value!);
     refreshed = await task;
+    // A 200 response at the same URL may be a home/login shell or a different
+    // hydrated work. Refresh can remove a CTA, not replace the user's identity.
+    const expected = new Set(
+      [page.title, ...page.aliases]
+        .flatMap(titleVariants)
+        .flatMap((title) => [title, title.replace(/^Watch\s+/i, "")])
+        .map(normalizeTitle),
+    );
+    if (
+      refreshed &&
+      (!expected.has(normalizeTitle(refreshed.title)) ||
+        (page.year && refreshed.year && page.year !== refreshed.year))
+    )
+      refreshed = null;
   }
-  const title =
-    refreshed?.title ||
-    cleanSearchTitle(page.title, page.provider, page.aliases);
-  const evidence = refreshed
-    ? [refreshed.title, ...refreshed.aliases]
-    : [title, ...page.aliases.filter((alias) => alias !== page.title)];
-  return {
-    ...page,
-    title,
-    aliases: [
-      ...new Set(
-        [...aliases, ...(refreshed?.aliases || [])].map((alias) =>
-          cleanSearchTitle(alias, page.provider, evidence),
-        ),
-      ),
-    ]
-      .filter((alias) => alias !== title)
-      .slice(0, 30),
-    year: page.year ?? refreshed?.year,
-  };
+  return cleanSearchPage(
+    {
+      ...page,
+      title: refreshed?.title || page.title,
+      aliases: [...aliases, ...(refreshed?.aliases || [])],
+      year: page.year ?? refreshed?.year,
+    },
+    refreshed ? [refreshed.title, ...refreshed.aliases] : [],
+  );
 }
 
 export async function resolveProvider(

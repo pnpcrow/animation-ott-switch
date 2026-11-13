@@ -3,6 +3,7 @@ import type { ProbeReply, ProbeRequest } from "../core/probe";
 import {
   canonicalizeProviderUrl,
   cleanSearchTitle,
+  cleanSearchPage,
   detectProvider,
   providers,
   providerTitleId,
@@ -55,6 +56,9 @@ export async function resolveRendered(
   page: PageTitle,
   candidateUrl?: string,
 ): Promise<Availability> {
+  page = cleanSearchPage(page);
+  if (!page.title)
+    return unknown(provider, "검색할 작품 제목을 확인하지 못했습니다.");
   const definition = providers.find((p) => p.id === provider);
   if (!definition || (candidateUrl && !safeProviderUrl(provider, candidateUrl)))
     return unknown(provider, "올바른 작품 주소가 아닙니다.");

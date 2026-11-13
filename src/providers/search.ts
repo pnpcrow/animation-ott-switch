@@ -3,6 +3,7 @@ import type { Availability, PageTitle, ProviderId } from "../core/types";
 import {
   canonicalizeProviderUrl,
   cleanTitle,
+  cleanSearchPage,
   detectProvider,
   normalizeTitle,
   providerTitleId,
@@ -250,6 +251,7 @@ export async function searchProvider(
   provider: ProviderId,
   page: PageTitle,
 ): Promise<Availability> {
+  page = cleanSearchPage(page);
   const definition = providers.find((item) => item.id === provider);
   if (!definition || !page.title?.trim())
     return result(provider, "unknown", "검색할 제목이 없습니다.");

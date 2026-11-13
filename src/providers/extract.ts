@@ -5,13 +5,12 @@ import {
   cleanTitle,
   detectProvider,
   isDetailUrl,
+  isWorkTitle as isTitle,
   providerTitleId,
   safeImageUrl,
   titleVariants,
 } from "./identity";
 
-const generic =
-  /^(?:라프텔(?:\s*-.*)?|Netflix|넷플릭스|Apple\s*TV\+?|Crunchyroll|애니플러스|ANIPLUS|Prime Video|Wavve(?:\(웨이브\))?|웨이브|TVING|티빙|쿠팡플레이|Coupang Play|왓챠|WATCHA|홈|Home|Search|검색|로그인|Sign in)$/i;
 function text(value: unknown): string {
   return typeof value === "string" ? value.trim() : "";
 }
@@ -23,14 +22,6 @@ function meta(document: Document, name: string): string {
       )
       ?.getAttribute("content")
       ?.trim() ?? ""
-  );
-}
-function isTitle(value: string): boolean {
-  return (
-    value.length > 0 &&
-    value.length <= 400 &&
-    !generic.test(value) &&
-    !/애니 추천 애니 스트리밍 서비스|한일 동시\s*방영.*채널/.test(value)
   );
 }
 function structuredWorks(document: ParentNode): Record<string, unknown>[] {
@@ -213,11 +204,14 @@ export function extractPage(
       return text(copy.textContent);
     })
     .filter(Boolean);
+  const visualTitles = [text(logo?.getAttribute("alt")), ...rawHeadings]
+    .map(cleanTitle)
+    .filter(isTitle);
   const authoritative = [
     ...(modal ? [] : [text(work?.name)]),
     text(logo?.getAttribute("alt")),
   ]
-    .map(cleanTitle)
+    .map((title) => cleanPageTitle(title, provider, "title", visualTitles))
     .filter(isTitle);
   const metadata = modal
     ? []
@@ -250,7 +244,7 @@ export function extractPage(
       ...titleVariants(title),
     ]),
   ]
-    .filter((v) => v && v !== title)
+    .filter((v) => isTitle(v) && v !== title)
     .slice(0, 12);
   let image = work?.image;
   if (Array.isArray(image)) image = image[0];
