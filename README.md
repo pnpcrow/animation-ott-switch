@@ -53,7 +53,9 @@ Google Drive 연결은 **아직 구현하지 않았습니다**. 수정 시각·�
 
 ## 검증 및 구조
 
-단위 테스트는 실제 응답에서 추린 fixture, URL 경계, 검색/접근 실패, 버전 중복, 원자적 저장, 백업 검증, 병합·삭제, 메시지 경계를 검사합니다. 브라우저 테스트는 Chromium에 실제 MV3 확장을 로드해 영속 저장·오버레이·재생 감지·SPA 이동·보관함을 확인합니다. 사이트 DOM은 고정 fixture이며 실제 로그인 계정 검증을 대신하지 않습니다. GitHub Actions에서도 검사 후 ZIP artifact를 생성합니다.
+단위 테스트는 실제 응답에서 추린 fixture, URL 경계, 검색/접근 실패, 버전 중복, 원자적 저장, 백업 검증, 병합·삭제, 메시지 경계를 검사합니다. 브라우저 테스트는 Chromium에 실제 MV3 확장을 로드해 영속 저장·오버레이·재생 감지·SPA 이동·보관함을 확인합니다. 사이트 DOM은 고정 fixture이며 실제 로그인 계정 검증을 대신하지 않습니다. GitHub Actions에도 검사·ZIP artifact 생성 워크플로를 구성했습니다.
+
+2026-11-13 로컬 검증: 타입 검사, 단위 테스트 **67개**, 실제 확장 브라우저 테스트 **5개**, 빌드와 ZIP 검사 통과. 의존성 감사에서 취약점 0건. GitHub Actions는 계정 예산 제한(`The job was not started because an Actions budget is preventing further use.`)으로 실행되지 않았습니다. 예산 제한 해결 후 Actions에서 수동 실행할 수 있으며, 이번 ZIP은 로컬에서 검증한 빌드입니다.
 
 `src/providers`는 사이트 어댑터, `src/background`는 네트워크/저장 메시지 처리, `src/content`는 Shadow DOM 오버레이, `src/core`는 DB/백업, `src/library`는 React 보관함입니다.
 
