@@ -35,5 +35,5 @@ export function decisionPrompt(row, templateId) {
 
 // Fixed format control matching the author's decision.j2, never a holdout-tuned template.
 export function authorDecisionPrompt(row) {
-  return `State: \n${row.document}\n\n${row.question}\nOptions:\n${row.options.map((o, i) => `[${i + 1}] ${o.text}`).join("\n")}\nSelect one option. Answer only with its bracketed numeric identifier.\n\nBest answer: [`;
+  return `State: ${row.document}\n\n${row.question}\nOptions:\n${row.options.map((o, i) => `[${i + 1}] ${o.text}`).join("\n")}\nSelect one option. Answer only with its bracketed numeric identifier.\n\nBest answer: [`;
 }

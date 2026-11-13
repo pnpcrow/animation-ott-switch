@@ -37,6 +37,10 @@ def save():
 for number, row in enumerate(rows):
     # Gold and provenance never enter the chat template or model tensors.
     user = row["prompt"].removesuffix("Best answer: [")
+    if row["template"] == "author-state-control":
+        # Upstream prompts.render(...).rstrip("\n") ends the user turn
+        # immediately after its instruction. Keep shared calibration bytes intact.
+        user = user.rstrip("\n")
     prompt = tokenizer.apply_chat_template([{"role":"user","content":user}], tokenize=False, add_generation_prompt=True, enable_thinking=False) + "Best answer: ["
     began=time.perf_counter()
     result={"id":row["id"],"split":row["split"],"template":row["template"],"scenario":row.get("scenario"),"cohort":row.get("cohort"),"expectedId":row["expectedId"],"acceptedIds":row.get("acceptedIds",[row["expectedId"]]),"options":[{"id":o["id"]} for o in row["options"]]}

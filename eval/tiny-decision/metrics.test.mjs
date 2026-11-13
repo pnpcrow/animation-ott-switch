@@ -28,7 +28,7 @@ test("templates never leak expected IDs, split, case labels or provenance", () =
 });
 test("author-format control uses only observed state, question and numbered options", () => {
   const prompt = authorDecisionPrompt(row);
-  assert.ok(prompt.startsWith("State: \n"));
+  assert.ok(prompt.startsWith(`State: ${row.document}\n\n`));
   assert.ok(prompt.endsWith("Best answer: ["));
   for (const secret of [row.id, row.split, row.provenance, row.expectedId])
     assert.ok(!prompt.includes(secret));
