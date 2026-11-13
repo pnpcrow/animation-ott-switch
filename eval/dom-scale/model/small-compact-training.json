@@ -1,0 +1,8080 @@
+{
+  "recipe": "small-compact",
+  "parameters": 7738369,
+  "trainingMs": 119859.4855000265,
+  "losses": [
+    [
+      2.5555272102355957,
+      2.7122573852539062,
+      2.591951608657837,
+      2.6449382305145264,
+      2.572442054748535,
+      1.3768974542617798,
+      2.650297164916992,
+      1.1114931106567383,
+      1.057431697845459,
+      2.577089548110962,
+      0.633418083190918,
+      2.301067352294922,
+      1.0773273706436157,
+      2.559734582901001,
+      2.603214979171753,
+      2.5751304626464844,
+      0.7276201248168945,
+      0.7636297941207886,
+      1.0683320760726929,
+      2.612933397293091,
+      2.4556798934936523,
+      1.093129277229309,
+      2.646712303161621,
+      2.577667474746704,
+      1.8790664672851562,
+      1.6632782220840454,
+      0.9597105979919434,
+      2.3615009784698486,
+      0.7173318862915039,
+      2.528700828552246,
+      0.5172139406204224,
+      1.8938813209533691,
+      2.066737651824951,
+      2.624382495880127,
+      2.628981113433838,
+      1.5076559782028198,
+      2.611637592315674,
+      2.290928363800049,
+      1.9064326286315918,
+      1.6970747709274292,
+      1.868402123451233,
+      1.890709400177002,
+      0.9925640821456909,
+      0.6887991428375244,
+      1.7638273239135742,
+      0.49706923961639404,
+      0.8640477657318115,
+      1.847658634185791,
+      1.8020951747894287,
+      0.5604280233383179,
+      2.3533709049224854,
+      2.319422960281372,
+      2.6889352798461914,
+      1.5540297031402588,
+      2.5019850730895996,
+      2.2728474140167236,
+      2.339725971221924,
+      2.2148780822753906,
+      2.298159122467041,
+      0.9618323445320129,
+      2.513964891433716,
+      2.235227584838867,
+      1.5020924806594849,
+      0.5883200168609619,
+      2.309999704360962,
+      0.44943201541900635,
+      2.0618691444396973,
+      0.56858229637146,
+      2.061328411102295,
+      1.0441994667053223,
+      0.6041534543037415,
+      0.2618675231933594,
+      2.755519390106201,
+      1.7333941459655762,
+      0.806960940361023,
+      1.7181862592697144,
+      1.2076560258865356,
+      2.5294113159179688,
+      0.2760242819786072,
+      1.7729934453964233,
+      2.3993937969207764,
+      2.7005186080932617,
+      0.0,
+      1.9787437915802002,
+      1.4118683338165283,
+      0.8951549530029297,
+      2.0362095832824707,
+      0.33545708656311035,
+      2.2296972274780273,
+      1.0297142267227173,
+      0.9868272542953491,
+      0.6179261803627014,
+      0.8751219511032104,
+      1.1725594997406006,
+      0.6140913963317871,
+      2.1142592430114746,
+      2.6878859996795654,
+      0.7144205570220947,
+      0.5157442092895508,
+      1.9020109176635742,
+      2.360071897506714,
+      0.0,
+      3.0463294982910156,
+      0.9673947095870972,
+      2.892977714538574,
+      0.25374680757522583,
+      0.8896952867507935,
+      0.0,
+      0.3754843473434448,
+      0.3194063901901245,
+      0.9654326438903809,
+      0.5264889001846313,
+      0.10126996040344238,
+      3.1823456287384033,
+      2.50374436378479,
+      2.9549641609191895,
+      3.1664369106292725,
+      2.204862356185913,
+      0.41907525062561035,
+      3.46250581741333,
+      0.11700105667114258,
+      2.8881521224975586,
+      0.7847397327423096,
+      0.635968804359436,
+      0.5792882442474365,
+      1.7645385265350342,
+      2.7926008701324463,
+      0.09542453289031982,
+      0.18003427982330322,
+      0.650711178779602,
+      0.1854344606399536,
+      0.13055920600891113,
+      3.1302313804626465,
+      3.734158515930176,
+      2.8803155422210693,
+      0.1839415431022644,
+      3.182530403137207,
+      3.385878562927246,
+      3.048287868499756,
+      3.3645834922790527,
+      0.49861443042755127,
+      0.3610410690307617,
+      0.09811902046203613,
+      0.3212434947490692,
+      2.5714025497436523,
+      3.5984702110290527,
+      2.0616559982299805,
+      0.39903342723846436,
+      0.4431384801864624,
+      2.3987481594085693,
+      2.2714715003967285,
+      0.0,
+      3.6582179069519043
+    ],
+    [
+      0.12883448600769043,
+      3.3317131996154785,
+      0.16331493854522705,
+      0.5870317220687866,
+      0.08270728588104248,
+      0.1310272216796875,
+      0.30301904678344727,
+      0.2999601364135742,
+      0.054238200187683105,
+      2.4523658752441406,
+      3.493276596069336,
+      0.2804468870162964,
+      0.07506787776947021,
+      0.36092889308929443,
+      0.12331581115722656,
+      3.742687702178955,
+      0.3613405227661133,
+      2.9838340282440186,
+      0.31109941005706787,
+      4.269413948059082,
+      3.648491859436035,
+      3.380906105041504,
+      3.4790897369384766,
+      4.055932998657227,
+      2.7501893043518066,
+      3.9828901290893555,
+      0.05783534049987793,
+      3.9525299072265625,
+      0.12988650798797607,
+      3.4495058059692383,
+      0.04587268829345703,
+      0.05334973335266113,
+      0.2492821216583252,
+      0.28898322582244873,
+      3.3999390602111816,
+      0.29924607276916504,
+      3.1221323013305664,
+      0.38718605041503906,
+      0.04921412467956543,
+      0.2146759033203125,
+      0.24294042587280273,
+      0.0694582462310791,
+      1.9834007024765015,
+      3.040264129638672,
+      3.9121546745300293,
+      0.06707990169525146,
+      0.2858614921569824,
+      3.531341075897217,
+      0.08599472045898438,
+      0.2654225826263428,
+      0.21630072593688965,
+      3.3770861625671387,
+      3.3536996841430664,
+      0.27934861183166504,
+      0.2834070920944214,
+      0.26050853729248047,
+      0.170579195022583,
+      3.334272623062134,
+      3.5544190406799316,
+      0.29639148712158203,
+      0.16357207298278809,
+      0.07298016548156738,
+      4.094490051269531,
+      3.967923641204834,
+      0.0972898006439209,
+      4.431304931640625,
+      0.27466750144958496,
+      0.16279172897338867,
+      3.4683785438537598,
+      4.434869289398193,
+      3.580232620239258,
+      0.08888816833496094,
+      4.1259589195251465,
+      3.3702635765075684,
+      0.14084672927856445,
+      0.07304739952087402,
+      0.046939969062805176,
+      4.003849506378174,
+      4.063979625701904,
+      4.144576549530029,
+      0.149946928024292,
+      0.18980181217193604,
+      0.0,
+      0.03287029266357422,
+      0.0,
+      0.25342369079589844,
+      0.09562015533447266,
+      4.41193962097168,
+      3.3284554481506348,
+      0.005870819091796875,
+      4.14495325088501,
+      0.04494881629943848,
+      4.535031318664551,
+      0.10845780372619629,
+      4.914200305938721,
+      0.0995171070098877,
+      3.134182929992676,
+      0.06091737747192383,
+      0.12627434730529785,
+      4.438628196716309,
+      3.9713196754455566,
+      4.460320472717285,
+      3.9358997344970703,
+      3.723405361175537,
+      4.181051731109619,
+      0.09568524360656738,
+      0.0,
+      0.009719371795654297,
+      0.15236592292785645,
+      4.457832336425781,
+      0.09580802917480469,
+      0.022538423538208008,
+      0.09662032127380371,
+      0.05725526809692383,
+      4.752703666687012,
+      3.3405089378356934,
+      0.020276546478271484,
+      0.05711174011230469,
+      3.44313907623291,
+      0.07488656044006348,
+      0.07928299903869629,
+      0.04402327537536621,
+      0.01849651336669922,
+      0.039370059967041016,
+      0.0044291019439697266,
+      5.53888463973999,
+      0.051059722900390625,
+      5.655029296875,
+      4.713119029998779,
+      0.03985238075256348,
+      4.053299903869629,
+      0.008178949356079102,
+      0.03285694122314453,
+      4.0444135665893555,
+      0.003910541534423828,
+      0.05182838439941406,
+      5.143341064453125,
+      0.0019104480743408203,
+      0.03156113624572754,
+      4.522275924682617,
+      0.006836652755737305,
+      5.49072265625,
+      1.5836422443389893,
+      5.672629356384277,
+      5.052210807800293,
+      0.0,
+      4.813928604125977,
+      5.962867259979248,
+      4.99755859375,
+      0.09361386299133301,
+      0.006398439407348633,
+      0.011671304702758789,
+      0.0462651252746582
+    ],
+    [
+      3.84036922454834,
+      2.120460033416748,
+      0.22647106647491455,
+      0.029570341110229492,
+      0.07874703407287598,
+      4.375979423522949,
+      0.036818504333496094,
+      0.008258342742919922,
+      0.03357124328613281,
+      0.06639885902404785,
+      0.024372339248657227,
+      4.628843307495117,
+      0.015334129333496094,
+      4.836488723754883,
+      4.961206436157227,
+      4.514893531799316,
+      3.413357734680176,
+      0.007384777069091797,
+      0.007294893264770508,
+      5.582305908203125,
+      1.754114031791687,
+      0.031089305877685547,
+      2.615673065185547,
+      0.2556210160255432,
+      1.277129888534546,
+      0.008825540542602539,
+      0.011507511138916016,
+      3.0022759437561035,
+      0.08598017692565918,
+      0.020971715450286865,
+      0.376697301864624,
+      1.0724389553070068,
+      5.51560115814209,
+      0.011244535446166992,
+      5.0713701248168945,
+      0.07776856422424316,
+      0.04714059829711914,
+      4.310425281524658,
+      0.012501239776611328,
+      4.8974690437316895,
+      6.1329803466796875,
+      6.190752983093262,
+      0.025229215621948242,
+      6.265749931335449,
+      0.01115107536315918,
+      0.0,
+      0.0749351978302002,
+      0.01618480682373047,
+      0.016585588455200195,
+      0.01972365379333496,
+      1.4768478870391846,
+      0.0017859935760498047,
+      3.6246681213378906,
+      0.05005002021789551,
+      4.327727317810059,
+      0.03459882736206055,
+      5.584822654724121,
+      5.1242570877075195,
+      4.326988220214844,
+      0.01950526237487793,
+      0.11203944683074951,
+      4.410266399383545,
+      5.2972307205200195,
+      0.0352783203125,
+      4.06270694732666,
+      0.06809258460998535,
+      4.177490234375,
+      5.605914115905762,
+      3.662111759185791,
+      2.8282809257507324,
+      0.018648624420166016,
+      0.008886098861694336,
+      0.02474689483642578,
+      0.09577226638793945,
+      0.005579948425292969,
+      0.08355188369750977,
+      2.9235665798187256,
+      0.01326298713684082,
+      0.40094342827796936,
+      0.0022430419921875,
+      0.024507761001586914,
+      1.2257729768753052,
+      0.026966094970703125,
+      2.7814269065856934,
+      0.011704206466674805,
+      0.0,
+      5.303307056427002,
+      0.022522449493408203,
+      2.414519786834717,
+      0.037744760513305664,
+      0.4201246500015259,
+      0.021988868713378906,
+      0.01374197006225586,
+      0.02341485023498535,
+      0.05937480926513672,
+      6.2235026359558105,
+      0.0012390613555908203,
+      0.041563987731933594,
+      0.016115188598632812,
+      2.7200331687927246,
+      5.892109394073486,
+      6.638492584228516,
+      0.0032753944396972656,
+      5.244913101196289,
+      5.644975185394287,
+      2.8221325874328613,
+      0.8877930641174316,
+      0.0031707286834716797,
+      0.07006001472473145,
+      0.013643980026245117,
+      3.554877281188965,
+      0.006994724273681641,
+      0.008160829544067383,
+      0.47951292991638184,
+      3.1641297340393066,
+      0.01425027847290039,
+      0.0031249523162841797,
+      0.015312910079956055,
+      0.9237219095230103,
+      6.510007858276367,
+      6.288599014282227,
+      6.070592880249023,
+      4.2152252197265625,
+      0.0014770030975341797,
+      0.002176046371459961,
+      0.0076656341552734375,
+      0.007227182388305664,
+      1.5410873889923096,
+      0.47583502531051636,
+      2.3404645919799805,
+      0.02575516700744629,
+      0.0028502941131591797,
+      5.5175065994262695,
+      0.008819341659545898,
+      0.023632049560546875,
+      3.5561230182647705,
+      0.0,
+      0.004565000534057617,
+      0.037102699279785156,
+      3.6137895584106445,
+      4.7498250007629395,
+      0.2973831295967102,
+      0.2274266481399536,
+      1.9231345653533936,
+      1.8486294746398926,
+      5.367274761199951,
+      2.550913095474243,
+      5.370628356933594,
+      0.0,
+      0.005110502243041992,
+      2.024155616760254,
+      0.002205371856689453,
+      0.21531391143798828
+    ]
+  ],
+  "caseOrder": [
+    [
+      "scale-laftel-witch-detail-description",
+      "scale-tving-attack-on-titan-detail-image",
+      "more-wavve-chainsaw-man-search-opened-work-title",
+      "scale-laftel-apothecary-detail-title",
+      "auth-crunchyroll-witch-player-image",
+      "scale-laftel-frieren-search-title",
+      "auth-class-marriage-modal-title",
+      "scale-coupang-home-description",
+      "scale-watcha-frieren-detail-title",
+      "scale-laftel-rezero-detail-image",
+      "scale-aniplus-frieren-search-image",
+      "more-wavve-witch-search-title",
+      "scale-aniplus-attack-on-titan-search-opened-work-image",
+      "scale-tving-frieren-detail-description",
+      "scale-laftel-frieren-search-opened-work-description",
+      "auth-crunchyroll-witch-detail-title",
+      "scale-watcha-attack-on-titan-search-description",
+      "scale-prime-hazbin-hotel-detail-description",
+      "scale-watcha-chainsaw-man-detail-title",
+      "scale-aniplus-attack-on-titan-search-opened-work-title",
+      "auth-class-marriage-player-image",
+      "more-aniplus-witch-search-description",
+      "scale-wavve-frieren-search-opened-work-image",
+      "more-tving-chainsaw-man-search-title",
+      "scale-wavve-frieren-search-opened-work-description",
+      "auth-class-marriage-player-description",
+      "scale-aniplus-frieren-search-opened-work-image",
+      "scale-prime-attack-on-titan-search-image",
+      "authprofile-prime-hazbin-detail-description",
+      "auth-class-marriage-player-title",
+      "scale-coupang-home-title",
+      "authprofile-watcha-frieren-preview-detail-image",
+      "scale-laftel-frieren-search-playback-entry-description",
+      "auth-class-marriage-modal-description",
+      "auth-crunchyroll-witch-player-title",
+      "scale-aniplus-frieren-search-title",
+      "scale-tving-attack-on-titan-search-title",
+      "more-tving-chainsaw-man-search-image",
+      "scale-wavve-attack-on-titan-search-description",
+      "more-aniplus-witch-search-title",
+      "scale-prime-blade-of-the-immortal-detail-image",
+      "scale-crunchyroll-attack-on-titan-search-title",
+      "more-aniplus-chainsaw-man-search-description",
+      "scale-laftel-attack-on-titan-search-opened-work-title",
+      "authprofile-prime-blade-search-title",
+      "authprofile-watcha-frieren-preview-detail-description",
+      "scale-laftel-attack-on-titan-search-description",
+      "more-wavve-witch-search-opened-work-description",
+      "auth-class-marriage-modal-image",
+      "scale-laftel-attack-on-titan-search-image",
+      "auth-crunchyroll-witch-search-description",
+      "more-wavve-witch-search-image",
+      "scale-laftel-rezero-detail-title",
+      "more-aniplus-chainsaw-man-search-title",
+      "scale-laftel-apothecary-detail-image",
+      "scale-wavve-frieren-search-image",
+      "scale-tving-frieren-search-title",
+      "auth-crunchyroll-witch-search-image",
+      "scale-wavve-frieren-search-title",
+      "scale-watcha-attack-on-titan-search-title",
+      "scale-laftel-rezero-detail-description",
+      "scale-laftel-frieren-search-playback-entry-title",
+      "scale-tving-frieren-detail-title",
+      "more-aniplus-witch-search-image",
+      "scale-prime-hazbin-hotel-detail-title",
+      "scale-coupang-frieren-search-title",
+      "scale-tving-attack-on-titan-search-image",
+      "scale-crunchyroll-attack-on-titan-search-image",
+      "more-wavve-chainsaw-man-search-title",
+      "scale-watcha-chainsaw-man-detail-image",
+      "scale-coupang-frieren-search-description",
+      "scale-coupang-attack-on-titan-search-title",
+      "authprofile-watcha-frieren-preview-detail-title",
+      "scale-wavve-attack-on-titan-search-title",
+      "scale-prime-attack-on-titan-search-description",
+      "scale-prime-frieren-search-image",
+      "scale-laftel-witch-detail-playback-entry-description",
+      "scale-laftel-frieren-search-opened-work-title",
+      "scale-laftel-attack-on-titan-search-opened-work-description",
+      "scale-aniplus-attack-on-titan-search-opened-work-description",
+      "scale-tving-attack-on-titan-detail-description",
+      "scale-laftel-frieren-search-opened-work-image",
+      "scale-coupang-frieren-search-image",
+      "scale-tving-chainsaw-man-detail-title",
+      "scale-tving-frieren-search-image",
+      "scale-laftel-rezero-detail-playback-entry-description",
+      "auth-crunchyroll-witch-detail-image",
+      "scale-prime-attack-on-titan-search-title",
+      "scale-prime-look-back-detail-image",
+      "scale-prime-frieren-search-description",
+      "scale-wavve-frieren-search-description",
+      "scale-aniplus-attack-on-titan-search-description",
+      "authprofile-prime-blade-search-image",
+      "scale-laftel-witch-detail-playback-entry-title",
+      "more-wavve-chainsaw-man-search-description",
+      "scale-watcha-attack-on-titan-detail-title",
+      "authprofile-prime-blade-detail-title",
+      "scale-laftel-frieren-search-playback-entry-image",
+      "more-wavve-witch-search-description",
+      "scale-watcha-frieren-detail-image",
+      "scale-prime-look-back-detail-description",
+      "scale-coupang-home-image",
+      "more-wavve-witch-search-opened-work-title",
+      "auth-crunchyroll-witch-search-title",
+      "scale-tving-attack-on-titan-detail-title",
+      "more-aniplus-chainsaw-man-search-image",
+      "auth-crunchyroll-witch-player-description",
+      "scale-laftel-attack-on-titan-search-opened-work-image",
+      "authprofile-prime-blade-search-description",
+      "scale-laftel-attack-on-titan-search-title",
+      "scale-tving-attack-on-titan-search-description",
+      "scale-aniplus-attack-on-titan-search-title",
+      "scale-laftel-frieren-search-image",
+      "scale-aniplus-frieren-search-opened-work-title",
+      "authprofile-prime-hazbin-detail-image",
+      "scale-prime-blade-of-the-immortal-detail-description",
+      "more-wavve-witch-search-opened-work-image",
+      "scale-watcha-attack-on-titan-detail-description",
+      "scale-laftel-apothecary-detail-description",
+      "authprofile-prime-hazbin-detail-title",
+      "scale-laftel-frieren-search-description",
+      "authprofile-prime-blade-detail-description",
+      "scale-laftel-rezero-detail-playback-entry-image",
+      "scale-laftel-witch-detail-playback-entry-image",
+      "more-wavve-chainsaw-man-search-image",
+      "scale-watcha-attack-on-titan-detail-image",
+      "scale-tving-chainsaw-man-detail-image",
+      "scale-watcha-attack-on-titan-search-image",
+      "scale-aniplus-attack-on-titan-search-image",
+      "scale-laftel-rezero-detail-playback-entry-title",
+      "scale-aniplus-frieren-search-description",
+      "more-wavve-chainsaw-man-search-opened-work-description",
+      "scale-prime-look-back-detail-title",
+      "scale-wavve-frieren-search-opened-work-title",
+      "scale-aniplus-frieren-search-opened-work-description",
+      "scale-crunchyroll-attack-on-titan-search-description",
+      "scale-laftel-witch-detail-title",
+      "scale-laftel-witch-detail-image",
+      "scale-watcha-chainsaw-man-detail-description",
+      "scale-prime-blade-of-the-immortal-detail-title",
+      "scale-wavve-attack-on-titan-search-image",
+      "more-wavve-chainsaw-man-search-opened-work-image",
+      "scale-prime-frieren-search-title",
+      "scale-coupang-attack-on-titan-search-description",
+      "scale-prime-hazbin-hotel-detail-image",
+      "auth-crunchyroll-witch-detail-description",
+      "scale-tving-frieren-detail-image",
+      "more-tving-chainsaw-man-search-description",
+      "scale-tving-frieren-search-description",
+      "scale-tving-chainsaw-man-detail-description",
+      "scale-watcha-frieren-detail-description",
+      "scale-coupang-attack-on-titan-search-image",
+      "authprofile-prime-blade-detail-image"
+    ],
+    [
+      "scale-prime-attack-on-titan-search-title",
+      "scale-laftel-frieren-search-opened-work-image",
+      "scale-coupang-attack-on-titan-search-description",
+      "scale-tving-attack-on-titan-search-image",
+      "scale-watcha-attack-on-titan-search-image",
+      "more-aniplus-chainsaw-man-search-description",
+      "authprofile-prime-blade-search-description",
+      "more-wavve-witch-search-description",
+      "more-aniplus-witch-search-image",
+      "authprofile-watcha-frieren-preview-detail-image",
+      "more-wavve-witch-search-opened-work-title",
+      "more-tving-chainsaw-man-search-description",
+      "scale-coupang-frieren-search-title",
+      "more-wavve-witch-search-image",
+      "scale-laftel-frieren-search-title",
+      "scale-laftel-rezero-detail-image",
+      "scale-wavve-attack-on-titan-search-title",
+      "scale-tving-attack-on-titan-detail-description",
+      "more-wavve-chainsaw-man-search-image",
+      "scale-wavve-frieren-search-opened-work-title",
+      "auth-crunchyroll-witch-detail-title",
+      "scale-prime-blade-of-the-immortal-detail-image",
+      "scale-watcha-chainsaw-man-detail-description",
+      "scale-prime-blade-of-the-immortal-detail-title",
+      "scale-tving-frieren-detail-image",
+      "authprofile-prime-blade-detail-description",
+      "scale-aniplus-attack-on-titan-search-image",
+      "scale-laftel-frieren-search-opened-work-description",
+      "scale-coupang-frieren-search-description",
+      "scale-watcha-attack-on-titan-detail-title",
+      "scale-watcha-attack-on-titan-search-description",
+      "more-aniplus-chainsaw-man-search-image",
+      "scale-tving-frieren-search-description",
+      "scale-crunchyroll-attack-on-titan-search-title",
+      "scale-tving-frieren-detail-title",
+      "scale-laftel-apothecary-detail-description",
+      "scale-wavve-frieren-search-opened-work-image",
+      "scale-tving-frieren-search-title",
+      "scale-laftel-frieren-search-image",
+      "scale-watcha-attack-on-titan-search-title",
+      "scale-wavve-frieren-search-description",
+      "scale-coupang-attack-on-titan-search-title",
+      "authprofile-watcha-frieren-preview-detail-description",
+      "scale-wavve-frieren-search-opened-work-description",
+      "authprofile-prime-blade-detail-image",
+      "scale-crunchyroll-attack-on-titan-search-image",
+      "more-wavve-chainsaw-man-search-opened-work-title",
+      "authprofile-prime-blade-detail-title",
+      "scale-prime-attack-on-titan-search-description",
+      "authprofile-prime-blade-search-image",
+      "scale-prime-frieren-search-description",
+      "scale-tving-attack-on-titan-detail-title",
+      "auth-crunchyroll-witch-detail-image",
+      "scale-tving-attack-on-titan-search-title",
+      "scale-laftel-witch-detail-playback-entry-image",
+      "scale-tving-attack-on-titan-search-description",
+      "scale-laftel-frieren-search-playback-entry-image",
+      "scale-watcha-attack-on-titan-detail-image",
+      "scale-tving-chainsaw-man-detail-title",
+      "auth-crunchyroll-witch-search-description",
+      "scale-wavve-attack-on-titan-search-image",
+      "more-wavve-chainsaw-man-search-opened-work-image",
+      "scale-prime-blade-of-the-immortal-detail-description",
+      "scale-prime-look-back-detail-title",
+      "more-aniplus-chainsaw-man-search-title",
+      "scale-aniplus-frieren-search-opened-work-image",
+      "auth-crunchyroll-witch-player-description",
+      "auth-class-marriage-player-title",
+      "auth-class-marriage-modal-description",
+      "scale-tving-frieren-detail-description",
+      "scale-aniplus-frieren-search-opened-work-description",
+      "scale-laftel-frieren-search-playback-entry-description",
+      "scale-prime-hazbin-hotel-detail-image",
+      "scale-watcha-frieren-detail-description",
+      "auth-crunchyroll-witch-search-image",
+      "scale-aniplus-attack-on-titan-search-title",
+      "scale-aniplus-frieren-search-description",
+      "scale-aniplus-frieren-search-opened-work-title",
+      "scale-laftel-witch-detail-title",
+      "scale-laftel-rezero-detail-description",
+      "scale-laftel-frieren-search-playback-entry-title",
+      "scale-aniplus-frieren-search-title",
+      "scale-coupang-frieren-search-image",
+      "scale-coupang-home-description",
+      "scale-coupang-attack-on-titan-search-image",
+      "scale-laftel-rezero-detail-playback-entry-title",
+      "authprofile-prime-blade-search-title",
+      "scale-laftel-witch-detail-image",
+      "scale-watcha-chainsaw-man-detail-image",
+      "scale-laftel-attack-on-titan-search-opened-work-title",
+      "scale-prime-look-back-detail-description",
+      "scale-laftel-attack-on-titan-search-title",
+      "scale-tving-attack-on-titan-detail-image",
+      "scale-prime-frieren-search-image",
+      "scale-prime-hazbin-hotel-detail-description",
+      "more-tving-chainsaw-man-search-title",
+      "scale-aniplus-attack-on-titan-search-opened-work-title",
+      "scale-laftel-witch-detail-playback-entry-description",
+      "more-wavve-witch-search-title",
+      "auth-crunchyroll-witch-detail-description",
+      "scale-watcha-attack-on-titan-detail-description",
+      "authprofile-prime-hazbin-detail-description",
+      "scale-laftel-witch-detail-description",
+      "scale-watcha-chainsaw-man-detail-title",
+      "scale-laftel-frieren-search-opened-work-title",
+      "scale-prime-attack-on-titan-search-image",
+      "scale-coupang-home-image",
+      "scale-aniplus-frieren-search-image",
+      "more-tving-chainsaw-man-search-image",
+      "scale-prime-hazbin-hotel-detail-title",
+      "auth-class-marriage-player-image",
+      "more-wavve-chainsaw-man-search-opened-work-description",
+      "scale-wavve-frieren-search-image",
+      "scale-wavve-attack-on-titan-search-description",
+      "scale-laftel-apothecary-detail-image",
+      "auth-class-marriage-modal-title",
+      "scale-laftel-frieren-search-description",
+      "auth-class-marriage-player-description",
+      "scale-aniplus-attack-on-titan-search-opened-work-image",
+      "scale-laftel-witch-detail-playback-entry-title",
+      "scale-wavve-frieren-search-title",
+      "scale-laftel-rezero-detail-playback-entry-description",
+      "more-aniplus-witch-search-description",
+      "more-aniplus-witch-search-title",
+      "scale-laftel-attack-on-titan-search-image",
+      "authprofile-prime-hazbin-detail-title",
+      "scale-aniplus-attack-on-titan-search-description",
+      "more-wavve-witch-search-opened-work-image",
+      "more-wavve-witch-search-opened-work-description",
+      "more-wavve-chainsaw-man-search-title",
+      "scale-watcha-frieren-detail-title",
+      "scale-crunchyroll-attack-on-titan-search-description",
+      "scale-tving-frieren-search-image",
+      "auth-class-marriage-modal-image",
+      "scale-laftel-attack-on-titan-search-opened-work-description",
+      "auth-crunchyroll-witch-player-title",
+      "scale-laftel-rezero-detail-title",
+      "scale-laftel-attack-on-titan-search-description",
+      "scale-laftel-rezero-detail-playback-entry-image",
+      "scale-aniplus-attack-on-titan-search-opened-work-description",
+      "scale-prime-frieren-search-title",
+      "authprofile-prime-hazbin-detail-image",
+      "scale-watcha-frieren-detail-image",
+      "scale-laftel-apothecary-detail-title",
+      "scale-tving-chainsaw-man-detail-description",
+      "scale-laftel-attack-on-titan-search-opened-work-image",
+      "scale-prime-look-back-detail-image",
+      "scale-tving-chainsaw-man-detail-image",
+      "authprofile-watcha-frieren-preview-detail-title",
+      "auth-crunchyroll-witch-player-image",
+      "scale-coupang-home-title",
+      "more-wavve-chainsaw-man-search-description",
+      "auth-crunchyroll-witch-search-title"
+    ],
+    [
+      "scale-watcha-frieren-detail-description",
+      "scale-watcha-attack-on-titan-detail-image",
+      "auth-crunchyroll-witch-player-description",
+      "authprofile-prime-blade-search-description",
+      "scale-wavve-frieren-search-image",
+      "scale-aniplus-frieren-search-opened-work-description",
+      "scale-wavve-attack-on-titan-search-title",
+      "scale-coupang-home-title",
+      "scale-laftel-witch-detail-playback-entry-image",
+      "auth-class-marriage-player-image",
+      "scale-watcha-attack-on-titan-search-image",
+      "auth-class-marriage-modal-title",
+      "scale-laftel-witch-detail-playback-entry-description",
+      "scale-aniplus-frieren-search-opened-work-title",
+      "auth-class-marriage-modal-description",
+      "scale-prime-blade-of-the-immortal-detail-title",
+      "scale-tving-frieren-detail-description",
+      "more-aniplus-witch-search-description",
+      "scale-laftel-attack-on-titan-search-opened-work-title",
+      "scale-laftel-apothecary-detail-image",
+      "scale-watcha-chainsaw-man-detail-image",
+      "scale-laftel-witch-detail-playback-entry-title",
+      "scale-aniplus-attack-on-titan-search-opened-work-image",
+      "scale-tving-frieren-search-title",
+      "scale-watcha-attack-on-titan-detail-title",
+      "more-aniplus-chainsaw-man-search-description",
+      "scale-laftel-rezero-detail-playback-entry-description",
+      "authprofile-watcha-frieren-preview-detail-description",
+      "auth-crunchyroll-witch-search-description",
+      "scale-crunchyroll-attack-on-titan-search-description",
+      "more-tving-chainsaw-man-search-title",
+      "scale-watcha-frieren-detail-image",
+      "authprofile-prime-hazbin-detail-title",
+      "scale-crunchyroll-attack-on-titan-search-image",
+      "scale-laftel-rezero-detail-title",
+      "scale-wavve-frieren-search-title",
+      "scale-tving-attack-on-titan-search-description",
+      "authprofile-prime-blade-detail-image",
+      "scale-wavve-frieren-search-description",
+      "scale-laftel-frieren-search-opened-work-description",
+      "more-wavve-witch-search-opened-work-image",
+      "scale-laftel-witch-detail-title",
+      "scale-wavve-attack-on-titan-search-description",
+      "scale-wavve-frieren-search-opened-work-image",
+      "scale-coupang-frieren-search-title",
+      "scale-coupang-frieren-search-image",
+      "more-wavve-chainsaw-man-search-title",
+      "more-aniplus-chainsaw-man-search-title",
+      "more-tving-chainsaw-man-search-image",
+      "more-aniplus-witch-search-title",
+      "scale-watcha-attack-on-titan-detail-description",
+      "scale-laftel-frieren-search-image",
+      "scale-tving-chainsaw-man-detail-title",
+      "auth-crunchyroll-witch-player-image",
+      "scale-wavve-frieren-search-opened-work-description",
+      "scale-tving-attack-on-titan-search-title",
+      "auth-crunchyroll-witch-detail-image",
+      "scale-prime-blade-of-the-immortal-detail-image",
+      "authprofile-watcha-frieren-preview-detail-title",
+      "more-wavve-chainsaw-man-search-image",
+      "scale-prime-attack-on-titan-search-image",
+      "auth-class-marriage-modal-image",
+      "scale-prime-hazbin-hotel-detail-description",
+      "more-wavve-chainsaw-man-search-opened-work-title",
+      "scale-tving-attack-on-titan-detail-image",
+      "scale-prime-frieren-search-description",
+      "authprofile-prime-blade-detail-title",
+      "scale-aniplus-frieren-search-opened-work-image",
+      "auth-crunchyroll-witch-detail-description",
+      "scale-prime-look-back-detail-image",
+      "scale-aniplus-frieren-search-title",
+      "scale-laftel-attack-on-titan-search-description",
+      "scale-aniplus-frieren-search-description",
+      "scale-tving-attack-on-titan-search-image",
+      "scale-aniplus-frieren-search-image",
+      "scale-crunchyroll-attack-on-titan-search-title",
+      "scale-tving-frieren-detail-image",
+      "scale-aniplus-attack-on-titan-search-description",
+      "authprofile-prime-blade-search-image",
+      "scale-laftel-attack-on-titan-search-image",
+      "auth-class-marriage-player-description",
+      "scale-prime-blade-of-the-immortal-detail-description",
+      "scale-laftel-rezero-detail-playback-entry-title",
+      "scale-aniplus-attack-on-titan-search-opened-work-title",
+      "more-wavve-witch-search-description",
+      "scale-coupang-home-image",
+      "scale-laftel-witch-detail-description",
+      "scale-laftel-frieren-search-playback-entry-description",
+      "scale-watcha-frieren-detail-title",
+      "auth-crunchyroll-witch-search-image",
+      "scale-watcha-attack-on-titan-search-description",
+      "more-wavve-witch-search-title",
+      "more-tving-chainsaw-man-search-description",
+      "scale-laftel-rezero-detail-playback-entry-image",
+      "auth-class-marriage-player-title",
+      "scale-laftel-witch-detail-image",
+      "scale-laftel-attack-on-titan-search-opened-work-description",
+      "auth-crunchyroll-witch-player-title",
+      "scale-wavve-attack-on-titan-search-image",
+      "scale-aniplus-attack-on-titan-search-opened-work-description",
+      "scale-laftel-frieren-search-opened-work-title",
+      "scale-laftel-rezero-detail-image",
+      "scale-coupang-attack-on-titan-search-description",
+      "more-wavve-witch-search-opened-work-description",
+      "auth-crunchyroll-witch-detail-title",
+      "authprofile-prime-hazbin-detail-description",
+      "scale-prime-attack-on-titan-search-title",
+      "scale-coupang-home-description",
+      "scale-prime-frieren-search-image",
+      "auth-crunchyroll-witch-search-title",
+      "scale-tving-chainsaw-man-detail-description",
+      "scale-prime-frieren-search-title",
+      "scale-aniplus-attack-on-titan-search-title",
+      "scale-watcha-attack-on-titan-search-title",
+      "scale-tving-attack-on-titan-detail-title",
+      "scale-tving-frieren-search-description",
+      "scale-aniplus-attack-on-titan-search-image",
+      "more-wavve-witch-search-image",
+      "scale-watcha-chainsaw-man-detail-description",
+      "scale-laftel-frieren-search-opened-work-image",
+      "scale-laftel-apothecary-detail-title",
+      "scale-laftel-rezero-detail-description",
+      "scale-tving-frieren-detail-title",
+      "more-aniplus-chainsaw-man-search-image",
+      "more-wavve-chainsaw-man-search-opened-work-description",
+      "scale-laftel-attack-on-titan-search-title",
+      "more-wavve-chainsaw-man-search-description",
+      "scale-watcha-chainsaw-man-detail-title",
+      "scale-tving-frieren-search-image",
+      "scale-prime-hazbin-hotel-detail-title",
+      "scale-laftel-frieren-search-playback-entry-image",
+      "scale-coupang-attack-on-titan-search-title",
+      "more-wavve-witch-search-opened-work-title",
+      "scale-laftel-frieren-search-title",
+      "more-wavve-chainsaw-man-search-opened-work-image",
+      "scale-tving-chainsaw-man-detail-image",
+      "scale-coupang-attack-on-titan-search-image",
+      "scale-laftel-frieren-search-description",
+      "scale-laftel-frieren-search-playback-entry-title",
+      "scale-prime-look-back-detail-title",
+      "scale-tving-attack-on-titan-detail-description",
+      "authprofile-prime-blade-search-title",
+      "scale-prime-attack-on-titan-search-description",
+      "authprofile-watcha-frieren-preview-detail-image",
+      "scale-prime-look-back-detail-description",
+      "scale-wavve-frieren-search-opened-work-title",
+      "scale-prime-hazbin-hotel-detail-image",
+      "authprofile-prime-hazbin-detail-image",
+      "scale-laftel-attack-on-titan-search-opened-work-image",
+      "scale-coupang-frieren-search-description",
+      "authprofile-prime-blade-detail-description",
+      "more-aniplus-witch-search-image",
+      "scale-laftel-apothecary-detail-description"
+    ]
+  ],
+  "checkpoint": {
+    "path": ".tmp\\dom-scale\\model\\weights\\small-compact.safetensors",
+    "bytes": 30961964,
+    "sha256": "6ccbd7968e62f08ad5f00094981a082188b591531322e7f9a27a94988cda0be5"
+  },
+  "trainPredictions": [
+    {
+      "id": "auth-class-marriage-modal-description",
+      "field": "description",
+      "candidateIds": [
+        "d11",
+        "d1",
+        "d10",
+        "__none__",
+        "d9",
+        "d4",
+        "d6",
+        "d5",
+        "d8",
+        "d12",
+        "d7",
+        "d2",
+        "d3"
+      ],
+      "scores": [
+        -2.693434953689575,
+        -2.9083001613616943,
+        -2.632291316986084,
+        2.1414356231689453,
+        -2.7909743785858154,
+        -2.8167433738708496,
+        -2.845515489578247,
+        -2.7645862102508545,
+        -2.7260255813598633,
+        -2.920037031173706,
+        -2.777301549911499,
+        -2.615436553955078,
+        -2.4742841720581055
+      ],
+      "selected": "__none__",
+      "inferenceMs": 96.89159994013608
+    },
+    {
+      "id": "auth-class-marriage-modal-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "i6",
+        "__none__",
+        "i10",
+        "i8",
+        "i12",
+        "i2",
+        "i4",
+        "i3",
+        "i7",
+        "i9",
+        "i5",
+        "i11"
+      ],
+      "scores": [
+        -3.1270928382873535,
+        -3.0843961238861084,
+        2.335282325744629,
+        -3.103562116622925,
+        -3.014777898788452,
+        -3.0659291744232178,
+        -2.9130516052246094,
+        -2.9130775928497314,
+        -3.047708749771118,
+        -3.1367952823638916,
+        -3.037419319152832,
+        -3.1058335304260254,
+        -3.1349411010742188
+      ],
+      "selected": "__none__",
+      "inferenceMs": 89.77239998057485
+    },
+    {
+      "id": "auth-class-marriage-modal-title",
+      "field": "title",
+      "candidateIds": [
+        "t5",
+        "t3",
+        "t2",
+        "t9",
+        "__none__",
+        "t7",
+        "t4",
+        "t12",
+        "t10",
+        "t8",
+        "t6",
+        "t1",
+        "t11"
+      ],
+      "scores": [
+        -2.887953996658325,
+        -2.7976784706115723,
+        -3.018019199371338,
+        -3.0145576000213623,
+        1.9968607425689697,
+        -2.998927354812622,
+        -2.5349152088165283,
+        -2.9585626125335693,
+        -2.828106641769409,
+        -2.9926700592041016,
+        -2.67580246925354,
+        -2.8382394313812256,
+        -2.895473003387451
+      ],
+      "selected": "__none__",
+      "inferenceMs": 89.03750008903444
+    },
+    {
+      "id": "auth-class-marriage-player-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d4",
+        "d2",
+        "d5",
+        "__none__",
+        "d3"
+      ],
+      "scores": [
+        -2.9550178050994873,
+        -2.823694944381714,
+        -2.755103349685669,
+        -2.7014811038970947,
+        3.708798408508301,
+        -2.5785574913024902
+      ],
+      "selected": "__none__",
+      "inferenceMs": 41.08059988357127
+    },
+    {
+      "id": "auth-class-marriage-player-image",
+      "field": "image",
+      "candidateIds": [
+        "i8",
+        "i2",
+        "i9",
+        "__none__",
+        "i4",
+        "i3",
+        "i10",
+        "i11",
+        "i7",
+        "i5",
+        "i12",
+        "i6",
+        "i1"
+      ],
+      "scores": [
+        -3.3018641471862793,
+        -3.236022710800171,
+        -3.2653591632843018,
+        3.5750181674957275,
+        -3.293627977371216,
+        -3.2740375995635986,
+        -3.2711775302886963,
+        -3.272280216217041,
+        -3.2776224613189697,
+        -3.2582950592041016,
+        -3.2222278118133545,
+        -3.2567951679229736,
+        -3.2500040531158447
+      ],
+      "selected": "__none__",
+      "inferenceMs": 77.8516000136733
+    },
+    {
+      "id": "auth-class-marriage-player-title",
+      "field": "title",
+      "candidateIds": [
+        "t2",
+        "t3",
+        "t1",
+        "t4",
+        "__none__",
+        "t12",
+        "t10",
+        "t5",
+        "t7",
+        "t9",
+        "t11",
+        "t6",
+        "t8"
+      ],
+      "scores": [
+        -3.0781872272491455,
+        -2.8669559955596924,
+        -3.0957374572753906,
+        -3.08244252204895,
+        3.6683688163757324,
+        -2.94504714012146,
+        -3.059209108352661,
+        -3.079803705215454,
+        -2.983201742172241,
+        -3.046613931655884,
+        -3.049741744995117,
+        -3.0885417461395264,
+        -3.009981870651245
+      ],
+      "selected": "__none__",
+      "inferenceMs": 83.6996000725776
+    },
+    {
+      "id": "auth-crunchyroll-witch-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "d6",
+        "d4",
+        "d1",
+        "d5",
+        "__none__",
+        "d11",
+        "d9",
+        "d10",
+        "d12",
+        "d3",
+        "d7",
+        "d8"
+      ],
+      "scores": [
+        -2.8706507682800293,
+        -2.349088668823242,
+        -2.922318696975708,
+        -3.069770097732544,
+        -3.4333512783050537,
+        3.540241003036499,
+        -3.128863573074341,
+        -3.1308414936065674,
+        -2.1608967781066895,
+        -2.0823323726654053,
+        -3.342273712158203,
+        -3.1253225803375244,
+        -2.197941303253174
+      ],
+      "selected": "__none__",
+      "inferenceMs": 106.24800017103553
+    },
+    {
+      "id": "auth-crunchyroll-witch-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i3",
+        "i1",
+        "i2",
+        "i6",
+        "i10",
+        "i7",
+        "i9",
+        "__none__",
+        "i11",
+        "i5",
+        "i8",
+        "i4",
+        "i12"
+      ],
+      "scores": [
+        -3.315864086151123,
+        -3.36926531791687,
+        -3.315864086151123,
+        -3.305340528488159,
+        -3.2787654399871826,
+        -3.3066911697387695,
+        -3.299748420715332,
+        3.359180212020874,
+        -3.207780599594116,
+        -3.2619454860687256,
+        -3.310124158859253,
+        -3.306286096572876,
+        -3.267230272293091
+      ],
+      "selected": "__none__",
+      "inferenceMs": 78.90400011092424
+    },
+    {
+      "id": "auth-crunchyroll-witch-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t11",
+        "__none__",
+        "t4",
+        "t10",
+        "t5",
+        "t2",
+        "t1",
+        "t7",
+        "t6",
+        "t3",
+        "t9",
+        "t12",
+        "t8"
+      ],
+      "scores": [
+        -3.09083890914917,
+        3.3164355754852295,
+        -3.0810482501983643,
+        -3.0952160358428955,
+        -3.0649607181549072,
+        -3.2134063243865967,
+        -3.194227933883667,
+        -3.115886688232422,
+        -3.077160358428955,
+        -2.859056234359741,
+        -3.052715539932251,
+        -3.0736629962921143,
+        -3.094086170196533
+      ],
+      "selected": "__none__",
+      "inferenceMs": 65.61839999631047
+    },
+    {
+      "id": "auth-crunchyroll-witch-player-description",
+      "field": "description",
+      "candidateIds": [
+        "d11",
+        "d3",
+        "d5",
+        "d12",
+        "__none__",
+        "d1",
+        "d4",
+        "d8",
+        "d10",
+        "d7",
+        "d9",
+        "d2",
+        "d6"
+      ],
+      "scores": [
+        -3.0552847385406494,
+        -3.331195831298828,
+        -3.482318639755249,
+        -2.304762125015259,
+        3.3329336643218994,
+        -2.972306489944458,
+        -2.856632709503174,
+        -2.3687584400177,
+        -2.3866422176361084,
+        -3.0569396018981934,
+        -3.054203748703003,
+        -3.1656033992767334,
+        -2.689373016357422
+      ],
+      "selected": "__none__",
+      "inferenceMs": 86.20429993607104
+    },
+    {
+      "id": "auth-crunchyroll-witch-player-image",
+      "field": "image",
+      "candidateIds": [
+        "i10",
+        "__none__",
+        "i1",
+        "i4",
+        "i3",
+        "i12",
+        "i2",
+        "i5",
+        "i11",
+        "i8",
+        "i6",
+        "i7",
+        "i9"
+      ],
+      "scores": [
+        -3.3581433296203613,
+        3.255295515060425,
+        -3.349243402481079,
+        -3.3798582553863525,
+        -3.3688762187957764,
+        -3.221343994140625,
+        -3.356318473815918,
+        -3.3578131198883057,
+        -3.4135382175445557,
+        -3.339522123336792,
+        -3.369392156600952,
+        -3.3797380924224854,
+        -3.2596957683563232
+      ],
+      "selected": "__none__",
+      "inferenceMs": 93.44079997390509
+    },
+    {
+      "id": "auth-crunchyroll-witch-player-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t11",
+        "t2",
+        "t1",
+        "t4",
+        "t5",
+        "t3",
+        "t8",
+        "t12",
+        "__none__",
+        "t6",
+        "t10",
+        "t9"
+      ],
+      "scores": [
+        -3.1535027027130127,
+        -3.057297945022583,
+        -3.284111738204956,
+        -3.219761610031128,
+        -3.2117021083831787,
+        -3.187753438949585,
+        -3.126307725906372,
+        -3.3290624618530273,
+        -3.100008249282837,
+        3.149486780166626,
+        -3.18536114692688,
+        -3.2568891048431396,
+        -3.273653507232666
+      ],
+      "selected": "__none__",
+      "inferenceMs": 65.93549996614456
+    },
+    {
+      "id": "auth-crunchyroll-witch-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d6",
+        "d4",
+        "__none__",
+        "d12",
+        "d2",
+        "d9",
+        "d10",
+        "d3",
+        "d7",
+        "d1",
+        "d8",
+        "d11",
+        "d5"
+      ],
+      "scores": [
+        -2.6337878704071045,
+        -3.167531728744507,
+        4.070324420928955,
+        -2.356945276260376,
+        -3.176205635070801,
+        -3.182295560836792,
+        -2.3811967372894287,
+        -3.472517251968384,
+        -3.1753108501434326,
+        -3.1834847927093506,
+        -2.377030611038208,
+        -3.1793859004974365,
+        -3.1200156211853027
+      ],
+      "selected": "__none__",
+      "inferenceMs": 74.12260002456605
+    },
+    {
+      "id": "auth-crunchyroll-witch-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i12",
+        "i9",
+        "__none__",
+        "i1",
+        "i3",
+        "i8",
+        "i11",
+        "i10",
+        "i5",
+        "i7",
+        "i2",
+        "i4",
+        "i6"
+      ],
+      "scores": [
+        -3.5073201656341553,
+        -3.526360511779785,
+        3.980238199234009,
+        -3.502213954925537,
+        -3.508470058441162,
+        -3.4875693321228027,
+        -3.537195920944214,
+        -3.5031557083129883,
+        -3.5345852375030518,
+        -3.541916608810425,
+        -3.4714555740356445,
+        -3.4724245071411133,
+        -3.4827542304992676
+      ],
+      "selected": "__none__",
+      "inferenceMs": 68.90040007419884
+    },
+    {
+      "id": "auth-crunchyroll-witch-search-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t8",
+        "t12",
+        "t3",
+        "t7",
+        "t10",
+        "t11",
+        "t5",
+        "t1",
+        "t9",
+        "t4",
+        "t6",
+        "t2"
+      ],
+      "scores": [
+        4.021190166473389,
+        -3.1770293712615967,
+        -3.364774703979492,
+        -3.1305038928985596,
+        -3.2685048580169678,
+        -3.3077824115753174,
+        -3.475553512573242,
+        -3.1965456008911133,
+        -3.3389880657196045,
+        -3.3053181171417236,
+        -3.107956647872925,
+        -3.1653685569763184,
+        -3.2438180446624756
+      ],
+      "selected": "__none__",
+      "inferenceMs": 68.02179990336299
+    },
+    {
+      "id": "authprofile-prime-blade-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d4",
+        "d1",
+        "d2",
+        "d3",
+        "__none__"
+      ],
+      "scores": [
+        -3.368187189102173,
+        -3.123615026473999,
+        -2.870959997177124,
+        -3.300907850265503,
+        -2.1905171871185303
+      ],
+      "selected": "__none__",
+      "inferenceMs": 34.185800002887845
+    },
+    {
+      "id": "authprofile-prime-blade-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i10",
+        "i9",
+        "__none__",
+        "i8",
+        "i2",
+        "i7",
+        "i3",
+        "i11",
+        "i12",
+        "i6",
+        "i5",
+        "i1",
+        "i4"
+      ],
+      "scores": [
+        -3.388315200805664,
+        -3.4409689903259277,
+        -2.009575128555298,
+        -3.461132049560547,
+        -3.3524715900421143,
+        -3.397361993789673,
+        -3.405900239944458,
+        -3.420489549636841,
+        -3.4013702869415283,
+        -3.4163379669189453,
+        -3.3679916858673096,
+        -3.3979146480560303,
+        -3.437232732772827
+      ],
+      "selected": "__none__",
+      "inferenceMs": 86.572399828583
+    },
+    {
+      "id": "authprofile-prime-blade-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t3",
+        "t7",
+        "t6",
+        "t2",
+        "t1",
+        "t5",
+        "__none__",
+        "t4"
+      ],
+      "scores": [
+        -3.2561402320861816,
+        -3.4041645526885986,
+        -3.1949074268341064,
+        -3.1622984409332275,
+        -3.2255337238311768,
+        -3.1853692531585693,
+        -2.259373664855957,
+        -3.1688506603240967
+      ],
+      "selected": "__none__",
+      "inferenceMs": 36.61690000444651
+    },
+    {
+      "id": "authprofile-prime-blade-search-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d4",
+        "d2",
+        "d1",
+        "d5",
+        "d3"
+      ],
+      "scores": [
+        -1.6204042434692383,
+        -3.3762855529785156,
+        -3.372864007949829,
+        -3.3112096786499023,
+        -3.4082539081573486,
+        -3.402489423751831
+      ],
+      "selected": "__none__",
+      "inferenceMs": 33.76549994572997
+    },
+    {
+      "id": "authprofile-prime-blade-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i6",
+        "__none__",
+        "i1",
+        "i10",
+        "i2",
+        "i11",
+        "i5",
+        "i3",
+        "i7",
+        "i12",
+        "i9",
+        "i8",
+        "i4"
+      ],
+      "scores": [
+        -3.4775171279907227,
+        -0.9680154323577881,
+        -3.4338219165802,
+        -3.4849021434783936,
+        -3.4540672302246094,
+        -3.4824888706207275,
+        -3.4459011554718018,
+        -3.4593851566314697,
+        -3.4819276332855225,
+        -3.4929583072662354,
+        -3.4583699703216553,
+        -3.465444326400757,
+        -3.474588632583618
+      ],
+      "selected": "__none__",
+      "inferenceMs": 92.41779986768961
+    },
+    {
+      "id": "authprofile-prime-blade-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t4",
+        "t1",
+        "t2",
+        "t3",
+        "t6",
+        "t5",
+        "__none__"
+      ],
+      "scores": [
+        -3.1670098304748535,
+        -3.2231318950653076,
+        -3.303384780883789,
+        -3.354624032974243,
+        -3.197813034057617,
+        -3.180311918258667,
+        -1.7745602130889893
+      ],
+      "selected": "__none__",
+      "inferenceMs": 36.879600025713444
+    },
+    {
+      "id": "authprofile-prime-hazbin-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -2.1822092533111572,
+        -2.9048261642456055
+      ],
+      "selected": "__none__",
+      "inferenceMs": 18.252699868753552
+    },
+    {
+      "id": "authprofile-prime-hazbin-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i10",
+        "i6",
+        "i9",
+        "i1",
+        "i8",
+        "i2",
+        "i5",
+        "i4",
+        "__none__",
+        "i12",
+        "i3",
+        "i11",
+        "i7"
+      ],
+      "scores": [
+        -3.3498337268829346,
+        -3.3972320556640625,
+        -3.2674543857574463,
+        -3.3654322624206543,
+        -3.397719144821167,
+        -3.313786268234253,
+        -3.323077917098999,
+        -3.447575807571411,
+        -2.055961847305298,
+        -3.33062744140625,
+        -3.3544538021087646,
+        -3.362239122390747,
+        -3.3663113117218018
+      ],
+      "selected": "__none__",
+      "inferenceMs": 84.80999991297722
+    },
+    {
+      "id": "authprofile-prime-hazbin-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t2",
+        "t6",
+        "t3",
+        "t8",
+        "t1",
+        "__none__",
+        "t5",
+        "t7",
+        "t4"
+      ],
+      "scores": [
+        -3.1164674758911133,
+        -3.1201956272125244,
+        -3.1290414333343506,
+        -3.3412177562713623,
+        -3.2458999156951904,
+        -2.273887872695923,
+        -3.151399850845337,
+        -3.080289602279663,
+        -3.054753065109253
+      ],
+      "selected": "__none__",
+      "inferenceMs": 40.79020000062883
+    },
+    {
+      "id": "authprofile-watcha-frieren-preview-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d2",
+        "__none__"
+      ],
+      "scores": [
+        -2.904827833175659,
+        -2.8778913021087646,
+        -2.762826681137085
+      ],
+      "selected": "__none__",
+      "inferenceMs": 20.884099882096052
+    },
+    {
+      "id": "authprofile-watcha-frieren-preview-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i6",
+        "i9",
+        "i11",
+        "__none__",
+        "i2",
+        "i4",
+        "i8",
+        "i5",
+        "i10",
+        "i3",
+        "i7",
+        "i12",
+        "i1"
+      ],
+      "scores": [
+        -3.046765089035034,
+        -3.024169683456421,
+        -3.0480215549468994,
+        -2.795985460281372,
+        -3.0424983501434326,
+        -3.0195515155792236,
+        -3.058868169784546,
+        -3.092888116836548,
+        -3.0553395748138428,
+        -2.986802339553833,
+        -3.04889178276062,
+        -3.0077590942382812,
+        -3.043769598007202
+      ],
+      "selected": "__none__",
+      "inferenceMs": 71.52249990031123
+    },
+    {
+      "id": "authprofile-watcha-frieren-preview-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t4",
+        "t5",
+        "t3",
+        "t11",
+        "t9",
+        "t10",
+        "t1",
+        "t7",
+        "t12",
+        "t2",
+        "t8",
+        "__none__",
+        "t6"
+      ],
+      "scores": [
+        -2.8936069011688232,
+        -2.983379364013672,
+        -2.890521287918091,
+        -2.888399600982666,
+        -2.908721923828125,
+        -2.8927340507507324,
+        -2.9801599979400635,
+        -2.9151294231414795,
+        -2.8836233615875244,
+        -2.8564515113830566,
+        -2.895242929458618,
+        -2.751009702682495,
+        -2.9047017097473145
+      ],
+      "selected": "__none__",
+      "inferenceMs": 52.71400022320449
+    },
+    {
+      "id": "more-aniplus-chainsaw-man-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "__none__",
+        "d2"
+      ],
+      "scores": [
+        -3.2552478313446045,
+        4.237279415130615,
+        -3.2190990447998047
+      ],
+      "selected": "__none__",
+      "inferenceMs": 20.429099909961224
+    },
+    {
+      "id": "more-aniplus-chainsaw-man-search-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__",
+        "i1"
+      ],
+      "scores": [
+        4.1047563552856445,
+        -3.3474178314208984
+      ],
+      "selected": "__none__",
+      "inferenceMs": 14.116500038653612
+    },
+    {
+      "id": "more-aniplus-chainsaw-man-search-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t1",
+        "t4",
+        "t2",
+        "t3",
+        "t5"
+      ],
+      "scores": [
+        4.186670303344727,
+        -3.367586135864258,
+        -3.279066562652588,
+        -3.3630850315093994,
+        -3.223067283630371,
+        -3.2984631061553955
+      ],
+      "selected": "__none__",
+      "inferenceMs": 30.982099939137697
+    },
+    {
+      "id": "more-aniplus-witch-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -3.1319496631622314,
+        4.046266078948975,
+        -3.0828092098236084
+      ],
+      "selected": "__none__",
+      "inferenceMs": 24.11310002207756
+    },
+    {
+      "id": "more-aniplus-witch-search-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__",
+        "i1"
+      ],
+      "scores": [
+        3.86287260055542,
+        -3.285799264907837
+      ],
+      "selected": "__none__",
+      "inferenceMs": 17.810899997130036
+    },
+    {
+      "id": "more-aniplus-witch-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t4",
+        "__none__",
+        "t2",
+        "t1",
+        "t3",
+        "t5"
+      ],
+      "scores": [
+        -3.1895272731781006,
+        3.9521126747131348,
+        -3.280479669570923,
+        -3.267439126968384,
+        -3.1716296672821045,
+        -3.272610664367676
+      ],
+      "selected": "__none__",
+      "inferenceMs": 33.15120004117489
+    },
+    {
+      "id": "more-tving-chainsaw-man-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d3",
+        "d7",
+        "d5",
+        "d6",
+        "d4",
+        "d1",
+        "__none__",
+        "d2"
+      ],
+      "scores": [
+        -3.4072630405426025,
+        -3.348496437072754,
+        -3.2625911235809326,
+        -3.2360103130340576,
+        -3.2525794506073,
+        -3.301746368408203,
+        0.34938663244247437,
+        -3.3017752170562744
+      ],
+      "selected": "__none__",
+      "inferenceMs": 45.3018001280725
+    },
+    {
+      "id": "more-tving-chainsaw-man-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i4",
+        "i6",
+        "i8",
+        "i2",
+        "i3",
+        "i1",
+        "i11",
+        "i5",
+        "__none__",
+        "i10",
+        "i7",
+        "i9",
+        "i12"
+      ],
+      "scores": [
+        -3.4686760902404785,
+        -3.4524714946746826,
+        -3.446974039077759,
+        -3.369839906692505,
+        -3.4561595916748047,
+        -3.409886598587036,
+        -3.438680410385132,
+        -3.454059362411499,
+        0.3799009323120117,
+        -3.411320447921753,
+        -3.4540576934814453,
+        -3.4604380130767822,
+        -3.4014787673950195
+      ],
+      "selected": "__none__",
+      "inferenceMs": 66.96419999934733
+    },
+    {
+      "id": "more-tving-chainsaw-man-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t8",
+        "t4",
+        "__none__",
+        "t6",
+        "t12",
+        "t7",
+        "t11",
+        "t1",
+        "t10",
+        "t2",
+        "t3",
+        "t9",
+        "t5"
+      ],
+      "scores": [
+        -3.4689865112304688,
+        -3.2916390895843506,
+        -0.13089580833911896,
+        -3.2845230102539062,
+        -3.4548330307006836,
+        -3.471972703933716,
+        -3.380047559738159,
+        -3.376204252243042,
+        -3.3849380016326904,
+        -3.288954973220825,
+        -3.318234443664551,
+        -3.4234306812286377,
+        -3.3024842739105225
+      ],
+      "selected": "__none__",
+      "inferenceMs": 62.05980014055967
+    },
+    {
+      "id": "more-wavve-chainsaw-man-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d3",
+        "d4",
+        "d5",
+        "d1"
+      ],
+      "scores": [
+        -3.301619291305542,
+        4.367462158203125,
+        -3.349703311920166,
+        -3.4075520038604736,
+        -3.225449323654175,
+        -3.375861644744873
+      ],
+      "selected": "__none__",
+      "inferenceMs": 36.94989997893572
+    },
+    {
+      "id": "more-wavve-chainsaw-man-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i8",
+        "i6",
+        "i1",
+        "i9",
+        "i5",
+        "i4",
+        "i12",
+        "i2",
+        "__none__",
+        "i7",
+        "i10",
+        "i3",
+        "i11"
+      ],
+      "scores": [
+        -3.453531265258789,
+        -3.4993417263031006,
+        -3.440945625305176,
+        -3.4826061725616455,
+        -3.4716804027557373,
+        -3.4729795455932617,
+        -3.491302728652954,
+        -3.4772140979766846,
+        4.274703502655029,
+        -3.4651973247528076,
+        -3.444509744644165,
+        -3.3903772830963135,
+        -3.4808781147003174
+      ],
+      "selected": "__none__",
+      "inferenceMs": 75.33349981531501
+    },
+    {
+      "id": "more-wavve-chainsaw-man-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "d1",
+        "__none__"
+      ],
+      "scores": [
+        -3.112201690673828,
+        -3.3966574668884277,
+        4.287323951721191
+      ],
+      "selected": "__none__",
+      "inferenceMs": 18.847699975594878
+    },
+    {
+      "id": "more-wavve-chainsaw-man-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i4",
+        "i2",
+        "i7",
+        "i6",
+        "__none__",
+        "i3",
+        "i5",
+        "i1"
+      ],
+      "scores": [
+        -3.4582650661468506,
+        -3.4304568767547607,
+        -3.4916205406188965,
+        -3.43676495552063,
+        4.168663501739502,
+        -3.433396339416504,
+        -3.408252716064453,
+        -3.4177310466766357
+      ],
+      "selected": "__none__",
+      "inferenceMs": 40.78130004927516
+    },
+    {
+      "id": "more-wavve-chainsaw-man-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t11",
+        "t2",
+        "t3",
+        "t9",
+        "t8",
+        "t4",
+        "t5",
+        "t12",
+        "t10",
+        "t6",
+        "__none__",
+        "t1"
+      ],
+      "scores": [
+        -3.3525609970092773,
+        -3.287278175354004,
+        -3.3371574878692627,
+        -3.2497856616973877,
+        -3.3110411167144775,
+        -3.2716591358184814,
+        -3.2252516746520996,
+        -3.2477521896362305,
+        -3.2514188289642334,
+        -3.3109960556030273,
+        -3.2461650371551514,
+        4.291080474853516,
+        -3.3329975605010986
+      ],
+      "selected": "__none__",
+      "inferenceMs": 50.51120021380484
+    },
+    {
+      "id": "more-wavve-chainsaw-man-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t5",
+        "t7",
+        "t9",
+        "t6",
+        "t11",
+        "t12",
+        "t8",
+        "__none__",
+        "t3",
+        "t2",
+        "t10",
+        "t1",
+        "t4"
+      ],
+      "scores": [
+        -3.3104302883148193,
+        -3.1966145038604736,
+        -3.2477338314056396,
+        -3.293972969055176,
+        -3.2319929599761963,
+        -3.3299028873443604,
+        -3.2852671146392822,
+        4.3582634925842285,
+        -3.318948984146118,
+        -3.337710380554199,
+        -3.300419569015503,
+        -3.3359215259552,
+        -3.307267427444458
+      ],
+      "selected": "__none__",
+      "inferenceMs": 56.07930012047291
+    },
+    {
+      "id": "more-wavve-witch-search-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d4",
+        "d5",
+        "d3",
+        "d2",
+        "d6",
+        "d1"
+      ],
+      "scores": [
+        3.8813841342926025,
+        -3.3295273780822754,
+        -3.3126742839813232,
+        -3.2949302196502686,
+        -3.393827438354492,
+        -3.2315030097961426,
+        -3.384164571762085
+      ],
+      "selected": "__none__",
+      "inferenceMs": 49.233500147238374
+    },
+    {
+      "id": "more-wavve-witch-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i7",
+        "i12",
+        "i8",
+        "i5",
+        "i9",
+        "i4",
+        "i10",
+        "i11",
+        "__none__",
+        "i2",
+        "i1",
+        "i6",
+        "i3"
+      ],
+      "scores": [
+        -3.3651866912841797,
+        -3.3572354316711426,
+        -3.3352489471435547,
+        -3.370790719985962,
+        -3.375413417816162,
+        -3.332956075668335,
+        -3.3658108711242676,
+        -3.3599984645843506,
+        3.920443058013916,
+        -3.339334726333618,
+        -3.4224798679351807,
+        -3.3185529708862305,
+        -3.368863105773926
+      ],
+      "selected": "__none__",
+      "inferenceMs": 84.14679998531938
+    },
+    {
+      "id": "more-wavve-witch-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d7",
+        "d8",
+        "d2",
+        "d10",
+        "d1",
+        "d12",
+        "d11",
+        "d9",
+        "d3",
+        "d5",
+        "d4",
+        "d6"
+      ],
+      "scores": [
+        3.5589711666107178,
+        -2.7822206020355225,
+        -2.699583053588867,
+        -3.2921645641326904,
+        -2.6761980056762695,
+        -3.3293344974517822,
+        -2.8025312423706055,
+        -2.7096376419067383,
+        -2.4571988582611084,
+        -2.7161977291107178,
+        -2.7066991329193115,
+        -2.8107657432556152,
+        -2.6682751178741455
+      ],
+      "selected": "__none__",
+      "inferenceMs": 95.26750002987683
+    },
+    {
+      "id": "more-wavve-witch-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i11",
+        "i2",
+        "i8",
+        "i10",
+        "__none__",
+        "i3",
+        "i5",
+        "i12",
+        "i4",
+        "i7",
+        "i9",
+        "i1",
+        "i6"
+      ],
+      "scores": [
+        -3.2286713123321533,
+        -3.2244882583618164,
+        -3.283738851547241,
+        -3.245861291885376,
+        3.6257355213165283,
+        -3.1508448123931885,
+        -3.2734761238098145,
+        -3.2437548637390137,
+        -3.315880060195923,
+        -3.259849786758423,
+        -3.2690069675445557,
+        -3.3395605087280273,
+        -3.2362048625946045
+      ],
+      "selected": "__none__",
+      "inferenceMs": 83.2867999561131
+    },
+    {
+      "id": "more-wavve-witch-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t4",
+        "t2",
+        "t6",
+        "t10",
+        "t7",
+        "t9",
+        "t12",
+        "t8",
+        "t5",
+        "t3",
+        "t11",
+        "t1",
+        "__none__"
+      ],
+      "scores": [
+        -2.982086658477783,
+        -3.3111279010772705,
+        -3.2364983558654785,
+        -3.161322832107544,
+        -2.915207624435425,
+        -3.1649043560028076,
+        -3.1965765953063965,
+        -3.2306408882141113,
+        -3.2471115589141846,
+        -3.3549282550811768,
+        -3.2328712940216064,
+        -3.2969887256622314,
+        3.414311647415161
+      ],
+      "selected": "__none__",
+      "inferenceMs": 63.89420013874769
+    },
+    {
+      "id": "more-wavve-witch-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t4",
+        "t12",
+        "t6",
+        "t11",
+        "t10",
+        "t3",
+        "t8",
+        "t2",
+        "t5",
+        "__none__",
+        "t1",
+        "t9",
+        "t7"
+      ],
+      "scores": [
+        -3.258395195007324,
+        -3.3001062870025635,
+        -3.28584885597229,
+        -2.9752771854400635,
+        -3.2950804233551025,
+        -3.2596089839935303,
+        -3.2397050857543945,
+        -3.3504765033721924,
+        -3.2529609203338623,
+        3.730768918991089,
+        -3.311739206314087,
+        -3.29770565032959,
+        -3.2474753856658936
+      ],
+      "selected": "__none__",
+      "inferenceMs": 57.0654000621289
+    },
+    {
+      "id": "scale-aniplus-attack-on-titan-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d4",
+        "d3",
+        "d2",
+        "__none__"
+      ],
+      "scores": [
+        -3.194394111633301,
+        -3.1932332515716553,
+        -3.2848713397979736,
+        -3.2832484245300293,
+        4.235719203948975
+      ],
+      "selected": "__none__",
+      "inferenceMs": 31.84999991208315
+    },
+    {
+      "id": "scale-aniplus-attack-on-titan-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "__none__"
+      ],
+      "scores": [
+        -3.3273961544036865,
+        4.0481157302856445
+      ],
+      "selected": "__none__",
+      "inferenceMs": 14.428999973461032
+    },
+    {
+      "id": "scale-aniplus-attack-on-titan-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d4",
+        "d3",
+        "d5",
+        "__none__",
+        "d8",
+        "d9",
+        "d2",
+        "d7",
+        "d6"
+      ],
+      "scores": [
+        -3.256227493286133,
+        -3.1266748905181885,
+        -3.2185091972351074,
+        -3.1602466106414795,
+        -2.633817195892334,
+        -3.07102632522583,
+        -3.1442902088165283,
+        -3.2604477405548096,
+        -3.16538143157959,
+        -3.1163649559020996
+      ],
+      "selected": "__none__",
+      "inferenceMs": 67.19169998541474
+    },
+    {
+      "id": "scale-aniplus-attack-on-titan-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__",
+        "i1",
+        "i2"
+      ],
+      "scores": [
+        -2.642345905303955,
+        -3.39803147315979,
+        -3.4008610248565674
+      ],
+      "selected": "__none__",
+      "inferenceMs": 18.106400035321712
+    },
+    {
+      "id": "scale-aniplus-attack-on-titan-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t5",
+        "__none__",
+        "t1",
+        "t3",
+        "t6",
+        "t7",
+        "t12",
+        "t2",
+        "t4",
+        "t9",
+        "t11",
+        "t10",
+        "t8"
+      ],
+      "scores": [
+        -3.2462480068206787,
+        -2.6725058555603027,
+        -3.3147687911987305,
+        -3.2878518104553223,
+        -3.2354323863983154,
+        -3.2806262969970703,
+        -3.224968671798706,
+        -3.3033366203308105,
+        -3.173170804977417,
+        -3.226614236831665,
+        -3.288912057876587,
+        -3.2061283588409424,
+        -3.2119524478912354
+      ],
+      "selected": "__none__",
+      "inferenceMs": 84.42910015583038
+    },
+    {
+      "id": "scale-aniplus-attack-on-titan-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t5",
+        "t3",
+        "__none__",
+        "t2",
+        "t4",
+        "t1"
+      ],
+      "scores": [
+        -3.2741267681121826,
+        -3.1866533756256104,
+        4.174646854400635,
+        -3.318129777908325,
+        -3.2535765171051025,
+        -3.326711893081665
+      ],
+      "selected": "__none__",
+      "inferenceMs": 29.90299998782575
+    },
+    {
+      "id": "scale-aniplus-frieren-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -3.1786930561065674,
+        4.211345195770264,
+        -3.225600481033325
+      ],
+      "selected": "__none__",
+      "inferenceMs": 21.091700065881014
+    },
+    {
+      "id": "scale-aniplus-frieren-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "__none__"
+      ],
+      "scores": [
+        -3.392859697341919,
+        4.013049125671387
+      ],
+      "selected": "__none__",
+      "inferenceMs": 13.843099819496274
+    },
+    {
+      "id": "scale-aniplus-frieren-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d5",
+        "d9",
+        "d11",
+        "d12",
+        "d6",
+        "d2",
+        "d8",
+        "d7",
+        "d4",
+        "__none__",
+        "d1",
+        "d10",
+        "d3"
+      ],
+      "scores": [
+        -2.595127582550049,
+        -2.6420609951019287,
+        -2.7574868202209473,
+        -2.7346584796905518,
+        -2.646123170852661,
+        -3.119356632232666,
+        -2.725198984146118,
+        -2.8660337924957275,
+        -2.5467097759246826,
+        0.5762301087379456,
+        -3.0700509548187256,
+        -2.740769147872925,
+        -3.1232197284698486
+      ],
+      "selected": "__none__",
+      "inferenceMs": 94.96590006165206
+    },
+    {
+      "id": "scale-aniplus-frieren-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "__none__",
+        "i2"
+      ],
+      "scores": [
+        -3.332077741622925,
+        0.7822017073631287,
+        -3.331651449203491
+      ],
+      "selected": "__none__",
+      "inferenceMs": 19.203800009563565
+    },
+    {
+      "id": "scale-aniplus-frieren-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t3",
+        "t7",
+        "t8",
+        "t10",
+        "t5",
+        "t1",
+        "__none__",
+        "t2",
+        "t9",
+        "t6",
+        "t12",
+        "t4",
+        "t11"
+      ],
+      "scores": [
+        -3.2696456909179688,
+        -3.1344168186187744,
+        -3.1232693195343018,
+        -3.0979342460632324,
+        -3.1399214267730713,
+        -3.2472760677337646,
+        0.10460662841796875,
+        -3.234046220779419,
+        -3.09096360206604,
+        -3.108016014099121,
+        -3.0901384353637695,
+        -3.048762083053589,
+        -3.0712084770202637
+      ],
+      "selected": "__none__",
+      "inferenceMs": 70.84709987975657
+    },
+    {
+      "id": "scale-aniplus-frieren-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t2",
+        "t1",
+        "__none__",
+        "t5",
+        "t3",
+        "t4"
+      ],
+      "scores": [
+        -3.3107898235321045,
+        -3.3464763164520264,
+        4.13433313369751,
+        -3.2940638065338135,
+        -3.1933789253234863,
+        -3.2392656803131104
+      ],
+      "selected": "__none__",
+      "inferenceMs": 31.178700039163232
+    },
+    {
+      "id": "scale-coupang-attack-on-titan-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d2",
+        "__none__"
+      ],
+      "scores": [
+        -3.3646740913391113,
+        -3.3860347270965576,
+        3.763064384460449
+      ],
+      "selected": "__none__",
+      "inferenceMs": 18.006500089541078
+    },
+    {
+      "id": "scale-coupang-attack-on-titan-search-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__"
+      ],
+      "scores": [
+        3.5573770999908447
+      ],
+      "selected": "__none__",
+      "inferenceMs": 5.453099962323904
+    },
+    {
+      "id": "scale-coupang-attack-on-titan-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "__none__"
+      ],
+      "scores": [
+        -3.2382256984710693,
+        3.5659267902374268
+      ],
+      "selected": "__none__",
+      "inferenceMs": 10.556899942457676
+    },
+    {
+      "id": "scale-coupang-frieren-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -3.362994909286499,
+        3.763064384460449,
+        -3.368272542953491
+      ],
+      "selected": "__none__",
+      "inferenceMs": 17.07120006904006
+    },
+    {
+      "id": "scale-coupang-frieren-search-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__"
+      ],
+      "scores": [
+        3.5573770999908447
+      ],
+      "selected": "__none__",
+      "inferenceMs": 5.270899971947074
+    },
+    {
+      "id": "scale-coupang-frieren-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "__none__"
+      ],
+      "scores": [
+        -3.2382256984710693,
+        3.5659267902374268
+      ],
+      "selected": "__none__",
+      "inferenceMs": 9.726500138640404
+    },
+    {
+      "id": "scale-coupang-home-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "__none__",
+        "d2"
+      ],
+      "scores": [
+        -3.390829086303711,
+        3.763064384460449,
+        -3.42793345451355
+      ],
+      "selected": "__none__",
+      "inferenceMs": 19.813999999314547
+    },
+    {
+      "id": "scale-coupang-home-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__"
+      ],
+      "scores": [
+        3.5573770999908447
+      ],
+      "selected": "__none__",
+      "inferenceMs": 6.25089998356998
+    },
+    {
+      "id": "scale-coupang-home-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t1"
+      ],
+      "scores": [
+        3.5659267902374268,
+        -3.2382256984710693
+      ],
+      "selected": "__none__",
+      "inferenceMs": 11.938000097870827
+    },
+    {
+      "id": "scale-crunchyroll-attack-on-titan-search-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        3.5372238159179688,
+        -3.0475456714630127
+      ],
+      "selected": "__none__",
+      "inferenceMs": 19.42059979774058
+    },
+    {
+      "id": "scale-crunchyroll-attack-on-titan-search-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__",
+        "i1"
+      ],
+      "scores": [
+        3.356890916824341,
+        -3.40575909614563
+      ],
+      "selected": "__none__",
+      "inferenceMs": 15.590100083500147
+    },
+    {
+      "id": "scale-crunchyroll-attack-on-titan-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "t5",
+        "t2",
+        "t4",
+        "t3",
+        "__none__"
+      ],
+      "scores": [
+        -3.3794612884521484,
+        -3.3022403717041016,
+        -3.3265645503997803,
+        -3.3331212997436523,
+        -3.372103452682495,
+        3.2965102195739746
+      ],
+      "selected": "__none__",
+      "inferenceMs": 40.751000167801976
+    },
+    {
+      "id": "scale-laftel-apothecary-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "d1",
+        "__none__",
+        "d5",
+        "d6",
+        "d4",
+        "d3"
+      ],
+      "scores": [
+        -3.2610490322113037,
+        -3.079930305480957,
+        2.2666895389556885,
+        -3.1428310871124268,
+        -3.1309211254119873,
+        -2.5755791664123535,
+        -3.1095948219299316
+      ],
+      "selected": "__none__",
+      "inferenceMs": 45.22159998305142
+    },
+    {
+      "id": "scale-laftel-apothecary-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i3",
+        "i5",
+        "i12",
+        "i1",
+        "__none__",
+        "i4",
+        "i9",
+        "i2",
+        "i7",
+        "i11",
+        "i10",
+        "i8",
+        "i6"
+      ],
+      "scores": [
+        -3.3963184356689453,
+        -3.426035165786743,
+        -3.372277021408081,
+        -3.382051467895508,
+        2.130709648132324,
+        -3.394782304763794,
+        -3.3943686485290527,
+        -3.380213737487793,
+        -3.3857617378234863,
+        -3.3551485538482666,
+        -3.3948826789855957,
+        -3.416142702102661,
+        -3.4059884548187256
+      ],
+      "selected": "__none__",
+      "inferenceMs": 89.17870000004768
+    },
+    {
+      "id": "scale-laftel-apothecary-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t12",
+        "t2",
+        "t7",
+        "__none__",
+        "t4",
+        "t11",
+        "t1",
+        "t10",
+        "t3",
+        "t5",
+        "t6",
+        "t9",
+        "t8"
+      ],
+      "scores": [
+        -3.2511796951293945,
+        -3.2814013957977295,
+        -3.0219335556030273,
+        1.9381794929504395,
+        -3.098942518234253,
+        -3.1095845699310303,
+        -3.2618772983551025,
+        -3.2071759700775146,
+        -3.275827646255493,
+        -3.2050294876098633,
+        -3.0706260204315186,
+        -3.1318132877349854,
+        -3.232232093811035
+      ],
+      "selected": "__none__",
+      "inferenceMs": 67.18390015885234
+    },
+    {
+      "id": "scale-laftel-attack-on-titan-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "__none__"
+      ],
+      "scores": [
+        -3.1699745655059814,
+        4.334670543670654
+      ],
+      "selected": "__none__",
+      "inferenceMs": 15.157599933445454
+    },
+    {
+      "id": "scale-laftel-attack-on-titan-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "__none__"
+      ],
+      "scores": [
+        -3.365267276763916,
+        4.171934604644775
+      ],
+      "selected": "__none__",
+      "inferenceMs": 14.386599883437157
+    },
+    {
+      "id": "scale-laftel-attack-on-titan-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        3.9278910160064697,
+        -3.317220449447632
+      ],
+      "selected": "__none__",
+      "inferenceMs": 13.464299961924553
+    },
+    {
+      "id": "scale-laftel-attack-on-titan-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__"
+      ],
+      "scores": [
+        3.923741579055786
+      ],
+      "selected": "__none__",
+      "inferenceMs": 6.365299923345447
+    },
+    {
+      "id": "scale-laftel-attack-on-titan-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t1"
+      ],
+      "scores": [
+        3.8170063495635986,
+        -3.321782350540161
+      ],
+      "selected": "__none__",
+      "inferenceMs": 9.607700165361166
+    },
+    {
+      "id": "scale-laftel-attack-on-titan-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t3",
+        "t2",
+        "__none__",
+        "t1"
+      ],
+      "scores": [
+        -3.2336320877075195,
+        -3.3107540607452393,
+        4.293205738067627,
+        -3.26374888420105
+      ],
+      "selected": "__none__",
+      "inferenceMs": 19.34219989925623
+    },
+    {
+      "id": "scale-laftel-frieren-search-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        4.009901523590088,
+        -3.1421163082122803
+      ],
+      "selected": "__none__",
+      "inferenceMs": 14.307199977338314
+    },
+    {
+      "id": "scale-laftel-frieren-search-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__",
+        "i1"
+      ],
+      "scores": [
+        4.078239440917969,
+        -3.376976728439331
+      ],
+      "selected": "__none__",
+      "inferenceMs": 11.785299982875586
+    },
+    {
+      "id": "scale-laftel-frieren-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d6",
+        "d4",
+        "d10",
+        "d2",
+        "d1",
+        "d5",
+        "d9",
+        "d8",
+        "d11",
+        "d7",
+        "d3",
+        "d12",
+        "__none__"
+      ],
+      "scores": [
+        -2.9110748767852783,
+        -2.9127016067504883,
+        -2.7939321994781494,
+        -2.600616455078125,
+        -3.0879008769989014,
+        -2.8932201862335205,
+        -2.9020538330078125,
+        -2.9289066791534424,
+        -2.916734457015991,
+        -2.987571954727173,
+        -2.891188859939575,
+        -2.8569676876068115,
+        3.3986639976501465
+      ],
+      "selected": "__none__",
+      "inferenceMs": 92.2250000294298
+    },
+    {
+      "id": "scale-laftel-frieren-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i4",
+        "i7",
+        "i5",
+        "i11",
+        "i3",
+        "i6",
+        "__none__",
+        "i1",
+        "i8",
+        "i12",
+        "i2",
+        "i9",
+        "i10"
+      ],
+      "scores": [
+        -3.3862085342407227,
+        -3.4136476516723633,
+        -3.3875553607940674,
+        -3.415796995162964,
+        -3.4123241901397705,
+        -3.402169942855835,
+        3.457340955734253,
+        -3.382577896118164,
+        -3.4041056632995605,
+        -3.4093055725097656,
+        -3.337337017059326,
+        -3.4259419441223145,
+        -3.424736499786377
+      ],
+      "selected": "__none__",
+      "inferenceMs": 75.92469989322126
+    },
+    {
+      "id": "scale-laftel-frieren-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t3",
+        "t12",
+        "t8",
+        "t2",
+        "t6",
+        "t9",
+        "t11",
+        "t5",
+        "t1",
+        "t7",
+        "t10",
+        "__none__",
+        "t4"
+      ],
+      "scores": [
+        -3.287177801132202,
+        -3.2602412700653076,
+        -3.164891004562378,
+        -3.2872254848480225,
+        -3.1726977825164795,
+        -3.2579894065856934,
+        -3.201550245285034,
+        -3.256640672683716,
+        -3.2471563816070557,
+        -3.1926705837249756,
+        -3.2234132289886475,
+        3.1056771278381348,
+        -3.1897056102752686
+      ],
+      "selected": "__none__",
+      "inferenceMs": 70.85699983872473
+    },
+    {
+      "id": "scale-laftel-frieren-search-playback-entry-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d6",
+        "d7",
+        "d2",
+        "d1",
+        "d4",
+        "d3",
+        "d5"
+      ],
+      "scores": [
+        4.140624046325684,
+        -2.92126202583313,
+        -2.9838414192199707,
+        -2.866551637649536,
+        -3.106130838394165,
+        -3.1752994060516357,
+        -2.989431619644165,
+        -3.1955466270446777
+      ],
+      "selected": "__none__",
+      "inferenceMs": 46.4310001116246
+    },
+    {
+      "id": "scale-laftel-frieren-search-playback-entry-image",
+      "field": "image",
+      "candidateIds": [
+        "i5",
+        "i11",
+        "i3",
+        "i2",
+        "i12",
+        "i1",
+        "i4",
+        "i7",
+        "i9",
+        "__none__",
+        "i8",
+        "i6",
+        "i10"
+      ],
+      "scores": [
+        -3.3758833408355713,
+        -3.3527932167053223,
+        -3.346627950668335,
+        -3.330859899520874,
+        -3.3480069637298584,
+        -3.3800418376922607,
+        -3.3525397777557373,
+        -3.3858802318573,
+        -3.354079484939575,
+        4.034201622009277,
+        -3.386382818222046,
+        -3.355308771133423,
+        -3.363337755203247
+      ],
+      "selected": "__none__",
+      "inferenceMs": 70.69159997627139
+    },
+    {
+      "id": "scale-laftel-frieren-search-playback-entry-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t4",
+        "t5",
+        "__none__",
+        "t9",
+        "t8",
+        "t3",
+        "t12",
+        "t11",
+        "t1",
+        "t10",
+        "t6",
+        "t2"
+      ],
+      "scores": [
+        -3.2607219219207764,
+        -3.2327914237976074,
+        -3.1832611560821533,
+        4.072035312652588,
+        -3.2365224361419678,
+        -3.2428910732269287,
+        -3.2702624797821045,
+        -3.23063325881958,
+        -3.2741591930389404,
+        -3.25483775138855,
+        -3.271989107131958,
+        -3.217804431915283,
+        -3.26413893699646
+      ],
+      "selected": "__none__",
+      "inferenceMs": 58.80520003847778
+    },
+    {
+      "id": "scale-laftel-frieren-search-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t1",
+        "t2",
+        "t3"
+      ],
+      "scores": [
+        3.891352891921997,
+        -3.343953847885132,
+        -3.3362812995910645,
+        -3.243119478225708
+      ],
+      "selected": "__none__",
+      "inferenceMs": 19.823199836537242
+    },
+    {
+      "id": "scale-laftel-rezero-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d4",
+        "d6",
+        "d11",
+        "d1",
+        "__none__",
+        "d9",
+        "d5",
+        "d10",
+        "d8",
+        "d7",
+        "d2",
+        "d12",
+        "d3"
+      ],
+      "scores": [
+        -2.7965333461761475,
+        -3.013415575027466,
+        -3.1092989444732666,
+        -3.190636396408081,
+        2.260808229446411,
+        -2.9064486026763916,
+        -3.1929218769073486,
+        -2.8600656986236572,
+        -2.9656119346618652,
+        -3.0315756797790527,
+        -3.211341619491577,
+        -2.9503824710845947,
+        -2.924819231033325
+      ],
+      "selected": "__none__",
+      "inferenceMs": 94.89629999734461
+    },
+    {
+      "id": "scale-laftel-rezero-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i10",
+        "__none__",
+        "i3",
+        "i5",
+        "i7",
+        "i9",
+        "i6",
+        "i1",
+        "i12",
+        "i2",
+        "i11",
+        "i4",
+        "i8"
+      ],
+      "scores": [
+        -3.2872507572174072,
+        2.2802703380584717,
+        -3.3584346771240234,
+        -3.3066370487213135,
+        -3.314424753189087,
+        -3.3157293796539307,
+        -3.330226182937622,
+        -3.376146078109741,
+        -3.2476909160614014,
+        -3.3782880306243896,
+        -3.273007869720459,
+        -3.3617324829101562,
+        -3.3135359287261963
+      ],
+      "selected": "__none__",
+      "inferenceMs": 100.55599990300834
+    },
+    {
+      "id": "scale-laftel-rezero-detail-playback-entry-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d3",
+        "d5",
+        "d4",
+        "d1"
+      ],
+      "scores": [
+        -3.015533447265625,
+        4.0719170570373535,
+        -3.356459856033325,
+        -3.270305871963501,
+        -3.16363787651062,
+        -3.2400805950164795
+      ],
+      "selected": "__none__",
+      "inferenceMs": 47.63710009865463
+    },
+    {
+      "id": "scale-laftel-rezero-detail-playback-entry-image",
+      "field": "image",
+      "candidateIds": [
+        "i9",
+        "i8",
+        "i6",
+        "i4",
+        "i12",
+        "i7",
+        "i2",
+        "i5",
+        "i3",
+        "i11",
+        "i1",
+        "__none__",
+        "i10"
+      ],
+      "scores": [
+        -3.38360857963562,
+        -3.3761441707611084,
+        -3.3805291652679443,
+        -3.416349411010742,
+        -3.4029738903045654,
+        -3.3818726539611816,
+        -3.3962433338165283,
+        -3.384899377822876,
+        -3.362060546875,
+        -3.4070236682891846,
+        -3.393085479736328,
+        4.011432647705078,
+        -3.421950101852417
+      ],
+      "selected": "__none__",
+      "inferenceMs": 79.79210000485182
+    },
+    {
+      "id": "scale-laftel-rezero-detail-playback-entry-title",
+      "field": "title",
+      "candidateIds": [
+        "t12",
+        "t7",
+        "t11",
+        "t4",
+        "t3",
+        "t9",
+        "t10",
+        "t8",
+        "t5",
+        "t1",
+        "__none__",
+        "t6",
+        "t2"
+      ],
+      "scores": [
+        -3.272792100906372,
+        -3.1728060245513916,
+        -3.26179575920105,
+        -3.2262818813323975,
+        -3.261479616165161,
+        -3.250706434249878,
+        -3.273829221725464,
+        -3.2331044673919678,
+        -3.167825937271118,
+        -3.3092010021209717,
+        4.089478015899658,
+        -3.272832155227661,
+        -3.2804653644561768
+      ],
+      "selected": "__none__",
+      "inferenceMs": 67.02740001492202
+    },
+    {
+      "id": "scale-laftel-rezero-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t2",
+        "t3",
+        "t1",
+        "t5",
+        "t4",
+        "t7",
+        "t9",
+        "t6",
+        "t12",
+        "t11",
+        "__none__",
+        "t10",
+        "t8"
+      ],
+      "scores": [
+        -3.3420140743255615,
+        -3.3246538639068604,
+        -3.3066506385803223,
+        -3.21225905418396,
+        -3.1879777908325195,
+        -3.113539695739746,
+        -3.232909917831421,
+        -3.147345542907715,
+        -3.2924373149871826,
+        -3.1740689277648926,
+        2.1237943172454834,
+        -3.261066436767578,
+        -3.2846128940582275
+      ],
+      "selected": "__none__",
+      "inferenceMs": 84.47339991107583
+    },
+    {
+      "id": "scale-laftel-witch-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d6",
+        "d4",
+        "d8",
+        "d12",
+        "d7",
+        "d5",
+        "d9",
+        "d11",
+        "d3",
+        "__none__",
+        "d10",
+        "d2",
+        "d1"
+      ],
+      "scores": [
+        -2.9112696647644043,
+        -2.864851474761963,
+        -2.8389999866485596,
+        -2.899564504623413,
+        -2.7353579998016357,
+        -2.9275834560394287,
+        -2.8956897258758545,
+        -2.868657350540161,
+        -2.874626874923706,
+        2.58590030670166,
+        -2.944793462753296,
+        -2.995692491531372,
+        -2.9515936374664307
+      ],
+      "selected": "__none__",
+      "inferenceMs": 92.35940012149513
+    },
+    {
+      "id": "scale-laftel-witch-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i7",
+        "i11",
+        "i12",
+        "i6",
+        "i10",
+        "i9",
+        "i3",
+        "i2",
+        "i5",
+        "i1",
+        "__none__",
+        "i8",
+        "i4"
+      ],
+      "scores": [
+        -3.2554805278778076,
+        -3.2320382595062256,
+        -3.2563669681549072,
+        -3.3213841915130615,
+        -3.2422616481781006,
+        -3.2411506175994873,
+        -3.261826276779175,
+        -3.2578773498535156,
+        -3.2973947525024414,
+        -3.308962821960449,
+        2.447807550430298,
+        -3.2565500736236572,
+        -3.2534143924713135
+      ],
+      "selected": "__none__",
+      "inferenceMs": 83.50509987212718
+    },
+    {
+      "id": "scale-laftel-witch-detail-playback-entry-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "__none__",
+        "d4",
+        "d3",
+        "d5",
+        "d6",
+        "d2"
+      ],
+      "scores": [
+        -3.1665594577789307,
+        3.8103301525115967,
+        -3.2350635528564453,
+        -3.3363687992095947,
+        -3.152223825454712,
+        -3.2494986057281494,
+        -2.988406181335449
+      ],
+      "selected": "__none__",
+      "inferenceMs": 44.740499928593636
+    },
+    {
+      "id": "scale-laftel-witch-detail-playback-entry-image",
+      "field": "image",
+      "candidateIds": [
+        "i3",
+        "i11",
+        "i10",
+        "i6",
+        "i1",
+        "i7",
+        "i8",
+        "i5",
+        "__none__",
+        "i4",
+        "i12",
+        "i9",
+        "i2"
+      ],
+      "scores": [
+        -3.3462975025177,
+        -3.3377082347869873,
+        -3.3113327026367188,
+        -3.306216239929199,
+        -3.3378024101257324,
+        -3.3329501152038574,
+        -3.3339860439300537,
+        -3.3362951278686523,
+        3.8396413326263428,
+        -3.329486608505249,
+        -3.336620330810547,
+        -3.3148298263549805,
+        -3.3159406185150146
+      ],
+      "selected": "__none__",
+      "inferenceMs": 77.55869999527931
+    },
+    {
+      "id": "scale-laftel-witch-detail-playback-entry-title",
+      "field": "title",
+      "candidateIds": [
+        "t6",
+        "t5",
+        "t7",
+        "t11",
+        "t10",
+        "t8",
+        "t12",
+        "__none__",
+        "t4",
+        "t3",
+        "t9",
+        "t1",
+        "t2"
+      ],
+      "scores": [
+        -3.270805835723877,
+        -3.2429091930389404,
+        -3.242983102798462,
+        -3.2482564449310303,
+        -3.217223882675171,
+        -3.1873011589050293,
+        -3.1558001041412354,
+        3.6526832580566406,
+        -3.2126176357269287,
+        -3.255704879760742,
+        -3.261538505554199,
+        -3.2381341457366943,
+        -3.280916690826416
+      ],
+      "selected": "__none__",
+      "inferenceMs": 65.35519985482097
+    },
+    {
+      "id": "scale-laftel-witch-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t11",
+        "t5",
+        "t4",
+        "t9",
+        "t10",
+        "t8",
+        "t3",
+        "t7",
+        "t2",
+        "t12",
+        "t6",
+        "t1"
+      ],
+      "scores": [
+        2.151672601699829,
+        -2.959933042526245,
+        -3.067225933074951,
+        -2.7931301593780518,
+        -3.0921714305877686,
+        -3.200425863265991,
+        -3.095693588256836,
+        -3.1346404552459717,
+        -2.9308431148529053,
+        -3.1384990215301514,
+        -3.1774680614471436,
+        -2.8853893280029297,
+        -3.2163479328155518
+      ],
+      "selected": "__none__",
+      "inferenceMs": 77.93809985741973
+    },
+    {
+      "id": "scale-prime-attack-on-titan-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d3",
+        "d2",
+        "__none__"
+      ],
+      "scores": [
+        -3.3757119178771973,
+        -3.4003894329071045,
+        -3.371896982192993,
+        -1.6090292930603027
+      ],
+      "selected": "__none__",
+      "inferenceMs": 20.96899994648993
+    },
+    {
+      "id": "scale-prime-attack-on-titan-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i4",
+        "i3",
+        "i12",
+        "i9",
+        "__none__",
+        "i10",
+        "i8",
+        "i5",
+        "i7",
+        "i11",
+        "i1",
+        "i2",
+        "i6"
+      ],
+      "scores": [
+        -3.474421501159668,
+        -3.473012685775757,
+        -3.4458167552948,
+        -3.4687023162841797,
+        -0.985305905342102,
+        -3.455815315246582,
+        -3.453709125518799,
+        -3.4692578315734863,
+        -3.4869015216827393,
+        -3.441666603088379,
+        -3.445983648300171,
+        -3.4665732383728027,
+        -3.498000144958496
+      ],
+      "selected": "__none__",
+      "inferenceMs": 68.65589995868504
+    },
+    {
+      "id": "scale-prime-attack-on-titan-search-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t1",
+        "t2"
+      ],
+      "scores": [
+        -1.7572804689407349,
+        -3.2143783569335938,
+        -3.1972873210906982
+      ],
+      "selected": "__none__",
+      "inferenceMs": 14.412800082936883
+    },
+    {
+      "id": "scale-prime-blade-of-the-immortal-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d2",
+        "d1"
+      ],
+      "scores": [
+        -2.175323724746704,
+        -3.3715226650238037,
+        -2.867682933807373
+      ],
+      "selected": "__none__",
+      "inferenceMs": 20.615599816665053
+    },
+    {
+      "id": "scale-prime-blade-of-the-immortal-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i9",
+        "i7",
+        "i5",
+        "i11",
+        "__none__",
+        "i10",
+        "i3",
+        "i1",
+        "i6",
+        "i4",
+        "i8",
+        "i2",
+        "i12"
+      ],
+      "scores": [
+        -3.404386520385742,
+        -3.4071240425109863,
+        -3.432014226913452,
+        -3.3895344734191895,
+        -2.007906436920166,
+        -3.397876739501953,
+        -3.3980677127838135,
+        -3.420926809310913,
+        -3.3830604553222656,
+        -3.4772937297821045,
+        -3.3955109119415283,
+        -3.351336717605591,
+        -3.3803985118865967
+      ],
+      "selected": "__none__",
+      "inferenceMs": 89.14460008963943
+    },
+    {
+      "id": "scale-prime-blade-of-the-immortal-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t8",
+        "__none__",
+        "t3",
+        "t1",
+        "t5",
+        "t2",
+        "t6",
+        "t4",
+        "t7"
+      ],
+      "scores": [
+        -3.4052212238311768,
+        -2.238588333129883,
+        -3.1951844692230225,
+        -3.226217031478882,
+        -3.1978600025177,
+        -3.170341730117798,
+        -3.166616916656494,
+        -3.190330743789673,
+        -3.1696529388427734
+      ],
+      "selected": "__none__",
+      "inferenceMs": 40.40020005777478
+    },
+    {
+      "id": "scale-prime-frieren-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d8",
+        "d3",
+        "__none__",
+        "d7",
+        "d6",
+        "d2",
+        "d1",
+        "d4",
+        "d5",
+        "d9"
+      ],
+      "scores": [
+        -3.397899866104126,
+        -3.3984882831573486,
+        -1.6090292930603027,
+        -3.368086099624634,
+        -3.408080577850342,
+        -3.371896982192993,
+        -3.4003894329071045,
+        -3.5017924308776855,
+        -3.389875650405884,
+        -3.39406681060791
+      ],
+      "selected": "__none__",
+      "inferenceMs": 63.81159997545183
+    },
+    {
+      "id": "scale-prime-frieren-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i7",
+        "i6",
+        "i3",
+        "i12",
+        "i8",
+        "__none__",
+        "i5",
+        "i2",
+        "i11",
+        "i1",
+        "i4",
+        "i9",
+        "i10"
+      ],
+      "scores": [
+        -3.4490902423858643,
+        -3.4692578315734863,
+        -3.453709125518799,
+        -3.4444291591644287,
+        -3.4526915550231934,
+        -0.985305905342102,
+        -3.4615800380706787,
+        -3.465053081512451,
+        -3.4777069091796875,
+        -3.445983648300171,
+        -3.4674007892608643,
+        -3.466688632965088,
+        -3.4591143131256104
+      ],
+      "selected": "__none__",
+      "inferenceMs": 78.22649995796382
+    },
+    {
+      "id": "scale-prime-frieren-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t2",
+        "__none__",
+        "t1"
+      ],
+      "scores": [
+        -3.1972873210906982,
+        -1.7572804689407349,
+        -3.2143783569335938
+      ],
+      "selected": "__none__",
+      "inferenceMs": 17.208200180903077
+    },
+    {
+      "id": "scale-prime-hazbin-hotel-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -2.183154344558716,
+        -2.9068691730499268
+      ],
+      "selected": "__none__",
+      "inferenceMs": 18.485500011593103
+    },
+    {
+      "id": "scale-prime-hazbin-hotel-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i12",
+        "i3",
+        "i10",
+        "i1",
+        "__none__",
+        "i6",
+        "i4",
+        "i11",
+        "i9",
+        "i7",
+        "i8",
+        "i5"
+      ],
+      "scores": [
+        -3.3206872940063477,
+        -3.328632116317749,
+        -3.359440326690674,
+        -3.34722900390625,
+        -3.3695740699768066,
+        -2.0739822387695312,
+        -3.3947184085845947,
+        -3.470508337020874,
+        -3.359393835067749,
+        -3.2643916606903076,
+        -3.361894369125366,
+        -3.3802216053009033,
+        -3.3265655040740967
+      ],
+      "selected": "__none__",
+      "inferenceMs": 81.77349995821714
+    },
+    {
+      "id": "scale-prime-hazbin-hotel-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t7",
+        "t1",
+        "t4",
+        "t8",
+        "t5",
+        "t3",
+        "t6",
+        "t2"
+      ],
+      "scores": [
+        -2.2669296264648438,
+        -3.085899591445923,
+        -3.2523317337036133,
+        -3.0592126846313477,
+        -3.3449251651763916,
+        -3.155430555343628,
+        -3.13460373878479,
+        -3.125551462173462,
+        -2.9993999004364014
+      ],
+      "selected": "__none__",
+      "inferenceMs": 44.60680019110441
+    },
+    {
+      "id": "scale-prime-look-back-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1",
+        "d2"
+      ],
+      "scores": [
+        -2.3748724460601807,
+        -2.960249900817871,
+        -3.376640558242798
+      ],
+      "selected": "__none__",
+      "inferenceMs": 18.739599967375398
+    },
+    {
+      "id": "scale-prime-look-back-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i7",
+        "i3",
+        "i1",
+        "i6",
+        "i9",
+        "__none__",
+        "i5",
+        "i8",
+        "i10",
+        "i2",
+        "i4",
+        "i12",
+        "i11"
+      ],
+      "scores": [
+        -3.4395692348480225,
+        -3.4662106037139893,
+        -3.398538827896118,
+        -3.4353830814361572,
+        -3.457698106765747,
+        -2.366624355316162,
+        -3.4355506896972656,
+        -3.4248263835906982,
+        -3.435589075088501,
+        -3.42055606842041,
+        -3.510828733444214,
+        -3.413275718688965,
+        -3.420510768890381
+      ],
+      "selected": "__none__",
+      "inferenceMs": 73.66880006156862
+    },
+    {
+      "id": "scale-prime-look-back-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t5",
+        "t1",
+        "t3",
+        "t6",
+        "t2",
+        "t4"
+      ],
+      "scores": [
+        -2.4239346981048584,
+        -3.1611521244049072,
+        -3.1916391849517822,
+        -3.1285641193389893,
+        -3.38053822517395,
+        -3.071089029312134,
+        -3.164745569229126
+      ],
+      "selected": "__none__",
+      "inferenceMs": 32.11489995010197
+    },
+    {
+      "id": "scale-tving-attack-on-titan-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d7",
+        "d5",
+        "d2",
+        "d11",
+        "d4",
+        "d12",
+        "d6",
+        "d9",
+        "d1",
+        "d8",
+        "d10",
+        "d3"
+      ],
+      "scores": [
+        -2.2259366512298584,
+        -2.86379075050354,
+        -2.8235695362091064,
+        -2.8101508617401123,
+        -2.9077954292297363,
+        -2.8560478687286377,
+        -2.7600324153900146,
+        -2.821751832962036,
+        -2.8724148273468018,
+        -3.112416982650757,
+        -2.8495492935180664,
+        -2.859344720840454,
+        -2.818512201309204
+      ],
+      "selected": "__none__",
+      "inferenceMs": 83.75809993594885
+    },
+    {
+      "id": "scale-tving-attack-on-titan-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i4",
+        "i7",
+        "i2",
+        "__none__",
+        "i8",
+        "i11",
+        "i10",
+        "i6",
+        "i9",
+        "i3",
+        "i1",
+        "i5",
+        "i12"
+      ],
+      "scores": [
+        -3.3321220874786377,
+        -3.2176506519317627,
+        -3.2910404205322266,
+        -2.0143544673919678,
+        -3.2176506519317627,
+        -3.2176506519317627,
+        -3.2176506519317627,
+        -3.2176506519317627,
+        -3.2176506519317627,
+        -3.3617799282073975,
+        -3.2991225719451904,
+        -3.2275550365448,
+        -3.2176506519317627
+      ],
+      "selected": "__none__",
+      "inferenceMs": 82.72850001230836
+    },
+    {
+      "id": "scale-tving-attack-on-titan-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t3",
+        "t1",
+        "__none__",
+        "t2",
+        "t4"
+      ],
+      "scores": [
+        -3.140582323074341,
+        -3.303844690322876,
+        -2.303180456161499,
+        -3.1134226322174072,
+        -3.1858770847320557
+      ],
+      "selected": "__none__",
+      "inferenceMs": 27.347000082954764
+    },
+    {
+      "id": "scale-tving-attack-on-titan-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "d3",
+        "d11",
+        "d8",
+        "d6",
+        "__none__",
+        "d1",
+        "d4",
+        "d5",
+        "d7",
+        "d10",
+        "d12",
+        "d9"
+      ],
+      "scores": [
+        -3.2193925380706787,
+        -3.3327202796936035,
+        -3.2051820755004883,
+        -3.367478132247925,
+        -3.383375406265259,
+        1.008265495300293,
+        -3.2673914432525635,
+        -3.316025495529175,
+        -3.40366530418396,
+        -2.96802020072937,
+        -3.238994836807251,
+        -3.3260481357574463,
+        -3.2274622917175293
+      ],
+      "selected": "__none__",
+      "inferenceMs": 85.88890009559691
+    },
+    {
+      "id": "scale-tving-attack-on-titan-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i5",
+        "i7",
+        "i11",
+        "i1",
+        "i4",
+        "i10",
+        "i9",
+        "i12",
+        "i3",
+        "i2",
+        "__none__",
+        "i6",
+        "i8"
+      ],
+      "scores": [
+        -3.407475709915161,
+        -3.4099276065826416,
+        -3.408644199371338,
+        -3.390489339828491,
+        -3.4012625217437744,
+        -3.360567808151245,
+        -3.3966052532196045,
+        -3.4010064601898193,
+        -3.403681993484497,
+        -3.339129686355591,
+        0.8744322061538696,
+        -3.4205265045166016,
+        -3.3992600440979004
+      ],
+      "selected": "__none__",
+      "inferenceMs": 68.76239995472133
+    },
+    {
+      "id": "scale-tving-attack-on-titan-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t4",
+        "t12",
+        "t9",
+        "__none__",
+        "t6",
+        "t5",
+        "t2",
+        "t3",
+        "t8",
+        "t7",
+        "t11",
+        "t10",
+        "t1"
+      ],
+      "scores": [
+        -3.2828211784362793,
+        -3.3141884803771973,
+        -3.1976940631866455,
+        0.38087648153305054,
+        -3.2483017444610596,
+        -3.2589123249053955,
+        -3.248354434967041,
+        -3.281858205795288,
+        -3.237926483154297,
+        -3.208374261856079,
+        -3.3313159942626953,
+        -3.233927011489868,
+        -3.3330445289611816
+      ],
+      "selected": "__none__",
+      "inferenceMs": 80.64910001121461
+    },
+    {
+      "id": "scale-tving-chainsaw-man-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d10",
+        "d8",
+        "d6",
+        "d5",
+        "d3",
+        "d4",
+        "__none__",
+        "d2",
+        "d9",
+        "d7",
+        "d12",
+        "d11"
+      ],
+      "scores": [
+        -3.130033016204834,
+        -2.7310736179351807,
+        -2.708885908126831,
+        -2.9111745357513428,
+        -2.825662851333618,
+        -2.741962432861328,
+        -2.783432722091675,
+        -2.4330637454986572,
+        -2.8604421615600586,
+        -2.678962469100952,
+        -2.8804759979248047,
+        -2.773193597793579,
+        -2.8615100383758545
+      ],
+      "selected": "__none__",
+      "inferenceMs": 87.48089987784624
+    },
+    {
+      "id": "scale-tving-chainsaw-man-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i11",
+        "__none__",
+        "i7",
+        "i5",
+        "i12",
+        "i3",
+        "i6",
+        "i2",
+        "i4",
+        "i10",
+        "i8",
+        "i9",
+        "i1"
+      ],
+      "scores": [
+        -3.2928669452667236,
+        -2.2631235122680664,
+        -3.2928669452667236,
+        -3.305262327194214,
+        -3.2928669452667236,
+        -3.4176018238067627,
+        -3.2928669452667236,
+        -3.3618838787078857,
+        -3.4055838584899902,
+        -3.2928669452667236,
+        -3.2928669452667236,
+        -3.2928669452667236,
+        -3.332890272140503
+      ],
+      "selected": "__none__",
+      "inferenceMs": 88.27510010451078
+    },
+    {
+      "id": "scale-tving-chainsaw-man-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t2",
+        "t4",
+        "__none__",
+        "t1",
+        "t3"
+      ],
+      "scores": [
+        -3.1885974407196045,
+        -3.238539934158325,
+        -2.4735453128814697,
+        -3.3360726833343506,
+        -3.2140400409698486
+      ],
+      "selected": "__none__",
+      "inferenceMs": 28.24799995869398
+    },
+    {
+      "id": "scale-tving-frieren-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d12",
+        "d3",
+        "d6",
+        "d2",
+        "d11",
+        "d10",
+        "__none__",
+        "d8",
+        "d7",
+        "d1",
+        "d4",
+        "d9",
+        "d5"
+      ],
+      "scores": [
+        -2.7272868156433105,
+        -2.7411725521087646,
+        -2.836695909500122,
+        -2.7199947834014893,
+        -2.7349820137023926,
+        -2.7950212955474854,
+        -1.9981939792633057,
+        -2.7336716651916504,
+        -2.794187307357788,
+        -2.9789249897003174,
+        -2.7462785243988037,
+        -2.7283709049224854,
+        -2.7318339347839355
+      ],
+      "selected": "__none__",
+      "inferenceMs": 114.38269983045757
+    },
+    {
+      "id": "scale-tving-frieren-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i6",
+        "i10",
+        "i1",
+        "i9",
+        "__none__",
+        "i5",
+        "i4",
+        "i7",
+        "i8",
+        "i11",
+        "i12",
+        "i2",
+        "i3"
+      ],
+      "scores": [
+        -3.275967836380005,
+        -3.275967836380005,
+        -3.2955291271209717,
+        -3.275967836380005,
+        -1.9542112350463867,
+        -3.207374095916748,
+        -3.3046252727508545,
+        -3.275967836380005,
+        -3.275967836380005,
+        -3.275967836380005,
+        -3.275967836380005,
+        -3.2856850624084473,
+        -3.1328532695770264
+      ],
+      "selected": "__none__",
+      "inferenceMs": 105.74849997647107
+    },
+    {
+      "id": "scale-tving-frieren-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t3",
+        "t2",
+        "t4",
+        "__none__",
+        "t1"
+      ],
+      "scores": [
+        -2.952368974685669,
+        -2.979588747024536,
+        -3.0426185131073,
+        -2.108715534210205,
+        -3.180004835128784
+      ],
+      "selected": "__none__",
+      "inferenceMs": 37.248299922794104
+    },
+    {
+      "id": "scale-tving-frieren-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "d1",
+        "d4",
+        "__none__",
+        "d7",
+        "d3",
+        "d5",
+        "d6"
+      ],
+      "scores": [
+        -3.285395383834839,
+        -3.2641475200653076,
+        -3.191572904586792,
+        -0.2536364793777466,
+        -3.2848479747772217,
+        -3.420030355453491,
+        -3.1956160068511963,
+        -3.2033028602600098
+      ],
+      "selected": "__none__",
+      "inferenceMs": 58.8444999884814
+    },
+    {
+      "id": "scale-tving-frieren-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i10",
+        "i4",
+        "i9",
+        "i11",
+        "i12",
+        "i3",
+        "i8",
+        "i1",
+        "__none__",
+        "i7",
+        "i5",
+        "i2",
+        "i6"
+      ],
+      "scores": [
+        -3.4070990085601807,
+        -3.422116994857788,
+        -3.4227588176727295,
+        -3.373589038848877,
+        -3.317690134048462,
+        -3.386808156967163,
+        -3.4211580753326416,
+        -3.390261173248291,
+        -0.7005958557128906,
+        -3.413095235824585,
+        -3.4110569953918457,
+        -3.3680226802825928,
+        -3.4057223796844482
+      ],
+      "selected": "__none__",
+      "inferenceMs": 73.25199991464615
+    },
+    {
+      "id": "scale-tving-frieren-search-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t7",
+        "t8",
+        "t1",
+        "t4",
+        "t12",
+        "t5",
+        "t9",
+        "t10",
+        "t6",
+        "t3",
+        "t2",
+        "t11"
+      ],
+      "scores": [
+        -0.7996072769165039,
+        -3.3270015716552734,
+        -3.314140558242798,
+        -3.3536922931671143,
+        -3.2160677909851074,
+        -3.3550021648406982,
+        -3.3141181468963623,
+        -3.3721468448638916,
+        -3.3801894187927246,
+        -3.352435827255249,
+        -3.2237865924835205,
+        -3.24819016456604,
+        -3.383941411972046
+      ],
+      "selected": "__none__",
+      "inferenceMs": 70.85270015522838
+    },
+    {
+      "id": "scale-watcha-attack-on-titan-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1",
+        "d2"
+      ],
+      "scores": [
+        -2.889324188232422,
+        -3.022972822189331,
+        -3.1421923637390137
+      ],
+      "selected": "__none__",
+      "inferenceMs": 21.760799922049046
+    },
+    {
+      "id": "scale-watcha-attack-on-titan-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__",
+        "i2",
+        "i3",
+        "i1"
+      ],
+      "scores": [
+        -2.878758668899536,
+        -3.207852602005005,
+        -3.2089145183563232,
+        -3.218809127807617
+      ],
+      "selected": "__none__",
+      "inferenceMs": 26.662199990823865
+    },
+    {
+      "id": "scale-watcha-attack-on-titan-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t2",
+        "__none__",
+        "t1"
+      ],
+      "scores": [
+        -3.0847318172454834,
+        -2.9045960903167725,
+        -3.1855885982513428
+      ],
+      "selected": "__none__",
+      "inferenceMs": 16.319100046530366
+    },
+    {
+      "id": "scale-watcha-attack-on-titan-search-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -2.5931217670440674,
+        -2.9541263580322266
+      ],
+      "selected": "__none__",
+      "inferenceMs": 12.10619998164475
+    },
+    {
+      "id": "scale-watcha-attack-on-titan-search-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__",
+        "i1"
+      ],
+      "scores": [
+        -2.6263585090637207,
+        -3.105886936187744
+      ],
+      "selected": "__none__",
+      "inferenceMs": 10.07189997471869
+    },
+    {
+      "id": "scale-watcha-attack-on-titan-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t2",
+        "t1",
+        "__none__"
+      ],
+      "scores": [
+        -2.9344544410705566,
+        -2.944896936416626,
+        -2.589304208755493
+      ],
+      "selected": "__none__",
+      "inferenceMs": 14.663400128483772
+    },
+    {
+      "id": "scale-watcha-chainsaw-man-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "__none__"
+      ],
+      "scores": [
+        -2.9665229320526123,
+        -2.8331801891326904
+      ],
+      "selected": "__none__",
+      "inferenceMs": 18.606700003147125
+    },
+    {
+      "id": "scale-watcha-chainsaw-man-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i3",
+        "__none__",
+        "i2",
+        "i1"
+      ],
+      "scores": [
+        -3.0604147911071777,
+        -2.829949378967285,
+        -3.075446367263794,
+        -3.1210968494415283
+      ],
+      "selected": "__none__",
+      "inferenceMs": 23.07579992339015
+    },
+    {
+      "id": "scale-watcha-chainsaw-man-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "__none__",
+        "t2"
+      ],
+      "scores": [
+        -3.077690362930298,
+        -2.8305883407592773,
+        -2.95812726020813
+      ],
+      "selected": "__none__",
+      "inferenceMs": 13.427400030195713
+    },
+    {
+      "id": "scale-watcha-frieren-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -2.768993616104126,
+        -2.8704795837402344
+      ],
+      "selected": "__none__",
+      "inferenceMs": 17.892800038680434
+    },
+    {
+      "id": "scale-watcha-frieren-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i3",
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "scores": [
+        -2.9839584827423096,
+        -3.0426836013793945,
+        -3.037942886352539,
+        -2.8031551837921143
+      ],
+      "selected": "__none__",
+      "inferenceMs": 23.345000110566616
+    },
+    {
+      "id": "scale-watcha-frieren-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t1",
+        "t2"
+      ],
+      "scores": [
+        -2.756711959838867,
+        -2.9832682609558105,
+        -2.859459638595581
+      ],
+      "selected": "__none__",
+      "inferenceMs": 13.666000217199326
+    },
+    {
+      "id": "scale-wavve-attack-on-titan-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "d1",
+        "d5",
+        "d7",
+        "d6",
+        "d4",
+        "__none__",
+        "d3"
+      ],
+      "scores": [
+        -3.3649439811706543,
+        -3.357557535171509,
+        -3.3895888328552246,
+        -3.3224856853485107,
+        -3.039417028427124,
+        -3.382556915283203,
+        4.321516513824463,
+        -3.3499419689178467
+      ],
+      "selected": "__none__",
+      "inferenceMs": 54.33740001171827
+    },
+    {
+      "id": "scale-wavve-attack-on-titan-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i11",
+        "i3",
+        "i4",
+        "i12",
+        "i9",
+        "i7",
+        "i10",
+        "i5",
+        "i1",
+        "i6",
+        "__none__",
+        "i8",
+        "i2"
+      ],
+      "scores": [
+        -3.379439353942871,
+        -3.4686503410339355,
+        -3.4824154376983643,
+        -3.4815361499786377,
+        -3.4822704792022705,
+        -3.4846889972686768,
+        -3.400930643081665,
+        -3.4898927211761475,
+        -3.430849552154541,
+        -3.492147207260132,
+        4.254008769989014,
+        -3.3198535442352295,
+        -3.4851438999176025
+      ],
+      "selected": "__none__",
+      "inferenceMs": 76.22669986449182
+    },
+    {
+      "id": "scale-wavve-attack-on-titan-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t6",
+        "t12",
+        "t8",
+        "t11",
+        "t7",
+        "t4",
+        "t2",
+        "__none__",
+        "t9",
+        "t3",
+        "t1",
+        "t5",
+        "t10"
+      ],
+      "scores": [
+        -3.2895896434783936,
+        -3.2432005405426025,
+        -3.3012845516204834,
+        -3.2693870067596436,
+        -3.284146547317505,
+        -3.2832841873168945,
+        -3.355753183364868,
+        4.268784046173096,
+        -3.221083402633667,
+        -3.2849085330963135,
+        -3.277057409286499,
+        -3.294670820236206,
+        -3.2762253284454346
+      ],
+      "selected": "__none__",
+      "inferenceMs": 56.63700005970895
+    },
+    {
+      "id": "scale-wavve-frieren-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d6",
+        "d7",
+        "d2",
+        "d4",
+        "d1",
+        "d5",
+        "__none__",
+        "d3"
+      ],
+      "scores": [
+        -3.177837610244751,
+        -3.164715051651001,
+        -3.2866642475128174,
+        -3.2628173828125,
+        -3.2870028018951416,
+        -3.3404572010040283,
+        3.985924005508423,
+        -3.2480533123016357
+      ],
+      "selected": "__none__",
+      "inferenceMs": 43.71180012822151
+    },
+    {
+      "id": "scale-wavve-frieren-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i7",
+        "i5",
+        "i9",
+        "i1",
+        "i6",
+        "i12",
+        "i8",
+        "i11",
+        "i3",
+        "i2",
+        "i4",
+        "__none__",
+        "i10"
+      ],
+      "scores": [
+        -3.4162685871124268,
+        -3.360642671585083,
+        -3.39780330657959,
+        -3.3936595916748047,
+        -3.4094436168670654,
+        -3.3533425331115723,
+        -3.379335641860962,
+        -3.380037546157837,
+        -3.309555768966675,
+        -3.330545663833618,
+        -3.3671693801879883,
+        3.7535295486450195,
+        -3.396315574645996
+      ],
+      "selected": "__none__",
+      "inferenceMs": 95.13889998197556
+    },
+    {
+      "id": "scale-wavve-frieren-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d9",
+        "d5",
+        "d1",
+        "d10",
+        "d4",
+        "d6",
+        "__none__",
+        "d2",
+        "d12",
+        "d7",
+        "d8",
+        "d3",
+        "d11"
+      ],
+      "scores": [
+        -2.6974897384643555,
+        -2.574493646621704,
+        -3.2682673931121826,
+        -2.618406057357788,
+        -2.400036334991455,
+        -2.5593581199645996,
+        3.2832515239715576,
+        -3.2254655361175537,
+        -2.571726083755493,
+        -2.6874425411224365,
+        -2.5948050022125244,
+        -2.528167247772217,
+        -2.6195054054260254
+      ],
+      "selected": "__none__",
+      "inferenceMs": 138.48969992250204
+    },
+    {
+      "id": "scale-wavve-frieren-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i5",
+        "i7",
+        "i10",
+        "i12",
+        "i11",
+        "__none__",
+        "i8",
+        "i1",
+        "i3",
+        "i2",
+        "i9",
+        "i4",
+        "i6"
+      ],
+      "scores": [
+        -3.2885875701904297,
+        -3.2783091068267822,
+        -3.3006668090820312,
+        -3.292311906814575,
+        -3.3020455837249756,
+        3.140545606613159,
+        -3.327620267868042,
+        -3.3274543285369873,
+        -3.2334978580474854,
+        -3.3046376705169678,
+        -3.2874927520751953,
+        -3.302276372909546,
+        -3.3147315979003906
+      ],
+      "selected": "__none__",
+      "inferenceMs": 111.28610000014305
+    },
+    {
+      "id": "scale-wavve-frieren-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "t9",
+        "__none__",
+        "t7",
+        "t3",
+        "t6",
+        "t5",
+        "t11",
+        "t2",
+        "t12",
+        "t4",
+        "t10",
+        "t8"
+      ],
+      "scores": [
+        -3.173383951187134,
+        -2.947678565979004,
+        3.0114057064056396,
+        -2.891709804534912,
+        -3.2193024158477783,
+        -3.076636791229248,
+        -3.1005969047546387,
+        -2.9720418453216553,
+        -3.1996262073516846,
+        -3.0675413608551025,
+        -3.01013445854187,
+        -3.005627393722534,
+        -3.0864665508270264
+      ],
+      "selected": "__none__",
+      "inferenceMs": 78.84289999492466
+    },
+    {
+      "id": "scale-wavve-frieren-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t3",
+        "t9",
+        "t5",
+        "t8",
+        "t6",
+        "__none__",
+        "t11",
+        "t4",
+        "t7",
+        "t1",
+        "t2",
+        "t10",
+        "t12"
+      ],
+      "scores": [
+        -3.1901800632476807,
+        -3.1833913326263428,
+        -3.1811769008636475,
+        -3.131885290145874,
+        -3.1083312034606934,
+        3.8032732009887695,
+        -3.192931652069092,
+        -3.1775267124176025,
+        -3.1758244037628174,
+        -3.2551429271698,
+        -3.2606685161590576,
+        -3.195023775100708,
+        -3.192626476287842
+      ],
+      "selected": "__none__",
+      "inferenceMs": 64.61170013062656
+    }
+  ],
+  "validationPredictions": [
+    {
+      "id": "auth-coupang-jujutsu-player-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d3",
+        "d1",
+        "d2"
+      ],
+      "scores": [
+        4.084829807281494,
+        -3.4353737831115723,
+        -3.254897356033325,
+        -3.3445942401885986
+      ],
+      "selected": "__none__",
+      "inferenceMs": 27.03940006904304
+    },
+    {
+      "id": "auth-coupang-jujutsu-player-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i1",
+        "__none__"
+      ],
+      "scores": [
+        -3.5061726570129395,
+        -3.4227473735809326,
+        3.7445781230926514
+      ],
+      "selected": "__none__",
+      "inferenceMs": 21.211300045251846
+    },
+    {
+      "id": "auth-coupang-jujutsu-player-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "__none__",
+        "t2"
+      ],
+      "scores": [
+        -3.2608189582824707,
+        4.070724964141846,
+        -3.178936243057251
+      ],
+      "selected": "__none__",
+      "inferenceMs": 18.635899992659688
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d2",
+        "d5",
+        "d6",
+        "d4",
+        "__none__",
+        "d3"
+      ],
+      "scores": [
+        -3.3532607555389404,
+        -3.2780213356018066,
+        -3.2838637828826904,
+        -3.2221882343292236,
+        -3.208211660385132,
+        3.671339273452759,
+        -3.277482748031616
+      ],
+      "selected": "__none__",
+      "inferenceMs": 51.916099851951
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i3",
+        "i8",
+        "i5",
+        "i9",
+        "i2",
+        "i12",
+        "i6",
+        "i7",
+        "i1",
+        "i11",
+        "__none__",
+        "i4",
+        "i10"
+      ],
+      "scores": [
+        -3.4924511909484863,
+        -3.506617784500122,
+        -3.4938950538635254,
+        -3.505607843399048,
+        -3.5892181396484375,
+        -3.502467632293701,
+        -3.4444234371185303,
+        -3.5003020763397217,
+        -3.6206586360931396,
+        -3.539923667907715,
+        3.285792589187622,
+        -3.5092062950134277,
+        -3.407127857208252
+      ],
+      "selected": "__none__",
+      "inferenceMs": 78.1839000992477
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t9",
+        "t1",
+        "t2",
+        "t12",
+        "t10",
+        "t4",
+        "t5",
+        "t3",
+        "t6",
+        "t11",
+        "__none__",
+        "t8"
+      ],
+      "scores": [
+        -3.2426559925079346,
+        -3.2377054691314697,
+        -3.296201705932617,
+        -3.330904006958008,
+        -3.206376791000366,
+        -3.210068702697754,
+        -3.310807466506958,
+        -3.3136239051818848,
+        -3.290611743927002,
+        -3.276176691055298,
+        -3.2392303943634033,
+        3.469119071960449,
+        -3.211167573928833
+      ],
+      "selected": "__none__",
+      "inferenceMs": 61.08650006353855
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d3",
+        "d2",
+        "d8",
+        "d10",
+        "d5",
+        "d11",
+        "__none__",
+        "d6",
+        "d4",
+        "d12",
+        "d9",
+        "d7",
+        "d1"
+      ],
+      "scores": [
+        -3.162245035171509,
+        -3.1508948802948,
+        -3.1705148220062256,
+        -3.1765427589416504,
+        -3.1440320014953613,
+        -2.474931240081787,
+        3.9375860691070557,
+        -3.113492250442505,
+        -3.4826347827911377,
+        -3.1742043495178223,
+        -2.4636054039001465,
+        -2.6327078342437744,
+        -3.200800895690918
+      ],
+      "selected": "__none__",
+      "inferenceMs": 77.29809987358749
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i5",
+        "i9",
+        "i1",
+        "i7",
+        "i10",
+        "i8",
+        "i4",
+        "i6",
+        "__none__",
+        "i3",
+        "i2"
+      ],
+      "scores": [
+        -3.4745523929595947,
+        -3.373365640640259,
+        -3.3549768924713135,
+        -3.42467999458313,
+        -3.409048318862915,
+        -3.3363912105560303,
+        -3.396954298019409,
+        -3.408588171005249,
+        3.8979687690734863,
+        -3.485424757003784,
+        -3.38291335105896
+      ],
+      "selected": "__none__",
+      "inferenceMs": 71.3288001716137
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t3",
+        "t8",
+        "t7",
+        "__none__",
+        "t9",
+        "t1",
+        "t6",
+        "t10",
+        "t11",
+        "t4",
+        "t5",
+        "t2",
+        "t12"
+      ],
+      "scores": [
+        -3.310979127883911,
+        -3.1502583026885986,
+        -3.17010760307312,
+        3.8815178871154785,
+        -3.1842219829559326,
+        -3.3254966735839844,
+        -3.145662307739258,
+        -3.294114351272583,
+        -3.2821834087371826,
+        -3.2955708503723145,
+        -3.3192250728607178,
+        -3.314707040786743,
+        -3.4911608695983887
+      ],
+      "selected": "__none__",
+      "inferenceMs": 58.358300011605024
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -2.939575433731079,
+        -2.800309896469116,
+        -2.953660726547241
+      ],
+      "selected": "__none__",
+      "inferenceMs": 18.814099952578545
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i11",
+        "i12",
+        "i6",
+        "__none__",
+        "i4",
+        "i1",
+        "i7",
+        "i10",
+        "i5",
+        "i8",
+        "i2",
+        "i3",
+        "i9"
+      ],
+      "scores": [
+        -3.0869414806365967,
+        -3.1003577709198,
+        -3.0970773696899414,
+        -2.8229448795318604,
+        -3.071117639541626,
+        -3.1129236221313477,
+        -3.047987222671509,
+        -3.052839994430542,
+        -3.1475942134857178,
+        -3.0555508136749268,
+        -3.1198384761810303,
+        -3.044483184814453,
+        -3.053361654281616
+      ],
+      "selected": "__none__",
+      "inferenceMs": 66.80850009433925
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t9",
+        "t1",
+        "t6",
+        "t7",
+        "t2",
+        "__none__",
+        "t8",
+        "t3",
+        "t4",
+        "t10",
+        "t12",
+        "t5",
+        "t11"
+      ],
+      "scores": [
+        -2.9449899196624756,
+        -3.0252606868743896,
+        -3.0418126583099365,
+        -2.9383766651153564,
+        -2.919102430343628,
+        -2.784576654434204,
+        -2.936819076538086,
+        -2.978001594543457,
+        -2.9754955768585205,
+        -2.966493844985962,
+        -2.985832452774048,
+        -2.9863781929016113,
+        -2.973867177963257
+      ],
+      "selected": "__none__",
+      "inferenceMs": 62.012300128117204
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "__none__"
+      ],
+      "scores": [
+        -2.9541263580322266,
+        -2.5931217670440674
+      ],
+      "selected": "__none__",
+      "inferenceMs": 13.51980003528297
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i4",
+        "i2",
+        "i1",
+        "i3",
+        "__none__"
+      ],
+      "scores": [
+        -3.062037706375122,
+        -3.0341508388519287,
+        -3.105886936187744,
+        -2.9899027347564697,
+        -2.6263585090637207
+      ],
+      "selected": "__none__",
+      "inferenceMs": 31.739800004288554
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "t2",
+        "t5",
+        "t4",
+        "__none__",
+        "t3"
+      ],
+      "scores": [
+        -2.944896936416626,
+        -2.9344544410705566,
+        -2.895183801651001,
+        -2.8768136501312256,
+        -2.589304208755493,
+        -2.8889546394348145
+      ],
+      "selected": "__none__",
+      "inferenceMs": 31.082599889487028
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -3.1947479248046875,
+        4.266505241394043,
+        -3.224353075027466
+      ],
+      "selected": "__none__",
+      "inferenceMs": 23.357699858024716
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "__none__"
+      ],
+      "scores": [
+        -3.3578507900238037,
+        4.092360019683838
+      ],
+      "selected": "__none__",
+      "inferenceMs": 13.481499860063195
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d5",
+        "d2",
+        "d11",
+        "d3",
+        "d12",
+        "d1",
+        "d4",
+        "d8",
+        "__none__",
+        "d6",
+        "d9",
+        "d7",
+        "d10"
+      ],
+      "scores": [
+        -2.9668331146240234,
+        -3.2919089794158936,
+        -2.9762768745422363,
+        -3.3319778442382812,
+        -2.842515707015991,
+        -3.320876359939575,
+        -3.083824396133423,
+        -3.0369374752044678,
+        1.8561971187591553,
+        -3.0224921703338623,
+        -2.883420705795288,
+        -2.9261651039123535,
+        -3.023616075515747
+      ],
+      "selected": "__none__",
+      "inferenceMs": 100.40519991889596
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "scores": [
+        -3.461287260055542,
+        -3.415332555770874,
+        1.0905189514160156
+      ],
+      "selected": "__none__",
+      "inferenceMs": 16.750700073316693
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t6",
+        "t3",
+        "t8",
+        "t7",
+        "t2",
+        "t9",
+        "t5",
+        "t12",
+        "__none__",
+        "t11",
+        "t10",
+        "t4",
+        "t1"
+      ],
+      "scores": [
+        -3.333130121231079,
+        -3.352231740951538,
+        -3.348482370376587,
+        -3.3494760990142822,
+        -3.359977960586548,
+        -3.295599937438965,
+        -3.3393356800079346,
+        -3.3216300010681152,
+        1.487989902496338,
+        -3.376535654067993,
+        -3.3222815990448,
+        -3.2860915660858154,
+        -3.327871561050415
+      ],
+      "selected": "__none__",
+      "inferenceMs": 70.1718998607248
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "__none__",
+        "t4",
+        "t2",
+        "t5",
+        "t3"
+      ],
+      "scores": [
+        -3.3229782581329346,
+        4.200267314910889,
+        -3.2757816314697266,
+        -3.3449838161468506,
+        -3.287137508392334,
+        -3.220508337020874
+      ],
+      "selected": "__none__",
+      "inferenceMs": 29.499500058591366
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d2",
+        "__none__"
+      ],
+      "scores": [
+        -3.3608222007751465,
+        -3.3631041049957275,
+        3.763064384460449
+      ],
+      "selected": "__none__",
+      "inferenceMs": 18.610900035127997
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__"
+      ],
+      "scores": [
+        3.5573770999908447
+      ],
+      "selected": "__none__",
+      "inferenceMs": 5.135499872267246
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "__none__"
+      ],
+      "scores": [
+        -3.2382256984710693,
+        3.5659267902374268
+      ],
+      "selected": "__none__",
+      "inferenceMs": 10.451100068166852
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        4.2499823570251465,
+        -3.2754809856414795
+      ],
+      "selected": "__none__",
+      "inferenceMs": 18.346099881455302
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "__none__"
+      ],
+      "scores": [
+        -3.4229960441589355,
+        4.163093090057373
+      ],
+      "selected": "__none__",
+      "inferenceMs": 13.00120004452765
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d4",
+        "d1",
+        "d8",
+        "d12",
+        "__none__",
+        "d7",
+        "d2",
+        "d11",
+        "d9",
+        "d3",
+        "d6",
+        "d5",
+        "d10"
+      ],
+      "scores": [
+        -3.0842645168304443,
+        -3.2369978427886963,
+        -3.1502492427825928,
+        -2.986687660217285,
+        4.1250834465026855,
+        -3.009930372238159,
+        -3.0664405822753906,
+        -2.9384114742279053,
+        -3.09079909324646,
+        -3.052492618560791,
+        -2.9391977787017822,
+        -3.068922519683838,
+        -2.967094659805298
+      ],
+      "selected": "__none__",
+      "inferenceMs": 91.48619999177754
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i11",
+        "i3",
+        "i12",
+        "i9",
+        "i10",
+        "i1",
+        "i5",
+        "i2",
+        "i6",
+        "__none__",
+        "i7",
+        "i8",
+        "i4"
+      ],
+      "scores": [
+        -3.421041488647461,
+        -3.421807050704956,
+        -3.4196512699127197,
+        -3.4456393718719482,
+        -3.420257091522217,
+        -3.3898372650146484,
+        -3.424619436264038,
+        -3.438793897628784,
+        -3.4002139568328857,
+        3.959653615951538,
+        -3.3574178218841553,
+        -3.409599542617798,
+        -3.4376425743103027
+      ],
+      "selected": "__none__",
+      "inferenceMs": 75.03530010581017
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t12",
+        "__none__",
+        "t2",
+        "t1",
+        "t7",
+        "t9",
+        "t11",
+        "t3",
+        "t5",
+        "t8",
+        "t6",
+        "t10",
+        "t4"
+      ],
+      "scores": [
+        -3.338937997817993,
+        4.06107759475708,
+        -3.369264602661133,
+        -3.3939967155456543,
+        -3.3058979511260986,
+        -3.3487536907196045,
+        -3.332144021987915,
+        -3.350166082382202,
+        -3.321838617324829,
+        -3.350677251815796,
+        -3.3259541988372803,
+        -3.337832450866699,
+        -3.3284223079681396
+      ],
+      "selected": "__none__",
+      "inferenceMs": 64.2798999324441
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d4",
+        "d2",
+        "d3",
+        "__none__"
+      ],
+      "scores": [
+        -3.203747034072876,
+        -3.2273595333099365,
+        -2.966113805770874,
+        -3.2981889247894287,
+        4.140677452087402
+      ],
+      "selected": "__none__",
+      "inferenceMs": 28.76390004530549
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-image",
+      "field": "image",
+      "candidateIds": [
+        "i10",
+        "i5",
+        "i2",
+        "i8",
+        "i3",
+        "i7",
+        "i4",
+        "i12",
+        "i1",
+        "i11",
+        "i9",
+        "__none__",
+        "i6"
+      ],
+      "scores": [
+        -3.4357759952545166,
+        -3.4142367839813232,
+        -3.4186770915985107,
+        -3.431379556655884,
+        -3.4044811725616455,
+        -3.4353277683258057,
+        -3.416579246520996,
+        -3.4074547290802,
+        -3.4003186225891113,
+        -3.4262170791625977,
+        -3.39575457572937,
+        3.899930000305176,
+        -3.3995931148529053
+      ],
+      "selected": "__none__",
+      "inferenceMs": 65.15139993280172
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t11",
+        "t3",
+        "t2",
+        "t6",
+        "t5",
+        "t10",
+        "__none__",
+        "t9",
+        "t8",
+        "t1",
+        "t12",
+        "t4"
+      ],
+      "scores": [
+        -3.3260257244110107,
+        -3.2694106101989746,
+        -3.301976442337036,
+        -3.2638001441955566,
+        -3.326249837875366,
+        -3.2789146900177,
+        -3.3041298389434814,
+        4.092435359954834,
+        -3.3151283264160156,
+        -3.3052470684051514,
+        -3.28635573387146,
+        -3.333728551864624,
+        -3.287562370300293
+      ],
+      "selected": "__none__",
+      "inferenceMs": 59.02990000322461
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t3",
+        "t2",
+        "t1"
+      ],
+      "scores": [
+        4.213911533355713,
+        -3.300480365753174,
+        -3.3984012603759766,
+        -3.3782222270965576
+      ],
+      "selected": "__none__",
+      "inferenceMs": 20.455999998375773
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -2.303961753845215,
+        -2.9506702423095703
+      ],
+      "selected": "__none__",
+      "inferenceMs": 14.350899960845709
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i9",
+        "i5",
+        "i6",
+        "__none__",
+        "i12",
+        "i11",
+        "i4",
+        "i3",
+        "i7",
+        "i8",
+        "i1",
+        "i10"
+      ],
+      "scores": [
+        -3.356158971786499,
+        -3.3654868602752686,
+        -3.3630032539367676,
+        -3.4085922241210938,
+        -2.1133463382720947,
+        -3.429089307785034,
+        -3.413306951522827,
+        -3.492112398147583,
+        -3.4067416191101074,
+        -3.433176279067993,
+        -3.409745454788208,
+        -3.438624620437622,
+        -3.4067931175231934
+      ],
+      "selected": "__none__",
+      "inferenceMs": 88.20589981041849
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t3",
+        "t5",
+        "t6",
+        "__none__",
+        "t1",
+        "t8",
+        "t2",
+        "t4"
+      ],
+      "scores": [
+        -3.311030864715576,
+        -3.3629400730133057,
+        -3.3239328861236572,
+        -3.325383424758911,
+        -2.3997104167938232,
+        -3.2989189624786377,
+        -3.394047975540161,
+        -3.130241632461548,
+        -3.2474277019500732
+      ],
+      "selected": "__none__",
+      "inferenceMs": 55.55150005966425
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d2",
+        "d10",
+        "d5",
+        "d8",
+        "d6",
+        "d12",
+        "d7",
+        "d9",
+        "d3",
+        "d11",
+        "d1",
+        "d4"
+      ],
+      "scores": [
+        -1.6090292930603027,
+        -3.371896982192993,
+        -3.397899866104126,
+        -3.5017924308776855,
+        -3.399949312210083,
+        -3.4542086124420166,
+        -3.384938955307007,
+        -3.389875650405884,
+        -3.39406681060791,
+        -3.408080577850342,
+        -3.4520370960235596,
+        -3.4003894329071045,
+        -3.3984882831573486
+      ],
+      "selected": "__none__",
+      "inferenceMs": 84.37120006419718
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i5",
+        "i9",
+        "i2",
+        "i1",
+        "__none__",
+        "i8",
+        "i3",
+        "i6",
+        "i7",
+        "i12",
+        "i11",
+        "i4",
+        "i10"
+      ],
+      "scores": [
+        -3.4675168991088867,
+        -3.4796433448791504,
+        -3.4692578315734863,
+        -3.445983648300171,
+        -0.985305905342102,
+        -3.4686439037323,
+        -3.4444291591644287,
+        -3.4736781120300293,
+        -3.453709125518799,
+        -3.458374261856079,
+        -3.4615800380706787,
+        -3.498000144958496,
+        -3.471165180206299
+      ],
+      "selected": "__none__",
+      "inferenceMs": 81.32120012305677
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t2",
+        "__none__",
+        "t1"
+      ],
+      "scores": [
+        -3.1972873210906982,
+        -1.7572804689407349,
+        -3.2143783569335938
+      ],
+      "selected": "__none__",
+      "inferenceMs": 16.420200001448393
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "__none__"
+      ],
+      "scores": [
+        -2.8232786655426025,
+        -2.1172068119049072
+      ],
+      "selected": "__none__",
+      "inferenceMs": 15.646299812942743
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__",
+        "i5",
+        "i7",
+        "i4",
+        "i12",
+        "i8",
+        "i10",
+        "i9",
+        "i2",
+        "i1",
+        "i6",
+        "i11",
+        "i3"
+      ],
+      "scores": [
+        -2.162466287612915,
+        -3.459251880645752,
+        -3.4350125789642334,
+        -3.5205726623535156,
+        -3.4642090797424316,
+        -3.431459665298462,
+        -3.4077389240264893,
+        -3.4391276836395264,
+        -3.4046199321746826,
+        -3.4506962299346924,
+        -3.4174063205718994,
+        -3.419302463531494,
+        -3.442016839981079
+      ],
+      "selected": "__none__",
+      "inferenceMs": 90.45860008336604
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t4",
+        "t5",
+        "t2",
+        "__none__",
+        "t3",
+        "t7",
+        "t6",
+        "t1",
+        "t8"
+      ],
+      "scores": [
+        -3.1415417194366455,
+        -3.1319186687469482,
+        -3.1461241245269775,
+        -2.2032954692840576,
+        -3.1674017906188965,
+        -3.1887290477752686,
+        -3.1703343391418457,
+        -3.203268527984619,
+        -3.4110608100891113
+      ],
+      "selected": "__none__",
+      "inferenceMs": 40.96200014464557
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d9",
+        "d4",
+        "d10",
+        "d1",
+        "d6",
+        "d2",
+        "d3",
+        "d11",
+        "d7",
+        "d12",
+        "d8",
+        "__none__",
+        "d5"
+      ],
+      "scores": [
+        -2.8909683227539062,
+        -2.9593865871429443,
+        -2.9003021717071533,
+        -3.131023645401001,
+        -2.9262378215789795,
+        -3.0099852085113525,
+        -3.009909152984619,
+        -2.8282310962677,
+        -3.0400710105895996,
+        -2.9657042026519775,
+        -2.9422035217285156,
+        -2.4841971397399902,
+        -2.8824236392974854
+      ],
+      "selected": "__none__",
+      "inferenceMs": 79.03079991228878
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i10",
+        "__none__",
+        "i5",
+        "i6",
+        "i8",
+        "i9",
+        "i11",
+        "i7",
+        "i12",
+        "i4",
+        "i1",
+        "i3"
+      ],
+      "scores": [
+        -3.350701093673706,
+        -3.2902281284332275,
+        -2.4595940113067627,
+        -3.3153889179229736,
+        -3.2902281284332275,
+        -3.2902281284332275,
+        -3.2902281284332275,
+        -3.2902281284332275,
+        -3.2902281284332275,
+        -3.2902281284332275,
+        -3.3758180141448975,
+        -3.387786626815796,
+        -3.3115077018737793
+      ],
+      "selected": "__none__",
+      "inferenceMs": 61.151300091296434
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t4",
+        "t2",
+        "t3",
+        "t1",
+        "__none__"
+      ],
+      "scores": [
+        -3.195176839828491,
+        -3.161190986633301,
+        -3.2311441898345947,
+        -3.357642412185669,
+        -2.5227859020233154
+      ],
+      "selected": "__none__",
+      "inferenceMs": 24.133000057190657
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "d8",
+        "d6",
+        "d7",
+        "__none__",
+        "d9",
+        "d3",
+        "d4",
+        "d1",
+        "d5"
+      ],
+      "scores": [
+        -3.4276175498962402,
+        -3.2379660606384277,
+        -3.245922327041626,
+        -3.2701845169067383,
+        -1.389257550239563,
+        -3.362154245376587,
+        -3.3163347244262695,
+        -3.3912103176116943,
+        -3.3326289653778076,
+        -3.397230863571167
+      ],
+      "selected": "__none__",
+      "inferenceMs": 62.16670013964176
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i7",
+        "i1",
+        "__none__",
+        "i9",
+        "i6",
+        "i11",
+        "i5",
+        "i10",
+        "i12",
+        "i8",
+        "i3",
+        "i4"
+      ],
+      "scores": [
+        -3.401106595993042,
+        -3.543412923812866,
+        -3.407841205596924,
+        0.6171475052833557,
+        -3.485140085220337,
+        -3.4788601398468018,
+        -3.4850378036499023,
+        -3.483713150024414,
+        -3.4518020153045654,
+        -3.4449069499969482,
+        -3.4970924854278564,
+        -3.496110677719116,
+        -3.4845097064971924
+      ],
+      "selected": "__none__",
+      "inferenceMs": 67.37309996969998
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t12",
+        "t10",
+        "t3",
+        "t8",
+        "__none__",
+        "t9",
+        "t6",
+        "t2",
+        "t11",
+        "t4",
+        "t7",
+        "t1",
+        "t5"
+      ],
+      "scores": [
+        -3.436652183532715,
+        -3.4954986572265625,
+        -3.3404438495635986,
+        -3.2657768726348877,
+        -1.5564781427383423,
+        -3.2620577812194824,
+        -3.3282034397125244,
+        -3.3074183464050293,
+        -3.4019155502319336,
+        -3.3349483013153076,
+        -3.2706658840179443,
+        -3.3850526809692383,
+        -3.3339664936065674
+      ],
+      "selected": "__none__",
+      "inferenceMs": 63.225300051271915
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -2.933149814605713,
+        -2.8097646236419678,
+        -2.955826997756958
+      ],
+      "selected": "__none__",
+      "inferenceMs": 20.334100117906928
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i3",
+        "__none__",
+        "i1"
+      ],
+      "scores": [
+        -3.1153645515441895,
+        -3.0422937870025635,
+        -2.8308353424072266,
+        -3.113095760345459
+      ],
+      "selected": "__none__",
+      "inferenceMs": 22.849399829283357
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t2",
+        "t1"
+      ],
+      "scores": [
+        -2.7925362586975098,
+        -2.9238038063049316,
+        -3.0319571495056152
+      ],
+      "selected": "__none__",
+      "inferenceMs": 14.652600046247244
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d3",
+        "d2",
+        "d4",
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -3.3714115619659424,
+        -3.376779079437256,
+        -3.3270251750946045,
+        4.345120429992676,
+        -3.3603341579437256
+      ],
+      "selected": "__none__",
+      "inferenceMs": 26.71970007941127
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i3",
+        "i6",
+        "i8",
+        "i9",
+        "i10",
+        "i1",
+        "i11",
+        "i2",
+        "__none__",
+        "i7",
+        "i5",
+        "i4",
+        "i12"
+      ],
+      "scores": [
+        -3.391059160232544,
+        -3.4604499340057373,
+        -3.4801032543182373,
+        -3.4866702556610107,
+        -3.530186653137207,
+        -3.4583213329315186,
+        -3.533881425857544,
+        -3.444859266281128,
+        4.149735927581787,
+        -3.4806535243988037,
+        -3.386615753173828,
+        -3.3978607654571533,
+        -3.487630605697632
+      ],
+      "selected": "__none__",
+      "inferenceMs": 73.79000005312264
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "d11",
+        "d10",
+        "d5",
+        "d12",
+        "d7",
+        "d6",
+        "d1",
+        "d3",
+        "d9",
+        "__none__",
+        "d8",
+        "d4"
+      ],
+      "scores": [
+        -3.250122547149658,
+        -2.5554473400115967,
+        -2.75030779838562,
+        -2.968775987625122,
+        -2.285277843475342,
+        -2.665156126022339,
+        -2.6340267658233643,
+        -3.362348794937134,
+        -3.033867597579956,
+        -2.6947720050811768,
+        4.023841857910156,
+        -2.563722848892212,
+        -3.016890048980713
+      ],
+      "selected": "__none__",
+      "inferenceMs": 73.8718998618424
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i9",
+        "i8",
+        "i12",
+        "i11",
+        "i6",
+        "i5",
+        "i4",
+        "__none__",
+        "i7",
+        "i3",
+        "i10",
+        "i1",
+        "i2"
+      ],
+      "scores": [
+        -3.4438674449920654,
+        -3.4604897499084473,
+        -3.46606707572937,
+        -3.4922804832458496,
+        -3.4552955627441406,
+        -3.4623875617980957,
+        -3.3741557598114014,
+        3.834247350692749,
+        -3.4542171955108643,
+        -3.5517117977142334,
+        -3.4131293296813965,
+        -3.424571990966797,
+        -3.5030806064605713
+      ],
+      "selected": "__none__",
+      "inferenceMs": 77.92690000496805
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t10",
+        "t11",
+        "t8",
+        "t2",
+        "t5",
+        "t4",
+        "__none__",
+        "t3",
+        "t1",
+        "t6",
+        "t12",
+        "t7",
+        "t9"
+      ],
+      "scores": [
+        -3.2782156467437744,
+        -3.315593957901001,
+        -3.282968759536743,
+        -3.3419740200042725,
+        -3.2700400352478027,
+        -3.2662651538848877,
+        4.001229763031006,
+        -3.3769688606262207,
+        -3.3262250423431396,
+        -3.2802460193634033,
+        -3.3316617012023926,
+        -3.052795648574829,
+        -3.3119194507598877
+      ],
+      "selected": "__none__",
+      "inferenceMs": 67.23149982281029
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t2",
+        "t12",
+        "t11",
+        "__none__",
+        "t5",
+        "t4",
+        "t1",
+        "t10",
+        "t8",
+        "t3",
+        "t6",
+        "t9"
+      ],
+      "scores": [
+        -3.263216495513916,
+        -3.316160202026367,
+        -3.319995641708374,
+        -3.258413076400757,
+        4.301517009735107,
+        -3.3140347003936768,
+        -3.293238878250122,
+        -3.275550603866577,
+        -3.2787065505981445,
+        -3.2060182094573975,
+        -3.3065741062164307,
+        -3.3073956966400146,
+        -3.2661499977111816
+      ],
+      "selected": "__none__",
+      "inferenceMs": 60.25550002232194
+    }
+  ],
+  "trainScore": {
+    "total": 153,
+    "correct": 88,
+    "positiveCorrect": 0,
+    "noneCorrect": 88,
+    "falseSelections": 0,
+    "abstentions": 153,
+    "errors": 0
+  },
+  "validationScore": {
+    "total": 57,
+    "correct": 33,
+    "positiveCorrect": 0,
+    "noneCorrect": 33,
+    "falseSelections": 0,
+    "abstentions": 57,
+    "errors": 0
+  },
+  "validationMicrobatch2Predictions": [
+    {
+      "id": "auth-coupang-jujutsu-player-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d3",
+        "d1",
+        "d2"
+      ],
+      "scores": [
+        4.084829807281494,
+        -3.4353737831115723,
+        -3.254897356033325,
+        -3.3445942401885986
+      ],
+      "selected": "__none__",
+      "inferenceMs": 27.496800059452653
+    },
+    {
+      "id": "auth-coupang-jujutsu-player-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i1",
+        "__none__"
+      ],
+      "scores": [
+        -3.5061726570129395,
+        -3.4227473735809326,
+        3.7445781230926514
+      ],
+      "selected": "__none__",
+      "inferenceMs": 21.466200007125735
+    },
+    {
+      "id": "auth-coupang-jujutsu-player-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "__none__",
+        "t2"
+      ],
+      "scores": [
+        -3.2608189582824707,
+        4.070724964141846,
+        -3.178936243057251
+      ],
+      "selected": "__none__",
+      "inferenceMs": 20.863600075244904
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d2",
+        "d5",
+        "d6",
+        "d4",
+        "__none__",
+        "d3"
+      ],
+      "scores": [
+        -3.3532607555389404,
+        -3.2780213356018066,
+        -3.2838637828826904,
+        -3.2221882343292236,
+        -3.208211660385132,
+        3.671339273452759,
+        -3.277482748031616
+      ],
+      "selected": "__none__",
+      "inferenceMs": 69.31130005978048
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i3",
+        "i8",
+        "i5",
+        "i9",
+        "i2",
+        "i12",
+        "i6",
+        "i7",
+        "i1",
+        "i11",
+        "__none__",
+        "i4",
+        "i10"
+      ],
+      "scores": [
+        -3.4924511909484863,
+        -3.506617784500122,
+        -3.4938950538635254,
+        -3.505607843399048,
+        -3.5892181396484375,
+        -3.502467632293701,
+        -3.4444234371185303,
+        -3.5003020763397217,
+        -3.6206586360931396,
+        -3.539923667907715,
+        3.285792589187622,
+        -3.5092062950134277,
+        -3.407127857208252
+      ],
+      "selected": "__none__",
+      "inferenceMs": 108.64609992131591
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t9",
+        "t1",
+        "t2",
+        "t12",
+        "t10",
+        "t4",
+        "t5",
+        "t3",
+        "t6",
+        "t11",
+        "__none__",
+        "t8"
+      ],
+      "scores": [
+        -3.2426559925079346,
+        -3.2377054691314697,
+        -3.296201705932617,
+        -3.330904006958008,
+        -3.206376791000366,
+        -3.210068702697754,
+        -3.310807466506958,
+        -3.3136239051818848,
+        -3.290611743927002,
+        -3.276176691055298,
+        -3.2392303943634033,
+        3.469119071960449,
+        -3.211167573928833
+      ],
+      "selected": "__none__",
+      "inferenceMs": 90.73280007578433
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d3",
+        "d2",
+        "d8",
+        "d10",
+        "d5",
+        "d11",
+        "__none__",
+        "d6",
+        "d4",
+        "d12",
+        "d9",
+        "d7",
+        "d1"
+      ],
+      "scores": [
+        -3.162245035171509,
+        -3.1508948802948,
+        -3.1705148220062256,
+        -3.1765427589416504,
+        -3.1440320014953613,
+        -2.474931240081787,
+        3.9375860691070557,
+        -3.113492250442505,
+        -3.4826347827911377,
+        -3.1742043495178223,
+        -2.4636054039001465,
+        -2.6327078342437744,
+        -3.200800895690918
+      ],
+      "selected": "__none__",
+      "inferenceMs": 105.97870009951293
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i5",
+        "i9",
+        "i1",
+        "i7",
+        "i10",
+        "i8",
+        "i4",
+        "i6",
+        "__none__",
+        "i3",
+        "i2"
+      ],
+      "scores": [
+        -3.4745523929595947,
+        -3.373365640640259,
+        -3.3549768924713135,
+        -3.42467999458313,
+        -3.409048318862915,
+        -3.3363912105560303,
+        -3.396954298019409,
+        -3.408588171005249,
+        3.8979687690734863,
+        -3.485424757003784,
+        -3.38291335105896
+      ],
+      "selected": "__none__",
+      "inferenceMs": 90.18959989771247
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t3",
+        "t8",
+        "t7",
+        "__none__",
+        "t9",
+        "t1",
+        "t6",
+        "t10",
+        "t11",
+        "t4",
+        "t5",
+        "t2",
+        "t12"
+      ],
+      "scores": [
+        -3.310979127883911,
+        -3.1502583026885986,
+        -3.17010760307312,
+        3.8815178871154785,
+        -3.1842219829559326,
+        -3.3254966735839844,
+        -3.145662307739258,
+        -3.294114351272583,
+        -3.2821834087371826,
+        -3.2955708503723145,
+        -3.3192250728607178,
+        -3.314707040786743,
+        -3.4911608695983887
+      ],
+      "selected": "__none__",
+      "inferenceMs": 88.65250018425286
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -2.939575433731079,
+        -2.800309896469116,
+        -2.953660726547241
+      ],
+      "selected": "__none__",
+      "inferenceMs": 25.317999999970198
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i11",
+        "i12",
+        "i6",
+        "__none__",
+        "i4",
+        "i1",
+        "i7",
+        "i10",
+        "i5",
+        "i8",
+        "i2",
+        "i3",
+        "i9"
+      ],
+      "scores": [
+        -3.0869414806365967,
+        -3.1003577709198,
+        -3.0970773696899414,
+        -2.8229448795318604,
+        -3.071117639541626,
+        -3.1129236221313477,
+        -3.047987222671509,
+        -3.052839994430542,
+        -3.1475942134857178,
+        -3.0555508136749268,
+        -3.1198384761810303,
+        -3.044483184814453,
+        -3.053361654281616
+      ],
+      "selected": "__none__",
+      "inferenceMs": 94.47840019129217
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t9",
+        "t1",
+        "t6",
+        "t7",
+        "t2",
+        "__none__",
+        "t8",
+        "t3",
+        "t4",
+        "t10",
+        "t12",
+        "t5",
+        "t11"
+      ],
+      "scores": [
+        -2.9449899196624756,
+        -3.0252606868743896,
+        -3.0418126583099365,
+        -2.9383766651153564,
+        -2.919102430343628,
+        -2.784576654434204,
+        -2.936819076538086,
+        -2.978001594543457,
+        -2.9754955768585205,
+        -2.966493844985962,
+        -2.985832452774048,
+        -2.9863781929016113,
+        -2.973867177963257
+      ],
+      "selected": "__none__",
+      "inferenceMs": 73.9834001287818
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "__none__"
+      ],
+      "scores": [
+        -2.9541263580322266,
+        -2.5931217670440674
+      ],
+      "selected": "__none__",
+      "inferenceMs": 11.249099858105183
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i4",
+        "i2",
+        "i1",
+        "i3",
+        "__none__"
+      ],
+      "scores": [
+        -3.062037706375122,
+        -3.0341508388519287,
+        -3.105886936187744,
+        -2.9899027347564697,
+        -2.6263585090637207
+      ],
+      "selected": "__none__",
+      "inferenceMs": 34.99950002878904
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "t2",
+        "t5",
+        "t4",
+        "__none__",
+        "t3"
+      ],
+      "scores": [
+        -2.944896936416626,
+        -2.9344544410705566,
+        -2.895183801651001,
+        -2.8768136501312256,
+        -2.589304208755493,
+        -2.8889546394348145
+      ],
+      "selected": "__none__",
+      "inferenceMs": 37.155300145968795
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -3.1947479248046875,
+        4.266505241394043,
+        -3.224353075027466
+      ],
+      "selected": "__none__",
+      "inferenceMs": 28.163500130176544
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "__none__"
+      ],
+      "scores": [
+        -3.3578507900238037,
+        4.092360019683838
+      ],
+      "selected": "__none__",
+      "inferenceMs": 14.446200104430318
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d5",
+        "d2",
+        "d11",
+        "d3",
+        "d12",
+        "d1",
+        "d4",
+        "d8",
+        "__none__",
+        "d6",
+        "d9",
+        "d7",
+        "d10"
+      ],
+      "scores": [
+        -2.9668331146240234,
+        -3.2919089794158936,
+        -2.9762768745422363,
+        -3.3319778442382812,
+        -2.842515707015991,
+        -3.320876359939575,
+        -3.083824396133423,
+        -3.0369374752044678,
+        1.8561971187591553,
+        -3.0224921703338623,
+        -2.883420705795288,
+        -2.9261651039123535,
+        -3.023616075515747
+      ],
+      "selected": "__none__",
+      "inferenceMs": 115.62740011140704
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "scores": [
+        -3.461287260055542,
+        -3.415332555770874,
+        1.0905189514160156
+      ],
+      "selected": "__none__",
+      "inferenceMs": 22.71109982393682
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t6",
+        "t3",
+        "t8",
+        "t7",
+        "t2",
+        "t9",
+        "t5",
+        "t12",
+        "__none__",
+        "t11",
+        "t10",
+        "t4",
+        "t1"
+      ],
+      "scores": [
+        -3.333130121231079,
+        -3.352231740951538,
+        -3.348482370376587,
+        -3.3494760990142822,
+        -3.359977960586548,
+        -3.295599937438965,
+        -3.3393356800079346,
+        -3.3216300010681152,
+        1.487989902496338,
+        -3.376535654067993,
+        -3.3222815990448,
+        -3.2860915660858154,
+        -3.327871561050415
+      ],
+      "selected": "__none__",
+      "inferenceMs": 100.07070004940033
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "__none__",
+        "t4",
+        "t2",
+        "t5",
+        "t3"
+      ],
+      "scores": [
+        -3.3229782581329346,
+        4.200267314910889,
+        -3.2757816314697266,
+        -3.3449838161468506,
+        -3.287137508392334,
+        -3.220508337020874
+      ],
+      "selected": "__none__",
+      "inferenceMs": 39.924300042912364
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d2",
+        "__none__"
+      ],
+      "scores": [
+        -3.3608222007751465,
+        -3.3631041049957275,
+        3.763064384460449
+      ],
+      "selected": "__none__",
+      "inferenceMs": 22.40330004133284
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__"
+      ],
+      "scores": [
+        3.5573770999908447
+      ],
+      "selected": "__none__",
+      "inferenceMs": 7.028800202533603
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "__none__"
+      ],
+      "scores": [
+        -3.2382256984710693,
+        3.5659267902374268
+      ],
+      "selected": "__none__",
+      "inferenceMs": 12.689100112766027
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        4.2499823570251465,
+        -3.2754809856414795
+      ],
+      "selected": "__none__",
+      "inferenceMs": 14.002999989315867
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "__none__"
+      ],
+      "scores": [
+        -3.4229960441589355,
+        4.163093090057373
+      ],
+      "selected": "__none__",
+      "inferenceMs": 11.41280005685985
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d4",
+        "d1",
+        "d8",
+        "d12",
+        "__none__",
+        "d7",
+        "d2",
+        "d11",
+        "d9",
+        "d3",
+        "d6",
+        "d5",
+        "d10"
+      ],
+      "scores": [
+        -3.0842645168304443,
+        -3.2369978427886963,
+        -3.1502492427825928,
+        -2.986687660217285,
+        4.1250834465026855,
+        -3.009930372238159,
+        -3.0664405822753906,
+        -2.9384114742279053,
+        -3.09079909324646,
+        -3.052492618560791,
+        -2.9391977787017822,
+        -3.068922519683838,
+        -2.967094659805298
+      ],
+      "selected": "__none__",
+      "inferenceMs": 105.29289999976754
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i11",
+        "i3",
+        "i12",
+        "i9",
+        "i10",
+        "i1",
+        "i5",
+        "i2",
+        "i6",
+        "__none__",
+        "i7",
+        "i8",
+        "i4"
+      ],
+      "scores": [
+        -3.421041488647461,
+        -3.421807050704956,
+        -3.4196512699127197,
+        -3.4456393718719482,
+        -3.420257091522217,
+        -3.3898372650146484,
+        -3.424619436264038,
+        -3.438793897628784,
+        -3.4002139568328857,
+        3.959653615951538,
+        -3.3574178218841553,
+        -3.409599542617798,
+        -3.4376425743103027
+      ],
+      "selected": "__none__",
+      "inferenceMs": 100.34950007684529
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t12",
+        "__none__",
+        "t2",
+        "t1",
+        "t7",
+        "t9",
+        "t11",
+        "t3",
+        "t5",
+        "t8",
+        "t6",
+        "t10",
+        "t4"
+      ],
+      "scores": [
+        -3.338937997817993,
+        4.06107759475708,
+        -3.369264602661133,
+        -3.3939967155456543,
+        -3.3058979511260986,
+        -3.3487536907196045,
+        -3.332144021987915,
+        -3.350166082382202,
+        -3.321838617324829,
+        -3.350677251815796,
+        -3.3259541988372803,
+        -3.337832450866699,
+        -3.3284223079681396
+      ],
+      "selected": "__none__",
+      "inferenceMs": 86.09549980610609
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d4",
+        "d2",
+        "d3",
+        "__none__"
+      ],
+      "scores": [
+        -3.203747034072876,
+        -3.2273595333099365,
+        -2.966113805770874,
+        -3.2981889247894287,
+        4.140677452087402
+      ],
+      "selected": "__none__",
+      "inferenceMs": 39.95870007202029
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-image",
+      "field": "image",
+      "candidateIds": [
+        "i10",
+        "i5",
+        "i2",
+        "i8",
+        "i3",
+        "i7",
+        "i4",
+        "i12",
+        "i1",
+        "i11",
+        "i9",
+        "__none__",
+        "i6"
+      ],
+      "scores": [
+        -3.4357759952545166,
+        -3.4142367839813232,
+        -3.4186770915985107,
+        -3.431379556655884,
+        -3.4044811725616455,
+        -3.4353277683258057,
+        -3.416579246520996,
+        -3.4074547290802,
+        -3.4003186225891113,
+        -3.4262170791625977,
+        -3.39575457572937,
+        3.899930000305176,
+        -3.3995931148529053
+      ],
+      "selected": "__none__",
+      "inferenceMs": 103.93860004842281
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t11",
+        "t3",
+        "t2",
+        "t6",
+        "t5",
+        "t10",
+        "__none__",
+        "t9",
+        "t8",
+        "t1",
+        "t12",
+        "t4"
+      ],
+      "scores": [
+        -3.3260257244110107,
+        -3.2694106101989746,
+        -3.301976442337036,
+        -3.2638001441955566,
+        -3.326249837875366,
+        -3.2789146900177,
+        -3.3041298389434814,
+        4.092435359954834,
+        -3.3151283264160156,
+        -3.3052470684051514,
+        -3.28635573387146,
+        -3.333728551864624,
+        -3.287562370300293
+      ],
+      "selected": "__none__",
+      "inferenceMs": 78.72040010988712
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t3",
+        "t2",
+        "t1"
+      ],
+      "scores": [
+        4.213911533355713,
+        -3.300480365753174,
+        -3.3984012603759766,
+        -3.3782222270965576
+      ],
+      "selected": "__none__",
+      "inferenceMs": 22.356499917805195
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -2.303961753845215,
+        -2.9506702423095703
+      ],
+      "selected": "__none__",
+      "inferenceMs": 16.513300128281116
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i9",
+        "i5",
+        "i6",
+        "__none__",
+        "i12",
+        "i11",
+        "i4",
+        "i3",
+        "i7",
+        "i8",
+        "i1",
+        "i10"
+      ],
+      "scores": [
+        -3.356158971786499,
+        -3.3654868602752686,
+        -3.3630032539367676,
+        -3.4085922241210938,
+        -2.1133463382720947,
+        -3.429089307785034,
+        -3.413306951522827,
+        -3.492112398147583,
+        -3.4067416191101074,
+        -3.433176279067993,
+        -3.409745454788208,
+        -3.438624620437622,
+        -3.4067931175231934
+      ],
+      "selected": "__none__",
+      "inferenceMs": 109.3995999544859
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t3",
+        "t5",
+        "t6",
+        "__none__",
+        "t1",
+        "t8",
+        "t2",
+        "t4"
+      ],
+      "scores": [
+        -3.311030864715576,
+        -3.3629400730133057,
+        -3.3239328861236572,
+        -3.325383424758911,
+        -2.3997104167938232,
+        -3.2989189624786377,
+        -3.394047975540161,
+        -3.130241632461548,
+        -3.2474277019500732
+      ],
+      "selected": "__none__",
+      "inferenceMs": 74.01880016550422
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d2",
+        "d10",
+        "d5",
+        "d8",
+        "d6",
+        "d12",
+        "d7",
+        "d9",
+        "d3",
+        "d11",
+        "d1",
+        "d4"
+      ],
+      "scores": [
+        -1.6090292930603027,
+        -3.371896982192993,
+        -3.397899866104126,
+        -3.5017924308776855,
+        -3.399949312210083,
+        -3.4542086124420166,
+        -3.384938955307007,
+        -3.389875650405884,
+        -3.39406681060791,
+        -3.408080577850342,
+        -3.4520370960235596,
+        -3.4003894329071045,
+        -3.3984882831573486
+      ],
+      "selected": "__none__",
+      "inferenceMs": 99.2156001739204
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i5",
+        "i9",
+        "i2",
+        "i1",
+        "__none__",
+        "i8",
+        "i3",
+        "i6",
+        "i7",
+        "i12",
+        "i11",
+        "i4",
+        "i10"
+      ],
+      "scores": [
+        -3.4675168991088867,
+        -3.4796433448791504,
+        -3.4692578315734863,
+        -3.445983648300171,
+        -0.985305905342102,
+        -3.4686439037323,
+        -3.4444291591644287,
+        -3.4736781120300293,
+        -3.453709125518799,
+        -3.458374261856079,
+        -3.4615800380706787,
+        -3.498000144958496,
+        -3.471165180206299
+      ],
+      "selected": "__none__",
+      "inferenceMs": 93.28279993496835
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t2",
+        "__none__",
+        "t1"
+      ],
+      "scores": [
+        -3.1972873210906982,
+        -1.7572804689407349,
+        -3.2143783569335938
+      ],
+      "selected": "__none__",
+      "inferenceMs": 16.037199879065156
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "__none__"
+      ],
+      "scores": [
+        -2.8232786655426025,
+        -2.1172068119049072
+      ],
+      "selected": "__none__",
+      "inferenceMs": 14.105199836194515
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__",
+        "i5",
+        "i7",
+        "i4",
+        "i12",
+        "i8",
+        "i10",
+        "i9",
+        "i2",
+        "i1",
+        "i6",
+        "i11",
+        "i3"
+      ],
+      "scores": [
+        -2.162466287612915,
+        -3.459251880645752,
+        -3.4350125789642334,
+        -3.5205726623535156,
+        -3.4642090797424316,
+        -3.431459665298462,
+        -3.4077389240264893,
+        -3.4391276836395264,
+        -3.4046199321746826,
+        -3.4506962299346924,
+        -3.4174063205718994,
+        -3.419302463531494,
+        -3.442016839981079
+      ],
+      "selected": "__none__",
+      "inferenceMs": 103.64339989610016
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t4",
+        "t5",
+        "t2",
+        "__none__",
+        "t3",
+        "t7",
+        "t6",
+        "t1",
+        "t8"
+      ],
+      "scores": [
+        -3.1415417194366455,
+        -3.1319186687469482,
+        -3.1461241245269775,
+        -2.2032954692840576,
+        -3.1674017906188965,
+        -3.1887290477752686,
+        -3.1703343391418457,
+        -3.203268527984619,
+        -3.4110608100891113
+      ],
+      "selected": "__none__",
+      "inferenceMs": 50.50459993071854
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d9",
+        "d4",
+        "d10",
+        "d1",
+        "d6",
+        "d2",
+        "d3",
+        "d11",
+        "d7",
+        "d12",
+        "d8",
+        "__none__",
+        "d5"
+      ],
+      "scores": [
+        -2.8909683227539062,
+        -2.9593865871429443,
+        -2.9003021717071533,
+        -3.131023645401001,
+        -2.9262378215789795,
+        -3.0099852085113525,
+        -3.009909152984619,
+        -2.8282310962677,
+        -3.0400710105895996,
+        -2.9657042026519775,
+        -2.9422035217285156,
+        -2.4841971397399902,
+        -2.8824236392974854
+      ],
+      "selected": "__none__",
+      "inferenceMs": 103.74470008537173
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i10",
+        "__none__",
+        "i5",
+        "i6",
+        "i8",
+        "i9",
+        "i11",
+        "i7",
+        "i12",
+        "i4",
+        "i1",
+        "i3"
+      ],
+      "scores": [
+        -3.350701093673706,
+        -3.2902281284332275,
+        -2.4595940113067627,
+        -3.3153889179229736,
+        -3.2902281284332275,
+        -3.2902281284332275,
+        -3.2902281284332275,
+        -3.2902281284332275,
+        -3.2902281284332275,
+        -3.2902281284332275,
+        -3.3758180141448975,
+        -3.387786626815796,
+        -3.3115077018737793
+      ],
+      "selected": "__none__",
+      "inferenceMs": 76.12319989129901
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t4",
+        "t2",
+        "t3",
+        "t1",
+        "__none__"
+      ],
+      "scores": [
+        -3.195176839828491,
+        -3.161190986633301,
+        -3.2311441898345947,
+        -3.357642412185669,
+        -2.5227859020233154
+      ],
+      "selected": "__none__",
+      "inferenceMs": 32.26180002093315
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "d8",
+        "d6",
+        "d7",
+        "__none__",
+        "d9",
+        "d3",
+        "d4",
+        "d1",
+        "d5"
+      ],
+      "scores": [
+        -3.4276175498962402,
+        -3.2379660606384277,
+        -3.245922327041626,
+        -3.2701845169067383,
+        -1.389257550239563,
+        -3.362154245376587,
+        -3.3163347244262695,
+        -3.3912103176116943,
+        -3.3326289653778076,
+        -3.397230863571167
+      ],
+      "selected": "__none__",
+      "inferenceMs": 74.98569996096194
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i7",
+        "i1",
+        "__none__",
+        "i9",
+        "i6",
+        "i11",
+        "i5",
+        "i10",
+        "i12",
+        "i8",
+        "i3",
+        "i4"
+      ],
+      "scores": [
+        -3.401106595993042,
+        -3.543412923812866,
+        -3.407841205596924,
+        0.6171475052833557,
+        -3.485140085220337,
+        -3.4788601398468018,
+        -3.4850378036499023,
+        -3.483713150024414,
+        -3.4518020153045654,
+        -3.4449069499969482,
+        -3.4970924854278564,
+        -3.496110677719116,
+        -3.4845097064971924
+      ],
+      "selected": "__none__",
+      "inferenceMs": 83.88260006904602
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t12",
+        "t10",
+        "t3",
+        "t8",
+        "__none__",
+        "t9",
+        "t6",
+        "t2",
+        "t11",
+        "t4",
+        "t7",
+        "t1",
+        "t5"
+      ],
+      "scores": [
+        -3.436652183532715,
+        -3.4954986572265625,
+        -3.3404438495635986,
+        -3.2657768726348877,
+        -1.5564781427383423,
+        -3.2620577812194824,
+        -3.3282034397125244,
+        -3.3074183464050293,
+        -3.4019155502319336,
+        -3.3349483013153076,
+        -3.2706658840179443,
+        -3.3850526809692383,
+        -3.3339664936065674
+      ],
+      "selected": "__none__",
+      "inferenceMs": 82.95079995878041
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -2.933149814605713,
+        -2.8097646236419678,
+        -2.955826997756958
+      ],
+      "selected": "__none__",
+      "inferenceMs": 24.261800106614828
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i3",
+        "__none__",
+        "i1"
+      ],
+      "scores": [
+        -3.1153645515441895,
+        -3.0422937870025635,
+        -2.8308353424072266,
+        -3.113095760345459
+      ],
+      "selected": "__none__",
+      "inferenceMs": 33.17530010826886
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t2",
+        "t1"
+      ],
+      "scores": [
+        -2.7925362586975098,
+        -2.9238038063049316,
+        -3.0319571495056152
+      ],
+      "selected": "__none__",
+      "inferenceMs": 20.505900029093027
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d3",
+        "d2",
+        "d4",
+        "__none__",
+        "d1"
+      ],
+      "scores": [
+        -3.3714115619659424,
+        -3.376779079437256,
+        -3.3270251750946045,
+        4.345120429992676,
+        -3.3603341579437256
+      ],
+      "selected": "__none__",
+      "inferenceMs": 42.815899942070246
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i3",
+        "i6",
+        "i8",
+        "i9",
+        "i10",
+        "i1",
+        "i11",
+        "i2",
+        "__none__",
+        "i7",
+        "i5",
+        "i4",
+        "i12"
+      ],
+      "scores": [
+        -3.391059160232544,
+        -3.4604499340057373,
+        -3.4801032543182373,
+        -3.4866702556610107,
+        -3.530186653137207,
+        -3.4583213329315186,
+        -3.533881425857544,
+        -3.444859266281128,
+        4.149735927581787,
+        -3.4806535243988037,
+        -3.386615753173828,
+        -3.3978607654571533,
+        -3.487630605697632
+      ],
+      "selected": "__none__",
+      "inferenceMs": 109.90869998931885
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "d11",
+        "d10",
+        "d5",
+        "d12",
+        "d7",
+        "d6",
+        "d1",
+        "d3",
+        "d9",
+        "__none__",
+        "d8",
+        "d4"
+      ],
+      "scores": [
+        -3.250122547149658,
+        -2.5554473400115967,
+        -2.75030779838562,
+        -2.968775987625122,
+        -2.285277843475342,
+        -2.665156126022339,
+        -2.6340267658233643,
+        -3.362348794937134,
+        -3.033867597579956,
+        -2.6947720050811768,
+        4.023841857910156,
+        -2.563722848892212,
+        -3.016890048980713
+      ],
+      "selected": "__none__",
+      "inferenceMs": 101.75719996914268
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i9",
+        "i8",
+        "i12",
+        "i11",
+        "i6",
+        "i5",
+        "i4",
+        "__none__",
+        "i7",
+        "i3",
+        "i10",
+        "i1",
+        "i2"
+      ],
+      "scores": [
+        -3.4438674449920654,
+        -3.4604897499084473,
+        -3.46606707572937,
+        -3.4922804832458496,
+        -3.4552955627441406,
+        -3.4623875617980957,
+        -3.3741557598114014,
+        3.834247350692749,
+        -3.4542171955108643,
+        -3.5517117977142334,
+        -3.4131293296813965,
+        -3.424571990966797,
+        -3.5030806064605713
+      ],
+      "selected": "__none__",
+      "inferenceMs": 97.7390999905765
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t10",
+        "t11",
+        "t8",
+        "t2",
+        "t5",
+        "t4",
+        "__none__",
+        "t3",
+        "t1",
+        "t6",
+        "t12",
+        "t7",
+        "t9"
+      ],
+      "scores": [
+        -3.2782156467437744,
+        -3.315593957901001,
+        -3.282968759536743,
+        -3.3419740200042725,
+        -3.2700400352478027,
+        -3.2662651538848877,
+        4.001229763031006,
+        -3.3769688606262207,
+        -3.3262250423431396,
+        -3.2802460193634033,
+        -3.3316617012023926,
+        -3.052795648574829,
+        -3.3119194507598877
+      ],
+      "selected": "__none__",
+      "inferenceMs": 86.12480014562607
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t2",
+        "t12",
+        "t11",
+        "__none__",
+        "t5",
+        "t4",
+        "t1",
+        "t10",
+        "t8",
+        "t3",
+        "t6",
+        "t9"
+      ],
+      "scores": [
+        -3.263216495513916,
+        -3.316160202026367,
+        -3.319995641708374,
+        -3.258413076400757,
+        4.301517009735107,
+        -3.3140347003936768,
+        -3.293238878250122,
+        -3.275550603866577,
+        -3.2787065505981445,
+        -3.2060182094573975,
+        -3.3065741062164307,
+        -3.3073956966400146,
+        -3.2661499977111816
+      ],
+      "selected": "__none__",
+      "inferenceMs": 77.65959994867444
+    }
+  ],
+  "microbatch2SameChoices": 57,
+  "microbatch2MaximumLogitDifference": 0.0
+}
