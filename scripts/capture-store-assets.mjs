@@ -1,4 +1,4 @@
-import { chromium } from "@playwright/test";
+import { chromium, expect } from "@playwright/test";
 import {
   mkdir,
   mkdtemp,
@@ -11,9 +11,15 @@ import { tmpdir } from "node:os";
 import { resolve, join, dirname, basename } from "node:path";
 import { verifyProjectIdentity } from "./verify-identity.mjs";
 
-// Capture the actual installed extension. All catalog entries and artwork are
-// original demonstration data; no personal profile or live OTT data is used.
+// Capture the installed extension with public, verified catalogue metadata and
+// original OTT key visuals. The library is curated in an isolated test profile.
 await verifyProjectIdentity({ root: process.cwd(), includeDist: true });
+const catalogue = JSON.parse(
+  await readFile("assets/store/catalogue-sources.json", "utf8"),
+);
+const entries = catalogue.entries;
+if (!Array.isArray(entries) || entries.length < 6)
+  throw new Error("Six verified catalogue entries are required");
 const output = resolve("assets/store");
 await mkdir(output, { recursive: true });
 const profile = await mkdtemp(join(tmpdir(), "ott-switch-store-assets-"));
@@ -28,52 +34,11 @@ const context = await chromium.launchPersistentContext(profile, {
     `--load-extension=${extension}`,
   ],
 });
-const titles = [
-  "별빛 우체국",
-  "바람의 도서관",
-  "달빛을 걷는 고양이",
-  "여름의 궤도",
-  "구름 위의 정원",
-  "내일의 작은 모험",
-];
-const palettes = [
-  ["#142947", "#e6b669"],
-  ["#203c3a", "#c9d49b"],
-  ["#30274f", "#dfc4ef"],
-  ["#274756", "#f3a77e"],
-  ["#334b3a", "#d9dc96"],
-  ["#493437", "#e6aa86"],
-];
-function artwork(index) {
-  const [bg, fg] = palettes[index];
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="960" height="720" viewBox="0 0 960 720"><rect width="960" height="720" fill="${bg}"/><circle cx="670" cy="178" r="92" fill="${fg}"/><g fill="${fg}" opacity=".65"><circle cx="190" cy="110" r="3"/><circle cx="460" cy="65" r="3"/><circle cx="820" cy="295" r="4"/><circle cx="360" cy="230" r="4"/><path d="m198 220 5 18 18 5-18 5-5 18-5-18-18-5 18-5Z"/></g><path d="M0 490 185 310 400 510 610 350 960 600V720H0Z" fill="${fg}" opacity=".15"/><path d="M0 600 300 460 520 600 800 480 960 570V720H0Z" fill="#101c2d" opacity=".65"/><path d="M416 465h128v162H416Z" fill="${fg}" opacity=".75"/><path d="m398 467 82-71 82 71Z" fill="${fg}"/><rect x="463" y="537" width="34" height="90" rx="16" fill="${bg}"/><path d="m480 627-120 93h240Z" fill="${fg}" opacity=".3"/><text x="48" y="660" fill="#fff" opacity=".6" font-family="sans-serif" font-size="18">AniOTT Switch · DEMO ARTWORK</text></svg>`;
-}
-const demoUrl = "https://laftel.net/item/900001";
-const imageUrl = (index) => `https://aniott.invalid/demo-${index}.svg`;
-const description =
-  "밤하늘의 편지를 배달하는 작은 우체국. 서로 다른 길을 걸어온 친구들이 한 통의 편지를 따라 새로운 여행을 시작합니다. 기능 소개를 위해 만든 가상의 작품과 이미지입니다.";
-const demoPage = `<!doctype html><html lang="ko"><head><meta charset="utf-8"><title>${titles[0]} - 라프텔</title><meta property="og:type" content="video.tv_show"><meta property="og:title" content="${titles[0]}"><meta property="og:description" content="${description}"><meta property="og:image" content="${imageUrl(0)}"><style>*{box-sizing:border-box}body{margin:0;background:#101920;color:#f4f2eb;font:18px/1.7 'Segoe UI',sans-serif}.demo{padding:20px 48px;background:#202c35;color:#e9bd75;font-size:16px}.hero{margin-left:470px;padding:56px 48px;max-width:780px}img{width:100%;height:320px;object-fit:cover;border-radius:22px}h1{font-size:42px;margin:22px 0 12px}p{color:#b7c4ca}.tag{color:#e9bd75;font-size:14px;letter-spacing:2px}</style></head><body><div class="demo">AniOTT Switch 기능 소개용 예시 페이지 · 실제 OTT 판매·제공 정보가 아닙니다</div><main class="hero"><img src="${imageUrl(0)}"><div class="tag">DEMO TITLE · 2026</div><h1>${titles[0]}</h1><p>${description}</p></main></body></html>`;
+const sourceUrl = entries[0].url;
 const errors = [];
 try {
-  await context.route("**/*", (route) => {
-    const url = route.request().url();
-    const match = url.match(/^https:\/\/aniott\.invalid\/demo-(\d)\.svg$/);
-    if (match)
-      return route.fulfill({
-        contentType: "image/svg+xml",
-        body: artwork(Number(match[1])),
-      });
-    if (url === demoUrl)
-      return route.fulfill({ contentType: "text/html", body: demoPage });
-    if (/^https?:/.test(url)) return route.abort();
-    return route.continue();
-  });
   let worker = context.serviceWorkers()[0];
   if (!worker) worker = await context.waitForEvent("serviceworker");
-  await worker.evaluate(() => {
-    globalThis.fetch = async () =>
-      new Response("Demo capture: network disabled", { status: 403 });
-  });
   const id = new URL(worker.url()).host;
   if (id !== "cmaijknliglhgokkmijggladebokgafl")
     throw new Error("Unexpected extension ID");
@@ -93,22 +58,20 @@ try {
       },
       { action, args },
     );
-  const category = await rpc("saveCategory", ["나의 판타지 컬렉션", "#b7a2f4"]);
-  await rpc("saveCategory", ["함께 보고 싶은 이야기", "#78c9d3"]);
-  for (let i = titles.length - 1; i >= 0; i--) {
+  const category = await rpc("saveCategory", ["판타지", "#b7a2f4"]);
+  await rpc("saveCategory", ["다시 보고 싶은 작품", "#78c9d3"]);
+  await rpc("updateSettings", [{ subscribedProviders: ["laftel"] }]);
+  for (let i = entries.length - 1; i >= 0; i--) {
     const bookmark = await rpc("saveBookmark", [
       {
         page: {
-          title: titles[i],
-          description:
-            i === 0
-              ? description
-              : "새로운 이야기를 나만의 카테고리에 모아 두세요. 기능 소개용으로 만든 예시 작품입니다.",
-          imageUrl: imageUrl(i),
-          provider: "laftel",
-          url: `https://laftel.net/item/${900001 + i}`,
-          aliases: [],
-          year: 2026,
+          title: entries[i].title,
+          description: entries[i].description,
+          imageUrl: entries[i].imageUrl,
+          provider: entries[i].provider,
+          url: entries[i].url,
+          aliases: entries[i].aliases,
+          year: entries[i].year,
         },
         categoryIds: [i % 2 ? "watchlist" : category.id],
       },
@@ -117,15 +80,14 @@ try {
       bookmark.id,
       {
         favorite: i === 0 || i === 2,
-        notes:
-          i === 0
-            ? "이번 주말에 이어 볼 이야기. 이미지와 소개도 내가 원하는 내용으로 정리해요."
-            : "",
+        notes: i === 0 ? "주말에 이어 보기" : "",
       },
     ]);
   }
   await page.reload();
-  await page.getByRole("heading", { name: titles[0], exact: true }).waitFor();
+  await page
+    .getByRole("heading", { name: entries[0].title, exact: true })
+    .waitFor();
   await page.evaluate(() =>
     Promise.all(
       [...document.images].map((img) => img.decode().catch(() => {})),
@@ -148,7 +110,7 @@ try {
   await page.keyboard.press("Escape");
   await page.getByRole("button", { name: "설정", exact: true }).click();
   await page
-    .getByRole("dialog", { name: "내 보관함 설정", exact: true })
+    .getByRole("dialog", { name: "보관함 설정", exact: true })
     .waitFor();
   for (const name of ["라프텔", "Netflix", "Prime Video"]) {
     await page
@@ -161,30 +123,49 @@ try {
     animations: "disabled",
   });
   const site = await context.newPage();
-  site.on("pageerror", (error) => errors.push(error.message));
-  await site.goto(demoUrl);
+  const providerPageErrors = [];
+  site.on("pageerror", (error) => providerPageErrors.push(error.message));
+  await site.goto(sourceUrl, { waitUntil: "domcontentloaded", timeout: 60000 });
+  await site
+    .getByRole("heading", { name: entries[0].title, exact: true })
+    .first()
+    .waitFor({ timeout: 30000 });
   await site
     .getByRole("button", { name: "AniOTT Switch 열기", exact: true })
     .click();
   await site
     .getByRole("complementary", { name: "AniOTT Switch 작품 패널" })
     .waitFor();
-  await site.locator(".demo").evaluate((element) => {
-    element.style.paddingLeft = "470px";
-    element.style.fontSize = "14px";
-  });
-  await site.evaluate(() =>
-    Promise.all(
-      [...document.images].map((img) => img.decode().catch(() => {})),
-    ),
-  );
+  const overlayImage = site.locator(".switch-hero img");
+  await expect(overlayImage).toBeVisible();
+  await overlayImage.evaluate((img) => img.decode());
+  await expect(
+    site.getByRole("button", { name: "OTT 다시 확인", exact: true }),
+  ).toBeEnabled({ timeout: 120000 });
   await site.screenshot({
     path: join(output, "04-overlay-1280x800.png"),
     animations: "disabled",
   });
-  await site.locator(".switch-services").evaluate((element) => {
-    element.scrollIntoView({ block: "start" });
+  const wavveAction = site.getByRole("button", {
+    name: "웨이브에서 제목 확인 후 이동",
+    exact: true,
   });
+  await wavveAction.click();
+  await expect(
+    site.getByRole("button", { name: "OTT 다시 확인", exact: true }),
+  ).toBeEnabled({ timeout: 120000 });
+  await expect(
+    site
+      .locator(".switch-service")
+      .filter({ hasText: "웨이브" })
+      .getByText("작품 페이지 확인", { exact: true }),
+  ).toBeVisible();
+  await site
+    .locator(".switch-service")
+    .filter({ hasText: "웨이브" })
+    .evaluate((element) => {
+      element.scrollIntoView({ block: "center" });
+    });
   await site.screenshot({
     path: join(output, "05-switch-1280x800.png"),
     animations: "disabled",
@@ -197,7 +178,7 @@ try {
   ]) {
     await promo.setViewportSize({ width, height });
     await promo.setContent(
-      `<style>*{box-sizing:border-box}body{margin:0;width:100vw;height:100vh;background:#17232c;color:#faf4e8;font-family:'Segoe UI',sans-serif;display:flex;align-items:center;justify-content:center;gap:${width < 500 ? 22 : 64}px;overflow:hidden}body:before{content:'';position:absolute;width:90vw;height:90vw;border:1px solid #354954;border-radius:50%;z-index:-1;left:40vw;top:-20vw}.icon{width:${width < 500 ? 112 : 230}px;transform:rotate(-5deg)}svg{display:block;width:100%;height:auto}h1{font-size:${width < 500 ? 38 : 92}px;line-height:1.08;margin:0;font-weight:700;letter-spacing:-1.6px}h1 span{color:#f4bc64}p{margin:16px 0 0;font-size:${width < 500 ? 16 : 28}px;color:#b6c6cd}</style><div class="icon">${mark}</div><div><h1>AniOTT<br><span>Switch</span></h1><p>내 작품, 내 OTT.</p></div>`,
+      `<style>*{box-sizing:border-box}body{margin:0;width:100vw;height:100vh;background:#17232c;color:#faf4e8;font-family:'Segoe UI',sans-serif;display:flex;align-items:center;justify-content:center;gap:${width < 500 ? 22 : 64}px;overflow:hidden}body:before{content:'';position:absolute;width:90vw;height:90vw;border:1px solid #354954;border-radius:50%;z-index:-1;left:40vw;top:-20vw}.icon{width:${width < 500 ? 112 : 230}px;transform:rotate(-5deg)}svg{display:block;width:100%;height:auto}h1{font-size:${width < 500 ? 38 : 92}px;line-height:1.08;margin:0;font-weight:700;letter-spacing:-1.6px}h1 span{color:#f4bc64}p{margin:16px 0 0;font-size:${width < 500 ? 16 : 28}px;color:#b6c6cd}</style><div class="icon">${mark}</div><div><h1>AniOTT<br><span>Switch</span></h1><p>작품 보관부터 OTT 이동까지</p></div>`,
     );
     await promo.screenshot({
       path: join(output, filename),
@@ -214,12 +195,21 @@ try {
         viewport: { width: 1280, height: 800 },
         capturedAt: new Date().toISOString(),
         actualInstalledExtension: true,
-        syntheticCatalogAndArtwork: true,
-        syntheticProviderPage: true,
+        syntheticCatalogAndArtwork: false,
+        syntheticProviderPage: false,
+        curatedExampleLibrary: true,
+        sourcePageUrl: sourceUrl,
+        sourcePageTitle: await site.title(),
+        catalogueSources: "catalogue-sources.json",
+        providerPageErrorCount: providerPageErrors.length,
+        requestedLiveSwitchProvider: "wavve",
+        observedServiceLabels: await site
+          .locator(".switch-service")
+          .allTextContents(),
         userProfileUsed: false,
-        liveExternalNetwork: false,
+        liveExternalNetwork: true,
         pageErrors: errors,
-        note: "Original fictional demo content, not evidence of OTT availability. The screenshot UI is the actual production bundle.",
+        note: "Actual extension UI, official OTT key visuals and live Laftel detail page. Categories and notes are curated for the screenshots. No account/profile data, fabricated work links or overridden search responses. Title-page existence is not a guarantee of subscription inclusion or regional playback rights.",
       },
       null,
       2,

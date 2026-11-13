@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-13T18:55:57.238296+00:00",
+  "purpose": "Real title metadata and original short summaries for AniOTT Switch functional UI screenshots. Images are referenced by the official provider URLs and not distributed as standalone poster files.",
+  "entries": [
+    {
+      "title": "어느 마녀가 죽을 때까지",
+      "description": "죽음의 저주를 풀기 위해 사람들의 기쁜 눈물을 모으는 견습 마녀 메구. 남은 시간을 채워 가는 만남 속에서 삶의 의미를 배워 간다.",
+      "imageUrl": "https://thumbnail.laftel.net/items/home/041ea335-93af-488a-a9e6-bb102dc7a52c.jpg",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/42783",
+      "aliases": [],
+      "year": 2025,
+      "source": {
+        "pageUrl": "https://laftel.net/item/42783",
+        "detailApiUrl": "https://api.laftel.net/api/items/v2/42783/",
+        "verifiedAt": "2026-11-13T18:55:57.238296+00:00",
+        "pageStatus": 200,
+        "titleField": "name / og:title",
+        "imageField": "og:image",
+        "yearField": "air_year_quarter (first year)",
+        "yearValue": "2025년 2분기",
+        "descriptionKind": "original Korean summary based on official synopsis",
+        "catalogueStatus": {
+          "isViewing": true,
+          "isEpisodeExisted": true,
+          "expireDatetime": null
+        },
+        "imageStatus": 200,
+        "imageDimensions": {
+          "width": 1024,
+          "height": 576
+        },
+        "imageContentType": "image/jpeg",
+        "imageSha256AtVerification": "dfe4c61bef902aa04bc868dae2f86d64a0ccb1106b6fef85ed004574b9441821"
+      }
+    },
+    {
+      "title": "(자막) 장송의 프리렌",
+      "description": "모험을 끝낸 엘프 마법사 프리렌은 동료와의 이별을 계기로 인간을 이해하기 위한 여행을 시작한다. 오래된 기억과 새로운 인연이 이어지는 판타지.",
+      "imageUrl": "https://thumbnail.laftel.net/items/home/4c17a007-ef14-46a2-b54a-e42d563154a1.jpg",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/41666",
+      "aliases": ["장송의 프리렌"],
+      "year": 2023,
+      "source": {
+        "pageUrl": "https://laftel.net/item/41666",
+        "detailApiUrl": "https://api.laftel.net/api/items/v2/41666/",
+        "verifiedAt": "2026-11-13T18:55:57.238296+00:00",
+        "pageStatus": 200,
+        "titleField": "name / og:title",
+        "imageField": "og:image",
+        "yearField": "air_year_quarter (first year)",
+        "yearValue": "2023년 4분기|2024년 1분기",
+        "descriptionKind": "original Korean summary based on official synopsis",
+        "catalogueStatus": {
+          "isViewing": true,
+          "isEpisodeExisted": true,
+          "expireDatetime": null
+        },
+        "imageStatus": 200,
+        "imageDimensions": {
+          "width": 1024,
+          "height": 576
+        },
+        "imageContentType": "image/jpeg",
+        "imageSha256AtVerification": "c3442c554bcfe2c3ec4c1f915fa18439f6217bddebed03002c618452be23dea2"
+      }
+    },
+    {
+      "title": "외톨이 THE ROCK!",
+      "description": "혼자 기타를 연주하던 고토 히토리가 결속 밴드에 합류한다. 무대와 친구들 사이에서 조금씩 자신의 목소리를 찾아가는 음악 이야기.",
+      "imageUrl": "https://thumbnail.laftel.net/items/home/68284cfb-0f50-42ab-98a5-52455d2c5671.jpg",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/41087",
+      "aliases": ["봇치 더 록!"],
+      "year": 2022,
+      "source": {
+        "pageUrl": "https://laftel.net/item/41087",
+        "detailApiUrl": "https://api.laftel.net/api/items/v2/41087/",
+        "verifiedAt": "2026-11-13T18:55:57.238296+00:00",
+        "pageStatus": 200,
+        "titleField": "name / og:title",
+        "imageField": "og:image",
+        "yearField": "air_year_quarter (first year)",
+        "yearValue": "2022년 4분기",
+        "descriptionKind": "original Korean summary based on official synopsis",
+        "catalogueStatus": {
+          "isViewing": true,
+          "isEpisodeExisted": true,
+          "expireDatetime": null
+        },
+        "imageStatus": 200,
+        "imageDimensions": {
+          "width": 1024,
+          "height": 560
+        },
+        "imageContentType": "image/jpeg",
+        "imageSha256AtVerification": "df86800f9dd9796eb52ea548272269be7a752bb45cc709ad322f0cf19d955484"
+      }
+    },
+    {
+      "title": "(자막) 극장판 스파이 패밀리 코드 : 화이트",
+      "description": "가족 여행을 떠난 포저 일가가 예상하지 못한 사건에 휘말린다. 서로의 비밀을 간직한 가족의 특별한 임무를 그린 극장판.",
+      "imageUrl": "https://thumbnail.laftel.net/items/full/658d3858-9208-45de-92da-369242983a33.jpg?c=0%2C316%2C1024%2C892",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/42807",
+      "aliases": ["극장판 스파이 패밀리 코드 : 화이트"],
+      "year": 2023,
+      "source": {
+        "pageUrl": "https://laftel.net/item/42807",
+        "detailApiUrl": "https://api.laftel.net/api/items/v2/42807/",
+        "verifiedAt": "2026-11-13T18:55:57.238296+00:00",
+        "pageStatus": 200,
+        "titleField": "name / og:title",
+        "imageField": "og:image",
+        "yearField": "air_year_quarter (first year)",
+        "yearValue": "2023년 4분기",
+        "descriptionKind": "original Korean summary based on official synopsis",
+        "catalogueStatus": {
+          "isViewing": true,
+          "isEpisodeExisted": true,
+          "expireDatetime": null
+        },
+        "imageStatus": 200,
+        "imageDimensions": {
+          "width": 1024,
+          "height": 576
+        },
+        "imageContentType": "image/jpeg",
+        "imageSha256AtVerification": "c124020d4bfb06ec0e00e52a5a7f35287894fc785c1e69e49356ecd2fe8a261f"
+      }
+    },
+    {
+      "title": "스킵과 로퍼",
+      "description": "지방에서 도쿄로 올라온 미츠미가 새로운 학교에서 친구들을 만난다. 서로 다른 속도로 성장하는 학생들의 소소한 일상과 우정을 따라가는 청춘 이야기.",
+      "imageUrl": "https://thumbnail.laftel.net/items/home/740e5f97-7e90-4595-bacb-e8f9e15c35fa.jpg",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/41363",
+      "aliases": [],
+      "year": 2023,
+      "source": {
+        "pageUrl": "https://laftel.net/item/41363",
+        "detailApiUrl": "https://api.laftel.net/api/items/v2/41363/",
+        "verifiedAt": "2026-11-13T18:55:57.238296+00:00",
+        "pageStatus": 200,
+        "titleField": "name / og:title",
+        "imageField": "og:image",
+        "yearField": "air_year_quarter (first year)",
+        "yearValue": "2023년 2분기",
+        "descriptionKind": "original Korean summary based on official synopsis",
+        "catalogueStatus": {
+          "isViewing": true,
+          "isEpisodeExisted": true,
+          "expireDatetime": null
+        },
+        "imageStatus": 200,
+        "imageDimensions": {
+          "width": 1024,
+          "height": 576
+        },
+        "imageContentType": "image/jpeg",
+        "imageSha256AtVerification": "8316a6cbc4e95b38a5b6225953002ca5ebab505a119d67a5115acceccaa05a0e"
+      }
+    },
+    {
+      "title": "마녀의 여행",
+      "description": "마녀 일레이나는 어린 시절 동경하던 여행을 시작한다. 낯선 나라에서 만나는 사람들과 특별한 풍경을 통해 세상의 여러 모습을 마주한다.",
+      "imageUrl": "https://thumbnail.laftel.net/items/home/4c5c6a36-31ef-4da5-bf3e-9f582669b3e1.jpg",
+      "provider": "laftel",
+      "url": "https://laftel.net/item/39985",
+      "aliases": [],
+      "year": 2020,
+      "source": {
+        "pageUrl": "https://laftel.net/item/39985",
+        "detailApiUrl": "https://api.laftel.net/api/items/v2/39985/",
+        "verifiedAt": "2026-11-13T18:55:57.238296+00:00",
+        "pageStatus": 200,
+        "titleField": "name / og:title",
+        "imageField": "og:image",
+        "yearField": "air_year_quarter (first year)",
+        "yearValue": "2020년 4분기",
+        "descriptionKind": "original Korean summary based on official synopsis",
+        "catalogueStatus": {
+          "isViewing": true,
+          "isEpisodeExisted": true,
+          "expireDatetime": null
+        },
+        "imageStatus": 200,
+        "imageDimensions": {
+          "width": 1024,
+          "height": 576
+        },
+        "imageContentType": "image/jpg",
+        "imageSha256AtVerification": "c0763395897fd22cfad4f3531b6c640ca2f4856df0669f419f321b81a83d80dc"
+      }
+    }
+  ],
+  "excluded": [
+    {
+      "title": "약사의 혼잣말",
+      "url": "https://laftel.net/item/41714",
+      "reason": "Metadata exists, but official API reported is_viewing=false and is_episode_existed=false at verification."
+    },
+    {
+      "title": "던전밥",
+      "reason": "Official Laftel keyword search returned count=0; no Laftel title URL was fabricated."
+    }
+  ]
+}

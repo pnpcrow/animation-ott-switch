@@ -1,16 +1,34 @@
 {
-  "version": "0.1.7",
+  "version": "0.1.8",
   "extensionId": "cmaijknliglhgokkmijggladebokgafl",
   "viewport": {
     "width": 1280,
     "height": 800
   },
-  "capturedAt": "2026-11-13T18:19:38.650Z",
+  "capturedAt": "2026-11-13T19:04:03.682Z",
   "actualInstalledExtension": true,
-  "syntheticCatalogAndArtwork": true,
-  "syntheticProviderPage": true,
+  "syntheticCatalogAndArtwork": false,
+  "syntheticProviderPage": false,
+  "curatedExampleLibrary": true,
+  "sourcePageUrl": "https://laftel.net/item/42783",
+  "sourcePageTitle": "어느 마녀가 죽을 때까지 라프텔 - 애니 추천 애니 스트리밍 서비스",
+  "catalogueSources": "catalogue-sources.json",
+  "providerPageErrorCount": 0,
+  "requestedLiveSwitchProvider": "wavve",
+  "observedServiceLabels": [
+    "라프텔구독현재 페이지현재",
+    "애니플러스확인 필요찾아서 이동검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다.",
+    "Crunchyroll확인 필요찾아서 이동로그인 또는 사이트의 접근 확인이 필요합니다.",
+    "Netflix확인 필요찾아서 이동로그인 또는 지원 브라우저에서 직접 확인해 주세요.",
+    "Prime Video확인 필요찾아서 이동검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요.",
+    "Apple TV확인 필요찾아서 이동Apple TV 검색에서 찾지 못했습니다. 전체 작품 카탈로그의 제공 여부는 상세 페이지에서 확인해 주세요.",
+    "웨이브작품 페이지 확인스위치 ",
+    "티빙확인 필요찾아서 이동검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다.",
+    "쿠팡플레이확인 필요찾아서 이동로그인 또는 사이트의 접근 확인이 필요합니다.",
+    "왓챠확인 필요찾아서 이동검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+  ],
   "userProfileUsed": false,
-  "liveExternalNetwork": false,
+  "liveExternalNetwork": true,
   "pageErrors": [],
-  "note": "Original fictional demo content, not evidence of OTT availability. The screenshot UI is the actual production bundle."
+  "note": "Actual extension UI, official OTT key visuals and live Laftel detail page. Categories and notes are curated for the screenshots. No account/profile data, fabricated work links or overridden search responses. Title-page existence is not a guarantee of subscription inclusion or regional playback rights."
 }

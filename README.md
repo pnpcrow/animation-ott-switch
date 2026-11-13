@@ -1,6 +1,6 @@
 # AniOTT Switch
 
-마음에 든 작품을 내 OTT로 이어 보고, 작품 중심으로 모아 두는 Chrome Manifest V3 확장 프로그램입니다. **한국 서비스 우선 · 로컬 저장 · 공개 테스트 버전 0.1.7**
+마음에 든 작품을 구독 중인 OTT로 이어 보고, 작품 중심으로 모아 두는 Chrome Manifest V3 확장 프로그램입니다. **한국 서비스 우선 · 로컬 저장 · 공개 버전 0.1.8**
 
 v0.1.5로 만든 스토어 항목의 ID **`cmaijknliglhgokkmijggladebokgafl`**를 고정해 사용합니다. 빌드·패키징에서 공개키와 ID를 검증합니다. 버전은 업데이트마다 올리며 ID는 유지합니다. [식별자와 기존 데이터 전환 안내](docs/extension-identity.md)를 참고하세요.
 
@@ -36,11 +36,11 @@ npm run test:e2e
 npm run package
 ```
 
-빌드 결과는 `dist/`, 설치용 ZIP은 `release/ott-switch-0.1.7.zip`에 생성됩니다. `npm run dev`는 빌드 후 `http://127.0.0.1:4173/library.html`에 보관함 미리보기를 엽니다. localhost DB는 확장 DB와 별개이며 미리보기에서는 자동 OTT 조회를 하지 않습니다.
+빌드 결과는 `dist/`, 설치용 ZIP은 `release/ott-switch-0.1.8.zip`에 생성됩니다. `npm run dev`는 빌드 후 `http://127.0.0.1:4173/library.html`에 보관함 미리보기를 엽니다. localhost DB는 확장 DB와 별개이며 미리보기에서는 자동 OTT 조회를 하지 않습니다.
 
 ## 설치
 
-1. [v0.1.7 테스트 Release](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.7)에서 ZIP을 받아 압축을 풉니다. 또는 위 명령으로 `dist`를 빌드합니다. 한국어 성능 보고서(HTML/Markdown)와 원시 측정 JSON은 [v0.1.5 릴리즈](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.5)에 보존되어 있습니다.
+1. [v0.1.8 Release](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.8)에서 ZIP을 받아 압축을 풉니다. 또는 위 명령으로 `dist`를 빌드합니다. 한국어 성능 보고서(HTML/Markdown)와 원시 측정 JSON은 [v0.1.5 릴리즈](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.5)에 보존되어 있습니다.
 2. Chrome 주소창에서 `chrome://extensions`를 열고 **개발자 모드**를 켭니다.
 3. **압축해제된 확장 프로그램을 로드합니다**에서 `manifest.json`이 들어 있는 폴더를 선택합니다.
 4. 지원 OTT 작품 페이지를 새로고침하고 왼쪽 `OTT` 탭에서 카테고리를 선택해 저장합니다.
@@ -77,6 +77,8 @@ Google Drive 연결은 **아직 구현하지 않았습니다**. 수정 시각·�
 - [스토어 아이콘·스크린샷·프로모션 이미지](assets/store/README.md)
 
 0.1.7에서 표시 이름을 **AniOTT Switch**로 바꾸고 본문16px·보조문구14px 중심으로 가독성을 개선했습니다. 실제 저장에 쓰이지 않던 `storage` 권한을 제거했으며 북마크는 기존 IndexedDB에 그대로 보존합니다. 공개키·확장 ID·백업 형식은 유지합니다.
+
+0.1.8은 아이콘 윤곽을 정리하고 실제 작품의 공식 대표 이미지와 실제 라프텔 화면으로 스토어 캡처를 교체했습니다. [0.1.8 변경 기록](docs/release-0.1.8.md)을 참고하세요.
 
 ## 검증 및 구조
 
