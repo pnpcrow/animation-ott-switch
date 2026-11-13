@@ -1,0 +1,9506 @@
+{
+  "schemaVersion": 1,
+  "model": "SlayerLab/Slayer-149M-Decision-v1",
+  "revision": "ccfd7d3d91f3894beb1cd096b5d067333ba3d4c7",
+  "runtime": "PyTorch CPU (not WebGPU)",
+  "torch": "2.15.0+cpu",
+  "transformers": "5.22.2",
+  "python": "3.12.10",
+  "threads": 4,
+  "parameters": 149333081,
+  "dtype": "float32",
+  "loadSeconds": 5.0269156999420375,
+  "datasetSha256": "17cae9e8427759989eb1b8df953c150c6edef6b6b4ec7869a1819a8a073267b9",
+  "modelHashes": {
+    "config.json": "31a1e0fde1069108db98968775bed7644cfde9713e85900e57ccf195815ec8ab",
+    "modeling_slayer_balanced.py": "11154d3fe903d020afbaebed86f6f00add3301ee5d51e7ffef6c59f35efe123e",
+    "tokenizer.json": "d1ffe47f6fd8cc19ba7c3e5d2537699d6a99d09b584d3319944f4e40fe6c44ea",
+    "model.safetensors": "ba26b9ac1b22ca433e2046ef0d7bcb288e51d4d4aa1d16d0ab27c42025bc581e"
+  },
+  "readout": "Sum of log probabilities of numeric bracket suffixes; exact shared-prefix trie; conditional softmax, not calibrated on DOM tasks",
+  "rows": [
+    {
+      "id": "witch-title",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t3",
+      "optionIds": [
+        "t3",
+        "t5",
+        "t8",
+        "__none__",
+        "t2",
+        "t7",
+        "t6",
+        "t4",
+        "t1"
+      ],
+      "promptSha256": "d064ad20b084eb27fe343a25d5378a4721c2e4b322ad2bb76029065ec867b716",
+      "logScores": [
+        -1.466950616799295,
+        -2.583406831137836,
+        -2.5286643248982728,
+        -3.207318551838398,
+        -3.1872764648869634,
+        -4.794990366324782,
+        -5.177105998620391,
+        -5.722417633980513,
+        -5.078616784885526
+      ],
+      "probabilities": [
+        0.4696390926837921,
+        0.15377771854400635,
+        0.16243059933185577,
+        0.08240091800689697,
+        0.08406907320022583,
+        0.01684282347559929,
+        0.01149381697177887,
+        0.0066625154577195644,
+        0.012683456763625145
+      ],
+      "promptTokens": 1364,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "elapsedMs": 4627.497
+    },
+    {
+      "id": "witch-image",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i6",
+      "optionIds": [
+        "i6",
+        "i4",
+        "i1",
+        "i3",
+        "i5",
+        "__none__",
+        "i8",
+        "i2",
+        "i7"
+      ],
+      "promptSha256": "a2b43e584b2a102f694ec0c6ec5bd38757831a05465636c47e8b0b77ae0dcd5a",
+      "logScores": [
+        -2.023338168859482,
+        -2.852102399803698,
+        -2.6756652928888798,
+        -3.419379983097315,
+        -3.196080381050706,
+        -5.107499111443758,
+        -5.267604587599635,
+        -5.57653296738863,
+        -5.331547446548939
+      ],
+      "probabilities": [
+        0.3753059506416321,
+        0.1638542115688324,
+        0.19547143578529358,
+        0.09291635453701019,
+        0.11616355925798416,
+        0.0171771589666605,
+        0.01463586837053299,
+        0.010746141895651817,
+        0.013729303143918514
+      ],
+      "promptTokens": 1542,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 5656.543
+    },
+    {
+      "id": "witch-description",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3699 > 2048; no truncation performed",
+      "elapsedMs": 5.079
+    },
+    {
+      "id": "frieren-title",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t8",
+      "optionIds": [
+        "t8",
+        "t4",
+        "t7",
+        "t2",
+        "t5",
+        "t3",
+        "t1",
+        "__none__",
+        "t6"
+      ],
+      "promptSha256": "0b3e1db968de6ffb1673beb43a4547be4acef481aa920dfa98aa9f59fef8080c",
+      "logScores": [
+        -1.978573327884078,
+        -2.719780743122101,
+        -2.6707216636277735,
+        -3.3546405490487814,
+        -3.508665930479765,
+        -5.073446322232485,
+        -5.323269343003631,
+        -5.249024570919573,
+        -5.347482893615961
+      ],
+      "probabilities": [
+        0.3847498595714569,
+        0.18334801495075226,
+        0.1925671547651291,
+        0.09717623889446259,
+        0.08330434560775757,
+        0.017421768978238106,
+        0.013570486567914486,
+        0.014616372995078564,
+        0.013245847076177597
+      ],
+      "promptTokens": 1340,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 5497.699
+    },
+    {
+      "id": "frieren-image",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1",
+        "i6",
+        "i5",
+        "i4",
+        "i7",
+        "i8",
+        "i2",
+        "i3"
+      ],
+      "promptSha256": "edd7a80101544cc84742be175ae7268fc511177189f2782116271de0249ebdf4",
+      "logScores": [
+        -1.5639966954477131,
+        -2.9080543550662696,
+        -2.5363979977555573,
+        -2.6608500368893147,
+        -2.826850769110024,
+        -4.539372302591801,
+        -4.811732202768326,
+        -5.1770621333271265,
+        -4.826987750828266
+      ],
+      "probabilities": [
+        0.4147900640964508,
+        0.10817116498947144,
+        0.1568627655506134,
+        0.13850675523281097,
+        0.11732156574726105,
+        0.021166015416383743,
+        0.016119617968797684,
+        0.011186495423316956,
+        0.015875572338700294
+      ],
+      "promptTokens": 1533,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 4815.426
+    },
+    {
+      "id": "frieren-description",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3796 > 2048; no truncation performed",
+      "elapsedMs": 9.273
+    },
+    {
+      "id": "apothecary-title",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t7",
+      "optionIds": [
+        "t7",
+        "t5",
+        "t2",
+        "t4",
+        "__none__",
+        "t8",
+        "t1",
+        "t6",
+        "t3"
+      ],
+      "promptSha256": "037d76dc16d89c04db53b31b7c482d8b1fc17073b8de791c859d0502ff130661",
+      "logScores": [
+        -2.1167047526687384,
+        -2.655095374211669,
+        -2.376250541768968,
+        -2.823941699229181,
+        -3.0457979487255216,
+        -4.731112940236926,
+        -5.165497281588614,
+        -5.299373414367437,
+        -5.000005779787898
+      ],
+      "probabilities": [
+        0.2889291048049927,
+        0.16864411532878876,
+        0.22288045287132263,
+        0.14244334399700165,
+        0.11410145461559296,
+        0.021152816712856293,
+        0.013699903152883053,
+        0.011983281001448631,
+        0.016165515407919884
+      ],
+      "promptTokens": 1304,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 4067.299
+    },
+    {
+      "id": "apothecary-image",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i1",
+      "optionIds": [
+        "i1",
+        "__none__",
+        "i7",
+        "i6",
+        "i2",
+        "i3",
+        "i5",
+        "i8",
+        "i4"
+      ],
+      "promptSha256": "1b3a3c8f21aced951aaf4f63c2cd13a965090ab6fbdbd6371cb450eb0ee7c339",
+      "logScores": [
+        -1.671207514591515,
+        -2.8866844484582543,
+        -2.5242289532907307,
+        -2.7899649906903505,
+        -2.7154110595583916,
+        -4.621076751500368,
+        -4.888707704842091,
+        -5.189386695623398,
+        -4.727071786299348
+      ],
+      "probabilities": [
+        0.3890311121940613,
+        0.11537440121173859,
+        0.1657760590314865,
+        0.12709081172943115,
+        0.13692809641361237,
+        0.020364437252283096,
+        0.015582665801048279,
+        0.011536084115505219,
+        0.018316365778446198
+      ],
+      "promptTokens": 1538,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "elapsedMs": 4620.989
+    },
+    {
+      "id": "apothecary-description",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "d2",
+      "optionIds": [
+        "d2",
+        "d4",
+        "d1",
+        "__none__",
+        "d3"
+      ],
+      "promptSha256": "763b87d613ef9bf5afb4d19e0e7757a9589dd545e5bfd7771577b8ed46d2291c",
+      "logScores": [
+        -1.9389694007113576,
+        -2.9664972610771656,
+        -2.429137669503689,
+        -2.0655099023133516,
+        -2.1828308757394552
+      ],
+      "probabilities": [
+        0.27509191632270813,
+        0.09845282137393951,
+        0.16850019991397858,
+        0.2423940896987915,
+        0.21556098759174347
+      ],
+      "promptTokens": 1068,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 3861.763
+    },
+    {
+      "id": "nia-title",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t6",
+      "optionIds": [
+        "t6",
+        "t4",
+        "t7",
+        "t1",
+        "t3",
+        "t2",
+        "t8",
+        "__none__",
+        "t5"
+      ],
+      "promptSha256": "7ad3df4486bc0837872ea4d7326d7573b1df7f73c443a5c778ad596dfd3c4d8d",
+      "logScores": [
+        -2.0438185231760144,
+        -2.4984544599428773,
+        -2.1678598476573825,
+        -3.003651177510619,
+        -3.1686064517125487,
+        -4.496831648051739,
+        -4.771895976737142,
+        -4.983630193397403,
+        -4.719668997451663
+      ],
+      "probabilities": [
+        0.28581202030181885,
+        0.18139885365962982,
+        0.25247013568878174,
+        0.1094537004828453,
+        0.09280924499034882,
+        0.024589547887444496,
+        0.018676329404115677,
+        0.015112505294382572,
+        0.01967765763401985
+      ],
+      "promptTokens": 1632,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 6416.563
+    },
+    {
+      "id": "nia-image",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i5",
+      "optionIds": [
+        "i5",
+        "i1",
+        "i6",
+        "i8",
+        "i2",
+        "i3",
+        "__none__",
+        "i4",
+        "i7"
+      ],
+      "promptSha256": "f13d76a20029f7aa5533c9a626c5c7e7aac2163fccd9b61b43f13849373b194a",
+      "logScores": [
+        -2.1100090742111206,
+        -2.721202230080962,
+        -2.405929397791624,
+        -3.1780556980520487,
+        -3.027031347155571,
+        -4.855034425854683,
+        -5.193964082747698,
+        -5.439494036138058,
+        -5.165071289986372
+      ],
+      "probabilities": [
+        0.31028029322624207,
+        0.16839008033275604,
+        0.23080101609230042,
+        0.1066368892788887,
+        0.12402135878801346,
+        0.019934479147195816,
+        0.014203966595232487,
+        0.011111616156995296,
+        0.014620340429246426
+      ],
+      "promptTokens": 1611,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 6677.501
+    },
+    {
+      "id": "nia-description",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 4089 > 2048; no truncation performed",
+      "elapsedMs": 5.01
+    },
+    {
+      "id": "frieren-aniplus-title",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t2",
+      "optionIds": [
+        "t2",
+        "t4",
+        "t5",
+        "t3",
+        "t6",
+        "t1",
+        "__none__",
+        "t7",
+        "t8"
+      ],
+      "promptSha256": "731bacc1a2af8c83d7885c007d26d952faada76fa636e4569a4f8fc8106b4c20",
+      "logScores": [
+        -1.8439613608643413,
+        -2.376945963129401,
+        -1.9223394729197025,
+        -2.5657800771296024,
+        -2.7015890404582024,
+        -4.126130856573582,
+        -4.467391051352024,
+        -4.758335338905454,
+        -4.200568391010165
+      ],
+      "probabilities": [
+        0.26701587438583374,
+        0.15669848024845123,
+        0.24688681960105896,
+        0.12973439693450928,
+        0.11325935274362564,
+        0.027252309024333954,
+        0.019372960552573204,
+        0.014482401311397552,
+        0.025297386571764946
+      ],
+      "promptTokens": 863,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": false,
+      "elapsedMs": 3491.543
+    },
+    {
+      "id": "frieren-aniplus-image",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i1",
+      "optionIds": [
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "promptSha256": "011ae3570f81bf7e513020dd462d2508c2aaf7edb46f4693928c4f9f79d500ad",
+      "logScores": [
+        -1.224850844591856,
+        -2.3062567226588726,
+        -2.3291541719809175
+      ],
+      "probabilities": [
+        0.5986016392707825,
+        0.2029968500137329,
+        0.198401540517807
+      ],
+      "promptTokens": 322,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 1279.598
+    },
+    {
+      "id": "frieren-aniplus-description",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3078 > 2048; no truncation performed",
+      "elapsedMs": 3.677
+    },
+    {
+      "id": "witch-tving-title",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "t3",
+        "t1",
+        "t4",
+        "t2"
+      ],
+      "promptSha256": "0083b99bc6b79f8d763881ca44f98cdb62364cba97123e006395c595b763181e",
+      "logScores": [
+        -1.3804418500512838,
+        -2.0869192983955145,
+        -2.3515266543254256,
+        -2.898694892413914,
+        -2.9819314097985625
+      ],
+      "probabilities": [
+        0.43615907430648804,
+        0.2151917815208435,
+        0.16516123712062836,
+        0.09555996209383011,
+        0.0879279300570488
+      ],
+      "promptTokens": 624,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 2493.473
+    },
+    {
+      "id": "witch-tving-image",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i7",
+        "i3",
+        "i1",
+        "i2",
+        "i4",
+        "i6",
+        "__none__",
+        "i5"
+      ],
+      "promptSha256": "4c9b27912c2d0e584c7aba71fb043cccc264be87c3f761e927a2ecf0515d848c",
+      "logScores": [
+        -1.439282196573913,
+        -2.083840398583561,
+        -2.3391957781277597,
+        -2.9447124702855945,
+        -2.878570786677301,
+        -4.87227092217654,
+        -4.963053027167916,
+        -5.232406344264746,
+        -5.023384004831314
+      ],
+      "probabilities": [
+        0.3995872437953949,
+        0.20974111557006836,
+        0.16247409582138062,
+        0.08867712318897247,
+        0.09474068135023117,
+        0.01290278509259224,
+        0.011783038266003132,
+        0.009000752121210098,
+        0.011093176901340485
+      ],
+      "promptTokens": 1192,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": false,
+      "elapsedMs": 4336.027
+    },
+    {
+      "id": "witch-tving-description",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3770 > 2048; no truncation performed",
+      "elapsedMs": 4.612
+    },
+    {
+      "id": "frieren-tving-title",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t4",
+        "t2",
+        "t3",
+        "t1",
+        "__none__"
+      ],
+      "promptSha256": "1183d23a2da16d06f9d74553a3850b92ee2c14236e9e0eb2c164f092c8e16176",
+      "logScores": [
+        -1.7190132765099406,
+        -1.9357152823358774,
+        -2.055324088782072,
+        -2.563904957845807,
+        -2.7162359468638897
+      ],
+      "probabilities": [
+        0.30137935280799866,
+        0.24266158044338226,
+        0.21530573070049286,
+        0.1294737458229065,
+        0.11117963492870331
+      ],
+      "promptTokens": 609,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 2154.069
+    },
+    {
+      "id": "frieren-tving-image",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i5",
+        "__none__",
+        "i4",
+        "i2",
+        "i1",
+        "i7",
+        "i3",
+        "i6"
+      ],
+      "promptSha256": "7499417bdcafa6d2c20c311026e5704786e4dc60248b69bb6bfdb10ef9241c0c",
+      "logScores": [
+        -1.4533968633040786,
+        -2.0528211859054863,
+        -2.267414133064449,
+        -3.119565773755312,
+        -2.7209028196521103,
+        -4.898116668686271,
+        -5.043909632600844,
+        -5.234476143494248,
+        -5.094771301373839
+      ],
+      "probabilities": [
+        0.3889209032058716,
+        0.21356724202632904,
+        0.17232096195220947,
+        0.07349424809217453,
+        0.10949402302503586,
+        0.012411907315254211,
+        0.010728065855801105,
+        0.008866647258400917,
+        0.010196060873568058
+      ],
+      "promptTokens": 1185,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": false,
+      "elapsedMs": 4531.201
+    },
+    {
+      "id": "frieren-tving-description",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3899 > 2048; no truncation performed",
+      "elapsedMs": 5.413
+    },
+    {
+      "id": "witch-wavve-title",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t4",
+        "t2",
+        "t8",
+        "__none__",
+        "t1",
+        "t3",
+        "t7",
+        "t5",
+        "t6"
+      ],
+      "promptSha256": "0399fb033a90952eb99c1840d0045e7b66f8fb57cd3f01202920d8a89ac9f102",
+      "logScores": [
+        -1.9529919819906354,
+        -2.0991249261423945,
+        -2.294187295716256,
+        -2.992354146204889,
+        -2.857398349791765,
+        -5.083269666880369,
+        -5.23335238173604,
+        -5.313275184482336,
+        -4.754738142713904
+      ],
+      "probabilities": [
+        0.28488609194755554,
+        0.24615378677845,
+        0.20253121852874756,
+        0.10075856745243073,
+        0.11531679332256317,
+        0.012451134622097015,
+        0.010715905576944351,
+        0.009892787784337997,
+        0.017293713986873627
+      ],
+      "promptTokens": 694,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": true,
+      "elapsedMs": 2807.404
+    },
+    {
+      "id": "witch-wavve-image",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "__none__",
+        "i2",
+        "i5",
+        "i3",
+        "i7",
+        "i4",
+        "i1",
+        "i6"
+      ],
+      "promptSha256": "2ec9cee1304a861927f8467d3b825a52bf6fa6f341a1b9d60f4149dc3b29a85e",
+      "logScores": [
+        -1.3554815659299493,
+        -2.1928901746869087,
+        -2.3034061272628605,
+        -3.024816661141813,
+        -2.6974712351802737,
+        -4.959596500732005,
+        -4.840000988915563,
+        -5.2913794089108706,
+        -5.175732837989926
+      ],
+      "probabilities": [
+        0.4220471680164337,
+        0.18267498910427094,
+        0.16356204450130463,
+        0.07950198650360107,
+        0.11029157787561417,
+        0.011484543792903423,
+        0.012943550013005733,
+        0.008241803385317326,
+        0.009252243675291538
+      ],
+      "promptTokens": 974,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 4686.135
+    },
+    {
+      "id": "witch-wavve-description",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 2537 > 2048; no truncation performed",
+      "elapsedMs": 2.948
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "t5",
+      "optionIds": [
+        "t5",
+        "t2",
+        "__none__",
+        "t6",
+        "t8",
+        "t3",
+        "t1",
+        "t7",
+        "t4"
+      ],
+      "promptSha256": "e0c7f4e1038438ac96976518cfd49fd7d2400f858ab6b8dce28e83dcbaffd9fc",
+      "logScores": [
+        -1.878709588199854,
+        -2.125856736442074,
+        -2.1535827671177685,
+        -2.780923818703741,
+        -2.8625262049026787,
+        -4.756035354919732,
+        -4.78151196334511,
+        -4.960959363728762,
+        -4.486245982348919
+      ],
+      "probabilities": [
+        0.2816130220890045,
+        0.21994704008102417,
+        0.21393251419067383,
+        0.1142420694231987,
+        0.10528986901044846,
+        0.01585061103105545,
+        0.015451895073056221,
+        0.012913637794554234,
+        0.02075936272740364
+      ],
+      "promptTokens": 710,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 3424.965
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "i7",
+      "optionIds": [
+        "i7",
+        "__none__",
+        "i6",
+        "i4",
+        "i3",
+        "i1",
+        "i2",
+        "i5",
+        "i8"
+      ],
+      "promptSha256": "b9b383e5ed3d79ddaa69896e174110b81185cfa3ffe0564b9ed6f1d430b0ba6b",
+      "logScores": [
+        -1.3889969401061535,
+        -2.319271811982617,
+        -2.358751944731921,
+        -2.941932919435203,
+        -2.6846896950155497,
+        -4.916226675733924,
+        -4.999767706729472,
+        -5.031078211963177,
+        -5.203594900667667
+      ],
+      "probabilities": [
+        0.4230804741382599,
+        0.16688209772109985,
+        0.1604219228029251,
+        0.0895347148180008,
+        0.11580058187246323,
+        0.012432731688022614,
+        0.01143629103899002,
+        0.011083762161433697,
+        0.009327479638159275
+      ],
+      "promptTokens": 1011,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 4684.289
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "d6",
+      "optionIds": [
+        "d6",
+        "d2",
+        "__none__",
+        "d3",
+        "d1",
+        "d4",
+        "d5"
+      ],
+      "promptSha256": "85eb4d6fa6d09a5f01bfc7286e4cf9a31dd3dcca10d64998f88a94e2b46a0829",
+      "logScores": [
+        -1.7781596528366208,
+        -2.6175976963713765,
+        -2.6930390680208802,
+        -3.1006774054840207,
+        -3.568492407910526,
+        -5.371648486703634,
+        -5.70263647288084
+      ],
+      "probabilities": [
+        0.43231257796287537,
+        0.18673880398273468,
+        0.17316922545433044,
+        0.11519554257392883,
+        0.07215496152639389,
+        0.011889553628861904,
+        0.008539242669939995
+      ],
+      "promptTokens": 1251,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 4688.345
+    },
+    {
+      "id": "witch-crunchyroll-title",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "t1",
+      "optionIds": [
+        "t1",
+        "__none__",
+        "t4",
+        "t3",
+        "t5",
+        "t2"
+      ],
+      "promptSha256": "ec1e446c7fa59ea63507579628b110dec8b094a3beb6f2de6053857fd5583725",
+      "logScores": [
+        -1.2953972788527608,
+        -2.640394017100334,
+        -2.4457648266106844,
+        -2.458095512352884,
+        -2.595473495312035,
+        -4.08528221771121
+      ],
+      "probabilities": [
+        0.44971269369125366,
+        0.11716840416193008,
+        0.14234325289726257,
+        0.1405988186597824,
+        0.12255165725946426,
+        0.027625074610114098
+      ],
+      "promptTokens": 857,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 3392.769
+    },
+    {
+      "id": "witch-crunchyroll-image",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1"
+      ],
+      "promptSha256": "442bb83053444f0030d59df105afe0012b1e321c10e9df81b307358787e745a1",
+      "logScores": [
+        -0.9989917599596083,
+        -2.696430183481425
+      ],
+      "probabilities": [
+        0.8451998829841614,
+        0.15480011701583862
+      ],
+      "promptTokens": 409,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 1415.992
+    },
+    {
+      "id": "witch-crunchyroll-description",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "d1",
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "promptSha256": "85ca3e1e47d739989532f4b11f60848117567885dd5fdbe3c85a9b22b05e7403",
+      "logScores": [
+        -1.802658062428236,
+        -2.07437039911747
+      ],
+      "probabilities": [
+        0.5675132274627686,
+        0.43248677253723145
+      ],
+      "promptTokens": 595,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 2188.802
+    },
+    {
+      "id": "witch-title",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t3",
+      "optionIds": [
+        "t3",
+        "t5",
+        "t8",
+        "__none__",
+        "t2",
+        "t7",
+        "t6",
+        "t4",
+        "t1"
+      ],
+      "promptSha256": "48bd0c894c65c16bd1967da4402d9b8e52613fad3820c34d3032841e8ae6dfa3",
+      "logScores": [
+        -1.5781196812167764,
+        -2.4515076000243425,
+        -2.3445566538721323,
+        -2.965894146822393,
+        -3.0537252333015203,
+        -4.627430183812976,
+        -4.955051937140524,
+        -5.435274602845311,
+        -4.784294128417969
+      ],
+      "probabilities": [
+        0.3994162082672119,
+        0.1667700856924057,
+        0.18559503555297852,
+        0.09970635175704956,
+        0.09132260829210281,
+        0.018928974866867065,
+        0.013640889897942543,
+        0.008438875898718834,
+        0.016180869191884995
+      ],
+      "promptTokens": 1417,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "elapsedMs": 5808.971
+    },
+    {
+      "id": "witch-image",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i6",
+      "optionIds": [
+        "i6",
+        "i4",
+        "i1",
+        "i3",
+        "i5",
+        "__none__",
+        "i8",
+        "i2",
+        "i7"
+      ],
+      "promptSha256": "d0c22a573d4b4000ab8155afef09d8a7acbee995ed5e63268acea19863d76dc2",
+      "logScores": [
+        -2.1082046953961253,
+        -2.75656480435282,
+        -2.5790470549836755,
+        -3.324761923402548,
+        -3.1416355911642313,
+        -4.969116490334272,
+        -5.113927036523819,
+        -5.402285628020763,
+        -5.134385911747813
+      ],
+      "probabilities": [
+        0.33425435423851013,
+        0.17478244006633759,
+        0.20873382687568665,
+        0.0990222916007042,
+        0.1189223974943161,
+        0.01912488043308258,
+        0.016546588391065598,
+        0.012401547282934189,
+        0.01621149852871895
+      ],
+      "promptTokens": 1595,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 6153.78
+    },
+    {
+      "id": "witch-description",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3752 > 2048; no truncation performed",
+      "elapsedMs": 4.347
+    },
+    {
+      "id": "frieren-title",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t8",
+      "optionIds": [
+        "t8",
+        "t4",
+        "t7",
+        "t2",
+        "t5",
+        "t3",
+        "t1",
+        "__none__",
+        "t6"
+      ],
+      "promptSha256": "c81387618aed4c820caac9df85c5e0e4af0558a478b1cdcde939d6f792d2bda9",
+      "logScores": [
+        -1.8971429420635104,
+        -2.5282165319658816,
+        -2.4140839488245547,
+        -3.036737942136824,
+        -3.3073710463941097,
+        -4.813473846763372,
+        -4.93295135628432,
+        -4.858908697962761,
+        -4.909720217809081
+      ],
+      "probabilities": [
+        0.3453684449195862,
+        0.18374301493167877,
+        0.20595768094062805,
+        0.11050013452768326,
+        0.08430013805627823,
+        0.018695464357733727,
+        0.016590051352977753,
+        0.017865044996142387,
+        0.016979968175292015
+      ],
+      "promptTokens": 1393,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 6415.488
+    },
+    {
+      "id": "frieren-image",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1",
+        "i6",
+        "i5",
+        "i4",
+        "i7",
+        "i8",
+        "i2",
+        "i3"
+      ],
+      "promptSha256": "a1007d2fc5b11d522553db20a2521f209938a12feae46af2200ad09fad0b4cbc",
+      "logScores": [
+        -1.7254217844456434,
+        -2.8176917121745646,
+        -2.4661190356127918,
+        -2.6523064225912094,
+        -2.8375813979655504,
+        -4.457894116640091,
+        -4.684704935178161,
+        -4.999521916732192,
+        -4.657982278615236
+      ],
+      "probabilities": [
+        0.3643128275871277,
+        0.12221024185419083,
+        0.1736975610256195,
+        0.1441895067691803,
+        0.1198035478591919,
+        0.02370155043900013,
+        0.018891839310526848,
+        0.013789578340947628,
+        0.019403479993343353
+      ],
+      "promptTokens": 1586,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 6496.205
+    },
+    {
+      "id": "frieren-description",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3849 > 2048; no truncation performed",
+      "elapsedMs": 4.831
+    },
+    {
+      "id": "apothecary-title",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t7",
+      "optionIds": [
+        "t7",
+        "t5",
+        "t2",
+        "t4",
+        "__none__",
+        "t8",
+        "t1",
+        "t6",
+        "t3"
+      ],
+      "promptSha256": "9512e510d5173237ee922d3c094c31fb792bde2811ae7b49036adaa7bd854d67",
+      "logScores": [
+        -2.0907077891752124,
+        -2.5842516450211406,
+        -2.2703853617422283,
+        -2.7126028100028634,
+        -3.036702145822346,
+        -4.633794942870736,
+        -5.002705425024033,
+        -5.143669710494578,
+        -4.8617039900273085
+      ],
+      "probabilities": [
+        0.27669966220855713,
+        0.1689138412475586,
+        0.23119354248046875,
+        0.14856722950935364,
+        0.10744061321020126,
+        0.021755043417215347,
+        0.015043332241475582,
+        0.013065443374216557,
+        0.01732129417359829
+      ],
+      "promptTokens": 1357,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 4297.656
+    },
+    {
+      "id": "apothecary-image",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i1",
+      "optionIds": [
+        "i1",
+        "__none__",
+        "i7",
+        "i6",
+        "i2",
+        "i3",
+        "i5",
+        "i8",
+        "i4"
+      ],
+      "promptSha256": "10a05dbda57e2156ce1438f74b67fe50f45ed77cf0445fbf8ae3f7055d07c71d",
+      "logScores": [
+        -1.7870842451229692,
+        -2.76444726344198,
+        -2.4526895778253675,
+        -2.747186094522476,
+        -2.7100279051810503,
+        -4.480919506400824,
+        -4.689266055822372,
+        -4.977410480380058,
+        -4.547007881104946
+      ],
+      "probabilities": [
+        0.34513163566589355,
+        0.12987376749515533,
+        0.1773846447467804,
+        0.13213497400283813,
+        0.13713723421096802,
+        0.023338180035352707,
+        0.018948860466480255,
+        0.014205080457031727,
+        0.021845653653144836
+      ],
+      "promptTokens": 1591,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "elapsedMs": 6518.702
+    },
+    {
+      "id": "apothecary-description",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "d2",
+        "d4",
+        "d1",
+        "__none__",
+        "d3"
+      ],
+      "promptSha256": "cfe962e4cd89b0e4cbf61a93adb25a04b4640c9c8c24ad43b10d306771934ab6",
+      "logScores": [
+        -1.9951319880783558,
+        -2.8412882378324866,
+        -2.257663704454899,
+        -1.8033898770809174,
+        -2.176646986976266
+      ],
+      "probabilities": [
+        0.23565305769443512,
+        0.10110951215028763,
+        0.1812412142753601,
+        0.2854602038860321,
+        0.19653598964214325
+      ],
+      "promptTokens": 1121,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 3742.735
+    },
+    {
+      "id": "nia-title",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t6",
+      "optionIds": [
+        "t6",
+        "t4",
+        "t7",
+        "t1",
+        "t3",
+        "t2",
+        "t8",
+        "__none__",
+        "t5"
+      ],
+      "promptSha256": "9300f581d3d774e5164847698590831ce7b5f3d029eb97b8da77962f018fc31b",
+      "logScores": [
+        -2.0356406047940254,
+        -2.4466288555413485,
+        -2.0650420980527997,
+        -2.896500065922737,
+        -3.092583834193647,
+        -4.457239067181945,
+        -4.644962336868048,
+        -4.851940197870135,
+        -4.551770605146885
+      ],
+      "probabilities": [
+        0.269738107919693,
+        0.1788349747657776,
+        0.2619228959083557,
+        0.11404488980770111,
+        0.09373843669891357,
+        0.02394724078476429,
+        0.019848529249429703,
+        0.01613760180771351,
+        0.02178717777132988
+      ],
+      "promptTokens": 1685,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 6173.459
+    },
+    {
+      "id": "nia-image",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i5",
+      "optionIds": [
+        "i5",
+        "i1",
+        "i6",
+        "i8",
+        "i2",
+        "i3",
+        "__none__",
+        "i4",
+        "i7"
+      ],
+      "promptSha256": "266e7726bb59069eacfb556a679da05183867f161018070c39ab0787368ade14",
+      "logScores": [
+        -2.148892962373793,
+        -2.6440578205510974,
+        -2.359409088268876,
+        -3.1337361466139555,
+        -2.9955382272601128,
+        -4.785220414400101,
+        -5.042203651741147,
+        -5.323191832751036,
+        -5.0034006498754025
+      ],
+      "probabilities": [
+        0.28998881578445435,
+        0.17673960328102112,
+        0.2349390685558319,
+        0.10831017792224884,
+        0.1243620365858078,
+        0.020770104601979256,
+        0.016063213348388672,
+        0.012128325179219246,
+        0.01669875904917717
+      ],
+      "promptTokens": 1664,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 6662.18
+    },
+    {
+      "id": "nia-description",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 4142 > 2048; no truncation performed",
+      "elapsedMs": 5.749
+    },
+    {
+      "id": "frieren-aniplus-title",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t2",
+      "optionIds": [
+        "t2",
+        "t4",
+        "t5",
+        "t3",
+        "t6",
+        "t1",
+        "__none__",
+        "t7",
+        "t8"
+      ],
+      "promptSha256": "9ca35c4318df334e92ab6eb0ca5d918227995934792711a1de2f070369d1f02c",
+      "logScores": [
+        -1.8585962010547519,
+        -2.3182752653956413,
+        -1.8837475730106235,
+        -2.4308409988880157,
+        -2.6852508448064327,
+        -4.10861156322062,
+        -4.3153122290968895,
+        -4.619543870911002,
+        -4.1570995803922415
+      ],
+      "probabilities": [
+        0.2523232102394104,
+        0.15933865308761597,
+        0.24605607986450195,
+        0.14237523078918457,
+        0.11039406061172485,
+        0.026594266295433044,
+        0.021628130227327347,
+        0.01595485582947731,
+        0.0253355223685503
+      ],
+      "promptTokens": 916,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": false,
+      "elapsedMs": 3932.689
+    },
+    {
+      "id": "frieren-aniplus-image",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i1",
+      "optionIds": [
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "promptSha256": "585bc973584e27291f37934c6bda9a73e586c3d344c4d89451e0f2a4a4da379d",
+      "logScores": [
+        -1.1263727396726608,
+        -2.188196506816894,
+        -2.30792133230716
+      ],
+      "probabilities": [
+        0.6050969362258911,
+        0.2092573642730713,
+        0.1856456995010376
+      ],
+      "promptTokens": 375,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 1415.868
+    },
+    {
+      "id": "frieren-aniplus-description",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3131 > 2048; no truncation performed",
+      "elapsedMs": 5.738
+    },
+    {
+      "id": "witch-tving-title",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "t3",
+        "t1",
+        "t4",
+        "t2"
+      ],
+      "promptSha256": "1003640ab49aff25a6b69a9e4878cc16b8abef67c2b488aba07d13c19f6371f8",
+      "logScores": [
+        -1.2688566660508513,
+        -1.9191498691216111,
+        -2.233771196100861,
+        -2.663837312720716,
+        -2.9287529177963734
+      ],
+      "probabilities": [
+        0.42718520760536194,
+        0.22294485569000244,
+        0.162764310836792,
+        0.10587266832590103,
+        0.08123298734426498
+      ],
+      "promptTokens": 677,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 2573.134
+    },
+    {
+      "id": "witch-tving-image",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i7",
+        "i3",
+        "i1",
+        "i2",
+        "i4",
+        "i6",
+        "__none__",
+        "i5"
+      ],
+      "promptSha256": "9d656bbe3d1c802e87f09cd4db6cfb1b565b426d8795683fee21bb50d0cd8487",
+      "logScores": [
+        -1.415693812072277,
+        -2.010767708532512,
+        -2.3476643273606896,
+        -2.838484822306782,
+        -2.8587446231395006,
+        -4.649824392050505,
+        -4.57832994684577,
+        -4.873686449602246,
+        -4.700173430144787
+      ],
+      "probabilities": [
+        0.38862019777297974,
+        0.21433250606060028,
+        0.1530296802520752,
+        0.09367313981056213,
+        0.09179443120956421,
+        0.015309471637010574,
+        0.016444090753793716,
+        0.012238784693181515,
+        0.014557741582393646
+      ],
+      "promptTokens": 1245,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": false,
+      "elapsedMs": 4756.782
+    },
+    {
+      "id": "witch-tving-description",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3823 > 2048; no truncation performed",
+      "elapsedMs": 5.45
+    },
+    {
+      "id": "frieren-tving-title",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t4",
+        "t2",
+        "t3",
+        "t1",
+        "__none__"
+      ],
+      "promptSha256": "6f38328e607e91829893a1a89ea13615a03fbcb468b01f072d150945b3613204",
+      "logScores": [
+        -1.6260479912161827,
+        -1.799285165965557,
+        -1.9646901590749621,
+        -2.4155196379870176,
+        -2.788939841091633
+      ],
+      "probabilities": [
+        0.3011738955974579,
+        0.25326859951019287,
+        0.21465788781642914,
+        0.13675843179225922,
+        0.09414120018482208
+      ],
+      "promptTokens": 662,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 2343.101
+    },
+    {
+      "id": "frieren-tving-image",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i5",
+        "__none__",
+        "i4",
+        "i2",
+        "i1",
+        "i7",
+        "i3",
+        "i6"
+      ],
+      "promptSha256": "88883185d47a960fac8c5711df2e3a78119047c98bb7c8181b3f0a0100c55a75",
+      "logScores": [
+        -1.4057407681830227,
+        -1.9444269118830562,
+        -2.2434519408270717,
+        -3.032112334854901,
+        -2.7575286119244993,
+        -4.7190073020756245,
+        -4.702976661734283,
+        -4.946284849196672,
+        -4.843543829396367
+      ],
+      "probabilities": [
+        0.38370802998542786,
+        0.22389915585517883,
+        0.1660303920507431,
+        0.0754530280828476,
+        0.09929489344358444,
+        0.013965850695967674,
+        0.014191539958119392,
+        0.011126591823995113,
+        0.012330533936619759
+      ],
+      "promptTokens": 1238,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": false,
+      "elapsedMs": 4873.381
+    },
+    {
+      "id": "frieren-tving-description",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3952 > 2048; no truncation performed",
+      "elapsedMs": 5.737
+    },
+    {
+      "id": "witch-wavve-title",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t4",
+        "t2",
+        "t8",
+        "__none__",
+        "t1",
+        "t3",
+        "t7",
+        "t5",
+        "t6"
+      ],
+      "promptSha256": "29b17c7ede14779b7d2f78b2f2ecfdbd60bcb0626e09361a4f240e79f69dc1df",
+      "logScores": [
+        -1.764765520580113,
+        -1.9137112773023546,
+        -2.223552024923265,
+        -2.753984118811786,
+        -2.7334466921165586,
+        -4.802812995389104,
+        -4.921248776838183,
+        -5.038350531831384,
+        -4.639425797387958
+      ],
+      "probabilities": [
+        0.29155150055885315,
+        0.2512053847312927,
+        0.18427516520023346,
+        0.10841841995716095,
+        0.11066810041666031,
+        0.013973590917885303,
+        0.012412862852215767,
+        0.01104117650538683,
+        0.016453798860311508
+      ],
+      "promptTokens": 747,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": true,
+      "elapsedMs": 5392.751
+    },
+    {
+      "id": "witch-wavve-image",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "__none__",
+        "i2",
+        "i5",
+        "i3",
+        "i7",
+        "i4",
+        "i1",
+        "i6"
+      ],
+      "promptSha256": "3723e9aba9adce05ba0eaf1a64540d926bce909a519a6f38c0f9f44603e342c9",
+      "logScores": [
+        -1.3544811238534749,
+        -2.082500853575766,
+        -2.292517954017967,
+        -2.862445753533393,
+        -2.5901220072992146,
+        -4.672370528802276,
+        -4.5206804145127535,
+        -4.901924338191748,
+        -4.914204994216561
+      ],
+      "probabilities": [
+        0.3965255320072174,
+        0.1914679855108261,
+        0.15519830584526062,
+        0.08777491003274918,
+        0.11524952203035355,
+        0.014365811832249165,
+        0.016718924045562744,
+        0.01141921617090702,
+        0.011279834434390068
+      ],
+      "promptTokens": 1027,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 5621.838
+    },
+    {
+      "id": "witch-wavve-description",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 2590 > 2048; no truncation performed",
+      "elapsedMs": 3.699
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "t5",
+      "optionIds": [
+        "t5",
+        "t2",
+        "__none__",
+        "t6",
+        "t8",
+        "t3",
+        "t1",
+        "t7",
+        "t4"
+      ],
+      "promptSha256": "f6731dc3b08099b8d5835e6b7368b90d91450c5fad18be797d5e49d9276dc317",
+      "logScores": [
+        -1.6916885394603014,
+        -1.898215058958158,
+        -2.063979384023696,
+        -2.594602250959724,
+        -2.795018047094345,
+        -4.627110027708113,
+        -4.567211035639048,
+        -4.80207565240562,
+        -4.423438481986523
+      ],
+      "probabilities": [
+        0.2891097664833069,
+        0.23516324162483215,
+        0.19924108684062958,
+        0.11720126122236252,
+        0.09591640532016754,
+        0.015354136936366558,
+        0.01630193553864956,
+        0.012889578938484192,
+        0.01882256381213665
+      ],
+      "promptTokens": 763,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 3915.697
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "i7",
+      "optionIds": [
+        "i7",
+        "__none__",
+        "i6",
+        "i4",
+        "i3",
+        "i1",
+        "i2",
+        "i5",
+        "i8"
+      ],
+      "promptSha256": "793932318f20ba59bf54187bd6b70520dd19c2788a8d83d6dec0a0c68d686cd7",
+      "logScores": [
+        -1.3363230018876493,
+        -2.2037061371374875,
+        -2.333573287818581,
+        -2.797260895371437,
+        -2.642233624123037,
+        -4.698020813986659,
+        -4.6578330378979445,
+        -4.667994385585189,
+        -4.898124368861318
+      ],
+      "probabilities": [
+        0.4120684266090393,
+        0.17308908700942993,
+        0.15200890600681305,
+        0.09560751914978027,
+        0.11163993924856186,
+        0.014289021492004395,
+        0.014874961227178574,
+        0.01472457591444254,
+        0.011697652749717236
+      ],
+      "promptTokens": 1064,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 6517.167
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "d6",
+      "optionIds": [
+        "d6",
+        "d2",
+        "__none__",
+        "d3",
+        "d1",
+        "d4",
+        "d5"
+      ],
+      "promptSha256": "9261e37de5dd41278fcb6fdbe945b16c7466f1ad04fb90572d213cd259b682ff",
+      "logScores": [
+        -1.7278595613315701,
+        -2.468824430834502,
+        -2.5499435672536492,
+        -2.8159656804054976,
+        -3.38165320828557,
+        -5.137399561703205,
+        -5.361662745475769
+      ],
+      "probabilities": [
+        0.39939016103744507,
+        0.1903708577156067,
+        0.1755378544330597,
+        0.13453611731529236,
+        0.07641240954399109,
+        0.01320239994674921,
+        0.010550100356340408
+      ],
+      "promptTokens": 1304,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 4785.073
+    },
+    {
+      "id": "witch-crunchyroll-title",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "t1",
+      "optionIds": [
+        "t1",
+        "__none__",
+        "t4",
+        "t3",
+        "t5",
+        "t2"
+      ],
+      "promptSha256": "b76a4296c7295a53c4cce8d00b8ae468fc37c70729b4c6cf36ddfbf74aacfeba",
+      "logScores": [
+        -1.3080420335754752,
+        -2.5347405076026917,
+        -2.3436761116608977,
+        -2.265231214463711,
+        -2.506236594170332,
+        -3.999282266944647
+      ],
+      "probabilities": [
+        0.4163602292537689,
+        0.12210147082805634,
+        0.14780838787555695,
+        0.15987011790275574,
+        0.1256319135427475,
+        0.02822788991034031
+      ],
+      "promptTokens": 910,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 3038.019
+    },
+    {
+      "id": "witch-crunchyroll-image",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1"
+      ],
+      "promptSha256": "5b9f31c0967632f08b31c5b36e3253328637d69c48a78cf5ff6c02d95bc46c11",
+      "logScores": [
+        -0.8640677356161177,
+        -2.5881396122276783
+      ],
+      "probabilities": [
+        0.8486525416374207,
+        0.15134744346141815
+      ],
+      "promptTokens": 462,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 1422.803
+    },
+    {
+      "id": "witch-crunchyroll-description",
+      "split": "calibration",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "d1",
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "promptSha256": "339d1aa9a728cd955754bb2f0f36f72f9c788d8c396b842be089e2e9b33d00bb",
+      "logScores": [
+        -1.5797040667384863,
+        -1.916162678040564
+      ],
+      "probabilities": [
+        0.5833300352096558,
+        0.41666996479034424
+      ],
+      "promptTokens": 648,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 2155.438
+    },
+    {
+      "id": "witch-title",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t3",
+      "optionIds": [
+        "t3",
+        "t5",
+        "t8",
+        "__none__",
+        "t2",
+        "t7",
+        "t6",
+        "t4",
+        "t1"
+      ],
+      "promptSha256": "33c5b0235328ea6dae365856e4f24753ccf14d9b373a3a569fa1533dd85a4903",
+      "logScores": [
+        -1.703462722711265,
+        -2.4899275908246636,
+        -2.3161668619140983,
+        -3.0132261030375957,
+        -3.092481971718371,
+        -4.7140177115798,
+        -5.085425967350602,
+        -5.56659784540534,
+        -5.000496622174978
+      ],
+      "probabilities": [
+        0.37625402212142944,
+        0.1713656634092331,
+        0.20388585329055786,
+        0.10154491662979126,
+        0.09380752593278885,
+        0.018535897135734558,
+        0.012785365805029869,
+        0.007902105338871479,
+        0.013918664306402206
+      ],
+      "promptTokens": 1807,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "elapsedMs": 6673.643
+    },
+    {
+      "id": "witch-image",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i6",
+      "optionIds": [
+        "i6",
+        "i4",
+        "i1",
+        "i3",
+        "i5",
+        "__none__",
+        "i8",
+        "i2",
+        "i7"
+      ],
+      "promptSha256": "bb9a23f7d0052579e67d790417baecfd38f7b7e1aaa5aebb7e376adc1dd596f9",
+      "logScores": [
+        -2.044342958368361,
+        -2.6737892450764775,
+        -2.500555914826691,
+        -3.3203869815915823,
+        -3.1746479775756598,
+        -4.9954598769545555,
+        -5.10030678100884,
+        -5.425525661557913,
+        -5.051073547452688
+      ],
+      "probabilities": [
+        0.33881545066833496,
+        0.18055027723312378,
+        0.21470019221305847,
+        0.09457675367593765,
+        0.10941528528928757,
+        0.017713703215122223,
+        0.01595052145421505,
+        0.011522168293595314,
+        0.016755472868680954
+      ],
+      "promptTokens": 1985,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 7481.134
+    },
+    {
+      "id": "witch-description",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 4142 > 2048; no truncation performed",
+      "elapsedMs": 5.931
+    },
+    {
+      "id": "frieren-title",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t8",
+      "optionIds": [
+        "t8",
+        "t4",
+        "t7",
+        "t2",
+        "t5",
+        "t3",
+        "t1",
+        "__none__",
+        "t6"
+      ],
+      "promptSha256": "9fd57f0fa128aa02df73a900b3474508dad2a15920da6d9788b9d83db51f332c",
+      "logScores": [
+        -1.9404176380485296,
+        -2.486878131516278,
+        -2.350903465412557,
+        -2.9841726636514068,
+        -3.3016061317175627,
+        -4.695421143434942,
+        -4.934298356063664,
+        -4.832588232122362,
+        -4.906492123380303
+      ],
+      "probabilities": [
+        0.3255768120288849,
+        0.18850751221179962,
+        0.2159641683101654,
+        0.11464535444974899,
+        0.08346354216337204,
+        0.020709551870822906,
+        0.01630900800228119,
+        0.01805509626865387,
+        0.016768867149949074
+      ],
+      "promptTokens": 1783,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 6312.026
+    },
+    {
+      "id": "frieren-image",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1",
+        "i6",
+        "i5",
+        "i4",
+        "i7",
+        "i8",
+        "i2",
+        "i3"
+      ],
+      "promptSha256": "3bf5236dd2c917892e32a96d3dfff2efe1f7d2e3d859aebeea4a9e18a556f974",
+      "logScores": [
+        -1.7125491127371788,
+        -2.7816660907119513,
+        -2.444586079567671,
+        -2.7077123895287514,
+        -2.8955104183405638,
+        -4.459585193544626,
+        -4.695001406595111,
+        -5.032484881579876,
+        -4.54925219155848
+      ],
+      "probabilities": [
+        0.36902642250061035,
+        0.1266910284757614,
+        0.17747527360916138,
+        0.13641543686389923,
+        0.1130586788058281,
+        0.023661097511649132,
+        0.018697986379265785,
+        0.013342206366360188,
+        0.021631820127367973
+      ],
+      "promptTokens": 1976,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 5741.685
+    },
+    {
+      "id": "frieren-description",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 4239 > 2048; no truncation performed",
+      "elapsedMs": 4.673
+    },
+    {
+      "id": "apothecary-title",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t7",
+      "optionIds": [
+        "t7",
+        "t5",
+        "t2",
+        "t4",
+        "__none__",
+        "t8",
+        "t1",
+        "t6",
+        "t3"
+      ],
+      "promptSha256": "cc0606f012c28af1c9a3a44cb92a0d4613e1887c80cb1db1a947a912b29d7056",
+      "logScores": [
+        -2.148619370535016,
+        -2.586630540434271,
+        -2.285026667639613,
+        -2.8294561887159944,
+        -3.059549572877586,
+        -4.720320109277964,
+        -5.098683433607221,
+        -5.27509727794677,
+        -4.897395214065909
+      ],
+      "probabilities": [
+        0.2730174660682678,
+        0.17618323862552643,
+        0.23820427060127258,
+        0.1381996124982834,
+        0.10979396849870682,
+        0.020860031247138977,
+        0.014288739301264286,
+        0.011977833695709705,
+        0.01747480221092701
+      ],
+      "promptTokens": 1747,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 5098.112
+    },
+    {
+      "id": "apothecary-image",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i1",
+      "optionIds": [
+        "i1",
+        "__none__",
+        "i7",
+        "i6",
+        "i2",
+        "i3",
+        "i5",
+        "i8",
+        "i4"
+      ],
+      "promptSha256": "c16a94816bc7af3e3ffbdde28ff4785ff6ca08440c1dfa5e1fdbb9ff5666dfef",
+      "logScores": [
+        -1.8981748931109905,
+        -2.7235551215708256,
+        -2.462800339795649,
+        -2.878654273226857,
+        -2.8606440518051386,
+        -4.664842069149017,
+        -4.8950787000358105,
+        -5.126294374465942,
+        -4.612697973847389
+      ],
+      "probabilities": [
+        0.33530017733573914,
+        0.14688441157341003,
+        0.19064266979694366,
+        0.1257815808057785,
+        0.12806743383407593,
+        0.02108071744441986,
+        0.01674537919461727,
+        0.013288604095578194,
+        0.02220911718904972
+      ],
+      "promptTokens": 1981,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "elapsedMs": 5839.999
+    },
+    {
+      "id": "apothecary-description",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "d2",
+        "d4",
+        "d1",
+        "__none__",
+        "d3"
+      ],
+      "promptSha256": "4f64cc778c62471a4a6e2b8c322cc9b0dc971960242b79dfe8c6a46f5b821c4f",
+      "logScores": [
+        -2.097508945502341,
+        -2.971593927592039,
+        -2.3459753934293985,
+        -1.8535377774387598,
+        -2.336932923644781
+      ],
+      "probabilities": [
+        0.23470714688301086,
+        0.09793006628751755,
+        0.18307064473628998,
+        0.29955849051475525,
+        0.1847335547208786
+      ],
+      "promptTokens": 1511,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 4426.547
+    },
+    {
+      "id": "nia-title",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 2077 > 2048; no truncation performed",
+      "elapsedMs": 3.261
+    },
+    {
+      "id": "nia-image",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 2056 > 2048; no truncation performed",
+      "elapsedMs": 3.093
+    },
+    {
+      "id": "nia-description",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 4532 > 2048; no truncation performed",
+      "elapsedMs": 4.783
+    },
+    {
+      "id": "frieren-aniplus-title",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t2",
+      "optionIds": [
+        "t2",
+        "t4",
+        "t5",
+        "t3",
+        "t6",
+        "t1",
+        "__none__",
+        "t7",
+        "t8"
+      ],
+      "promptSha256": "8665d705d8dd21ad9b762c6e4378d87a192e564ccd8c7aedd195b316d6feaeb1",
+      "logScores": [
+        -1.6374189294874668,
+        -2.251041095238179,
+        -1.9323654090985656,
+        -2.520073387771845,
+        -2.8101143641397357,
+        -4.005725674331188,
+        -4.197357874363661,
+        -4.49999581463635,
+        -3.9297933243215084
+      ],
+      "probabilities": [
+        0.2995564639568329,
+        0.16217577457427979,
+        0.22304119169712067,
+        0.12392152100801468,
+        0.09272216260433197,
+        0.02805020846426487,
+        0.02315855585038662,
+        0.017111079767346382,
+        0.030263083055615425
+      ],
+      "promptTokens": 1306,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": false,
+      "elapsedMs": 3990.121
+    },
+    {
+      "id": "frieren-aniplus-image",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i1",
+      "optionIds": [
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "promptSha256": "ad8b62f1a2f63bdbdabacded4c7618cb596efd2f95ce5a57a66348ef8af9fc90",
+      "logScores": [
+        -1.1339426655322313,
+        -2.0727892946451902,
+        -1.9723685458302498
+      ],
+      "probabilities": [
+        0.5484051704406738,
+        0.21446958184242249,
+        0.23712526261806488
+      ],
+      "promptTokens": 765,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 2145.936
+    },
+    {
+      "id": "frieren-aniplus-description",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3521 > 2048; no truncation performed",
+      "elapsedMs": 4.651
+    },
+    {
+      "id": "witch-tving-title",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "t3",
+        "t1",
+        "t4",
+        "t2"
+      ],
+      "promptSha256": "de67b2dff15b0cec3bdf761aed04aab58daceef5ce69f9219d789e53b827f962",
+      "logScores": [
+        -1.1952776657417417,
+        -1.9468923127278686,
+        -2.236982263624668,
+        -2.755280116572976,
+        -3.007831192575395
+      ],
+      "probabilities": [
+        0.4549943506717682,
+        0.21457737684249878,
+        0.1605459749698639,
+        0.09561049938201904,
+        0.07427182048559189
+      ],
+      "promptTokens": 1067,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 3077.28
+    },
+    {
+      "id": "witch-tving-image",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i7",
+        "i3",
+        "i1",
+        "i2",
+        "i4",
+        "i6",
+        "__none__",
+        "i5"
+      ],
+      "promptSha256": "5b8a4ec0f7a7adcd98454591048f216dfbbfc570e980f99a867ffb2133dc6503",
+      "logScores": [
+        -1.5112469280138612,
+        -2.084647943265736,
+        -2.271801627241075,
+        -2.7828943049535155,
+        -2.9691281248815358,
+        -4.6617514081299305,
+        -4.8381669875234365,
+        -5.020622681826353,
+        -4.799870070070028
+      ],
+      "probabilities": [
+        0.3717381954193115,
+        0.20951364934444427,
+        0.1737530529499054,
+        0.10422399640083313,
+        0.08651420474052429,
+        0.015921739861369133,
+        0.01334670465439558,
+        0.011120764538645744,
+        0.013867760077118874
+      ],
+      "promptTokens": 1635,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": false,
+      "elapsedMs": 4699.099
+    },
+    {
+      "id": "witch-tving-description",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 4213 > 2048; no truncation performed",
+      "elapsedMs": 4.544
+    },
+    {
+      "id": "frieren-tving-title",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t4",
+        "t2",
+        "t3",
+        "t1",
+        "__none__"
+      ],
+      "promptSha256": "fbe11b17a73114d992001ca5f29b14b3f9a9acc00ccdc3782666244f59b4c59f",
+      "logScores": [
+        -1.539797093719244,
+        -1.9153024088591337,
+        -1.9427311569452286,
+        -2.263430569320917,
+        -2.5946227572858334
+      ],
+      "probabilities": [
+        0.3136233389377594,
+        0.21544106304645538,
+        0.20961210131645203,
+        0.15210318565368652,
+        0.10922030359506607
+      ],
+      "promptTokens": 1052,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 2977.476
+    },
+    {
+      "id": "frieren-tving-image",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i5",
+        "__none__",
+        "i4",
+        "i2",
+        "i1",
+        "i7",
+        "i3",
+        "i6"
+      ],
+      "promptSha256": "e775244ef0f58a6b101b80dd3f1750e0e01fa337011fd73ce322414290bddff1",
+      "logScores": [
+        -1.4713752679526806,
+        -2.0274449782446027,
+        -2.213397593703121,
+        -3.103277664631605,
+        -2.8846736648119986,
+        -4.6907147746533155,
+        -4.792743775062263,
+        -5.095236713066697,
+        -4.873309839516878
+      ],
+      "probabilities": [
+        0.3810136318206787,
+        0.2184954732656479,
+        0.18141965568065643,
+        0.07450994849205017,
+        0.09271559864282608,
+        0.01523347944021225,
+        0.013755884021520615,
+        0.01016523502767086,
+        0.01269109733402729
+      ],
+      "promptTokens": 1628,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": false,
+      "elapsedMs": 5912.316
+    },
+    {
+      "id": "frieren-tving-description",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 4342 > 2048; no truncation performed",
+      "elapsedMs": 3.609
+    },
+    {
+      "id": "witch-wavve-title",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t4",
+        "t2",
+        "t8",
+        "__none__",
+        "t1",
+        "t3",
+        "t7",
+        "t5",
+        "t6"
+      ],
+      "promptSha256": "adbb943e4049e9eaa5d8d45c5f07b9695eb8df0ced62de50f1bc7022afb70eb0",
+      "logScores": [
+        -1.73962881276384,
+        -2.020327591802925,
+        -2.160580494441092,
+        -2.838426080532372,
+        -2.8337510246783495,
+        -4.74646407738328,
+        -4.778954580426216,
+        -4.985653566196561,
+        -4.317526603117585
+      ],
+      "probabilities": [
+        0.30377036333084106,
+        0.22942432761192322,
+        0.19940151274204254,
+        0.10123804956674576,
+        0.10171246528625488,
+        0.015020809136331081,
+        0.014540623873472214,
+        0.011825372464954853,
+        0.023066330701112747
+      ],
+      "promptTokens": 1137,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": true,
+      "elapsedMs": 3315.348
+    },
+    {
+      "id": "witch-wavve-image",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "__none__",
+        "i2",
+        "i5",
+        "i3",
+        "i7",
+        "i4",
+        "i1",
+        "i6"
+      ],
+      "promptSha256": "c0833b67735f7bcb3917131473cc8eac17be3d605301445ab9bcbc5ae70eae3c",
+      "logScores": [
+        -1.404779924545437,
+        -2.07570568472147,
+        -2.1910384381189942,
+        -2.784800148103386,
+        -2.593332680640742,
+        -4.531495087780058,
+        -4.409370237030089,
+        -4.9858846962451935,
+        -4.813366036862135
+      ],
+      "probabilities": [
+        0.37350088357925415,
+        0.19094672799110413,
+        0.1701468527317047,
+        0.09396291524171829,
+        0.11379146575927734,
+        0.016382360830903053,
+        0.018510345369577408,
+        0.01040010154247284,
+        0.012358380481600761
+      ],
+      "promptTokens": 1417,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 4093.91
+    },
+    {
+      "id": "witch-wavve-description",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 2980 > 2048; no truncation performed",
+      "elapsedMs": 3.104
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "t5",
+      "optionIds": [
+        "t5",
+        "t2",
+        "__none__",
+        "t6",
+        "t8",
+        "t3",
+        "t1",
+        "t7",
+        "t4"
+      ],
+      "promptSha256": "26a4fbdde29074ba69e1d822cbb00ace817a5075df9b065922d5601d6c714217",
+      "logScores": [
+        -1.6338694808073342,
+        -2.052386532071978,
+        -2.085335543844849,
+        -2.7653224477544427,
+        -2.93980891443789,
+        -4.587807839736342,
+        -4.510615691542625,
+        -4.822309879586101,
+        -4.172797875478864
+      ],
+      "probabilities": [
+        0.3208380937576294,
+        0.21111850440502167,
+        0.2042757123708725,
+        0.10349089652299881,
+        0.08692079782485962,
+        0.016726572066545486,
+        0.018068866804242134,
+        0.013230123557150364,
+        0.02533048391342163
+      ],
+      "promptTokens": 1153,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 3396.803
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "i7",
+      "optionIds": [
+        "i7",
+        "__none__",
+        "i6",
+        "i4",
+        "i3",
+        "i1",
+        "i2",
+        "i5",
+        "i8"
+      ],
+      "promptSha256": "789c049b8aad97774142eb79e8256e366e7721917050b0f8bb61a7c5e957c422",
+      "logScores": [
+        -1.375516357831657,
+        -2.206847349414602,
+        -2.221897757612169,
+        -2.7205613213591278,
+        -2.577300420496613,
+        -4.568190009333193,
+        -4.544140221551061,
+        -4.7523689260706306,
+        -4.865197954699397
+      ],
+      "probabilities": [
+        0.3885897696018219,
+        0.16921889781951904,
+        0.16669116914272308,
+        0.10123852640390396,
+        0.11683238297700882,
+        0.015956249088048935,
+        0.016344644129276276,
+        0.013272200711071491,
+        0.011856099590659142
+      ],
+      "promptTokens": 1454,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 4473.723
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "d6",
+      "optionIds": [
+        "d6",
+        "d2",
+        "__none__",
+        "d3",
+        "d1",
+        "d4",
+        "d5"
+      ],
+      "promptSha256": "a22ad0d82beefb589039016083578d47d11af88d94b4e8f559defb7944bd6a44",
+      "logScores": [
+        -1.871029102243483,
+        -2.5025974912568927,
+        -2.5297358576208353,
+        -3.0291741164401174,
+        -3.482658694498241,
+        -5.276909878477454,
+        -5.564793227240443
+      ],
+      "probabilities": [
+        0.38153907656669617,
+        0.20288611948490143,
+        0.19745419919490814,
+        0.11982931196689606,
+        0.07614076137542725,
+        0.012658546678721905,
+        0.009491999633610249
+      ],
+      "promptTokens": 1694,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 5375.431
+    },
+    {
+      "id": "witch-crunchyroll-title",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "t1",
+      "optionIds": [
+        "t1",
+        "__none__",
+        "t4",
+        "t3",
+        "t5",
+        "t2"
+      ],
+      "promptSha256": "282f83919d9e079c77ab9b038e639bce223784fa35919d10c032901675ba430c",
+      "logScores": [
+        -1.364473819732666,
+        -2.619238134007901,
+        -2.342136229388416,
+        -2.245395234785974,
+        -2.4537729313597083,
+        -3.822864230722189
+      ],
+      "probabilities": [
+        0.40035900473594666,
+        0.11415958404541016,
+        0.15061084926128387,
+        0.16590914130210876,
+        0.134701669216156,
+        0.034259747713804245
+      ],
+      "promptTokens": 1300,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 4148.301
+    },
+    {
+      "id": "witch-crunchyroll-image",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1"
+      ],
+      "promptSha256": "a62f4fc322e0b7d68ba7e4eb055eb9fa5f3ac70dab115d9fda68ef15a9b563d1",
+      "logScores": [
+        -0.836227431660518,
+        -2.5892467154189944
+      ],
+      "probabilities": [
+        0.8523331880569458,
+        0.14766676723957062
+      ],
+      "promptTokens": 852,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 2965.248
+    },
+    {
+      "id": "witch-crunchyroll-description",
+      "split": "calibration",
+      "template": "korean-structure",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "promptSha256": "46a39831b9369ca051bf5f35daeec348f2e066aae2ea7d504fddddc6e041e3ec",
+      "logScores": [
+        -1.8966354252770543,
+        -1.6132495049387217
+      ],
+      "probabilities": [
+        0.42962387204170227,
+        0.5703760981559753
+      ],
+      "promptTokens": 1038,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 3523.094
+    },
+    {
+      "id": "witch-title",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t3",
+      "optionIds": [
+        "t3",
+        "t5",
+        "t8",
+        "__none__",
+        "t2",
+        "t7",
+        "t6",
+        "t4",
+        "t1"
+      ],
+      "promptSha256": "214de64c852c62d44b4cf1f79c165e8eb3881bbe213008ec995f8fe7790e4dce",
+      "logScores": [
+        -1.784932260401547,
+        -2.505381620489061,
+        -2.34028781671077,
+        -3.1369634442962706,
+        -3.0515717826783657,
+        -4.762603102251887,
+        -5.073733067139983,
+        -5.651222025044262,
+        -4.89171695150435
+      ],
+      "probabilities": [
+        0.36300501227378845,
+        0.17661413550376892,
+        0.20831699669361115,
+        0.09391457587480545,
+        0.1022864282131195,
+        0.018481044098734856,
+        0.013539562001824379,
+        0.007599835284054279,
+        0.016242509707808495
+      ],
+      "promptTokens": 1443,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "elapsedMs": 5745.501
+    },
+    {
+      "id": "witch-image",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i6",
+      "optionIds": [
+        "i6",
+        "i4",
+        "i1",
+        "i3",
+        "i5",
+        "__none__",
+        "i8",
+        "i2",
+        "i7"
+      ],
+      "promptSha256": "0944c789b7672c47984aa7da63667d4a84b51ce3225e1a10a0fffea079e4fc2b",
+      "logScores": [
+        -2.1743042916059494,
+        -2.7675205301493406,
+        -2.5497296433895826,
+        -3.3054044023156166,
+        -3.0862393137067556,
+        -4.966392766684294,
+        -5.072658834978938,
+        -5.456004612147808,
+        -5.156236506998539
+      ],
+      "probabilities": [
+        0.3155933618545532,
+        0.17438027262687683,
+        0.21681168675422668,
+        0.10183505713939667,
+        0.12678839266300201,
+        0.019343681633472443,
+        0.017393555492162704,
+        0.011855052784085274,
+        0.01599893532693386
+      ],
+      "promptTokens": 1621,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 6652.973
+    },
+    {
+      "id": "witch-description",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3778 > 2048; no truncation performed",
+      "elapsedMs": 5.251
+    },
+    {
+      "id": "frieren-title",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t8",
+      "optionIds": [
+        "t8",
+        "t4",
+        "t7",
+        "t2",
+        "t5",
+        "t3",
+        "t1",
+        "__none__",
+        "t6"
+      ],
+      "promptSha256": "b14dcc29db991aa8a71c051e699093bfbe03a1855a340c892d695c6dce45e14d",
+      "logScores": [
+        -2.2123850975185633,
+        -2.66801054822281,
+        -2.4794921749271452,
+        -3.1885567689314485,
+        -3.3970198882743716,
+        -4.974407894536853,
+        -5.106536063365638,
+        -5.129017462953925,
+        -5.125406041741371
+      ],
+      "probabilities": [
+        0.3021889328956604,
+        0.19160331785678864,
+        0.23135316371917725,
+        0.11384990066289902,
+        0.09242687374353409,
+        0.019087428227066994,
+        0.016724951565265656,
+        0.016353145241737366,
+        0.01641230471432209
+      ],
+      "promptTokens": 1419,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 5696.975
+    },
+    {
+      "id": "frieren-image",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1",
+        "i6",
+        "i5",
+        "i4",
+        "i7",
+        "i8",
+        "i2",
+        "i3"
+      ],
+      "promptSha256": "7dc2834bf4c0ad985e07267c17a50b25592005d0299e935313d0993c7b682677",
+      "logScores": [
+        -1.8000987158156931,
+        -2.840106361079961,
+        -2.4758060979656875,
+        -2.592791721224785,
+        -2.7667808700352907,
+        -4.422293815761805,
+        -4.658342637121677,
+        -5.103163715451956,
+        -4.738967435434461
+      ],
+      "probabilities": [
+        0.3430621325969696,
+        0.12125599384307861,
+        0.17454877495765686,
+        0.15527822077274323,
+        0.13048122823238373,
+        0.024921143427491188,
+        0.01968126930296421,
+        0.012614495120942593,
+        0.018156757578253746
+      ],
+      "promptTokens": 1612,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 6134.997
+    },
+    {
+      "id": "frieren-description",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3875 > 2048; no truncation performed",
+      "elapsedMs": 4.809
+    },
+    {
+      "id": "apothecary-title",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t2",
+      "optionIds": [
+        "t7",
+        "t5",
+        "t2",
+        "t4",
+        "__none__",
+        "t8",
+        "t1",
+        "t6",
+        "t3"
+      ],
+      "promptSha256": "d8cfbe0271ce69164359b8daddd56010c63cbe83baf9f51270e05d19c5cb689e",
+      "logScores": [
+        -2.3720947727560997,
+        -2.65862592542544,
+        -2.268182630650699,
+        -2.7958119409158826,
+        -3.082120969425887,
+        -4.799132786691189,
+        -5.159014170058072,
+        -5.334177720360458,
+        -4.967351581901312
+      ],
+      "probabilities": [
+        0.23348915576934814,
+        0.17531855404376984,
+        0.259056955575943,
+        0.1528441160917282,
+        0.11479059606790543,
+        0.020616620779037476,
+        0.014385434798896313,
+        0.012073983438313007,
+        0.017424531280994415
+      ],
+      "promptTokens": 1383,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 5619.845
+    },
+    {
+      "id": "apothecary-image",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i1",
+      "optionIds": [
+        "i1",
+        "__none__",
+        "i7",
+        "i6",
+        "i2",
+        "i3",
+        "i5",
+        "i8",
+        "i4"
+      ],
+      "promptSha256": "d063f0e67d04d5ca7b0de2d5aca0ebda9de048716f5ea10c644ae14c70a75564",
+      "logScores": [
+        -1.8906630435958505,
+        -2.8075419291853905,
+        -2.4361101146787405,
+        -2.695825297385454,
+        -2.6479714065790176,
+        -4.50299321487546,
+        -4.726504635065794,
+        -5.101962838321924,
+        -4.640463290736079
+      ],
+      "probabilities": [
+        0.3193289637565613,
+        0.127656489610672,
+        0.1850775182247162,
+        0.14274495840072632,
+        0.14974194765090942,
+        0.02342706173658371,
+        0.018734751269221306,
+        0.01287029404193163,
+        0.02041809819638729
+      ],
+      "promptTokens": 1617,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "elapsedMs": 5849.415
+    },
+    {
+      "id": "apothecary-description",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "d2",
+        "d4",
+        "d1",
+        "__none__",
+        "d3"
+      ],
+      "promptSha256": "b5cce1d51120c312330706653c19a549680195375974f8d94118fe5e916d0759",
+      "logScores": [
+        -2.1489408249035478,
+        -2.8962506344541907,
+        -2.2916024699807167,
+        -1.9987736158072948,
+        -2.304844183847308
+      ],
+      "probabilities": [
+        0.22944426536560059,
+        0.10867374390363693,
+        0.19893907010555267,
+        0.26662078499794006,
+        0.19632212817668915
+      ],
+      "promptTokens": 1147,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 3703.551
+    },
+    {
+      "id": "nia-title",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t7",
+      "optionIds": [
+        "t6",
+        "t4",
+        "t7",
+        "t1",
+        "t3",
+        "t2",
+        "t8",
+        "__none__",
+        "t5"
+      ],
+      "promptSha256": "23c0422987cb0d27108d29ac489c0a67ed67f6a91e79733962ff5b00ab326247",
+      "logScores": [
+        -2.060985317453742,
+        -2.429170769639313,
+        -2.060848167166114,
+        -2.9109807955101132,
+        -3.0872267950326204,
+        -4.473898919299245,
+        -4.683046996593475,
+        -4.9444142654538155,
+        -4.620884506031871
+      ],
+      "probabilities": [
+        0.2650160789489746,
+        0.18338815867900848,
+        0.2650524079799652,
+        0.11327235400676727,
+        0.09496885538101196,
+        0.023733248934149742,
+        0.01925419457256794,
+        0.014825692400336266,
+        0.02048906497657299
+      ],
+      "promptTokens": 1711,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 6048.15
+    },
+    {
+      "id": "nia-image",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i5",
+      "optionIds": [
+        "i5",
+        "i1",
+        "i6",
+        "i8",
+        "i2",
+        "i3",
+        "__none__",
+        "i4",
+        "i7"
+      ],
+      "promptSha256": "21b8d3e18f75d147eda786a23b69b5f7ac41d2476f763381a337a19147e94061",
+      "logScores": [
+        -2.216291107237339,
+        -2.6632127948105335,
+        -2.359824030660093,
+        -3.108070829883218,
+        -2.9553996976464987,
+        -4.792352169752121,
+        -5.061603233218193,
+        -5.385367263108492,
+        -5.065854713320732
+      ],
+      "probabilities": [
+        0.275675505399704,
+        0.176320418715477,
+        0.23881560564041138,
+        0.11300644278526306,
+        0.13164591789245605,
+        0.020971480756998062,
+        0.01602119579911232,
+        0.011590065434575081,
+        0.015953226014971733
+      ],
+      "promptTokens": 1690,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 6025.602
+    },
+    {
+      "id": "nia-description",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 4168 > 2048; no truncation performed",
+      "elapsedMs": 6.409
+    },
+    {
+      "id": "frieren-aniplus-title",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t5",
+      "optionIds": [
+        "t2",
+        "t4",
+        "t5",
+        "t3",
+        "t6",
+        "t1",
+        "__none__",
+        "t7",
+        "t8"
+      ],
+      "promptSha256": "158ea44c432789e8fe8ed9d28bc8fa72b2a81da61c0f0f664e1ce39a00b03495",
+      "logScores": [
+        -2.1451943619176745,
+        -2.345459018368274,
+        -1.8720610905438662,
+        -2.503656281158328,
+        -2.7076489124447107,
+        -4.206055426970124,
+        -4.429582946002483,
+        -4.783621717244387,
+        -4.220120413228869
+      ],
+      "probabilities": [
+        0.20715224742889404,
+        0.16955702006816864,
+        0.2722136378288269,
+        0.14474765956401825,
+        0.1180371418595314,
+        0.026379646733403206,
+        0.02109561860561371,
+        0.014805912971496582,
+        0.02601122297346592
+      ],
+      "promptTokens": 942,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": false,
+      "elapsedMs": 3493.63
+    },
+    {
+      "id": "frieren-aniplus-image",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i1",
+      "optionIds": [
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "promptSha256": "7b9b4951ceb8ce8c0ecada6a238a26c626475ea74c7fa140a134e7dbc378269a",
+      "logScores": [
+        -1.261338736396283,
+        -2.14926238078624,
+        -2.3436376471072435
+      ],
+      "probabilities": [
+        0.571322500705719,
+        0.235104501247406,
+        0.1935730278491974
+      ],
+      "promptTokens": 401,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 1266.233
+    },
+    {
+      "id": "frieren-aniplus-description",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3157 > 2048; no truncation performed",
+      "elapsedMs": 3.864
+    },
+    {
+      "id": "witch-tving-title",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "t3",
+        "t1",
+        "t4",
+        "t2"
+      ],
+      "promptSha256": "c7a1c5368355def2441266b23a4c3450c9fa953e00e5701307c1f4a3bf60fdae",
+      "logScores": [
+        -1.4444032087922096,
+        -1.9663542727939785,
+        -2.2622583406046033,
+        -2.8580435141921043,
+        -2.937553067691624
+      ],
+      "probabilities": [
+        0.39957502484321594,
+        0.237092524766922,
+        0.17636336386203766,
+        0.09719908237457275,
+        0.08977006375789642
+      ],
+      "promptTokens": 703,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 2758.564
+    },
+    {
+      "id": "witch-tving-image",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i7",
+        "i3",
+        "i1",
+        "i2",
+        "i4",
+        "i6",
+        "__none__",
+        "i5"
+      ],
+      "promptSha256": "7f6648b836d564e0926645382669bd4dde8a5e10392f3cf781a4d407008a8395",
+      "logScores": [
+        -1.6831694548018277,
+        -2.007009888533503,
+        -2.2872028187848628,
+        -2.8142404602840543,
+        -2.7878933884203434,
+        -4.727994880639017,
+        -4.743567509576678,
+        -5.056900445371866,
+        -4.8176565282046795
+      ],
+      "probabilities": [
+        0.3229749798774719,
+        0.2336289882659912,
+        0.17653894424438477,
+        0.10421998053789139,
+        0.1070023775100708,
+        0.015375100076198578,
+        0.015137524344027042,
+        0.011065628379583359,
+        0.014056539162993431
+      ],
+      "promptTokens": 1271,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": false,
+      "elapsedMs": 5181.168
+    },
+    {
+      "id": "witch-tving-description",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3849 > 2048; no truncation performed",
+      "elapsedMs": 5.837
+    },
+    {
+      "id": "frieren-tving-title",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t4",
+        "t2",
+        "t3",
+        "t1",
+        "__none__"
+      ],
+      "promptSha256": "0b4f602788884ea4fb8f9a4142c508ad813e5ca7e8d22eec20980658a4f29ced",
+      "logScores": [
+        -1.8122639693319798,
+        -1.8458208609372377,
+        -2.014448939822614,
+        -2.60110130533576,
+        -2.756299739703536
+      ],
+      "probabilities": [
+        0.2756817638874054,
+        0.26658421754837036,
+        0.22521653771400452,
+        0.1252622753381729,
+        0.1072552427649498
+      ],
+      "promptTokens": 688,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 2281.338
+    },
+    {
+      "id": "frieren-tving-image",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i5",
+        "__none__",
+        "i4",
+        "i2",
+        "i1",
+        "i7",
+        "i3",
+        "i6"
+      ],
+      "promptSha256": "0f9a28b729c55ebe92bb9dcda01a31ab3d4a24105f05f8a99a13adae643e1d78",
+      "logScores": [
+        -1.6670295898802578,
+        -1.9309770204126835,
+        -2.195674821268767,
+        -3.0320597901009023,
+        -2.698915258049965,
+        -4.809273102320731,
+        -4.804609532468021,
+        -5.103160372003913,
+        -4.952963583171368
+      ],
+      "probabilities": [
+        0.3199700713157654,
+        0.24574148654937744,
+        0.18859128654003143,
+        0.08171169459819794,
+        0.1140163466334343,
+        0.013818162493407726,
+        0.013882759027183056,
+        0.010299514047801495,
+        0.011968685314059258
+      ],
+      "promptTokens": 1264,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": false,
+      "elapsedMs": 4953.725
+    },
+    {
+      "id": "frieren-tving-description",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3978 > 2048; no truncation performed",
+      "elapsedMs": 4.561
+    },
+    {
+      "id": "witch-wavve-title",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t2",
+      "optionIds": [
+        "t4",
+        "t2",
+        "t8",
+        "__none__",
+        "t1",
+        "t3",
+        "t7",
+        "t5",
+        "t6"
+      ],
+      "promptSha256": "4b54ced94b3cc7fdd9995a74a812bb62eca485754a3e65d14b45bdb4b0b821cd",
+      "logScores": [
+        -2.139096960425377,
+        -1.9918872225098312,
+        -2.2914431183598936,
+        -2.9567681844346225,
+        -2.7264657337218523,
+        -5.009651054628193,
+        -5.102161744609475,
+        -5.289543362334371,
+        -4.733461437746882
+      ],
+      "probabilities": [
+        0.2358274608850479,
+        0.2732289731502533,
+        0.20250290632247925,
+        0.10410803556442261,
+        0.13107001781463623,
+        0.013363753445446491,
+        0.012182924896478653,
+        0.01010119915008545,
+        0.017614735290408134
+      ],
+      "promptTokens": 773,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": false,
+      "elapsedMs": 3379.018
+    },
+    {
+      "id": "witch-wavve-image",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "__none__",
+        "i2",
+        "i5",
+        "i3",
+        "i7",
+        "i4",
+        "i1",
+        "i6"
+      ],
+      "promptSha256": "2cf4b2181050f74be319c941c2c0122fb60f5d7a0fe82ffdf6b8d791768cc015",
+      "logScores": [
+        -1.6419248711317778,
+        -1.992073891684413,
+        -2.2085710475221276,
+        -2.8601488545536995,
+        -2.5142061091028154,
+        -4.794612243771553,
+        -4.555281912907958,
+        -5.087463339790702,
+        -5.032383041456342
+      ],
+      "probabilities": [
+        0.3176245391368866,
+        0.22379286587238312,
+        0.18022821843624115,
+        0.09393902868032455,
+        0.13276606798171997,
+        0.013574356213212013,
+        0.017244836315512657,
+        0.010128279216587543,
+        0.010701799765229225
+      ],
+      "promptTokens": 1053,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 4637.676
+    },
+    {
+      "id": "witch-wavve-description",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 2616 > 2048; no truncation performed",
+      "elapsedMs": 4.032
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "t2",
+      "optionIds": [
+        "t5",
+        "t2",
+        "__none__",
+        "t6",
+        "t8",
+        "t3",
+        "t1",
+        "t7",
+        "t4"
+      ],
+      "promptSha256": "32cdd50e3651fde536cbf2b0226c0336182a294897a5778c4b11d306f13036da",
+      "logScores": [
+        -1.9636924699880183,
+        -1.9634520239196718,
+        -2.1573751410469413,
+        -2.7604495505802333,
+        -2.834674024954438,
+        -4.81137671135366,
+        -4.7180764600634575,
+        -5.028021864593029,
+        -4.60483331233263
+      ],
+      "probabilities": [
+        0.2542535960674286,
+        0.25431475043296814,
+        0.20948445796966553,
+        0.1146145761013031,
+        0.10641542077064514,
+        0.014741224236786366,
+        0.01618278957903385,
+        0.011869863606989384,
+        0.018123174086213112
+      ],
+      "promptTokens": 789,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 3620.006
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "i7",
+      "optionIds": [
+        "i7",
+        "__none__",
+        "i6",
+        "i4",
+        "i3",
+        "i1",
+        "i2",
+        "i5",
+        "i8"
+      ],
+      "promptSha256": "8c55bbd16251dbb98fab732ebacadb17e18adfaa9af3ccdbd130e76ec3e83cb1",
+      "logScores": [
+        -1.6581458449363708,
+        -2.176286174915731,
+        -2.2542826500721276,
+        -2.7648444049991667,
+        -2.5667388206347823,
+        -4.7899059653282166,
+        -4.710847422480583,
+        -4.858091147616506,
+        -5.130949439480901
+      ],
+      "probabilities": [
+        0.3286263942718506,
+        0.19573882222175598,
+        0.1810520887374878,
+        0.10865991562604904,
+        0.13246634602546692,
+        0.014341557398438454,
+        0.015521406196057796,
+        0.013396266847848892,
+        0.010197248309850693
+      ],
+      "promptTokens": 1090,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 4090.823
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "d6",
+      "optionIds": [
+        "d6",
+        "d2",
+        "__none__",
+        "d3",
+        "d1",
+        "d4",
+        "d5"
+      ],
+      "promptSha256": "75c9dcebc1a5f81b76e4126cad3807f4588db2a871a3d38b22d1cf36d1f1fd92",
+      "logScores": [
+        -2.0911755803972483,
+        -2.6539995428174734,
+        -2.626438494771719,
+        -2.972563548013568,
+        -3.496346083469689,
+        -5.372403817251325,
+        -5.631324691697955
+      ],
+      "probabilities": [
+        0.3470730185508728,
+        0.19769218564033508,
+        0.20321659743785858,
+        0.14376027882099152,
+        0.08514577150344849,
+        0.013043724931776524,
+        0.010068240575492382
+      ],
+      "promptTokens": 1330,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 4434.788
+    },
+    {
+      "id": "witch-crunchyroll-title",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "t1",
+      "optionIds": [
+        "t1",
+        "__none__",
+        "t4",
+        "t3",
+        "t5",
+        "t2"
+      ],
+      "promptSha256": "13d34b234993e758e6e80d8d332b5c207f08513302bf6c43d2128e1de17bd3f9",
+      "logScores": [
+        -1.567138741724193,
+        -2.5584966763854027,
+        -2.358899027109146,
+        -2.240798749960959,
+        -2.4095627553761005,
+        -4.1167944967746735
+      ],
+      "probabilities": [
+        0.35177427530288696,
+        0.13053375482559204,
+        0.15937013924121857,
+        0.17934830486774445,
+        0.1514969766139984,
+        0.02747657336294651
+      ],
+      "promptTokens": 936,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 3091.68
+    },
+    {
+      "id": "witch-crunchyroll-image",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1"
+      ],
+      "promptSha256": "49a65e56b11b939db5fe26f78230390f5f94cec452fc9217b6227f18b5e203dc",
+      "logScores": [
+        -1.0374059733003378,
+        -2.445248964591883
+      ],
+      "probabilities": [
+        0.8034255504608154,
+        0.19657447934150696
+      ],
+      "promptTokens": 488,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 1696.431
+    },
+    {
+      "id": "witch-crunchyroll-description",
+      "split": "calibration",
+      "template": "field-contrast",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "d1",
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "promptSha256": "20eb7881dd6d99759b6ce732933999c9fd75d36985af1af500c31a3d29d7405d",
+      "logScores": [
+        -1.8722264873795211,
+        -1.9412854900583625
+      ],
+      "probabilities": [
+        0.5172578692436218,
+        0.4827420711517334
+      ],
+      "promptTokens": 674,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 2008.013
+    },
+    {
+      "id": "witch-title",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t3",
+      "optionIds": [
+        "t3",
+        "t5",
+        "t8",
+        "__none__",
+        "t2",
+        "t7",
+        "t6",
+        "t4",
+        "t1"
+      ],
+      "promptSha256": "a03ff0613fbf08b66f6241892c9fd6d3342cae311f3f3d160ebaa1a56f4d95b3",
+      "logScores": [
+        -1.69440000038594,
+        -2.5294618364423513,
+        -2.417057598941028,
+        -2.961472642607987,
+        -3.1228807400912046,
+        -4.763972641900182,
+        -5.174891419708729,
+        -5.659470424056053,
+        -4.940115997567773
+      ],
+      "probabilities": [
+        0.3882324695587158,
+        0.16843372583389282,
+        0.1884714961051941,
+        0.10934756696224213,
+        0.09304875135421753,
+        0.018029898405075073,
+        0.011954558081924915,
+        0.007363487035036087,
+        0.01511803176254034
+      ],
+      "promptTokens": 1461,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "elapsedMs": 5044.394
+    },
+    {
+      "id": "witch-image",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i6",
+      "optionIds": [
+        "i6",
+        "i4",
+        "i1",
+        "i3",
+        "i5",
+        "__none__",
+        "i8",
+        "i2",
+        "i7"
+      ],
+      "promptSha256": "1799a211d3e828122653ff1736ccd72aa710c04962a42681623bbc4659fbc2f8",
+      "logScores": [
+        -2.280132155865431,
+        -2.846416575834155,
+        -2.6882393434643745,
+        -3.3780527245253325,
+        -3.251735422760248,
+        -5.080685954540968,
+        -5.2569472920149565,
+        -5.588359784334898,
+        -5.269211031496525
+      ],
+      "probabilities": [
+        0.31814467906951904,
+        0.18058864772319794,
+        0.21153680980205536,
+        0.10612159967422485,
+        0.12041004002094269,
+        0.019335683435201645,
+        0.016211012378335,
+        0.011638033203780651,
+        0.01601342484354973
+      ],
+      "promptTokens": 1639,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 6078.974
+    },
+    {
+      "id": "witch-description",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3796 > 2048; no truncation performed",
+      "elapsedMs": 5.26
+    },
+    {
+      "id": "frieren-title",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t8",
+      "optionIds": [
+        "t8",
+        "t4",
+        "t7",
+        "t2",
+        "t5",
+        "t3",
+        "t1",
+        "__none__",
+        "t6"
+      ],
+      "promptSha256": "d1954c4c82792e072d57036ecd5a26161d6552041a005199b5a77a4def4444e6",
+      "logScores": [
+        -2.1420496366918087,
+        -2.702353773638606,
+        -2.5776438540779054,
+        -3.0399427469819784,
+        -3.4335308694280684,
+        -4.933794630691409,
+        -5.154952265322208,
+        -5.0947071965783834,
+        -5.113074691966176
+      ],
+      "probabilities": [
+        0.32111796736717224,
+        0.1833696961402893,
+        0.20772482454776764,
+        0.13083216547966003,
+        0.08826355636119843,
+        0.01968907006084919,
+        0.015782568603754044,
+        0.016762616112828255,
+        0.016457533463835716
+      ],
+      "promptTokens": 1437,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 5157.2
+    },
+    {
+      "id": "frieren-image",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1",
+        "i6",
+        "i5",
+        "i4",
+        "i7",
+        "i8",
+        "i2",
+        "i3"
+      ],
+      "promptSha256": "95cd3169fea71bea5c6c70493d797b9dcfdd4456e066979218fbb8a862cab265",
+      "logScores": [
+        -1.8251860300078988,
+        -2.903305626474321,
+        -2.573395580984652,
+        -2.6042821034789085,
+        -2.89630488678813,
+        -4.516934785991907,
+        -4.8008760921657085,
+        -5.183107074350119,
+        -4.800523180514574
+      ],
+      "probabilities": [
+        0.3546721339225769,
+        0.12067177891731262,
+        0.16783550381660461,
+        0.1627308577299118,
+        0.1215195283293724,
+        0.024033410474658012,
+        0.01809261180460453,
+        0.01234526839107275,
+        0.018098996952176094
+      ],
+      "promptTokens": 1630,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 5690.402
+    },
+    {
+      "id": "frieren-description",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3893 > 2048; no truncation performed",
+      "elapsedMs": 5.084
+    },
+    {
+      "id": "apothecary-title",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t7",
+      "optionIds": [
+        "t7",
+        "t5",
+        "t2",
+        "t4",
+        "__none__",
+        "t8",
+        "t1",
+        "t6",
+        "t3"
+      ],
+      "promptSha256": "dfa1ebc2b3c8a7d0b6bc71aab27dea468cf94e6663b3298dd70b57f6c3ee225c",
+      "logScores": [
+        -2.3139523258432746,
+        -2.664489569142461,
+        -2.370110102929175,
+        -2.664533471222967,
+        -3.1233722255565226,
+        -4.786138128489256,
+        -5.238504312001169,
+        -5.3561191176995635,
+        -5.025213519111276
+      ],
+      "probabilities": [
+        0.24683025479316711,
+        0.17384491860866547,
+        0.23335084319114685,
+        0.17383727431297302,
+        0.109868124127388,
+        0.020832516252994537,
+        0.01325200218707323,
+        0.01178154069930315,
+        0.01640259101986885
+      ],
+      "promptTokens": 1401,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 6153.342
+    },
+    {
+      "id": "apothecary-image",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i1",
+      "optionIds": [
+        "i1",
+        "__none__",
+        "i7",
+        "i6",
+        "i2",
+        "i3",
+        "i5",
+        "i8",
+        "i4"
+      ],
+      "promptSha256": "4b226618354a800264fa0bebe6ee88cb871d5cc930ae4496e673ab08d7a2a282",
+      "logScores": [
+        -1.9417099999263883,
+        -2.8549474151805043,
+        -2.554179114755243,
+        -2.7207419611513615,
+        -2.785089598968625,
+        -4.575848150998354,
+        -4.830885047093034,
+        -5.158265233039856,
+        -4.715782105922699
+      ],
+      "probabilities": [
+        0.3265582025051117,
+        0.13102273643016815,
+        0.176998108625412,
+        0.14984121918678284,
+        0.14050297439098358,
+        0.023440612480044365,
+        0.01816384866833687,
+        0.013092678040266037,
+        0.020379632711410522
+      ],
+      "promptTokens": 1635,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": true,
+      "elapsedMs": 6501.086
+    },
+    {
+      "id": "apothecary-description",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "d2",
+        "d4",
+        "d1",
+        "__none__",
+        "d3"
+      ],
+      "promptSha256": "c432b29305fb84a4d39eaae6690b0614094ea6e692cad7cb805d142785112c45",
+      "logScores": [
+        -2.1793441427871585,
+        -2.928724030032754,
+        -2.3194320779293776,
+        -1.8162739612162113,
+        -2.305045321583748
+      ],
+      "probabilities": [
+        0.2145206183195114,
+        0.10139522701501846,
+        0.1864788830280304,
+        0.3084242045879364,
+        0.18918107450008392
+      ],
+      "promptTokens": 1165,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 4042.712
+    },
+    {
+      "id": "nia-title",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t7",
+      "optionIds": [
+        "t6",
+        "t4",
+        "t7",
+        "t1",
+        "t3",
+        "t2",
+        "t8",
+        "__none__",
+        "t5"
+      ],
+      "promptSha256": "37d9024becc003da660ba491711801d4e892167d31178c3b298cc75f78c298ae",
+      "logScores": [
+        -2.130966691300273,
+        -2.491260601207614,
+        -2.12733159866184,
+        -2.870082893408835,
+        -3.1704460037872195,
+        -4.513235801830888,
+        -4.7622953075915575,
+        -4.964240297675133,
+        -4.6090462896972895
+      ],
+      "probabilities": [
+        0.2604617476463318,
+        0.1816646009683609,
+        0.26141029596328735,
+        0.12437980622053146,
+        0.09210938215255737,
+        0.024051252752542496,
+        0.018748756498098373,
+        0.015320359729230404,
+        0.02185383066534996
+      ],
+      "promptTokens": 1729,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 6372.324
+    },
+    {
+      "id": "nia-image",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i5",
+      "optionIds": [
+        "i5",
+        "i1",
+        "i6",
+        "i8",
+        "i2",
+        "i3",
+        "__none__",
+        "i4",
+        "i7"
+      ],
+      "promptSha256": "3abf9d7fdc8f56034853052a6cd839102a5c48e15eaf9738fcb09a5116844c49",
+      "logScores": [
+        -2.2372278552502394,
+        -2.7210887568071485,
+        -2.4388683391734958,
+        -3.149536846205592,
+        -3.0689704939723015,
+        -4.860946487635374,
+        -5.128658223897219,
+        -5.43873143568635,
+        -5.112737879157066
+      ],
+      "probabilities": [
+        0.286058247089386,
+        0.17632603645324707,
+        0.2338208109140396,
+        0.11487981677055359,
+        0.12451832741498947,
+        0.020748557522892952,
+        0.015875309705734253,
+        0.01164284348487854,
+        0.016130078583955765
+      ],
+      "promptTokens": 1708,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 7432.426
+    },
+    {
+      "id": "nia-description",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 4186 > 2048; no truncation performed",
+      "elapsedMs": 6.069
+    },
+    {
+      "id": "frieren-aniplus-title",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t5",
+      "optionIds": [
+        "t2",
+        "t4",
+        "t5",
+        "t3",
+        "t6",
+        "t1",
+        "__none__",
+        "t7",
+        "t8"
+      ],
+      "promptSha256": "3adf123e93daae8414e04d1de630f93494357ba0c17cfaff60d40686a4908c6a",
+      "logScores": [
+        -2.080838463269174,
+        -2.4755296064540744,
+        -1.907631877809763,
+        -2.4094901671633124,
+        -2.746485016308725,
+        -4.203412629663944,
+        -4.514731593430042,
+        -4.795340828597546,
+        -4.233792878687382
+      ],
+      "probabilities": [
+        0.2228843867778778,
+        0.15019913017749786,
+        0.26503443717956543,
+        0.16045306622982025,
+        0.11454945057630539,
+        0.02668439969420433,
+        0.019545795395970345,
+        0.014763392508029938,
+        0.02588590979576111
+      ],
+      "promptTokens": 960,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": false,
+      "elapsedMs": 5038.362
+    },
+    {
+      "id": "frieren-aniplus-image",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i1",
+      "optionIds": [
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "promptSha256": "63a5cce7c416e79ce8a4f5f72949ad6e69411560ab090635107d7e8591f64ab7",
+      "logScores": [
+        -1.0934271276928484,
+        -2.1637889011763036,
+        -2.2594890585169196
+      ],
+      "probabilities": [
+        0.6044209003448486,
+        0.2072465717792511,
+        0.18833249807357788
+      ],
+      "promptTokens": 419,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 1610.01
+    },
+    {
+      "id": "frieren-aniplus-description",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "background-search-layer",
+        "japanese-alias",
+        "duplicate-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3175 > 2048; no truncation performed",
+      "elapsedMs": 4.732
+    },
+    {
+      "id": "witch-tving-title",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "t3",
+        "t1",
+        "t4",
+        "t2"
+      ],
+      "promptSha256": "41509858ae742c3e1e0782c5bf96fe7a72db8d19224c9b09508db4fba91bb343",
+      "logScores": [
+        -1.3120940364897251,
+        -2.012811068445444,
+        -2.2254098393023014,
+        -2.6577150309458375,
+        -2.964380861259997
+      ],
+      "probabilities": [
+        0.42563873529434204,
+        0.21121442317962646,
+        0.1707627773284912,
+        0.11082695424556732,
+        0.08155715465545654
+      ],
+      "promptTokens": 721,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 2510.311
+    },
+    {
+      "id": "witch-tving-image",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i7",
+        "i3",
+        "i1",
+        "i2",
+        "i4",
+        "i6",
+        "__none__",
+        "i5"
+      ],
+      "promptSha256": "3be665ffe3e502e815b2a90f38d7c8fa8314a142375dfee05162061541fc7092",
+      "logScores": [
+        -1.568983712233603,
+        -2.0307982903905213,
+        -2.3488839399069548,
+        -2.7624629964120686,
+        -2.829430140554905,
+        -4.665529448539019,
+        -4.714921968057752,
+        -5.008035235106945,
+        -4.7543163150548935
+      ],
+      "probabilities": [
+        0.3524882197380066,
+        0.2221166491508484,
+        0.16159884631633759,
+        0.10686194896697998,
+        0.09994008392095566,
+        0.015934260562062263,
+        0.015166345052421093,
+        0.011313147842884064,
+        0.014580491930246353
+      ],
+      "promptTokens": 1289,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": false,
+      "elapsedMs": 6295.567
+    },
+    {
+      "id": "witch-tving-description",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "episode-seo-title",
+        "image-title-logo",
+        "recommendation-cards"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3867 > 2048; no truncation performed",
+      "elapsedMs": 5.347
+    },
+    {
+      "id": "frieren-tving-title",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t4",
+        "t2",
+        "t3",
+        "t1",
+        "__none__"
+      ],
+      "promptSha256": "ffe12ad4e0d6335962dca6f0750160c83ea74764f82a8388211a99900127f0ac",
+      "logScores": [
+        -1.7228489574044943,
+        -1.8613656163215637,
+        -1.9416601788252592,
+        -2.349830500781536,
+        -2.78524455986917
+      ],
+      "probabilities": [
+        0.28137698769569397,
+        0.2449805587530136,
+        0.22607894241809845,
+        0.1503121256828308,
+        0.09725145250558853
+      ],
+      "promptTokens": 706,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 2897.947
+    },
+    {
+      "id": "frieren-tving-image",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i5",
+        "__none__",
+        "i4",
+        "i2",
+        "i1",
+        "i7",
+        "i3",
+        "i6"
+      ],
+      "promptSha256": "e9690f82d12c3e728ab7f9c05617d892a2d30d8de507147c6c483b6458683f2a",
+      "logScores": [
+        -1.5646881931461394,
+        -1.9391893679276109,
+        -2.262186215724796,
+        -2.9717305307276547,
+        -2.755925107281655,
+        -4.780541074462235,
+        -4.847097125835717,
+        -5.11887198779732,
+        -4.954810971394181
+      ],
+      "probabilities": [
+        0.34793001413345337,
+        0.2392479032278061,
+        0.1732097566127777,
+        0.08519639074802399,
+        0.10571686178445816,
+        0.013959337957203388,
+        0.013060503639280796,
+        0.00995243713259697,
+        0.011726818978786469
+      ],
+      "promptTokens": 1282,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i4",
+      "acceptedIds": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "correct": false,
+      "elapsedMs": 4904.778
+    },
+    {
+      "id": "frieren-tving-description",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "episode-seo-title",
+        "dub-subtitle-labels"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3996 > 2048; no truncation performed",
+      "elapsedMs": 5.124
+    },
+    {
+      "id": "witch-wavve-title",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t4",
+        "t2",
+        "t8",
+        "__none__",
+        "t1",
+        "t3",
+        "t7",
+        "t5",
+        "t6"
+      ],
+      "promptSha256": "1ec1e319870efe8fce58c2716b60b1f501f74ec46c3b78168d8304285199005a",
+      "logScores": [
+        -1.9026838433928788,
+        -1.9887951351702213,
+        -2.244529092684388,
+        -2.7317430917173624,
+        -2.776095868088305,
+        -4.915208322927356,
+        -5.099296884611249,
+        -5.148868910036981,
+        -4.646336406469345
+      ],
+      "probabilities": [
+        0.2720896005630493,
+        0.2496400624513626,
+        0.1933082938194275,
+        0.11875614523887634,
+        0.11360407620668411,
+        0.01337793655693531,
+        0.01112859696149826,
+        0.010590380989015102,
+        0.0175048615783453
+      ],
+      "promptTokens": 791,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t4",
+      "acceptedIds": [
+        "t4"
+      ],
+      "correct": true,
+      "elapsedMs": 3563.172
+    },
+    {
+      "id": "witch-wavve-image",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "__none__",
+        "i2",
+        "i5",
+        "i3",
+        "i7",
+        "i4",
+        "i1",
+        "i6"
+      ],
+      "promptSha256": "6eb59bdd9096cadd567c7190c80a4e5346d15de8c600b45e5fb719d5b4f38e06",
+      "logScores": [
+        -1.4499845579266548,
+        -2.1004502412397414,
+        -2.264125684276223,
+        -2.770069806370884,
+        -2.540568941272795,
+        -4.663036320358515,
+        -4.532269938848913,
+        -4.994615484029055,
+        -4.896350959315896
+      ],
+      "probabilities": [
+        0.3683535158634186,
+        0.19220787286758423,
+        0.16318786144256592,
+        0.09839183837175369,
+        0.12377419322729111,
+        0.014820203185081482,
+        0.01689060777425766,
+        0.010637783445417881,
+        0.011736185289919376
+      ],
+      "promptTokens": 1071,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i2",
+      "acceptedIds": [
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 4886.836
+    },
+    {
+      "id": "witch-wavve-description",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "image-title-logo",
+        "full-vs-truncated-synopsis",
+        "duplicate-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 2634 > 2048; no truncation performed",
+      "elapsedMs": 3.084
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "t5",
+      "optionIds": [
+        "t5",
+        "t2",
+        "__none__",
+        "t6",
+        "t8",
+        "t3",
+        "t1",
+        "t7",
+        "t4"
+      ],
+      "promptSha256": "93a5ae8c0bd9142b9ee2da0d5892431443f36cc010874860e26aa0e1a6934e9a",
+      "logScores": [
+        -1.7916130349040031,
+        -1.9921255295630544,
+        -2.0965973478741944,
+        -2.628636001609266,
+        -2.7921103658154607,
+        -4.748166025616229,
+        -4.679704544134438,
+        -4.892341908998787,
+        -4.5134481973946095
+      ],
+      "probabilities": [
+        0.27975228428840637,
+        0.2289244383573532,
+        0.20621514320373535,
+        0.12113209068775177,
+        0.10286392271518707,
+        0.014546516351401806,
+        0.015577271580696106,
+        0.012593433260917664,
+        0.018394824117422104
+      ],
+      "promptTokens": 807,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 3886.731
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "i7",
+      "optionIds": [
+        "i7",
+        "__none__",
+        "i6",
+        "i4",
+        "i3",
+        "i1",
+        "i2",
+        "i5",
+        "i8"
+      ],
+      "promptSha256": "88e3f8727232b043e2620f3e3db6eab15142cec13e9c07f0ab6d1d00b65f6d7e",
+      "logScores": [
+        -1.4639968839474022,
+        -2.2277353873942047,
+        -2.320198005530983,
+        -2.7042371626012027,
+        -2.5903401714749634,
+        -4.6972236931324005,
+        -4.688232815824449,
+        -4.783707741647959,
+        -4.967167275026441
+      ],
+      "probabilities": [
+        0.377400279045105,
+        0.17583885788917542,
+        0.1603093147277832,
+        0.10918744653463364,
+        0.12235946208238602,
+        0.01488091517239809,
+        0.015015310607850552,
+        0.013648036867380142,
+        0.011360425502061844
+      ],
+      "promptTokens": 1108,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 5283.039
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "search-not-detail",
+        "version-card-duplicates"
+      ],
+      "valid": true,
+      "chosenId": "d6",
+      "optionIds": [
+        "d6",
+        "d2",
+        "__none__",
+        "d3",
+        "d1",
+        "d4",
+        "d5"
+      ],
+      "promptSha256": "8ded7ea9216e77141dee9c2e8d419a9834c58a4f9a74634d20ac3d37ca7df47a",
+      "logScores": [
+        -2.022015353664756,
+        -2.6620741598308086,
+        -2.7239051358774304,
+        -2.949647127650678,
+        -3.5922666266560555,
+        -5.357636114582419,
+        -5.632429752498865
+      ],
+      "probabilities": [
+        0.37188205122947693,
+        0.1960790604352951,
+        0.1843225061893463,
+        0.1470753252506256,
+        0.07734883576631546,
+        0.013236207887530327,
+        0.01005592942237854
+      ],
+      "promptTokens": 1348,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 7092.495
+    },
+    {
+      "id": "witch-crunchyroll-title",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "t1",
+      "optionIds": [
+        "t1",
+        "__none__",
+        "t4",
+        "t3",
+        "t5",
+        "t2"
+      ],
+      "promptSha256": "8067bfdfdfa1b3183617ba7ca09de965fc021c6256b38589a4cde1258f56b5f5",
+      "logScores": [
+        -1.4580252720043063,
+        -2.612365795299411,
+        -2.3512535374611616,
+        -2.1465433202683926,
+        -2.4651903146877885,
+        -4.040555085986853
+      ],
+      "probabilities": [
+        0.37484729290008545,
+        0.11817637830972672,
+        0.1534370481967926,
+        0.18829326331615448,
+        0.13691407442092896,
+        0.02833191677927971
+      ],
+      "promptTokens": 954,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 4921.536
+    },
+    {
+      "id": "witch-crunchyroll-image",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1"
+      ],
+      "promptSha256": "16d449396adc52207f421bef35efc54dd73b2981f4c75dff3fff0f091a06710d",
+      "logScores": [
+        -0.7847985320258886,
+        -2.574724856996909
+      ],
+      "probabilities": [
+        0.8569182753562927,
+        0.14308175444602966
+      ],
+      "promptTokens": 506,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 1836.326
+    },
+    {
+      "id": "witch-crunchyroll-description",
+      "split": "calibration",
+      "template": "contrast-examples",
+      "scenario": [
+        "generic-service-marketing"
+      ],
+      "valid": true,
+      "chosenId": "d1",
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "promptSha256": "efffd1ddfdb822660a9b619c8fff863ccb79731394a2ee97be80d49de880162d",
+      "logScores": [
+        -1.7733322447165847,
+        -1.9227458061650395
+      ],
+      "probabilities": [
+        0.5372840762138367,
+        0.4627159535884857
+      ],
+      "promptTokens": 692,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 2380.418
+    }
+  ],
+  "finishedAt": "2026-11-13T10:12:28Z"
+}

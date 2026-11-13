@@ -1,0 +1,703 @@
+{
+  "schemaVersion": 1,
+  "model": "SlayerLab/Slayer-149M-Decision-v1",
+  "revision": "ccfd7d3d91f3894beb1cd096b5d067333ba3d4c7",
+  "runtime": "PyTorch CPU (not WebGPU)",
+  "source": "eval/tiny-decision/results/slayer-challenge-raw.json",
+  "datasetSha256": "2d4d48495332e9247537c9530566081f7b010eacc2543b3501d5c9ae45774a2c",
+  "timingCaveat": "CPU 4 threads; calibration overlapped other model and browser work. Context-budget errors include no inference. successfulLatency separates completed inference from rejected inputs.",
+  "reports": [
+    {
+      "split": "holdout",
+      "template": "korean-structure",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 3,
+        "accuracy": 0.25,
+        "accepted": 10,
+        "acceptedPrecision": 0.2,
+        "falseSelections": 8,
+        "correctAbstentions": 1,
+        "errors": 0,
+        "p50Ms": 2990.327,
+        "p95Ms": 3741.262
+      },
+      "successfulLatency": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 3,
+        "accuracy": 0.25,
+        "accepted": 10,
+        "acceptedPrecision": 0.2,
+        "falseSelections": 8,
+        "correctAbstentions": 1,
+        "errors": 0,
+        "p50Ms": 2990.327,
+        "p95Ms": 3741.262
+      },
+      "rows": [
+        {
+          "id": "synthetic-active-dialog-title",
+          "split": "holdout",
+          "template": "korean-structure",
+          "scenario": [
+            "active-dialog-hidden-old-main"
+          ],
+          "valid": true,
+          "chosenId": "n3",
+          "optionIds": [
+            "n3",
+            "n1",
+            "n2",
+            "__none__"
+          ],
+          "promptSha256": "d3abf0022468b51404e9c57197b12bfeb97f2693f90492fe3da2c7f426ac8dbb",
+          "logScores": [
+            -1.4482926079072058,
+            -2.3684471482411027,
+            -1.792518351227045,
+            -1.4769075103104115
+          ],
+          "probabilities": [
+            0.3247789740562439,
+            0.12941062450408936,
+            0.23019324243068695,
+            0.315617173910141
+          ],
+          "promptTokens": 627,
+          "suffixTokenIds": [
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "n2",
+          "acceptedIds": [
+            "n2"
+          ],
+          "correct": false,
+          "elapsedMs": 2630.266
+        },
+        {
+          "id": "synthetic-stale-watch-metadata",
+          "split": "holdout",
+          "template": "korean-structure",
+          "scenario": [
+            "watch-prefix-stale-brand-metadata"
+          ],
+          "valid": true,
+          "chosenId": "n3",
+          "optionIds": [
+            "n3",
+            "n2",
+            "n1",
+            "__none__"
+          ],
+          "promptSha256": "5e47223b140406cc20ec05caf3af79fb2e5dd61bad61ccf9bc6bb476ad66e383",
+          "logScores": [
+            -1.3653143881820142,
+            -1.7680938681587577,
+            -1.3855515429750085,
+            -1.9959013648331165
+          ],
+          "probabilities": [
+            0.3143957257270813,
+            0.21016082167625427,
+            0.3080971837043762,
+            0.16734632849693298
+          ],
+          "promptTokens": 645,
+          "suffixTokenIds": [
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "n2",
+          "acceptedIds": [
+            "n2"
+          ],
+          "correct": false,
+          "elapsedMs": 2779.705
+        },
+        {
+          "id": "synthetic-episode-versus-series",
+          "split": "holdout",
+          "template": "korean-structure",
+          "scenario": [
+            "episode-heading-series-logo"
+          ],
+          "valid": true,
+          "chosenId": "__none__",
+          "optionIds": [
+            "__none__",
+            "n3",
+            "n2",
+            "n1"
+          ],
+          "promptSha256": "727dabd6509586d5142fd06c0ab70c7f847e19b7180d84e15400a581e31d5da9",
+          "logScores": [
+            -1.0666069062426686,
+            -2.4893917366862297,
+            -1.9454955235123634,
+            -1.8673069421201944
+          ],
+          "probabilities": [
+            0.4749915897846222,
+            0.11449282616376877,
+            0.19723749160766602,
+            0.21327811479568481
+          ],
+          "promptTokens": 680,
+          "suffixTokenIds": [
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "n2",
+          "acceptedIds": [
+            "n2"
+          ],
+          "correct": false,
+          "elapsedMs": 2699.998
+        },
+        {
+          "id": "synthetic-preview-replaced-poster",
+          "split": "holdout",
+          "template": "korean-structure",
+          "scenario": [
+            "preview-video-dom-replacement"
+          ],
+          "valid": true,
+          "chosenId": "n2",
+          "optionIds": [
+            "n2",
+            "n3",
+            "__none__",
+            "n1"
+          ],
+          "promptSha256": "f79cea415f75b94168d661c897fc6445795862d5e950f43ffdcf7c21ed7ad5a3",
+          "logScores": [
+            -1.2392605510540307,
+            -2.5451421104371548,
+            -2.252152561210096,
+            -1.2865899708122015
+          ],
+          "probabilities": [
+            0.38641759753227234,
+            0.10469350218772888,
+            0.14033420383930206,
+            0.3685547113418579
+          ],
+          "promptTokens": 657,
+          "suffixTokenIds": [
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "n2",
+          "acceptedIds": [
+            "n2"
+          ],
+          "correct": true,
+          "elapsedMs": 2679.77
+        },
+        {
+          "id": "synthetic-recommendation-description",
+          "split": "holdout",
+          "template": "korean-structure",
+          "scenario": [
+            "recommendation-plot-versus-main-plot"
+          ],
+          "valid": true,
+          "chosenId": "n3",
+          "optionIds": [
+            "n3",
+            "n1",
+            "__none__",
+            "n2"
+          ],
+          "promptSha256": "19706ae81c40316ee5d8e690bf1fecffe64ecd6f4fd9d77b862d25926aa0e388",
+          "logScores": [
+            -1.2650035209953785,
+            -2.2783379782922566,
+            -1.9913761718198657,
+            -2.2451817356050014
+          ],
+          "probabilities": [
+            0.4500630497932434,
+            0.1633758246898651,
+            0.21767760813236237,
+            0.1688835471868515
+          ],
+          "promptTokens": 886,
+          "suffixTokenIds": [
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "n2",
+          "acceptedIds": [
+            "n2"
+          ],
+          "correct": false,
+          "elapsedMs": 3809.422
+        },
+        {
+          "id": "synthetic-search-season-match",
+          "split": "holdout",
+          "template": "korean-structure",
+          "scenario": [
+            "exact-title-season-medium-match"
+          ],
+          "valid": true,
+          "chosenId": "n1",
+          "optionIds": [
+            "n1",
+            "n3",
+            "n2",
+            "__none__"
+          ],
+          "promptSha256": "1859a9d345a682b1abdc9564b7e919d7f82b2ac438c2f700009e419a0222c6d9",
+          "logScores": [
+            -1.585516819730401,
+            -2.309089298825711,
+            -1.6277169664390385,
+            -2.3723292239010334
+          ],
+          "probabilities": [
+            0.3449479341506958,
+            0.16730543971061707,
+            0.33069393038749695,
+            0.1570526510477066
+          ],
+          "promptTokens": 718,
+          "suffixTokenIds": [
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "n2",
+          "acceptedIds": [
+            "n2"
+          ],
+          "correct": false,
+          "elapsedMs": 2990.327
+        },
+        {
+          "id": "synthetic-search-ambiguous-title",
+          "split": "holdout",
+          "template": "korean-structure",
+          "scenario": [
+            "insufficient-identity-evidence"
+          ],
+          "valid": true,
+          "chosenId": "__none__",
+          "optionIds": [
+            "__none__",
+            "n2",
+            "n1",
+            "n3"
+          ],
+          "promptSha256": "653838a69699d6744907d36d6f937e8c9f4f2e189abc5d1d44486fc4462054b5",
+          "logScores": [
+            -1.5452664280310273,
+            -2.2306568790227175,
+            -1.7041650144383311,
+            -2.4182727290317416
+          ],
+          "probabilities": [
+            0.3604032099246979,
+            0.18160481750965118,
+            0.30745381116867065,
+            0.15053822100162506
+          ],
+          "promptTokens": 691,
+          "suffixTokenIds": [
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "correct": true,
+          "elapsedMs": 2785.068
+        },
+        {
+          "id": "synthetic-missing-synopsis",
+          "split": "holdout",
+          "template": "korean-structure",
+          "scenario": [
+            "placeholder-and-marketing-only"
+          ],
+          "valid": true,
+          "chosenId": "n3",
+          "optionIds": [
+            "n3",
+            "n1",
+            "__none__",
+            "n2"
+          ],
+          "promptSha256": "a798260b10af802f162667a6e07d5d187c77a6b343577a42659a0513fd23bf61",
+          "logScores": [
+            -1.6751248866785318,
+            -2.4458421897143126,
+            -1.9910952085629106,
+            -1.7112908083945513
+          ],
+          "probabilities": [
+            0.31683245301246643,
+            0.14659236371517181,
+            0.23099654912948608,
+            0.30557864904403687
+          ],
+          "promptTokens": 708,
+          "suffixTokenIds": [
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "correct": false,
+          "elapsedMs": 3262.787
+        },
+        {
+          "id": "synthetic-stacked-dialog-title",
+          "split": "holdout",
+          "template": "korean-structure",
+          "scenario": [
+            "foreground-dialog-versus-visible-inert-dialog"
+          ],
+          "valid": true,
+          "chosenId": "n3",
+          "optionIds": [
+            "__none__",
+            "n2",
+            "n3",
+            "n1"
+          ],
+          "promptSha256": "f81c7d19d380f47086bfb682739441f095c12b388e52257f0154cbc87cf8927b",
+          "logScores": [
+            -1.794978175777942,
+            -3.024344941601157,
+            -1.258000886067748,
+            -1.484992392361164
+          ],
+          "probabilities": [
+            0.22900530695915222,
+            0.06697894632816315,
+            0.3917886018753052,
+            0.31222712993621826
+          ],
+          "promptTokens": 668,
+          "suffixTokenIds": [
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "n2",
+          "acceptedIds": [
+            "n2"
+          ],
+          "correct": false,
+          "elapsedMs": 3513.758
+        },
+        {
+          "id": "synthetic-search-observed-alias",
+          "split": "holdout",
+          "template": "korean-structure",
+          "scenario": [
+            "explicit-bilingual-alias"
+          ],
+          "valid": true,
+          "chosenId": "n1",
+          "optionIds": [
+            "__none__",
+            "n3",
+            "n1",
+            "n2"
+          ],
+          "promptSha256": "d06e9b9b5ae31449858059fa3105590b2797efdaa9ed1cd2a976dd4f58b7ae80",
+          "logScores": [
+            -1.662087097298354,
+            -2.2933551319874823,
+            -1.6167454095557332,
+            -2.279782294295728
+          ],
+          "probabilities": [
+            0.32077109813690186,
+            0.1706235259771347,
+            0.33565017580986023,
+            0.17295518517494202
+          ],
+          "promptTokens": 680,
+          "suffixTokenIds": [
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "n1",
+          "acceptedIds": [
+            "n1"
+          ],
+          "correct": true,
+          "elapsedMs": 3178.532
+        },
+        {
+          "id": "synthetic-closed-modal-title",
+          "split": "holdout",
+          "template": "korean-structure",
+          "scenario": [
+            "closed-modal-and-search-background"
+          ],
+          "valid": true,
+          "chosenId": "n3",
+          "optionIds": [
+            "n2",
+            "n1",
+            "__none__",
+            "n3"
+          ],
+          "promptSha256": "b2014b698652c7c2539a65a414b02ae4bf20f1d7d7aeef09e35f71008ffde76e",
+          "logScores": [
+            -1.6476514805108309,
+            -2.507928372360766,
+            -1.9367738021537662,
+            -1.2915819343179464
+          ],
+          "probabilities": [
+            0.27780306339263916,
+            0.11752317100763321,
+            0.20805244147777557,
+            0.39662131667137146
+          ],
+          "promptTokens": 679,
+          "suffixTokenIds": [
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "correct": false,
+          "elapsedMs": 3278.664
+        },
+        {
+          "id": "synthetic-accessible-full-synopsis",
+          "split": "holdout",
+          "template": "korean-structure",
+          "scenario": [
+            "accessible-full-text-versus-clipped-text"
+          ],
+          "valid": true,
+          "chosenId": "n1",
+          "optionIds": [
+            "n1",
+            "__none__",
+            "n2",
+            "n3"
+          ],
+          "promptSha256": "45751b5ea60de613785787f8e01b22894d727e082ba966677e8af84720158a9a",
+          "logScores": [
+            -1.3494489509612322,
+            -2.101820594165474,
+            -2.0131596010178328,
+            -1.9188127238303423
+          ],
+          "probabilities": [
+            0.39183878898620605,
+            0.18465305864810944,
+            0.2017723023891449,
+            0.22173582017421722
+          ],
+          "promptTokens": 879,
+          "suffixTokenIds": [
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "n2",
+          "acceptedIds": [
+            "n2"
+          ],
+          "correct": false,
+          "elapsedMs": 3741.262
+        }
+      ]
+    }
+  ]
+}

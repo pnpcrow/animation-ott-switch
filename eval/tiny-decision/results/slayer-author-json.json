@@ -1,0 +1,1269 @@
+{
+  "schemaVersion": 1,
+  "label": "Post-hoc fixed model-card-style JSON format sensitivity; same18holdoutcases, not independent validation",
+  "model": "SlayerLab/Slayer-149M-Decision-v1",
+  "revision": "ccfd7d3d91f3894beb1cd096b5d067333ba3d4c7",
+  "runtime": "PyTorch CPU (not WebGPU)",
+  "source": "eval/tiny-decision/results/slayer-author-json-raw.json",
+  "datasetSha256": "6c67927c5a3af49e13d2845d258d18b8905d38959e537a718592d63319fe5aa3",
+  "timingCaveat": "CPU 4 threads; runs overlapped other model and browser work. Timings are contended, not a controlled hardware comparison. Context-budget errors include no inference. successfulLatency separates completed inference from rejected inputs.",
+  "reports": [
+    {
+      "split": "holdout",
+      "template": "author-json-zero",
+      "summary": {
+        "attempted": 18,
+        "valid": 15,
+        "correct": 3,
+        "accuracy": 0.16666666666666666,
+        "accepted": 10,
+        "acceptedPrecision": 0,
+        "falseSelections": 10,
+        "correctAbstentions": 3,
+        "errors": 3,
+        "p50Ms": 2034.208,
+        "p95Ms": 8745.925
+      },
+      "successfulLatency": {
+        "attempted": 15,
+        "valid": 15,
+        "correct": 3,
+        "accuracy": 0.2,
+        "accepted": 10,
+        "acceptedPrecision": 0,
+        "falseSelections": 10,
+        "correctAbstentions": 3,
+        "errors": 0,
+        "p50Ms": 5124.906,
+        "p95Ms": 8745.925
+      },
+      "rows": [
+        {
+          "id": "sakura-title",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "valid": true,
+          "chosenId": "t8",
+          "optionIds": [
+            "t2",
+            "t6",
+            "t8",
+            "t7",
+            "t3",
+            "t4",
+            "__none__",
+            "t5",
+            "t1"
+          ],
+          "promptSha256": "dd773923a778d1ec76978678889453a9417ac7e11797b72f4410367487af2289",
+          "logScores": [
+            -4.563097823411226,
+            -4.75841280707391,
+            -4.266936056665145,
+            -4.422824804321863,
+            -4.71669561881572,
+            -4.791398073080927,
+            -7.605609220452607,
+            -7.670507483184338,
+            -6.907626405823976
+          ],
+          "probabilities": [
+            0.16234615445137024,
+            0.1335419863462448,
+            0.21830494701862335,
+            0.1867935210466385,
+            0.13923080265522003,
+            0.12920893728733063,
+            0.0077463313937187195,
+            0.00725957565009594,
+            0.015567759983241558
+          ],
+          "legalRootMass": 0.06471597403287888,
+          "legalRootTokenIds": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "jointSuffixLogMass": -2.7450734558420447,
+          "promptTokens": 1335,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ],
+            [
+              21,
+              61
+            ],
+            [
+              22,
+              61
+            ],
+            [
+              23,
+              61
+            ],
+            [
+              24,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "correct": false,
+          "elapsedMs": 7550.516
+        },
+        {
+          "id": "sakura-image",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "valid": true,
+          "chosenId": "i3",
+          "optionIds": [
+            "i7",
+            "i8",
+            "i3",
+            "i1",
+            "__none__",
+            "i5",
+            "i6",
+            "i2",
+            "i4"
+          ],
+          "promptSha256": "22405a0e4d3d6bf3eccd523546796d47dd3850065bda1548cc2e61e07c7613a4",
+          "logScores": [
+            -4.16187434643507,
+            -4.505871814006241,
+            -3.775735022732988,
+            -4.0488052177242935,
+            -4.107630237471312,
+            -4.711496294941753,
+            -7.117954050190747,
+            -6.9972501252777874,
+            -6.2633907976560295
+          ],
+          "probabilities": [
+            0.16218417882919312,
+            0.11497734487056732,
+            0.238619863986969,
+            0.18159912526607513,
+            0.1712246835231781,
+            0.09360750019550323,
+            0.008437218144536018,
+            0.009519637562334538,
+            0.01983039453625679
+          ],
+          "legalRootMass": 0.0966217890381813,
+          "legalRootTokenIds": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "jointSuffixLogMass": -2.342851628292258,
+          "promptTokens": 1633,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ],
+            [
+              21,
+              61
+            ],
+            [
+              22,
+              61
+            ],
+            [
+              23,
+              61
+            ],
+            [
+              24,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "correct": false,
+          "elapsedMs": 7688.27
+        },
+        {
+          "id": "sakura-description",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "valid": false,
+          "error": "ValueError: Context budget exceeded: 3624 > 2048; no truncation performed",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "correct": false,
+          "elapsedMs": 45.237
+        },
+        {
+          "id": "rezero-title",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "valid": true,
+          "chosenId": "t1",
+          "optionIds": [
+            "__none__",
+            "t5",
+            "t1",
+            "t7",
+            "t3",
+            "t2",
+            "t8",
+            "t4",
+            "t6"
+          ],
+          "promptSha256": "64fc04f1aa220d6d9a400ee90a2b5c47c9e69a3e1f61defc121f9b256354bd83",
+          "logScores": [
+            -3.2017976082861423,
+            -3.6955981673672795,
+            -3.160617956891656,
+            -3.2521411441266537,
+            -4.082916940562427,
+            -4.460296472534537,
+            -6.141348417848349,
+            -6.62404131423682,
+            -6.0957664623856544
+          ],
+          "probabilities": [
+            0.22509700059890747,
+            0.1373772770166397,
+            0.23455992341041565,
+            0.21404536068439484,
+            0.0932619720697403,
+            0.06394558399915695,
+            0.011905265972018242,
+            0.007346970494836569,
+            0.012460486963391304
+          ],
+          "legalRootMass": 0.18441136181354523,
+          "legalRootTokenIds": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "jointSuffixLogMass": -1.7105739795178334,
+          "promptTokens": 1652,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ],
+            [
+              21,
+              61
+            ],
+            [
+              22,
+              61
+            ],
+            [
+              23,
+              61
+            ],
+            [
+              24,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "correct": false,
+          "elapsedMs": 8745.925
+        },
+        {
+          "id": "rezero-image",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "valid": true,
+          "chosenId": "i4",
+          "optionIds": [
+            "i5",
+            "i4",
+            "i3",
+            "i7",
+            "i6",
+            "i8",
+            "i1",
+            "i2",
+            "__none__"
+          ],
+          "promptSha256": "57313c0edeeeabe110a510ad3966231b6f3256544fe35fcd8777413d4c2ef5c4",
+          "logScores": [
+            -3.7219372764229774,
+            -3.705991030205041,
+            -3.9186661711428314,
+            -3.82275999058038,
+            -4.51139477128163,
+            -4.463744188658893,
+            -6.926319332793355,
+            -7.043947329744697,
+            -6.583803037181497
+          ],
+          "probabilities": [
+            0.20808406174182892,
+            0.21142879128456116,
+            0.17092299461364746,
+            0.18812736868858337,
+            0.09448908269405365,
+            0.09910056740045547,
+            0.00844487827271223,
+            0.007507722359150648,
+            0.011894499883055687
+          ],
+          "legalRootMass": 0.11780568212270737,
+          "legalRootTokenIds": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "jointSuffixLogMass": -2.152124045427189,
+          "promptTokens": 1777,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ],
+            [
+              21,
+              61
+            ],
+            [
+              22,
+              61
+            ],
+            [
+              23,
+              61
+            ],
+            [
+              24,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "correct": false,
+          "elapsedMs": 8580.109
+        },
+        {
+          "id": "rezero-description",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "valid": false,
+          "error": "ValueError: Context budget exceeded: 4036 > 2048; no truncation performed",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2"
+          ],
+          "correct": false,
+          "elapsedMs": 52.274
+        },
+        {
+          "id": "dungeon-title",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "valid": true,
+          "chosenId": "t1",
+          "optionIds": [
+            "t1",
+            "t2",
+            "t3",
+            "t4",
+            "t6",
+            "t5",
+            "t8",
+            "__none__",
+            "t7"
+          ],
+          "promptSha256": "be3a8e4becf587fa915adb14c73d216f6d3ff0a8e20b8a96f3b177f0e7730a94",
+          "logScores": [
+            -3.487636737525463,
+            -3.8220278037479147,
+            -3.5942536832299083,
+            -3.914448333438486,
+            -4.55806926288642,
+            -4.843940386548638,
+            -6.93878716789186,
+            -7.1326152896508574,
+            -6.7869835291057825
+          ],
+          "probabilities": [
+            0.25236976146698,
+            0.18063965439796448,
+            0.2268475741147995,
+            0.16469311714172363,
+            0.08652754873037338,
+            0.06501330435276031,
+            0.008002429269254208,
+            0.00659239711239934,
+            0.009314279071986675
+          ],
+          "legalRootMass": 0.12265470623970032,
+          "legalRootTokenIds": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "jointSuffixLogMass": -2.110776732668244,
+          "promptTokens": 1448,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ],
+            [
+              21,
+              61
+            ],
+            [
+              22,
+              61
+            ],
+            [
+              23,
+              61
+            ],
+            [
+              24,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "correct": false,
+          "elapsedMs": 8070.708
+        },
+        {
+          "id": "dungeon-image",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "valid": true,
+          "chosenId": "i8",
+          "optionIds": [
+            "i1",
+            "i3",
+            "i8",
+            "i2",
+            "i7",
+            "i6",
+            "__none__",
+            "i5",
+            "i4"
+          ],
+          "promptSha256": "32006a6249203c70f69471ba017fdc81a1e50d79c0abde159daf7b4ad9816c9f",
+          "logScores": [
+            -3.51507780700922,
+            -3.2512759228702635,
+            -2.9838742651045322,
+            -3.3797862962819636,
+            -3.9963008854538202,
+            -4.159083132632077,
+            -6.513347685337067,
+            -6.59605024009943,
+            -6.311618089675903
+          ],
+          "probabilities": [
+            0.15509313344955444,
+            0.20191112160682678,
+            0.26381003856658936,
+            0.17756155133247375,
+            0.09585174918174744,
+            0.08145251870155334,
+            0.007735004182904959,
+            0.007121036760509014,
+            0.009463910944759846
+          ],
+          "legalRootMass": 0.19525779783725739,
+          "legalRootTokenIds": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "jointSuffixLogMass": -1.6513482203676422,
+          "promptTokens": 1959,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ],
+            [
+              21,
+              61
+            ],
+            [
+              22,
+              61
+            ],
+            [
+              23,
+              61
+            ],
+            [
+              24,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "correct": false,
+          "elapsedMs": 9861.885
+        },
+        {
+          "id": "dungeon-description",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "valid": false,
+          "error": "ValueError: Context budget exceeded: 2937 > 2048; no truncation performed",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "correct": false,
+          "elapsedMs": 46.931
+        },
+        {
+          "id": "dinner-title",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "valid": true,
+          "chosenId": "t1",
+          "optionIds": [
+            "t7",
+            "t6",
+            "t1",
+            "t2",
+            "t4",
+            "t5",
+            "__none__",
+            "t3",
+            "t8"
+          ],
+          "promptSha256": "59de0499de68b901ab77a49abfecefe7dc3852060e51a2830bff67c65e3f7f19",
+          "logScores": [
+            -3.92389022000134,
+            -4.526320305536501,
+            -3.529206777457148,
+            -3.8411886373069137,
+            -4.694476122735068,
+            -4.769018095918,
+            -7.120825047139078,
+            -7.315295900218189,
+            -6.572327985428274
+          ],
+          "probabilities": [
+            0.19398018717765808,
+            0.10620017349720001,
+            0.28784996271133423,
+            0.21070465445518494,
+            0.08976274728775024,
+            0.0833149403333664,
+            0.007931334897875786,
+            0.006529631093144417,
+            0.013726359233260155
+          ],
+          "legalRootMass": 0.10271252691745758,
+          "legalRootTokenIds": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "jointSuffixLogMass": -2.2838908586664264,
+          "promptTokens": 1232,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ],
+            [
+              21,
+              61
+            ],
+            [
+              22,
+              61
+            ],
+            [
+              23,
+              61
+            ],
+            [
+              24,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "correct": false,
+          "elapsedMs": 5844.784
+        },
+        {
+          "id": "dinner-image",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "valid": true,
+          "chosenId": "__none__",
+          "optionIds": [
+            "__none__",
+            "i3",
+            "i7",
+            "i8",
+            "i5",
+            "i2",
+            "i4",
+            "i6",
+            "i1"
+          ],
+          "promptSha256": "87c6bfaae6159a0627ebc30c19cf93d335d6a08ccfef0161db516b58b7210aa2",
+          "logScores": [
+            -3.7156229820102453,
+            -4.400634373771027,
+            -3.763717442052439,
+            -4.053459014976397,
+            -4.593097984557971,
+            -4.783731335774064,
+            -6.9509660778567195,
+            -7.312375091016293,
+            -7.0561700109392405
+          ],
+          "probabilities": [
+            0.24800929427146912,
+            0.12501762807369232,
+            0.23636369407176971,
+            0.17690801620483398,
+            0.10313006490468979,
+            0.08523035794496536,
+            0.00975834857672453,
+            0.006798582151532173,
+            0.008783888071775436
+          ],
+          "legalRootMass": 0.099031962454319,
+          "legalRootTokenIds": [
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "jointSuffixLogMass": -2.321333934076435,
+          "promptTokens": 1265,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ],
+            [
+              19,
+              61
+            ],
+            [
+              20,
+              61
+            ],
+            [
+              21,
+              61
+            ],
+            [
+              22,
+              61
+            ],
+            [
+              23,
+              61
+            ],
+            [
+              24,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "i3",
+          "acceptedIds": [
+            "i1",
+            "i3"
+          ],
+          "correct": false,
+          "elapsedMs": 5124.906
+        },
+        {
+          "id": "dinner-description",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "valid": true,
+          "chosenId": "__none__",
+          "optionIds": [
+            "d1",
+            "__none__"
+          ],
+          "promptSha256": "9aa05dbefeab31d64903aaeb1f754df14ef11fe7786bdb2a85fc042a754af1b3",
+          "logScores": [
+            -4.689090359956026,
+            -4.484561439836398
+          ],
+          "probabilities": [
+            0.449045330286026,
+            0.5509546995162964
+          ],
+          "legalRootMass": 0.02085326611995697,
+          "legalRootTokenIds": [
+            16,
+            17
+          ],
+          "jointSuffixLogMass": -3.8884587982848453,
+          "promptTokens": 750,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "correct": false,
+          "elapsedMs": 2518.677
+        },
+        {
+          "id": "dungeon-watcha-search-title",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "incomplete-search-shell"
+          ],
+          "valid": true,
+          "chosenId": "t2",
+          "optionIds": [
+            "t1",
+            "__none__",
+            "t2"
+          ],
+          "promptSha256": "f4a7273c212b8bcba84d3e21128374dc56828b21f3d985ecfcd5ed70efa2334e",
+          "logScores": [
+            -4.813492702320218,
+            -5.4180200977716595,
+            -4.7438621625478845
+          ],
+          "probabilities": [
+            0.381906121969223,
+            0.2086477279663086,
+            0.4094461500644684
+          ],
+          "legalRootMass": 0.021496005356311798,
+          "legalRootTokenIds": [
+            16,
+            17,
+            18
+          ],
+          "jointSuffixLogMass": -3.850912236331227,
+          "promptTokens": 400,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "correct": false,
+          "elapsedMs": 1568.233
+        },
+        {
+          "id": "dungeon-watcha-search-image",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "incomplete-search-shell"
+          ],
+          "valid": true,
+          "chosenId": "i1",
+          "optionIds": [
+            "i1",
+            "__none__"
+          ],
+          "promptSha256": "51e3de9bde1aa6bb6e2563fbd36ec7b6c3d920ae69c9d6cd5af2e673180ed4d8",
+          "logScores": [
+            -3.483602530322969,
+            -4.349979033358977
+          ],
+          "probabilities": [
+            0.703991174697876,
+            0.2960088551044464
+          ],
+          "legalRootMass": 0.044046103954315186,
+          "legalRootTokenIds": [
+            16,
+            17
+          ],
+          "jointSuffixLogMass": -3.1326130572673714,
+          "promptTokens": 318,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "correct": false,
+          "elapsedMs": 1083.546
+        },
+        {
+          "id": "dungeon-watcha-search-description",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "incomplete-search-shell"
+          ],
+          "valid": true,
+          "chosenId": "d1",
+          "optionIds": [
+            "d1",
+            "__none__"
+          ],
+          "promptSha256": "ba719d02e9519a39dfdbe3c544189fff27aa8d2c978901d58bc2be315f34a44e",
+          "logScores": [
+            -4.546488048508763,
+            -4.845895406906493
+          ],
+          "probabilities": [
+            0.5742975473403931,
+            0.42570245265960693
+          ],
+          "legalRootMass": 0.018774807453155518,
+          "legalRootTokenIds": [
+            16,
+            17
+          ],
+          "jointSuffixLogMass": -3.991880558040458,
+          "promptTokens": 428,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "correct": false,
+          "elapsedMs": 2034.208
+        },
+        {
+          "id": "dungeon-coupang-search-title",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "unsupported-browser-or-search"
+          ],
+          "valid": true,
+          "chosenId": "__none__",
+          "optionIds": [
+            "__none__",
+            "t1"
+          ],
+          "promptSha256": "b96e760b58e4e6097b0dcff7791a415a056b819cbfda64be8c821d9073f6d8a3",
+          "logScores": [
+            -4.667456620372832,
+            -5.006285779221798
+          ],
+          "probabilities": [
+            0.5839060544967651,
+            0.41609394550323486
+          ],
+          "legalRootMass": 0.016168834641575813,
+          "legalRootTokenIds": [
+            16,
+            17
+          ],
+          "jointSuffixLogMass": -4.129441495560098,
+          "promptTokens": 295,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "correct": true,
+          "elapsedMs": 1020.158
+        },
+        {
+          "id": "dungeon-coupang-search-image",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "unsupported-browser-or-search"
+          ],
+          "valid": true,
+          "chosenId": "__none__",
+          "optionIds": [
+            "__none__"
+          ],
+          "promptSha256": "5dd63d2711bceac3b923da64d581feb4947d8ed690ddce69814906ff9c73195b",
+          "logScores": [
+            -4.086755430325866
+          ],
+          "probabilities": [
+            1
+          ],
+          "legalRootMass": 0.01706160418689251,
+          "legalRootTokenIds": [
+            16
+          ],
+          "jointSuffixLogMass": -4.086755430325866,
+          "promptTokens": 237,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "correct": true,
+          "elapsedMs": 748.25
+        },
+        {
+          "id": "dungeon-coupang-search-description",
+          "split": "holdout",
+          "template": "author-json-zero",
+          "scenario": [
+            "unsupported-browser-or-search"
+          ],
+          "valid": true,
+          "chosenId": "__none__",
+          "optionIds": [
+            "d1",
+            "d2",
+            "__none__"
+          ],
+          "promptSha256": "05b35c4e9a97a601128299b2b33562d977766117b04323bc0de530d3a8849ccb",
+          "logScores": [
+            -4.996575499884784,
+            -5.2921000674396055,
+            -4.9277022064779885
+          ],
+          "probabilities": [
+            0.3551841378211975,
+            0.2643071115016937,
+            0.38050878047943115
+          ],
+          "legalRootMass": 0.019141359254717827,
+          "legalRootTokenIds": [
+            16,
+            17,
+            18
+          ],
+          "jointSuffixLogMass": -3.9614563793750768,
+          "promptTokens": 406,
+          "suffixTokenIds": [
+            [
+              16,
+              61
+            ],
+            [
+              17,
+              61
+            ],
+            [
+              18,
+              61
+            ]
+          ],
+          "referenceMaxAbsError": null,
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "correct": true,
+          "elapsedMs": 1486.289
+        }
+      ]
+    }
+  ]
+}

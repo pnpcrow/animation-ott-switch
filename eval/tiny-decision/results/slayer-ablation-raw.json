@@ -1,0 +1,1104 @@
+{
+  "schemaVersion": 1,
+  "label": "Paired removal of DOM context; not independent validation",
+  "model": "SlayerLab/Slayer-149M-Decision-v1",
+  "revision": "ccfd7d3d91f3894beb1cd096b5d067333ba3d4c7",
+  "runtime": "PyTorch CPU (not WebGPU)",
+  "torch": "2.15.0+cpu",
+  "transformers": "5.22.2",
+  "python": "3.12.10",
+  "threads": 4,
+  "parameters": 149333081,
+  "dtype": "float32",
+  "loadSeconds": 5.335148600162938,
+  "datasetSha256": "ed5fe44f765fda62746808eec16d7196786e612e5050d7a6a9de813b686f8ec8",
+  "modelHashes": {
+    "config.json": "31a1e0fde1069108db98968775bed7644cfde9713e85900e57ccf195815ec8ab",
+    "modeling_slayer_balanced.py": "11154d3fe903d020afbaebed86f6f00add3301ee5d51e7ffef6c59f35efe123e",
+    "tokenizer.json": "d1ffe47f6fd8cc19ba7c3e5d2537699d6a99d09b584d3319944f4e40fe6c44ea",
+    "tokenizer_config.json": "beb5e8e876d2615204c8e92d0540d2a8650ee649e12dc2f87582b9c8f2f23b03",
+    "model.safetensors": "ba26b9ac1b22ca433e2046ef0d7bcb288e51d4d4aa1d16d0ab27c42025bc581e"
+  },
+  "readout": "Sum of log probabilities of numeric bracket suffixes; exact shared-prefix trie; conditional softmax, not calibrated on DOM tasks",
+  "rows": [
+    {
+      "id": "sakura-title::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t2",
+      "optionIds": [
+        "t2",
+        "t6",
+        "t8",
+        "t7",
+        "t3",
+        "t4",
+        "__none__",
+        "t5",
+        "t1"
+      ],
+      "promptSha256": "1b11df534ffaa42de3fe83210bbed3b5b8dbad235d1cc3bd40509587f18d3e77",
+      "logScores": [
+        -1.795301403850317,
+        -2.310085515026003,
+        -2.4450932620093226,
+        -2.655132330954075,
+        -2.795045865699649,
+        -4.18110534735024,
+        -4.400070087984204,
+        -4.053315190598369,
+        -3.7061232775449753
+      ],
+      "probabilities": [
+        0.30035048723220825,
+        0.1794983446598053,
+        0.1568293571472168,
+        0.12711843848228455,
+        0.11052101105451584,
+        0.027636749669909477,
+        0.02220197580754757,
+        0.0314040333032608,
+        0.04443947598338127
+      ],
+      "promptTokens": 970,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": true,
+      "elapsedMs": 4272.131
+    },
+    {
+      "id": "sakura-image::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i7",
+      "optionIds": [
+        "i7",
+        "i8",
+        "i3",
+        "i1",
+        "__none__",
+        "i5",
+        "i6",
+        "i2",
+        "i4"
+      ],
+      "promptSha256": "797c99a2947a0deddc537e229351c51d335e3186cc9524bbe6d56693e3013eff",
+      "logScores": [
+        -1.3675380391068757,
+        -2.317933847894892,
+        -2.1007345649413764,
+        -2.534192182123661,
+        -2.860193418338895,
+        -4.660223260521889,
+        -4.255989903584123,
+        -4.708889113739133,
+        -4.353410663083196
+      ],
+      "probabilities": [
+        0.38732030987739563,
+        0.14973339438438416,
+        0.18605747818946838,
+        0.12061432749032974,
+        0.08705992251634598,
+        0.014390474185347557,
+        0.02155914157629013,
+        0.01370692253112793,
+        0.019557900726795197
+      ],
+      "promptTokens": 1320,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 5580.482
+    },
+    {
+      "id": "sakura-description::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3161 > 2048; no truncation performed",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": false,
+      "elapsedMs": 44.608
+    },
+    {
+      "id": "rezero-title::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "t5",
+        "t1",
+        "t7",
+        "t3",
+        "t2",
+        "t8",
+        "t4",
+        "t6"
+      ],
+      "promptSha256": "61f878ccfe1a8b6bd51c8b76d968d739aee9e95b3a9cdd9346d91a8e15d38567",
+      "logScores": [
+        -1.9081581723876297,
+        -2.6370288217440248,
+        -2.153600358404219,
+        -2.406635293737054,
+        -2.740680692717433,
+        -4.227672046050429,
+        -4.46668753772974,
+        -4.402642594650388,
+        -4.065672110766172
+      ],
+      "probabilities": [
+        0.271657258272171,
+        0.13106200098991394,
+        0.2125333547592163,
+        0.16501955687999725,
+        0.1181575283408165,
+        0.026709716767072678,
+        0.021031299605965614,
+        0.022422315552830696,
+        0.03140689805150032
+      ],
+      "promptTokens": 1185,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 5147.995
+    },
+    {
+      "id": "rezero-image::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i5",
+      "optionIds": [
+        "i5",
+        "i4",
+        "i3",
+        "i7",
+        "i6",
+        "i8",
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "promptSha256": "1c5afedbd020a753bb8ba50fc81790c2f67c390a82fddfd6c975583614edd7a6",
+      "logScores": [
+        -1.3360941223800182,
+        -2.575461662141606,
+        -2.436984688974917,
+        -3.0736095532774925,
+        -2.8607970336452127,
+        -4.778333488851786,
+        -5.113557077944279,
+        -5.236893258988857,
+        -4.81800851970911
+      ],
+      "probabilities": [
+        0.47133514285087585,
+        0.13648325204849243,
+        0.15675416588783264,
+        0.08293472975492477,
+        0.10260294377803802,
+        0.015079405158758163,
+        0.010784465819597244,
+        0.009533104486763477,
+        0.014492846094071865
+      ],
+      "promptTokens": 1113,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 5425.224
+    },
+    {
+      "id": "rezero-description::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 3372 > 2048; no truncation performed",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "correct": false,
+      "elapsedMs": 31.148
+    },
+    {
+      "id": "dungeon-title::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t1",
+      "optionIds": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t6",
+        "t5",
+        "t8",
+        "__none__",
+        "t7"
+      ],
+      "promptSha256": "6d9c913f800e940f5782d0454879583106af244f436c06b894b24a9b96c20666",
+      "logScores": [
+        -1.7267601513303816,
+        -2.6412830338813365,
+        -2.4564162348397076,
+        -2.939383066724986,
+        -3.1450920589268208,
+        -4.410654604434967,
+        -4.619786348193884,
+        -4.700238354504108,
+        -3.98372058942914
+      ],
+      "probabilities": [
+        0.37012162804603577,
+        0.1483106166124344,
+        0.17842631042003632,
+        0.11008016020059586,
+        0.0896129459142685,
+        0.02527807280421257,
+        0.020507805049419403,
+        0.018922535702586174,
+        0.038739949464797974
+      ],
+      "promptTokens": 940,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": false,
+      "elapsedMs": 3816.465
+    },
+    {
+      "id": "dungeon-image::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "i1",
+      "optionIds": [
+        "i1",
+        "i3",
+        "i8",
+        "i2",
+        "i7",
+        "i6",
+        "__none__",
+        "i5",
+        "i4"
+      ],
+      "promptSha256": "e71032810e3710864e713f1bf10ff8ccb6a33ad52f80f5e73040948f777ec0e7",
+      "logScores": [
+        -1.2044079690240324,
+        -2.3539046784862876,
+        -2.292753935325891,
+        -2.82781241228804,
+        -2.8061928316019475,
+        -4.573688438162208,
+        -4.308445340953767,
+        -4.469985160976648,
+        -3.7747586518526077
+      ],
+      "probabilities": [
+        0.4451770484447479,
+        0.14103037118911743,
+        0.14992362260818481,
+        0.087800532579422,
+        0.08971940726041794,
+        0.015320495702326298,
+        0.019974060356616974,
+        0.01699458807706833,
+        0.03405992314219475
+      ],
+      "promptTokens": 1387,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "correct": true,
+      "elapsedMs": 5774.816
+    },
+    {
+      "id": "dungeon-description::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": false,
+      "error": "ValueError: Context budget exceeded: 2456 > 2048; no truncation performed",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d1",
+        "d2"
+      ],
+      "correct": false,
+      "elapsedMs": 29.512
+    },
+    {
+      "id": "dinner-title::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "t7",
+      "optionIds": [
+        "t7",
+        "t6",
+        "t1",
+        "t2",
+        "t4",
+        "t5",
+        "__none__",
+        "t3",
+        "t8"
+      ],
+      "promptSha256": "3d30f86b42f4456f1be0f2559182e1dc9090c35ef51247148e888f9d58bc6429",
+      "logScores": [
+        -1.5867911293171346,
+        -2.107692526653409,
+        -2.0889569921419024,
+        -2.489573298022151,
+        -2.842878945171833,
+        -4.102330273017287,
+        -4.048253033310175,
+        -3.9904637783765793,
+        -3.302569907158613
+      ],
+      "probabilities": [
+        0.30068421363830566,
+        0.17860190570354462,
+        0.18197962641716003,
+        0.12190944701433182,
+        0.08562461286783218,
+        0.02430109493434429,
+        0.025651410222053528,
+        0.027177458629012108,
+        0.0540701299905777
+      ],
+      "promptTokens": 1233,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": false,
+      "elapsedMs": 7163.516
+    },
+    {
+      "id": "dinner-image::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i3",
+        "i7",
+        "i8",
+        "i5",
+        "i2",
+        "i4",
+        "i6",
+        "i1"
+      ],
+      "promptSha256": "9d409aca4538c6ae96a7fa1648fe84323f02851b346156defa19d6b959390514",
+      "logScores": [
+        -1.5021074409596622,
+        -2.4606186160817742,
+        -2.17091210745275,
+        -2.5855755587108433,
+        -2.9513426376506686,
+        -4.380019273608923,
+        -4.155999264679849,
+        -4.584150232374668,
+        -4.0268618278205395
+      ],
+      "probabilities": [
+        0.36744093894958496,
+        0.14090010523796082,
+        0.18824757635593414,
+        0.12434928864240646,
+        0.08625666797161102,
+        0.020669326186180115,
+        0.02585931122303009,
+        0.01685284823179245,
+        0.029423929750919342
+      ],
+      "promptTokens": 1209,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ],
+        [
+          25,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i3",
+      "acceptedIds": [
+        "i1",
+        "i3"
+      ],
+      "correct": false,
+      "elapsedMs": 5216.519
+    },
+    {
+      "id": "dinner-description::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "promptSha256": "3ff75a45f67add474ca238a942a2982f82aa163da6131aaa58e4cb698d3860d5",
+      "logScores": [
+        -2.116621222347021,
+        -1.1815743278712034
+      ],
+      "probabilities": [
+        0.2819019556045532,
+        0.7180981040000916
+      ],
+      "promptTokens": 1039,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": false,
+      "elapsedMs": 3799.125
+    },
+    {
+      "id": "dungeon-watcha-search-title::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "incomplete-search-shell"
+      ],
+      "valid": true,
+      "chosenId": "t1",
+      "optionIds": [
+        "t1",
+        "__none__",
+        "t2"
+      ],
+      "promptSha256": "5e665a0e4da59c84f0630a74d08ff439154b2080565a9e5ce86ef2fdc230e23f",
+      "logScores": [
+        -1.2793040992692113,
+        -1.927999488543719,
+        -2.074820795096457
+      ],
+      "probabilities": [
+        0.5065662860870361,
+        0.26479601860046387,
+        0.2286376804113388
+      ],
+      "promptTokens": 734,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 3108.0
+    },
+    {
+      "id": "dungeon-watcha-search-image::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "incomplete-search-shell"
+      ],
+      "valid": true,
+      "chosenId": "i1",
+      "optionIds": [
+        "i1",
+        "__none__"
+      ],
+      "promptSha256": "c89d835ceac9623542e6163ff13c663dfae9af60e7a733d1d57b78fdce05d4c3",
+      "logScores": [
+        -0.9140915526077151,
+        -1.7485126527026296
+      ],
+      "probabilities": [
+        0.697288990020752,
+        0.3027110993862152
+      ],
+      "promptTokens": 687,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 2854.23
+    },
+    {
+      "id": "dungeon-watcha-search-description::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "incomplete-search-shell"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "promptSha256": "412704c17ca7a7eaa2b2a9f97a78047c20f71c5a43eaa6f950f9644437b7f672",
+      "logScores": [
+        -1.7074903105385602,
+        -1.4074057079851627
+      ],
+      "probabilities": [
+        0.4255368113517761,
+        0.5744631886482239
+      ],
+      "promptTokens": 788,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 2811.399
+    },
+    {
+      "id": "dungeon-coupang-search-title::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "unsupported-browser-or-search"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "t1"
+      ],
+      "promptSha256": "a70e5fef06026468c7d832def95cf02fbecf0b58a8a79f9844eb0d15bfaf4a12",
+      "logScores": [
+        -0.8373632421717048,
+        -1.8173045171424747
+      ],
+      "probabilities": [
+        0.7270965576171875,
+        0.2729034423828125
+      ],
+      "promptTokens": 651,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 2200.544
+    },
+    {
+      "id": "dungeon-coupang-search-image::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "unsupported-browser-or-search"
+      ],
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__"
+      ],
+      "promptSha256": "cfd3e4891478da54520676e263ab3d445ffd9fb84036528c6b8e426e72b00111",
+      "logScores": [
+        -0.9785046568140388
+      ],
+      "probabilities": [
+        1.0
+      ],
+      "promptTokens": 644,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 1985.889
+    },
+    {
+      "id": "dungeon-coupang-search-description::without-dom-context",
+      "split": "holdout",
+      "template": "korean-structure",
+      "scenario": [
+        "unsupported-browser-or-search"
+      ],
+      "valid": true,
+      "chosenId": "d1",
+      "optionIds": [
+        "d1",
+        "d2",
+        "__none__"
+      ],
+      "promptSha256": "7bafaf955546a7d1a4b9b5f8e933e9bcc817a63c8e0e6317434119eb1e7cd350",
+      "logScores": [
+        -1.4019756955094635,
+        -2.0042605120688677,
+        -2.0241078035905957
+      ],
+      "probabilities": [
+        0.47976404428482056,
+        0.2626991868019104,
+        0.25753673911094666
+      ],
+      "promptTokens": 711,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 2569.892
+    }
+  ],
+  "finishedAt": "2026-11-13T10:21:49Z"
+}

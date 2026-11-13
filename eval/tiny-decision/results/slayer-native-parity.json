@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "model": "SlayerLab/Slayer-149M-Decision-v1",
+  "revision": "ccfd7d3d91f3894beb1cd096b5d067333ba3d4c7",
+  "runtime": "PyTorch CPU (not WebGPU)",
+  "torch": "2.15.0+cpu",
+  "transformers": "5.22.2",
+  "python": "3.12.10",
+  "threads": 4,
+  "parameters": 149333081,
+  "dtype": "float32",
+  "loadSeconds": 4.223057599971071,
+  "datasetSha256": "144260698a581bbf227e4b72321e25c3dfb3b27fd1bdb06c43e03775a7afedcb",
+  "modelHashes": {
+    "config.json": "31a1e0fde1069108db98968775bed7644cfde9713e85900e57ccf195815ec8ab",
+    "modeling_slayer_balanced.py": "11154d3fe903d020afbaebed86f6f00add3301ee5d51e7ffef6c59f35efe123e",
+    "tokenizer.json": "d1ffe47f6fd8cc19ba7c3e5d2537699d6a99d09b584d3319944f4e40fe6c44ea",
+    "model.safetensors": "ba26b9ac1b22ca433e2046ef0d7bcb288e51d4d4aa1d16d0ab27c42025bc581e"
+  },
+  "readout": "Sum of log probabilities of numeric bracket suffixes; exact shared-prefix trie; conditional softmax, not calibrated on DOM tasks",
+  "rows": [
+    {
+      "id": "parity-english",
+      "split": "diagnostic",
+      "template": null,
+      "chosenId": "navigation",
+      "optionIds": [
+        "heading",
+        "navigation",
+        "none"
+      ],
+      "promptSha256": "a0566dd0038a7ff2c4fb694ed1908c081667aac4492b7db810e0f4929dc844a2",
+      "logScores": [
+        -4.212725150646293,
+        -4.054114287311677,
+        -4.309154030983336
+      ],
+      "probabilities": [
+        0.3246799111366272,
+        0.38048645853996277,
+        0.29483354091644287
+      ],
+      "promptTokens": 178,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": 2.86102294921875e-06,
+      "expectedId": "heading",
+      "correct": false,
+      "elapsedMs": 1636.588
+    },
+    {
+      "id": "parity-korean",
+      "split": "diagnostic",
+      "template": null,
+      "chosenId": "none",
+      "optionIds": [
+        "heading",
+        "navigation",
+        "none"
+      ],
+      "promptSha256": "4f2ef60dab6ef2b2d1b6318f48d5596b07af46fe386acfe643b1857ac91413e2",
+      "logScores": [
+        -4.203422163089272,
+        -3.873476164357271,
+        -3.6237497056135908
+      ],
+      "probabilities": [
+        0.23944374918937683,
+        0.3330405652523041,
+        0.4275156557559967
+      ],
+      "promptTokens": 216,
+      "suffixTokenIds": [
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "heading",
+      "correct": false,
+      "elapsedMs": 578.253
+    }
+  ],
+  "finishedAt": "2026-11-13T09:59:36Z"
+}

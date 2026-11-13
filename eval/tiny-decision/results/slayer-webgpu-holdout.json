@@ -1,0 +1,761 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "ed38dceb413f799a484a5b22e75d74905b9caad731558a051bef24c39bd99316",
+  "export": {
+    "model": "SlayerLab/Slayer-149M-Decision-v1",
+    "revision": "ccfd7d3d91f3894beb1cd096b5d067333ba3d4c7",
+    "opset": 18,
+    "dtype": "float32",
+    "onnxruntime": "1.31.1",
+    "bytes": 654464302,
+    "sha256": "32af0caa1fb40d138ae092986e0fd41be4f120bea12bd44cb160a6231eb4b0ef",
+    "agreement": [
+      {
+        "sequence": 4,
+        "maxAbsError": 0.0000171661376953125
+      },
+      {
+        "sequence": 17,
+        "maxAbsError": 0.000011444091796875
+      },
+      {
+        "sequence": 53,
+        "maxAbsError": 0.00001239776611328125
+      }
+    ],
+    "note": "CPU agreement only; browser provider validation is separate. ONNX stores both tied embedding and transposed output projection, so export storage exceeds the unique model parameter count.",
+    "uniqueModelParameters": 149333081,
+    "onnxInitializerElements": 163488857
+  },
+  "startedAt": "2026-11-13T10:15:02.621Z",
+  "runtime": "ONNX Runtime Web 1.31.1 WebGPU requested",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36",
+  "adapter": {
+    "vendor": "amd",
+    "architecture": "rdna-3",
+    "device": "",
+    "description": ""
+  },
+  "loadMs": 12580.5,
+  "rows": [
+    {
+      "id": "sakura-title",
+      "template": "korean-structure",
+      "promptSha256": "993d06010f3aaf9bc6a72d5be26e686a07d10dea5e619e60979bdd81ee9af04b",
+      "chosenId": "t2",
+      "logScores": [
+        -1.8298859843052924,
+        -2.7479349616914988,
+        -2.426809150725603,
+        -2.9723046394065022,
+        -3.1480415323749185,
+        -4.855009637773037,
+        -4.986078321933746,
+        -4.775615721940994,
+        -3.5225744880735874
+      ],
+      "probabilities": [
+        0.3491373540851546,
+        0.13940960969978633,
+        0.19220110448692307,
+        0.11139102451777327,
+        0.09343909759265544,
+        0.016951253027532455,
+        0.014868919159645354,
+        0.018351946989725233,
+        0.0642496904408042
+      ],
+      "elapsedMs": 30106.200000047684,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 1350,
+      "split": "holdout",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "valid": true,
+      "correct": true
+    },
+    {
+      "id": "sakura-image",
+      "template": "korean-structure",
+      "promptSha256": "cffdbd88679c157f86473ac63aec51d07453e7ef57cbd92b6266a1a973a22173",
+      "chosenId": "i7",
+      "logScores": [
+        -1.5995965842157602,
+        -1.9446025961078703,
+        -2.16467199428007,
+        -2.9978921469300985,
+        -3.313761774916202,
+        -4.9936290215700865,
+        -5.310640721581876,
+        -5.451524659059942,
+        -5.30556832626462
+      ],
+      "probabilities": [
+        0.3561881322040266,
+        0.25225816833712056,
+        0.2024278734182367,
+        0.08798474874993199,
+        0.06415447594980331,
+        0.011958312164074517,
+        0.008709504626586317,
+        0.007564989639197379,
+        0.008753794911022787
+      ],
+      "elapsedMs": 33974.700000047684,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 1350,
+      "split": "holdout",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "valid": true,
+      "correct": false
+    },
+    {
+      "id": "sakura-description",
+      "error": "Error: Context budget exceeded; no truncation",
+      "elapsedMs": 0.19999980926513672,
+      "template": "korean-structure",
+      "split": "holdout",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "valid": false,
+      "correct": false
+    },
+    {
+      "id": "rezero-title",
+      "template": "korean-structure",
+      "promptSha256": "5cbeafd2e2b6b71d748629b74ed26914233c572a5646fe453f1cc0e91649edce",
+      "chosenId": "__none__",
+      "logScores": [
+        -1.535125340335071,
+        -2.4807037278078496,
+        -2.144728239160031,
+        -2.8133885972201824,
+        -3.1190065629780293,
+        -4.474089280702174,
+        -4.57343727350235,
+        -4.75368436332792,
+        -4.3844829853624105
+      ],
+      "probabilities": [
+        0.3824896664761483,
+        0.14857995779683583,
+        0.20790863706559187,
+        0.10653125116435874,
+        0.07847816353085983,
+        0.020241555551674333,
+        0.018327262474759236,
+        0.015304434364632184,
+        0.022139071575139606
+      ],
+      "elapsedMs": 31524.299999952316,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 1350,
+      "split": "holdout",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "valid": true,
+      "correct": false
+    },
+    {
+      "id": "rezero-image",
+      "template": "korean-structure",
+      "promptSha256": "1c690e2d61ac1e3b15fb911d3af4ddc97444c4d964db1716853eed5e7732676b",
+      "chosenId": "i5",
+      "logScores": [
+        -1.6829350478947163,
+        -2.498796682804823,
+        -2.3088518315926194,
+        -3.0655792336910963,
+        -3.0052600055933,
+        -4.542478039860725,
+        -4.6104544792324305,
+        -4.820695035159588,
+        -4.247162330895662
+      ],
+      "probabilities": [
+        0.3668861360474424,
+        0.16225836475791083,
+        0.19620004180719014,
+        0.09205694547485567,
+        0.0977806384140224,
+        0.02102071861248994,
+        0.019639289234380956,
+        0.015915469434406773,
+        0.028242396217301048
+      ],
+      "elapsedMs": 35917.10000014305,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 1350,
+      "split": "holdout",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "valid": true,
+      "correct": false
+    },
+    {
+      "id": "rezero-description",
+      "error": "Error: Context budget exceeded; no truncation",
+      "elapsedMs": 0,
+      "template": "korean-structure",
+      "split": "holdout",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "valid": false,
+      "correct": false
+    },
+    {
+      "id": "dungeon-title",
+      "template": "korean-structure",
+      "promptSha256": "b8454af83db9ded07db8832fad87ea2e30f2b529a28981828369d05449e7127d",
+      "chosenId": "t1",
+      "logScores": [
+        -1.5864257737994194,
+        -2.2458678926341236,
+        -2.542027512565255,
+        -3.4054453796707094,
+        -3.330170917324722,
+        -4.637358114123344,
+        -4.903519629500806,
+        -5.161625476554036,
+        -4.722254231572151
+      ],
+      "probabilities": [
+        0.41774309033531276,
+        0.21603156004129825,
+        0.16065591248187144,
+        0.06775152856001045,
+        0.0730483451021111,
+        0.019765426732446568,
+        0.015146549821213743,
+        0.011700913601966434,
+        0.01815667332376894
+      ],
+      "elapsedMs": 25870.400000095367,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 1350,
+      "split": "holdout",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "valid": true,
+      "correct": false
+    },
+    {
+      "id": "dungeon-image",
+      "error": "Error: Context budget exceeded; no truncation",
+      "elapsedMs": 0,
+      "template": "korean-structure",
+      "split": "holdout",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "valid": false,
+      "correct": false
+    },
+    {
+      "id": "dungeon-description",
+      "error": "Error: Context budget exceeded; no truncation",
+      "elapsedMs": 0.10000014305114746,
+      "template": "korean-structure",
+      "split": "holdout",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d1",
+        "d2"
+      ],
+      "valid": false,
+      "correct": false
+    },
+    {
+      "id": "dinner-title",
+      "template": "korean-structure",
+      "promptSha256": "37ca40a4be566282789126b88651ff451f22b0acc42ccdd392f52dab17e3748e",
+      "chosenId": "t7",
+      "logScores": [
+        -1.5812453450635076,
+        -2.040361972991377,
+        -2.0331046702340245,
+        -2.590356659144163,
+        -2.7271646140143275,
+        -4.440589087083936,
+        -4.488236641511321,
+        -4.600989342667162,
+        -3.5734828375279903
+      ],
+      "probabilities": [
+        0.3078903595321853,
+        0.19453792206812087,
+        0.19595487808669895,
+        0.11223921366946443,
+        0.09788804964245072,
+        0.01764407445415418,
+        0.01682309168340527,
+        0.015029271704214083,
+        0.04199313915930619
+      ],
+      "elapsedMs": 22188.699999809265,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 1350,
+      "split": "holdout",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "valid": true,
+      "correct": false
+    },
+    {
+      "id": "dinner-image",
+      "template": "korean-structure",
+      "promptSha256": "08639734103f96d4d37abb044c5c6720f407df0391bb080d492d97b921670541",
+      "chosenId": "__none__",
+      "logScores": [
+        -1.3250090535730124,
+        -2.4212429570034146,
+        -2.512720405124128,
+        -2.6575119150802493,
+        -2.8585931905545294,
+        -4.463579912669957,
+        -4.790934807620943,
+        -4.964334223419428,
+        -4.505055949091911
+      ],
+      "probabilities": [
+        0.44226945588992556,
+        0.14777419830787542,
+        0.13485605812439422,
+        0.11667782026680071,
+        0.09542448369747128,
+        0.019170036593366992,
+        0.013818296826613966,
+        0.011618447715495459,
+        0.01839120257805609
+      ],
+      "elapsedMs": 23819,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 1350,
+      "split": "holdout",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "i3",
+      "acceptedIds": [
+        "i1",
+        "i3"
+      ],
+      "valid": true,
+      "correct": false
+    },
+    {
+      "id": "dinner-description",
+      "template": "korean-structure",
+      "promptSha256": "5d207f76115a1ceb86dd5ca193da5b9e2a30bd41b3c359245a583f038fdbc2bf",
+      "chosenId": "__none__",
+      "logScores": [
+        -1.9998920941725373,
+        -1.4416829533874989
+      ],
+      "probabilities": [
+        0.3639619311572937,
+        0.6360380688427063
+      ],
+      "elapsedMs": 4913.099999904633,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 405,
+      "split": "holdout",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "valid": true,
+      "correct": false
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "template": "korean-structure",
+      "promptSha256": "865c36c18151a8c59f214f0a805c061a1364b90ce1a1320c3147106c45a73378",
+      "chosenId": "t1",
+      "logScores": [
+        -1.054263751488179,
+        -2.1431274386122823,
+        -2.2180216051638126
+      ],
+      "probabilities": [
+        0.6064615637717213,
+        0.20413420912962457,
+        0.18940422709865407
+      ],
+      "elapsedMs": 3911.100000143051,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 540,
+      "split": "holdout",
+      "scenario": [
+        "incomplete-search-shell"
+      ],
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "valid": true,
+      "correct": false
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "template": "korean-structure",
+      "promptSha256": "a061fb85173c70c3c537ed8eb647604da389013839b6cac13989db5734067d6d",
+      "chosenId": "i1",
+      "logScores": [
+        -1.001096123829484,
+        -1.9504245249554515
+      ],
+      "probabilities": [
+        0.7209800940090935,
+        0.27901990599090654
+      ],
+      "elapsedMs": 2711.2999999523163,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 405,
+      "split": "holdout",
+      "scenario": [
+        "incomplete-search-shell"
+      ],
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "valid": true,
+      "correct": false
+    },
+    {
+      "id": "dungeon-watcha-search-description",
+      "template": "korean-structure",
+      "promptSha256": "91206d03ddf5ba26572700a900d0bc1df43e1fca9aa19ae2776786e0084b15ba",
+      "chosenId": "d1",
+      "logScores": [
+        -1.8875217968598008,
+        -1.941208560951054
+      ],
+      "probabilities": [
+        0.5134184682084525,
+        0.4865815317915475
+      ],
+      "elapsedMs": 3074.2999999523163,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 405,
+      "split": "holdout",
+      "scenario": [
+        "incomplete-search-shell"
+      ],
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "valid": true,
+      "correct": false
+    },
+    {
+      "id": "dungeon-coupang-search-title",
+      "template": "korean-structure",
+      "promptSha256": "b6a2291ddfaef04e1abdec6844e85981e15ee1b372b07664e9bd10365b1118d7",
+      "chosenId": "__none__",
+      "logScores": [
+        -0.9338361844420433,
+        -2.36552725546062
+      ],
+      "probabilities": [
+        0.8071646674779362,
+        0.19283533252206375
+      ],
+      "elapsedMs": 2470.2999999523163,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 405,
+      "split": "holdout",
+      "scenario": [
+        "unsupported-browser-or-search"
+      ],
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true
+    },
+    {
+      "id": "dungeon-coupang-search-image",
+      "template": "korean-structure",
+      "promptSha256": "cfd3e4891478da54520676e263ab3d445ffd9fb84036528c6b8e426e72b00111",
+      "chosenId": "__none__",
+      "logScores": [
+        -0.97847062908113
+      ],
+      "probabilities": [
+        1
+      ],
+      "elapsedMs": 1583.2000000476837,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 270,
+      "split": "holdout",
+      "scenario": [
+        "unsupported-browser-or-search"
+      ],
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true
+    },
+    {
+      "id": "dungeon-coupang-search-description",
+      "template": "korean-structure",
+      "promptSha256": "5086f9a754d06aa2f3250764b17cc3ec3b8e061a63aa2cd7e4bc2a27a7652b06",
+      "chosenId": "d1",
+      "logScores": [
+        -1.26585603505373,
+        -2.401608258485794,
+        -2.1041391463950276
+      ],
+      "probabilities": [
+        0.5702448116387653,
+        0.18315147437600096,
+        0.24660371398523384
+      ],
+      "elapsedMs": 3821.5,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 540,
+      "split": "holdout",
+      "scenario": [
+        "unsupported-browser-or-search"
+      ],
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "valid": true,
+      "correct": false
+    }
+  ],
+  "finishedAt": "2026-11-13T10:19:03.284Z",
+  "nativeComparison": [
+    {
+      "id": "sakura-title",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.000036347657442092896
+    },
+    {
+      "id": "sakura-image",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.000057095661759376526
+    },
+    {
+      "id": "sakura-description",
+      "template": "korean-structure",
+      "bothErrors": true,
+      "sameChoice": false,
+      "maxLogScoreError": null
+    },
+    {
+      "id": "rezero-title",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.000035091303288936615
+    },
+    {
+      "id": "rezero-image",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.000017743557691574097
+    },
+    {
+      "id": "rezero-description",
+      "template": "korean-structure",
+      "bothErrors": true,
+      "sameChoice": false,
+      "maxLogScoreError": null
+    },
+    {
+      "id": "dungeon-title",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.000037239864468574524
+    },
+    {
+      "id": "dungeon-image",
+      "template": "korean-structure",
+      "bothErrors": true,
+      "sameChoice": false,
+      "maxLogScoreError": null
+    },
+    {
+      "id": "dungeon-description",
+      "template": "korean-structure",
+      "bothErrors": true,
+      "sameChoice": false,
+      "maxLogScoreError": null
+    },
+    {
+      "id": "dinner-title",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.00006138347089290619
+    },
+    {
+      "id": "dinner-image",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.000027496367692947388
+    },
+    {
+      "id": "dinner-description",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.00002317875623703003
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.000018716789782047272
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.000016396865248680115
+    },
+    {
+      "id": "dungeon-watcha-search-description",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.00000945432111620903
+    },
+    {
+      "id": "dungeon-coupang-search-title",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.000008432194590568542
+    },
+    {
+      "id": "dungeon-coupang-search-image",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.00003402773290872574
+    },
+    {
+      "id": "dungeon-coupang-search-description",
+      "template": "korean-structure",
+      "bothErrors": false,
+      "sameChoice": true,
+      "maxLogScoreError": 0.000014266930520534515
+    }
+  ],
+  "summary": {
+    "attempted": 18,
+    "valid": 14,
+    "correct": 3,
+    "accuracy": 0.16666666666666666,
+    "accepted": 9,
+    "acceptedPrecision": 0.1111111111111111,
+    "falseSelections": 8,
+    "correctAbstentions": 2,
+    "errors": 4,
+    "p50Ms": 3821.5,
+    "p95Ms": 33974.700000047684
+  },
+  "successfulLatency": {
+    "attempted": 14,
+    "valid": 14,
+    "correct": 3,
+    "accuracy": 0.21428571428571427,
+    "accepted": 9,
+    "acceptedPrecision": 0.1111111111111111,
+    "falseSelections": 8,
+    "correctAbstentions": 2,
+    "errors": 0,
+    "p50Ms": 4913.099999904633,
+    "p95Ms": 33974.700000047684
+  },
+  "gpuQueueSubmissionsMeasuredDuringRows": 12420,
+  "postprocessingRecovery": {
+    "originalError": "Error: No native reference for sakura-description/undefined",
+    "reason": "Rejected context rows omitted template in the first harness version. Restored template and labels from unique original job IDs after all inference completed; no predictions or elapsed times were changed."
+  },
+  "note": "Custom float32 ONNX Runtime 1.31.1 mixed WebGPU/CPU run. GPU queue calls are measured during each completed row. This full-prefix graph repeats inference for suffix branches and is not an optimized speed comparison with the CPU KV-trie runner. Errors remain in the denominator."
+}

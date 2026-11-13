@@ -1,0 +1,109 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "144260698a581bbf227e4b72321e25c3dfb3b27fd1bdb06c43e03775a7afedcb",
+  "export": {
+    "model": "SlayerLab/Slayer-149M-Decision-v1",
+    "revision": "ccfd7d3d91f3894beb1cd096b5d067333ba3d4c7",
+    "opset": 18,
+    "dtype": "float32",
+    "onnxruntime": "1.31.1",
+    "bytes": 654464302,
+    "sha256": "32af0caa1fb40d138ae092986e0fd41be4f120bea12bd44cb160a6231eb4b0ef",
+    "agreement": [
+      {
+        "sequence": 4,
+        "maxAbsError": 0.0000171661376953125
+      },
+      {
+        "sequence": 17,
+        "maxAbsError": 0.000011444091796875
+      },
+      {
+        "sequence": 53,
+        "maxAbsError": 0.00001239776611328125
+      }
+    ],
+    "note": "CPU agreement only; browser provider validation is separate."
+  },
+  "startedAt": "2026-11-13T10:06:50.388Z",
+  "runtime": "ONNX Runtime Web 1.31.1 WebGPU requested",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36",
+  "adapter": {
+    "vendor": "amd",
+    "architecture": "rdna-3",
+    "device": "",
+    "description": ""
+  },
+  "loadMs": 15348.799999952316,
+  "rows": [
+    {
+      "id": "parity-english",
+      "template": null,
+      "promptSha256": "a0566dd0038a7ff2c4fb694ed1908c081667aac4492b7db810e0f4929dc844a2",
+      "chosenId": "navigation",
+      "logScores": [
+        -4.212717640664778,
+        -4.054112022917252,
+        -4.309148553875275
+      ],
+      "probabilities": [
+        0.32468077258516564,
+        0.3804855039353804,
+        0.2948337234794541
+      ],
+      "elapsedMs": 2391.2999999523163,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 540
+    },
+    {
+      "id": "parity-korean",
+      "template": null,
+      "promptSha256": "4f2ef60dab6ef2b2d1b6318f48d5596b07af46fe386acfe643b1857ac91413e2",
+      "chosenId": "none",
+      "logScores": [
+        -4.2034065471816575,
+        -3.873462100047618,
+        -3.6237310005817562
+      ],
+      "probabilities": [
+        0.2394435391426636,
+        0.33303982968308665,
+        0.4275166311742498
+      ],
+      "elapsedMs": 1369,
+      "gpuProfileEvents": 0,
+      "gpuQueueSubmissions": 540
+    }
+  ],
+  "gpuProfileEventCount": 0,
+  "gpuKernelTypes": [],
+  "gpuProfileSample": [],
+  "gpuCalls": {
+    "queueSubmissions": 1401,
+    "computePipelines": 45,
+    "computePipelineLabels": [
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null,
+      null
+    ]
+  },
+  "note": "Custom float32 ONNX export. Intercepted WebGPU queue submissions and compute pipeline creation establish GPU use. ORT warns some nodes run CPU; this is mixed WebGPU/CPU. ORT 1.31 native WebGPU did not emit legacy JSEP profiling callbacks. This graph repeats the prefix for each second suffix token; CPU evaluation uses an exact KV trie. Timings are not architecture-equivalent.",
+  "finishedAt": "2026-11-13T10:07:11.558Z",
+  "nativeComparison": [
+    {
+      "id": "parity-english",
+      "sameChoice": true,
+      "maxLogScoreError": 0.000007509981514886022
+    },
+    {
+      "id": "parity-korean",
+      "sameChoice": true,
+      "maxLogScoreError": 0.00001870503183454275
+    }
+  ]
+}
