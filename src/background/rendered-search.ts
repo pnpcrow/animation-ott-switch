@@ -1,9 +1,12 @@
 import type { Availability, PageTitle, ProviderId } from "../core/types";
 import type { ProbeReply, ProbeRequest } from "../core/probe";
+import type { SearchAction } from "../providers/search-actions";
 import {
   canonicalizeProviderUrl,
   cleanSearchTitle,
   cleanSearchPage,
+  normalizeTitle,
+  titleVariants,
   detectProvider,
   providers,
   providerTitleId,
@@ -47,7 +50,9 @@ interface OwnedTab {
   token: string;
   relinquished: boolean;
   expectedUrl: string;
+  previousUrl?: string;
   authRedirect?: string;
+  actionNavigation?: { from: string; deadline: number };
 }
 
 /** Normal site navigation uses the user's existing login session; no cookies or tokens are read. */
@@ -81,6 +86,7 @@ export async function resolveRendered(
         return;
       }
       if (id !== owned.id) return;
+      if (acceptActionDestination(owned, change.url, provider)) return;
       // A tab that leaves the requested search/detail route is no longer ours to navigate or close.
       if (!sameDestination(change.url, owned.expectedUrl, provider)) {
         if (!owned.relinquished && isAuthRedirect(change.url, provider))
@@ -145,9 +151,27 @@ export async function resolveRendered(
           search.candidates || [],
           search.complete === true,
         );
-        if (last.status === "available" && last.url)
+        const wanted = new Set(
+          [page.title, ...page.aliases]
+            .flatMap(titleVariants)
+            .map(normalizeTitle),
+        );
+        const actions = (search.actions || []).filter((action) =>
+          titleVariants(action.title).some((title) =>
+            wanted.has(normalizeTitle(title)),
+          ),
+        );
+        if (last.status === "available" && last.url && !actions.length)
           return await verifyDetail(owned, provider, page, last.url);
         if (last.status === "ambiguous") return last;
+        if (actions.length) {
+          if (actions.length !== 1 || last.status === "available")
+            return unknown(
+              provider,
+              "같은 제목의 검색 카드가 여러 개입니다. 공식 검색에서 작품을 선택해 주세요.",
+            );
+          return await activateAndVerify(owned, provider, page, actions[0]);
+        }
       }
       return last;
     } catch (error) {
@@ -170,11 +194,16 @@ export async function resolveRendered(
               tab.status === "loading" &&
               !!tab.pendingUrl &&
               allowed(tab.pendingUrl);
+            const ownedPendingPrevious =
+              tab.url === owned.previousUrl &&
+              tab.status === "loading" &&
+              !!tab.pendingUrl &&
+              allowed(tab.pendingUrl);
             if (
               !owned.relinquished &&
               !tab.active &&
               tab.url &&
-              (allowed(tab.url) || ownedPendingBlank) &&
+              (allowed(tab.url) || ownedPendingBlank || ownedPendingPrevious) &&
               (!tab.pendingUrl || allowed(tab.pendingUrl))
             )
               await chrome.tabs.remove(owned.id);
@@ -221,8 +250,32 @@ function sameDestination(
   );
 }
 
+function acceptActionDestination(
+  tab: OwnedTab,
+  url: string,
+  provider: ProviderId,
+): boolean {
+  if (
+    !tab.relinquished &&
+    tab.actionNavigation &&
+    Date.now() < tab.actionNavigation.deadline &&
+    sameDestination(tab.expectedUrl, tab.actionNavigation.from, provider) &&
+    safeProviderUrl(provider, url)
+  ) {
+    tab.previousUrl = tab.expectedUrl;
+    tab.expectedUrl = url;
+    tab.actionNavigation = undefined;
+    return true;
+  }
+  return false;
+}
+
 async function ensureOwned(tab: OwnedTab, provider: ProviderId) {
   const current = await chrome.tabs.get(tab.id);
+  if (!current.active && !tab.relinquished && current.url)
+    acceptActionDestination(tab, current.url, provider);
+  if (!current.active && !tab.relinquished && current.pendingUrl)
+    acceptActionDestination(tab, current.pendingUrl, provider);
   if (!tab.relinquished && !current.active) {
     const auth = [current.url, current.pendingUrl].find(
       (url) => url && isAuthRedirect(url, provider),
@@ -250,6 +303,7 @@ async function ensureOwned(tab: OwnedTab, provider: ProviderId) {
 
 async function navigate(tab: OwnedTab, url: string, provider: ProviderId) {
   await ensureOwned(tab, provider);
+  tab.previousUrl = tab.expectedUrl;
   tab.expectedUrl = url;
   await chrome.tabs.update(tab.id, { url, active: false });
 }
@@ -257,7 +311,7 @@ async function navigate(tab: OwnedTab, url: string, provider: ProviderId) {
 async function collect(
   tab: OwnedTab,
   provider: ProviderId,
-  kind: ProbeRequest["kind"],
+  kind: "search" | "detail",
   timeout: number,
 ): Promise<ProbeReply> {
   const deadline = Date.now() + timeout;
@@ -293,6 +347,7 @@ async function collect(
       const signature = JSON.stringify([
         next.detail,
         next.candidates,
+        next.actions,
         next.complete,
         next.blocked,
         next.loading,
@@ -306,7 +361,10 @@ async function collect(
         next.ready &&
         !next.loading &&
         Date.now() - stableSince >= STABLE_MS &&
-        (next.detail || next.candidates?.length || next.complete)
+        (next.detail ||
+          next.candidates?.length ||
+          next.actions?.length ||
+          next.complete)
       )
         return next;
     }
@@ -317,10 +375,57 @@ async function collect(
     return {
       ...last,
       candidates: [],
+      actions: [],
       complete: false,
       reason: "검색 결과를 끝까지 확인하지 못했습니다.",
     };
   return { ...last, detail: null };
+}
+
+async function activateAndVerify(
+  tab: OwnedTab,
+  provider: ProviderId,
+  page: PageTitle,
+  action: SearchAction,
+): Promise<Availability> {
+  await ensureOwned(tab, provider);
+  tab.actionNavigation = {
+    from: tab.expectedUrl,
+    deadline: Date.now() + DETAIL_TIMEOUT,
+  };
+  const deadline = tab.actionNavigation.deadline;
+  try {
+    let reply: ProbeReply | undefined;
+    try {
+      reply = await chrome.tabs.sendMessage(
+        tab.id,
+        {
+          channel: "ott-switch-probe",
+          token: tab.token,
+          provider,
+          kind: "activate-search",
+          action,
+        } satisfies ProbeRequest,
+        { frameId: 0 },
+      );
+    } catch {
+      /* A full document navigation can close the message port. */
+    }
+    if (reply && (reply.token !== tab.token || reply.activated !== true))
+      return unknown(
+        provider,
+        "검색 결과가 바뀌었거나 탭이 선택되어 작품 확인을 중단했습니다.",
+      );
+    while (Date.now() < deadline) {
+      await ensureOwned(tab, provider);
+      if (!tab.actionNavigation && safeProviderUrl(provider, tab.expectedUrl))
+        return await verifyDetail(tab, provider, page, tab.expectedUrl);
+      await pause();
+    }
+    return unknown(provider, "검색 카드의 작품 주소를 확인하지 못했습니다.");
+  } finally {
+    tab.actionNavigation = undefined;
+  }
 }
 
 async function verifyDetail(

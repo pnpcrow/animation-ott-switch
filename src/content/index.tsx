@@ -5,6 +5,7 @@ import { Overlay } from "./Overlay";
 import { isPlaying } from "./playback";
 import styles from "./styles.css";
 import { installProbe } from "./probe";
+import { syncSearchInput } from "../providers/search-input";
 
 const host = document.createElement("div");
 host.id = "ott-switch-extension";
@@ -35,6 +36,8 @@ function refresh() {
     stop();
     return;
   }
+  const provider = detectProvider(location.href);
+  if (provider) syncSearchInput(document, provider, location.href);
   if (location.href !== lastUrl) {
     const sameWork =
       detectProvider(lastUrl) === detectProvider(location.href) &&

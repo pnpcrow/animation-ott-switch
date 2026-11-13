@@ -2,6 +2,8 @@ import type { ProbeReply, ProbeRequest } from "../core/probe";
 import { detectProvider } from "../providers/identity";
 import { extractPage } from "../providers/extract";
 import { readSearchResults } from "../providers/search-results";
+import { activateSearchAction } from "../providers/search-actions";
+import { syncSearchInput } from "../providers/search-input";
 
 // Only the extension service worker may ask an isolated content script to inspect this DOM.
 export function installProbe(onProbe: () => void) {
@@ -16,6 +18,8 @@ export function installProbe(onProbe: () => void) {
       )
         return;
       onProbe();
+      if (message.kind === "search")
+        syncSearchInput(document, message.provider, location.href);
       const state: ProbeReply = {
         token: message.token,
         url: location.href,
@@ -28,7 +32,19 @@ export function installProbe(onProbe: () => void) {
         );
       else if (message.kind === "detail")
         state.detail = extractPage(document, location.href);
-      else return;
+      else if (message.kind === "activate-search") {
+        // The worker checks chrome.tabs activity and retained ownership immediately
+        // before this request. Page Visibility does not reliably identify active tabs.
+        state.activated = !!(
+          message.action &&
+          activateSearchAction(
+            document,
+            message.provider,
+            location.href,
+            message.action,
+          )
+        );
+      } else return;
       reply(state);
     },
   );

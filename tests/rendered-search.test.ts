@@ -341,3 +341,182 @@ describe("rendered search tab ownership and verification", () => {
     expect(create).not.toHaveBeenCalled();
   });
 });
+
+describe("Wavve search card activation", () => {
+  const source: PageTitle = {
+    ...page,
+    title: "어느 마녀가 죽을 때까지",
+    year: 2025,
+    url: "https://laftel.net/item/42783",
+  };
+  const wavveUrl =
+    "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season";
+  const action = {
+    key: "same-search-and-poster-snapshot",
+    title: source.title,
+  };
+  const wavveDetail: PageTitle = {
+    ...source,
+    provider: "wavve",
+    url: wavveUrl,
+  };
+  const searchReply = (tab: TestTab, request: ProbeRequest): ProbeReply => ({
+    token: request.token,
+    url: tab.url,
+    ready: true,
+    complete: false,
+    candidates: [],
+    actions: [action],
+  });
+
+  it("activates the sole matching card and verifies the resulting official program page", async () => {
+    probe = (tab, request) => {
+      if (request.kind === "search") return searchReply(tab, request);
+      if (request.kind === "activate-search") {
+        changeUrl(tab, wavveUrl);
+        return {
+          token: request.token,
+          url: tab.url,
+          ready: true,
+          activated: true,
+        };
+      }
+      return {
+        token: request.token,
+        url: tab.url,
+        ready: true,
+        detail: wavveDetail,
+      };
+    };
+    expect(await finish(resolveRendered("wavve", source))).toMatchObject({
+      provider: "wavve",
+      status: "available",
+      url: wavveUrl,
+      title: source.title,
+    });
+    const clicks = sendMessage.mock.calls.filter(
+      ([, request]) => request.kind === "activate-search",
+    );
+    expect(clicks).toHaveLength(1);
+    expect(clicks[0]).toEqual([
+      1,
+      expect.objectContaining({ provider: "wavve", action }),
+      { frameId: 0 },
+    ]);
+    expect(
+      sendMessage.mock.calls.some(([, request]) => request.kind === "detail"),
+    ).toBe(true);
+    expect(update.mock.calls.some(([, changes]) => !!changes.url)).toBe(false);
+    expect(remove).toHaveBeenCalledExactlyOnceWith(1);
+  });
+
+  it("rejects a matching card whose resulting detail title belongs to another work", async () => {
+    probe = (tab, request) => {
+      if (request.kind === "search") return searchReply(tab, request);
+      if (request.kind === "activate-search") {
+        changeUrl(tab, wavveUrl);
+        return {
+          token: request.token,
+          url: tab.url,
+          ready: true,
+          activated: true,
+        };
+      }
+      return {
+        token: request.token,
+        url: tab.url,
+        ready: true,
+        detail: { ...wavveDetail, title: "다른 마녀 이야기" },
+      };
+    };
+    const result = await finish(resolveRendered("wavve", source));
+    expect(result.status).toBe("unknown");
+    expect(result.url).toBeUndefined();
+    expect(result.reason).toContain("제목·연도");
+    expect(remove).toHaveBeenCalledExactlyOnceWith(1);
+  });
+
+  it("closes its old search page when an activated detail navigation remains pending until timeout", async () => {
+    let oldSearchUrl = "";
+    probe = (tab, request) => {
+      if (request.kind === "search") return searchReply(tab, request);
+      if (request.kind === "activate-search") {
+        oldSearchUrl = tab.url;
+        tab.pendingUrl = wavveUrl;
+        tab.status = "loading";
+        return {
+          token: request.token,
+          url: tab.url,
+          ready: true,
+          activated: true,
+        };
+      }
+      // The requested navigation never commits; the old document can still reply.
+      expect(tab.url).toBe(oldSearchUrl);
+      expect(tab.pendingUrl).toBe(wavveUrl);
+      return { token: request.token, url: tab.url, ready: false, detail: null };
+    };
+    const result = await finish(resolveRendered("wavve", source));
+    expect(oldSearchUrl).toContain("/search?searchWord=");
+    expect(result.status).toBe("unknown");
+    expect(result.url).toBeUndefined();
+    expect(
+      sendMessage.mock.calls.some(([, request]) => request.kind === "detail"),
+    ).toBe(true);
+    expect(remove).toHaveBeenCalledExactlyOnceWith(1);
+    expect(tabs.size).toBe(0);
+  });
+
+  it("does not activate either of two matching cards", async () => {
+    probe = (tab, request) => ({
+      ...searchReply(tab, request),
+      actions: [action, { ...action, key: "another-version" }],
+    });
+    const result = await finish(resolveRendered("wavve", source));
+    expect(result.status).toBe("unknown");
+    expect(result.reason).toContain("여러 개");
+    expect(
+      sendMessage.mock.calls.every(([, request]) => request.kind === "search"),
+    ).toBe(true);
+    expect(remove).toHaveBeenCalledExactlyOnceWith(1);
+  });
+
+  it("stops before detail probing when the card no longer accepts activation", async () => {
+    probe = (tab, request) =>
+      request.kind === "search"
+        ? searchReply(tab, request)
+        : { token: request.token, url: tab.url, ready: true, activated: false };
+    const result = await finish(resolveRendered("wavve", source));
+    expect(result.status).toBe("unknown");
+    expect(result.reason).toContain("검색 결과가 바뀌었거나");
+    expect(
+      sendMessage.mock.calls.filter(
+        ([, request]) => request.kind === "activate-search",
+      ),
+    ).toHaveLength(1);
+    expect(
+      sendMessage.mock.calls.some(([, request]) => request.kind === "detail"),
+    ).toBe(false);
+    expect(remove).toHaveBeenCalledExactlyOnceWith(1);
+  });
+
+  it("does not click or close a helper activated just before card activation", async () => {
+    let searchReplies = 0;
+    probe = (tab, request) => {
+      if (request.kind === "search" && ++searchReplies === 4) {
+        activate(tab);
+        tab.active = false;
+      }
+      return searchReply(tab, request);
+    };
+    const result = await finish(resolveRendered("wavve", source));
+    expect(searchReplies).toBe(4);
+    expect(result.status).toBe("unknown");
+    expect(result.reason).toContain("중단");
+    expect(
+      sendMessage.mock.calls.every(([, request]) => request.kind === "search"),
+    ).toBe(true);
+    expect(remove).not.toHaveBeenCalled();
+    expect(tabs.get(1)?.active).toBe(false);
+  });
+});

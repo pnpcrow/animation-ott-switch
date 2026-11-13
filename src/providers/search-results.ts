@@ -1,5 +1,6 @@
 import type { ProviderId } from "../core/types";
 import type { SearchCandidate } from "./search";
+import { readSearchActions, type SearchAction } from "./search-actions";
 import {
   canonicalizeProviderUrl,
   cleanPageTitle,
@@ -11,6 +12,7 @@ import {
 
 export interface RenderedSearchResults {
   candidates: SearchCandidate[];
+  actions?: SearchAction[];
   /** Only explicit no-result evidence is exhaustive; a visible subset is not. */
   complete: boolean;
   loading?: boolean;
@@ -383,10 +385,12 @@ export function readSearchResults(
   const candidates = [...deduplicated.values()].map(
     ({ score: _score, ...candidate }) => candidate,
   );
+  const actions = readSearchActions(document, provider, pageUrl);
   return {
     candidates,
+    ...(actions.length ? { actions } : {}),
     complete: false,
-    ...(candidates.length
+    ...(candidates.length || actions.length
       ? {}
       : {
           reason:
