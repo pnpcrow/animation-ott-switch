@@ -161,7 +161,7 @@ describe("rendered official search pages", () => {
   it("treats explicit empty results as exhaustive but ignores hidden empty placeholders", () => {
     expect(
       search(
-        "apple",
+        "watcha",
         '<main><p class="search-page__error-message">검색 결과가 없습니다.</p><a href="/kr/show/recommend/umc.cmc.123">추천작</a></main>',
       ),
     ).toMatchObject({ candidates: [], complete: true });

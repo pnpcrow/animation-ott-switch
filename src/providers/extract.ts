@@ -15,6 +15,12 @@ import {
 function text(value: unknown): string {
   return typeof value === "string" ? value.trim() : "";
 }
+function descriptionText(value: unknown): string {
+  const result = text(value);
+  return /^\{\s*(?:줄거리|소개|설명|synopsis|description)\s*\}$/i.test(result)
+    ? ""
+    : result;
+}
 function meta(document: Document, name: string): string {
   const nodes = [
     ...document.querySelectorAll<HTMLMetaElement>(
@@ -152,6 +158,85 @@ function laftelModal(
   );
 }
 
+function extractAniplus(
+  document: Document,
+  value: string,
+  url: string,
+): PageTitle | null {
+  // Detail is a layer over the previous search document. Its background h1 and
+  // static home metadata remain in the DOM even after the /items route opens.
+  const heroes = [
+    ...document.querySelectorAll(".detail_layer_pop .baner.live_detail"),
+  ].filter((node) => isVisibleModal(node, document));
+  if (heroes.length !== 1) return null;
+  const hero = heroes[0];
+  const heading = hero.querySelector(".float_right > h1");
+  if (!heading || !isVisibleModal(heading, document)) return null;
+  const rawTitle = [...heading.childNodes]
+    .filter((node) => node.nodeType === 3)
+    .map((node) => node.textContent ?? "")
+    .join(" ");
+  const title = cleanPageTitle(rawTitle, "aniplus", "title");
+  if (!isTitle(title)) return null;
+  const currentMeta = (name: string) =>
+    [
+      ...document.querySelectorAll<HTMLMetaElement>(
+        `meta[data-rh="true"][property="${name}"], meta[data-rh="true"][name="${name}"]`,
+      ),
+    ]
+      .at(-1)
+      ?.getAttribute("content")
+      ?.trim() ?? "";
+  const canonical = document
+    .querySelector('link[rel="canonical"]')
+    ?.getAttribute("href");
+  for (const declared of [canonical, currentMeta("og:url")]) {
+    if (!declared) continue;
+    try {
+      const target = declaredPageUrl(declared, value);
+      if (
+        isDetailUrl(target) &&
+        (detectProvider(target) !== "aniplus" ||
+          providerTitleId(target) !== providerTitleId(value))
+      )
+        return null;
+    } catch {
+      /* Ignore malformed optional metadata. */
+    }
+  }
+  const declaredTitle = currentMeta("og:title");
+  if (declaredTitle) {
+    const comparable = cleanPageTitle(
+      declaredTitle.replace(/\s+애니플러스$/, ""),
+      "aniplus",
+      "metadata",
+      [title],
+    );
+    if (normalizeTitle(comparable) !== normalizeTitle(title)) return null;
+  }
+  const aliases = [...heading.querySelectorAll(":scope > span")]
+    .map((node) => cleanTitle(text(node.textContent)))
+    .filter((alias) => isTitle(alias) && alias !== title);
+  const summary = hero.querySelector(".float_right .summary_text");
+  const copy = summary?.cloneNode(true) as Element | undefined;
+  copy
+    ?.querySelectorAll("h2, button, script, style")
+    .forEach((node) => node.remove());
+  copy?.querySelectorAll("br").forEach((node) => node.replaceWith("\n"));
+  const image = hero.querySelector(".float_left img");
+  return {
+    provider: "aniplus",
+    url,
+    title,
+    aliases: [...new Set(aliases)].slice(0, 12),
+    description: text(copy?.textContent).slice(0, 12000),
+    imageUrl: safeImageUrl(
+      image?.getAttribute("src") ?? currentMeta("og:image"),
+      value,
+    ),
+  };
+}
+
 export function extractPage(
   document: Document,
   value: string,
@@ -159,6 +244,7 @@ export function extractPage(
   const provider = detectProvider(value),
     url = canonicalizeProviderUrl(value);
   if (!provider || !url || !isDetailUrl(value)) return null;
+  if (provider === "aniplus") return extractAniplus(document, value, url);
   const current = new URL(value);
   const netflixOverlay =
     provider === "netflix" && current.searchParams.has("jbv");
@@ -201,11 +287,40 @@ export function extractPage(
     ) ?? works[0];
   const wavveHero =
     provider === "wavve" ? root.querySelector(".video-wrap") : null;
+  const tvingHeroes =
+    provider === "tving"
+      ? [...root.querySelectorAll("section")].filter(
+          (section) =>
+            isVisibleModal(section, document) &&
+            !!section.querySelector(
+              '[data-testid="content-detail-cta-button"]',
+            ) &&
+            !!section.querySelector("h1 img[alt]"),
+        )
+      : [];
+  // The program route's schema, title tag and screen-reader heading include
+  // the selected episode number. Its visible title image names the series.
+  const tvingLogos = tvingHeroes
+    .flatMap((section) => [...section.querySelectorAll("h1 img[alt]")])
+    .filter((node) => isVisibleModal(node, document));
+  const tvingTitles = [
+    ...new Set(
+      tvingLogos
+        .map((node) => cleanTitle(text(node.getAttribute("alt"))))
+        .filter(isTitle),
+    ),
+  ];
+  if (tvingTitles.length > 1) return null;
+  const tvingLogo = tvingLogos.find((node) =>
+    isTitle(cleanTitle(text(node.getAttribute("alt")))),
+  );
+  const tvingHero = tvingLogo?.closest("section");
   const wavveLogo = wavveHero?.querySelector(
     ".video-detail-area h1.logo-box img[alt]",
   );
   const logo =
     wavveLogo ||
+    tvingLogo ||
     root.querySelector(
       'img.previewModal--player-titleTreatment-logo, .previewModal--player-titleTreatment-logo img, img.title-logo, [data-uia="title-logo"]',
     );
@@ -235,7 +350,7 @@ export function extractPage(
     ...(modal ? [] : [text(work?.name)]),
     text(logo?.getAttribute("alt")),
   ];
-  if (wavveLogo) sourceTitles.reverse();
+  if (wavveLogo || tvingLogo) sourceTitles.reverse();
   const authoritative = sourceTitles
     .map((title) => cleanPageTitle(title, provider, "title", visualTitles))
     .filter(isTitle);
@@ -260,6 +375,26 @@ export function extractPage(
     : [authoritative[0] ?? "", heading ?? "", ...metadata];
   const title = choices.find(isTitle);
   if (!title) return null;
+  if (tvingLogo) {
+    const agrees = (candidate: string) => {
+      const direct = cleanPageTitle(candidate, "tving", "metadata", [title]);
+      if (normalizeTitle(direct) === normalizeTitle(title)) return true;
+      // Remove an episode wrapper only to corroborate the independently visible
+      // logo on a program URL, never from arbitrary titles or movie names.
+      return (
+        /^P\d+$/.test(providerTitleId(value) ?? "") &&
+        normalizeTitle(
+          cleanTitle(direct.replace(/\s+(?:제\s*)?\d+\s*(?:화|회)$/, "")),
+        ) === normalizeTitle(title)
+      );
+    };
+    if (
+      [text(work?.name), metadata[0] ?? ""]
+        .filter(Boolean)
+        .some((name) => !agrees(name))
+    )
+      return null;
+  }
   if (
     wavveLogo &&
     metadata[0] &&
@@ -318,19 +453,24 @@ export function extractPage(
   const description = (
     modal
       ? text(modalDescription)
-      : text(wavveSynopsis?.getAttribute("aria-label")) ||
-        text(wavveSynopsis?.textContent) ||
-        text(work?.description) ||
-        meta(document, "og:description") ||
-        text(
+      : descriptionText(wavveSynopsis?.getAttribute("aria-label")) ||
+        descriptionText(wavveSynopsis?.textContent) ||
+        descriptionText(work?.description) ||
+        descriptionText(meta(document, "og:description")) ||
+        descriptionText(
           root.querySelector(
             '[data-uia="title-info-synopsis"], [data-testid="description"], .synopsis',
           )?.textContent,
         ) ||
-        meta(document, "description")
+        descriptionText(meta(document, "description"))
   ).slice(0, 12000);
   const date =
     text(work?.datePublished ?? work?.startDate) ||
+    (tvingHero
+      ? ([...tvingHero.querySelectorAll(".tag_detail .tag")]
+          .map((node) => text(node.textContent))
+          .find((value) => /^\d{4}$/.test(value)) ?? "")
+      : "") ||
     (netflixOverlay
       ? text(
           root.querySelector(

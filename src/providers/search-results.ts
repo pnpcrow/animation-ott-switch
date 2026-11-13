@@ -159,7 +159,13 @@ function candidateTitle(
   provider: ProviderId,
 ): TitleEvidence | null {
   const card = anchor.closest(CARD_SELECTOR);
-  const explicit = [...anchor.querySelectorAll(TITLE_SELECTOR)]
+  // TVING's real work label is a paragraph; image alt adds an accessibility
+  // suffix ("포스터") and the card also contains separate subtitle badges.
+  const titleSelector =
+    provider === "tving"
+      ? `${TITLE_SELECTOR}, .vertical-item-poster-text-center`
+      : TITLE_SELECTOR;
+  const explicit = [...anchor.querySelectorAll(titleSelector)]
     .map((node) => meaningful(node.textContent ?? ""))
     .filter(Boolean);
   const images = [...anchor.querySelectorAll("img[alt]")]
@@ -167,7 +173,7 @@ function candidateTitle(
     .filter(Boolean);
   const parentTitles =
     card && card !== anchor
-      ? [...card.querySelectorAll(TITLE_SELECTOR)]
+      ? [...card.querySelectorAll(titleSelector)]
           .filter((node) => !node.closest(EXCLUDED_SELECTOR))
           .map((node) => meaningful(node.textContent ?? ""))
           .filter(Boolean)
@@ -358,8 +364,13 @@ export function readSearchResults(
   if (empty)
     return {
       candidates: [],
-      complete: true,
-      reason: "공식 검색 화면에 검색 결과 없음이 표시되었습니다.",
+      // Apple TV's web search can omit shows whose public KR catalog detail
+      // pages still exist. Its empty state is not an exhaustive catalog check.
+      complete: provider !== "apple",
+      reason:
+        provider === "apple"
+          ? "Apple TV 검색에서 찾지 못했습니다. 전체 작품 카탈로그의 제공 여부는 상세 페이지에서 확인해 주세요."
+          : "공식 검색 화면에 검색 결과 없음이 표시되었습니다.",
     };
 
   const deduplicated = new Map<string, SearchCandidate & { score: number }>();

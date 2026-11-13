@@ -71,7 +71,7 @@ function inExcludedCollection(section: Element): boolean {
   return false;
 }
 
-function collectActions(
+function collectWavveActions(
   document: Document,
   provider: ProviderId,
   pageUrl: string,
@@ -144,6 +144,97 @@ function collectActions(
     }
   }
   return found;
+}
+
+function collectAniplusActions(
+  document: Document,
+  pageUrl: string,
+): ActionElement[] {
+  const url = new URL(pageUrl);
+  const query = url.searchParams.get("st")?.trim();
+  if (!/^\/Search\/?$/i.test(url.pathname) || !query) return [];
+  const found: ActionElement[] = [];
+  const groups = [...document.querySelectorAll(".vod_list_group")].slice(
+    0,
+    100,
+  );
+  for (const [groupIndex, group] of groups.entries()) {
+    if (!visible(group) || group.closest(EXCLUDED)) continue;
+    const heading = [...group.querySelectorAll("h1")].find(
+      (node) => node.closest(".vod_list_group") === group && visible(node),
+    );
+    // The same card styles appear elsewhere on the site. Require the actual
+    // result heading and its current query, not just a matching CSS class.
+    if (!heading || !/에\s*대한\s*검색\s*결과/.test(heading.textContent ?? ""))
+      continue;
+    const shownQuery = heading
+      .querySelector("em")
+      ?.textContent?.normalize("NFKC")
+      .trim()
+      .replace(/^["'“”‘’]|["'“”‘’]$/g, "");
+    if (!shownQuery || normalizeTitle(shownQuery) !== normalizeTitle(query))
+      continue;
+    const cards = [
+      ...group.querySelectorAll<HTMLElement>(".vod_vod_list .div_li"),
+    ]
+      .filter((node) => node.closest(".vod_list_group") === group)
+      .slice(0, 200);
+    for (const [cardIndex, card] of cards.entries()) {
+      if (found.length >= 200) return found;
+      if (!visible(card) || card.closest(EXCLUDED)) continue;
+      const element = [...card.children].find(
+        (node) =>
+          node.tagName === "DIV" && node.classList.contains("list_img_bg"),
+      ) as HTMLElement | undefined;
+      const label = [...card.children].find((node) => node.tagName === "P");
+      if (
+        !element ||
+        !label ||
+        !visible(element) ||
+        !visible(label) ||
+        element.getAttribute("aria-disabled") === "true" ||
+        element.hasAttribute("disabled") ||
+        card.getAttribute("aria-disabled") === "true"
+      )
+        continue;
+      // Genre badges live inside a child span. Only the direct text nodes are
+      // the work label; the image itself has no alt text on the observed site.
+      const title = cleanTitle(
+        [...label.childNodes]
+          .filter((node) => node.nodeType === 3)
+          .map((node) => node.textContent ?? "")
+          .join(" "),
+      );
+      if (!cardTitle(title)) continue;
+      const image = [...element.querySelectorAll<HTMLImageElement>("img")].find(
+        (node) => visible(node),
+      );
+      const imageUrl =
+        image && safeImageUrl(image.getAttribute("src") ?? "", pageUrl);
+      if (!imageUrl) continue;
+      const key = JSON.stringify([
+        "aniplus",
+        query,
+        groupIndex,
+        cardIndex,
+        title,
+        imageUrl,
+      ]);
+      if (key.length > 4096) continue;
+      found.push({ action: { key, title }, element });
+    }
+  }
+  return found;
+}
+
+function collectActions(
+  document: Document,
+  provider: ProviderId,
+  pageUrl: string,
+): ActionElement[] {
+  if (detectProvider(pageUrl) !== provider) return [];
+  if (provider === "aniplus") return collectAniplusActions(document, pageUrl);
+  return collectWavveActions(document, provider, pageUrl);
 }
 
 /** DOM-only discovery: no click, fetch, page script evaluation, or framework access. */

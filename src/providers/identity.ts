@@ -276,10 +276,18 @@ export function cleanTitle(value: string): string {
   const raw = presentationText(value);
   const brandedWatch =
     /^Watch\s+/i.test(raw) && englishWatchBrandSuffix.test(raw);
-  let title = removeServiceDecoration(raw).replace(
-    /^\s*(?:\((?:자막|더빙|한국어 더빙|한글자막)\)|\[(?:자막|더빙)\])\s*/i,
-    "",
-  );
+  // Services put the same audio/subtitle badge on either side of a title.
+  // Matching both variants still retains separate provider IDs, so multiple
+  // versions remain ambiguous instead of silently choosing a dub.
+  let title = removeServiceDecoration(raw)
+    .replace(
+      /^\s*(?:\((?:자막|더빙|한국어\s*더빙|한글자막)\)|\[(?:자막|더빙)\])\s*/i,
+      "",
+    )
+    .replace(
+      /\s*(?:\((?:자막|더빙|한국어\s*더빙|한글자막)\)|\[(?:자막|더빙)\])\s*$/i,
+      "",
+    );
   // Korean service titles sometimes retain an English CTA even in JSON-LD and
   // old bookmarks. This mixed-language wrapper must also be cleaned offline.
   if (brandedWatch || /^Watch\s+(?=\p{Script=Hangul})/iu.test(title))
@@ -409,6 +417,8 @@ export function titleVariants(value: string): string[] {
 }
 
 export function safeImageUrl(value: string, base?: string): string {
+  // URL("", base) resolves to the HTML document, not a missing image.
+  if (!value.trim()) return "";
   try {
     const url = new URL(value, base);
     return url.protocol === "https:" && !url.username && !url.password

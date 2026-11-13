@@ -296,7 +296,7 @@ describe("conservative catalogue matching", () => {
     expect(result.status).toBe("unknown");
     expect(result.reason).toContain("공개된 에피소드");
   });
-  it("distinguishes unreadable search shells from explicit no-results", () => {
+  it("keeps incomplete Apple catalog searches unknown even with explicit no-results", () => {
     expect(
       parseSearchHtml(
         "apple",
@@ -310,7 +310,7 @@ describe("conservative catalogue matching", () => {
         '<html><body><p class="search-page__error-message">검색 결과가 없습니다.</p></body></html>',
         "https://tv.apple.com/kr/search?term=Snoopy",
       ).complete,
-    ).toBe(true);
+    ).toBe(false);
     expect(matchCandidates("netflix", page, []).status).toBe("unknown");
   });
   it("parses service search cards without running their HTML", () => {
