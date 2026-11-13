@@ -1,6 +1,6 @@
 # OTT Switch
 
-마음에 든 작품을 내 OTT로 이어 보고, 작품 중심으로 모아 두는 Chrome Manifest V3 확장 프로그램입니다. **한국 서비스 우선 · 로컬 저장 · 비공개 알파 0.1.1**
+마음에 든 작품을 내 OTT로 이어 보고, 작품 중심으로 모아 두는 Chrome Manifest V3 확장 프로그램입니다. **한국 서비스 우선 · 로컬 저장 · 비공개 알파 0.1.2**
 
 ## 개발 계획
 
@@ -31,11 +31,11 @@ npm run test:e2e
 npm run package
 ```
 
-빌드 결과는 `dist/`, 설치용 ZIP은 `release/ott-switch-0.1.1.zip`에 생성됩니다. `npm run dev`는 빌드 후 `http://127.0.0.1:4173/library.html`에 보관함 미리보기를 엽니다. localhost DB는 확장 DB와 별개이며 미리보기에서는 자동 OTT 조회를 하지 않습니다.
+빌드 결과는 `dist/`, 설치용 ZIP은 `release/ott-switch-0.1.2.zip`에 생성됩니다. `npm run dev`는 빌드 후 `http://127.0.0.1:4173/library.html`에 보관함 미리보기를 엽니다. localhost DB는 확장 DB와 별개이며 미리보기에서는 자동 OTT 조회를 하지 않습니다.
 
 ## 설치
 
-1. [v0.1.1 비공개 Release](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.1)에서 ZIP을 받아 압축을 풉니다. 또는 위 명령으로 `dist`를 빌드합니다.
+1. [v0.1.2 비공개 Release](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.2)에서 ZIP을 받아 압축을 풉니다. 또는 위 명령으로 `dist`를 빌드합니다.
 2. Chrome 주소창에서 `chrome://extensions`를 열고 **개발자 모드**를 켭니다.
 3. **압축해제된 확장 프로그램을 로드합니다**에서 `manifest.json`이 들어 있는 폴더를 선택합니다.
 4. 지원 OTT 작품 페이지를 새로고침하고 왼쪽 `OTT` 탭에서 카테고리를 선택해 저장합니다.
@@ -49,6 +49,8 @@ npm run package
 
 공식 검색 결과의 제목과 작품 ID를 확인한 후 작품 주소로 이동합니다. HTML·브라우저 검색 후보는 대상 상세 페이지를 다시 검증하고, 라프텔 공개 카탈로그 API는 제목·작품 ID·제공 상태를 근거로 연결합니다. `Watch` 같은 시청 안내 문구는 제목 근거를 비교해 제거하며 실제 제목에 포함된 단어는 보존합니다. 동명·자막·더빙 후보가 여러 개면 사용자가 선택한 상세 페이지를 다시 검증합니다.
 
+0.1.2에서는 자동 검색·직접 검색·보관함 검색이 같은 제목 정제 과정을 사용합니다. 구버전 북마크에 남은 한국어 제목 앞의 `Watch`도 원본 요청 실패 시 정리하며 `Watch Dogs` 같은 실제 제목은 보존합니다. JSON-LD 제목은 화면의 작품 제목과 대조하고, Crunchyroll 홈페이지의 홍보 문구를 원본 작품명이나 별칭으로 받아들이지 않습니다. 원본을 다시 읽었을 때 다른 제목이 나오더라도 기존 작품 검색어를 임의로 교체하지 않습니다.
+
 공개 검색으로 확인하지 못한 서비스는 브라우저의 임시 탭에서 렌더링된 결과를 확인합니다. 자동 조회에서는 구독한 서비스만 이 경로를 사용하며, 각 서비스의 **찾아서 이동**을 누르면 개별 확인을 실행합니다. 임시 탭은 동시에 최대 2개이며 기존 사이트 로그인 상태를 사용합니다. 사용자가 활성화한 탭은 자동으로 이동하거나 닫지 않습니다.
 
 라프텔 검색·홈의 작품 모달과 Netflix의 상세 모달·단독 작품 페이지를 인식합니다. Prime Video의 자동 미리보기 전환 중에는 사이드바를 유지합니다. **10개 서비스의 모든 계정과 작품에서 자동 검색을 보장하는 버전은 아닙니다.** 로그인·접근 제한·제목 불일치는 `확인 필요`로 남으며 공식 검색도 제공됩니다. 작품 페이지 확인은 구독 포함·무료 재생·한국 판권을 보증하지 않습니다. 상세 범위는 [서비스 지원표](docs/provider-support.md)에 기록했습니다.
@@ -59,7 +61,9 @@ Google Drive 연결은 **아직 구현하지 않았습니다**. 수정 시각·�
 
 단위 테스트는 실제 응답에서 추린 fixture, URL 경계, 검색/접근 실패, 버전 중복, 원자적 저장, 백업 검증, 병합·삭제, 메시지 경계를 검사합니다. 브라우저 테스트는 Chromium에 실제 MV3 확장을 로드해 영속 저장·오버레이·재생 감지·SPA 이동·보관함을 확인합니다. 사이트 DOM은 고정 fixture이며 실제 로그인 계정 검증을 대신하지 않습니다. GitHub Actions에도 검사·ZIP artifact 생성 워크플로를 구성했습니다.
 
-2026-11-13 타입 검사, 단위 테스트 **212개**, 브라우저 회귀 테스트 **12개** 및 빌드가 통과했습니다. 실제 공개 라프텔 검색 화면에서 작품 모달을 열고, 미리보기 재생 중 사이드바 유지 및 모달 닫기 후 숨김도 확인했습니다. Netflix·Prime Video의 이번 회귀 검증은 재현 DOM을 이용한 확장 브라우저 테스트이며 모든 로그인 계정 상태를 실측한 것은 아닙니다. GitHub Actions는 계정 예산 제한(`The job was not started because an Actions budget is preventing further use.`)으로 실행되지 않았습니다. 예산 제한 해결 후 Actions에서 수동 실행할 수 있습니다.
+2026-11-13 기준 0.1.2 단위 테스트 **229개**, 브라우저 회귀 테스트 **17개**가 통과했습니다. 실제 검색 구현에 `Watch`가 붙은 한국어 제목과 Crunchyroll 홍보 문구 별칭을 입력해 라프텔 공개 API를 조회했고, `어느 마녀가 죽을 때까지`의 작품 주소 `https://laftel.net/item/42783`으로 연결 가능한 결과를 확인했습니다. 검색 결과는 1개이며 만료되지 않은 제공 상태였습니다. Crunchyroll에서 다른 OTT로 이동하는 브라우저 경로는 재현 DOM과 응답을 사용해 검증하며 실제 로그인 계정 검증을 대신하지 않습니다.
+
+0.1.1에서 실제 공개 라프텔 검색의 모달 열기·닫기와 미리보기 중 사이드바 유지를 확인했습니다. Netflix·Prime Video 검증도 재현 DOM을 이용한 확장 브라우저 테스트이며 모든 로그인 계정 상태를 실측한 것은 아닙니다. GitHub Actions는 계정 예산 제한(`The job was not started because an Actions budget is preventing further use.`)으로 실행되지 않았습니다. 예산 제한 해결 후 Actions에서 수동 실행할 수 있습니다.
 
 `src/providers`는 사이트 어댑터, `src/background`는 네트워크/저장 메시지 처리, `src/content`는 Shadow DOM 오버레이, `src/core`는 DB/백업, `src/library`는 React 보관함입니다.
 
@@ -67,7 +71,7 @@ Google Drive 연결은 **아직 구현하지 않았습니다**. 수정 시각·�
 - [아키텍처](docs/architecture.md) 및 [동기화 설계](docs/sync-design.md)
 - [수동 QA 목록](docs/manual-qa.md)
 - [개인정보 및 권한](docs/privacy.md)
-- [0.1.1 변경 기록](docs/release-0.1.1.md) · [0.1.0 변경 기록](docs/release-notes.md)
+- [0.1.2 변경 기록](docs/release-0.1.2.md) · [0.1.1 변경 기록](docs/release-0.1.1.md) · [0.1.0 변경 기록](docs/release-notes.md)
 
 ## 기술 참고
 
