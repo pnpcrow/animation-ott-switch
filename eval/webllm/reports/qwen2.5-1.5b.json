@@ -1,0 +1,958 @@
+{
+  "schemaVersion": 1,
+  "selectionPolicy": "fewest unsafe matches, highest exact score, fewest runtime errors; ties prefer newer template",
+  "selectedTemplate": "evidence-v2",
+  "reports": [
+    {
+      "schemaVersion": 1,
+      "runtime": "@mlc-ai/web-llm@0.2.88",
+      "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+      "template": "evidence-v1",
+      "split": "calibration",
+      "dataset": "실제8작품 공식 관측 자료 · 2026-11-13",
+      "datasetSha256": "74cd2914dff75ead9b17d708396415aac77954c012c3d4c637f2f5689d555817",
+      "templateSha256": "54c9d963337081b7487a66537897ef1b8b36c7def8942f7f294d2568c0568fb1",
+      "startedAt": "2026-11-13T09:25:28.708Z",
+      "gpu": {
+        "vendor": "amd",
+        "architecture": "rdna-3",
+        "device": "",
+        "description": "",
+        "shaderF16": true,
+        "maxBufferSize": 2147483648
+      },
+      "rows": [
+        {
+          "caseId": "witch",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://laftel.net/item/42783; target title, image and actual card navigation verified at https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "synopsis",
+            "candidateId": "a",
+            "status": "match"
+          },
+          "raw": "{\n  \"titleId\": \"work\",\n  \"imageId\": \"poster\",\n  \"descriptionId\": \"synopsis\",\n  \"candidateId\": \"a\",\n  \"status\": \"match\"\n  ,\"confidence\": 1\n}",
+          "usage": {
+            "completion_tokens": 50,
+            "prompt_tokens": 498,
+            "total_tokens": 548,
+            "extra": {
+              "e2e_latency_s": 4.259,
+              "prefill_tokens_per_s": 209.68421052631578,
+              "decode_tokens_per_s": 26.208814717720795,
+              "time_to_first_token_s": 2.375,
+              "time_per_output_token_s": 0.03815510204373574,
+              "grammar_init_s": 0.5596000001430511,
+              "grammar_per_token_s": 0.00023799997329711922
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": true,
+            "exact": true,
+            "unsafeMatch": false,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": true,
+              "status": true
+            },
+            "errors": [],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "synopsis",
+              "candidateId": "a",
+              "status": "match",
+              "confidence": 1
+            }
+          },
+          "elapsedMs": 4262
+        },
+        {
+          "caseId": "frieren",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://laftel.net/item/41666; metadata query has no audio version; independent Wavve normal-click URLs from https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C; sub/dub distinction is unresolved in this deliberately version-unspecified query, not in the original source selection.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "synopsis",
+            "candidateId": "",
+            "status": "ambiguous"
+          },
+          "raw": "{\n  \"titleId\": \"work\",\n  \"imageId\": \"poster\",\n  \"descriptionId\": \"synopsis\",\n  \"candidateId\": \"a\",\n  \"status\": \"match\"\n  ,\n  \"confidence\": 1\n}",
+          "usage": {
+            "completion_tokens": 55,
+            "prompt_tokens": 721,
+            "total_tokens": 776,
+            "extra": {
+              "e2e_latency_s": 6.339,
+              "prefill_tokens_per_s": 192.03622319882805,
+              "decode_tokens_per_s": 21.001866838060145,
+              "time_to_first_token_s": 3.7545,
+              "time_per_output_token_s": 0.04761481480245238,
+              "grammar_init_s": 0.2055,
+              "grammar_per_token_s": 0.00021272728226401586
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": true,
+            "exact": false,
+            "unsafeMatch": true,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": false,
+              "status": false
+            },
+            "errors": [],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "synopsis",
+              "candidateId": "a",
+              "status": "match",
+              "confidence": 1
+            }
+          },
+          "elapsedMs": 6346
+        },
+        {
+          "caseId": "apothecary",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://laftel.net/item/41714; direct official series https://www.netflix.com/kr/title/81712068 versus recap https://www.netflix.com/kr/title/83186246; Laftel placeholder description {줄거리} omitted; available means catalog identity only.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "",
+            "candidateId": "a",
+            "status": "match"
+          },
+          "raw": "{\n  \"titleId\": \"work\",\n  \"imageId\": \"poster\",\n  \"descriptionId\": \"\",\n  \"candidateId\": \"a\",\n  \"status\": \"match\",\n  \"confidence\": 1\n}",
+          "usage": {
+            "completion_tokens": 47,
+            "prompt_tokens": 440,
+            "total_tokens": 487,
+            "extra": {
+              "e2e_latency_s": 4.434,
+              "prefill_tokens_per_s": 207.45909756691842,
+              "decode_tokens_per_s": 19.981755784882306,
+              "time_to_first_token_s": 2.120899999856949,
+              "time_per_output_token_s": 0.05004565218220587,
+              "grammar_init_s": 0.17289999985694884,
+              "grammar_per_token_s": 0.00024680852890014644
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": true,
+            "exact": true,
+            "unsafeMatch": false,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": true,
+              "status": true
+            },
+            "errors": [],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "",
+              "candidateId": "a",
+              "status": "match",
+              "confidence": 1
+            }
+          },
+          "elapsedMs": 4437
+        },
+        {
+          "caseId": "nia",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://www.aniplustv.com/Search?st=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4 echoed short query; candidate full title from https://www.aniplustv.com/items/3960; source metadata from https://laftel.net/item/47452; no independently observed alias in the input ties the short query to the full subtitle. This conservative gold label tests insufficient alias evidence, not a claim that these are different works.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "synopsis",
+            "candidateId": "",
+            "status": "unknown"
+          },
+          "raw": "{\n  \"titleId\": \"work\",\n  \"imageId\": \"poster\",\n  \"descriptionId\": \"synopsis\",\n  \"candidateId\": \"a\"\n  ,\n  \"status\": \"match\",\n  \"confidence\": 1\n}",
+          "usage": {
+            "completion_tokens": 52,
+            "prompt_tokens": 518,
+            "total_tokens": 570,
+            "extra": {
+              "e2e_latency_s": 5.023,
+              "prefill_tokens_per_s": 198.24715832258934,
+              "decode_tokens_per_s": 21.25708569058445,
+              "time_to_first_token_s": 2.6129000000953675,
+              "time_per_output_token_s": 0.047043137265186684,
+              "grammar_init_s": 0.011200000047683716,
+              "grammar_per_token_s": 0.00020769233887012187
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": true,
+            "exact": false,
+            "unsafeMatch": true,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": false,
+              "status": false
+            },
+            "errors": [],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "synopsis",
+              "candidateId": "a",
+              "status": "match",
+              "confidence": 1
+            }
+          },
+          "elapsedMs": 5026
+        }
+      ],
+      "interrupted": false,
+      "summary": {
+        "cases": 4,
+        "valid": 4,
+        "exact": 2,
+        "unsafeMatches": 2,
+        "errors": 0,
+        "fields": {
+          "titleId": 4,
+          "imageId": 4,
+          "descriptionId": 4,
+          "candidateId": 2,
+          "status": 2
+        },
+        "totalMs": 20071
+      },
+      "finishedAt": "2026-11-13T09:25:48.780Z"
+    },
+    {
+      "schemaVersion": 1,
+      "runtime": "@mlc-ai/web-llm@0.2.88",
+      "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+      "template": "evidence-v2",
+      "split": "calibration",
+      "dataset": "실제8작품 공식 관측 자료 · 2026-11-13",
+      "datasetSha256": "74cd2914dff75ead9b17d708396415aac77954c012c3d4c637f2f5689d555817",
+      "templateSha256": "072c8f75e7e5d947cfe5aae511b6bcfa9ed2156b4a3d50efc1173c1aa3c7db74",
+      "startedAt": "2026-11-13T09:25:48.804Z",
+      "gpu": {
+        "vendor": "amd",
+        "architecture": "rdna-3",
+        "device": "",
+        "description": "",
+        "shaderF16": true,
+        "maxBufferSize": 2147483648
+      },
+      "rows": [
+        {
+          "caseId": "witch",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://laftel.net/item/42783; target title, image and actual card navigation verified at https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "synopsis",
+            "candidateId": "a",
+            "status": "match"
+          },
+          "raw": "{\"titleId\":\"work\",\"imageId\":\"poster\",\"descriptionId\":\"synopsis\",\"candidateId\":\"a\",\"status\":\"ambiguous\",\"confidence\":0.96}",
+          "usage": {
+            "completion_tokens": 34,
+            "prompt_tokens": 558,
+            "total_tokens": 592,
+            "extra": {
+              "e2e_latency_s": 3.62,
+              "prefill_tokens_per_s": 234.5326160006795,
+              "decode_tokens_per_s": 26.70767239825368,
+              "time_to_first_token_s": 2.3792000000476836,
+              "time_per_output_token_s": 0.03744242422508471,
+              "grammar_init_s": 0.00009999990463256836,
+              "grammar_per_token_s": 0.00013529415691600132
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": false,
+            "exact": false,
+            "unsafeMatch": false,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": true,
+              "status": false
+            },
+            "errors": [
+              "보류 상태에 후보 지정"
+            ],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "synopsis",
+              "candidateId": "a",
+              "status": "ambiguous",
+              "confidence": 0.96
+            }
+          },
+          "elapsedMs": 3622
+        },
+        {
+          "caseId": "frieren",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://laftel.net/item/41666; metadata query has no audio version; independent Wavve normal-click URLs from https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C; sub/dub distinction is unresolved in this deliberately version-unspecified query, not in the original source selection.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "synopsis",
+            "candidateId": "",
+            "status": "ambiguous"
+          },
+          "raw": "{\"titleId\":\"work\",\"imageId\":\"poster\",\"descriptionId\":\"synopsis\",\"candidateId\":\"a\",\"status\":\"ambiguous\",\"confidence\":0.9}",
+          "usage": {
+            "completion_tokens": 33,
+            "prompt_tokens": 781,
+            "total_tokens": 814,
+            "extra": {
+              "e2e_latency_s": 4.73,
+              "prefill_tokens_per_s": 236.41592250643257,
+              "decode_tokens_per_s": 22.549503207772872,
+              "time_to_first_token_s": 3.3035,
+              "time_per_output_token_s": 0.044346874997019774,
+              "grammar_init_s": 0.006700000047683716,
+              "grammar_per_token_s": 0.00011212120634136783
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": false,
+            "exact": false,
+            "unsafeMatch": false,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": false,
+              "status": true
+            },
+            "errors": [
+              "보류 상태에 후보 지정"
+            ],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "synopsis",
+              "candidateId": "a",
+              "status": "ambiguous",
+              "confidence": 0.9
+            }
+          },
+          "elapsedMs": 4732
+        },
+        {
+          "caseId": "apothecary",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://laftel.net/item/41714; direct official series https://www.netflix.com/kr/title/81712068 versus recap https://www.netflix.com/kr/title/83186246; Laftel placeholder description {줄거리} omitted; available means catalog identity only.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "",
+            "candidateId": "a",
+            "status": "match"
+          },
+          "raw": "{\"titleId\":\"work\",\"imageId\":\"poster\",\"descriptionId\":\"\" ,\"candidateId\":\"a\" , \"status\":\"ambiguous\", \"confidence\":0.9}",
+          "usage": {
+            "completion_tokens": 35,
+            "prompt_tokens": 500,
+            "total_tokens": 535,
+            "extra": {
+              "e2e_latency_s": 3.245,
+              "prefill_tokens_per_s": 249.98750063688848,
+              "decode_tokens_per_s": 27.47474746416082,
+              "time_to_first_token_s": 2.0000999999046325,
+              "time_per_output_token_s": 0.036397058837554036,
+              "grammar_init_s": 0.008199999809265137,
+              "grammar_per_token_s": 0.00012285713468279162
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": false,
+            "exact": false,
+            "unsafeMatch": false,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": true,
+              "status": false
+            },
+            "errors": [
+              "보류 상태에 후보 지정"
+            ],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "",
+              "candidateId": "a",
+              "status": "ambiguous",
+              "confidence": 0.9
+            }
+          },
+          "elapsedMs": 3247
+        },
+        {
+          "caseId": "nia",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://www.aniplustv.com/Search?st=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4 echoed short query; candidate full title from https://www.aniplustv.com/items/3960; source metadata from https://laftel.net/item/47452; no independently observed alias in the input ties the short query to the full subtitle. This conservative gold label tests insufficient alias evidence, not a claim that these are different works.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "synopsis",
+            "candidateId": "",
+            "status": "unknown"
+          },
+          "raw": "{\"titleId\":\"work\",\"imageId\":\"poster\",\"descriptionId\":\"synopsis\",\"candidateId\":\"a\",\"status\":\"ambiguous\",\"confidence\":0.96}",
+          "usage": {
+            "completion_tokens": 34,
+            "prompt_tokens": 578,
+            "total_tokens": 612,
+            "extra": {
+              "e2e_latency_s": 3.911,
+              "prefill_tokens_per_s": 227.2459209750344,
+              "decode_tokens_per_s": 24.239753193542178,
+              "time_to_first_token_s": 2.5435,
+              "time_per_output_token_s": 0.04125454545743537,
+              "grammar_init_s": 0.0058999998569488525,
+              "grammar_per_token_s": 0.00010294119049521058
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": false,
+            "exact": false,
+            "unsafeMatch": false,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": false,
+              "status": false
+            },
+            "errors": [
+              "보류 상태에 후보 지정"
+            ],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "synopsis",
+              "candidateId": "a",
+              "status": "ambiguous",
+              "confidence": 0.96
+            }
+          },
+          "elapsedMs": 3913
+        }
+      ],
+      "interrupted": false,
+      "summary": {
+        "cases": 4,
+        "valid": 0,
+        "exact": 0,
+        "unsafeMatches": 0,
+        "errors": 0,
+        "fields": {
+          "titleId": 4,
+          "imageId": 4,
+          "descriptionId": 4,
+          "candidateId": 2,
+          "status": 1
+        },
+        "totalMs": 15514
+      },
+      "finishedAt": "2026-11-13T09:26:04.318Z"
+    },
+    {
+      "schemaVersion": 1,
+      "runtime": "@mlc-ai/web-llm@0.2.88",
+      "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+      "template": "evidence-v3",
+      "split": "calibration",
+      "dataset": "실제8작품 공식 관측 자료 · 2026-11-13",
+      "datasetSha256": "74cd2914dff75ead9b17d708396415aac77954c012c3d4c637f2f5689d555817",
+      "templateSha256": "33dfeaf31a7c425e6b2fe37e902bc46efea14aa3606719f9b9166bf282bb6edc",
+      "startedAt": "2026-11-13T09:26:04.340Z",
+      "gpu": {
+        "vendor": "amd",
+        "architecture": "rdna-3",
+        "device": "",
+        "description": "",
+        "shaderF16": true,
+        "maxBufferSize": 2147483648
+      },
+      "rows": [
+        {
+          "caseId": "witch",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://laftel.net/item/42783; target title, image and actual card navigation verified at https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "synopsis",
+            "candidateId": "a",
+            "status": "match"
+          },
+          "raw": "{\"titleId\":\"work\",\"imageId\":\"poster\",\"descriptionId\":\"synopsis\",\"candidateId\":\"a\",\"status\":\"match\",\"confidence\":1}",
+          "usage": {
+            "completion_tokens": 31,
+            "prompt_tokens": 739,
+            "total_tokens": 770,
+            "extra": {
+              "e2e_latency_s": 5.265,
+              "prefill_tokens_per_s": 214.69451788747418,
+              "decode_tokens_per_s": 16.521643361903337,
+              "time_to_first_token_s": 3.4420999999046327,
+              "time_per_output_token_s": 0.060526666633288075,
+              "grammar_init_s": 0,
+              "grammar_per_token_s": 0.00013225809989436988
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": true,
+            "exact": true,
+            "unsafeMatch": false,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": true,
+              "status": true
+            },
+            "errors": [],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "synopsis",
+              "candidateId": "a",
+              "status": "match",
+              "confidence": 1
+            }
+          },
+          "elapsedMs": 5267
+        },
+        {
+          "caseId": "frieren",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://laftel.net/item/41666; metadata query has no audio version; independent Wavve normal-click URLs from https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C; sub/dub distinction is unresolved in this deliberately version-unspecified query, not in the original source selection.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "synopsis",
+            "candidateId": "",
+            "status": "ambiguous"
+          },
+          "raw": "{\"titleId\":\"work\",\"imageId\":\"poster\",\"descriptionId\":\"synopsis\",\"candidateId\":\"a\",\"status\":\"match\",\"confidence\":1}",
+          "usage": {
+            "completion_tokens": 31,
+            "prompt_tokens": 962,
+            "total_tokens": 993,
+            "extra": {
+              "e2e_latency_s": 5.935,
+              "prefill_tokens_per_s": 218.10102475977143,
+              "decode_tokens_per_s": 19.769357492775367,
+              "time_to_first_token_s": 4.410799999952316,
+              "time_per_output_token_s": 0.050583333341280616,
+              "grammar_init_s": 0.0085,
+              "grammar_per_token_s": 0.00010967739166751988
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": true,
+            "exact": false,
+            "unsafeMatch": true,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": false,
+              "status": false
+            },
+            "errors": [],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "synopsis",
+              "candidateId": "a",
+              "status": "match",
+              "confidence": 1
+            }
+          },
+          "elapsedMs": 5937
+        },
+        {
+          "caseId": "apothecary",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://laftel.net/item/41714; direct official series https://www.netflix.com/kr/title/81712068 versus recap https://www.netflix.com/kr/title/83186246; Laftel placeholder description {줄거리} omitted; available means catalog identity only.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "",
+            "candidateId": "a",
+            "status": "match"
+          },
+          "raw": "{\"titleId\":\"work\",\"imageId\":\"poster\",\"descriptionId\":\"\",\"candidateId\":\"a\",\"status\":\"match\",\"confidence\":1}",
+          "usage": {
+            "completion_tokens": 28,
+            "prompt_tokens": 681,
+            "total_tokens": 709,
+            "extra": {
+              "e2e_latency_s": 4.213,
+              "prefill_tokens_per_s": 222.3746081608578,
+              "decode_tokens_per_s": 23.564321872162363,
+              "time_to_first_token_s": 3.062399999856949,
+              "time_per_output_token_s": 0.04243703703527097,
+              "grammar_init_s": 0.0066999998092651366,
+              "grammar_per_token_s": 0.0001035714830671038
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": true,
+            "exact": true,
+            "unsafeMatch": false,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": true,
+              "status": true
+            },
+            "errors": [],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "",
+              "candidateId": "a",
+              "status": "match",
+              "confidence": 1
+            }
+          },
+          "elapsedMs": 4215
+        },
+        {
+          "caseId": "nia",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://www.aniplustv.com/Search?st=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4 echoed short query; candidate full title from https://www.aniplustv.com/items/3960; source metadata from https://laftel.net/item/47452; no independently observed alias in the input ties the short query to the full subtitle. This conservative gold label tests insufficient alias evidence, not a claim that these are different works.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "synopsis",
+            "candidateId": "",
+            "status": "unknown"
+          },
+          "raw": "{\"titleId\":\"work\",\"imageId\":\"poster\",\"descriptionId\":\"synopsis\",\"candidateId\":\"a\",\"status\":\"match\",\"confidence\":1}",
+          "usage": {
+            "completion_tokens": 31,
+            "prompt_tokens": 759,
+            "total_tokens": 790,
+            "extra": {
+              "e2e_latency_s": 4.588,
+              "prefill_tokens_per_s": 230.57293882100814,
+              "decode_tokens_per_s": 23.237800163501664,
+              "time_to_first_token_s": 3.291799999952316,
+              "time_per_output_token_s": 0.043033333317438756,
+              "grammar_init_s": 0.005900000095367432,
+              "grammar_per_token_s": 0.00010000003537824079
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": true,
+            "exact": false,
+            "unsafeMatch": true,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": false,
+              "status": false
+            },
+            "errors": [],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "synopsis",
+              "candidateId": "a",
+              "status": "match",
+              "confidence": 1
+            }
+          },
+          "elapsedMs": 4591
+        }
+      ],
+      "interrupted": false,
+      "summary": {
+        "cases": 4,
+        "valid": 4,
+        "exact": 2,
+        "unsafeMatches": 2,
+        "errors": 0,
+        "fields": {
+          "titleId": 4,
+          "imageId": 4,
+          "descriptionId": 4,
+          "candidateId": 2,
+          "status": 2
+        },
+        "totalMs": 20010
+      },
+      "finishedAt": "2026-11-13T09:26:24.349Z"
+    },
+    {
+      "schemaVersion": 1,
+      "runtime": "@mlc-ai/web-llm@0.2.88",
+      "model": "Qwen2.5-1.5B-Instruct-q4f16_1-MLC",
+      "template": "evidence-v2",
+      "split": "holdout",
+      "dataset": "실제8작품 공식 관측 자료 · 2026-11-13",
+      "datasetSha256": "74cd2914dff75ead9b17d708396415aac77954c012c3d4c637f2f5689d555817",
+      "templateSha256": "072c8f75e7e5d947cfe5aae511b6bcfa9ed2156b4a3d50efc1173c1aa3c7db74",
+      "startedAt": "2026-11-13T09:26:24.380Z",
+      "gpu": {
+        "vendor": "amd",
+        "architecture": "rdna-3",
+        "device": "",
+        "description": "",
+        "shaderF16": true,
+        "maxBufferSize": 2147483648
+      },
+      "rows": [
+        {
+          "caseId": "sakura",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://tv.apple.com/kr/show/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d is a TVSeries; https://tv.apple.com/kr/movie/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2o53u5rxd65rhk9klisyfndbh is the separate Movie, direct public HTTP200 and matching h1 checked. Query uses the observed localized title, not an invented Sakura-to-Cherry alias. Apple displayed catalog date2018 is not treated as original1998 release year. Baseline extracted image was the HTML detail URL and is omitted.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "",
+            "descriptionId": "",
+            "candidateId": "a",
+            "status": "match"
+          },
+          "raw": "{\"titleId\":\"work\",\"imageId\":\"\",\"descriptionId\":\"\",\"candidateId\":\"a\",\"status\":\"not_found\",\"confidence\":0.9}",
+          "usage": {
+            "completion_tokens": 32,
+            "prompt_tokens": 630,
+            "total_tokens": 662,
+            "extra": {
+              "e2e_latency_s": 4.031,
+              "prefill_tokens_per_s": 225.4186345917435,
+              "decode_tokens_per_s": 25.193010976031275,
+              "time_to_first_token_s": 2.794800000190735,
+              "time_per_output_token_s": 0.03969354837940585,
+              "grammar_init_s": 0.1245,
+              "grammar_per_token_s": 0.00009062502533197403
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": false,
+            "exact": false,
+            "unsafeMatch": false,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": true,
+              "status": false
+            },
+            "errors": [
+              "보류 상태에 후보 지정",
+              "미완료 검색으로 부재 판정"
+            ],
+            "answer": {
+              "titleId": "work",
+              "imageId": "",
+              "descriptionId": "",
+              "candidateId": "a",
+              "status": "not_found",
+              "confidence": 0.9
+            }
+          },
+          "elapsedMs": 4031
+        },
+        {
+          "caseId": "rezero",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://tv.apple.com/kr/show/re-%E1%84%8C%E1%85%A6%E1%84%85%E1%85%A9%E1%84%87%E1%85%AE%E1%84%90%E1%85%A5-%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A6%E1%84%80%E1%85%A8-%E1%84%89%E1%85%A2%E1%86%BC%E1%84%92%E1%85%AA%E1%86%AF/umc.cmc.4zdqlm8jim5xrtehsf1w67ano bare catalog heading; https://www.netflix.com/kr/title/81262169 explicitly identifies director cut. Exact source edition is not established, so no automatic edition substitution. Query version/year remain empty, not fabricated original/2016.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "",
+            "descriptionId": "",
+            "candidateId": "",
+            "status": "unknown"
+          },
+          "raw": "{\"titleId\":\"work\",\"imageId\":\"\",\"descriptionId\":\"\",\"candidateId\":\"a\" , \"status\":\"ambiguous\", \"confidence\":0.9}",
+          "usage": {
+            "completion_tokens": 33,
+            "prompt_tokens": 372,
+            "total_tokens": 405,
+            "extra": {
+              "e2e_latency_s": 3.227,
+              "prefill_tokens_per_s": 211.43571673880078,
+              "decode_tokens_per_s": 21.910304693751335,
+              "time_to_first_token_s": 1.759399999856949,
+              "time_per_output_token_s": 0.045640624992549415,
+              "grammar_init_s": 0.11759999990463257,
+              "grammar_per_token_s": 0.00010909091342579239
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": false,
+            "exact": false,
+            "unsafeMatch": false,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": false,
+              "status": false
+            },
+            "errors": [
+              "보류 상태에 후보 지정"
+            ],
+            "answer": {
+              "titleId": "work",
+              "imageId": "",
+              "descriptionId": "",
+              "candidateId": "a",
+              "status": "ambiguous",
+              "confidence": 0.9
+            }
+          },
+          "elapsedMs": 3229
+        },
+        {
+          "caseId": "dungeon",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://www.netflix.com/title/81564899 verified source title/year/metadata. The independent anonymous HTTP Netflix search in artifacts/cross-check-http.json is login-blocked. No candidate evidence and complete=false do not establish absence; this is not the skipped same-source extension cell.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "synopsis",
+            "candidateId": "",
+            "status": "unknown"
+          },
+          "raw": "{\"titleId\":\"work\",\"imageId\":\"poster\",\"descriptionId\":\"synopsis\",\"candidateId\":\"\" , \"status\":\"unknown\" , \"confidence\":0.9}",
+          "usage": {
+            "completion_tokens": 35,
+            "prompt_tokens": 557,
+            "total_tokens": 592,
+            "extra": {
+              "e2e_latency_s": 4.37,
+              "prefill_tokens_per_s": 204.04425232974194,
+              "decode_tokens_per_s": 20.809107049353106,
+              "time_to_first_token_s": 2.7297999999523164,
+              "time_per_output_token_s": 0.04805588234172148,
+              "grammar_init_s": 0.16940000009536743,
+              "grammar_per_token_s": 0.00012571425437927253
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": true,
+            "exact": true,
+            "unsafeMatch": false,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": true,
+              "status": true
+            },
+            "errors": [],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "synopsis",
+              "candidateId": "",
+              "status": "unknown",
+              "confidence": 0.9
+            }
+          },
+          "elapsedMs": 4373
+        },
+        {
+          "caseId": "dinner",
+          "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://www.primevideo.com/detail/0TKRFV2FB8U18G5WS16GFOXNG2 official Korean detail explicitly labels2025 animation and voice cast; metadata copied from actual extension extraction. No fake live-action distractor is added.",
+          "expected": {
+            "titleId": "work",
+            "imageId": "poster",
+            "descriptionId": "synopsis",
+            "candidateId": "a",
+            "status": "match"
+          },
+          "raw": "{\"titleId\":\"work\",\"imageId\":\"poster\",\"descriptionId\":\"synopsis\",\"candidateId\":\"a\",\"status\":\"ambiguous\",\"confidence\":0.95}",
+          "usage": {
+            "completion_tokens": 34,
+            "prompt_tokens": 601,
+            "total_tokens": 635,
+            "extra": {
+              "e2e_latency_s": 4.625,
+              "prefill_tokens_per_s": 209.0071291949226,
+              "decode_tokens_per_s": 18.925273847635395,
+              "time_to_first_token_s": 2.8755,
+              "time_per_output_token_s": 0.0528393939263893,
+              "grammar_init_s": 0.009099999904632568,
+              "grammar_per_token_s": 0.00010882350977729352
+            }
+          },
+          "finishReason": "stop",
+          "score": {
+            "valid": false,
+            "exact": false,
+            "unsafeMatch": false,
+            "comparison": {
+              "titleId": true,
+              "imageId": true,
+              "descriptionId": true,
+              "candidateId": true,
+              "status": false
+            },
+            "errors": [
+              "보류 상태에 후보 지정"
+            ],
+            "answer": {
+              "titleId": "work",
+              "imageId": "poster",
+              "descriptionId": "synopsis",
+              "candidateId": "a",
+              "status": "ambiguous",
+              "confidence": 0.95
+            }
+          },
+          "elapsedMs": 4628
+        }
+      ],
+      "interrupted": false,
+      "summary": {
+        "cases": 4,
+        "valid": 1,
+        "exact": 1,
+        "unsafeMatches": 0,
+        "errors": 0,
+        "fields": {
+          "titleId": 4,
+          "imageId": 4,
+          "descriptionId": 4,
+          "candidateId": 3,
+          "status": 1
+        },
+        "totalMs": 16261
+      },
+      "finishedAt": "2026-11-13T09:26:40.642Z"
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+:root {
+  font-family: Inter, "Segoe UI", sans-serif;
+  color: #e8ecf2;
+  background: #10131b;
+  font-synthesis: none;
+  color-scheme: dark;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+main {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+header {
+  max-width: 850px;
+  margin-bottom: 32px;
+}
+h1 {
+  font-size: 38px;
+  margin: 8px 0 18px;
+}
+h2 {
+  font-size: 21px;
+  margin-top: 0;
+}
+p,
+footer {
+  line-height: 1.7;
+}
+.eyebrow {
+  color: #b8a0ff;
+  letter-spacing: 0.14em;
+  font-size: 12px;
+  font-weight: 700;
+}
+.muted,
+footer {
+  color: #a6afc2;
+}
+section {
+  border: 1px solid #343a4b;
+  border-radius: 16px;
+  padding: 24px;
+  margin-bottom: 22px;
+  background: #191e2a;
+}
+label {
+  display: block;
+  margin: 14px 0;
+}
+select {
+  max-width: 100%;
+  padding: 10px 12px;
+  margin: 6px 12px;
+  border: 1px solid #41495c;
+  border-radius: 7px;
+  background: #101620;
+  color: inherit;
+}
+.check {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 18px 0;
+}
+button,
+.file-label {
+  font: inherit;
+  padding: 10px 15px;
+  border: 1px solid #606d91;
+  border-radius: 7px;
+  color: #e8ecf2;
+  background: #29354c;
+  cursor: pointer;
+  margin: 0;
+}
+button:first-child {
+  background: #7052ca;
+}
+button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+input[type="file"] {
+  display: block;
+  max-width: 100%;
+  margin-top: 8px;
+}
+progress {
+  width: 100%;
+  height: 9px;
+}
+pre {
+  padding: 16px;
+  white-space: pre-wrap;
+  word-break: break-word;
+  max-height: 480px;
+  overflow: auto;
+  background: #0e1420;
+  border-radius: 8px;
+  font-size: 12px;
+}
+details {
+  margin: 16px 0;
+}
+summary {
+  cursor: pointer;
+}
+.table-wrap {
+  overflow-x: auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th,
+td {
+  padding: 12px;
+  border-bottom: 1px solid #343a4b;
+  font-size: 14px;
+}
+th {
+  color: #aab7d0;
+}
+footer {
+  font-size: 13px;
+}
+.pass {
+  color: #9ce0ad;
+}
+.fail {
+  color: #ffaaa5;
+}
+a {
+  color: #c1afff;
+}

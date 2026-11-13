@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "name": "실제8작품 공식 관측 자료 · 2026-11-13",
+  "curation": {
+    "reviewedBy": "human-directed agent review before model inference",
+    "labelsAreModelGenerated": false,
+    "scope": "Metadata and catalog identity decisions only; not entitlement. Each case is a compact replay of separately observed source and target evidence, not a full HTML capture.",
+    "split": "Calibration: witch/frieren/apothecary/nia. Holdout: sakura/rezero/dungeon/dinner.",
+    "limitations": [
+      "Eight hand-curated cases are too few to establish general accuracy.",
+      "Source snippets are at most100 characters; no account content or cookies.",
+      "No candidate URL or title is synthetic. No unobserved image is generated.",
+      "Sakura image extraction failure and Apothecary placeholder description are excluded, not silently accepted as correct metadata.",
+      "Nia short-title gold intentionally abstains without an observed alias; full-source-title searches are a different input.",
+      "Frieren query audio edition is intentionally unspecified; a user-selected explicit subtitle version is a different input."
+    ]
+  },
+  "cases": [
+    {
+      "id": "witch",
+      "split": "calibration",
+      "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://laftel.net/item/42783; target title, image and actual card navigation verified at https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+      "input": {
+        "provider": "wavve",
+        "query": {
+          "title": "어느 마녀가 죽을 때까지",
+          "aliases": [],
+          "kind": "series",
+          "version": "",
+          "year": null
+        },
+        "complete": false,
+        "evidence": [
+          {
+            "id": "work",
+            "kind": "title",
+            "value": "어느 마녀가 죽을 때까지",
+            "role": "extracted-detail-title",
+            "scope": "source-main-work"
+          },
+          {
+            "id": "poster",
+            "kind": "image",
+            "value": "https://thumbnail.laftel.net/items/home/041ea335-93af-488a-a9e6-bb102dc7a52c.jpg",
+            "role": "extracted-poster",
+            "scope": "source-main-work"
+          },
+          {
+            "id": "synopsis",
+            "kind": "description",
+            "value": "'너, 1년 뒤에 죽는다' 17세가 되는 생일을 맞이한 견습 마녀 메구 라즈베리는, 마법 스승이자 마법계 톱인 칠현인에 이름을 올린 '영년의 마녀' 파우스트로부터 갑작스럽게 여명 ",
+            "role": "extracted-synopsis",
+            "scope": "source-main-work"
+          }
+        ],
+        "candidates": [
+          {
+            "id": "a",
+            "title": "어느 마녀가 죽을 때까지",
+            "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+            "aliases": [],
+            "kind": "series",
+            "version": "",
+            "year": null
+          }
+        ]
+      },
+      "expected": {
+        "titleId": "work",
+        "imageId": "poster",
+        "descriptionId": "synopsis",
+        "candidateId": "a",
+        "status": "match"
+      }
+    },
+    {
+      "id": "frieren",
+      "split": "calibration",
+      "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://laftel.net/item/41666; metadata query has no audio version; independent Wavve normal-click URLs from https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C; sub/dub distinction is unresolved in this deliberately version-unspecified query, not in the original source selection.",
+      "input": {
+        "provider": "wavve",
+        "query": {
+          "title": "장송의 프리렌",
+          "aliases": [],
+          "kind": "series",
+          "version": "",
+          "year": null
+        },
+        "complete": false,
+        "evidence": [
+          {
+            "id": "work",
+            "kind": "title",
+            "value": "장송의 프리렌",
+            "role": "extracted-detail-title",
+            "scope": "source-main-work"
+          },
+          {
+            "id": "poster",
+            "kind": "image",
+            "value": "https://thumbnail.laftel.net/items/home/4c17a007-ef14-46a2-b54a-e42d563154a1.jpg",
+            "role": "extracted-poster",
+            "scope": "source-main-work"
+          },
+          {
+            "id": "synopsis",
+            "kind": "description",
+            "value": "용사 힘멜 일행과 함께 10년에 걸친 모험 끝에 마왕을 물리치고 세계에 평화를 가져온 마법사 프리렌. 천 년을 넘게 사는 엘프인 그녀는 힘멜 일행과 재회를 약속하고 혼자 여행을 떠",
+            "role": "extracted-synopsis",
+            "scope": "source-main-work"
+          }
+        ],
+        "candidates": [
+          {
+            "id": "a",
+            "title": "장송의 프리렌 (자막)",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000690&landing=season",
+            "aliases": [],
+            "kind": "series",
+            "version": "season-1;subtitled",
+            "year": null
+          },
+          {
+            "id": "b",
+            "title": "장송의 프리렌 (더빙)",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000792&landing=season",
+            "aliases": [],
+            "kind": "series",
+            "version": "season-1;dubbed",
+            "year": null
+          },
+          {
+            "id": "c",
+            "title": "장송의 프리렌 2기 (더빙)",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000930&landing=season",
+            "aliases": [],
+            "kind": "series",
+            "version": "season-2;dubbed",
+            "year": null
+          },
+          {
+            "id": "d",
+            "title": "장송의 프리렌 2기 (자막)",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000904&landing=season",
+            "aliases": [],
+            "kind": "series",
+            "version": "season-2;subtitled",
+            "year": null
+          }
+        ]
+      },
+      "expected": {
+        "titleId": "work",
+        "imageId": "poster",
+        "descriptionId": "synopsis",
+        "candidateId": "",
+        "status": "ambiguous"
+      }
+    },
+    {
+      "id": "apothecary",
+      "split": "calibration",
+      "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://laftel.net/item/41714; direct official series https://www.netflix.com/kr/title/81712068 versus recap https://www.netflix.com/kr/title/83186246; Laftel placeholder description {줄거리} omitted; available means catalog identity only.",
+      "input": {
+        "provider": "netflix",
+        "query": {
+          "title": "약사의 혼잣말",
+          "aliases": [],
+          "kind": "series",
+          "version": "",
+          "year": null
+        },
+        "complete": false,
+        "evidence": [
+          {
+            "id": "work",
+            "kind": "title",
+            "value": "약사의 혼잣말",
+            "role": "extracted-detail-title",
+            "scope": "source-main-work"
+          },
+          {
+            "id": "poster",
+            "kind": "image",
+            "value": "https://thumbnail.laftel.net/items/full/d10d1dee-784c-4a15-916a-565ab561c511.jpg?c=0%2C589%2C1000%2C1151",
+            "role": "extracted-poster",
+            "scope": "source-main-work"
+          }
+        ],
+        "candidates": [
+          {
+            "id": "a",
+            "title": "약사의 혼잣말",
+            "url": "https://www.netflix.com/kr/title/81712068",
+            "aliases": [],
+            "kind": "series",
+            "version": "",
+            "year": null
+          },
+          {
+            "id": "b",
+            "title": "총집편 약사의 혼잣말",
+            "url": "https://www.netflix.com/kr/title/83186246",
+            "aliases": [],
+            "kind": "recap",
+            "version": "",
+            "year": null
+          }
+        ]
+      },
+      "expected": {
+        "titleId": "work",
+        "imageId": "poster",
+        "descriptionId": "",
+        "candidateId": "a",
+        "status": "match"
+      }
+    },
+    {
+      "id": "nia",
+      "split": "calibration",
+      "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://www.aniplustv.com/Search?st=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4 echoed short query; candidate full title from https://www.aniplustv.com/items/3960; source metadata from https://laftel.net/item/47452; no independently observed alias in the input ties the short query to the full subtitle. This conservative gold label tests insufficient alias evidence, not a claim that these are different works.",
+      "input": {
+        "provider": "aniplus",
+        "query": {
+          "title": "흉란영애 니아 리스톤",
+          "aliases": [],
+          "kind": "series",
+          "version": "",
+          "year": null
+        },
+        "complete": false,
+        "evidence": [
+          {
+            "id": "work",
+            "kind": "title",
+            "value": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+            "role": "extracted-detail-title",
+            "scope": "source-main-work"
+          },
+          {
+            "id": "poster",
+            "kind": "image",
+            "value": "https://thumbnail.laftel.net/items/home/8e8a2d6f-d2a7-4650-a34a-858948cebb6a.jpg",
+            "role": "extracted-poster",
+            "scope": "source-main-work"
+          },
+          {
+            "id": "synopsis",
+            "kind": "description",
+            "value": "'이왕이면, 싸우다가 죽고 싶었다' 한때 신살을 달성해 낸 대영웅은, 죽음 직전에 자신을 죽일 수 있을 정도로 강한 상대와 만나는 것을 꿈꿨다. 하지만 대영웅을 기다리고 있었던 병",
+            "role": "extracted-synopsis",
+            "scope": "source-main-work"
+          }
+        ],
+        "candidates": [
+          {
+            "id": "a",
+            "title": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+            "url": "https://www.aniplustv.com/items/3960",
+            "aliases": [],
+            "kind": "series",
+            "version": "",
+            "year": null
+          }
+        ]
+      },
+      "expected": {
+        "titleId": "work",
+        "imageId": "poster",
+        "descriptionId": "synopsis",
+        "candidateId": "",
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "sakura",
+      "split": "holdout",
+      "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://tv.apple.com/kr/show/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d is a TVSeries; https://tv.apple.com/kr/movie/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2o53u5rxd65rhk9klisyfndbh is the separate Movie, direct public HTTP200 and matching h1 checked. Query uses the observed localized title, not an invented Sakura-to-Cherry alias. Apple displayed catalog date2018 is not treated as original1998 release year. Baseline extracted image was the HTML detail URL and is omitted.",
+      "input": {
+        "provider": "apple",
+        "query": {
+          "title": "카드캡터 체리",
+          "aliases": [],
+          "kind": "series",
+          "version": "",
+          "year": null
+        },
+        "complete": false,
+        "evidence": [
+          {
+            "id": "work",
+            "kind": "title",
+            "value": "카드캡터 체리",
+            "role": "extracted-detail-title",
+            "scope": "source-main-work"
+          }
+        ],
+        "candidates": [
+          {
+            "id": "a",
+            "title": "카드캡터 체리",
+            "url": "https://tv.apple.com/kr/show/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d",
+            "aliases": [],
+            "kind": "series",
+            "version": "",
+            "year": null
+          },
+          {
+            "id": "b",
+            "title": "카드캡터 체리",
+            "url": "https://tv.apple.com/kr/movie/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2o53u5rxd65rhk9klisyfndbh",
+            "aliases": [],
+            "kind": "movie",
+            "version": "",
+            "year": null
+          }
+        ]
+      },
+      "expected": {
+        "titleId": "work",
+        "imageId": "",
+        "descriptionId": "",
+        "candidateId": "a",
+        "status": "match"
+      }
+    },
+    {
+      "id": "rezero",
+      "split": "holdout",
+      "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://tv.apple.com/kr/show/re-%E1%84%8C%E1%85%A6%E1%84%85%E1%85%A9%E1%84%87%E1%85%AE%E1%84%90%E1%85%A5-%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A6%E1%84%80%E1%85%A8-%E1%84%89%E1%85%A2%E1%86%BC%E1%84%92%E1%85%AA%E1%86%AF/umc.cmc.4zdqlm8jim5xrtehsf1w67ano bare catalog heading; https://www.netflix.com/kr/title/81262169 explicitly identifies director cut. Exact source edition is not established, so no automatic edition substitution. Query version/year remain empty, not fabricated original/2016.",
+      "input": {
+        "provider": "netflix",
+        "query": {
+          "title": "Re: 제로부터 시작하는 이세계 생활",
+          "aliases": [],
+          "kind": "series",
+          "version": "",
+          "year": null
+        },
+        "complete": false,
+        "evidence": [
+          {
+            "id": "work",
+            "kind": "title",
+            "value": "Re: 제로부터 시작하는 이세계 생활",
+            "role": "h1",
+            "scope": "source-main-work"
+          }
+        ],
+        "candidates": [
+          {
+            "id": "a",
+            "title": "Re:제로부터 시작하는 이세계 생활 감독판",
+            "url": "https://www.netflix.com/kr/title/81262169",
+            "aliases": [],
+            "kind": "series",
+            "version": "director-cut",
+            "year": null
+          }
+        ]
+      },
+      "expected": {
+        "titleId": "work",
+        "imageId": "",
+        "descriptionId": "",
+        "candidateId": "",
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "dungeon",
+      "split": "holdout",
+      "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://www.netflix.com/title/81564899 verified source title/year/metadata. The independent anonymous HTTP Netflix search in artifacts/cross-check-http.json is login-blocked. No candidate evidence and complete=false do not establish absence; this is not the skipped same-source extension cell.",
+      "input": {
+        "provider": "netflix",
+        "query": {
+          "title": "던전밥",
+          "aliases": [],
+          "kind": "series",
+          "version": "",
+          "year": 2024
+        },
+        "complete": false,
+        "evidence": [
+          {
+            "id": "work",
+            "kind": "title",
+            "value": "던전밥",
+            "role": "extracted-detail-title",
+            "scope": "source-main-work"
+          },
+          {
+            "id": "poster",
+            "kind": "image",
+            "value": "https://occ-0-8158-395.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABUJDbfBYUrZaXPcCJPPaBm5FJBNtSC5cqSTcyrG2wYzLGKUd0pDNHP_Bmv1MFDbFdDY4wMQVA2EpL70mi027SselxZtPzyhUQlWY.webp?r=446",
+            "role": "extracted-poster",
+            "scope": "source-main-work"
+          },
+          {
+            "id": "synopsis",
+            "kind": "description",
+            "value": "던전, 드래곤... 그리고 뜨끈한 몬스터 전골! ? 동료를 구하기 위해 저주받은 지하 왕국으로 뛰어든 모험가들. 수많은 몬스터를 '요리'하며 던전을 돌파해 간다.",
+            "role": "extracted-synopsis",
+            "scope": "source-main-work"
+          }
+        ],
+        "candidates": []
+      },
+      "expected": {
+        "titleId": "work",
+        "imageId": "poster",
+        "descriptionId": "synopsis",
+        "candidateId": "",
+        "status": "unknown"
+      }
+    },
+    {
+      "id": "dinner",
+      "split": "holdout",
+      "provenance": "2026-11-13; manually curated expected answers before inference; not model-generated. https://www.primevideo.com/detail/0TKRFV2FB8U18G5WS16GFOXNG2 official Korean detail explicitly labels2025 animation and voice cast; metadata copied from actual extension extraction. No fake live-action distractor is added.",
+      "input": {
+        "provider": "prime",
+        "query": {
+          "title": "수수께끼 풀이는 저녁식사 후에",
+          "aliases": [],
+          "kind": "series",
+          "version": "animation",
+          "year": 2025
+        },
+        "complete": false,
+        "evidence": [
+          {
+            "id": "work",
+            "kind": "title",
+            "value": "수수께끼 풀이는 저녁식사 후에",
+            "role": "extracted-detail-title",
+            "scope": "source-main-work"
+          },
+          {
+            "id": "poster",
+            "kind": "image",
+            "value": "https://m.media-amazon.com/images/S/pv-target-images/9dd51bca4d4ee8a3a9e7ab14c580a0b5f2ca90af6c81060edc188615fa4e4df9.jpg",
+            "role": "extracted-poster",
+            "scope": "source-main-work"
+          },
+          {
+            "id": "synopsis",
+            "kind": "description",
+            "value": "부유한 상속녀 호쇼 레이코는 새내기 형사로서 이중생활을 하고 있다. 그녀는 마찬가지로 부잣집 도련님인 카자마츠리 경부 밑에서 범죄와 맞서 싸운다. 매일 근무가 끝난 뒤, 레이코는 ",
+            "role": "extracted-synopsis",
+            "scope": "source-main-work"
+          }
+        ],
+        "candidates": [
+          {
+            "id": "a",
+            "title": "수수께끼 풀이는 저녁식사 후에",
+            "url": "https://www.primevideo.com/detail/0TKRFV2FB8U18G5WS16GFOXNG2",
+            "aliases": [],
+            "kind": "series",
+            "version": "animation",
+            "year": 2025
+          }
+        ]
+      },
+      "expected": {
+        "titleId": "work",
+        "imageId": "poster",
+        "descriptionId": "synopsis",
+        "candidateId": "a",
+        "status": "match"
+      }
+    }
+  ]
+}

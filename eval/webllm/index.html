@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>OTT Switch · WebLLM 평가실</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="eyebrow">OTT SWITCH · LOCAL EVALUATION</p>
+        <h1>WebLLM 평가실</h1>
+        <p>
+          관측한 페이지 근거에서 제목·이미지·소개와 작품 후보를 고르고, 별도로
+          보관한 정답과 비교합니다. 확장 기능의 기본 동작에는 영향을 주지
+          않습니다.
+        </p>
+      </header>
+      <section aria-labelledby="runtime-title">
+        <h2 id="runtime-title">1. 실행 환경</h2>
+        <p id="gpu" role="status">WebGPU 확인 중…</p>
+        <label
+          >모델
+          <select id="model"></select
+        ></label>
+        <p id="model-info" class="muted">
+          모델 가중치는 처음 실행할 때 수백 MB 이상 내려받으며 브라우저에
+          캐시됩니다.
+        </p>
+        <label class="check"
+          ><input id="consent" type="checkbox" />선택한 모델을 내려받아 이
+          기기에서 실행합니다.</label
+        >
+        <div class="actions">
+          <button id="load">모델 다운로드·불러오기</button
+          ><button id="unload" disabled>메모리 해제</button
+          ><button id="delete-model">선택 모델 캐시 삭제</button>
+        </div>
+        <progress id="progress" max="1" value="0"></progress>
+        <p id="runtime-status" role="status">
+          모델을 아직 불러오지 않았습니다.
+        </p>
+      </section>
+      <section aria-labelledby="dataset-title">
+        <h2 id="dataset-title">2. 평가 자료</h2>
+        <p id="dataset-name"></p>
+        <p class="muted">
+          기본 자료는 작성된 회귀 사례입니다. 실제 검색 결과의 제공 여부를
+          증명하지 않습니다. 실제 관측 자료는 JSON으로 가져와 평가할 수
+          있습니다. 정답과 사례 이름은 모델에 전달하지 않습니다.
+        </p>
+        <div class="actions">
+          <label class="file-label"
+            >JSON 자료 가져오기
+            <input
+              id="import"
+              type="file"
+              accept="application/json,.json" /></label
+          ><button id="sample">현재 자료 내보내기</button>
+        </div>
+        <label
+          >템플릿
+          <select id="template"></select></label
+        ><label
+          >평가 구분
+          <select id="split">
+            <option value="calibration">조정용 · calibration</option>
+            <option value="holdout">검증용 · holdout</option>
+          </select></label
+        >
+        <p class="muted">
+          조정용 결과로 템플릿을 고친 후 검증용 결과를 별도로 확인하세요. 검증
+          자료를 보고 수정하면 그 자료는 더 이상 독립 검증이 아닙니다.
+        </p>
+        <details>
+          <summary>현재 템플릿과 입력 자료 확인</summary>
+          <pre id="preview"></pre>
+        </details>
+        <div class="actions">
+          <button id="run" disabled>선택 자료 평가</button
+          ><button id="stop" disabled>실행 중단</button
+          ><button id="export" disabled>평가 결과 JSON 저장</button>
+        </div>
+      </section>
+      <section aria-labelledby="results-title">
+        <h2 id="results-title">3. 결과</h2>
+        <p id="summary" role="status">아직 평가하지 않았습니다.</p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>사례</th>
+                <th>정답 일치</th>
+                <th>부적절한 일치</th>
+                <th>시간</th>
+                <th>판정</th>
+              </tr>
+            </thead>
+            <tbody id="rows"></tbody>
+          </table>
+        </div>
+        <details>
+          <summary>상세 응답</summary>
+          <pre id="details"></pre>
+        </details>
+      </section>
+      <footer>
+        출력은 평가용 제안입니다. 모델 신뢰도는 검증된 확률이 아니며, 자동
+        이동이나 한국 구독 포함 여부의 근거로 사용하지 않습니다. 페이지 자료는
+        모델 추론 서버로 보내지 않습니다. 모델 파일은 공식 WebLLM 카탈로그의
+        외부 호스트에서 내려받습니다.
+      </footer>
+    </main>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
