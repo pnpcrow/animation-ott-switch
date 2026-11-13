@@ -39,7 +39,7 @@ for number, row in enumerate(rows):
     user = row["prompt"].removesuffix("Best answer: [")
     prompt = tokenizer.apply_chat_template([{"role":"user","content":user}], tokenize=False, add_generation_prompt=True, enable_thinking=False) + "Best answer: ["
     began=time.perf_counter()
-    result={"id":row["id"],"split":row["split"],"template":row["template"],"scenario":row.get("scenario"),"expectedId":row["expectedId"],"acceptedIds":row.get("acceptedIds",[row["expectedId"]]),"options":[{"id":o["id"]} for o in row["options"]]}
+    result={"id":row["id"],"split":row["split"],"template":row["template"],"scenario":row.get("scenario"),"cohort":row.get("cohort"),"expectedId":row["expectedId"],"acceptedIds":row.get("acceptedIds",[row["expectedId"]]),"options":[{"id":o["id"]} for o in row["options"]]}
     try:
         output=suffix_scores(model,tokenizer,prompt,len(row["options"]),row.get("indexBase",1))
         result.update(output)

@@ -32,3 +32,8 @@ export function decisionPrompt(row, templateId) {
   if (!template) throw new Error(`Unknown template: ${templateId}`);
   return `${template.instruction}\n\nDocument:\n${row.document}\n\nQuestion: ${row.question}\n\nOptions:\n${row.options.map((o, i) => `[${i + 1}] ${o.text}`).join("\n")}\n\nSelect one option. Answer only with its bracketed numeric identifier.\n\nBest answer: [`;
 }
+
+// Fixed format control matching the author's decision.j2, never a holdout-tuned template.
+export function authorDecisionPrompt(row) {
+  return `State: \n${row.document}\n\n${row.question}\nOptions:\n${row.options.map((o, i) => `[${i + 1}] ${o.text}`).join("\n")}\nSelect one option. Answer only with its bracketed numeric identifier.\n\nBest answer: [`;
+}

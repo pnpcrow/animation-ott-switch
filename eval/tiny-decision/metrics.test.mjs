@@ -1,6 +1,10 @@
 import test from "node:test";
 import assert from "node:assert/strict";
-import { decisionPrompt, templates } from "./templates.mjs";
+import {
+  decisionPrompt,
+  templates,
+  authorDecisionPrompt,
+} from "./templates.mjs";
 import { score, summarize, selectTemplate } from "./metrics.mjs";
 const row = {
   id: "private-case",
@@ -21,6 +25,13 @@ test("templates never leak expected IDs, split, case labels or provenance", () =
     for (const secret of [row.id, row.split, row.provenance, row.expectedId])
       assert.ok(!p.includes(secret));
   }
+});
+test("author-format control uses only observed state, question and numbered options", () => {
+  const prompt = authorDecisionPrompt(row);
+  assert.ok(prompt.startsWith("State: \n"));
+  assert.ok(prompt.endsWith("Best answer: ["));
+  for (const secret of [row.id, row.split, row.provenance, row.expectedId])
+    assert.ok(!prompt.includes(secret));
 });
 test("abstention, invalid IDs and runtime errors remain in accuracy denominator", () => {
   const stats = summarize([

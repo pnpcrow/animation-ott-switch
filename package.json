@@ -9,6 +9,7 @@
     "dev": "node scripts/dev.mjs",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
+    "test:decision-eval": "node --test eval/tiny-decision/dataset.test.mjs eval/tiny-decision/challenge.test.mjs eval/tiny-decision/metrics.test.mjs eval/tiny-decision/report.test.mjs eval/tiny-decision/needle3/templates.test.mjs",
     "test:e2e": "playwright test",
     "check": "npm run typecheck && npm test && npm run build",
     "package": "npm run build && node scripts/package.mjs",

@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8" /><title>Needle3 isolated DOM evaluation</title>
+  <body>
+    <h1>Needle3 DOM evaluation</h1>
+    <p>CPU WebAssembly; no page actions are executed.</p>
+    <script src="/assets/cactus.js"></script>
+    <script type="module">
+      import { load, complete } from "/runtime.mjs";
+      globalThis.needle3 = { load, complete };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,1177 @@
+{
+  "model": "generic-dom-heuristic-compact",
+  "runtime": "JavaScript deterministic",
+  "information": "Unmodified frozen compact-input rules applied to dependent stress/compact holdout pairs; not new independent samples",
+  "sources": [
+    "dom-selection-stress.json",
+    "dom-selection-compact.json"
+  ],
+  "rulesSha256": "de220fa60bb9cc856d19034745c16c68f6cfb9746d137b5c8e34e938c121d20f",
+  "results": [
+    {
+      "id": "sakura-title::candidate-permutation",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "optionIds": [
+        "t3",
+        "__none__",
+        "t6",
+        "t2",
+        "t8",
+        "t5",
+        "t7",
+        "t1",
+        "t4"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 2.6754999999999995
+    },
+    {
+      "id": "sakura-title::class-rename",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "optionIds": [
+        "t2",
+        "t6",
+        "t8",
+        "t7",
+        "t3",
+        "t4",
+        "__none__",
+        "t5",
+        "t1"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.41209999999999525
+    },
+    {
+      "id": "sakura-image::candidate-permutation",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "optionIds": [
+        "i1",
+        "i6",
+        "i5",
+        "i7",
+        "i4",
+        "i2",
+        "i3",
+        "i8",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.5284000000000049
+    },
+    {
+      "id": "sakura-image::class-rename",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "i7",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "optionIds": [
+        "i7",
+        "i8",
+        "i3",
+        "i1",
+        "__none__",
+        "i5",
+        "i6",
+        "i2",
+        "i4"
+      ],
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 0.1349000000000018
+    },
+    {
+      "id": "sakura-description::candidate-permutation",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "d3",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "optionIds": [
+        "d3",
+        "d6",
+        "d8",
+        "d1",
+        "d4",
+        "d7",
+        "d5",
+        "__none__",
+        "d2"
+      ],
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 0.4479999999999933
+    },
+    {
+      "id": "sakura-description::class-rename",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "d3",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "optionIds": [
+        "__none__",
+        "d3",
+        "d7",
+        "d1",
+        "d5",
+        "d2",
+        "d4",
+        "d6",
+        "d8"
+      ],
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 0.1589000000000027
+    },
+    {
+      "id": "rezero-title::candidate-permutation",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "optionIds": [
+        "t6",
+        "t2",
+        "t8",
+        "t7",
+        "t4",
+        "__none__",
+        "t1",
+        "t3",
+        "t5"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.10639999999999361
+    },
+    {
+      "id": "rezero-title::class-rename",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "optionIds": [
+        "__none__",
+        "t5",
+        "t1",
+        "t7",
+        "t3",
+        "t2",
+        "t8",
+        "t4",
+        "t6"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.10269999999999868
+    },
+    {
+      "id": "rezero-image::candidate-permutation",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "optionIds": [
+        "i8",
+        "i4",
+        "__none__",
+        "i3",
+        "i6",
+        "i5",
+        "i7",
+        "i1",
+        "i2"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.09000000000000341
+    },
+    {
+      "id": "rezero-image::class-rename",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "optionIds": [
+        "i5",
+        "i4",
+        "i3",
+        "i7",
+        "i6",
+        "i8",
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.11239999999999384
+    },
+    {
+      "id": "rezero-description::candidate-permutation",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "d2",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "optionIds": [
+        "d5",
+        "__none__",
+        "d1",
+        "d4",
+        "d3",
+        "d7",
+        "d6",
+        "d8",
+        "d2"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.20279999999999632
+    },
+    {
+      "id": "rezero-description::class-rename",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "d2",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "optionIds": [
+        "d6",
+        "d1",
+        "d5",
+        "__none__",
+        "d7",
+        "d8",
+        "d4",
+        "d3",
+        "d2"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.1167999999999978
+    },
+    {
+      "id": "dungeon-title::candidate-permutation",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "optionIds": [
+        "t5",
+        "t2",
+        "t6",
+        "t7",
+        "t8",
+        "t1",
+        "t3",
+        "t4",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.08300000000001262
+    },
+    {
+      "id": "dungeon-title::class-rename",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "optionIds": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t6",
+        "t5",
+        "t8",
+        "__none__",
+        "t7"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.07630000000000337
+    },
+    {
+      "id": "dungeon-image::candidate-permutation",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "optionIds": [
+        "i7",
+        "__none__",
+        "i5",
+        "i6",
+        "i1",
+        "i2",
+        "i3",
+        "i8",
+        "i4"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.08420000000000982
+    },
+    {
+      "id": "dungeon-image::class-rename",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "optionIds": [
+        "i1",
+        "i3",
+        "i8",
+        "i2",
+        "i7",
+        "i6",
+        "__none__",
+        "i5",
+        "i4"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.07739999999999725
+    },
+    {
+      "id": "dungeon-description::candidate-permutation",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "d2",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d1",
+        "d2"
+      ],
+      "optionIds": [
+        "d4",
+        "d2",
+        "d6",
+        "d5",
+        "d7",
+        "d1",
+        "__none__",
+        "d8",
+        "d3"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.13400000000000034
+    },
+    {
+      "id": "dungeon-description::class-rename",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "d2",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d1",
+        "d2"
+      ],
+      "optionIds": [
+        "d3",
+        "d2",
+        "d5",
+        "__none__",
+        "d8",
+        "d7",
+        "d4",
+        "d6",
+        "d1"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.10370000000000346
+    },
+    {
+      "id": "dinner-title::candidate-permutation",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "optionIds": [
+        "t1",
+        "t3",
+        "t6",
+        "t4",
+        "__none__",
+        "t2",
+        "t7",
+        "t8",
+        "t5"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.1711999999999989
+    },
+    {
+      "id": "dinner-title::class-rename",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "optionIds": [
+        "t7",
+        "t6",
+        "t1",
+        "t2",
+        "t4",
+        "t5",
+        "__none__",
+        "t3",
+        "t8"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.0875999999999948
+    },
+    {
+      "id": "dinner-image::candidate-permutation",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "i1",
+      "expectedId": "i3",
+      "acceptedIds": [
+        "i1",
+        "i3"
+      ],
+      "optionIds": [
+        "i8",
+        "i6",
+        "i7",
+        "i5",
+        "i2",
+        "i1",
+        "__none__",
+        "i3",
+        "i4"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.07509999999999195
+    },
+    {
+      "id": "dinner-image::class-rename",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "i1",
+      "expectedId": "i3",
+      "acceptedIds": [
+        "i1",
+        "i3"
+      ],
+      "optionIds": [
+        "__none__",
+        "i3",
+        "i7",
+        "i8",
+        "i5",
+        "i2",
+        "i4",
+        "i6",
+        "i1"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.07949999999999591
+    },
+    {
+      "id": "dinner-description::candidate-permutation",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "d1",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "optionIds": [
+        "__none__",
+        "d1"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.029200000000003
+    },
+    {
+      "id": "dinner-description::class-rename",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "d1",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.023299999999991883
+    },
+    {
+      "id": "dungeon-watcha-search-title::candidate-permutation",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "t2",
+        "__none__",
+        "t1"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.030000000000001137
+    },
+    {
+      "id": "dungeon-watcha-search-title::class-rename",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "t1",
+        "__none__",
+        "t2"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.022900000000007026
+    },
+    {
+      "id": "dungeon-watcha-search-image::candidate-permutation",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "__none__",
+        "i1"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.017399999999994975
+    },
+    {
+      "id": "dungeon-watcha-search-image::class-rename",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "i1",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.022900000000007026
+    },
+    {
+      "id": "dungeon-watcha-search-description::candidate-permutation",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "__none__",
+        "d1"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.01999999999999602
+    },
+    {
+      "id": "dungeon-watcha-search-description::class-rename",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.028300000000001546
+    },
+    {
+      "id": "dungeon-coupang-search-title::candidate-permutation",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "t1",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.15689999999999316
+    },
+    {
+      "id": "dungeon-coupang-search-title::class-rename",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "__none__",
+        "t1"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.01630000000000109
+    },
+    {
+      "id": "dungeon-coupang-search-image::candidate-permutation",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.006100000000003547
+    },
+    {
+      "id": "dungeon-coupang-search-image::class-rename",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.005800000000007799
+    },
+    {
+      "id": "dungeon-coupang-search-description::candidate-permutation",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "d1",
+        "__none__",
+        "d2"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.015700000000009595
+    },
+    {
+      "id": "dungeon-coupang-search-description::class-rename",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "d1",
+        "d2",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.013099999999994338
+    },
+    {
+      "id": "sakura-title::compact",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "optionIds": [
+        "t2",
+        "t6",
+        "t8",
+        "t7",
+        "t3",
+        "t4",
+        "__none__",
+        "t5",
+        "t1"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.08780000000000143
+    },
+    {
+      "id": "sakura-image::compact",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "i7",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "optionIds": [
+        "i7",
+        "i8",
+        "i3",
+        "i1",
+        "__none__",
+        "i5",
+        "i6",
+        "i2",
+        "i4"
+      ],
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 0.08010000000000161
+    },
+    {
+      "id": "sakura-description::compact",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "d3",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "optionIds": [
+        "__none__",
+        "d3",
+        "d7",
+        "d1",
+        "d5",
+        "d2",
+        "d4",
+        "d6",
+        "d8"
+      ],
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 0.08729999999999905
+    },
+    {
+      "id": "rezero-title::compact",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "t3",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "optionIds": [
+        "__none__",
+        "t5",
+        "t1",
+        "t7",
+        "t3",
+        "t2",
+        "t8",
+        "t4",
+        "t6"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.0858000000000061
+    },
+    {
+      "id": "rezero-image::compact",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "optionIds": [
+        "i5",
+        "i4",
+        "i3",
+        "i7",
+        "i6",
+        "i8",
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.12239999999999895
+    },
+    {
+      "id": "rezero-description::compact",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "d2",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "optionIds": [
+        "d6",
+        "d1",
+        "d5",
+        "__none__",
+        "d7",
+        "d8",
+        "d4",
+        "d3",
+        "d2"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.06959999999999411
+    },
+    {
+      "id": "dungeon-title::compact",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "optionIds": [
+        "t1",
+        "t2",
+        "t3",
+        "t4",
+        "t6",
+        "t5",
+        "t8",
+        "__none__",
+        "t7"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.0653999999999968
+    },
+    {
+      "id": "dungeon-image::compact",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "i1",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "optionIds": [
+        "i1",
+        "i3",
+        "i8",
+        "i2",
+        "i7",
+        "i6",
+        "__none__",
+        "i5",
+        "i4"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.07049999999999557
+    },
+    {
+      "id": "dungeon-description::compact",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "d2",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d1",
+        "d2"
+      ],
+      "optionIds": [
+        "d3",
+        "d2",
+        "d5",
+        "__none__",
+        "d8",
+        "d7",
+        "d4",
+        "d6",
+        "d1"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.11070000000000846
+    },
+    {
+      "id": "dinner-title::compact",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "t2",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "optionIds": [
+        "t7",
+        "t6",
+        "t1",
+        "t2",
+        "t4",
+        "t5",
+        "__none__",
+        "t3",
+        "t8"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.07039999999999225
+    },
+    {
+      "id": "dinner-image::compact",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "i1",
+      "expectedId": "i3",
+      "acceptedIds": [
+        "i1",
+        "i3"
+      ],
+      "optionIds": [
+        "__none__",
+        "i3",
+        "i7",
+        "i8",
+        "i5",
+        "i2",
+        "i4",
+        "i6",
+        "i1"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.06640000000000157
+    },
+    {
+      "id": "dinner-description::compact",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "d1",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.01290000000000191
+    },
+    {
+      "id": "dungeon-watcha-search-title::compact",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "t1",
+        "__none__",
+        "t2"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.011899999999997135
+    },
+    {
+      "id": "dungeon-watcha-search-image::compact",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "i1",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.0075999999999964984
+    },
+    {
+      "id": "dungeon-watcha-search-description::compact",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.007800000000003138
+    },
+    {
+      "id": "dungeon-coupang-search-title::compact",
+      "split": "holdout",
+      "field": "title",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "__none__",
+        "t1"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.007100000000008322
+    },
+    {
+      "id": "dungeon-coupang-search-image::compact",
+      "split": "holdout",
+      "field": "image",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.003900000000001569
+    },
+    {
+      "id": "dungeon-coupang-search-description::compact",
+      "split": "holdout",
+      "field": "description",
+      "chosenId": "__none__",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "d1",
+        "d2",
+        "__none__"
+      ],
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 0.010199999999997544
+    }
+  ],
+  "finishedAt": "2026-11-13T10:22:07.184Z"
+}
