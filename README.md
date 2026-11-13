@@ -1,6 +1,8 @@
 # OTT Switch
 
-마음에 든 작품을 내 OTT로 이어 보고, 작품 중심으로 모아 두는 Chrome Manifest V3 확장 프로그램입니다. **한국 서비스 우선 · 로컬 저장 · 비공개 알파 0.1.5**
+마음에 든 작품을 내 OTT로 이어 보고, 작품 중심으로 모아 두는 Chrome Manifest V3 확장 프로그램입니다. **한국 서비스 우선 · 로컬 저장 · 비공개 알파 0.1.6**
+
+v0.1.5로 만든 스토어 항목의 ID **`cmaijknliglhgokkmijggladebokgafl`**를 고정해 사용합니다. 빌드·패키징에서 공개키와 ID를 검증합니다. 버전은 업데이트마다 올리며 ID는 유지합니다. [식별자와 기존 데이터 전환 안내](docs/extension-identity.md)를 참고하세요.
 
 ## 개발 계획
 
@@ -34,17 +36,19 @@ npm run test:e2e
 npm run package
 ```
 
-빌드 결과는 `dist/`, 설치용 ZIP은 `release/ott-switch-0.1.5.zip`에 생성됩니다. `npm run dev`는 빌드 후 `http://127.0.0.1:4173/library.html`에 보관함 미리보기를 엽니다. localhost DB는 확장 DB와 별개이며 미리보기에서는 자동 OTT 조회를 하지 않습니다.
+빌드 결과는 `dist/`, 설치용 ZIP은 `release/ott-switch-0.1.6.zip`에 생성됩니다. `npm run dev`는 빌드 후 `http://127.0.0.1:4173/library.html`에 보관함 미리보기를 엽니다. localhost DB는 확장 DB와 별개이며 미리보기에서는 자동 OTT 조회를 하지 않습니다.
 
 ## 설치
 
-1. [v0.1.5 비공개 테스트 Release](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.5)에서 ZIP을 받아 압축을 풉니다. 또는 위 명령으로 `dist`를 빌드합니다. 같은 릴리즈에 한국어 성능 보고서(HTML/Markdown)와 원시 측정 JSON도 제공합니다.
+1. [v0.1.6 비공개 테스트 Release](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.6)에서 ZIP을 받아 압축을 풉니다. 또는 위 명령으로 `dist`를 빌드합니다. 한국어 성능 보고서(HTML/Markdown)와 원시 측정 JSON은 [v0.1.5 릴리즈](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.5)에 보존되어 있습니다.
 2. Chrome 주소창에서 `chrome://extensions`를 열고 **개발자 모드**를 켭니다.
 3. **압축해제된 확장 프로그램을 로드합니다**에서 `manifest.json`이 들어 있는 폴더를 선택합니다.
 4. 지원 OTT 작품 페이지를 새로고침하고 왼쪽 `OTT` 탭에서 카테고리를 선택해 저장합니다.
 5. 툴바의 OTT Switch 아이콘으로 보관함을 열고 설정에서 실제 구독 중인 서비스를 선택합니다.
 
 업데이트는 같은 폴더의 파일을 교체한 뒤 확장 **새로고침**을 사용하세요. 확장을 제거하면 로컬 데이터도 삭제되므로 먼저 JSON으로 백업하세요. 다른 설치 폴더·Chrome 프로필 간 이동도 JSON 백업을 이용합니다.
+
+v0.1.5까지의 공개키 없는 로컬 설치에서 처음 전환할 때는 ID가 달라질 수 있습니다. 현재 ID가 위 고정 ID와 다르면 **기존 확장에서 전체 JSON 백업을 먼저 내보내고**, 고정 ID 설치에서 가져오세요. 이후 같은 ID의 업데이트에서는 기존 저장소를 이어서 사용합니다.
 
 ## 현재 기능
 
@@ -68,6 +72,8 @@ Google Drive 연결은 **아직 구현하지 않았습니다**. 수정 시각·�
 
 ## 검증 및 구조
 
+0.1.6은 스토어 공개키와 ID를 고정하는 패치입니다. 서로 다른 설치 폴더의 동일 ID, 같은 ID 업데이트 시 보관함 유지, v0.1.5 저장 형식 호환성을 검사합니다. [0.1.6 변경 기록](docs/release-0.1.6.md)에 검증 및 등록 안내가 있습니다.
+
 0.1.5는 작품 영역 안에서 제목·설명·이미지 후보를 따로 읽는 국소 DOM 수집과 링크 제목의 소유 범위 검증을 적용합니다. JS에 명시된 작품 URL도 실제 상세 페이지 확인 후 이동합니다. [한국어 성능 보고서](docs/performance-0.1.5.md)에 처리 시간·입력 크기·후보 회수와 과거 모델 실험을 분리해 정리했습니다. [변경 기록](docs/release-0.1.5.md)에서 설치 및 검증 범위를 확인할 수 있습니다.
 
 0.1.4에서는 제공된 8개 작품의 [교차 검증 결과](docs/cross-check-2026-11-13.md)를 기록했습니다. 애니플러스의 URL 없는 카드·상세 레이어, 티빙의 `포스터`·`1화` 제목 장식, 자막/더빙 표기 위치를 보완하고 잘못된 Apple 검색 부재 판정을 수정했습니다. 단위 테스트 339개와 브라우저 회귀 테스트 28개, 선택형 평가 도구의 계약 검사 7개가 통과했습니다. 실제 카탈로그 조사와 확장 이동, 모델 품질 평가는 구분해 기록합니다.
@@ -88,6 +94,7 @@ Google Drive 연결은 **아직 구현하지 않았습니다**. 수정 시각·�
 - [개인정보 및 권한](docs/privacy.md)
 - [8작품 교차 검증](docs/cross-check-2026-11-13.md) · [선택형 WebLLM 평가 도구](eval/webllm/README.md)
 - [0.1.5 변경 기록](docs/release-0.1.5.md) · [성능 검사 보고서](docs/performance-0.1.5.md)
+- [0.1.6 변경 기록](docs/release-0.1.6.md) · [확장 식별자 고정](docs/extension-identity.md)
 - [0.1.4 변경 기록](docs/release-0.1.4.md) · [0.1.3 변경 기록](docs/release-0.1.3.md) · [0.1.2 변경 기록](docs/release-0.1.2.md) · [0.1.1 변경 기록](docs/release-0.1.1.md) · [0.1.0 변경 기록](docs/release-notes.md)
 
 ## 기술 참고
