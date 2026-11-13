@@ -1,9 +1,9 @@
 {
   "name": "animation-ott-switch",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": true,
   "type": "module",
-  "description": "Local-first Chrome extension for cross-OTT discovery and a personal title library",
+  "description": "AniOTT Switch: cross-OTT discovery and a local title library",
   "scripts": {
     "check:identity": "node scripts/verify-identity.mjs",
     "build": "node scripts/build.mjs",
@@ -18,7 +18,9 @@
     "test:e2e": "playwright test",
     "check": "npm run check:identity && npm run typecheck && npm test && npm run build",
     "package": "npm run build && node scripts/package.mjs",
-    "format": "prettier --write src tests scripts public/*.json *.json *.ts docs/*.md README.md"
+    "format": "prettier --write src tests scripts public/*.json *.json *.ts docs/*.md README.md",
+    "assets:brand": "node scripts/generate-brand-assets.mjs",
+    "assets:store": "node scripts/capture-store-assets.mjs"
   },
   "dependencies": {
     "idb": "^8.0.3",

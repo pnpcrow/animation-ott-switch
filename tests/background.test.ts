@@ -69,9 +69,6 @@ beforeEach(async () => {
       create: vi.fn().mockResolvedValue({}),
     },
     action: { onClicked: { addListener: vi.fn() } },
-    storage: {
-      local: { setAccessLevel: vi.fn().mockResolvedValue(undefined) },
-    },
   });
   ({ repository } = await import("../src/core/repository"));
   await import("../src/background/index");

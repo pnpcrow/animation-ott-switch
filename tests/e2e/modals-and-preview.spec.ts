@@ -96,7 +96,7 @@ async function openNetflixModal(id: string, title: string, route: string) {
 test("Laftel search modal creates a sidebar from modal metadata and clears it on close", async () => {
   await page.goto("https://laftel.net/search?keyword=frieren");
   const trigger = page.getByRole("button", {
-    name: "OTT Switch 열기",
+    name: "AniOTT Switch 열기",
     exact: true,
   });
   await expect(trigger).toBeHidden();
@@ -108,7 +108,7 @@ test("Laftel search modal creates a sidebar from modal metadata and clears it on
   await expect(trigger).toBeVisible();
   await trigger.click();
   const panel = page.getByRole("complementary", {
-    name: "OTT Switch 작품 패널",
+    name: "AniOTT Switch 작품 패널",
   });
   await expect(
     panel.getByRole("heading", { name: "장송의 프리렌", exact: true }),
@@ -150,7 +150,7 @@ test("Laftel search modal creates a sidebar from modal metadata and clears it on
 test("Netflix search and browse modals ignore unrelated page metadata and standalone details still work", async () => {
   await page.goto("https://www.netflix.com/search?q=frieren");
   const trigger = page.getByRole("button", {
-    name: "OTT Switch 열기",
+    name: "AniOTT Switch 열기",
     exact: true,
   });
   await expect(trigger).toBeHidden();
@@ -158,7 +158,7 @@ test("Netflix search and browse modals ignore unrelated page metadata and standa
   await expect(trigger).toBeVisible();
   await trigger.click();
   const panel = page.getByRole("complementary", {
-    name: "OTT Switch 작품 패널",
+    name: "AniOTT Switch 작품 패널",
   });
   await expect(
     panel.getByRole("heading", { name: "Frieren", exact: true }),
@@ -190,7 +190,7 @@ test("Prime hero autoplay preserves the sidebar while an actual controlled playe
   const url = "https://www.primevideo.com/detail/B012345678";
   await page.goto(url);
   const trigger = page.getByRole("button", {
-    name: "OTT Switch 열기",
+    name: "AniOTT Switch 열기",
     exact: true,
   });
   await expect(trigger).toBeVisible();
@@ -229,7 +229,7 @@ test("Prime hero autoplay preserves the sidebar while an actual controlled playe
   await expect(trigger).toBeVisible();
   await trigger.click();
   const panel = page.getByRole("complementary", {
-    name: "OTT Switch 작품 패널",
+    name: "AniOTT Switch 작품 패널",
   });
   await expect(panel).toBeVisible();
   expect(page.url()).toBe(url);

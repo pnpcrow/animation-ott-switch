@@ -28,6 +28,19 @@ import {
   providerTitleId,
 } from "../providers/identity";
 
+function BrandMark({ size }: { size: number }) {
+  return (
+    <svg width={size} height={size} viewBox="0 0 128 128" aria-hidden="true">
+      <rect width="128" height="128" rx="30" fill="#f4bc64" />
+      <path
+        d="M27 96 58 28a7 7 0 0 1 12 0l31 68H85L64 48 43 96Z"
+        fill="#182127"
+      />
+      <path d="M37 72h39V61l18 17-18 17V84H37Z" fill="#182127" />
+    </svg>
+  );
+}
+
 export function Overlay({ page }: { page: PageTitle }) {
   const [open, setOpen] = useState(false);
   const [snapshot, setSnapshot] = useState<LibrarySnapshot>();
@@ -277,18 +290,18 @@ export function Overlay({ page }: { page: PageTitle }) {
         ref={trigger}
         className={`switch-trigger ${open ? "is-open" : ""}`}
         onClick={() => setOpen(!open)}
-        aria-label={open ? "OTT Switch 닫기" : "OTT Switch 열기"}
+        aria-label={open ? "AniOTT Switch 닫기" : "AniOTT Switch 열기"}
         aria-expanded={open}
-        title="OTT Switch"
+        title="AniOTT Switch"
       >
-        <ArrowLeftRight size={19} />
-        <span>OTT</span>
+        <BrandMark size={28} />
+        <span>AniOTT</span>
       </button>
       {open && (
-        <aside className="switch-panel" aria-label="OTT Switch 작품 패널">
+        <aside className="switch-panel" aria-label="AniOTT Switch 작품 패널">
           <header className="switch-header">
             <span className="switch-brand">
-              <ArrowLeftRight size={18} /> OTT <b>Switch</b>
+              <BrandMark size={26} /> AniOTT <b>Switch</b>
             </span>
             <div>
               <button

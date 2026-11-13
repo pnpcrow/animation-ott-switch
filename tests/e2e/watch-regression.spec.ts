@@ -104,7 +104,7 @@ async function openOverlay() {
   const source = await context.newPage();
   await source.goto(sourceUrl);
   await source
-    .getByRole("button", { name: "OTT Switch 열기", exact: true })
+    .getByRole("button", { name: "AniOTT Switch 열기", exact: true })
     .click();
   return source;
 }
@@ -113,7 +113,7 @@ test("Korean Watch schema decoration is absent from automatic and clicked direct
   const source = await openOverlay();
   await expect(
     source
-      .getByRole("complementary", { name: "OTT Switch 작품 패널" })
+      .getByRole("complementary", { name: "AniOTT Switch 작품 패널" })
       .getByRole("heading", { name: koreanTitle, exact: true }),
   ).toBeVisible();
   const direct = source.getByRole("link", { name: "라프텔 직접 검색" });
@@ -176,7 +176,7 @@ test("independent visible titles repair schema labels and preserve genuine Watch
     const source = await openOverlay();
     await expect(
       source
-        .getByRole("complementary", { name: "OTT Switch 작품 패널" })
+        .getByRole("complementary", { name: "AniOTT Switch 작품 패널" })
         .getByRole("heading", { name: title, exact: true }),
     ).toBeVisible();
     await expect(

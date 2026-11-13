@@ -138,7 +138,7 @@ test.beforeEach(async () => {
   await source.goto(sourceUrl);
   await source.bringToFront();
   await source
-    .getByRole("button", { name: "OTT Switch 열기", exact: true })
+    .getByRole("button", { name: "AniOTT Switch 열기", exact: true })
     .click();
   await expect(
     source.getByRole("button", { name: "애니플러스에서 제목 확인 후 이동" }),
@@ -169,10 +169,10 @@ test("Aniplus opens a URL-less work card and verifies its detail layer above sta
   ).toHaveAttribute("href", detailUrl);
   const destination = context.pages().find((page) => page.url() === detailUrl)!;
   await destination
-    .getByRole("button", { name: "OTT Switch 열기", exact: true })
+    .getByRole("button", { name: "AniOTT Switch 열기", exact: true })
     .click();
   const panel = destination.getByRole("complementary", {
-    name: "OTT Switch 작품 패널",
+    name: "AniOTT Switch 작품 패널",
   });
   await expect(
     panel.getByRole("heading", { name: title, exact: true }),

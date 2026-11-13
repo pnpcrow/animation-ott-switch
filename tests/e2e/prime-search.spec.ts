@@ -85,7 +85,7 @@ async function overlay(url: string): Promise<Page> {
   await page.goto(url);
   await page.bringToFront();
   await page
-    .getByRole("button", { name: "OTT Switch 열기", exact: true })
+    .getByRole("button", { name: "AniOTT Switch 열기", exact: true })
     .click();
   return page;
 }
@@ -94,7 +94,7 @@ test("Prime's Korean brand prefix is absent from every outgoing direct-search ke
   const source = await overlay(primeUrl);
   await expect(
     source
-      .getByRole("complementary", { name: "OTT Switch 작품 패널" })
+      .getByRole("complementary", { name: "AniOTT Switch 작품 패널" })
       .getByRole("heading", { name: primeTitle, exact: true }),
   ).toBeVisible();
   const directLinks = source.locator(

@@ -38,7 +38,7 @@ describe("registered extension identity", () => {
       extensionId: REGISTERED_ID,
       publicKeySha256: REGISTERED_KEY_SHA256,
       packageName: "animation-ott-switch",
-      manifestName: "OTT Switch · 작품 보관함",
+      manifestName: "AniOTT Switch",
     });
     expect(validateIdentity(current)).toMatchObject({
       extensionId: REGISTERED_ID,

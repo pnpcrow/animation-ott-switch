@@ -103,7 +103,7 @@ export function createRepository(name = "ott-switch-library") {
       },
       blocked() {
         console.warn(
-          "OTT Switch 데이터베이스를 사용하는 이전 확장 탭을 닫아 주세요.",
+          "AniOTT Switch 데이터베이스를 사용하는 이전 확장 탭을 닫아 주세요.",
         );
       },
       blocking() {
@@ -123,16 +123,14 @@ export function createRepository(name = "ott-switch-library") {
         ["watching", "보는 중", "#34d399"],
         ["completed", "완주", "#fbbf24"],
       ]) {
-        await tx
-          .objectStore("categories")
-          .put({
-            id,
-            name: categoryName,
-            color,
-            createdAt: 0,
-            updatedAt: 0,
-            deviceId: "defaults",
-          });
+        await tx.objectStore("categories").put({
+          id,
+          name: categoryName,
+          color,
+          createdAt: 0,
+          updatedAt: 0,
+          deviceId: "defaults",
+        });
       }
       await tx
         .objectStore("settings")

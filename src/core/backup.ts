@@ -235,7 +235,7 @@ export function parseBackup(raw: unknown): BackupEnvelope {
     fail("백업 파일은 10MB 이하여야 합니다.");
   const value = object(raw, "백업");
   if (value.format !== "ott-switch" || value.schemaVersion !== 1)
-    fail("OTT Switch 버전 1 백업이 아닙니다.");
+    fail("AniOTT Switch 버전 1 백업이 아닙니다.");
   if (value.scope !== "full" && value.scope !== "group")
     fail("백업 범위가 올바르지 않습니다.");
   const data = parseSnapshot(value.data);

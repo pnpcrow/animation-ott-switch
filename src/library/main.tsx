@@ -6,6 +6,7 @@ import React, {
   useState,
 } from "react";
 import { createRoot } from "react-dom/client";
+import { version as extensionVersion } from "../../public/manifest.json";
 import {
   ArrowDownToLine,
   ArrowLeftRight,
@@ -537,7 +538,7 @@ function App() {
         text:
           e instanceof Error
             ? e.message
-            : "올바른 OTT Switch 백업 파일이 아니에요.",
+            : "올바른 AniOTT Switch 백업 파일이 아니에요.",
         error: true,
       });
     }
@@ -546,13 +547,17 @@ function App() {
   return (
     <div className="app-shell">
       <aside className="sidebar" aria-label="보관함 탐색">
-        <a className="brand" href="library.html" aria-label="OTT Switch 보관함">
+        <a
+          className="brand"
+          href="library.html"
+          aria-label="AniOTT Switch 보관함"
+        >
           <span className="brand-mark">
-            <ArrowLeftRight size={22} strokeWidth={2.5} />
+            <img src="icons/icon-48.png" alt="" />
           </span>
           <span>
-            ott<span className="brand-light">switch</span>
-            <small>YOUR STORIES, TOGETHER</small>
+            AniOTT <span className="brand-light">Switch</span>
+            <small>나만의 작품 보관함</small>
           </span>
         </a>
         <div className="workspace-label">
@@ -690,7 +695,7 @@ function App() {
             >
               <CircleHelp size={18} />
             </button>
-            <span>v0.1.4</span>
+            <span>v{extensionVersion}</span>
           </div>
         </div>
       </aside>
@@ -1256,7 +1261,7 @@ function App() {
                     <Heart size={17} />
                   </span>
                   <div className="welcome-mark">
-                    <ArrowLeftRight size={43} strokeWidth={1.4} />
+                    <img src="icons/icon-128.png" alt="AniOTT Switch" />
                   </div>
                 </div>
                 <span className="welcome-eyebrow">
@@ -1661,6 +1666,17 @@ function ModalContent({
               </p>
             </div>
           </div>
+          <p className="privacy-note">
+            작품 정보와 설정은 이 브라우저에 저장해요. OTT 조회 시 작품 제목과
+            별칭이 해당 서비스에 전달돼요.{" "}
+            <a
+              href="https://github.com/pnpcrow/animation-ott-switch/blob/main/docs/privacy.md"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              개인정보처리방침 <ExternalLink size={14} />
+            </a>
+          </p>
           {submitButtons()}
         </form>
       </Dialog>
@@ -1803,7 +1819,7 @@ function ModalContent({
     );
   return (
     <Dialog
-      title="OTT Switch 시작하기"
+      title="AniOTT Switch 시작하기"
       subtitle="마음에 든 작품을 발견하는 순간부터, 다시 보는 순간까지."
       close={close}
     >
@@ -1850,6 +1866,17 @@ function ModalContent({
           </p>
         </div>
       </div>
+      <p className="privacy-note">
+        작품 정보와 설정은 이 브라우저에 저장해요. OTT 조회 시 작품 제목과
+        별칭이 해당 서비스에 전달돼요.{" "}
+        <a
+          href="https://github.com/pnpcrow/animation-ott-switch/blob/main/docs/privacy.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          개인정보처리방침 <ExternalLink size={14} />
+        </a>
+      </p>
       <div className="modal-actions">
         <button className="button primary" onClick={close}>
           시작하기

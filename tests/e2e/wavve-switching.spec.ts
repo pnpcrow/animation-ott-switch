@@ -129,7 +129,7 @@ test.beforeEach(async () => {
   await source.goto(sourceUrl);
   await source.bringToFront();
   await source
-    .getByRole("button", { name: "OTT Switch 열기", exact: true })
+    .getByRole("button", { name: "AniOTT Switch 열기", exact: true })
     .click();
   await expect(
     source.getByRole("button", { name: "웨이브에서 제목 확인 후 이동" }),

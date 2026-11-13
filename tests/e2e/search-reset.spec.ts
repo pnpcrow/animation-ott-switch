@@ -118,10 +118,10 @@ test("settings reset removes automatic links and stale results in an open overla
   const site = await context.newPage();
   await site.goto(sourceUrl);
   await site
-    .getByRole("button", { name: "OTT Switch 열기", exact: true })
+    .getByRole("button", { name: "AniOTT Switch 열기", exact: true })
     .click();
   const panel = site.getByRole("complementary", {
-    name: "OTT Switch 작품 패널",
+    name: "AniOTT Switch 작품 패널",
   });
   const overlayNetflix = panel
     .locator(".switch-service")

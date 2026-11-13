@@ -284,4 +284,3 @@ chrome.runtime.onMessage.addListener((request: Request, sender, reply) => {
 chrome.action.onClicked.addListener(() => {
   void chrome.tabs.create({ url: chrome.runtime.getURL("library.html") });
 });
-void chrome.storage.local.setAccessLevel({ accessLevel: "TRUSTED_CONTEXTS" });

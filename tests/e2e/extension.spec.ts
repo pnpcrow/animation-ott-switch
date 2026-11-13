@@ -110,13 +110,13 @@ test("overlay detects details, saves custom metadata, hides during playback and 
   );
   await site.goto(titleUrl);
   const trigger = site.getByRole("button", {
-    name: "OTT Switch 열기",
+    name: "AniOTT Switch 열기",
     exact: true,
   });
   await expect(trigger).toBeVisible();
   await trigger.click();
   await expect(
-    site.getByRole("complementary", { name: "OTT Switch 작품 패널" }),
+    site.getByRole("complementary", { name: "AniOTT Switch 작품 패널" }),
   ).toBeVisible();
   await expect(site.getByText("보관함에 저장됨")).toBeVisible();
   const stored = (await rpc("snapshot")).bookmarks[0];
