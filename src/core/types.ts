@@ -1,4 +1,4 @@
-export type ProviderId = 'laftel' | 'netflix' | 'apple' | 'crunchyroll';
+export type ProviderId = 'laftel' | 'aniplus' | 'crunchyroll' | 'netflix' | 'prime' | 'apple' | 'wavve' | 'tving' | 'coupang' | 'watcha';
 export type AvailabilityStatus = 'available' | 'unavailable' | 'unknown' | 'ambiguous';
 export interface PageTitle {
   title: string;
@@ -44,5 +44,5 @@ export interface Settings extends Revision { id: 'settings'; subscribedProviders
 export interface LibrarySnapshot { schemaVersion: 1; bookmarks: Bookmark[]; categories: Category[]; settings: Settings }
 export interface BackupEnvelope { format: 'ott-switch'; schemaVersion: 1; exportedAt: number; scope: 'full' | 'group'; data: LibrarySnapshot }
 export type BookmarkPatch = Partial<Pick<Bookmark, 'title' | 'aliases' | 'description' | 'imageUrl' | 'year' | 'categoryIds' | 'links' | 'favorite' | 'notes'>>;
-export interface SaveBookmarkInput { page: PageTitle; categoryIds: string[] }
+export interface SaveBookmarkInput { page: PageTitle; categoryIds: string[]; links?: Partial<Record<ProviderId, ProviderLink>> }
 export interface ProviderDefinition { id: ProviderId; name: string; color: string; searchUrl: (title: string) => string }
