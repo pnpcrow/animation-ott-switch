@@ -1,6 +1,6 @@
 {
   "name": "animation-ott-switch",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "private": true,
   "type": "module",
   "description": "Local-first Chrome extension for cross-OTT discovery and a personal title library",
