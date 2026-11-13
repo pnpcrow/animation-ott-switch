@@ -1,0 +1,2418 @@
+{
+  "sourceSha256": "c70e6ee3aa4c56f12e535790cca6680242f2885b1fb1586b8fca5b94d312d0ea",
+  "limit": 2048,
+  "decisions": [
+    {
+      "id": "dandadan-netflix-title",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dandadan-netflix-title",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1177,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1179,
+        "withinBudget": true,
+        "promptBytes": 2441,
+        "promptSha256": "d6f3efb43d9aaf7454d5f57e171451e425c82daca48f4ea213aca3a214318664"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dandadan-netflix-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1177,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1179,
+          "withinBudget": true,
+          "promptBytes": 2441,
+          "promptSha256": "d6f3efb43d9aaf7454d5f57e171451e425c82daca48f4ea213aca3a214318664"
+        },
+        {
+          "textLimit": 72,
+          "id": "dandadan-netflix-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1177,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1179,
+          "withinBudget": true,
+          "promptBytes": 2441,
+          "promptSha256": "d6f3efb43d9aaf7454d5f57e171451e425c82daca48f4ea213aca3a214318664"
+        },
+        {
+          "textLimit": 48,
+          "id": "dandadan-netflix-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1177,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1179,
+          "withinBudget": true,
+          "promptBytes": 2441,
+          "promptSha256": "d6f3efb43d9aaf7454d5f57e171451e425c82daca48f4ea213aca3a214318664"
+        },
+        {
+          "textLimit": 32,
+          "id": "dandadan-netflix-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1177,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1179,
+          "withinBudget": true,
+          "promptBytes": 2441,
+          "promptSha256": "d6f3efb43d9aaf7454d5f57e171451e425c82daca48f4ea213aca3a214318664"
+        }
+      ]
+    },
+    {
+      "id": "dandadan-netflix-image",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dandadan-netflix-image",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1289,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1291,
+        "withinBudget": true,
+        "promptBytes": 2610,
+        "promptSha256": "4a9609159eab04993874a73af28b205a5e94574e4f925b88e94ed00a2549bd77"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dandadan-netflix-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1289,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1291,
+          "withinBudget": true,
+          "promptBytes": 2610,
+          "promptSha256": "4a9609159eab04993874a73af28b205a5e94574e4f925b88e94ed00a2549bd77"
+        },
+        {
+          "textLimit": 72,
+          "id": "dandadan-netflix-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1289,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1291,
+          "withinBudget": true,
+          "promptBytes": 2610,
+          "promptSha256": "4a9609159eab04993874a73af28b205a5e94574e4f925b88e94ed00a2549bd77"
+        },
+        {
+          "textLimit": 48,
+          "id": "dandadan-netflix-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1212,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1214,
+          "withinBudget": true,
+          "promptBytes": 2506,
+          "promptSha256": "4ebf8c160669d432b4479863953eac64eebef88f7d8b2c78556088aef441e09e"
+        },
+        {
+          "textLimit": 32,
+          "id": "dandadan-netflix-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1102,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1104,
+          "withinBudget": true,
+          "promptBytes": 2362,
+          "promptSha256": "5ee4e155802033d226182f2640fc123cc904c8bcbdb0741ea08aee87f777da22"
+        }
+      ]
+    },
+    {
+      "id": "dandadan-netflix-description",
+      "template": "json-evidence",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "dandadan-netflix-description",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1745,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1747,
+        "withinBudget": true,
+        "promptBytes": 2949,
+        "promptSha256": "48e87fdec32cc267cd4c81090af82b98f0c463b8f4c2c07a9b0dcf2630d299e8"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dandadan-netflix-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 2405,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2407,
+          "withinBudget": false,
+          "promptBytes": 3618,
+          "promptSha256": "cde38b373d8f2c2912379692102d98be0047e97d6da6dd436eda942761a4c678"
+        },
+        {
+          "textLimit": 72,
+          "id": "dandadan-netflix-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 2203,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2205,
+          "withinBudget": false,
+          "promptBytes": 3410,
+          "promptSha256": "320909e0930384487f975ab4db5c5d8b1423f4e1f5ff0803dfae81e7eee4b790"
+        },
+        {
+          "textLimit": 48,
+          "id": "dandadan-netflix-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1745,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1747,
+          "withinBudget": true,
+          "promptBytes": 2949,
+          "promptSha256": "48e87fdec32cc267cd4c81090af82b98f0c463b8f4c2c07a9b0dcf2630d299e8"
+        },
+        {
+          "textLimit": 32,
+          "id": "dandadan-netflix-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1429,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1431,
+          "withinBudget": true,
+          "promptBytes": 2637,
+          "promptSha256": "42b4d63fb4061d19f237c0413283b968713d553d9ec33e9375d4f9a8036ebb18"
+        }
+      ]
+    },
+    {
+      "id": "spy-family-apple-title",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "spy-family-apple-title",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1272,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1274,
+        "withinBudget": true,
+        "promptBytes": 2563,
+        "promptSha256": "7286dae61b2f4ee929127e28977fa5b5f1547ea27b1af3cb6aeb186e1a867265"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "spy-family-apple-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1272,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1274,
+          "withinBudget": true,
+          "promptBytes": 2563,
+          "promptSha256": "7286dae61b2f4ee929127e28977fa5b5f1547ea27b1af3cb6aeb186e1a867265"
+        },
+        {
+          "textLimit": 72,
+          "id": "spy-family-apple-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1272,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1274,
+          "withinBudget": true,
+          "promptBytes": 2563,
+          "promptSha256": "7286dae61b2f4ee929127e28977fa5b5f1547ea27b1af3cb6aeb186e1a867265"
+        },
+        {
+          "textLimit": 48,
+          "id": "spy-family-apple-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1272,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1274,
+          "withinBudget": true,
+          "promptBytes": 2563,
+          "promptSha256": "7286dae61b2f4ee929127e28977fa5b5f1547ea27b1af3cb6aeb186e1a867265"
+        },
+        {
+          "textLimit": 32,
+          "id": "spy-family-apple-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1272,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1274,
+          "withinBudget": true,
+          "promptBytes": 2563,
+          "promptSha256": "7286dae61b2f4ee929127e28977fa5b5f1547ea27b1af3cb6aeb186e1a867265"
+        }
+      ]
+    },
+    {
+      "id": "spy-family-apple-image",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "spy-family-apple-image",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1327,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1329,
+        "withinBudget": true,
+        "promptBytes": 2741,
+        "promptSha256": "961cb9e7d088957caa490b15d3b96ce54770b2faacd1b2782cffc271032f71d3"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "spy-family-apple-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1327,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1329,
+          "withinBudget": true,
+          "promptBytes": 2741,
+          "promptSha256": "961cb9e7d088957caa490b15d3b96ce54770b2faacd1b2782cffc271032f71d3"
+        },
+        {
+          "textLimit": 72,
+          "id": "spy-family-apple-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1327,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1329,
+          "withinBudget": true,
+          "promptBytes": 2741,
+          "promptSha256": "961cb9e7d088957caa490b15d3b96ce54770b2faacd1b2782cffc271032f71d3"
+        },
+        {
+          "textLimit": 48,
+          "id": "spy-family-apple-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1327,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1329,
+          "withinBudget": true,
+          "promptBytes": 2741,
+          "promptSha256": "961cb9e7d088957caa490b15d3b96ce54770b2faacd1b2782cffc271032f71d3"
+        },
+        {
+          "textLimit": 32,
+          "id": "spy-family-apple-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1276,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1278,
+          "withinBudget": true,
+          "promptBytes": 2660,
+          "promptSha256": "4f54b4ad7b5b651f8ddb052aaa8add2ebf6cdc647a55a3841a3baec3ad1c803b"
+        }
+      ]
+    },
+    {
+      "id": "spy-family-apple-description",
+      "template": "json-evidence",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "spy-family-apple-description",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 2006,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 2008,
+        "withinBudget": true,
+        "promptBytes": 3376,
+        "promptSha256": "42df2262ea54934d1637368516f9ec0ef172ced6e996c22af025e4cd21755555"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "spy-family-apple-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 2826,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2828,
+          "withinBudget": false,
+          "promptBytes": 4198,
+          "promptSha256": "7497801378ef448a7792622054167ac7d2463eb721da2cbe57e2e284bf51702e"
+        },
+        {
+          "textLimit": 72,
+          "id": "spy-family-apple-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 2415,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2417,
+          "withinBudget": false,
+          "promptBytes": 3786,
+          "promptSha256": "c4ce689f3f17116ed4ec00326e2155c22c46336f0a1a1f6c92511743e4fa8fd2"
+        },
+        {
+          "textLimit": 48,
+          "id": "spy-family-apple-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 2006,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2008,
+          "withinBudget": true,
+          "promptBytes": 3376,
+          "promptSha256": "42df2262ea54934d1637368516f9ec0ef172ced6e996c22af025e4cd21755555"
+        },
+        {
+          "textLimit": 32,
+          "id": "spy-family-apple-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1718,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1720,
+          "withinBudget": true,
+          "promptBytes": 3085,
+          "promptSha256": "debd53cc0e5f7a97be2f737edf1704d0ccfba5a6dec67ab09e44e1a8bf209ed9"
+        }
+      ]
+    },
+    {
+      "id": "chainsaw-tving-title",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "chainsaw-tving-title",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 723,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 725,
+        "withinBudget": true,
+        "promptBytes": 1663,
+        "promptSha256": "e1a3639d1c466804bfbad39829bb5ef79ee690ac471d267ab48ce9d08b843c86"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "chainsaw-tving-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 723,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 725,
+          "withinBudget": true,
+          "promptBytes": 1663,
+          "promptSha256": "e1a3639d1c466804bfbad39829bb5ef79ee690ac471d267ab48ce9d08b843c86"
+        },
+        {
+          "textLimit": 72,
+          "id": "chainsaw-tving-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 723,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 725,
+          "withinBudget": true,
+          "promptBytes": 1663,
+          "promptSha256": "e1a3639d1c466804bfbad39829bb5ef79ee690ac471d267ab48ce9d08b843c86"
+        },
+        {
+          "textLimit": 48,
+          "id": "chainsaw-tving-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 723,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 725,
+          "withinBudget": true,
+          "promptBytes": 1663,
+          "promptSha256": "e1a3639d1c466804bfbad39829bb5ef79ee690ac471d267ab48ce9d08b843c86"
+        },
+        {
+          "textLimit": 32,
+          "id": "chainsaw-tving-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 723,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 725,
+          "withinBudget": true,
+          "promptBytes": 1663,
+          "promptSha256": "e1a3639d1c466804bfbad39829bb5ef79ee690ac471d267ab48ce9d08b843c86"
+        }
+      ]
+    },
+    {
+      "id": "chainsaw-tving-image",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "chainsaw-tving-image",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1031,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1033,
+        "withinBudget": true,
+        "promptBytes": 2359,
+        "promptSha256": "852dfc1b3ed63208764649afacd39909a01aebe19760f36185d3cfa34c600c33"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "chainsaw-tving-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1031,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1033,
+          "withinBudget": true,
+          "promptBytes": 2359,
+          "promptSha256": "852dfc1b3ed63208764649afacd39909a01aebe19760f36185d3cfa34c600c33"
+        },
+        {
+          "textLimit": 72,
+          "id": "chainsaw-tving-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1031,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1033,
+          "withinBudget": true,
+          "promptBytes": 2359,
+          "promptSha256": "852dfc1b3ed63208764649afacd39909a01aebe19760f36185d3cfa34c600c33"
+        },
+        {
+          "textLimit": 48,
+          "id": "chainsaw-tving-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1031,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1033,
+          "withinBudget": true,
+          "promptBytes": 2359,
+          "promptSha256": "852dfc1b3ed63208764649afacd39909a01aebe19760f36185d3cfa34c600c33"
+        },
+        {
+          "textLimit": 32,
+          "id": "chainsaw-tving-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1028,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1030,
+          "withinBudget": true,
+          "promptBytes": 2355,
+          "promptSha256": "e2e84d794f8aef014c3b14ea53db5d249f4b6f4275c7842f296016502b869745"
+        }
+      ]
+    },
+    {
+      "id": "chainsaw-tving-description",
+      "template": "json-evidence",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "chainsaw-tving-description",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1986,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1988,
+        "withinBudget": true,
+        "promptBytes": 3333,
+        "promptSha256": "11091a751bddce28af8133c3f1f38d7a3c5d55bda31d1e24019e25c0624599ed"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "chainsaw-tving-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 2921,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2923,
+          "withinBudget": false,
+          "promptBytes": 4269,
+          "promptSha256": "aa1ab0f2cd8dfe12752b87fdba0470692b53a7872fe18d6788f1c1d30ad012b3"
+        },
+        {
+          "textLimit": 72,
+          "id": "chainsaw-tving-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 2455,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2457,
+          "withinBudget": false,
+          "promptBytes": 3803,
+          "promptSha256": "4a5bef5c40482d51c8e5388d88f63bfc62d63e4c1a2dee4522cf80df153c587a"
+        },
+        {
+          "textLimit": 48,
+          "id": "chainsaw-tving-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1986,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1988,
+          "withinBudget": true,
+          "promptBytes": 3333,
+          "promptSha256": "11091a751bddce28af8133c3f1f38d7a3c5d55bda31d1e24019e25c0624599ed"
+        },
+        {
+          "textLimit": 32,
+          "id": "chainsaw-tving-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1682,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1684,
+          "withinBudget": true,
+          "promptBytes": 3023,
+          "promptSha256": "2b7b946c6b2f6cfb13e4105d9d92e893d5d18165c951eab4ef21cb41e01e8499"
+        }
+      ]
+    },
+    {
+      "id": "demon-slayer-laftel-title",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "demon-slayer-laftel-title",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1455,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1457,
+        "withinBudget": true,
+        "promptBytes": 2635,
+        "promptSha256": "0d8a74ce7b33210688f84987936c829de9139cc325f2d4cbe584d961758b3c6f"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "demon-slayer-laftel-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1455,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1457,
+          "withinBudget": true,
+          "promptBytes": 2635,
+          "promptSha256": "0d8a74ce7b33210688f84987936c829de9139cc325f2d4cbe584d961758b3c6f"
+        },
+        {
+          "textLimit": 72,
+          "id": "demon-slayer-laftel-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1455,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1457,
+          "withinBudget": true,
+          "promptBytes": 2635,
+          "promptSha256": "0d8a74ce7b33210688f84987936c829de9139cc325f2d4cbe584d961758b3c6f"
+        },
+        {
+          "textLimit": 48,
+          "id": "demon-slayer-laftel-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1455,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1457,
+          "withinBudget": true,
+          "promptBytes": 2635,
+          "promptSha256": "0d8a74ce7b33210688f84987936c829de9139cc325f2d4cbe584d961758b3c6f"
+        },
+        {
+          "textLimit": 32,
+          "id": "demon-slayer-laftel-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1418,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1420,
+          "withinBudget": true,
+          "promptBytes": 2598,
+          "promptSha256": "c601fe83c48db9c8f264c1df4c1f9a38b87fe6ff761e1de842bd3d5191f406b9"
+        }
+      ]
+    },
+    {
+      "id": "demon-slayer-laftel-image",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "demon-slayer-laftel-image",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1549,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1551,
+        "withinBudget": true,
+        "promptBytes": 2896,
+        "promptSha256": "1dd527bc88a82601f494a0305233aeb7fa01f8f1d028177add35d43cf39e188c"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "demon-slayer-laftel-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1549,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1551,
+          "withinBudget": true,
+          "promptBytes": 2896,
+          "promptSha256": "1dd527bc88a82601f494a0305233aeb7fa01f8f1d028177add35d43cf39e188c"
+        },
+        {
+          "textLimit": 72,
+          "id": "demon-slayer-laftel-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1549,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1551,
+          "withinBudget": true,
+          "promptBytes": 2896,
+          "promptSha256": "1dd527bc88a82601f494a0305233aeb7fa01f8f1d028177add35d43cf39e188c"
+        },
+        {
+          "textLimit": 48,
+          "id": "demon-slayer-laftel-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1549,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1551,
+          "withinBudget": true,
+          "promptBytes": 2889,
+          "promptSha256": "914a878d91e999c57bbf356e03fb97aea39db54847e47dc610f31bbcc0e5eaf8"
+        },
+        {
+          "textLimit": 32,
+          "id": "demon-slayer-laftel-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1465,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1467,
+          "withinBudget": true,
+          "promptBytes": 2764,
+          "promptSha256": "0f69a976af6b3641517fe739b91c2410fd1d7c8c2bf5faf1937869650cb94657"
+        }
+      ]
+    },
+    {
+      "id": "demon-slayer-laftel-description",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "demon-slayer-laftel-description",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1200,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1202,
+        "withinBudget": true,
+        "promptBytes": 2044,
+        "promptSha256": "18269a09a97ede0baacdc146146adc9b85efc06364293f38361c16abb0db93b7"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "demon-slayer-laftel-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1200,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1202,
+          "withinBudget": true,
+          "promptBytes": 2044,
+          "promptSha256": "18269a09a97ede0baacdc146146adc9b85efc06364293f38361c16abb0db93b7"
+        },
+        {
+          "textLimit": 72,
+          "id": "demon-slayer-laftel-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1081,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1083,
+          "withinBudget": true,
+          "promptBytes": 1924,
+          "promptSha256": "b4b99c97d7e8466571a18bcd2c65521bf1ea01dd0929f83fd44a763c807fe9b3"
+        },
+        {
+          "textLimit": 48,
+          "id": "demon-slayer-laftel-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 961,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 963,
+          "withinBudget": true,
+          "promptBytes": 1802,
+          "promptSha256": "b8f7207f3e5fb48e9370cc799cba45c8ea8fb6e79886171e0556e9e01bede57c"
+        },
+        {
+          "textLimit": 32,
+          "id": "demon-slayer-laftel-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 879,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 881,
+          "withinBudget": true,
+          "promptBytes": 1718,
+          "promptSha256": "b15805f102cccaf092e929db56cdd475631ecffc148b08dfbdda4aa7397f847d"
+        }
+      ]
+    },
+    {
+      "id": "new-search-laftel-title",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "new-search-laftel-title",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 700,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 702,
+        "withinBudget": true,
+        "promptBytes": 1540,
+        "promptSha256": "34856c855f979f9b4907bc1436fcbcacefe5627231b87e0ae4afa962296093e3"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "new-search-laftel-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 700,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 702,
+          "withinBudget": true,
+          "promptBytes": 1540,
+          "promptSha256": "34856c855f979f9b4907bc1436fcbcacefe5627231b87e0ae4afa962296093e3"
+        },
+        {
+          "textLimit": 72,
+          "id": "new-search-laftel-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 700,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 702,
+          "withinBudget": true,
+          "promptBytes": 1540,
+          "promptSha256": "34856c855f979f9b4907bc1436fcbcacefe5627231b87e0ae4afa962296093e3"
+        },
+        {
+          "textLimit": 48,
+          "id": "new-search-laftel-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 700,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 702,
+          "withinBudget": true,
+          "promptBytes": 1540,
+          "promptSha256": "34856c855f979f9b4907bc1436fcbcacefe5627231b87e0ae4afa962296093e3"
+        },
+        {
+          "textLimit": 32,
+          "id": "new-search-laftel-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 700,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 702,
+          "withinBudget": true,
+          "promptBytes": 1540,
+          "promptSha256": "34856c855f979f9b4907bc1436fcbcacefe5627231b87e0ae4afa962296093e3"
+        }
+      ]
+    },
+    {
+      "id": "new-search-laftel-image",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "new-search-laftel-image",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 358,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 360,
+        "withinBudget": true,
+        "promptBytes": 1032,
+        "promptSha256": "eb2def8b86d22eb528750c33b00a5ad441897ca3cedc12cd5eadb214688d7f28"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "new-search-laftel-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 358,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 360,
+          "withinBudget": true,
+          "promptBytes": 1032,
+          "promptSha256": "eb2def8b86d22eb528750c33b00a5ad441897ca3cedc12cd5eadb214688d7f28"
+        },
+        {
+          "textLimit": 72,
+          "id": "new-search-laftel-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 358,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 360,
+          "withinBudget": true,
+          "promptBytes": 1032,
+          "promptSha256": "eb2def8b86d22eb528750c33b00a5ad441897ca3cedc12cd5eadb214688d7f28"
+        },
+        {
+          "textLimit": 48,
+          "id": "new-search-laftel-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 358,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 360,
+          "withinBudget": true,
+          "promptBytes": 1032,
+          "promptSha256": "eb2def8b86d22eb528750c33b00a5ad441897ca3cedc12cd5eadb214688d7f28"
+        },
+        {
+          "textLimit": 32,
+          "id": "new-search-laftel-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 358,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 360,
+          "withinBudget": true,
+          "promptBytes": 1032,
+          "promptSha256": "eb2def8b86d22eb528750c33b00a5ad441897ca3cedc12cd5eadb214688d7f28"
+        }
+      ]
+    },
+    {
+      "id": "new-search-laftel-description",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "new-search-laftel-description",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 638,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 640,
+        "withinBudget": true,
+        "promptBytes": 1323,
+        "promptSha256": "1513f737a1904cfa1c6fb333395d40ab30d9ae9c211c264bdefbfa045ffea70c"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "new-search-laftel-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 638,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 640,
+          "withinBudget": true,
+          "promptBytes": 1323,
+          "promptSha256": "1513f737a1904cfa1c6fb333395d40ab30d9ae9c211c264bdefbfa045ffea70c"
+        },
+        {
+          "textLimit": 72,
+          "id": "new-search-laftel-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 586,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 588,
+          "withinBudget": true,
+          "promptBytes": 1271,
+          "promptSha256": "998dde0abeb9d6140ac994fc408b9e148ba2158a2f96257c191058ca7d0ddd7b"
+        },
+        {
+          "textLimit": 48,
+          "id": "new-search-laftel-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 526,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 528,
+          "withinBudget": true,
+          "promptBytes": 1211,
+          "promptSha256": "f51b2cbaff5110c02840bb53cef5afceea764796894bf81cfc8ae3d958baa12f"
+        },
+        {
+          "textLimit": 32,
+          "id": "new-search-laftel-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 483,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 485,
+          "withinBudget": true,
+          "promptBytes": 1169,
+          "promptSha256": "88bed1444402a963710ad7da85c0f9a74d81bf2076cc121f5a7e6e35f2333452"
+        }
+      ]
+    },
+    {
+      "id": "new-help-netflix-title",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "new-help-netflix-title",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1631,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1633,
+        "withinBudget": true,
+        "promptBytes": 2936,
+        "promptSha256": "8d72d056daa8a6e642eb1bc626c942de12159c4093dc62e3d1f9a24eb6627663"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "new-help-netflix-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1631,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1633,
+          "withinBudget": true,
+          "promptBytes": 2936,
+          "promptSha256": "8d72d056daa8a6e642eb1bc626c942de12159c4093dc62e3d1f9a24eb6627663"
+        },
+        {
+          "textLimit": 72,
+          "id": "new-help-netflix-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1631,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1633,
+          "withinBudget": true,
+          "promptBytes": 2936,
+          "promptSha256": "8d72d056daa8a6e642eb1bc626c942de12159c4093dc62e3d1f9a24eb6627663"
+        },
+        {
+          "textLimit": 48,
+          "id": "new-help-netflix-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1631,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1633,
+          "withinBudget": true,
+          "promptBytes": 2936,
+          "promptSha256": "8d72d056daa8a6e642eb1bc626c942de12159c4093dc62e3d1f9a24eb6627663"
+        },
+        {
+          "textLimit": 32,
+          "id": "new-help-netflix-title",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1631,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1633,
+          "withinBudget": true,
+          "promptBytes": 2936,
+          "promptSha256": "8d72d056daa8a6e642eb1bc626c942de12159c4093dc62e3d1f9a24eb6627663"
+        }
+      ]
+    },
+    {
+      "id": "new-help-netflix-image",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "new-help-netflix-image",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 806,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 808,
+        "withinBudget": true,
+        "promptBytes": 1811,
+        "promptSha256": "e9f46c12dbb8d8968338a1716746fa30623de7b3862f7e6498c71abf9c075802"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "new-help-netflix-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 806,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 808,
+          "withinBudget": true,
+          "promptBytes": 1811,
+          "promptSha256": "e9f46c12dbb8d8968338a1716746fa30623de7b3862f7e6498c71abf9c075802"
+        },
+        {
+          "textLimit": 72,
+          "id": "new-help-netflix-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 806,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 808,
+          "withinBudget": true,
+          "promptBytes": 1811,
+          "promptSha256": "e9f46c12dbb8d8968338a1716746fa30623de7b3862f7e6498c71abf9c075802"
+        },
+        {
+          "textLimit": 48,
+          "id": "new-help-netflix-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 795,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 797,
+          "withinBudget": true,
+          "promptBytes": 1789,
+          "promptSha256": "254b1a329af25f8792aadfbb33702c7636975b94697028fc6b332bec61b4cad8"
+        },
+        {
+          "textLimit": 32,
+          "id": "new-help-netflix-image",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 777,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 779,
+          "withinBudget": true,
+          "promptBytes": 1755,
+          "promptSha256": "c2352a28f9f27aff73d818fe3d6205b517a0bf7c3a0a65b7ea27c19a82ce6d35"
+        }
+      ]
+    },
+    {
+      "id": "new-help-netflix-description",
+      "template": "json-evidence",
+      "chosenTier": 3,
+      "chosenTextLimit": 32,
+      "selected": {
+        "id": "new-help-netflix-description",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1865,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1867,
+        "withinBudget": true,
+        "promptBytes": 3197,
+        "promptSha256": "fbcb6c3222170482633215edfdbf3e2336d60f1f1233195c161ec9b246279a3a"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "new-help-netflix-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 2658,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2660,
+          "withinBudget": false,
+          "promptBytes": 4006,
+          "promptSha256": "86e43f8f3694bdce8453ceaca6f60ee0c8afba35d43dc9b28e19ae26efcd0fae"
+        },
+        {
+          "textLimit": 72,
+          "id": "new-help-netflix-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 2436,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2438,
+          "withinBudget": false,
+          "promptBytes": 3778,
+          "promptSha256": "45f2f1c25b420db373ab19d10ad81f25fd65fc9a82c1e16a776b4d6a7c767713"
+        },
+        {
+          "textLimit": 48,
+          "id": "new-help-netflix-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 2126,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2128,
+          "withinBudget": false,
+          "promptBytes": 3464,
+          "promptSha256": "5de8a1ee8408e23129003c7acb5e8c0a6cb93ba23c739a07baf69f6f79e2daa1"
+        },
+        {
+          "textLimit": 32,
+          "id": "new-help-netflix-description",
+          "template": "json-evidence",
+          "split": "holdout",
+          "promptTokens": 1865,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1867,
+          "withinBudget": true,
+          "promptBytes": 3197,
+          "promptSha256": "fbcb6c3222170482633215edfdbf3e2336d60f1f1233195c161ec9b246279a3a"
+        }
+      ]
+    },
+    {
+      "id": "dandadan-netflix-title",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dandadan-netflix-title",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 823,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 825,
+        "withinBudget": true,
+        "promptBytes": 1880,
+        "promptSha256": "315569c5254860a3df4251707314aa831c455eaa520d2760c7f1a1d3e9e5ba44"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dandadan-netflix-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 823,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 825,
+          "withinBudget": true,
+          "promptBytes": 1880,
+          "promptSha256": "315569c5254860a3df4251707314aa831c455eaa520d2760c7f1a1d3e9e5ba44"
+        },
+        {
+          "textLimit": 72,
+          "id": "dandadan-netflix-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 823,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 825,
+          "withinBudget": true,
+          "promptBytes": 1880,
+          "promptSha256": "315569c5254860a3df4251707314aa831c455eaa520d2760c7f1a1d3e9e5ba44"
+        },
+        {
+          "textLimit": 48,
+          "id": "dandadan-netflix-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 823,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 825,
+          "withinBudget": true,
+          "promptBytes": 1880,
+          "promptSha256": "315569c5254860a3df4251707314aa831c455eaa520d2760c7f1a1d3e9e5ba44"
+        },
+        {
+          "textLimit": 32,
+          "id": "dandadan-netflix-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 823,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 825,
+          "withinBudget": true,
+          "promptBytes": 1880,
+          "promptSha256": "315569c5254860a3df4251707314aa831c455eaa520d2760c7f1a1d3e9e5ba44"
+        }
+      ]
+    },
+    {
+      "id": "dandadan-netflix-image",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dandadan-netflix-image",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 947,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 949,
+        "withinBudget": true,
+        "promptBytes": 2113,
+        "promptSha256": "e37a45872aaa0e025eb05b39779ae4d2b33a2491bff52e42d556814a853ae30d"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dandadan-netflix-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 947,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 949,
+          "withinBudget": true,
+          "promptBytes": 2113,
+          "promptSha256": "e37a45872aaa0e025eb05b39779ae4d2b33a2491bff52e42d556814a853ae30d"
+        },
+        {
+          "textLimit": 72,
+          "id": "dandadan-netflix-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 947,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 949,
+          "withinBudget": true,
+          "promptBytes": 2113,
+          "promptSha256": "e37a45872aaa0e025eb05b39779ae4d2b33a2491bff52e42d556814a853ae30d"
+        },
+        {
+          "textLimit": 48,
+          "id": "dandadan-netflix-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 870,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 872,
+          "withinBudget": true,
+          "promptBytes": 2009,
+          "promptSha256": "d1ce9d17765abc0c5aa5e582cd949079645b9ec82998183682768c23fb2dc0b7"
+        },
+        {
+          "textLimit": 32,
+          "id": "dandadan-netflix-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 760,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 762,
+          "withinBudget": true,
+          "promptBytes": 1865,
+          "promptSha256": "d18a609f3f9848d11eac3fa8f10fd92eac1f9945b6d5ab15984af87d4beaafa2"
+        }
+      ]
+    },
+    {
+      "id": "dandadan-netflix-description",
+      "template": "legacy-enriched",
+      "chosenTier": 1,
+      "chosenTextLimit": 72,
+      "selected": {
+        "id": "dandadan-netflix-description",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1893,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1895,
+        "withinBudget": true,
+        "promptBytes": 2918,
+        "promptSha256": "81c8cc07df739a3202baa3c1dcbfa8bf15563f53c2f5b5e10a349dc15499e9e3"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dandadan-netflix-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 2099,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2101,
+          "withinBudget": false,
+          "promptBytes": 3126,
+          "promptSha256": "0495c27d37da0a9c827afa9593e3ffe981063a122af6679a0067ce6e73e451c5"
+        },
+        {
+          "textLimit": 72,
+          "id": "dandadan-netflix-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1893,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1895,
+          "withinBudget": true,
+          "promptBytes": 2918,
+          "promptSha256": "81c8cc07df739a3202baa3c1dcbfa8bf15563f53c2f5b5e10a349dc15499e9e3"
+        },
+        {
+          "textLimit": 48,
+          "id": "dandadan-netflix-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1432,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1434,
+          "withinBudget": true,
+          "promptBytes": 2457,
+          "promptSha256": "20d961e5d9cdfc06d208066049be11bdd07d68aa6535d59d01ce8f46945f6196"
+        },
+        {
+          "textLimit": 32,
+          "id": "dandadan-netflix-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1121,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1123,
+          "withinBudget": true,
+          "promptBytes": 2145,
+          "promptSha256": "47f7422826c22fdf773d02496aa284682b381a0be97cf12a358fbc63005dbb8d"
+        }
+      ]
+    },
+    {
+      "id": "spy-family-apple-title",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "spy-family-apple-title",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 931,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 933,
+        "withinBudget": true,
+        "promptBytes": 2026,
+        "promptSha256": "572717ce169fa768a0209dcb986f8f9195277808d37ef6a1eb605bc6616d4dfa"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "spy-family-apple-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 931,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 933,
+          "withinBudget": true,
+          "promptBytes": 2026,
+          "promptSha256": "572717ce169fa768a0209dcb986f8f9195277808d37ef6a1eb605bc6616d4dfa"
+        },
+        {
+          "textLimit": 72,
+          "id": "spy-family-apple-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 931,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 933,
+          "withinBudget": true,
+          "promptBytes": 2026,
+          "promptSha256": "572717ce169fa768a0209dcb986f8f9195277808d37ef6a1eb605bc6616d4dfa"
+        },
+        {
+          "textLimit": 48,
+          "id": "spy-family-apple-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 931,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 933,
+          "withinBudget": true,
+          "promptBytes": 2026,
+          "promptSha256": "572717ce169fa768a0209dcb986f8f9195277808d37ef6a1eb605bc6616d4dfa"
+        },
+        {
+          "textLimit": 32,
+          "id": "spy-family-apple-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 931,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 933,
+          "withinBudget": true,
+          "promptBytes": 2026,
+          "promptSha256": "572717ce169fa768a0209dcb986f8f9195277808d37ef6a1eb605bc6616d4dfa"
+        }
+      ]
+    },
+    {
+      "id": "spy-family-apple-image",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "spy-family-apple-image",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 936,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 938,
+        "withinBudget": true,
+        "promptBytes": 2075,
+        "promptSha256": "402587cfdc67079cfcf362ac4287e31d1b8c4e9fd2d41b0d0f3bb093c95d077b"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "spy-family-apple-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 936,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 938,
+          "withinBudget": true,
+          "promptBytes": 2075,
+          "promptSha256": "402587cfdc67079cfcf362ac4287e31d1b8c4e9fd2d41b0d0f3bb093c95d077b"
+        },
+        {
+          "textLimit": 72,
+          "id": "spy-family-apple-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 936,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 938,
+          "withinBudget": true,
+          "promptBytes": 2075,
+          "promptSha256": "402587cfdc67079cfcf362ac4287e31d1b8c4e9fd2d41b0d0f3bb093c95d077b"
+        },
+        {
+          "textLimit": 48,
+          "id": "spy-family-apple-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 936,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 938,
+          "withinBudget": true,
+          "promptBytes": 2075,
+          "promptSha256": "402587cfdc67079cfcf362ac4287e31d1b8c4e9fd2d41b0d0f3bb093c95d077b"
+        },
+        {
+          "textLimit": 32,
+          "id": "spy-family-apple-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 885,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 887,
+          "withinBudget": true,
+          "promptBytes": 1994,
+          "promptSha256": "dc3f54028a5f331679af1c4f3f6b55ce8e95ef077a3f202fe681389a0ca9fe4f"
+        }
+      ]
+    },
+    {
+      "id": "spy-family-apple-description",
+      "template": "legacy-enriched",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "spy-family-apple-description",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1668,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1670,
+        "withinBudget": true,
+        "promptBytes": 2839,
+        "promptSha256": "8804651272bcd646299504959e84248ff355228028707e6168c1cd57ccaa90bd"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "spy-family-apple-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 2486,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2488,
+          "withinBudget": false,
+          "promptBytes": 3661,
+          "promptSha256": "5d7bfcb4b54e1d2661f6f107462d383ceefe6fac0fa38720f19381ddee229ce3"
+        },
+        {
+          "textLimit": 72,
+          "id": "spy-family-apple-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 2077,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2079,
+          "withinBudget": false,
+          "promptBytes": 3249,
+          "promptSha256": "a40ab25966f4869ce68e33fb50ca2c0ed5e3bb456d36e6bb47f25e2c3f7e1764"
+        },
+        {
+          "textLimit": 48,
+          "id": "spy-family-apple-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1668,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1670,
+          "withinBudget": true,
+          "promptBytes": 2839,
+          "promptSha256": "8804651272bcd646299504959e84248ff355228028707e6168c1cd57ccaa90bd"
+        },
+        {
+          "textLimit": 32,
+          "id": "spy-family-apple-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1378,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1380,
+          "withinBudget": true,
+          "promptBytes": 2548,
+          "promptSha256": "6abb33f81ac0ab3f7c4f8143797c677a53129abe93b4d21aed5ea1ea90513d70"
+        }
+      ]
+    },
+    {
+      "id": "chainsaw-tving-title",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "chainsaw-tving-title",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 541,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 543,
+        "withinBudget": true,
+        "promptBytes": 1444,
+        "promptSha256": "80f8ec60e2b240c5fc1c79a80000d209eac62dae3b98e836f91e5b5c8c7c2c58"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "chainsaw-tving-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 541,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 543,
+          "withinBudget": true,
+          "promptBytes": 1444,
+          "promptSha256": "80f8ec60e2b240c5fc1c79a80000d209eac62dae3b98e836f91e5b5c8c7c2c58"
+        },
+        {
+          "textLimit": 72,
+          "id": "chainsaw-tving-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 541,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 543,
+          "withinBudget": true,
+          "promptBytes": 1444,
+          "promptSha256": "80f8ec60e2b240c5fc1c79a80000d209eac62dae3b98e836f91e5b5c8c7c2c58"
+        },
+        {
+          "textLimit": 48,
+          "id": "chainsaw-tving-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 541,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 543,
+          "withinBudget": true,
+          "promptBytes": 1444,
+          "promptSha256": "80f8ec60e2b240c5fc1c79a80000d209eac62dae3b98e836f91e5b5c8c7c2c58"
+        },
+        {
+          "textLimit": 32,
+          "id": "chainsaw-tving-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 541,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 543,
+          "withinBudget": true,
+          "promptBytes": 1444,
+          "promptSha256": "80f8ec60e2b240c5fc1c79a80000d209eac62dae3b98e836f91e5b5c8c7c2c58"
+        }
+      ]
+    },
+    {
+      "id": "chainsaw-tving-image",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "chainsaw-tving-image",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 689,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 691,
+        "withinBudget": true,
+        "promptBytes": 1843,
+        "promptSha256": "a449863709e9b0ee4aec1923c608589fa875680117a9a5e093bd079f9c29a236"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "chainsaw-tving-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 689,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 691,
+          "withinBudget": true,
+          "promptBytes": 1843,
+          "promptSha256": "a449863709e9b0ee4aec1923c608589fa875680117a9a5e093bd079f9c29a236"
+        },
+        {
+          "textLimit": 72,
+          "id": "chainsaw-tving-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 689,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 691,
+          "withinBudget": true,
+          "promptBytes": 1843,
+          "promptSha256": "a449863709e9b0ee4aec1923c608589fa875680117a9a5e093bd079f9c29a236"
+        },
+        {
+          "textLimit": 48,
+          "id": "chainsaw-tving-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 689,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 691,
+          "withinBudget": true,
+          "promptBytes": 1843,
+          "promptSha256": "a449863709e9b0ee4aec1923c608589fa875680117a9a5e093bd079f9c29a236"
+        },
+        {
+          "textLimit": 32,
+          "id": "chainsaw-tving-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 687,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 689,
+          "withinBudget": true,
+          "promptBytes": 1839,
+          "promptSha256": "fd11246c77733739dc3d182308df62abe4a48764896ba2a50cedf3eb50cb7bac"
+        }
+      ]
+    },
+    {
+      "id": "chainsaw-tving-description",
+      "template": "legacy-enriched",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "chainsaw-tving-description",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1633,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1635,
+        "withinBudget": true,
+        "promptBytes": 2808,
+        "promptSha256": "acdf898fa1306f55b7e99584c314f48379468f32dc1b8a05b95036c08b1c7b2d"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "chainsaw-tving-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 2569,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2571,
+          "withinBudget": false,
+          "promptBytes": 3744,
+          "promptSha256": "23d28c9b643700d21a6237cae8d78cb6a908dbc10c7dd06ee20409cc395720bc"
+        },
+        {
+          "textLimit": 72,
+          "id": "chainsaw-tving-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 2103,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2105,
+          "withinBudget": false,
+          "promptBytes": 3278,
+          "promptSha256": "df61048185c9c886c930d3b3d526f855e863d340c8cf4302bbd5d1a3e3790ee0"
+        },
+        {
+          "textLimit": 48,
+          "id": "chainsaw-tving-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1633,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1635,
+          "withinBudget": true,
+          "promptBytes": 2808,
+          "promptSha256": "acdf898fa1306f55b7e99584c314f48379468f32dc1b8a05b95036c08b1c7b2d"
+        },
+        {
+          "textLimit": 32,
+          "id": "chainsaw-tving-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1331,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1333,
+          "withinBudget": true,
+          "promptBytes": 2498,
+          "promptSha256": "1caef52d9440189ed52b7a291b10acc08a85afab8e2aa0c8970ee3f4726121fa"
+        }
+      ]
+    },
+    {
+      "id": "demon-slayer-laftel-title",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "demon-slayer-laftel-title",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1087,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1089,
+        "withinBudget": true,
+        "promptBytes": 2124,
+        "promptSha256": "c827724e24f623814693576dda432a5758eef9022bf6a2b8dfdbf26e55f697ba"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "demon-slayer-laftel-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1087,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1089,
+          "withinBudget": true,
+          "promptBytes": 2124,
+          "promptSha256": "c827724e24f623814693576dda432a5758eef9022bf6a2b8dfdbf26e55f697ba"
+        },
+        {
+          "textLimit": 72,
+          "id": "demon-slayer-laftel-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1087,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1089,
+          "withinBudget": true,
+          "promptBytes": 2124,
+          "promptSha256": "c827724e24f623814693576dda432a5758eef9022bf6a2b8dfdbf26e55f697ba"
+        },
+        {
+          "textLimit": 48,
+          "id": "demon-slayer-laftel-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1087,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1089,
+          "withinBudget": true,
+          "promptBytes": 2124,
+          "promptSha256": "c827724e24f623814693576dda432a5758eef9022bf6a2b8dfdbf26e55f697ba"
+        },
+        {
+          "textLimit": 32,
+          "id": "demon-slayer-laftel-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1050,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1052,
+          "withinBudget": true,
+          "promptBytes": 2087,
+          "promptSha256": "7b801dc1c5aa0806b380b591c5762741e76dceffb62a00bf20d2f5072fedf2c3"
+        }
+      ]
+    },
+    {
+      "id": "demon-slayer-laftel-image",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "demon-slayer-laftel-image",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1214,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1216,
+        "withinBudget": true,
+        "promptBytes": 2407,
+        "promptSha256": "ca1856936d6c9621f958a1dfdb2a9953bcabe827f560aea38f093292fb90b0f4"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "demon-slayer-laftel-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1214,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1216,
+          "withinBudget": true,
+          "promptBytes": 2407,
+          "promptSha256": "ca1856936d6c9621f958a1dfdb2a9953bcabe827f560aea38f093292fb90b0f4"
+        },
+        {
+          "textLimit": 72,
+          "id": "demon-slayer-laftel-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1214,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1216,
+          "withinBudget": true,
+          "promptBytes": 2407,
+          "promptSha256": "ca1856936d6c9621f958a1dfdb2a9953bcabe827f560aea38f093292fb90b0f4"
+        },
+        {
+          "textLimit": 48,
+          "id": "demon-slayer-laftel-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1214,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1216,
+          "withinBudget": true,
+          "promptBytes": 2400,
+          "promptSha256": "902b2068cae2039a9ebd99cf6b43fea9ef5c83fb3dd678af716b4ecfa81c61c5"
+        },
+        {
+          "textLimit": 32,
+          "id": "demon-slayer-laftel-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1130,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1132,
+          "withinBudget": true,
+          "promptBytes": 2275,
+          "promptSha256": "12884fb1608af3caa73f75423aa0b92dcaae1f9f7dc81b028780991203f37f6c"
+        }
+      ]
+    },
+    {
+      "id": "demon-slayer-laftel-description",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "demon-slayer-laftel-description",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1086,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1088,
+        "withinBudget": true,
+        "promptBytes": 1954,
+        "promptSha256": "e0651b114334741c5e35b3c55b3ad2503d7dbbeade4aa5d3fdd29169c097811e"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "demon-slayer-laftel-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1086,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1088,
+          "withinBudget": true,
+          "promptBytes": 1954,
+          "promptSha256": "e0651b114334741c5e35b3c55b3ad2503d7dbbeade4aa5d3fdd29169c097811e"
+        },
+        {
+          "textLimit": 72,
+          "id": "demon-slayer-laftel-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 966,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 968,
+          "withinBudget": true,
+          "promptBytes": 1834,
+          "promptSha256": "2270fee10243e4079c33b404fd29cb008cf8ec980f8a64b2fc9245d83f672825"
+        },
+        {
+          "textLimit": 48,
+          "id": "demon-slayer-laftel-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 847,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 849,
+          "withinBudget": true,
+          "promptBytes": 1712,
+          "promptSha256": "255a5ac3b2ac150ad9c54252bd96faa030f28d60a25d59597565048c10ce35ec"
+        },
+        {
+          "textLimit": 32,
+          "id": "demon-slayer-laftel-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 765,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 767,
+          "withinBudget": true,
+          "promptBytes": 1628,
+          "promptSha256": "36415979da2ea3cd62f9e417c22deea4536e37af7c639827fa52963e3d20c442"
+        }
+      ]
+    },
+    {
+      "id": "new-search-laftel-title",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "new-search-laftel-title",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 586,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 588,
+        "withinBudget": true,
+        "promptBytes": 1452,
+        "promptSha256": "af55e0a3118120573b15fcdf7e50bf34bb22b9dfecbb33a175e15f6bac97da31"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "new-search-laftel-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 586,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 588,
+          "withinBudget": true,
+          "promptBytes": 1452,
+          "promptSha256": "af55e0a3118120573b15fcdf7e50bf34bb22b9dfecbb33a175e15f6bac97da31"
+        },
+        {
+          "textLimit": 72,
+          "id": "new-search-laftel-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 586,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 588,
+          "withinBudget": true,
+          "promptBytes": 1452,
+          "promptSha256": "af55e0a3118120573b15fcdf7e50bf34bb22b9dfecbb33a175e15f6bac97da31"
+        },
+        {
+          "textLimit": 48,
+          "id": "new-search-laftel-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 586,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 588,
+          "withinBudget": true,
+          "promptBytes": 1452,
+          "promptSha256": "af55e0a3118120573b15fcdf7e50bf34bb22b9dfecbb33a175e15f6bac97da31"
+        },
+        {
+          "textLimit": 32,
+          "id": "new-search-laftel-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 586,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 588,
+          "withinBudget": true,
+          "promptBytes": 1452,
+          "promptSha256": "af55e0a3118120573b15fcdf7e50bf34bb22b9dfecbb33a175e15f6bac97da31"
+        }
+      ]
+    },
+    {
+      "id": "new-search-laftel-image",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "new-search-laftel-image",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 327,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 329,
+        "withinBudget": true,
+        "promptBytes": 1110,
+        "promptSha256": "c0ca41f2fce59d75883db4ff666e56c9b58b115d49831dafc0c8a40d86d28a2f"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "new-search-laftel-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 327,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 329,
+          "withinBudget": true,
+          "promptBytes": 1110,
+          "promptSha256": "c0ca41f2fce59d75883db4ff666e56c9b58b115d49831dafc0c8a40d86d28a2f"
+        },
+        {
+          "textLimit": 72,
+          "id": "new-search-laftel-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 327,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 329,
+          "withinBudget": true,
+          "promptBytes": 1110,
+          "promptSha256": "c0ca41f2fce59d75883db4ff666e56c9b58b115d49831dafc0c8a40d86d28a2f"
+        },
+        {
+          "textLimit": 48,
+          "id": "new-search-laftel-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 327,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 329,
+          "withinBudget": true,
+          "promptBytes": 1110,
+          "promptSha256": "c0ca41f2fce59d75883db4ff666e56c9b58b115d49831dafc0c8a40d86d28a2f"
+        },
+        {
+          "textLimit": 32,
+          "id": "new-search-laftel-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 327,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 329,
+          "withinBudget": true,
+          "promptBytes": 1110,
+          "promptSha256": "c0ca41f2fce59d75883db4ff666e56c9b58b115d49831dafc0c8a40d86d28a2f"
+        }
+      ]
+    },
+    {
+      "id": "new-search-laftel-description",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "new-search-laftel-description",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 604,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 606,
+        "withinBudget": true,
+        "promptBytes": 1383,
+        "promptSha256": "29f5675688d2bbe13463b71c4485f5ec22f63364ec2cbd11af8312e62ccdb4ff"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "new-search-laftel-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 604,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 606,
+          "withinBudget": true,
+          "promptBytes": 1383,
+          "promptSha256": "29f5675688d2bbe13463b71c4485f5ec22f63364ec2cbd11af8312e62ccdb4ff"
+        },
+        {
+          "textLimit": 72,
+          "id": "new-search-laftel-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 552,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 554,
+          "withinBudget": true,
+          "promptBytes": 1331,
+          "promptSha256": "0359660a937ee8d71909259d62b68302242e1f436747de7a919d9a3e62a448ce"
+        },
+        {
+          "textLimit": 48,
+          "id": "new-search-laftel-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 492,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 494,
+          "withinBudget": true,
+          "promptBytes": 1271,
+          "promptSha256": "cdc84b2a7827136067dd67425628220390884acac88f61fe36f6b8377ce538ec"
+        },
+        {
+          "textLimit": 32,
+          "id": "new-search-laftel-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 450,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 452,
+          "withinBudget": true,
+          "promptBytes": 1229,
+          "promptSha256": "9c73952463c153575c59745ca6eaa2fab8b57ead9a2ee8cf492249017a48bcd4"
+        }
+      ]
+    },
+    {
+      "id": "new-help-netflix-title",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "new-help-netflix-title",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1257,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1259,
+        "withinBudget": true,
+        "promptBytes": 2387,
+        "promptSha256": "d6e9d2886522ec973ea5d505f3d25007cab6b7d6dbe41c746f630b8893040eed"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "new-help-netflix-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1257,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1259,
+          "withinBudget": true,
+          "promptBytes": 2387,
+          "promptSha256": "d6e9d2886522ec973ea5d505f3d25007cab6b7d6dbe41c746f630b8893040eed"
+        },
+        {
+          "textLimit": 72,
+          "id": "new-help-netflix-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1257,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1259,
+          "withinBudget": true,
+          "promptBytes": 2387,
+          "promptSha256": "d6e9d2886522ec973ea5d505f3d25007cab6b7d6dbe41c746f630b8893040eed"
+        },
+        {
+          "textLimit": 48,
+          "id": "new-help-netflix-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1257,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1259,
+          "withinBudget": true,
+          "promptBytes": 2387,
+          "promptSha256": "d6e9d2886522ec973ea5d505f3d25007cab6b7d6dbe41c746f630b8893040eed"
+        },
+        {
+          "textLimit": 32,
+          "id": "new-help-netflix-title",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1257,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1259,
+          "withinBudget": true,
+          "promptBytes": 2387,
+          "promptSha256": "d6e9d2886522ec973ea5d505f3d25007cab6b7d6dbe41c746f630b8893040eed"
+        }
+      ]
+    },
+    {
+      "id": "new-help-netflix-image",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "new-help-netflix-image",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 623,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 625,
+        "withinBudget": true,
+        "promptBytes": 1612,
+        "promptSha256": "1c964c825202186025eb5973dbc3ae80de3c940504e4c3e0eea6d216984d6b70"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "new-help-netflix-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 623,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 625,
+          "withinBudget": true,
+          "promptBytes": 1612,
+          "promptSha256": "1c964c825202186025eb5973dbc3ae80de3c940504e4c3e0eea6d216984d6b70"
+        },
+        {
+          "textLimit": 72,
+          "id": "new-help-netflix-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 623,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 625,
+          "withinBudget": true,
+          "promptBytes": 1612,
+          "promptSha256": "1c964c825202186025eb5973dbc3ae80de3c940504e4c3e0eea6d216984d6b70"
+        },
+        {
+          "textLimit": 48,
+          "id": "new-help-netflix-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 612,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 614,
+          "withinBudget": true,
+          "promptBytes": 1590,
+          "promptSha256": "6feba7798638c28003d35a7678ff4c6ff8f9278a01d1be121cdb14fed3fc46a1"
+        },
+        {
+          "textLimit": 32,
+          "id": "new-help-netflix-image",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 594,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 596,
+          "withinBudget": true,
+          "promptBytes": 1556,
+          "promptSha256": "e24d177e75617a8fe9edc5fe89ae3d07db9dec748d3de76f1fe99e03bc526736"
+        }
+      ]
+    },
+    {
+      "id": "new-help-netflix-description",
+      "template": "legacy-enriched",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "new-help-netflix-description",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1744,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1746,
+        "withinBudget": true,
+        "promptBytes": 2895,
+        "promptSha256": "fa75115ec4e48d2d73f14cf7d715f70ae926ae09765bf0059e5882eb3106ba34"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "new-help-netflix-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 2276,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2278,
+          "withinBudget": false,
+          "promptBytes": 3437,
+          "promptSha256": "900f769f1090562e1eee7d07c6b4dde50de02a7abefd982cfaa9f55429cc010f"
+        },
+        {
+          "textLimit": 72,
+          "id": "new-help-netflix-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 2053,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2055,
+          "withinBudget": false,
+          "promptBytes": 3209,
+          "promptSha256": "7443e34880e5c16780892a9b72c1de4e409c4d42d514d4b0874c9900e0cb1247"
+        },
+        {
+          "textLimit": 48,
+          "id": "new-help-netflix-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1744,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1746,
+          "withinBudget": true,
+          "promptBytes": 2895,
+          "promptSha256": "fa75115ec4e48d2d73f14cf7d715f70ae926ae09765bf0059e5882eb3106ba34"
+        },
+        {
+          "textLimit": 32,
+          "id": "new-help-netflix-description",
+          "template": "legacy-enriched",
+          "split": "holdout",
+          "promptTokens": 1481,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1483,
+          "withinBudget": true,
+          "promptBytes": 2628,
+          "promptSha256": "88beff6da8f98a71a7f069bc79f201f7ec0c7510205c556f034207e257ce59c9"
+        }
+      ]
+    }
+  ]
+}

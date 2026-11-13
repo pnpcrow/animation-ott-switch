@@ -87,8 +87,17 @@ const pair = (before, after) => {
     throw new Error("Paired cohorts do not contain the same cases");
   const pairs = before.map((row) => {
     const next = right.get(row.id);
+    if (
+      row.field !== next.field ||
+      row.expectedId !== next.expectedId ||
+      JSON.stringify([...(row.acceptedIds || [row.expectedId])].sort()) !==
+        JSON.stringify([...(next.acceptedIds || [next.expectedId])].sort())
+    )
+      throw new Error(`Paired labels/field differ: ${row.id}`);
     return {
       id: row.id,
+      beforeValid: row.valid,
+      afterValid: next.valid,
       bothValid: row.valid && next.valid,
       sameChoice: row.valid && next.valid && row.chosenId === next.chosenId,
       beforeCorrect: !!row.correct,
@@ -101,6 +110,17 @@ const pair = (before, after) => {
     n: pairs.length,
     bothValid: pairs.filter((row) => row.bothValid).length,
     sameChoices: pairs.filter((row) => row.sameChoice).length,
+    commonValidBeforeCorrect: pairs.filter(
+      (row) => row.bothValid && row.beforeCorrect,
+    ).length,
+    commonValidAfterCorrect: pairs.filter(
+      (row) => row.bothValid && row.afterCorrect,
+    ).length,
+    newlyValid: pairs.filter((row) => !row.beforeValid && row.afterValid)
+      .length,
+    newlyValidCorrect: pairs.filter(
+      (row) => !row.beforeValid && row.afterValid && row.afterCorrect,
+    ).length,
     correctToWrong: pairs.filter(
       (row) => row.beforeCorrect && !row.afterCorrect,
     ).length,
@@ -153,6 +173,14 @@ if (args["development-only"] !== "true") {
     Date.parse(freeze.lockedAt) < Date.parse(selection.selectedAt)
   )
     throw new Error("Global freeze must follow development selection");
+  for (const [path, expected] of Object.entries(freeze.sources)) {
+    if (hash(await readFile(path, "utf8")) !== expected)
+      throw new Error(`Frozen source changed: ${path}`);
+  }
+  for (const entry of Object.values(freeze.selections)) {
+    if (hash(await readFile(entry.path, "utf8")) !== entry.sha256)
+      throw new Error(`Frozen selection changed: ${entry.path}`);
+  }
   const fresh = await read(args.fresh || `${folder}/fresh.json`);
   const legacy = await read(args.legacy || `${folder}/legacy-fresh.json`);
   if (
@@ -165,8 +193,14 @@ if (args["development-only"] !== "true") {
   const enrichedRows = fresh.rows.filter(
     (row) => row.template === "legacy-enriched",
   );
-  if (!selectedRows.length || !enrichedRows.length || !legacy.rows.length)
-    throw new Error("Missing frozen comparison condition");
+  if (
+    selectedRows.length !== 18 ||
+    enrichedRows.length !== 18 ||
+    legacy.rows.length !== 18
+  )
+    throw new Error(
+      "Every frozen comparison condition must contain all 18 cases",
+    );
   report.fresh = {
     globalFreezeAt: freeze.lockedAt,
     selected: { template: winner, ...describe(selectedRows) },
@@ -232,6 +266,8 @@ if (report.fresh)
     ),
     "",
     `These ${report.fresh.selected.summary.attempted} cases are a small frozen fixture cohort, not proof of production accuracy. They preserve all errors in the denominator.`,
+    "",
+    `On the ${report.fresh.pairedV1ToSelected.bothValid} cases valid in both unchanged v1 and selected v2, correctness is ${report.fresh.pairedV1ToSelected.commonValidBeforeCorrect}/${report.fresh.pairedV1ToSelected.bothValid} versus ${report.fresh.pairedV1ToSelected.commonValidAfterCorrect}/${report.fresh.pairedV1ToSelected.bothValid}. Selected v2 makes ${report.fresh.pairedV1ToSelected.newlyValid} previously failed cases evaluable, of which ${report.fresh.pairedV1ToSelected.newlyValidCorrect} are correct. Against the v2 enriched control, ${report.fresh.pairedEnrichedToSelected.wrongToCorrect} cases change from wrong to correct and ${report.fresh.pairedEnrichedToSelected.correctToWrong} regress.`,
     "",
   );
 lines.push(...report.notes.map((note) => `- ${note}`), "");

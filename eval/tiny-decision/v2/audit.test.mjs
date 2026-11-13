@@ -284,6 +284,11 @@ test("job generation keeps changed scoring sidecars outside prompts", async () =
         expectedId: row.options[1].id,
         acceptedIds: [row.options[1].id],
         provenance: { work: "PRIVATE_SECOND_GOLD" },
+        question: "PRIVATE_SIDECAR_QUESTION_OVERRIDE",
+        options: [],
+        pageEvidence: { documentTitle: "PRIVATE_SIDECAR_PAGE_OVERRIDE" },
+        field: "description",
+        split: "PRIVATE_SIDECAR_SPLIT_OVERRIDE",
       },
     ]),
   );
@@ -297,5 +302,9 @@ test("job generation keeps changed scoring sidecars outside prompts", async () =
   assert.notDeepEqual(
     first.cases.map((c) => c.expectedId),
     second.cases.map((c) => c.expectedId),
+  );
+  assert.deepEqual(
+    first.cases.map((c) => [c.field, c.split, c.options]),
+    second.cases.map((c) => [c.field, c.split, c.options]),
   );
 });

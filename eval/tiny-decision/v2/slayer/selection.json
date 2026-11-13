@@ -1,0 +1,244 @@
+{
+  "schemaVersion": 2,
+  "model": "SlayerLab/Slayer-149M-Decision-v1",
+  "source": "eval/tiny-decision/v2/slayer/development.json",
+  "sourceSha256": "effb912479eee35b6ea2b55189bd2a569008c17e95f834152af248d0b1194fc9",
+  "selectedAt": "2026-11-13T12:25:32.947Z",
+  "policy": "Highest development accuracy, then fewer false element selections, more valid outputs, stable template ID. Latency is excluded because of reuse and concurrent loads.",
+  "selectedTemplates": [
+    "json-evidence"
+  ],
+  "ranked": [
+    {
+      "template": "json-evidence",
+      "summary": {
+        "attempted": 48,
+        "valid": 47,
+        "correct": 13,
+        "accuracy": 0.2708333333333333,
+        "accepted": 38,
+        "acceptedPrecision": 0.21052631578947367,
+        "falseSelections": 30,
+        "correctAbstentions": 5,
+        "errors": 1,
+        "p50Ms": 4409.044,
+        "p95Ms": 7202.922
+      },
+      "fields": {
+        "title": {
+          "attempted": 16,
+          "valid": 16,
+          "correct": 5,
+          "accuracy": 0.3125,
+          "accepted": 14,
+          "acceptedPrecision": 0.2857142857142857,
+          "falseSelections": 10,
+          "correctAbstentions": 1,
+          "errors": 0,
+          "p50Ms": 4409.044,
+          "p95Ms": 7135.895
+        },
+        "image": {
+          "attempted": 16,
+          "valid": 16,
+          "correct": 5,
+          "accuracy": 0.3125,
+          "accepted": 12,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 9,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 4270.226,
+          "p95Ms": 6566.333
+        },
+        "description": {
+          "attempted": 16,
+          "valid": 15,
+          "correct": 3,
+          "accuracy": 0.1875,
+          "accepted": 12,
+          "acceptedPrecision": 0.08333333333333333,
+          "falseSelections": 11,
+          "correctAbstentions": 2,
+          "errors": 1,
+          "p50Ms": 5891.27,
+          "p95Ms": 7224.041
+        }
+      }
+    },
+    {
+      "template": "contrast-example",
+      "summary": {
+        "attempted": 48,
+        "valid": 48,
+        "correct": 10,
+        "accuracy": 0.20833333333333334,
+        "accepted": 41,
+        "acceptedPrecision": 0.17073170731707318,
+        "falseSelections": 34,
+        "correctAbstentions": 3,
+        "errors": 0,
+        "p50Ms": 3207.845,
+        "p95Ms": 5706.826
+      },
+      "fields": {
+        "title": {
+          "attempted": 16,
+          "valid": 16,
+          "correct": 4,
+          "accuracy": 0.25,
+          "accepted": 13,
+          "acceptedPrecision": 0.23076923076923078,
+          "falseSelections": 10,
+          "correctAbstentions": 1,
+          "errors": 0,
+          "p50Ms": 3011.184,
+          "p95Ms": 4095.824
+        },
+        "image": {
+          "attempted": 16,
+          "valid": 16,
+          "correct": 4,
+          "accuracy": 0.25,
+          "accepted": 12,
+          "acceptedPrecision": 0.16666666666666666,
+          "falseSelections": 10,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 2547.453,
+          "p95Ms": 4195.536
+        },
+        "description": {
+          "attempted": 16,
+          "valid": 16,
+          "correct": 2,
+          "accuracy": 0.125,
+          "accepted": 16,
+          "acceptedPrecision": 0.125,
+          "falseSelections": 14,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 5023.855,
+          "p95Ms": 6015.044
+        }
+      }
+    }
+  ],
+  "fieldDiagnostics": {
+    "title": {
+      "winner": "json-evidence",
+      "ranked": [
+        {
+          "template": "json-evidence",
+          "summary": {
+            "attempted": 16,
+            "valid": 16,
+            "correct": 5,
+            "accuracy": 0.3125,
+            "accepted": 14,
+            "acceptedPrecision": 0.2857142857142857,
+            "falseSelections": 10,
+            "correctAbstentions": 1,
+            "errors": 0,
+            "p50Ms": 4409.044,
+            "p95Ms": 7135.895
+          }
+        },
+        {
+          "template": "contrast-example",
+          "summary": {
+            "attempted": 16,
+            "valid": 16,
+            "correct": 4,
+            "accuracy": 0.25,
+            "accepted": 13,
+            "acceptedPrecision": 0.23076923076923078,
+            "falseSelections": 10,
+            "correctAbstentions": 1,
+            "errors": 0,
+            "p50Ms": 3011.184,
+            "p95Ms": 4095.824
+          }
+        }
+      ],
+      "note": "Development-only diagnostic, not selected by fresh holdout or deployed as field-specific routing."
+    },
+    "image": {
+      "winner": "json-evidence",
+      "ranked": [
+        {
+          "template": "json-evidence",
+          "summary": {
+            "attempted": 16,
+            "valid": 16,
+            "correct": 5,
+            "accuracy": 0.3125,
+            "accepted": 12,
+            "acceptedPrecision": 0.25,
+            "falseSelections": 9,
+            "correctAbstentions": 2,
+            "errors": 0,
+            "p50Ms": 4270.226,
+            "p95Ms": 6566.333
+          }
+        },
+        {
+          "template": "contrast-example",
+          "summary": {
+            "attempted": 16,
+            "valid": 16,
+            "correct": 4,
+            "accuracy": 0.25,
+            "accepted": 12,
+            "acceptedPrecision": 0.16666666666666666,
+            "falseSelections": 10,
+            "correctAbstentions": 2,
+            "errors": 0,
+            "p50Ms": 2547.453,
+            "p95Ms": 4195.536
+          }
+        }
+      ],
+      "note": "Development-only diagnostic, not selected by fresh holdout or deployed as field-specific routing."
+    },
+    "description": {
+      "winner": "json-evidence",
+      "ranked": [
+        {
+          "template": "json-evidence",
+          "summary": {
+            "attempted": 16,
+            "valid": 15,
+            "correct": 3,
+            "accuracy": 0.1875,
+            "accepted": 12,
+            "acceptedPrecision": 0.08333333333333333,
+            "falseSelections": 11,
+            "correctAbstentions": 2,
+            "errors": 1,
+            "p50Ms": 5891.27,
+            "p95Ms": 7224.041
+          }
+        },
+        {
+          "template": "contrast-example",
+          "summary": {
+            "attempted": 16,
+            "valid": 16,
+            "correct": 2,
+            "accuracy": 0.125,
+            "accepted": 16,
+            "acceptedPrecision": 0.125,
+            "falseSelections": 14,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 5023.855,
+            "p95Ms": 6015.044
+          }
+        }
+      ],
+      "note": "Development-only diagnostic, not selected by fresh holdout or deployed as field-specific routing."
+    }
+  },
+  "automaticNavigation": false
+}

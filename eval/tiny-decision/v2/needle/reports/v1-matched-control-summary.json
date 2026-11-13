@@ -1,0 +1,184 @@
+{
+  "model": "Cactus-Compute/needle3",
+  "engine": "Cactus 4.1.0 WASM CPU",
+  "source": "eval/tiny-decision/v2/needle/reports/v1-matched-control.json",
+  "templateSha256": "544733f0c2e56e51faec0ce2ca41a05e2a18ebdfc425cf563b36882e8c3234c7",
+  "controlProtocol": {
+    "policy": "Frozen input order: first positive and first explicit none per title/image/description. Six matched cases; labels only stratify/score, never enter model payloads. No predictions used in sampling.",
+    "lockedAt": "2026-11-13T12:42:31.016Z",
+    "selectionFile": "eval/tiny-decision/v2/needle/reports/development.json",
+    "selectionSha256": "8e90022088dc7576eb65e42169318d50054b0362c80105f953232fac4c4d281a",
+    "selectedTemplate": "field-enum",
+    "inputSha256": "10e9dc2188098b04f0fdae3a89cc484358306f40259d408f2a5f27167aa5110a",
+    "labelsSha256": "4a9be08bca1b7aa415a33fc5238cea5df3c2fde2dcba94b51dc30a93d1594f0f",
+    "selectedIds": [
+      "dandadan-netflix-title",
+      "new-search-laftel-title",
+      "dandadan-netflix-image",
+      "new-search-laftel-image",
+      "dandadan-netflix-description",
+      "new-search-laftel-description"
+    ],
+    "controlTemplate": "tool-routing",
+    "controlTemplateSha256": "544733f0c2e56e51faec0ce2ca41a05e2a18ebdfc425cf563b36882e8c3234c7",
+    "runnerSha256": "b13090b459f51774ba9b9b034a79db26daa67477813cb69e40a028c18f2efedd",
+    "automaticNavigation": false
+  },
+  "matchedV2": {
+    "source": "eval/tiny-decision/v2/needle/reports/holdout.json",
+    "template": "field-enum",
+    "selectedIds": [
+      "dandadan-netflix-title",
+      "new-search-laftel-title",
+      "dandadan-netflix-image",
+      "new-search-laftel-image",
+      "dandadan-netflix-description",
+      "new-search-laftel-description"
+    ],
+    "summary": {
+      "attempted": 6,
+      "valid": 1,
+      "correct": 0,
+      "accuracy": 0,
+      "accepted": 0,
+      "acceptedPrecision": null,
+      "falseSelections": 0,
+      "correctAbstentions": 0,
+      "errors": 0,
+      "p50Ms": 12480.700000047684,
+      "p95Ms": 16129.199999809265
+    },
+    "diagnostics": {
+      "positive": {
+        "total": 3,
+        "finalCorrect": 0,
+        "validFinal": 1,
+        "concreteSelections": 0,
+        "singleProposalCount": 3,
+        "singleProposalCorrect": 0,
+        "suppressedWithObservedId": 2
+      },
+      "none": {
+        "total": 3,
+        "finalCorrect": 0,
+        "validFinal": 0,
+        "concreteSelections": 0,
+        "singleProposalCount": 3,
+        "singleProposalCorrect": 3,
+        "suppressedWithObservedId": 3
+      },
+      "input": {
+        "count": 6,
+        "maxChars": 1348,
+        "maxUtf8Bytes": 1986,
+        "serializedRequestChars": {
+          "min": 617,
+          "max": 1379,
+          "median": 1102
+        },
+        "serializedRequestUtf8Bytes": {
+          "min": 673,
+          "max": 2017,
+          "median": 1312
+        },
+        "toolJsonChars": {
+          "min": 252,
+          "max": 328,
+          "median": 319
+        },
+        "inputTextChars": {
+          "min": 341,
+          "max": 1020,
+          "median": 752
+        },
+        "toolSchemaWithoutDescriptionsChars": {
+          "min": 169,
+          "max": 245,
+          "median": 239
+        },
+        "overTarget1800": 0,
+        "tiers": {
+          "96": 6
+        }
+      },
+      "note": "Single proposals include a valid emitted ID or a unique observed suppressed ID. They remain an engine diagnostic, never automatically promoted to final choices or pure-model logits. Positive and none strata must be read separately. Budget chars/bytes sum serialized tools JSON and plain input text, matching the two native ABI string arguments. serializedRequest measures the full {tools,input} JSON wrapper separately. Tool schema overhead is serialized tool JSON with description values emptied; it includes tool names, property keys and enum values, not native prompt tokens."
+    }
+  },
+  "finishedAt": "2026-11-13T12:46:15.780Z",
+  "runs": [
+    {
+      "template": "tool-routing",
+      "stage": "holdout",
+      "summary": {
+        "attempted": 6,
+        "valid": 6,
+        "correct": 4,
+        "accuracy": 0.6666666666666666,
+        "accepted": 4,
+        "acceptedPrecision": 0.5,
+        "falseSelections": 2,
+        "correctAbstentions": 2,
+        "errors": 0,
+        "p50Ms": 19913.599999904633,
+        "p95Ms": 65178.90000009537,
+        "rawProposalCorrect": 4,
+        "meanMs": 37194.883333325386
+      },
+      "diagnostics": {
+        "positive": {
+          "total": 3,
+          "finalCorrect": 2,
+          "validFinal": 3,
+          "concreteSelections": 3,
+          "singleProposalCount": 3,
+          "singleProposalCorrect": 2,
+          "suppressedWithObservedId": 0
+        },
+        "none": {
+          "total": 3,
+          "finalCorrect": 2,
+          "validFinal": 3,
+          "concreteSelections": 1,
+          "singleProposalCount": 3,
+          "singleProposalCorrect": 2,
+          "suppressedWithObservedId": 0
+        },
+        "input": {
+          "count": 6,
+          "maxChars": 6631,
+          "maxUtf8Bytes": 7255,
+          "serializedRequestChars": {
+            "min": 1595,
+            "max": 6655,
+            "median": 5732
+          },
+          "serializedRequestUtf8Bytes": {
+            "min": 1627,
+            "max": 7279,
+            "median": 5912
+          },
+          "toolJsonChars": {
+            "min": 976,
+            "max": 6091,
+            "median": 5181
+          },
+          "inputTextChars": {
+            "min": 527,
+            "max": 595,
+            "median": 582
+          },
+          "toolSchemaWithoutDescriptionsChars": {
+            "min": 211,
+            "max": 946,
+            "median": 946
+          },
+          "overTarget1800": 4,
+          "tiers": {
+            "v1-unbounded": 6
+          }
+        },
+        "note": "Single proposals include a valid emitted ID or a unique observed suppressed ID. They remain an engine diagnostic, never automatically promoted to final choices or pure-model logits. Positive and none strata must be read separately. Budget chars/bytes sum serialized tools JSON and plain input text, matching the two native ABI string arguments. serializedRequest measures the full {tools,input} JSON wrapper separately. Tool schema overhead is serialized tool JSON with description values emptied; it includes tool names, property keys and enum values, not native prompt tokens."
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "source": "eval/tiny-decision/v2/needle/reports/holdout.json",
+  "sourceSha256": "5d2c1f014f0030c178d14589201904f83dd90cd416f0f34fb527be083bc313cc",
+  "auditedAt": "2026-11-13T12:42:42.162Z",
+  "rows": 18,
+  "unknown": [],
+  "passes": true,
+  "choiceGuardSha256": "bbbba5a31e2eab3114d9577c7dea3110b12ba75ad46eaa386ad97e31754a7d3c",
+  "boundary": "Exact request-schema tool-name membership only. No model calls, prompt changes, confidence changes or selection changes. Zero unknown names proves the new guard would not reject any prior output beyond the existing parser."
+}

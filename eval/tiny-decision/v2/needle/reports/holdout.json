@@ -1,0 +1,1822 @@
+{
+  "schemaVersion": 2,
+  "model": "Cactus-Compute/needle3",
+  "engine": "Cactus 4.1.0 WASM CPU",
+  "modelRevision": "c95d25b4efa1e9601e785d92438e4ade0dbddbf8",
+  "runtimeRevision": "4e822c9036be2eb0e47ef556df32a818bb1572ef",
+  "templateSha256": "b0bc42ee1e2cb11cc56d8c34418cb7654f7026d5c2de32436a0f47f5442d2374",
+  "featureSourceSha256": "01d561a330e0e46faff35a989255332bebecb69844494d74f827ebdea8d9df9a",
+  "choiceGuardSha256": "bbbba5a31e2eab3114d9577c7dea3110b12ba75ad46eaa386ad97e31754a7d3c",
+  "runnerSha256": "91b3b7b8a09de5a430d2d704db323b56aa158d2b76bfafa8f6d478cb953ed65e",
+  "parserBoundary": "Exact schema tool-name allowlist applied outside the frozen template compiler. Original development outputs audited: no unknown names; payloads, confidence gate and selection unchanged.",
+  "startedAt": "2026-11-13T12:36:25.592Z",
+  "runs": [
+    {
+      "template": "field-enum",
+      "split": "holdout",
+      "rows": [
+        {
+          "id": "dandadan-netflix-title",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "__none__",
+            "t2",
+            "t3",
+            "t1",
+            "t5",
+            "t8",
+            "t4",
+            "t7",
+            "t6"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_title_element\",\"arguments\":{\"node\":\"absent\"}}],\"suppressed_calls\":[],\"reasoning\":\"Node_07 from query. Node_05 from query. Node_06 from query. Node_07 from query. Node_07 from query. Node_09 from query. Node_08 from query. Node_09 from query\",\"confidence\":0.1204,\"prefill_tps\":74.0,\"decode_tps\":42.9,\"peak_ram_mb\":-2097151.0,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_title_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Node_07 from query. Node_05 from query. Node_06 from query. Node_07 from query. Node_07 from query. Node_09 from query. Node_08 from query. Node_09 from query",
+            "confidence": 0.1204,
+            "prefill_tps": 74,
+            "decode_tps": 42.9,
+            "peak_ram_mb": -2097151,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 12634.600000143051,
+          "chosenId": "__none__",
+          "accepted": true,
+          "request": {
+            "tools": [
+              {
+                "name": "choose_title_element",
+                "description": "Select the current work's clean name; exclude an episode name and site branding.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "absent",
+                        "node_02",
+                        "node_03",
+                        "node_04",
+                        "node_05",
+                        "node_06",
+                        "node_07",
+                        "node_08",
+                        "node_09"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/kr/title/81736884; pageTitle=단다단, 지금 시청하세요 | 넷플릭스; headings=단다단; dialogs=0\nabsent: No current work detail or no suitable field element\nnode_02: h1/text|visible|span>div|단다단|1x51|near=단다단\nnode_03: h2/text|visible|div>div|회차|64x43|near=단다단\nnode_04: title/text|metadata|head>html|단다단, 지금 시청하세요 | 넷플릭스|near=단다단\nnode_05: h2/text|visible|div>div|회원님이 좋아하실 만한 콘텐츠|437x43|near=단다단\nnode_06: h3/text|visible|div>div|광고형 스탠다드|173x32|near=1080p\nnode_07: h2/text|visible|div>div|상세 정보 보기|206x43|near=단다단\nnode_08: h2/text|visible|div>div|나의 니즈에 꼭 맞는 멤버십|380x43|near=광고형 스탠다드\nnode_09: h2/text|visible|div>div|지금 뜨는 콘텐츠|238x43|near=단다단",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 1071,
+            "utf8Bytes": 1281,
+            "toolChars": 319,
+            "inputChars": 752,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "5397e61133adb4f9bd95506a1d95e083cc8f7d323eff827d4018a738e841b57a",
+          "suppressedId": null,
+          "split": "holdout",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "valid": true,
+          "correct": false,
+          "rawProposalCorrect": false
+        },
+        {
+          "id": "dandadan-netflix-image",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "i8",
+            "i1",
+            "__none__",
+            "i2",
+            "i6",
+            "i7",
+            "i4",
+            "i5",
+            "i3"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_image_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"Node_05 from query. Node_07 from query. Node_09 from query. Node_08 from query. Node_09 from query. Node_03 from query. Node_04 from query. Node_05 from query. N\",\"confidence\":0.0718,\"prefill_tps\":65.7,\"decode_tps\":34.0,\"peak_ram_mb\":-2097150.9,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_image_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "Node_05 from query. Node_07 from query. Node_09 from query. Node_08 from query. Node_09 from query. Node_03 from query. Node_04 from query. Node_05 from query. N",
+            "confidence": 0.0718,
+            "prefill_tps": 65.7,
+            "decode_tps": 34,
+            "peak_ram_mb": -2097150.9,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 16129.199999809265,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_image_element",
+                "description": "Select the current work's poster or backdrop; exclude logos, icons and episode art.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "node_02",
+                        "absent",
+                        "node_04",
+                        "node_05",
+                        "node_06",
+                        "node_07",
+                        "node_08",
+                        "node_09"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/kr/title/81736884; pageTitle=단다단, 지금 시청하세요 | 넷플릭스; headings=단다단; dialogs=0\nnode_01: img/src|hidden|div>li|a3hnUaZnndQ4IeGOdnyRTW4nDRA/AAAABQ-E…8gaYQUrdt8qSV|300x169\nnode_02: meta/og:image|metadata|head>html|6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABf0F…MLeuozsdmCbSF|near=단다단\nabsent: No current work detail or no suitable field element\nnode_04: img/src|visible|div>div|MgXQGyNr1xbI8tJSYiMWv5kXg5g/AAAABRLd…LzuDc-kjzhS82|1440x658|near=단다단\nnode_05: img/src|hidden|div>li|a3hnUaZnndQ4IeGOdnyRTW4nDRA/AAAABcDv…suO3k7GBE0hIU|300x169\nnode_06: img/src|hidden|div>li|a3hnUaZnndQ4IeGOdnyRTW4nDRA/AAAABRxX…NQTapOl5wAByg|300x169\nnode_07: img/src|hidden|div>li|a3hnUaZnndQ4IeGOdnyRTW4nDRA/AAAABf_i…b1m7fBzZMRlbo|300x169\nnode_08: img/src|hidden|div>li|a3hnUaZnndQ4IeGOdnyRTW4nDRA/AAAABRBf…4w54BIC54SX1b|300x169\nnode_09: img/src|visible|div>div|S4oi7EPZbv2UEPaukW54OORa0S8/AAAABfdj…i4BERWZ-vOoZn|371x212",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 1335,
+            "utf8Bytes": 1397,
+            "toolChars": 322,
+            "inputChars": 1013,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "045556ca129e8752dbf7e3e3e279700fc334e4fe6a16e86f9f63a141ae50b8a6",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": false
+        },
+        {
+          "id": "dandadan-netflix-description",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "__none__",
+            "d7",
+            "d4",
+            "d1",
+            "d3",
+            "d2",
+            "d8",
+            "d6",
+            "d5"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_description_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"Turn 2: Node_03: Node_04: Node_05: Node_06: Node_07: Node_07: Node_08: Node_09: Node_09: Node_010\",\"confidence\":0.0107,\"prefill_tps\":56.3,\"decode_tps\":33.1,\"peak_ram_mb\":-2097150.3,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_description_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "Turn 2: Node_03: Node_04: Node_05: Node_06: Node_07: Node_07: Node_08: Node_09: Node_09: Node_010",
+            "confidence": 0.0107,
+            "prefill_tps": 56.3,
+            "decode_tps": 33.1,
+            "peak_ram_mb": -2097150.3,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 28860.89999985695,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_description_element",
+                "description": "Select the current work's plot; exclude episode plots, promotions and placeholders.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "absent",
+                        "node_02",
+                        "node_03",
+                        "node_04",
+                        "node_05",
+                        "node_06",
+                        "node_07",
+                        "node_08",
+                        "node_09"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/kr/title/81736884; pageTitle=단다단, 지금 시청하세요 | 넷플릭스; headings=단다단; dialogs=0\nabsent: No current work detail or no suitable field element\nnode_02: p/text|visible|div>div|터보 할멈과의 대결투를 함께 치른 모모와 오카룽. 조금은 가까워졌지만, 여전히 서먹서먹하다|275x84\nnode_03: p/text|visible|div>div|켄을 오카룽이라고 부르기로 한 모모. 일단 오카룽을 데리고 자신의 집으로 가지만, 거대한 |275x63\nnode_04: meta/description|metadata|head>html|유령과 외계인의 존재를 서로에게 증명하기 위해 내기를 한 두 고등학생. 무시무시한 초자연적|near=단다단\nnode_05: p/text|visible|div>div|유령의 존재는 믿지만 외계인의 존재는 믿지 않는 고등학생 모모. 어느 날, 외계인의 존재는|275x84\nnode_06: meta/og:description|metadata|head>html|유령과 외계인의 존재를 서로에게 증명하기 위해 내기를 한 두 고등학생. 무시무시한 초자연적|near=단다단\nnode_07: p/text|visible|div>div|사라진 오카룽의 중요 부위를 황금 구슬에 넣어뒀다는 터보 할멈. 그리고 우연히 이 구슬을 |275x84\nnode_08: p/text|visible|div>div|터보 할멈과 대결하기 위해 터널에 온 오카룽과 모모. 마침내 두 사람이 승리를 거두었다고 |275x84\nnode_09: p/text|visible|div>div|모모의 할머니가 오카룽 안에 있는 악령을 일시적으로 제압한다. 하지만 악령을 완전히 물리치|275x84",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 1348,
+            "utf8Bytes": 1986,
+            "toolChars": 328,
+            "inputChars": 1020,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "8e997ac8bc0df3da39d3637aae8201b0fbc0d4f02efc22822491bb0a846fbd62",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": false
+        },
+        {
+          "id": "spy-family-apple-title",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "t7",
+            "t3",
+            "t8",
+            "t6",
+            "t1",
+            "__none__",
+            "t5",
+            "t2",
+            "t4"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_title_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"node_07 from query; node_05 from query; node_06 from query; node_09 from query; node_07 from query; node_08 from query; node_09 from query; node_07 from query\",\"confidence\":0.0637,\"prefill_tps\":55.4,\"decode_tps\":30.7,\"peak_ram_mb\":-2097151.0,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_title_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "node_07 from query; node_05 from query; node_06 from query; node_09 from query; node_07 from query; node_08 from query; node_09 from query; node_07 from query",
+            "confidence": 0.0637,
+            "prefill_tps": 55.4,
+            "decode_tps": 30.7,
+            "peak_ram_mb": -2097151,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 16261.700000047684,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_title_element",
+                "description": "Select the current work's clean name; exclude an episode name and site branding.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "node_02",
+                        "node_03",
+                        "node_04",
+                        "node_05",
+                        "absent",
+                        "node_07",
+                        "node_08",
+                        "node_09"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/kr/show/스파이-패밀리/umc.cmc.1vuf6gpxnoqci1yey2n13h3nx; pageTitle=‎스파이 패밀리 - Apple TV; headings=스파이 패밀리; dialogs=1\nnode_01: h3/text|visible|section>div|정보|440x21|near=언어\nnode_02: h2/text|visible|div>div|시즌 1 시즌 2 시즌 3 시즌 1|62x22|near=스파이 패밀리\nnode_03: h3/text|visible|section>div|언어|440x21|near=정보\nnode_04: h2/text|visible|div>div|콘텐츠 설명|1360x34|near=스파이 패밀리\nnode_05: title/text|metadata|head>html|‎스파이 패밀리 - Apple TV|near=스파이 패밀리\nabsent: No current work detail or no suitable field element\nnode_07: h2/text|visible|div>div|출연진 및 제작진|148x22\nnode_08: h1/text|visible|div>header|스파이 패밀리|1x1\nnode_09: h2/text|visible|div>div|관련 콘텐츠|109x22",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 1088,
+            "utf8Bytes": 1268,
+            "toolChars": 319,
+            "inputChars": 769,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "04927416c5886317428e268bb1f526141a17f5ad8ba55b732dacfbeaafd80b34",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": false
+        },
+        {
+          "id": "spy-family-apple-image",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "i8",
+            "i2",
+            "i1",
+            "i4",
+            "i5",
+            "i7",
+            "i6",
+            "i3",
+            "__none__"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_image_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"Node 07 from query. Node_05 from query. Node_06 from query. Node_07 from query. Node_07 from query. Node_08 from query. Node_09 from query. Node_09 from query\",\"confidence\":0.0585,\"prefill_tps\":52.6,\"decode_tps\":27.8,\"peak_ram_mb\":-2097150.7,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_image_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "Node 07 from query. Node_05 from query. Node_06 from query. Node_07 from query. Node_07 from query. Node_08 from query. Node_09 from query. Node_09 from query",
+            "confidence": 0.0585,
+            "prefill_tps": 52.6,
+            "decode_tps": 27.8,
+            "peak_ram_mb": -2097150.7,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 21712.5,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_image_element",
+                "description": "Select the current work's poster or backdrop; exclude logos, icons and episode art.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "node_02",
+                        "node_03",
+                        "node_04",
+                        "node_05",
+                        "node_06",
+                        "node_07",
+                        "node_08",
+                        "absent"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/kr/show/스파이-패밀리/umc.cmc.1vuf6gpxnoqci1yey2n13h3nx; pageTitle=‎스파이 패밀리 - Apple TV; headings=스파이 패밀리; dialogs=1\nnode_01: img/src/presentation|visible|picture>div|doBYgjRxV2XJ6QZJyv8unw/340x261KF.TVALC02.webp|340x261\nnode_02: img/src/presentation|hidden|picture>div|QSSIbddySoqVOU7N0Pb35w/1200x2133nr.webp|1200x2133|near=스파이 패밀리\nnode_03: img/src/presentation|visible|picture>div|AmXGrgXfoEDxmj6m0ueAdQ/1200x675sr.webp|1200x675|near=스파이 패밀리\nnode_04: img/src|visible|picture>div[img]|mkUOKzqX_44471CMwAmHKg/486x486SWL.TVARHBL1.png|1440x1440|near=스파이 패밀리\nnode_05: img/src/presentation|visible|picture>div|Gr0b7x6UtJ6cCWDwYmf0NA/340x261KF.TVALC02.webp|340x261\nnode_06: img/src/presentation|visible|picture>div|eCsceVlnrS0-CZ-P5Ajjqw/340x261KF.TVALC02.webp|340x261\nnode_07: img/src/presentation|visible|picture>div|q1e1-McOzrNMSlKX_XFEMA/340x261KF.TVALC02.webp|340x261\nnode_08: img/src|visible|picture>div|LLLItp8Z6wfNFzHMqLfqNQ/432x162.png|alt=스파이 패밀리|1440x456|near=스파이 패밀리\nabsent: No current work detail or no suitable field element",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 1488,
+            "utf8Bytes": 1600,
+            "toolChars": 322,
+            "inputChars": 1166,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "23f558a3c12db9a7e157097be15480b7d31a19ad6e288b37473b1842c9fa336d",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": false
+        },
+        {
+          "id": "spy-family-apple-description",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "d7",
+            "d1",
+            "d4",
+            "d8",
+            "__none__",
+            "d3",
+            "d2",
+            "d5",
+            "d6"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_description_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"Turn 9 (Node_03) → turn 9 (Node_04). Turn 2 (Node_05) → turn 2 (Node_06). Turn 3 (Node_07) → turn 4 (\",\"confidence\":0.0197,\"prefill_tps\":49.4,\"decode_tps\":32.5,\"peak_ram_mb\":-2097150.3,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_description_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "Turn 9 (Node_03) → turn 9 (Node_04). Turn 2 (Node_05) → turn 2 (Node_06). Turn 3 (Node_07) → turn 4 (",
+            "confidence": 0.0197,
+            "prefill_tps": 49.4,
+            "decode_tps": 32.5,
+            "peak_ram_mb": -2097150.3,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 32136.900000095367,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_description_element",
+                "description": "Select the current work's plot; exclude episode plots, promotions and placeholders.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "node_02",
+                        "node_03",
+                        "node_04",
+                        "absent",
+                        "node_06",
+                        "node_07",
+                        "node_08",
+                        "node_09"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/kr/show/스파이-패밀리/umc.cmc.1vuf6gpxnoqci1yey2n13h3nx; pageTitle=‎스파이 패밀리 - Apple TV; headings=스파이 패밀리; dialogs=1\nnode_01: div/text|hidden|div>div|교복을 맞춘 뒤 장을 보러 간 요르와 아냐는 건달 일당을 만나 위기에 처한다. 요르는 아냐|230x32\nnode_02: p/text|visible|div>div|각각 스파이, 암살자, 초능력자라는 어마어마한 정체를 숨긴 채 의사인 아버지에 공무원인 어|410x42|near=스파이 패밀리\nnode_03: div/text|visible|div>div|로이드와 아냐의 집에 요르가 이사 왔다. 가족의 형태는 갖춰졌고 다음은 면접시험 준비다. |230x32\nnode_04: p/text|visible|div>footer|Copyright © 2026 Apple Inc. 모든 권리 보유.|navigation|1360x14|near=아프리카, 중동 및 인도\nabsent: No current work detail or no suitable field element\nnode_06: div/text|visible|div>div|입학 면접을 보려면 부부가 면접장에 동반해야 한다는 말에 황혼은 딸 아냐에 이어 아내 역을|230x32\nnode_07: div/text|visible|div>div|웨스탈리스 정보국 대동과 [WISE]는 에이전트 [황혼]에게 오스타니아에서 전쟁 계획을 진|230x32\nnode_08: div/text|visible|div>div|드디어 이든 칼리지 면접 날이 다가오고, 포저 가족 세 사람은 면접을 보러 면접장으로 향한|230x32\nnode_09: div/text|visible|div>div|오늘은 이든 칼리지의 합격 발표일. 하지만 아냐의 수험 번호가 명단에 없어서 절망에 빠지는|230x32",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 1402,
+            "utf8Bytes": 1999,
+            "toolChars": 328,
+            "inputChars": 1074,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "e87d89a7dfdd050f84bf9c7b254ebd228fd2561dc5d0e08146ff2f74bf5e2741",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": false
+        },
+        {
+          "id": "chainsaw-tving-title",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "t3",
+            "__none__",
+            "t1",
+            "t4",
+            "t2"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_title_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"node_05 from query; h1 from query; h2 from query; h2 from query; h3 from query; h4 from query; h5 from query; h6 from query; h7 from query; h8 from query; h9 from query; h11 from query\",\"confidence\":0.0627,\"prefill_tps\":52.5,\"decode_tps\":34.6,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_title_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "node_05 from query; h1 from query; h2 from query; h2 from query; h3 from query; h4 from query; h5 from query; h6 from query; h7 from query; h8 from query; h9 from query; h11 from query",
+            "confidence": 0.0627,
+            "prefill_tps": 52.5,
+            "decode_tps": 34.6,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 11357,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_title_element",
+                "description": "Select the current work's clean name; exclude an episode name and site branding.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "absent",
+                        "node_03",
+                        "node_04",
+                        "node_05"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/contents/P001654042; pageTitle=체인소 맨 1화 | TVING; headings=체인소 맨 1화; dialogs=0\nnode_01: img/alt|visible|picture>div|체인소 맨|alt=체인소 맨|716x160\nabsent: No current work detail or no suitable field element\nnode_03: title/text|metadata|head>html|체인소 맨 1화 | TVING|near=체인소 맨 1화\nnode_04: h2/text|visible|div>section|비슷한 콘텐츠|119x38|near=체인소 맨 1화\nnode_05: h1/text|visible|section>main|체인소 맨 1화|1x1|near=비슷한 콘텐츠",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 810,
+            "utf8Bytes": 910,
+            "toolChars": 279,
+            "inputChars": 531,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "c03221351f07a9c85d2feab181b32f7ddb7f2c7762e9101ed020ec7bf270f798",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": false
+        },
+        {
+          "id": "chainsaw-tving-image",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "i4",
+            "i5",
+            "i7",
+            "i6",
+            "i2",
+            "i3",
+            "i1",
+            "__none__",
+            "i8"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_image_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"Node_06 from query. Node_07 from query. Node_09 from query. Node_09 from query. Node_07 from query. Node_07 from query. Node_06 from query. Node_07 from query\",\"confidence\":0.0769,\"prefill_tps\":55.5,\"decode_tps\":29.5,\"peak_ram_mb\":-2097151.0,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_image_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "Node_06 from query. Node_07 from query. Node_09 from query. Node_09 from query. Node_07 from query. Node_07 from query. Node_06 from query. Node_07 from query",
+            "confidence": 0.0769,
+            "prefill_tps": 55.5,
+            "decode_tps": 29.5,
+            "peak_ram_mb": -2097151,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 15565.299999952316,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_image_element",
+                "description": "Select the current work's poster or backdrop; exclude logos, icons and episode art.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "node_02",
+                        "node_03",
+                        "node_04",
+                        "node_05",
+                        "node_06",
+                        "node_07",
+                        "absent",
+                        "node_09"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/contents/P001654042; pageTitle=체인소 맨 1화 | TVING; headings=체인소 맨 1화; dialogs=0\nnode_01: img/src|visible|div>div|img/thumbnail_19block.webp|alt=체인소 맨|480x693|near=체인소 맨 1화\nnode_02: img/src|visible|picture>div|resize/F_webp,800|alt=체인소 맨|716x160\nnode_03: img/src|visible|picture>div|resize/F_webp,600|600x338\nnode_04: img/src|visible|picture>div|resize/F_webp,600|600x338\nnode_05: img/src|visible|div>a|18/1695032536_1.svg|191x78|near=체인소 맨 1화\nnode_06: img/src|hidden|div>article|img/thumbnail_19block_landscape.webp|alt=체인소 맨|1920x1080|near=체인소 맨 1화\nnode_07: meta/og:image|metadata|head>html|resize/500|near=체인소 맨 1화\nabsent: No current work detail or no suitable field element\nnode_09: img/src|visible|picture>div|resize/F_webp,600|600x338",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 1192,
+            "utf8Bytes": 1276,
+            "toolChars": 322,
+            "inputChars": 870,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "40fb5913e8b470d6ea4382557f092ddfe5a571bed4ddc02061dae7f54142b565",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": false
+        },
+        {
+          "id": "chainsaw-tving-description",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "d7",
+            "d5",
+            "d1",
+            "d2",
+            "d6",
+            "d4",
+            "__none__",
+            "d3",
+            "d8"
+          ],
+          "code": 91,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_description_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"Turn 2: Node_03: 전전전전전전전전전전전전전전전전전�\",\"confidence\":0.0656,\"prefill_tps\":50.4,\"decode_tps\":27.9,\"peak_ram_mb\":-2097150.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_description_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "Turn 2: Node_03: 전전전전전전전전전전전전전전전전전�",
+            "confidence": 0.0656,
+            "prefill_tps": 50.4,
+            "decode_tps": 27.9,
+            "peak_ram_mb": -2097150.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 31285,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_description_element",
+                "description": "Select the current work's plot; exclude episode plots, promotions and placeholders.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "node_02",
+                        "node_03",
+                        "node_04",
+                        "node_05",
+                        "node_06",
+                        "absent",
+                        "node_08",
+                        "node_09"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/contents/P001654042; pageTitle=체인소 맨 1화 | TVING; headings=체인소 맨 1화; dialogs=0\nnode_01: p/text|visible|div>a|총의 악마의 살점을 모으기 위해 호텔로 잠입한 공안 대마 특이 4과. 하지만 악마의 힘에 |245x64\nnode_02: p/text|visible|div>a|격투 끝에 박쥐의 악마를 쓰러뜨리고 자신을 함정에 빠뜨린 파워를 구해낸 덴지. 그 목적은 |245x64\nnode_03: meta/description|metadata|head>html|『체인소의 악마』포치타와 함께 데블 헌터로 사는 소년 덴지. 부모가 남긴 빚을 갚기 위해,|near=체인소 맨 1화\nnode_04: p/text|visible|div>a|데블 헌터로 살아가는 소년 덴지. 아버지가 남긴 빚을 갚기 위해 ′체인소의 악마′ 포치타와|245x64\nnode_05: p/text|visible|div>a|하야카와 아키, 파워와 함께 공동생활을 시작한 덴지. 그렇게 소원이던 파워의 가슴을 주무르|245x64\nnode_06: p/text|visible|div>a|′가슴 주무르기′를 자신의 다음 꿈으로 정한 덴지. 덴지의 버디가 된 ′피의 악마′ 파워는|245x64\nabsent: No current work detail or no suitable field element\nnode_08: p/text|visible|div>a|데블 헌터 도쿄 본부에 오게 된 덴지는 마키마에게 선배 하야카와 아키를 소개받고 둘이서 임|245x64\nnode_09: p/text|visible|div>a|덴지를 대신해 코베니의 칼에 찔린 아키. 그 모습을 본 덴지는 영원의 악마를 향해 뛰어 들|245x64",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 1324,
+            "utf8Bytes": 1932,
+            "toolChars": 328,
+            "inputChars": 996,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "112ce78ddee308e1433bfe421969e2cf213e42ddba4deb57321502e326dc7ecd",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": false
+        },
+        {
+          "id": "demon-slayer-laftel-title",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "t1",
+            "t4",
+            "t7",
+            "t6",
+            "t5",
+            "t2",
+            "__none__",
+            "t8",
+            "t3"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_title_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"node_05: 'node_05' -> node_05; node_06: 'node_06' -> node_06; node_07: 'node_07' -> node_07; node\",\"confidence\":0.0390,\"prefill_tps\":51.6,\"decode_tps\":28.8,\"peak_ram_mb\":-2097150.7,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_title_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "node_05: 'node_05' -> node_05; node_06: 'node_06' -> node_06; node_07: 'node_07' -> node_07; node",
+            "confidence": 0.039,
+            "prefill_tps": 51.6,
+            "decode_tps": 28.8,
+            "peak_ram_mb": -2097150.7,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 24667.5,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_title_element",
+                "description": "Select the current work's clean name; exclude an episode name and site branding.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "node_02",
+                        "node_03",
+                        "node_04",
+                        "node_05",
+                        "node_06",
+                        "absent",
+                        "node_08",
+                        "node_09"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/item/40587; pageTitle=(자막) 극장판 귀멸의 칼날 : 남매의 연 라프텔 - 애니 추천 애니 스트리밍 서비스; headings=(자막) 극장판 귀멸의 칼날 : 남매의 연; dialogs=0\nnode_01: title/text|metadata|head>html|(자막) 극장판 귀멸의 칼날 : 남매의 연 라프텔 - 애니 추천 애니 스트리밍 서비스|near=(자막) 극장판 귀멸의 칼날 : 남매의 연\nnode_02: img/alt|visible|picture>div|호랑이 들어와요 2 포스터\nnode_03: img/alt|visible|picture>div|(자막) 드래곤볼 슈퍼: 비루스 포스터\nnode_04: img/alt|visible|picture>div|FX 전사 쿠루미 포스터\nnode_05: img/alt|visible|picture>div|시광대리인 3기 Part 1 포스터|alt=시광대리인 3기 Part 1 포스터|380x214\nnode_06: meta/og:title|metadata|head>html|(자막) 극장판 귀멸의 칼날 : 남매의 연 ㅣ 라프텔|near=(자막) 극장판 귀멸의 칼날 : 남매의 연\nabsent: No current work detail or no suitable field element\nnode_08: img/alt|visible|picture>div|수왕무신 댄디바인 포스터|alt=수왕무신 댄디바인 포스터|380x214\nnode_09: h1/text|visible|header>div|(자막) 극장판 귀멸의 칼날 : 남매의 연|600x60",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 1238,
+            "utf8Bytes": 1650,
+            "toolChars": 319,
+            "inputChars": 919,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "7c649c33d383e19869a91be0f9183a34e04b41785f0ee56fd6b314f1df20ec8b",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": false
+        },
+        {
+          "id": "demon-slayer-laftel-image",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "i4",
+            "i3",
+            "i6",
+            "__none__",
+            "i1",
+            "i8",
+            "i5",
+            "i2",
+            "i7"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_image_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"Node_07 from query. Node_08 from query. Node_09 from query. Node_07 from query. Node_07 from query. Node_08 from query. Node_09 from query. Node_07 from query.\",\"confidence\":0.0672,\"prefill_tps\":49.7,\"decode_tps\":28.6,\"peak_ram_mb\":-2097150.8,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_image_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "Node_07 from query. Node_08 from query. Node_09 from query. Node_07 from query. Node_07 from query. Node_08 from query. Node_09 from query. Node_07 from query.",
+            "confidence": 0.0672,
+            "prefill_tps": 49.7,
+            "decode_tps": 28.6,
+            "peak_ram_mb": -2097150.8,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 21649,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_image_element",
+                "description": "Select the current work's poster or backdrop; exclude logos, icons and episode art.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "node_02",
+                        "node_03",
+                        "absent",
+                        "node_05",
+                        "node_06",
+                        "node_07",
+                        "node_08",
+                        "node_09"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/item/40587; pageTitle=(자막) 극장판 귀멸의 칼날 : 남매의 연 라프텔 - 애니 추천 애니 스트리밍 서비스; headings=(자막) 극장판 귀멸의 칼날 : 남매의 연; dialogs=0\nnode_01: img/src|hidden|div>div|carousel/7e6f3672-1262-4390-b73a-e1d0bc4b2c37.png|1228x515\nnode_02: img/src|hidden|div>div|carousel/eb0854cb-5fee-4815-8044-ad99e9824ab4.png|1228x515\nnode_03: img/src|hidden|div>div|carousel/bac938bb-41b0-4a16-9a6f-b983307d8637.png|1228x515\nabsent: No current work detail or no suitable field element\nnode_05: meta/og:image|metadata|head>html|home/d76776cf-3328-4b7c-9785-1b22f62dd668.jpg|near=(자막) 극장판 귀멸의 칼날 : 남매의 연\nnode_06: img/src|hidden|div>div|carousel/6dbf036a-38a0-4899-b56d-bd604d062912.png|1228x515\nnode_07: img/src|hidden|div>div|carousel/1f999d47-25c8-43db-b110-1ad7acebebe7.png|1228x515\nnode_08: img/src|visible|div>div|carousel/8b450407-d46c-4990-93c0-0ae5d8dc21d1.png|1228x515\nnode_09: img/src|hidden|div>div|carousel/d386e4c4-4173-457a-b4e0-a66bec09292f.png|1228x515",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 1384,
+            "utf8Bytes": 1500,
+            "toolChars": 322,
+            "inputChars": 1062,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "2ec46ea743b650d7c4aa34d34ef2ad996d8c2e89745e2a6104a89dcef9aa23ec",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": false
+        },
+        {
+          "id": "demon-slayer-laftel-description",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "d3",
+            "d1",
+            "__none__",
+            "d2"
+          ],
+          "code": 99,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_description_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"Node 'node_04' from query. Node 'absent' from query. Node 'absent' from query. Node 'node_04' from query. Node 'absent' from query. Node 'absent' from\",\"confidence\":0.0091,\"prefill_tps\":54.0,\"decode_tps\":35.1,\"peak_ram_mb\":-2097151.1,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_description_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "Node 'node_04' from query. Node 'absent' from query. Node 'absent' from query. Node 'node_04' from query. Node 'absent' from query. Node 'absent' from",
+            "confidence": 0.0091,
+            "prefill_tps": 54,
+            "decode_tps": 35.1,
+            "peak_ram_mb": -2097151.1,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 16983.599999904633,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_description_element",
+                "description": "Select the current work's plot; exclude episode plots, promotions and placeholders.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "node_02",
+                        "absent",
+                        "node_04"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/item/40587; pageTitle=(자막) 극장판 귀멸의 칼날 : 남매의 연 라프텔 - 애니 추천 애니 스트리밍 서비스; headings=(자막) 극장판 귀멸의 칼날 : 남매의 연; dialogs=0\nnode_01: p/text|visible|div>div|늑대와 향신료 MERCHANT MEETS THE WISE WOLF|214x40\nnode_02: meta/description|metadata|head>html|(자막) 극장판 귀멸의 칼날 : 남매의 연을(를) 라프텔에서 합법적으로 감상하세요. 세상의|near=(자막) 극장판 귀멸의 칼날 : 남매의 연\nabsent: No current work detail or no suitable field element\nnode_04: meta/og:description|metadata|head>html|혈귀의 습격으로 가족을 잃은 소년 탄지로. 유일하게 살아남은 여동생 네즈코마저 혈귀로 변해|near=(자막) 극장판 귀멸의 칼날 : 남매의 연",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 914,
+            "utf8Bytes": 1214,
+            "toolChars": 278,
+            "inputChars": 636,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "0b0f81786edd6fec3e71fa08b768191ccacc9dd17e90dce935d7f07a0179e36e",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": false
+        },
+        {
+          "id": "new-search-laftel-title",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "t3",
+            "t2",
+            "t1",
+            "__none__"
+          ],
+          "code": 99,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_title_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node\",\"confidence\":0.0082,\"prefill_tps\":53.2,\"decode_tps\":36.8,\"peak_ram_mb\":-2097151.3,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_title_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node",
+            "confidence": 0.0082,
+            "prefill_tps": 53.2,
+            "decode_tps": 36.8,
+            "peak_ram_mb": -2097151.3,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 12480.700000047684,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_title_element",
+                "description": "Select the current work's clean name; exclude an episode name and site branding.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "node_02",
+                        "node_03",
+                        "absent"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/search?keyword; pageTitle='스파이 패밀리'에 대한 검색 결과 | 라프텔; dialogs=0\nnode_01: h2/text|visible|div>div|‘스파이 패밀리’ 검색 결과|1340x48\nnode_02: meta/og:title|metadata|head>html|라프텔 - 애니 추천 · 애니 스트리밍 · 애니 굿즈|near=‘스파이 패밀리’ 검색 결과\nnode_03: title/text|metadata|head>html|'스파이 패밀리'에 대한 검색 결과 | 라프텔|near=‘스파이 패밀리’ 검색 결과\nabsent: No current work detail or no suitable field element",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 760,
+            "utf8Bytes": 932,
+            "toolChars": 269,
+            "inputChars": 491,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "63f6d7b323b88b85f76b703ea8bfe4ff75e480c7852f1e77a55ffd8c6de1ba11",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": true
+        },
+        {
+          "id": "new-search-laftel-image",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "__none__",
+            "i1"
+          ],
+          "code": 99,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_image_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"node 'absent' from 'absent'; dialogs=0 from 'with no current work detail or no suitable field element'; dialogs=0 from 'with no suitable field element'; dialogs=0 from 'with no suitable field element\",\"confidence\":0.0126,\"prefill_tps\":57.6,\"decode_tps\":38.5,\"peak_ram_mb\":-2097151.6,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_image_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "node 'absent' from 'absent'; dialogs=0 from 'with no current work detail or no suitable field element'; dialogs=0 from 'with no suitable field element'; dialogs=0 from 'with no suitable field element",
+            "confidence": 0.0126,
+            "prefill_tps": 57.6,
+            "decode_tps": 38.5,
+            "peak_ram_mb": -2097151.6,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 7533.099999904633,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_image_element",
+                "description": "Select the current work's poster or backdrop; exclude logos, icons and episode art.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "absent",
+                        "node_02"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/search?keyword; pageTitle='스파이 패밀리'에 대한 검색 결과 | 라프텔; dialogs=0\nabsent: No current work detail or no suitable field element\nnode_02: meta/og:image|metadata|head>html|og_image_1200x1200.png|near=‘스파이 패밀리’ 검색 결과",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 593,
+            "utf8Bytes": 649,
+            "toolChars": 252,
+            "inputChars": 341,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "a9830ab59ecdcdb646bbc628301d6bd86948bfbbb313b2291cc3828c39145b2f",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": true
+        },
+        {
+          "id": "new-search-laftel-description",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "d1",
+            "__none__"
+          ],
+          "code": 99,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_description_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node\",\"confidence\":0.0070,\"prefill_tps\":56.6,\"decode_tps\":43.6,\"peak_ram_mb\":-2097151.5,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_description_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node 'absent' from query. Node",
+            "confidence": 0.007,
+            "prefill_tps": 56.6,
+            "decode_tps": 43.6,
+            "peak_ram_mb": -2097151.5,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 9285.200000047684,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_description_element",
+                "description": "Select the current work's plot; exclude episode plots, promotions and placeholders.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "absent"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/search?keyword; pageTitle='스파이 패밀리'에 대한 검색 결과 | 라프텔; dialogs=0\nnode_01: meta/description|metadata|head>html|세상의 모든 애니메이션을 고화질로 무제한 스트리밍하세요. 추억의 애니부터 분기별 신작까지 |near=‘스파이 패밀리’ 검색 결과\nabsent: No current work detail or no suitable field element",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 630,
+            "utf8Bytes": 764,
+            "toolChars": 258,
+            "inputChars": 372,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "bce4ecea29f4ac8d034ef48917df7f03814f3a1f17b5e89ea37d0134c2a00a37",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": true
+        },
+        {
+          "id": "new-help-netflix-title",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "t1",
+            "__none__",
+            "t7",
+            "t8",
+            "t5",
+            "t6",
+            "t3",
+            "t2",
+            "t4"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_title_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"Node 07 -> node_07; node_08 -> node_08; node_09 -> node_09; node_07 -> node_09; node_08 -> node_08; node_08 -> node_08;\",\"confidence\":0.0632,\"prefill_tps\":56.5,\"decode_tps\":30.7,\"peak_ram_mb\":-2097150.9,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_title_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "Node 07 -> node_07; node_08 -> node_08; node_09 -> node_09; node_07 -> node_09; node_08 -> node_08; node_08 -> node_08;",
+            "confidence": 0.0632,
+            "prefill_tps": 56.5,
+            "decode_tps": 30.7,
+            "peak_ram_mb": -2097150.9,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 19225.900000095367,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_title_element",
+                "description": "Select the current work's clean name; exclude an episode name and site branding.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "node_01",
+                        "absent",
+                        "node_03",
+                        "node_04",
+                        "node_05",
+                        "node_06",
+                        "node_07",
+                        "node_08",
+                        "node_09"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/ko/node/47765; pageTitle=넷플릭스 검색 및 탐색 방법 | 넷플릭스 고객 센터; headings=넷플릭스 검색 및 탐색 방법; dialogs=0\nnode_01: title/text|metadata|head>html|넷플릭스 검색 및 탐색 방법 | 넷플릭스 고객 센터|near=넷플릭스 검색 및 탐색 방법\nabsent: No current work detail or no suitable field element\nnode_03: h2/text|hidden|div>div[presentation]|개인정보 선호 센터|dialog 0|near=개인정보 선호 센터\nnode_04: h3/text|hidden|div[tab]>li[presentation]|일반 설명|navigation|dialog 0|near=필수 쿠키\nnode_05: h3/text|visible|div>div|관련 문서|285x27|near=넷플릭스 검색 및 탐색 방법\nnode_06: h3/text|visible|div>div|도움이 필요하신가요?|196x30|near=넷플릭스 검색 및 탐색 방법\nnode_07: h2/text|visible|section>div|검색|849x30|near=탐색\nnode_08: h1/text|visible|div>div|넷플릭스 검색 및 탐색 방법|849x50|near=검색\nnode_09: h2/text|visible|section>div|탐색|849x30|near=검색",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 1174,
+            "utf8Bytes": 1454,
+            "toolChars": 319,
+            "inputChars": 855,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "7a62fb6c711209464881278783187adc0d847c12698659a252f961d0f44a4c53",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": true
+        },
+        {
+          "id": "new-help-netflix-image",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "__none__",
+            "i1",
+            "i3",
+            "i2",
+            "i4"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_image_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"node_04 from query; node_05 from query; node_05 from query; node_06 from query; node_07 from query; node_07 from query\",\"confidence\":0.0208,\"prefill_tps\":57.3,\"decode_tps\":35.3,\"peak_ram_mb\":-2097151.2,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_image_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "node_04 from query; node_05 from query; node_05 from query; node_06 from query; node_07 from query; node_07 from query",
+            "confidence": 0.0208,
+            "prefill_tps": 57.3,
+            "decode_tps": 35.3,
+            "peak_ram_mb": -2097151.2,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 13247.599999904633,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_image_element",
+                "description": "Select the current work's poster or backdrop; exclude logos, icons and episode art.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "absent",
+                        "node_02",
+                        "node_03",
+                        "node_04",
+                        "node_05"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/ko/node/47765; pageTitle=넷플릭스 검색 및 탐색 방법 | 넷플릭스 고객 센터; headings=넷플릭스 검색 및 탐색 방법; dialogs=0\nabsent: No current work detail or no suitable field element\nnode_02: img/src|visible|span>p|cdf076a0-0754-43e8-aef7-71eda60ff6cd…65255/icon-se|alt=search icon|16x16|near=검색\nnode_03: img/src|hidden|div>div[presentation]|4345ea78-053c-46d2-b11e-09adaef973dc/Netflix_Logo_|dialog 0|alt=회사 로고|1801x756|near=개인정보 선호 센터\nnode_04: img/src|hidden|span>p|kb/note-text.svg\nnode_05: img/src|hidden|a>div|static/powered_by_logo.svg|dialog 0|alt=Powered by Onetrust|568x53|near=개인정보 선호 센터",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 980,
+            "utf8Bytes": 1086,
+            "toolChars": 282,
+            "inputChars": 698,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "5379faf2bbe488bc938612d5ff3031fb27236620125e783f116caa7035ca5257",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": true
+        },
+        {
+          "id": "new-help-netflix-description",
+          "template": "field-enum",
+          "stage": "holdout",
+          "optionIds": [
+            "__none__",
+            "d7",
+            "d2",
+            "d6",
+            "d5",
+            "d1",
+            "d3",
+            "d4",
+            "d8"
+          ],
+          "code": 101,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_description_element\",\"arguments\":{\"node\":\"absent\"}}],\"reasoning\":\"Turn 9: node_05; turn 10: node_06; turn 11: node_07; turn 8: node_08; turn 9: node_09; turn 10: node_09; turn 11: node_09; turn 11\",\"confidence\":0.0091,\"prefill_tps\":57.5,\"decode_tps\":36.9,\"peak_ram_mb\":-2097150.2,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_description_element",
+                "arguments": {
+                  "node": "absent"
+                }
+              }
+            ],
+            "reasoning": "Turn 9: node_05; turn 10: node_06; turn 11: node_07; turn 8: node_08; turn 9: node_09; turn 10: node_09; turn 11: node_09; turn 11",
+            "confidence": 0.0091,
+            "prefill_tps": 57.5,
+            "decode_tps": 36.9,
+            "peak_ram_mb": -2097150.2,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 29892.200000047684,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique tool call",
+          "request": {
+            "tools": [
+              {
+                "name": "choose_description_element",
+                "description": "Select the current work's plot; exclude episode plots, promotions and placeholders.",
+                "parameters": {
+                  "type": "object",
+                  "properties": {
+                    "node": {
+                      "type": "string",
+                      "enum": [
+                        "absent",
+                        "node_02",
+                        "node_03",
+                        "node_04",
+                        "node_05",
+                        "node_06",
+                        "node_07",
+                        "node_08",
+                        "node_09"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "node"
+                  ]
+                }
+              }
+            ],
+            "input": "Use observed evidence. A visible work dialog overrides the background page. Choose absent when no work detail or field exists.\npath=/ko/node/47765; pageTitle=넷플릭스 검색 및 탐색 방법 | 넷플릭스 고객 센터; headings=넷플릭스 검색 및 탐색 방법; dialogs=0\nabsent: No current work detail or no suitable field element\nnode_02: p/text|hidden|div[tabpanel]>div|필수 쿠키는 Netflix 서비스를 제공하는 데 반드시 필요합니다. 예를 들어, Netfl|dialog 0|near=개인정보 선호 센터\nnode_03: p/text|visible|section>div|시리즈와 영화를 검색하려면 넷플릭스 앱에서 검색 아이콘을 찾아 검색어를 입력합니다.|849x24|near=검색\nnode_04: p/text|hidden|div[tabpanel]>div|본 쿠키 툴은 회원이 Netflix 서비스 내 쿠키 사용 및 이러한 쿠키 사용을 제어하는 |dialog 0|near=개인정보 선호 센터\nnode_05: p/text|visible|div>div|참고: 원하는 시리즈 및 영화가 표시되지 않는 경우, 프로필에 설정된 관람등급 및 언어 설|825x42|near=검색\nnode_06: meta/description|metadata|head>html|계정에 로그인한 다음 검색창에서 영화 및 시리즈를 검색하세요. 제목, 배우, 카테고리, 장|near=넷플릭스 검색 및 탐색 방법\nnode_07: p/text|visible|div>div|참고: 특정 자막, 음성 또는 원본 언어로 시리즈와 영화를 검색하려면 웹에서 언어별로 찾아|825x21|near=검색\nnode_08: p/text|visible|section>div|홈페이지에는 회원님이 좋아할 만한 시리즈와 영화가 여러 줄로 표시됩니다. 화면 상단의 바로|849x96|near=검색\nnode_09: button/aria-label|hidden|div>div[tabpanel]|필수 쿠키 - 쿠키 세부 정보 버튼은 쿠키 목록 메뉴를 엽니 다|dialog 0|near=개인정보 선호 센터",
+            "maxTokens": 96
+          },
+          "inputSize": {
+            "chars": 1471,
+            "utf8Bytes": 2133,
+            "toolChars": 328,
+            "inputChars": 1143,
+            "desiredChars": 1800,
+            "maxChars": 2200,
+            "textTier": 96,
+            "previousTierFailures": []
+          },
+          "payloadSha256": "221cfa09adba5feb02b1923a059d898da34c54174f5de2f752d2032218d26cf5",
+          "suppressedId": "__none__",
+          "split": "holdout",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false,
+          "rawProposalCorrect": true
+        }
+      ],
+      "summary": {
+        "attempted": 18,
+        "valid": 1,
+        "correct": 0,
+        "accuracy": 0,
+        "accepted": 0,
+        "acceptedPrecision": null,
+        "falseSelections": 0,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 16261.700000047684,
+        "p95Ms": 31285,
+        "rawProposalCorrect": 6
+      }
+    }
+  ],
+  "environment": {
+    "os": "win32 10.0.26300 x64",
+    "cpu": "AMD Ryzen 7 8840U w/ Radeon 780M Graphics      ",
+    "logicalProcessors": 16,
+    "maxNewTokens": 96,
+    "resetBeforeEveryCase": true,
+    "browser": "158.0.8127.18"
+  },
+  "protocol": "Prior v1 corpus is development only. Fixed balanced12 old cases select one template before reading the new validation dataset. No model or runtime changes; no actions executed.",
+  "inputLimits": {
+    "desiredChars": 1800,
+    "hardChars": 2200,
+    "tokenCountObservable": false,
+    "internalTruncationObservable": false
+  },
+  "selection": {
+    "template": "field-enum",
+    "policy": "Highest calibration accuracy; then fewer false selections, more valid outputs, lower median latency, stable name tie-break. Holdout is never used.",
+    "development": {
+      "attempted": 12,
+      "valid": 3,
+      "correct": 2,
+      "accuracy": 0.16666666666666666,
+      "accepted": 0,
+      "acceptedPrecision": null,
+      "falseSelections": 0,
+      "correctAbstentions": 2,
+      "errors": 0,
+      "p50Ms": 15985.899999856949,
+      "p95Ms": 25423.900000095367,
+      "rawProposalCorrect": 6
+    },
+    "lockedAt": "2026-11-13T12:22:49.548Z",
+    "developmentIds": [
+      "witch-title",
+      "sakura-title",
+      "frieren-wavve-search-title",
+      "dungeon-watcha-search-title",
+      "witch-image",
+      "sakura-image",
+      "frieren-wavve-search-image",
+      "dungeon-watcha-search-image",
+      "witch-description",
+      "sakura-description",
+      "apothecary-description",
+      "frieren-wavve-search-description"
+    ],
+    "templateSha256": "b0bc42ee1e2cb11cc56d8c34418cb7654f7026d5c2de32436a0f47f5442d2374",
+    "featureSourceSha256": "01d561a330e0e46faff35a989255332bebecb69844494d74f827ebdea8d9df9a",
+    "automaticNavigation": false,
+    "sourceSha256": "9b27549e30d524b2b060051f9a1683281e1ed18638e7a6b8d2fe016f95fa29c4"
+  },
+  "assetHashes": {
+    "cactus.js": "707341e44776ab0eb8dfc8f6a579ed5ac41e2ffc6419a18012f61619a6dfc70c",
+    "cactus.wasm": "6fb6cb41145cd51fd8af97644cd684fbdd434d4d3ce261881df58cbaef5b67f7",
+    "needle3.cact": "c9d915eca282ed42d1a09b143b592adb4cc6744ffe2d294adf5cfc5548170c38"
+  },
+  "load": {
+    "loadMs": 132.70000004768372,
+    "modelBytes": 35335380,
+    "engine": "Cactus 4.1.0 official WASM CPU",
+    "threads": 1
+  },
+  "holdoutSha256": "95832f2fcc13d14165a50448e0a9e7cb7efc80a9658f2b776da9ac1df471ad6c",
+  "holdoutReadAt": "2026-11-13T12:36:26.541Z",
+  "externalRequests": [],
+  "finishedAt": "2026-11-13T12:42:07.662Z"
+}

@@ -1,0 +1,780 @@
+{
+  "schemaVersion": 2,
+  "label": "Token-budgeted v2 decision templates",
+  "model": "SlayerLab/Slayer-149M-Decision-v1",
+  "revision": "ccfd7d3d91f3894beb1cd096b5d067333ba3d4c7",
+  "runtime": "PyTorch CPU (not WebGPU)",
+  "torch": "2.15.0+cpu",
+  "transformers": "5.22.2",
+  "python": "3.12.10",
+  "threads": 4,
+  "parameters": 149333081,
+  "dtype": "float32",
+  "loadSeconds": 3.904276099987328,
+  "datasetSha256": "66269634cf00fc5c2c63efe8fb9dc58dce3ebf6078dc32ca0045546fe26c289b",
+  "modelHashes": {
+    "config.json": "31a1e0fde1069108db98968775bed7644cfde9713e85900e57ccf195815ec8ab",
+    "modeling_slayer_balanced.py": "11154d3fe903d020afbaebed86f6f00add3301ee5d51e7ffef6c59f35efe123e",
+    "tokenizer.json": "d1ffe47f6fd8cc19ba7c3e5d2537699d6a99d09b584d3319944f4e40fe6c44ea",
+    "tokenizer_config.json": "beb5e8e876d2615204c8e92d0540d2a8650ee649e12dc2f87582b9c8f2f23b03",
+    "model.safetensors": "ba26b9ac1b22ca433e2046ef0d7bcb288e51d4d4aa1d16d0ab27c42025bc581e"
+  },
+  "readout": "Sum of log probabilities of numeric bracket suffixes; exact shared-prefix trie; conditional softmax, not calibrated on DOM tasks",
+  "rows": [
+    {
+      "id": "witch-title",
+      "split": "development",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t1",
+        "t4",
+        "t6",
+        "t7",
+        "t2",
+        "__none__",
+        "t8",
+        "t5",
+        "t3"
+      ],
+      "promptSha256": "ee0ec933a0d0c93bc55eef809c568bb1d939e33e2e5215e64a18ec70c52a6aab",
+      "logScores": [
+        -2.956168983131647,
+        -2.731426934711635,
+        -3.042293239850551,
+        -2.862146206200123,
+        -2.968568589538336,
+        -3.566984393633902,
+        -5.392655197530985,
+        -5.984868371859193,
+        -6.119204133749008
+      ],
+      "probabilities": [
+        0.167313814163208,
+        0.20947681367397308,
+        0.1535070836544037,
+        0.18380840122699738,
+        0.1652519851922989,
+        0.09083598852157593,
+        0.014634543098509312,
+        0.008094391785562038,
+        0.007076900452375412
+      ],
+      "legalRootMass": 0.3151148557662964,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.168284847102269,
+      "promptTokens": 1358,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 3800.724,
+      "inferenceKey": "313de129ce6d6c9de614ce6722a8b259e66ac813ea3c75c50a35dc70f869079e",
+      "field": "title",
+      "budget": {
+        "id": "witch-title",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1358,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1360,
+        "withinBudget": true,
+        "promptBytes": 2495,
+        "promptSha256": "ee0ec933a0d0c93bc55eef809c568bb1d939e33e2e5215e64a18ec70c52a6aab"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\bb67d68a084c8768/raw-inference.json"
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "split": "development",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t4",
+        "t7",
+        "t1",
+        "t3",
+        "t8",
+        "t6",
+        "__none__",
+        "t2",
+        "t5"
+      ],
+      "promptSha256": "0be717d5d39b46d1970bc106f84c982e8e464899fae6840cce10ce23d7a21276",
+      "logScores": [
+        -2.3588833641260862,
+        -2.7007115602027625,
+        -3.0755408933619037,
+        -3.0270780441351235,
+        -3.7072958457283676,
+        -3.8607170628383756,
+        -5.658904571086168,
+        -5.881378939375281,
+        -6.215731220319867
+      ],
+      "probabilities": [
+        0.3047478199005127,
+        0.21651427447795868,
+        0.14883334934711456,
+        0.1562238335609436,
+        0.07912842184305191,
+        0.06787385791540146,
+        0.011239826679229736,
+        0.00899787899106741,
+        0.006440697703510523
+      ],
+      "legalRootMass": 0.31287673115730286,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.1706127539734872,
+      "promptTokens": 1115,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 3335.22,
+      "inferenceKey": "035096196431ba95e0d0b9146e76c873c1771861e732b14932d659cddd54a7ee",
+      "field": "title",
+      "budget": {
+        "id": "frieren-wavve-search-title",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1115,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1117,
+        "withinBudget": true,
+        "promptBytes": 2315,
+        "promptSha256": "0be717d5d39b46d1970bc106f84c982e8e464899fae6840cce10ce23d7a21276"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\bb67d68a084c8768/raw-inference.json"
+    },
+    {
+      "id": "witch-image",
+      "split": "development",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "i2",
+      "optionIds": [
+        "i7",
+        "i2",
+        "i8",
+        "__none__",
+        "i5",
+        "i3",
+        "i1",
+        "i4",
+        "i6"
+      ],
+      "promptSha256": "68370c0a4e2800499839e7a568a1ed8702d2e2c6ec48bc8824decf7175842f49",
+      "logScores": [
+        -2.528730124235153,
+        -2.285648446995765,
+        -2.6749935131520033,
+        -2.794999724254012,
+        -3.0427520368248224,
+        -3.4035957623273134,
+        -5.067425735294819,
+        -5.331762161105871,
+        -5.236368007957935
+      ],
+      "probabilities": [
+        0.19505998492240906,
+        0.2487352192401886,
+        0.16851820051670074,
+        0.1494612991809845,
+        0.11666251718997955,
+        0.0813240334391594,
+        0.015403758734464645,
+        0.011825698427855968,
+        0.013009360060095787
+      ],
+      "legalRootMass": 0.416169673204422,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -0.8942819512105371,
+      "promptTokens": 1421,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 4085.856,
+      "inferenceKey": "037edc4b96262eee57b4ca71b29818ea06d06154bbaca65e88a36bb9acf467a6",
+      "field": "image",
+      "budget": {
+        "id": "witch-image",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1421,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1423,
+        "withinBudget": true,
+        "promptBytes": 2657,
+        "promptSha256": "68370c0a4e2800499839e7a568a1ed8702d2e2c6ec48bc8824decf7175842f49"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\bb67d68a084c8768/raw-inference.json"
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "split": "development",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i5",
+        "i2",
+        "i1",
+        "i3",
+        "i4",
+        "i6",
+        "__none__",
+        "i7"
+      ],
+      "promptSha256": "981f5532244dc2204510b3845eeef573ce0f33934e1e52fa134ccca6619f8cdf",
+      "logScores": [
+        -1.8955148998647928,
+        -3.191871431656182,
+        -3.622749730478972,
+        -3.540733443107456,
+        -4.229363118764013,
+        -4.020034484565258,
+        -5.93556235358119,
+        -6.265788346529007,
+        -6.29548704251647
+      ],
+      "probabilities": [
+        0.5254290103912354,
+        0.14371877908706665,
+        0.09340829402208328,
+        0.1013922467827797,
+        0.05092566832900047,
+        0.06278371810913086,
+        0.009245785884559155,
+        0.00664551043882966,
+        0.006451051216572523
+      ],
+      "legalRootMass": 0.2904070317745209,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.2519746614948666,
+      "promptTokens": 887,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 2661.676,
+      "inferenceKey": "263b6fa055e47b64f56882babeceaf66ca133642027ba1a4e0c79238da833874",
+      "field": "image",
+      "budget": {
+        "id": "frieren-wavve-search-image",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 887,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 889,
+        "withinBudget": true,
+        "promptBytes": 2040,
+        "promptSha256": "981f5532244dc2204510b3845eeef573ce0f33934e1e52fa134ccca6619f8cdf"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\bb67d68a084c8768/raw-inference.json"
+    },
+    {
+      "id": "witch-description",
+      "split": "development",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "d8",
+      "optionIds": [
+        "d2",
+        "d3",
+        "d1",
+        "d8",
+        "d6",
+        "d5",
+        "d7",
+        "d4",
+        "__none__"
+      ],
+      "promptSha256": "39fa9d21373ab48b24890b01e1c04d733281ac6a75993949ce0bed6462066e42",
+      "logScores": [
+        -3.0839151851832867,
+        -2.783476833254099,
+        -2.8665996491909027,
+        -2.6036934461444616,
+        -2.807390134781599,
+        -3.4279711917042732,
+        -4.6873634532094,
+        -4.751175470650196,
+        -3.9933005943894386
+      ],
+      "probabilities": [
+        0.12453632801771164,
+        0.1681801676750183,
+        0.15476581454277039,
+        0.2013045996427536,
+        0.1642061173915863,
+        0.08828246593475342,
+        0.02505689486861229,
+        0.023507917299866676,
+        0.05015970394015312
+      ],
+      "legalRootMass": 0.38392940163612366,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.0007573647235863,
+      "promptTokens": 1824,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "correct": false,
+      "elapsedMs": 5110.477,
+      "inferenceKey": "be740cf61a34415b99fcc5ddd89bd59de12bd0d5562edfa108cb6709c9a99975",
+      "field": "description",
+      "budget": {
+        "id": "witch-description",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1824,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1826,
+        "withinBudget": true,
+        "promptBytes": 3041,
+        "promptSha256": "39fa9d21373ab48b24890b01e1c04d733281ac6a75993949ce0bed6462066e42"
+      },
+      "chosenTextLimit": 32,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\bb67d68a084c8768/raw-inference.json"
+    },
+    {
+      "id": "apothecary-description",
+      "split": "development",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "d3",
+      "optionIds": [
+        "d3",
+        "__none__",
+        "d1",
+        "d4",
+        "d2"
+      ],
+      "promptSha256": "53e481e268fab9937964f8a5c7f2f9f941c3932e37c066940456bd589c25c98f",
+      "logScores": [
+        -2.5939086955040693,
+        -3.2212111963890493,
+        -3.1037890799343586,
+        -2.6328455642797053,
+        -3.189465781673789
+      ],
+      "probabilities": [
+        0.27414798736572266,
+        0.14640337228775024,
+        0.16464436054229736,
+        0.2636786699295044,
+        0.15112558007240295
+      ],
+      "legalRootMass": 0.27566930651664734,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "jointSuffixLogMass": -1.2998215602980052,
+      "promptTokens": 1029,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 2815.801,
+      "inferenceKey": "439b5388d14dfc005a18c3338069d29c5b42e8caf2cea71ef3b8f26ac9a78f01",
+      "field": "description",
+      "budget": {
+        "id": "apothecary-description",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1029,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1031,
+        "withinBudget": true,
+        "promptBytes": 1931,
+        "promptSha256": "53e481e268fab9937964f8a5c7f2f9f941c3932e37c066940456bd589c25c98f"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\bb67d68a084c8768/raw-inference.json"
+    }
+  ],
+  "finishedAt": "2026-11-13T12:27:08.756Z",
+  "implementationSha256": "03fd2c3e8c0b75fd23a43919e206c3ffb6c04494b8638033bfc5a15359668789",
+  "sourceJobs": "eval/tiny-decision/v2/slayer/order-jobs.json",
+  "sourceJobsSha256": "37155376e77d02e77956f9f9d32e4a78229554ab090ecff6ba036b7c9a87af49",
+  "budgetedJobsSha256": "d2c539064c8df2676d5e3c98dc8fcbc4037433263a9bd8a415b7fb5d52c1281a",
+  "budgetAudit": "eval/tiny-decision/v2/slayer/order-inference-budget.json",
+  "sampling": {
+    "selectedIds": [
+      "witch-title",
+      "frieren-wavve-search-title",
+      "witch-image",
+      "frieren-wavve-search-image",
+      "witch-description",
+      "apothecary-description"
+    ],
+    "policy": "First case from each predeclared screen stratum: field x positive/none; no predictions enter sampling. Reverse all options, keeping observed facts and frozen template."
+  },
+  "templates": [
+    "json-evidence"
+  ],
+  "reuse": {
+    "reused": 0,
+    "newlyInferred": 6,
+    "source": null,
+    "policy": "Reuse only identical case/template/prompt/ordered-option IDs/index base and pinned model/scorer implementation. Reused latency remains its original observation."
+  },
+  "summaries": [
+    {
+      "template": "json-evidence",
+      "summary": {
+        "attempted": 6,
+        "valid": 6,
+        "correct": 0,
+        "accuracy": 0,
+        "accepted": 6,
+        "acceptedPrecision": 0,
+        "falseSelections": 6,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 3335.22,
+        "p95Ms": 4085.856
+      },
+      "fields": {
+        "title": {
+          "attempted": 2,
+          "valid": 2,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 2,
+          "acceptedPrecision": 0,
+          "falseSelections": 2,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3335.22,
+          "p95Ms": 3335.22
+        },
+        "image": {
+          "attempted": 2,
+          "valid": 2,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 2,
+          "acceptedPrecision": 0,
+          "falseSelections": 2,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2661.676,
+          "p95Ms": 2661.676
+        },
+        "description": {
+          "attempted": 2,
+          "valid": 2,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 2,
+          "acceptedPrecision": 0,
+          "falseSelections": 2,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2815.801,
+          "p95Ms": 2815.801
+        }
+      }
+    }
+  ]
+}

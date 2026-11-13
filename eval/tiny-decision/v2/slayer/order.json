@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 2,
+  "template": "json-evidence",
+  "selectionSha256": "132255da546ab1ead5765ed10408f3b780455ac866f39e72926c0d89ef0b82a9",
+  "selectionTime": "2026-11-13T12:25:32.947Z",
+  "cohort": "Development-only paired order sensitivity; not independent holdout and not used for template reselection",
+  "original": {
+    "attempted": 6,
+    "valid": 6,
+    "correct": 2,
+    "accuracy": 0.3333333333333333,
+    "accepted": 5,
+    "acceptedPrecision": 0.2,
+    "falseSelections": 4,
+    "correctAbstentions": 1,
+    "errors": 0,
+    "p50Ms": 3963.947,
+    "p95Ms": 5066.597
+  },
+  "reversed": {
+    "attempted": 6,
+    "valid": 6,
+    "correct": 0,
+    "accuracy": 0,
+    "accepted": 6,
+    "acceptedPrecision": 0,
+    "falseSelections": 6,
+    "correctAbstentions": 0,
+    "errors": 0,
+    "p50Ms": 3335.22,
+    "p95Ms": 4085.856
+  },
+  "paired": [
+    {
+      "id": "witch-title",
+      "bothValid": true,
+      "original": "t3",
+      "reversed": "t4",
+      "sameChoice": false
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "bothValid": true,
+      "original": "t5",
+      "reversed": "t4",
+      "sameChoice": false
+    },
+    {
+      "id": "witch-image",
+      "bothValid": true,
+      "original": "i6",
+      "reversed": "i2",
+      "sameChoice": false
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "bothValid": true,
+      "original": "i7",
+      "reversed": "i8",
+      "sameChoice": false
+    },
+    {
+      "id": "witch-description",
+      "bothValid": true,
+      "original": "d7",
+      "reversed": "d8",
+      "sameChoice": false
+    },
+    {
+      "id": "apothecary-description",
+      "bothValid": true,
+      "original": "__none__",
+      "reversed": "d3",
+      "sameChoice": false
+    }
+  ],
+  "validPairs": 6,
+  "sameChoices": 0,
+  "finishedAt": "2026-11-13T12:27:08.775Z"
+}

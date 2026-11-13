@@ -1,0 +1,408 @@
+{
+  "sourceSha256": "37155376e77d02e77956f9f9d32e4a78229554ab090ecff6ba036b7c9a87af49",
+  "limit": 2048,
+  "decisions": [
+    {
+      "id": "witch-title",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-title",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1358,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1360,
+        "withinBudget": true,
+        "promptBytes": 2495,
+        "promptSha256": "ee0ec933a0d0c93bc55eef809c568bb1d939e33e2e5215e64a18ec70c52a6aab"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1358,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1360,
+          "withinBudget": true,
+          "promptBytes": 2495,
+          "promptSha256": "ee0ec933a0d0c93bc55eef809c568bb1d939e33e2e5215e64a18ec70c52a6aab"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1358,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1360,
+          "withinBudget": true,
+          "promptBytes": 2495,
+          "promptSha256": "ee0ec933a0d0c93bc55eef809c568bb1d939e33e2e5215e64a18ec70c52a6aab"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1358,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1360,
+          "withinBudget": true,
+          "promptBytes": 2495,
+          "promptSha256": "ee0ec933a0d0c93bc55eef809c568bb1d939e33e2e5215e64a18ec70c52a6aab"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1345,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1347,
+          "withinBudget": true,
+          "promptBytes": 2482,
+          "promptSha256": "5a1ccc8b22aae909d36994b8684f68f2a534d41bf2cad5b3aec2206b8e343b62"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-title",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1115,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1117,
+        "withinBudget": true,
+        "promptBytes": 2315,
+        "promptSha256": "0be717d5d39b46d1970bc106f84c982e8e464899fae6840cce10ce23d7a21276"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1115,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1117,
+          "withinBudget": true,
+          "promptBytes": 2315,
+          "promptSha256": "0be717d5d39b46d1970bc106f84c982e8e464899fae6840cce10ce23d7a21276"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1115,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1117,
+          "withinBudget": true,
+          "promptBytes": 2315,
+          "promptSha256": "0be717d5d39b46d1970bc106f84c982e8e464899fae6840cce10ce23d7a21276"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1115,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1117,
+          "withinBudget": true,
+          "promptBytes": 2315,
+          "promptSha256": "0be717d5d39b46d1970bc106f84c982e8e464899fae6840cce10ce23d7a21276"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1115,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1117,
+          "withinBudget": true,
+          "promptBytes": 2315,
+          "promptSha256": "0be717d5d39b46d1970bc106f84c982e8e464899fae6840cce10ce23d7a21276"
+        }
+      ]
+    },
+    {
+      "id": "witch-image",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-image",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1421,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1423,
+        "withinBudget": true,
+        "promptBytes": 2657,
+        "promptSha256": "68370c0a4e2800499839e7a568a1ed8702d2e2c6ec48bc8824decf7175842f49"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1421,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1423,
+          "withinBudget": true,
+          "promptBytes": 2657,
+          "promptSha256": "68370c0a4e2800499839e7a568a1ed8702d2e2c6ec48bc8824decf7175842f49"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1421,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1423,
+          "withinBudget": true,
+          "promptBytes": 2657,
+          "promptSha256": "68370c0a4e2800499839e7a568a1ed8702d2e2c6ec48bc8824decf7175842f49"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1421,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1423,
+          "withinBudget": true,
+          "promptBytes": 2650,
+          "promptSha256": "7ecb8335168f2b806c3bd233a0e25a93ca041d5286b05afa9744f42dd767f16a"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1337,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1339,
+          "withinBudget": true,
+          "promptBytes": 2525,
+          "promptSha256": "1826d492640554db63957904869beb362d5128b6e02d3e29f8ad3c6b0d671d00"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-image",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 887,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 889,
+        "withinBudget": true,
+        "promptBytes": 2040,
+        "promptSha256": "981f5532244dc2204510b3845eeef573ce0f33934e1e52fa134ccca6619f8cdf"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 887,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 889,
+          "withinBudget": true,
+          "promptBytes": 2040,
+          "promptSha256": "981f5532244dc2204510b3845eeef573ce0f33934e1e52fa134ccca6619f8cdf"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 887,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 889,
+          "withinBudget": true,
+          "promptBytes": 2040,
+          "promptSha256": "981f5532244dc2204510b3845eeef573ce0f33934e1e52fa134ccca6619f8cdf"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 887,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 889,
+          "withinBudget": true,
+          "promptBytes": 2040,
+          "promptSha256": "981f5532244dc2204510b3845eeef573ce0f33934e1e52fa134ccca6619f8cdf"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 883,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 885,
+          "withinBudget": true,
+          "promptBytes": 2035,
+          "promptSha256": "97732952a61699b8d4715a4a98702a928b1340ec0d78e3599b98f634de8fdab7"
+        }
+      ]
+    },
+    {
+      "id": "witch-description",
+      "template": "json-evidence",
+      "chosenTier": 3,
+      "chosenTextLimit": 32,
+      "selected": {
+        "id": "witch-description",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1824,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1826,
+        "withinBudget": true,
+        "promptBytes": 3041,
+        "promptSha256": "39fa9d21373ab48b24890b01e1c04d733281ac6a75993949ce0bed6462066e42"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 3070,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 3072,
+          "withinBudget": false,
+          "promptBytes": 4293,
+          "promptSha256": "97e983660a2d4f71b95316832b06acc012653f5a0f5e1fc01f27f55718bd2fad"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 2602,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2604,
+          "withinBudget": false,
+          "promptBytes": 3823,
+          "promptSha256": "e4ffa6176bf761cf59290eefb388158a6bfad8dfda94f5831bcb1a9e856cee0e"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 2137,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2139,
+          "withinBudget": false,
+          "promptBytes": 3355,
+          "promptSha256": "d3507c41aa4e8a4c99388522f72377191683ab5f006f981e6d71ab0dc9f7aab1"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1824,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1826,
+          "withinBudget": true,
+          "promptBytes": 3041,
+          "promptSha256": "39fa9d21373ab48b24890b01e1c04d733281ac6a75993949ce0bed6462066e42"
+        }
+      ]
+    },
+    {
+      "id": "apothecary-description",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "apothecary-description",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1029,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1031,
+        "withinBudget": true,
+        "promptBytes": 1931,
+        "promptSha256": "53e481e268fab9937964f8a5c7f2f9f941c3932e37c066940456bd589c25c98f"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "apothecary-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1029,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1031,
+          "withinBudget": true,
+          "promptBytes": 1931,
+          "promptSha256": "53e481e268fab9937964f8a5c7f2f9f941c3932e37c066940456bd589c25c98f"
+        },
+        {
+          "textLimit": 72,
+          "id": "apothecary-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 966,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 968,
+          "withinBudget": true,
+          "promptBytes": 1869,
+          "promptSha256": "334bcb8ec37561ff1e53bdfe799824dc3020f75e700e8f3df74a78139737d271"
+        },
+        {
+          "textLimit": 48,
+          "id": "apothecary-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 907,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 909,
+          "withinBudget": true,
+          "promptBytes": 1805,
+          "promptSha256": "44da70b70da3bc736c4f5cc445d34a7ae566157cef62bbe8436ca6ff20034564"
+        },
+        {
+          "textLimit": 32,
+          "id": "apothecary-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 828,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 830,
+          "withinBudget": true,
+          "promptBytes": 1713,
+          "promptSha256": "8a65e72fb9cc02e2cf11e83633cd03976678c55d9dcded9a6da15b4578ddb7b8"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "schemaVersion": 2,
+  "stage": "screen",
+  "lockedAt": "2026-11-13T12:27:26.671Z",
+  "policy": "Accuracy, fewer false selections, more valid outputs, stable template ID; no latency tie break",
+  "selectedTemplates": [
+    "scope-contrast",
+    "field-worked"
+  ],
+  "candidates": [
+    {
+      "template": "scope-contrast",
+      "ids": [
+        "apothecary-description",
+        "dungeon-watcha-search-image",
+        "dungeon-watcha-search-title",
+        "frieren-wavve-search-description",
+        "frieren-wavve-search-image",
+        "frieren-wavve-search-title",
+        "sakura-description",
+        "sakura-image",
+        "sakura-title",
+        "witch-description",
+        "witch-image",
+        "witch-title"
+      ],
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 7,
+        "accuracy": 0.5833333333333334,
+        "accepted": 9,
+        "acceptedPrecision": 0.4444444444444444,
+        "falseSelections": 5,
+        "correctAbstentions": 3,
+        "errors": 0,
+        "p50Ms": 6501.1668999213725,
+        "p95Ms": 9784.026499837637
+      },
+      "positiveCorrect": 4
+    },
+    {
+      "template": "field-worked",
+      "ids": [
+        "apothecary-description",
+        "dungeon-watcha-search-image",
+        "dungeon-watcha-search-title",
+        "frieren-wavve-search-description",
+        "frieren-wavve-search-image",
+        "frieren-wavve-search-title",
+        "sakura-description",
+        "sakura-image",
+        "sakura-title",
+        "witch-description",
+        "witch-image",
+        "witch-title"
+      ],
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 6,
+        "accuracy": 0.5,
+        "accepted": 10,
+        "acceptedPrecision": 0.4,
+        "falseSelections": 6,
+        "correctAbstentions": 2,
+        "errors": 0,
+        "p50Ms": 9020.141000160947,
+        "p95Ms": 15174.730699975044
+      },
+      "positiveCorrect": 4
+    },
+    {
+      "template": "scope-first",
+      "ids": [
+        "apothecary-description",
+        "dungeon-watcha-search-image",
+        "dungeon-watcha-search-title",
+        "frieren-wavve-search-description",
+        "frieren-wavve-search-image",
+        "frieren-wavve-search-title",
+        "sakura-description",
+        "sakura-image",
+        "sakura-title",
+        "witch-description",
+        "witch-image",
+        "witch-title"
+      ],
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 5,
+        "accuracy": 0.4166666666666667,
+        "accepted": 9,
+        "acceptedPrecision": 0.3333333333333333,
+        "falseSelections": 6,
+        "correctAbstentions": 2,
+        "errors": 0,
+        "p50Ms": 4688.076699851081,
+        "p95Ms": 8266.98340009898
+      },
+      "positiveCorrect": 3
+    },
+    {
+      "template": "json-evidence",
+      "ids": [
+        "apothecary-description",
+        "dungeon-watcha-search-image",
+        "dungeon-watcha-search-title",
+        "frieren-wavve-search-description",
+        "frieren-wavve-search-image",
+        "frieren-wavve-search-title",
+        "sakura-description",
+        "sakura-image",
+        "sakura-title",
+        "witch-description",
+        "witch-image",
+        "witch-title"
+      ],
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 5,
+        "accuracy": 0.4166666666666667,
+        "accepted": 10,
+        "acceptedPrecision": 0.3,
+        "falseSelections": 7,
+        "correctAbstentions": 2,
+        "errors": 0,
+        "p50Ms": 6068.413099972531,
+        "p95Ms": 10292.800799943507
+      },
+      "positiveCorrect": 3
+    },
+    {
+      "template": "legacy-enriched",
+      "ids": [
+        "apothecary-description",
+        "dungeon-watcha-search-image",
+        "dungeon-watcha-search-title",
+        "frieren-wavve-search-description",
+        "frieren-wavve-search-image",
+        "frieren-wavve-search-title",
+        "sakura-description",
+        "sakura-image",
+        "sakura-title",
+        "witch-description",
+        "witch-image",
+        "witch-title"
+      ],
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 4,
+        "accuracy": 0.3333333333333333,
+        "accepted": 11,
+        "acceptedPrecision": 0.2727272727272727,
+        "falseSelections": 8,
+        "correctAbstentions": 1,
+        "errors": 0,
+        "p50Ms": 4413.555900100619,
+        "p95Ms": 8169.206799939275
+      },
+      "positiveCorrect": 3
+    },
+    {
+      "template": "natural-evidence",
+      "ids": [
+        "apothecary-description",
+        "dungeon-watcha-search-image",
+        "dungeon-watcha-search-title",
+        "frieren-wavve-search-description",
+        "frieren-wavve-search-image",
+        "frieren-wavve-search-title",
+        "sakura-description",
+        "sakura-image",
+        "sakura-title",
+        "witch-description",
+        "witch-image",
+        "witch-title"
+      ],
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 4,
+        "accuracy": 0.3333333333333333,
+        "accepted": 11,
+        "acceptedPrecision": 0.2727272727272727,
+        "falseSelections": 8,
+        "correctAbstentions": 1,
+        "errors": 0,
+        "p50Ms": 5147.4388998467475,
+        "p95Ms": 8861.499299993739
+      },
+      "positiveCorrect": 3
+    },
+    {
+      "template": "contrast-example",
+      "ids": [
+        "apothecary-description",
+        "dungeon-watcha-search-image",
+        "dungeon-watcha-search-title",
+        "frieren-wavve-search-description",
+        "frieren-wavve-search-image",
+        "frieren-wavve-search-title",
+        "sakura-description",
+        "sakura-image",
+        "sakura-title",
+        "witch-description",
+        "witch-image",
+        "witch-title"
+      ],
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 3,
+        "accuracy": 0.25,
+        "accepted": 12,
+        "acceptedPrecision": 0.25,
+        "falseSelections": 9,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 5439.589699963108,
+        "p95Ms": 9008.110800059512
+      },
+      "positiveCorrect": 3
+    },
+    {
+      "template": "field-rubric",
+      "ids": [
+        "apothecary-description",
+        "dungeon-watcha-search-image",
+        "dungeon-watcha-search-title",
+        "frieren-wavve-search-description",
+        "frieren-wavve-search-image",
+        "frieren-wavve-search-title",
+        "sakura-description",
+        "sakura-image",
+        "sakura-title",
+        "witch-description",
+        "witch-image",
+        "witch-title"
+      ],
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 3,
+        "accuracy": 0.25,
+        "accepted": 12,
+        "acceptedPrecision": 0.25,
+        "falseSelections": 9,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 4490.544099826366,
+        "p95Ms": 8683.92110010609
+      },
+      "positiveCorrect": 3
+    }
+  ],
+  "sources": [
+    {
+      "path": "eval/tiny-decision/v2/reports/jev-screen.json",
+      "hash": "ded8a4658d485f037774ebb86b20622b49b6139f3aa65fade035d457d03d30fc"
+    },
+    {
+      "path": "eval/tiny-decision/v2/reports/jev-refined-screen.json",
+      "hash": "5379410f7a5e2e31be5cca9341ff8de3e5224b116b82993d6eba2295dba2627f"
+    }
+  ],
+  "automaticNavigation": false
+}

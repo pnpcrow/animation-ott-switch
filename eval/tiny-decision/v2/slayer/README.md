@@ -39,6 +39,12 @@ The pointwise pilot made 154 calls for 77 observed candidates. Every individual 
 
 All pointwise prompts fit at tier96 (maximum 642 tokens). Total candidate inference time was 210.96 seconds; parent-task p50/p95 were 13.86/25.66 seconds. These include both answer orders for every candidate and concurrent CPU contention, and exclude model loading. The report retains per-candidate log-odds and all threshold trials, including unsuccessful thresholds; the apparent 50% pilot accuracy is not evidence of useful content extraction.
 
+## Frozen fresh results
+
+After the team freeze at `2026-11-13T12:36:11.759Z`, all three conditions evaluated the same 18 new cases. The selected `json-evidence` scored 6/18, versus 4/18 for `legacy-enriched` and 4/18 for unchanged v1. Both v2 conditions completed all cases; unchanged v1 had five context-limit failures. On the 13 cases valid in both unchanged v1 and selected v2, each scored 4/13: the net two additional correct cases were recovered from the old context failures.
+
+The selected v2 chose only 2/12 positive elements correctly and made 11 incorrect positive choices. Its 6/18 total accuracy equals the constant-none baseline, so these results do not support autonomous content extraction. Relative to the fully valid enriched v2 control, the JSON template gained two correct cases without losing a correct case. These are small, paired fixture comparisons, not production accuracy estimates. See generated [RESULTS.md](RESULTS.md) and `summary.json` for complete counts, field breakdowns, pairing and source hashes.
+
 ## Reproduction
 
 Use the isolated environment and pinned model prepared by `../../slayer/README.md`, then run from the repository root:
@@ -55,3 +61,20 @@ node --test eval/tiny-decision/v2/slayer/pointwise.test.mjs
 ```
 
 Archive each completed run's input with `node scripts/slayer-v2-inputs.mjs --report=<report.json> --output=<inputs.json>`. Selection locks reject changed source results instead of silently replacing their timestamp. All output timing remains diagnostic: concurrent workloads and reuse of earlier measurements preclude a fair speed ranking.
+
+After the team writes `v2/global-freeze.json`, the frozen fresh comparison is:
+
+```powershell
+node scripts/prepare-v2-jobs.mjs --templates=json-evidence,legacy-enriched --index-base=0 --inputs=eval/tiny-decision/v2/data/holdout-inputs.json --labels=eval/tiny-decision/v2/data/holdout-labels.json --output=.tmp/v2-slayer-fresh.json
+node scripts/prepare-v2-legacy.mjs --model=slayer --output=.tmp/v2-slayer-legacy-fresh.json
+node scripts/slayer-v2-check-fresh.mjs
+node scripts/slayer-v2-eval.mjs --jobs=.tmp/v2-slayer-fresh.json --output=eval/tiny-decision/v2/slayer/fresh.json
+node scripts/slayer-v2-eval.mjs --jobs=.tmp/v2-slayer-legacy-fresh.json --output=eval/tiny-decision/v2/slayer/legacy-fresh.json
+node scripts/slayer-v2-report.mjs
+```
+
+The pre-inference check verifies exact coverage of the same 18 unique cases in all three conditions, identical scoring labels, valid option identities/order, unchanged v1 prompt bytes, and exact frozen v2 prompts at all four tiers. Final reporting checks frozen source/selection hashes and paired labels again. `summary.json` and `RESULTS.md` are generated from the completed inference files rather than hand-entered result tables.
+
+The unchanged v1 Slayer winner is Korean `korean-structure` with 1-based options. `legacy-enriched` uses English `dom-hierarchy` instructions and 0-based options. Consequently their difference combines evidence, language/instruction and numbering changes; it is not an isolated evidence ablation. The two v2 conditions share the evidence compiler and numbering, although instruction/serialization length can cause the tokenizer to choose different predeclared text tiers.
+
+Validation includes the four pointwise integrity tests, Python syntax compilation, and a 72-row exact cache-reuse check with zero new model calls and unchanged chosen IDs/full suffix scores. The existing reviewed scorer and pinned weights are not changed by v2.

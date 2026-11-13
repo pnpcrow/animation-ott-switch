@@ -1,3 +1,5 @@
 * text=auto eol=lf
 *.png binary
 *.zip binary
+# Frozen experiment records include byte hashes; preserve Python/Node output verbatim.
+eval/tiny-decision/v2/**/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

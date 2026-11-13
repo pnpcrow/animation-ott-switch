@@ -1,0 +1,3872 @@
+{
+  "schemaVersion": 2,
+  "label": "Token-budgeted v2 decision templates",
+  "model": "SlayerLab/Slayer-149M-Decision-v1",
+  "revision": "ccfd7d3d91f3894beb1cd096b5d067333ba3d4c7",
+  "runtime": "PyTorch CPU (not WebGPU)",
+  "torch": "2.15.0+cpu",
+  "transformers": "5.22.2",
+  "python": "3.12.10",
+  "threads": 4,
+  "parameters": 149333081,
+  "dtype": "float32",
+  "loadSeconds": 7.309052199823782,
+  "datasetSha256": "cdde7be284e5fb7d6ad605441dcc15262f4344684bed4ec2ba4b3c072c2ec00f",
+  "modelHashes": {
+    "config.json": "31a1e0fde1069108db98968775bed7644cfde9713e85900e57ccf195815ec8ab",
+    "modeling_slayer_balanced.py": "11154d3fe903d020afbaebed86f6f00add3301ee5d51e7ffef6c59f35efe123e",
+    "tokenizer.json": "d1ffe47f6fd8cc19ba7c3e5d2537699d6a99d09b584d3319944f4e40fe6c44ea",
+    "tokenizer_config.json": "beb5e8e876d2615204c8e92d0540d2a8650ee649e12dc2f87582b9c8f2f23b03",
+    "model.safetensors": "ba26b9ac1b22ca433e2046ef0d7bcb288e51d4d4aa1d16d0ab27c42025bc581e"
+  },
+  "readout": "Sum of log probabilities of numeric bracket suffixes; exact shared-prefix trie; conditional softmax, not calibrated on DOM tasks",
+  "rows": [
+    {
+      "id": "dandadan-netflix-title",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "t2",
+        "t3",
+        "t1",
+        "t5",
+        "t8",
+        "t4",
+        "t7",
+        "t6"
+      ],
+      "promptSha256": "d6f3efb43d9aaf7454d5f57e171451e425c82daca48f4ea213aca3a214318664",
+      "logScores": [
+        -2.1432808618992567,
+        -3.11871095886454,
+        -2.866970259696245,
+        -3.0201932047493756,
+        -3.5491724307648838,
+        -3.810600366909057,
+        -5.3600261732935905,
+        -5.931288534775376,
+        -5.983182404190302
+      ],
+      "probabilities": [
+        0.35763099789619446,
+        0.13483765721321106,
+        0.17343661189079285,
+        0.14879795908927917,
+        0.087672658264637,
+        0.06750369071960449,
+        0.014335745945572853,
+        0.008097000420093536,
+        0.007687533739954233
+      ],
+      "legalRootMass": 0.33251845836639404,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.1150274046474786,
+      "promptTokens": 1177,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": false,
+      "elapsedMs": 6937.114,
+      "inferenceKey": "73ff95d7c4ddb07a41384eed75cd3dd6002f91533d494d43f56230aec3199536",
+      "field": "title",
+      "budget": {
+        "id": "dandadan-netflix-title",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1177,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1179,
+        "withinBudget": true,
+        "promptBytes": 2441,
+        "promptSha256": "d6f3efb43d9aaf7454d5f57e171451e425c82daca48f4ea213aca3a214318664"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "dandadan-netflix-image",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i1",
+        "__none__",
+        "i2",
+        "i6",
+        "i7",
+        "i4",
+        "i5",
+        "i3"
+      ],
+      "promptSha256": "4a9609159eab04993874a73af28b205a5e94574e4f925b88e94ed00a2549bd77",
+      "logScores": [
+        -2.996282685548067,
+        -3.234593647532165,
+        -3.1783714559860528,
+        -3.2186542223207653,
+        -3.5631286492571235,
+        -3.7732496317476034,
+        -5.393795616924763,
+        -5.733618902042508,
+        -5.944947235286236
+      ],
+      "probabilities": [
+        0.21471628546714783,
+        0.16918732225894928,
+        0.17897187173366547,
+        0.17190568149089813,
+        0.12181108444929123,
+        0.09872621297836304,
+        0.019527127966284752,
+        0.013901286758482456,
+        0.011253203265368938
+      ],
+      "legalRootMass": 0.23531560599803925,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.4578447989421417,
+      "promptTokens": 1289,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 8251.766,
+      "inferenceKey": "c3fcf3d8832cbffee45b7350f4070d3e3e327957adc6322c2b9f3c816ba7d3b0",
+      "field": "image",
+      "budget": {
+        "id": "dandadan-netflix-image",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1289,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1291,
+        "withinBudget": true,
+        "promptBytes": 2610,
+        "promptSha256": "4a9609159eab04993874a73af28b205a5e94574e4f925b88e94ed00a2549bd77"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "dandadan-netflix-description",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "d1",
+      "optionIds": [
+        "__none__",
+        "d7",
+        "d4",
+        "d1",
+        "d3",
+        "d2",
+        "d8",
+        "d6",
+        "d5"
+      ],
+      "promptSha256": "48e87fdec32cc267cd4c81090af82b98f0c463b8f4c2c07a9b0dcf2630d299e8",
+      "logScores": [
+        -3.4650596231222153,
+        -3.621181921334937,
+        -3.448339438997209,
+        -3.2603730680420995,
+        -3.6082389797084033,
+        -4.179411998018622,
+        -6.201038911938667,
+        -6.539529195055366,
+        -6.1741460300982
+      ],
+      "probabilities": [
+        0.177518829703331,
+        0.15185926854610443,
+        0.18051190674304962,
+        0.21784047782421112,
+        0.15383756160736084,
+        0.08689706772565842,
+        0.011508631519973278,
+        0.00820387713611126,
+        0.011822327971458435
+      ],
+      "legalRootMass": 0.17809462547302246,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.7363809693553616,
+      "promptTokens": 1745,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d1",
+        "d2"
+      ],
+      "correct": true,
+      "elapsedMs": 11750.791,
+      "inferenceKey": "15e528f3c67b7377bdb154fad834918e19a2720ff1f4debc738b7bcec223083f",
+      "field": "description",
+      "budget": {
+        "id": "dandadan-netflix-description",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1745,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1747,
+        "withinBudget": true,
+        "promptBytes": 2949,
+        "promptSha256": "48e87fdec32cc267cd4c81090af82b98f0c463b8f4c2c07a9b0dcf2630d299e8"
+      },
+      "chosenTextLimit": 48,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "spy-family-apple-title",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "t3",
+      "optionIds": [
+        "t7",
+        "t3",
+        "t8",
+        "t6",
+        "t1",
+        "__none__",
+        "t5",
+        "t2",
+        "t4"
+      ],
+      "promptSha256": "7286dae61b2f4ee929127e28977fa5b5f1547ea27b1af3cb6aeb186e1a867265",
+      "logScores": [
+        -2.8098438568413258,
+        -2.617824017070234,
+        -2.789429672062397,
+        -2.95610505156219,
+        -3.4683306431397796,
+        -3.479643161408603,
+        -5.454637553542852,
+        -5.91796219907701,
+        -5.9472553841769695
+      ],
+      "probabilities": [
+        0.1892220824956894,
+        0.2292793244123459,
+        0.19312457740306854,
+        0.16347499191761017,
+        0.09794777631759644,
+        0.09684598445892334,
+        0.013438551686704159,
+        0.00845538079738617,
+        0.008211285807192326
+      ],
+      "legalRootMass": 0.32163703441619873,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.1450098730477223,
+      "promptTokens": 1272,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": false,
+      "elapsedMs": 9391.468,
+      "inferenceKey": "d48df0ec870def5def08c08552221031743bb699d392419c284b2f8ad06f9acf",
+      "field": "title",
+      "budget": {
+        "id": "spy-family-apple-title",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1272,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1274,
+        "withinBudget": true,
+        "promptBytes": 2563,
+        "promptSha256": "7286dae61b2f4ee929127e28977fa5b5f1547ea27b1af3cb6aeb186e1a867265"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "spy-family-apple-image",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i2",
+        "i1",
+        "i4",
+        "i5",
+        "i7",
+        "i6",
+        "i3",
+        "__none__"
+      ],
+      "promptSha256": "961cb9e7d088957caa490b15d3b96ce54770b2faacd1b2782cffc271032f71d3",
+      "logScores": [
+        -2.732270270586014,
+        -3.350225013215095,
+        -3.0619185068644583,
+        -3.1458594938740134,
+        -3.6415636725723743,
+        -3.4319339729845524,
+        -5.625375647097826,
+        -6.306227160617709,
+        -5.772354193031788
+      ],
+      "probabilities": [
+        0.2531430423259735,
+        0.136455699801445,
+        0.1820545643568039,
+        0.16739654541015625,
+        0.10196822881698608,
+        0.1257493942975998,
+        0.014025108888745308,
+        0.007099310867488384,
+        0.01210805308073759
+      ],
+      "legalRootMass": 0.26182064414024353,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.3584697553515295,
+      "promptTokens": 1327,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 9162.22,
+      "inferenceKey": "22ef052fa1de7e1723d0c5f6527e6fb8ffa0d9ebdd113bde17e170acc34c6453",
+      "field": "image",
+      "budget": {
+        "id": "spy-family-apple-image",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1327,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1329,
+        "withinBudget": true,
+        "promptBytes": 2741,
+        "promptSha256": "961cb9e7d088957caa490b15d3b96ce54770b2faacd1b2782cffc271032f71d3"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "spy-family-apple-description",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "d8",
+      "optionIds": [
+        "d7",
+        "d1",
+        "d4",
+        "d8",
+        "__none__",
+        "d3",
+        "d2",
+        "d5",
+        "d6"
+      ],
+      "promptSha256": "42df2262ea54934d1637368516f9ec0ef172ced6e996c22af025e4cd21755555",
+      "logScores": [
+        -3.7751421444118023,
+        -3.4493148061446846,
+        -3.234031964559108,
+        -2.85341878910549,
+        -3.168530272319913,
+        -3.824867578689009,
+        -5.684209246188402,
+        -5.840008283033967,
+        -5.751902058720589
+      ],
+      "probabilities": [
+        0.10187473148107529,
+        0.14111445844173431,
+        0.17501193284988403,
+        0.2560742199420929,
+        0.18685930967330933,
+        0.09693286567926407,
+        0.015099728479981422,
+        0.012921309098601341,
+        0.014111414551734924
+      ],
+      "legalRootMass": 0.2268959879875183,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.4911308977488036,
+      "promptTokens": 2006,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": false,
+      "elapsedMs": 16154.609,
+      "inferenceKey": "3f1d488116065d2539c5e80172a1d1304d8cca05a9c65a67c8da170aeb3aae5a",
+      "field": "description",
+      "budget": {
+        "id": "spy-family-apple-description",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 2006,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 2008,
+        "withinBudget": true,
+        "promptBytes": 3376,
+        "promptSha256": "42df2262ea54934d1637368516f9ec0ef172ced6e996c22af025e4cd21755555"
+      },
+      "chosenTextLimit": 48,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "chainsaw-tving-title",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "t3",
+      "optionIds": [
+        "t3",
+        "__none__",
+        "t1",
+        "t4",
+        "t2"
+      ],
+      "promptSha256": "e1a3639d1c466804bfbad39829bb5ef79ee690ac471d267ab48ce9d08b843c86",
+      "logScores": [
+        -1.9741231948137283,
+        -2.571913161780685,
+        -2.698586323298514,
+        -3.1377461436204612,
+        -4.027313784696162
+      ],
+      "probabilities": [
+        0.4039934575557709,
+        0.22220683097839355,
+        0.1957690566778183,
+        0.12618838250637054,
+        0.05184239521622658
+      ],
+      "legalRootMass": 0.3476850986480713,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "jointSuffixLogMass": -1.0677665076668603,
+      "promptTokens": 723,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "elapsedMs": 9243.122,
+      "inferenceKey": "4f72c53739d085d37978ffeb5f7b4699916dc9e02f8a3ce47a9018f1b1ad5a37",
+      "field": "title",
+      "budget": {
+        "id": "chainsaw-tving-title",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 723,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 725,
+        "withinBudget": true,
+        "promptBytes": 1663,
+        "promptSha256": "e1a3639d1c466804bfbad39829bb5ef79ee690ac471d267ab48ce9d08b843c86"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "chainsaw-tving-image",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "i4",
+      "optionIds": [
+        "i4",
+        "i5",
+        "i7",
+        "i6",
+        "i2",
+        "i3",
+        "i1",
+        "__none__",
+        "i8"
+      ],
+      "promptSha256": "852dfc1b3ed63208764649afacd39909a01aebe19760f36185d3cfa34c600c33",
+      "logScores": [
+        -1.6887340936809778,
+        -2.9194624591618776,
+        -3.238647481892258,
+        -3.4023925410583615,
+        -3.952400117646903,
+        -3.8016892233863473,
+        -5.504631757736206,
+        -6.346864020451903,
+        -6.265643950551748
+      ],
+      "probabilities": [
+        0.5125080347061157,
+        0.14969322085380554,
+        0.10878821462392807,
+        0.09235665947198868,
+        0.05328475311398506,
+        0.06195208430290222,
+        0.01128436904400587,
+        0.00486071826890111,
+        0.0052719819359481335
+      ],
+      "legalRootMass": 0.36511462926864624,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.0202951412805448,
+      "promptTokens": 1031,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 9391.456,
+      "inferenceKey": "ce798f82c46411a173c68cb05fefbd1372679e3f507df222d3486f36bad57e54",
+      "field": "image",
+      "budget": {
+        "id": "chainsaw-tving-image",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1031,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1033,
+        "withinBudget": true,
+        "promptBytes": 2359,
+        "promptSha256": "852dfc1b3ed63208764649afacd39909a01aebe19760f36185d3cfa34c600c33"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "chainsaw-tving-description",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "d2",
+      "optionIds": [
+        "d7",
+        "d5",
+        "d1",
+        "d2",
+        "d6",
+        "d4",
+        "__none__",
+        "d3",
+        "d8"
+      ],
+      "promptSha256": "11091a751bddce28af8133c3f1f38d7a3c5d55bda31d1e24019e25c0624599ed",
+      "logScores": [
+        -3.384049531072378,
+        -2.954125376883894,
+        -3.184319149237126,
+        -2.791184038389474,
+        -2.8055982706137,
+        -3.486872697249055,
+        -4.998507717624307,
+        -4.411422003060579,
+        -4.739911466836929
+      ],
+      "probabilities": [
+        0.11028265953063965,
+        0.16951996088027954,
+        0.1346631944179535,
+        0.19951952993869781,
+        0.1966642290353775,
+        0.09950654208660126,
+        0.021946080029010773,
+        0.03947526589035988,
+        0.02842259779572487
+      ],
+      "legalRootMass": 0.3104996681213379,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.1793407743413806,
+      "promptTokens": 1986,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": false,
+      "elapsedMs": 14404.902,
+      "inferenceKey": "a39f1e2da650f6c2c6d2779360e4bedbc364803e5a091189c952af13c2b6d72c",
+      "field": "description",
+      "budget": {
+        "id": "chainsaw-tving-description",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1986,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1988,
+        "withinBudget": true,
+        "promptBytes": 3333,
+        "promptSha256": "11091a751bddce28af8133c3f1f38d7a3c5d55bda31d1e24019e25c0624599ed"
+      },
+      "chosenTextLimit": 48,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "demon-slayer-laftel-title",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t1",
+        "t4",
+        "t7",
+        "t6",
+        "t5",
+        "t2",
+        "__none__",
+        "t8",
+        "t3"
+      ],
+      "promptSha256": "0d8a74ce7b33210688f84987936c829de9139cc325f2d4cbe584d961758b3c6f",
+      "logScores": [
+        -3.3147775027900934,
+        -2.883166460786015,
+        -3.274491054005921,
+        -3.2091990020126104,
+        -3.4497557608410716,
+        -3.7292977832257748,
+        -5.291005443781614,
+        -6.078006576746702,
+        -5.934338368475437
+      ],
+      "probabilities": [
+        0.1538199931383133,
+        0.23684220016002655,
+        0.1601433902978897,
+        0.17094838619232178,
+        0.13439792394638062,
+        0.10162227600812912,
+        0.021318068727850914,
+        0.009704153053462505,
+        0.011203453876078129
+      ],
+      "legalRootMass": 0.23886093497276306,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.4428054882374692,
+      "promptTokens": 1455,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 10854.59,
+      "inferenceKey": "48b60f6465681ae14e6368c10109404bacf18c11c4f4dc6a74755f92333a74f8",
+      "field": "title",
+      "budget": {
+        "id": "demon-slayer-laftel-title",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1455,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1457,
+        "withinBudget": true,
+        "promptBytes": 2635,
+        "promptSha256": "0d8a74ce7b33210688f84987936c829de9139cc325f2d4cbe584d961758b3c6f"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "demon-slayer-laftel-image",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "i4",
+      "optionIds": [
+        "i4",
+        "i3",
+        "i6",
+        "__none__",
+        "i1",
+        "i8",
+        "i5",
+        "i2",
+        "i7"
+      ],
+      "promptSha256": "1dd527bc88a82601f494a0305233aeb7fa01f8f1d028177add35d43cf39e188c",
+      "logScores": [
+        -2.7317057475447655,
+        -2.776456918567419,
+        -2.9213090701960027,
+        -2.895831455476582,
+        -3.2308711940422654,
+        -3.5440217051655054,
+        -5.129735425114632,
+        -5.5589758567512035,
+        -5.5593281872570515
+      ],
+      "probabilities": [
+        0.20440497994422913,
+        0.1954592764377594,
+        0.16910162568092346,
+        0.173465296626091,
+        0.12408138811588287,
+        0.09072085469961166,
+        0.018579769879579544,
+        0.01209549605846405,
+        0.012091235257685184
+      ],
+      "legalRootMass": 0.32268020510673523,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.1440537597132632,
+      "promptTokens": 1549,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 13264.73,
+      "inferenceKey": "8a6ae3f4684eb4219a0cc7f19c15c7148af4c38a6d5cc31282bdecb2a6c59e9b",
+      "field": "image",
+      "budget": {
+        "id": "demon-slayer-laftel-image",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1549,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1551,
+        "withinBudget": true,
+        "promptBytes": 2896,
+        "promptSha256": "1dd527bc88a82601f494a0305233aeb7fa01f8f1d028177add35d43cf39e188c"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "demon-slayer-laftel-description",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "d3",
+      "optionIds": [
+        "d3",
+        "d1",
+        "__none__",
+        "d2"
+      ],
+      "promptSha256": "18269a09a97ede0baacdc146146adc9b85efc06364293f38361c16abb0db93b7",
+      "logScores": [
+        -2.375336403027177,
+        -2.8320710510015488,
+        -2.494654242414981,
+        -2.674870734103024
+      ],
+      "probabilities": [
+        0.3065568804740906,
+        0.19415728747844696,
+        0.27207711338996887,
+        0.2272086888551712
+      ],
+      "legalRootMass": 0.3074585497379303,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "jointSuffixLogMass": -1.1929844579386086,
+      "promptTokens": 1200,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "correct": false,
+      "elapsedMs": 9217.648,
+      "inferenceKey": "ed80543cb41d496a9bbf6bb27b085f9a01442823b75faffe948a2e16a862cc09",
+      "field": "description",
+      "budget": {
+        "id": "demon-slayer-laftel-description",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1200,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1202,
+        "withinBudget": true,
+        "promptBytes": 2044,
+        "promptSha256": "18269a09a97ede0baacdc146146adc9b85efc06364293f38361c16abb0db93b7"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "new-search-laftel-title",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "t3",
+      "optionIds": [
+        "t3",
+        "t2",
+        "t1",
+        "__none__"
+      ],
+      "promptSha256": "34856c855f979f9b4907bc1436fcbcacefe5627231b87e0ae4afa962296093e3",
+      "logScores": [
+        -1.8076090421527624,
+        -2.483014103025198,
+        -2.472612365381792,
+        -2.68912512389943
+      ],
+      "probabilities": [
+        0.41027718782424927,
+        0.20881067216396332,
+        0.21099400520324707,
+        0.16991817951202393
+      ],
+      "legalRootMass": 0.4037880003452301,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "jointSuffixLogMass": -0.9166867513321854,
+      "promptTokens": 700,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 6519.145,
+      "inferenceKey": "4b357a0c7ae8a4425b4807d2da265dd0ff82731a6567c7c34dff4d753f1180c9",
+      "field": "title",
+      "budget": {
+        "id": "new-search-laftel-title",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 700,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 702,
+        "withinBudget": true,
+        "promptBytes": 1540,
+        "promptSha256": "34856c855f979f9b4907bc1436fcbcacefe5627231b87e0ae4afa962296093e3"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "new-search-laftel-image",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1"
+      ],
+      "promptSha256": "eb2def8b86d22eb528750c33b00a5ad441897ca3cedc12cd5eadb214688d7f28",
+      "logScores": [
+        -0.7081500682979822,
+        -3.267720388015732
+      ],
+      "probabilities": [
+        0.9282138347625732,
+        0.07178617268800735
+      ],
+      "legalRootMass": 0.5343092679977417,
+      "legalRootTokenIds": [
+        16,
+        17
+      ],
+      "jointSuffixLogMass": -0.6336569181389915,
+      "promptTokens": 358,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 3596.044,
+      "inferenceKey": "00d3af7d739d3a66b2e37b640fac914cd7a61c9045cf12d8afbdfcc55f12c042",
+      "field": "image",
+      "budget": {
+        "id": "new-search-laftel-image",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 358,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 360,
+        "withinBudget": true,
+        "promptBytes": 1032,
+        "promptSha256": "eb2def8b86d22eb528750c33b00a5ad441897ca3cedc12cd5eadb214688d7f28"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "new-search-laftel-description",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "promptSha256": "1513f737a1904cfa1c6fb333395d40ab30d9ae9c211c264bdefbfa045ffea70c",
+      "logScores": [
+        -2.0969509445130825,
+        -1.8901151972822845
+      ],
+      "probabilities": [
+        0.44847458600997925,
+        0.5515254139900208
+      ],
+      "legalRootMass": 0.27705925703048706,
+      "legalRootTokenIds": [
+        16,
+        17
+      ],
+      "jointSuffixLogMass": -1.2950477673232639,
+      "promptTokens": 638,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 3679.756,
+      "inferenceKey": "0bb7b30c5324703646077c555d38fdecb541043004b13390a0ac624c72e7e6d5",
+      "field": "description",
+      "budget": {
+        "id": "new-search-laftel-description",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 638,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 640,
+        "withinBudget": true,
+        "promptBytes": 1323,
+        "promptSha256": "1513f737a1904cfa1c6fb333395d40ab30d9ae9c211c264bdefbfa045ffea70c"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "new-help-netflix-title",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "t1",
+      "optionIds": [
+        "t1",
+        "__none__",
+        "t7",
+        "t8",
+        "t5",
+        "t6",
+        "t3",
+        "t2",
+        "t4"
+      ],
+      "promptSha256": "8d72d056daa8a6e642eb1bc626c942de12159c4093dc62e3d1f9a24eb6627663",
+      "logScores": [
+        -2.4898423478007317,
+        -2.697985793929547,
+        -3.223512096796185,
+        -3.0022344826720655,
+        -3.3644802891649306,
+        -3.6940250927582383,
+        -5.363222284242511,
+        -5.465874249115586,
+        -5.634756928309798
+      ],
+      "probabilities": [
+        0.266041100025177,
+        0.2160494476556778,
+        0.12773796916007996,
+        0.15937481820583344,
+        0.11094260215759277,
+        0.07979559153318405,
+        0.015033350326120853,
+        0.01356671005487442,
+        0.01145854964852333
+      ],
+      "legalRootMass": 0.31611764430999756,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.165737771795556,
+      "promptTokens": 1631,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 10649.424,
+      "inferenceKey": "a4d1559f99c178ae30fb70a58752f56926b3a01896e51165a12b654c00b68b3f",
+      "field": "title",
+      "budget": {
+        "id": "new-help-netflix-title",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1631,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1633,
+        "withinBudget": true,
+        "promptBytes": 2936,
+        "promptSha256": "8d72d056daa8a6e642eb1bc626c942de12159c4093dc62e3d1f9a24eb6627663"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "new-help-netflix-image",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1",
+        "i3",
+        "i2",
+        "i4"
+      ],
+      "promptSha256": "e9f46c12dbb8d8968338a1716746fa30623de7b3862f7e6498c71abf9c075802",
+      "logScores": [
+        -1.5906697753816843,
+        -3.5689700236544013,
+        -2.6148459552787244,
+        -3.118070132099092,
+        -3.645085582509637
+      ],
+      "probabilities": [
+        0.5426927208900452,
+        0.07505664229393005,
+        0.19487670063972473,
+        0.11781821399927139,
+        0.06955567747354507
+      ],
+      "legalRootMass": 0.38005656003952026,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "jointSuffixLogMass": -0.9794578075088399,
+      "promptTokens": 806,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 4799.005,
+      "inferenceKey": "a6a9e65ec6cdf31b8b2aef49e8d959d8542633f39e5254affe42a9085daa8d03",
+      "field": "image",
+      "budget": {
+        "id": "new-help-netflix-image",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 806,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 808,
+        "withinBudget": true,
+        "promptBytes": 1811,
+        "promptSha256": "e9f46c12dbb8d8968338a1716746fa30623de7b3862f7e6498c71abf9c075802"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "new-help-netflix-description",
+      "split": "holdout",
+      "template": "json-evidence",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "d7",
+        "d2",
+        "d6",
+        "d5",
+        "d1",
+        "d3",
+        "d4",
+        "d8"
+      ],
+      "promptSha256": "fbcb6c3222170482633215edfdbf3e2336d60f1f1233195c161ec9b246279a3a",
+      "logScores": [
+        -2.6823417134582996,
+        -3.138459535315633,
+        -2.831109889317304,
+        -2.7627060296945274,
+        -3.0217497777193785,
+        -3.806453504599631,
+        -5.575832953676581,
+        -5.727861452847719,
+        -5.102551426738501
+      ],
+      "probabilities": [
+        0.2151796817779541,
+        0.1363678127527237,
+        0.18543514609336853,
+        0.19856354594230652,
+        0.15324921905994415,
+        0.06992070376873016,
+        0.011917195282876492,
+        0.010236439295113087,
+        0.01913011446595192
+      ],
+      "legalRootMass": 0.3220800459384918,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.146060055833693,
+      "promptTokens": 1865,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 9958.612,
+      "inferenceKey": "158e51a323d23a14f7e5c2ed455305c3813dbfaaf4aed756a27782626d2fd498",
+      "field": "description",
+      "budget": {
+        "id": "new-help-netflix-description",
+        "template": "json-evidence",
+        "split": "holdout",
+        "promptTokens": 1865,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1867,
+        "withinBudget": true,
+        "promptBytes": 3197,
+        "promptSha256": "fbcb6c3222170482633215edfdbf3e2336d60f1f1233195c161ec9b246279a3a"
+      },
+      "chosenTextLimit": 32,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "dandadan-netflix-title",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "t2",
+        "t3",
+        "t1",
+        "t5",
+        "t8",
+        "t4",
+        "t7",
+        "t6"
+      ],
+      "promptSha256": "315569c5254860a3df4251707314aa831c455eaa520d2760c7f1a1d3e9e5ba44",
+      "logScores": [
+        -0.9553431198000908,
+        -2.9356411122716963,
+        -2.5994884283281863,
+        -2.8923237891867757,
+        -3.177365655079484,
+        -3.653647576458752,
+        -5.061473898589611,
+        -5.774232875555754,
+        -5.811700848862529
+      ],
+      "probabilities": [
+        0.5940432548522949,
+        0.0819946676492691,
+        0.11475583910942078,
+        0.08562450110912323,
+        0.06438814848661423,
+        0.03999071940779686,
+        0.009784716181457043,
+        0.00479734456166625,
+        0.004620923660695553
+      ],
+      "legalRootMass": 0.6578463912010193,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -0.4345398499349572,
+      "promptTokens": 823,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": false,
+      "elapsedMs": 6042.997,
+      "inferenceKey": "87071fe0d8e40cb3cfe4f0046f786040eb63b5e6dd04d6b03e5ec3927e02ad78",
+      "field": "title",
+      "budget": {
+        "id": "dandadan-netflix-title",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 823,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 825,
+        "withinBudget": true,
+        "promptBytes": 1880,
+        "promptSha256": "315569c5254860a3df4251707314aa831c455eaa520d2760c7f1a1d3e9e5ba44"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "dandadan-netflix-image",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i1",
+        "__none__",
+        "i2",
+        "i6",
+        "i7",
+        "i4",
+        "i5",
+        "i3"
+      ],
+      "promptSha256": "e37a45872aaa0e025eb05b39779ae4d2b33a2491bff52e42d556814a853ae30d",
+      "logScores": [
+        -1.9232781995087862,
+        -2.8021366456523538,
+        -2.694975759834051,
+        -2.8303090943954885,
+        -3.096599232405424,
+        -3.446795590221882,
+        -5.0201693549752235,
+        -5.820601139217615,
+        -5.49863439053297
+      ],
+      "probabilities": [
+        0.34459251165390015,
+        0.14309434592723846,
+        0.1592802107334137,
+        0.13911928236484528,
+        0.10659551620483398,
+        0.07510184496641159,
+        0.015571956522762775,
+        0.006993911229074001,
+        0.00965046975761652
+      ],
+      "legalRootMass": 0.4320140480995178,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -0.8578854515442849,
+      "promptTokens": 947,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 6258.989,
+      "inferenceKey": "48ea2fbc1bc4a5d932945734f87cf56abd75f66407bbb7948c8627d940e33ab1",
+      "field": "image",
+      "budget": {
+        "id": "dandadan-netflix-image",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 947,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 949,
+        "withinBudget": true,
+        "promptBytes": 2113,
+        "promptSha256": "e37a45872aaa0e025eb05b39779ae4d2b33a2491bff52e42d556814a853ae30d"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "dandadan-netflix-description",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "d3",
+      "optionIds": [
+        "__none__",
+        "d7",
+        "d4",
+        "d1",
+        "d3",
+        "d2",
+        "d8",
+        "d6",
+        "d5"
+      ],
+      "promptSha256": "81c8cc07df739a3202baa3c1dcbfa8bf15563f53c2f5b5e10a349dc15499e9e3",
+      "logScores": [
+        -3.297538712620735,
+        -3.2173485811799765,
+        -3.449952058494091,
+        -3.0435614474117756,
+        -3.040402840822935,
+        -4.092297542840242,
+        -5.040196269750595,
+        -5.593381144106388,
+        -4.945888128131628
+      ],
+      "probabilities": [
+        0.15517643094062805,
+        0.16813260316848755,
+        0.13323965668678284,
+        0.20004454255104065,
+        0.20067739486694336,
+        0.07009166479110718,
+        0.027164338156580925,
+        0.015622630715370178,
+        0.029850853607058525
+      ],
+      "legalRootMass": 0.2460147887468338,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.4343460916161466,
+      "promptTokens": 1893,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d1",
+        "d2"
+      ],
+      "correct": false,
+      "elapsedMs": 11416.854,
+      "inferenceKey": "ebebff7152d251642622263f226c7b8e969d344921df9f53961897069ee93b80",
+      "field": "description",
+      "budget": {
+        "id": "dandadan-netflix-description",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1893,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1895,
+        "withinBudget": true,
+        "promptBytes": 2918,
+        "promptSha256": "81c8cc07df739a3202baa3c1dcbfa8bf15563f53c2f5b5e10a349dc15499e9e3"
+      },
+      "chosenTextLimit": 72,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "spy-family-apple-title",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "t7",
+      "optionIds": [
+        "t7",
+        "t3",
+        "t8",
+        "t6",
+        "t1",
+        "__none__",
+        "t5",
+        "t2",
+        "t4"
+      ],
+      "promptSha256": "572717ce169fa768a0209dcb986f8f9195277808d37ef6a1eb605bc6616d4dfa",
+      "logScores": [
+        -2.012098677456379,
+        -2.456985965371132,
+        -2.1920201275497675,
+        -2.369282658211887,
+        -2.945987317711115,
+        -3.041073014959693,
+        -4.418389622122049,
+        -5.1167200691998005,
+        -5.240299720317125
+      ],
+      "probabilities": [
+        0.24384944140911102,
+        0.15628226101398468,
+        0.20369617640972137,
+        0.17060774564743042,
+        0.09583830833435059,
+        0.08714528381824493,
+        0.021982792764902115,
+        0.010934572666883469,
+        0.009663443081080914
+      ],
+      "legalRootMass": 0.559198796749115,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -0.6008943887966978,
+      "promptTokens": 931,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "correct": false,
+      "elapsedMs": 5817.409,
+      "inferenceKey": "b11f6836ea08fce6e3473189ea2d3f8bd83e1fcdf00b6b7bb62eda46fbb250b8",
+      "field": "title",
+      "budget": {
+        "id": "spy-family-apple-title",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 931,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 933,
+        "withinBudget": true,
+        "promptBytes": 2026,
+        "promptSha256": "572717ce169fa768a0209dcb986f8f9195277808d37ef6a1eb605bc6616d4dfa"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "spy-family-apple-image",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "i8",
+      "optionIds": [
+        "i8",
+        "i2",
+        "i1",
+        "i4",
+        "i5",
+        "i7",
+        "i6",
+        "i3",
+        "__none__"
+      ],
+      "promptSha256": "402587cfdc67079cfcf362ac4287e31d1b8c4e9fd2d41b0d0f3bb093c95d077b",
+      "logScores": [
+        -1.978999551385641,
+        -3.2517301738262177,
+        -2.765502981841564,
+        -2.8913839254528284,
+        -3.576067140325904,
+        -3.1321040373295546,
+        -5.476800121366978,
+        -6.098747253417969,
+        -5.955532997846603
+      ],
+      "probabilities": [
+        0.3675830662250519,
+        0.10294744372367859,
+        0.1674100011587143,
+        0.1476087123155594,
+        0.07443168014287949,
+        0.11602955311536789,
+        0.011124489828944206,
+        0.0059727150946855545,
+        0.006892376579344273
+      ],
+      "legalRootMass": 0.3870305120944977,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -0.9781935547397285,
+      "promptTokens": 936,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "correct": false,
+      "elapsedMs": 4367.539,
+      "inferenceKey": "e2f34d4a9dd34f713c9174fe083a5d6256115457ee1949deba0b598ea480b283",
+      "field": "image",
+      "budget": {
+        "id": "spy-family-apple-image",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 936,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 938,
+        "withinBudget": true,
+        "promptBytes": 2075,
+        "promptSha256": "402587cfdc67079cfcf362ac4287e31d1b8c4e9fd2d41b0d0f3bb093c95d077b"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "spy-family-apple-description",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "d8",
+      "optionIds": [
+        "d7",
+        "d1",
+        "d4",
+        "d8",
+        "__none__",
+        "d3",
+        "d2",
+        "d5",
+        "d6"
+      ],
+      "promptSha256": "8804651272bcd646299504959e84248ff355228028707e6168c1cd57ccaa90bd",
+      "logScores": [
+        -2.7608994245529175,
+        -2.8956707026809454,
+        -3.1677576564252377,
+        -2.6598037788644433,
+        -3.008012169972062,
+        -3.232789896428585,
+        -4.650204420089722,
+        -5.044913411140442,
+        -4.835190657526255
+      ],
+      "probabilities": [
+        0.18417535722255707,
+        0.16095377504825592,
+        0.12261264026165009,
+        0.20376838743686676,
+        0.1438506692647934,
+        0.11489260196685791,
+        0.027843045070767403,
+        0.018762771040201187,
+        0.023140795528888702
+      ],
+      "legalRootMass": 0.35007643699645996,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.069032482884481,
+      "promptTokens": 1668,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": false,
+      "elapsedMs": 7191.873,
+      "inferenceKey": "01b9177d3d1ae279a2305ab68deb5417e457f5bb50ed2fb49c0ba2d03177f501",
+      "field": "description",
+      "budget": {
+        "id": "spy-family-apple-description",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1668,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1670,
+        "withinBudget": true,
+        "promptBytes": 2839,
+        "promptSha256": "8804651272bcd646299504959e84248ff355228028707e6168c1cd57ccaa90bd"
+      },
+      "chosenTextLimit": 48,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "chainsaw-tving-title",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "t3",
+      "optionIds": [
+        "t3",
+        "__none__",
+        "t1",
+        "t4",
+        "t2"
+      ],
+      "promptSha256": "80f8ec60e2b240c5fc1c79a80000d209eac62dae3b98e836f91e5b5c8c7c2c58",
+      "logScores": [
+        -0.7844333611428738,
+        -2.8171157157048583,
+        -2.9306473224423826,
+        -3.2849975069984794,
+        -4.0833292892202735
+      ],
+      "probabilities": [
+        0.7315972447395325,
+        0.09582731127738953,
+        0.08554273843765259,
+        0.06001929193735123,
+        0.02701343409717083
+      ],
+      "legalRootMass": 0.6330051422119141,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "jointSuffixLogMass": -0.47190820402569633,
+      "promptTokens": 541,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": true,
+      "elapsedMs": 2473.241,
+      "inferenceKey": "0ef665e418da9610c60725f2d3033e6b4d42714cf9e6193385b3a3213d0b7971",
+      "field": "title",
+      "budget": {
+        "id": "chainsaw-tving-title",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 541,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 543,
+        "withinBudget": true,
+        "promptBytes": 1444,
+        "promptSha256": "80f8ec60e2b240c5fc1c79a80000d209eac62dae3b98e836f91e5b5c8c7c2c58"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "chainsaw-tving-image",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "i4",
+      "optionIds": [
+        "i4",
+        "i5",
+        "i7",
+        "i6",
+        "i2",
+        "i3",
+        "i1",
+        "__none__",
+        "i8"
+      ],
+      "promptSha256": "a449863709e9b0ee4aec1923c608589fa875680117a9a5e093bd079f9c29a236",
+      "logScores": [
+        -1.3219743315130472,
+        -2.1465043695643544,
+        -2.995490682311356,
+        -2.9942206577397883,
+        -3.476623754017055,
+        -3.2375756977126002,
+        -4.666892614215612,
+        -5.358240786939859,
+        -4.966235898435116
+      ],
+      "probabilities": [
+        0.4637969732284546,
+        0.2033475786447525,
+        0.08700193464756012,
+        0.08711250126361847,
+        0.053774394094944,
+        0.06829560548067093,
+        0.016354918479919434,
+        0.008192184381186962,
+        0.012123976834118366
+      ],
+      "legalRootMass": 0.5840694308280945,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -0.5536658124649521,
+      "promptTokens": 689,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 3362.205,
+      "inferenceKey": "7fe4e5cac203415f08db98cd5bb3d02ebfaac782af6442e6d6aa04ddb6e30ae5",
+      "field": "image",
+      "budget": {
+        "id": "chainsaw-tving-image",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 689,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 691,
+        "withinBudget": true,
+        "promptBytes": 1843,
+        "promptSha256": "a449863709e9b0ee4aec1923c608589fa875680117a9a5e093bd079f9c29a236"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "chainsaw-tving-description",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "d2",
+      "optionIds": [
+        "d7",
+        "d5",
+        "d1",
+        "d2",
+        "d6",
+        "d4",
+        "__none__",
+        "d3",
+        "d8"
+      ],
+      "promptSha256": "acdf898fa1306f55b7e99584c314f48379468f32dc1b8a05b95036c08b1c7b2d",
+      "logScores": [
+        -2.955287180840969,
+        -2.5235836701467633,
+        -2.718931842595339,
+        -2.262403717264533,
+        -2.4681398067623377,
+        -3.181812398135662,
+        -4.2560598365962505,
+        -3.782261438667774,
+        -4.3187422677874565
+      ],
+      "probabilities": [
+        0.10873810201883316,
+        0.16744348406791687,
+        0.13773031532764435,
+        0.2174188792705536,
+        0.1769893616437912,
+        0.08669682592153549,
+        0.029611708596348763,
+        0.04755886271595955,
+        0.027812547981739044
+      ],
+      "legalRootMass": 0.4902080297470093,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -0.7364741404187412,
+      "promptTokens": 1633,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "correct": false,
+      "elapsedMs": 6766.129,
+      "inferenceKey": "e1bfffbec33de5a4dd031b0d6d7c43d84c3510590bde9380664c92ba1a765e76",
+      "field": "description",
+      "budget": {
+        "id": "chainsaw-tving-description",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1633,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1635,
+        "withinBudget": true,
+        "promptBytes": 2808,
+        "promptSha256": "acdf898fa1306f55b7e99584c314f48379468f32dc1b8a05b95036c08b1c7b2d"
+      },
+      "chosenTextLimit": 48,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "demon-slayer-laftel-title",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "t4",
+      "optionIds": [
+        "t1",
+        "t4",
+        "t7",
+        "t6",
+        "t5",
+        "t2",
+        "__none__",
+        "t8",
+        "t3"
+      ],
+      "promptSha256": "c827724e24f623814693576dda432a5758eef9022bf6a2b8dfdbf26e55f697ba",
+      "logScores": [
+        -2.7143246922641993,
+        -2.63348551094532,
+        -2.932075926102698,
+        -2.858085747808218,
+        -3.0236591044813395,
+        -3.689565720036626,
+        -4.169067524373531,
+        -5.173143155872822,
+        -5.278490249067545
+      ],
+      "probabilities": [
+        0.19005507230758667,
+        0.20605704188346863,
+        0.15286614000797272,
+        0.16460570693016052,
+        0.13948814570903778,
+        0.0716700479388237,
+        0.04437033832073212,
+        0.016256539151072502,
+        0.014631086960434914
+      ],
+      "legalRootMass": 0.35454460978507996,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.0538832219614234,
+      "promptTokens": 1087,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "correct": false,
+      "elapsedMs": 4793.272,
+      "inferenceKey": "2d6d883185d6d431c6597063a127046ad7e07b29d3e7bce6675fa46cd8f9981a",
+      "field": "title",
+      "budget": {
+        "id": "demon-slayer-laftel-title",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1087,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1089,
+        "withinBudget": true,
+        "promptBytes": 2124,
+        "promptSha256": "c827724e24f623814693576dda432a5758eef9022bf6a2b8dfdbf26e55f697ba"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "demon-slayer-laftel-image",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "i4",
+      "optionIds": [
+        "i4",
+        "i3",
+        "i6",
+        "__none__",
+        "i1",
+        "i8",
+        "i5",
+        "i2",
+        "i7"
+      ],
+      "promptSha256": "ca1856936d6c9621f958a1dfdb2a9953bcabe827f560aea38f093292fb90b0f4",
+      "logScores": [
+        -2.217597872018814,
+        -3.1933919358998537,
+        -2.9604047602042556,
+        -3.146369466558099,
+        -3.200190018862486,
+        -3.7180568985641003,
+        -5.445027053356171,
+        -6.0300088450312614,
+        -5.715010277926922
+      ],
+      "probabilities": [
+        0.3404712677001953,
+        0.12832121551036835,
+        0.1619882583618164,
+        0.13449934124946594,
+        0.1274518519639969,
+        0.07593455165624619,
+        0.01350286416709423,
+        0.00752266077324748,
+        0.010307981632649899
+      ],
+      "legalRootMass": 0.32766127586364746,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -1.1401733755950267,
+      "promptTokens": 1214,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "correct": false,
+      "elapsedMs": 5040.51,
+      "inferenceKey": "7bf312a8c696cac46c96b338a0dd6c40429e8af758726bcb1e8e68a7d1e85e85",
+      "field": "image",
+      "budget": {
+        "id": "demon-slayer-laftel-image",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1214,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1216,
+        "withinBudget": true,
+        "promptBytes": 2407,
+        "promptSha256": "ca1856936d6c9621f958a1dfdb2a9953bcabe827f560aea38f093292fb90b0f4"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "demon-slayer-laftel-description",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "d3",
+      "optionIds": [
+        "d3",
+        "d1",
+        "__none__",
+        "d2"
+      ],
+      "promptSha256": "e0651b114334741c5e35b3c55b3ad2503d7dbbeade4aa5d3fdd29169c097811e",
+      "logScores": [
+        -2.134859375655651,
+        -2.922607783228159,
+        -2.3094614995643497,
+        -2.3631038004532456
+      ],
+      "probabilities": [
+        0.32356297969818115,
+        0.14717836678028107,
+        0.27172526717185974,
+        0.25753334164619446
+      ],
+      "legalRootMass": 0.37007978558540344,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "jointSuffixLogMass": -1.0064978180064845,
+      "promptTokens": 1086,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "correct": false,
+      "elapsedMs": 4033.199,
+      "inferenceKey": "3ca29da7910a7bb3796d82acb386ff0aeb6a11efa6cb9762653fe666fa6179fd",
+      "field": "description",
+      "budget": {
+        "id": "demon-slayer-laftel-description",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1086,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1088,
+        "withinBudget": true,
+        "promptBytes": 1954,
+        "promptSha256": "e0651b114334741c5e35b3c55b3ad2503d7dbbeade4aa5d3fdd29169c097811e"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "new-search-laftel-title",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "t3",
+      "optionIds": [
+        "t3",
+        "t2",
+        "t1",
+        "__none__"
+      ],
+      "promptSha256": "af55e0a3118120573b15fcdf7e50bf34bb22b9dfecbb33a175e15f6bac97da31",
+      "logScores": [
+        -0.8104230649769306,
+        -2.6618969216942787,
+        -2.545109861996025,
+        -3.1846493957564235
+      ],
+      "probabilities": [
+        0.7009931206703186,
+        0.11005984991788864,
+        0.12369409203529358,
+        0.06525298207998276
+      ],
+      "legalRootMass": 0.644153892993927,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19
+      ],
+      "jointSuffixLogMass": -0.45516585492182055,
+      "promptTokens": 586,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 2186.55,
+      "inferenceKey": "9617073c7a18ea773946531d721acc3f25f3e71885a9abd513b29bcc0b8b1fd8",
+      "field": "title",
+      "budget": {
+        "id": "new-search-laftel-title",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 586,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 588,
+        "withinBudget": true,
+        "promptBytes": 1452,
+        "promptSha256": "af55e0a3118120573b15fcdf7e50bf34bb22b9dfecbb33a175e15f6bac97da31"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "new-search-laftel-image",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1"
+      ],
+      "promptSha256": "c0ca41f2fce59d75883db4ff666e56c9b58b115d49831dafc0c8a40d86d28a2f",
+      "logScores": [
+        -0.41798840649425983,
+        -3.2377903731539845
+      ],
+      "probabilities": [
+        0.9437365531921387,
+        0.056263457983732224
+      ],
+      "legalRootMass": 0.7065020799636841,
+      "legalRootTokenIds": [
+        16,
+        17
+      ],
+      "jointSuffixLogMass": -0.3600801786512381,
+      "promptTokens": 327,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 1275.558,
+      "inferenceKey": "4ff365fde1799e9eedef5605be775ac5ae832698d5fd691c8ce60d1bb4c81660",
+      "field": "image",
+      "budget": {
+        "id": "new-search-laftel-image",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 327,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 329,
+        "withinBudget": true,
+        "promptBytes": 1110,
+        "promptSha256": "c0ca41f2fce59d75883db4ff666e56c9b58b115d49831dafc0c8a40d86d28a2f"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "new-search-laftel-description",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "d1",
+      "optionIds": [
+        "d1",
+        "__none__"
+      ],
+      "promptSha256": "29f5675688d2bbe13463b71c4485f5ec22f63364ec2cbd11af8312e62ccdb4ff",
+      "logScores": [
+        -0.7788511347025633,
+        -2.357211626134813
+      ],
+      "probabilities": [
+        0.8289721608161926,
+        0.17102780938148499
+      ],
+      "legalRootMass": 0.5671933889389038,
+      "legalRootTokenIds": [
+        16,
+        17
+      ],
+      "jointSuffixLogMass": -0.5912824737984518,
+      "promptTokens": 604,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 2076.98,
+      "inferenceKey": "9523a445a34d8792145702a037234d2b34f825e9aa551312a9aaa25d37f85517",
+      "field": "description",
+      "budget": {
+        "id": "new-search-laftel-description",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 604,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 606,
+        "withinBudget": true,
+        "promptBytes": 1383,
+        "promptSha256": "29f5675688d2bbe13463b71c4485f5ec22f63364ec2cbd11af8312e62ccdb4ff"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "new-help-netflix-title",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "t1",
+      "optionIds": [
+        "t1",
+        "__none__",
+        "t7",
+        "t8",
+        "t5",
+        "t6",
+        "t3",
+        "t2",
+        "t4"
+      ],
+      "promptSha256": "d6e9d2886522ec973ea5d505f3d25007cab6b7d6dbe41c746f630b8893040eed",
+      "logScores": [
+        -1.6227418929338455,
+        -2.662952084094286,
+        -3.266799423843622,
+        -3.2718432946130633,
+        -3.650246961042285,
+        -3.83672221750021,
+        -5.2948675788939,
+        -5.630390025675297,
+        -5.964239593595266
+      ],
+      "probabilities": [
+        0.491076797246933,
+        0.17353691160678864,
+        0.09487336874008179,
+        0.09439605474472046,
+        0.06465695053339005,
+        0.053657449781894684,
+        0.012484339065849781,
+        0.008925854228436947,
+        0.006392356939613819
+      ],
+      "legalRootMass": 0.4141053259372711,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -0.9115870900395727,
+      "promptTokens": 1257,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": false,
+      "elapsedMs": 4919.071,
+      "inferenceKey": "f4cf7574b084c5bc048b3906a2900c2d9bd23c975c153e5cd933230f3b6facba",
+      "field": "title",
+      "budget": {
+        "id": "new-help-netflix-title",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1257,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1259,
+        "withinBudget": true,
+        "promptBytes": 2387,
+        "promptSha256": "d6e9d2886522ec973ea5d505f3d25007cab6b7d6dbe41c746f630b8893040eed"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "new-help-netflix-image",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "i1",
+        "i3",
+        "i2",
+        "i4"
+      ],
+      "promptSha256": "1c964c825202186025eb5973dbc3ae80de3c940504e4c3e0eea6d216984d6b70",
+      "logScores": [
+        -0.7093549035489559,
+        -3.045323890633881,
+        -2.840317267924547,
+        -3.1050370121374726,
+        -3.824777189642191
+      ],
+      "probabilities": [
+        0.7402417063713074,
+        0.0715937539935112,
+        0.08788370341062546,
+        0.06744380295276642,
+        0.03283695504069328
+      ],
+      "legalRootMass": 0.6776310801506042,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "jointSuffixLogMass": -0.4085764751556913,
+      "promptTokens": 623,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 2408.52,
+      "inferenceKey": "03c3a23f8691d6f29e16102a3f7d4e710e8966d8f8e7dd44441983f70a1bc501",
+      "field": "image",
+      "budget": {
+        "id": "new-help-netflix-image",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 623,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 625,
+        "withinBudget": true,
+        "promptBytes": 1612,
+        "promptSha256": "1c964c825202186025eb5973dbc3ae80de3c940504e4c3e0eea6d216984d6b70"
+      },
+      "chosenTextLimit": 96,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    },
+    {
+      "id": "new-help-netflix-description",
+      "split": "holdout",
+      "template": "legacy-enriched",
+      "scenario": null,
+      "valid": true,
+      "chosenId": "__none__",
+      "optionIds": [
+        "__none__",
+        "d7",
+        "d2",
+        "d6",
+        "d5",
+        "d1",
+        "d3",
+        "d4",
+        "d8"
+      ],
+      "promptSha256": "fa75115ec4e48d2d73f14cf7d715f70ae926ae09765bf0059e5882eb3106ba34",
+      "logScores": [
+        -2.0149291828274727,
+        -2.936660449951887,
+        -2.799976857379079,
+        -2.4708872884511948,
+        -2.8810426592826843,
+        -3.6228664964437485,
+        -4.846227303147316,
+        -5.425798326730728,
+        -4.36832582205534
+      ],
+      "probabilities": [
+        0.30343061685562134,
+        0.1207137182354927,
+        0.13839410245418549,
+        0.1923266351222992,
+        0.1276177614927292,
+        0.060777273029088974,
+        0.01788308098912239,
+        0.010017002001404762,
+        0.028839804232120514
+      ],
+      "legalRootMass": 0.4508313834667206,
+      "legalRootTokenIds": [
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "jointSuffixLogMass": -0.8223269975007474,
+      "promptTokens": 1744,
+      "suffixTokenIds": [
+        [
+          16,
+          61
+        ],
+        [
+          17,
+          61
+        ],
+        [
+          18,
+          61
+        ],
+        [
+          19,
+          61
+        ],
+        [
+          20,
+          61
+        ],
+        [
+          21,
+          61
+        ],
+        [
+          22,
+          61
+        ],
+        [
+          23,
+          61
+        ],
+        [
+          24,
+          61
+        ]
+      ],
+      "referenceMaxAbsError": null,
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "correct": true,
+      "elapsedMs": 6926.988,
+      "inferenceKey": "5bd8ad41742396670f975cd0b9c2f808a9f9848a27bc33711e7756245f802cae",
+      "field": "description",
+      "budget": {
+        "id": "new-help-netflix-description",
+        "template": "legacy-enriched",
+        "split": "holdout",
+        "promptTokens": 1744,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1746,
+        "withinBudget": true,
+        "promptBytes": 2895,
+        "promptSha256": "fa75115ec4e48d2d73f14cf7d715f70ae926ae09765bf0059e5882eb3106ba34"
+      },
+      "chosenTextLimit": 48,
+      "reused": false,
+      "originalInferenceReport": "C:\\Develop\\Repositories\\animation-ott-switch\\.tmp\\slayer-v2\\eeddf1282f9c02f1/raw-inference.json"
+    }
+  ],
+  "finishedAt": "2026-11-13T12:42:03.965Z",
+  "implementationSha256": "03fd2c3e8c0b75fd23a43919e206c3ffb6c04494b8638033bfc5a15359668789",
+  "sourceJobs": ".tmp/v2-slayer-fresh.json",
+  "sourceJobsSha256": "c70e6ee3aa4c56f12e535790cca6680242f2885b1fb1586b8fca5b94d312d0ea",
+  "budgetedJobsSha256": "05c2af80aa82f156b2cd96bd817dacc52cc1419b1c526f3ba53012d7921efc98",
+  "budgetAudit": "eval/tiny-decision/v2/slayer/fresh-budget.json",
+  "inferenceConfiguration": {
+    "contextTokens": 2048,
+    "indexBases": [
+      0
+    ],
+    "promptFrame": "Direct instructions and numeric bracket prefill; no chat wrapper",
+    "budgetPolicy": "First ordered tier fitting 2048 tokens including complete suffix; if none fit retain smallest tier and count explicit inference failure. No labels are inspected."
+  },
+  "sampling": null,
+  "templates": [
+    "json-evidence",
+    "legacy-enriched"
+  ],
+  "reuse": {
+    "reused": 0,
+    "newlyInferred": 36,
+    "source": null,
+    "policy": "Reuse only identical case/template/prompt/ordered-option IDs/index base and pinned model/scorer implementation. Reused latency remains its original observation."
+  },
+  "summaries": [
+    {
+      "template": "json-evidence",
+      "summary": {
+        "attempted": 18,
+        "valid": 18,
+        "correct": 6,
+        "accuracy": 0.3333333333333333,
+        "accepted": 13,
+        "acceptedPrecision": 0.15384615384615385,
+        "falseSelections": 11,
+        "correctAbstentions": 4,
+        "errors": 0,
+        "p50Ms": 9243.122,
+        "p95Ms": 14404.902
+      },
+      "fields": {
+        "title": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 1,
+          "accuracy": 0.16666666666666666,
+          "accepted": 5,
+          "acceptedPrecision": 0.2,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 9243.122,
+          "p95Ms": 10649.424
+        },
+        "image": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 2,
+          "accuracy": 0.3333333333333333,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 8251.766,
+          "p95Ms": 9391.456
+        },
+        "description": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 3,
+          "accuracy": 0.5,
+          "accepted": 4,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 3,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 9958.612,
+          "p95Ms": 14404.902
+        }
+      }
+    },
+    {
+      "template": "legacy-enriched",
+      "summary": {
+        "attempted": 18,
+        "valid": 18,
+        "correct": 4,
+        "accuracy": 0.2222222222222222,
+        "accepted": 14,
+        "acceptedPrecision": 0.07142857142857142,
+        "falseSelections": 13,
+        "correctAbstentions": 3,
+        "errors": 0,
+        "p50Ms": 4793.272,
+        "p95Ms": 7191.873
+      },
+      "fields": {
+        "title": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 1,
+          "accuracy": 0.16666666666666666,
+          "accepted": 5,
+          "acceptedPrecision": 0.2,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 4793.272,
+          "p95Ms": 5817.409
+        },
+        "image": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 2,
+          "accuracy": 0.3333333333333333,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 3362.205,
+          "p95Ms": 5040.51
+        },
+        "description": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 1,
+          "accuracy": 0.16666666666666666,
+          "accepted": 5,
+          "acceptedPrecision": 0,
+          "falseSelections": 5,
+          "correctAbstentions": 1,
+          "errors": 0,
+          "p50Ms": 6766.129,
+          "p95Ms": 7191.873
+        }
+      }
+    }
+  ]
+}

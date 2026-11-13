@@ -1,0 +1,21 @@
+{
+  "policy": "Frozen input order: first positive and first explicit none per title/image/description. Six matched cases; labels only stratify/score, never enter model payloads. No predictions used in sampling.",
+  "lockedAt": "2026-11-13T12:42:31.016Z",
+  "selectionFile": "eval/tiny-decision/v2/needle/reports/development.json",
+  "selectionSha256": "8e90022088dc7576eb65e42169318d50054b0362c80105f953232fac4c4d281a",
+  "selectedTemplate": "field-enum",
+  "inputSha256": "10e9dc2188098b04f0fdae3a89cc484358306f40259d408f2a5f27167aa5110a",
+  "labelsSha256": "4a9be08bca1b7aa415a33fc5238cea5df3c2fde2dcba94b51dc30a93d1594f0f",
+  "selectedIds": [
+    "dandadan-netflix-title",
+    "new-search-laftel-title",
+    "dandadan-netflix-image",
+    "new-search-laftel-image",
+    "dandadan-netflix-description",
+    "new-search-laftel-description"
+  ],
+  "controlTemplate": "tool-routing",
+  "controlTemplateSha256": "544733f0c2e56e51faec0ce2ca41a05e2a18ebdfc425cf563b36882e8c3234c7",
+  "runnerSha256": "b13090b459f51774ba9b9b034a79db26daa67477813cb69e40a028c18f2efedd",
+  "automaticNavigation": false
+}

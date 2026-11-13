@@ -1,0 +1,1491 @@
+{
+  "schemaVersion": 2,
+  "model": "SlayerLab/Slayer-149M-Decision-v1",
+  "revision": "ccfd7d3d91f3894beb1cd096b5d067333ba3d4c7",
+  "runtime": "PyTorch CPU (not WebGPU)",
+  "winner": "json-evidence",
+  "selectedAt": "2026-11-13T12:25:32.947Z",
+  "development": [
+    {
+      "template": "json-evidence",
+      "summary": {
+        "attempted": 48,
+        "valid": 47,
+        "correct": 13,
+        "accuracy": 0.2708333333333333,
+        "accepted": 38,
+        "acceptedPrecision": 0.21052631578947367,
+        "falseSelections": 30,
+        "correctAbstentions": 5,
+        "errors": 1,
+        "p50Ms": 4409.044,
+        "p95Ms": 7202.922
+      },
+      "positive": {
+        "n": 35,
+        "correct": 8
+      },
+      "absent": {
+        "n": 13,
+        "correct": 5
+      },
+      "constantNone": {
+        "n": 48,
+        "correct": 13
+      },
+      "fields": {
+        "title": {
+          "attempted": 16,
+          "valid": 16,
+          "correct": 5,
+          "accuracy": 0.3125,
+          "accepted": 14,
+          "acceptedPrecision": 0.2857142857142857,
+          "falseSelections": 10,
+          "correctAbstentions": 1,
+          "errors": 0,
+          "p50Ms": 4409.044,
+          "p95Ms": 7135.895
+        },
+        "image": {
+          "attempted": 16,
+          "valid": 16,
+          "correct": 5,
+          "accuracy": 0.3125,
+          "accepted": 12,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 9,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 4270.226,
+          "p95Ms": 6566.333
+        },
+        "description": {
+          "attempted": 16,
+          "valid": 15,
+          "correct": 3,
+          "accuracy": 0.1875,
+          "accepted": 12,
+          "acceptedPrecision": 0.08333333333333333,
+          "falseSelections": 11,
+          "correctAbstentions": 2,
+          "errors": 1,
+          "p50Ms": 5891.27,
+          "p95Ms": 7224.041
+        }
+      },
+      "firstOptionChoices": 27,
+      "budget": {
+        "overLimit": 1,
+        "maximumNeededTokens": 2079,
+        "tierCounts": {
+          "32": 7,
+          "48": 2,
+          "72": 1,
+          "96": 38,
+          "null": 0
+        }
+      }
+    },
+    {
+      "template": "contrast-example",
+      "summary": {
+        "attempted": 48,
+        "valid": 48,
+        "correct": 10,
+        "accuracy": 0.20833333333333334,
+        "accepted": 41,
+        "acceptedPrecision": 0.17073170731707318,
+        "falseSelections": 34,
+        "correctAbstentions": 3,
+        "errors": 0,
+        "p50Ms": 3207.845,
+        "p95Ms": 5706.826
+      },
+      "positive": {
+        "n": 35,
+        "correct": 7
+      },
+      "absent": {
+        "n": 13,
+        "correct": 3
+      },
+      "constantNone": {
+        "n": 48,
+        "correct": 13
+      },
+      "fields": {
+        "title": {
+          "attempted": 16,
+          "valid": 16,
+          "correct": 4,
+          "accuracy": 0.25,
+          "accepted": 13,
+          "acceptedPrecision": 0.23076923076923078,
+          "falseSelections": 10,
+          "correctAbstentions": 1,
+          "errors": 0,
+          "p50Ms": 3011.184,
+          "p95Ms": 4095.824
+        },
+        "image": {
+          "attempted": 16,
+          "valid": 16,
+          "correct": 4,
+          "accuracy": 0.25,
+          "accepted": 12,
+          "acceptedPrecision": 0.16666666666666666,
+          "falseSelections": 10,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 2547.453,
+          "p95Ms": 4195.536
+        },
+        "description": {
+          "attempted": 16,
+          "valid": 16,
+          "correct": 2,
+          "accuracy": 0.125,
+          "accepted": 16,
+          "acceptedPrecision": 0.125,
+          "falseSelections": 14,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 5023.855,
+          "p95Ms": 6015.044
+        }
+      },
+      "firstOptionChoices": 38,
+      "budget": {
+        "overLimit": 0,
+        "maximumNeededTokens": 1989,
+        "tierCounts": {
+          "32": 1,
+          "48": 7,
+          "72": 1,
+          "96": 39,
+          "null": 0
+        }
+      }
+    }
+  ],
+  "screen": [
+    {
+      "template": "legacy-enriched",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 1,
+        "accuracy": 0.08333333333333333,
+        "accepted": 12,
+        "acceptedPrecision": 0.08333333333333333,
+        "falseSelections": 11,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 2933.061,
+        "p95Ms": 6077.234
+      },
+      "positive": {
+        "n": 6,
+        "correct": 1
+      },
+      "absent": {
+        "n": 6,
+        "correct": 0
+      },
+      "constantNone": {
+        "n": 12,
+        "correct": 6
+      },
+      "fields": {
+        "title": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 1,
+          "accuracy": 0.25,
+          "accepted": 4,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 3,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2933.061,
+          "p95Ms": 3488.996
+        },
+        "image": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2434.456,
+          "p95Ms": 2871.557
+        },
+        "description": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3554.482,
+          "p95Ms": 6077.234
+        }
+      },
+      "firstOptionChoices": 9,
+      "budget": {
+        "overLimit": 0,
+        "maximumNeededTokens": 2028,
+        "tierCounts": {
+          "32": 0,
+          "48": 1,
+          "72": 1,
+          "96": 10,
+          "null": 0
+        }
+      }
+    },
+    {
+      "template": "field-rubric",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 1,
+        "accuracy": 0.08333333333333333,
+        "accepted": 12,
+        "acceptedPrecision": 0.08333333333333333,
+        "falseSelections": 11,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 3170.755,
+        "p95Ms": 7085.884
+      },
+      "positive": {
+        "n": 6,
+        "correct": 1
+      },
+      "absent": {
+        "n": 6,
+        "correct": 0
+      },
+      "constantNone": {
+        "n": 12,
+        "correct": 6
+      },
+      "fields": {
+        "title": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 1,
+          "accuracy": 0.25,
+          "accepted": 4,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 3,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3170.755,
+          "p95Ms": 3277.27
+        },
+        "image": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2550.012,
+          "p95Ms": 3062.856
+        },
+        "description": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3749.378,
+          "p95Ms": 7085.884
+        }
+      },
+      "firstOptionChoices": 9,
+      "budget": {
+        "overLimit": 0,
+        "maximumNeededTokens": 2020,
+        "tierCounts": {
+          "32": 0,
+          "48": 1,
+          "72": 1,
+          "96": 10,
+          "null": 0
+        }
+      }
+    },
+    {
+      "template": "contrast-example",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 2,
+        "accuracy": 0.16666666666666666,
+        "accepted": 12,
+        "acceptedPrecision": 0.16666666666666666,
+        "falseSelections": 10,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 3406.818,
+        "p95Ms": 5552.746
+      },
+      "positive": {
+        "n": 6,
+        "correct": 2
+      },
+      "absent": {
+        "n": 6,
+        "correct": 0
+      },
+      "constantNone": {
+        "n": 12,
+        "correct": 6
+      },
+      "fields": {
+        "title": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 2,
+          "accuracy": 0.5,
+          "accepted": 4,
+          "acceptedPrecision": 0.5,
+          "falseSelections": 2,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3406.818,
+          "p95Ms": 3538.14
+        },
+        "image": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2547.453,
+          "p95Ms": 3163.548
+        },
+        "description": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3788.435,
+          "p95Ms": 5552.746
+        }
+      },
+      "firstOptionChoices": 10,
+      "budget": {
+        "overLimit": 0,
+        "maximumNeededTokens": 1878,
+        "tierCounts": {
+          "32": 0,
+          "48": 2,
+          "72": 0,
+          "96": 10,
+          "null": 0
+        }
+      }
+    },
+    {
+      "template": "json-evidence",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 3,
+        "accuracy": 0.25,
+        "accepted": 11,
+        "acceptedPrecision": 0.18181818181818182,
+        "falseSelections": 9,
+        "correctAbstentions": 1,
+        "errors": 0,
+        "p50Ms": 3963.947,
+        "p95Ms": 6373.291
+      },
+      "positive": {
+        "n": 6,
+        "correct": 2
+      },
+      "absent": {
+        "n": 6,
+        "correct": 1
+      },
+      "constantNone": {
+        "n": 12,
+        "correct": 6
+      },
+      "fields": {
+        "title": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 1,
+          "accuracy": 0.25,
+          "accepted": 4,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 3,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3963.947,
+          "p95Ms": 4409.044
+        },
+        "image": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3397.188,
+          "p95Ms": 3768.134
+        },
+        "description": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 2,
+          "accuracy": 0.5,
+          "accepted": 3,
+          "acceptedPrecision": 0.3333333333333333,
+          "falseSelections": 2,
+          "correctAbstentions": 1,
+          "errors": 0,
+          "p50Ms": 4385.495,
+          "p95Ms": 6373.291
+        }
+      },
+      "firstOptionChoices": 7,
+      "budget": {
+        "overLimit": 0,
+        "maximumNeededTokens": 1933,
+        "tierCounts": {
+          "32": 1,
+          "48": 1,
+          "72": 0,
+          "96": 10,
+          "null": 0
+        }
+      }
+    },
+    {
+      "template": "natural-evidence",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 2,
+        "accuracy": 0.16666666666666666,
+        "accepted": 12,
+        "acceptedPrecision": 0.16666666666666666,
+        "falseSelections": 10,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 2927.753,
+        "p95Ms": 6342.258
+      },
+      "positive": {
+        "n": 6,
+        "correct": 2
+      },
+      "absent": {
+        "n": 6,
+        "correct": 0
+      },
+      "constantNone": {
+        "n": 12,
+        "correct": 6
+      },
+      "fields": {
+        "title": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 2,
+          "accuracy": 0.5,
+          "accepted": 4,
+          "acceptedPrecision": 0.5,
+          "falseSelections": 2,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2927.753,
+          "p95Ms": 3245.899
+        },
+        "image": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2683.144,
+          "p95Ms": 2764.789
+        },
+        "description": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3578.825,
+          "p95Ms": 6342.258
+        }
+      },
+      "firstOptionChoices": 10,
+      "budget": {
+        "overLimit": 0,
+        "maximumNeededTokens": 1980,
+        "tierCounts": {
+          "32": 0,
+          "48": 0,
+          "72": 2,
+          "96": 10,
+          "null": 0
+        }
+      }
+    },
+    {
+      "template": "scope-first",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 2,
+        "accuracy": 0.16666666666666666,
+        "accepted": 12,
+        "acceptedPrecision": 0.16666666666666666,
+        "falseSelections": 10,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 3362.262,
+        "p95Ms": 5708.699
+      },
+      "positive": {
+        "n": 6,
+        "correct": 2
+      },
+      "absent": {
+        "n": 6,
+        "correct": 0
+      },
+      "constantNone": {
+        "n": 12,
+        "correct": 6
+      },
+      "fields": {
+        "title": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 1,
+          "accuracy": 0.25,
+          "accepted": 4,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 3,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3362.262,
+          "p95Ms": 3514.85
+        },
+        "image": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2911.779,
+          "p95Ms": 3035.576
+        },
+        "description": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 1,
+          "accuracy": 0.25,
+          "accepted": 4,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 3,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 4179.041,
+          "p95Ms": 5708.699
+        }
+      },
+      "firstOptionChoices": 9,
+      "budget": {
+        "overLimit": 0,
+        "maximumNeededTokens": 1884,
+        "tierCounts": {
+          "32": 0,
+          "48": 2,
+          "72": 0,
+          "96": 10,
+          "null": 0
+        }
+      }
+    }
+  ],
+  "pointwise": {
+    "summary": {
+      "attempted": 12,
+      "valid": 12,
+      "correct": 6,
+      "accuracy": 0.5,
+      "accepted": 0,
+      "acceptedPrecision": null,
+      "falseSelections": 0,
+      "correctAbstentions": 6,
+      "errors": 0,
+      "p50Ms": 13861.487000000001,
+      "p95Ms": 25663.838999999996
+    },
+    "positive": {
+      "n": 6,
+      "correct": 0
+    },
+    "absent": {
+      "n": 6,
+      "correct": 6
+    },
+    "constantNone": {
+      "correct": 6,
+      "n": 12,
+      "accuracy": 0.5
+    },
+    "threshold": 1.082485756604001,
+    "lockedAt": "2026-11-13T12:24:27.839Z",
+    "eligibleForFreshHoldout": false,
+    "totalCandidateCalls": 154,
+    "totalInferenceMs": 210964.74699999997,
+    "firstOptionChoices": 154,
+    "disagreeingLabelOrderDecisions": 77,
+    "interpretation": "Threshold optimized on the same 12 development cases. Not calibrated probability or independent validation. All calls and both answer orders count toward parent latency."
+  },
+  "order": {
+    "schemaVersion": 2,
+    "template": "json-evidence",
+    "selectionSha256": "132255da546ab1ead5765ed10408f3b780455ac866f39e72926c0d89ef0b82a9",
+    "selectionTime": "2026-11-13T12:25:32.947Z",
+    "cohort": "Development-only paired order sensitivity; not independent holdout and not used for template reselection",
+    "original": {
+      "attempted": 6,
+      "valid": 6,
+      "correct": 2,
+      "accuracy": 0.3333333333333333,
+      "accepted": 5,
+      "acceptedPrecision": 0.2,
+      "falseSelections": 4,
+      "correctAbstentions": 1,
+      "errors": 0,
+      "p50Ms": 3963.947,
+      "p95Ms": 5066.597
+    },
+    "reversed": {
+      "attempted": 6,
+      "valid": 6,
+      "correct": 0,
+      "accuracy": 0,
+      "accepted": 6,
+      "acceptedPrecision": 0,
+      "falseSelections": 6,
+      "correctAbstentions": 0,
+      "errors": 0,
+      "p50Ms": 3335.22,
+      "p95Ms": 4085.856
+    },
+    "paired": [
+      {
+        "id": "witch-title",
+        "bothValid": true,
+        "original": "t3",
+        "reversed": "t4",
+        "sameChoice": false
+      },
+      {
+        "id": "frieren-wavve-search-title",
+        "bothValid": true,
+        "original": "t5",
+        "reversed": "t4",
+        "sameChoice": false
+      },
+      {
+        "id": "witch-image",
+        "bothValid": true,
+        "original": "i6",
+        "reversed": "i2",
+        "sameChoice": false
+      },
+      {
+        "id": "frieren-wavve-search-image",
+        "bothValid": true,
+        "original": "i7",
+        "reversed": "i8",
+        "sameChoice": false
+      },
+      {
+        "id": "witch-description",
+        "bothValid": true,
+        "original": "d7",
+        "reversed": "d8",
+        "sameChoice": false
+      },
+      {
+        "id": "apothecary-description",
+        "bothValid": true,
+        "original": "__none__",
+        "reversed": "d3",
+        "sameChoice": false
+      }
+    ],
+    "validPairs": 6,
+    "sameChoices": 0,
+    "finishedAt": "2026-11-13T12:27:08.775Z"
+  },
+  "notes": [
+    "All original 48 cases are development. Six templates screen on 12; top two expand to 48; one global winner is locked. Field-specific routing is not used.",
+    "Raw observed features are used, not inferred correctness or artwork labels. Missing DOM attributes remain unknown.",
+    "V2 uses native 0-based options and real-tokenizer tiers96/72/48/32; unchanged v1 uses its original 1-based options and uncompressed prompt. All options remain; over-budget cases fail explicitly.",
+    "Slayer v1 winner is Korean korean-structure; legacy-enriched uses English dom-hierarchy. The v1-to-enriched comparison changes language/instruction and numbering as well as evidence, so it is not an isolated evidence ablation.",
+    "The two v2 conditions share evidence compiler and native numbering. They compare template/serialization choices, but tokenizer-selected text tiers can also differ.",
+    "CPU float32 inference, not new WebGPU timing. Concurrent load and reused observations preclude fair latency ranking."
+  ],
+  "fresh": {
+    "globalFreezeAt": "2026-11-13T12:36:11.759Z",
+    "selected": {
+      "template": "json-evidence",
+      "summary": {
+        "attempted": 18,
+        "valid": 18,
+        "correct": 6,
+        "accuracy": 0.3333333333333333,
+        "accepted": 13,
+        "acceptedPrecision": 0.15384615384615385,
+        "falseSelections": 11,
+        "correctAbstentions": 4,
+        "errors": 0,
+        "p50Ms": 9243.122,
+        "p95Ms": 14404.902
+      },
+      "positive": {
+        "n": 12,
+        "correct": 2
+      },
+      "absent": {
+        "n": 6,
+        "correct": 4
+      },
+      "constantNone": {
+        "n": 18,
+        "correct": 6
+      },
+      "fields": {
+        "title": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 1,
+          "accuracy": 0.16666666666666666,
+          "accepted": 5,
+          "acceptedPrecision": 0.2,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 9243.122,
+          "p95Ms": 10649.424
+        },
+        "image": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 2,
+          "accuracy": 0.3333333333333333,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 8251.766,
+          "p95Ms": 9391.456
+        },
+        "description": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 3,
+          "accuracy": 0.5,
+          "accepted": 4,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 3,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 9958.612,
+          "p95Ms": 14404.902
+        }
+      },
+      "firstOptionChoices": 12,
+      "budget": {
+        "overLimit": 0,
+        "maximumNeededTokens": 2008,
+        "tierCounts": {
+          "32": 1,
+          "48": 3,
+          "72": 0,
+          "96": 14,
+          "null": 0
+        }
+      }
+    },
+    "legacyEnriched": {
+      "template": "legacy-enriched",
+      "summary": {
+        "attempted": 18,
+        "valid": 18,
+        "correct": 4,
+        "accuracy": 0.2222222222222222,
+        "accepted": 14,
+        "acceptedPrecision": 0.07142857142857142,
+        "falseSelections": 13,
+        "correctAbstentions": 3,
+        "errors": 0,
+        "p50Ms": 4793.272,
+        "p95Ms": 7191.873
+      },
+      "positive": {
+        "n": 12,
+        "correct": 1
+      },
+      "absent": {
+        "n": 6,
+        "correct": 3
+      },
+      "constantNone": {
+        "n": 18,
+        "correct": 6
+      },
+      "fields": {
+        "title": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 1,
+          "accuracy": 0.16666666666666666,
+          "accepted": 5,
+          "acceptedPrecision": 0.2,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 4793.272,
+          "p95Ms": 5817.409
+        },
+        "image": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 2,
+          "accuracy": 0.3333333333333333,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 3362.205,
+          "p95Ms": 5040.51
+        },
+        "description": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 1,
+          "accuracy": 0.16666666666666666,
+          "accepted": 5,
+          "acceptedPrecision": 0,
+          "falseSelections": 5,
+          "correctAbstentions": 1,
+          "errors": 0,
+          "p50Ms": 6766.129,
+          "p95Ms": 7191.873
+        }
+      },
+      "firstOptionChoices": 14,
+      "budget": {
+        "overLimit": 0,
+        "maximumNeededTokens": 1895,
+        "tierCounts": {
+          "32": 0,
+          "48": 3,
+          "72": 1,
+          "96": 14,
+          "null": 0
+        }
+      }
+    },
+    "unchangedV1": {
+      "template": "korean-structure",
+      "summary": {
+        "attempted": 18,
+        "valid": 13,
+        "correct": 4,
+        "accuracy": 0.2222222222222222,
+        "accepted": 8,
+        "acceptedPrecision": 0.125,
+        "falseSelections": 7,
+        "correctAbstentions": 3,
+        "errors": 5,
+        "p50Ms": 8230.118,
+        "p95Ms": 14478.509
+      },
+      "positive": {
+        "n": 12,
+        "correct": 1
+      },
+      "absent": {
+        "n": 6,
+        "correct": 3
+      },
+      "constantNone": {
+        "n": 18,
+        "correct": 6
+      },
+      "fields": {
+        "title": {
+          "attempted": 6,
+          "valid": 6,
+          "correct": 1,
+          "accuracy": 0.16666666666666666,
+          "accepted": 5,
+          "acceptedPrecision": 0.2,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 10512.816,
+          "p95Ms": 12743.527
+        },
+        "image": {
+          "attempted": 6,
+          "valid": 5,
+          "correct": 2,
+          "accuracy": 0.3333333333333333,
+          "accepted": 3,
+          "acceptedPrecision": 0,
+          "falseSelections": 3,
+          "correctAbstentions": 2,
+          "errors": 1,
+          "p50Ms": 8206.955,
+          "p95Ms": 14478.509
+        },
+        "description": {
+          "attempted": 6,
+          "valid": 2,
+          "correct": 1,
+          "accuracy": 0.16666666666666666,
+          "accepted": 0,
+          "acceptedPrecision": null,
+          "falseSelections": 0,
+          "correctAbstentions": 1,
+          "errors": 4,
+          "p50Ms": 51.908,
+          "p95Ms": 6893.092
+        }
+      },
+      "firstOptionChoices": 11,
+      "budget": {
+        "overLimit": 5,
+        "maximumNeededTokens": 4062,
+        "tierCounts": {
+          "32": 0,
+          "48": 0,
+          "72": 0,
+          "96": 0,
+          "null": 18
+        }
+      }
+    },
+    "pairedV1ToSelected": {
+      "n": 18,
+      "bothValid": 13,
+      "sameChoices": 10,
+      "commonValidBeforeCorrect": 4,
+      "commonValidAfterCorrect": 4,
+      "newlyValid": 5,
+      "newlyValidCorrect": 2,
+      "correctToWrong": 0,
+      "wrongToCorrect": 2,
+      "pairs": [
+        {
+          "id": "dandadan-netflix-title",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "dandadan-netflix-image",
+          "beforeValid": false,
+          "afterValid": true,
+          "bothValid": false,
+          "sameChoice": false,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": "ValueError: Context budget exceeded: 2148 > 2048; no truncation performed",
+          "afterError": null
+        },
+        {
+          "id": "dandadan-netflix-description",
+          "beforeValid": false,
+          "afterValid": true,
+          "bothValid": false,
+          "sameChoice": false,
+          "beforeCorrect": false,
+          "afterCorrect": true,
+          "beforeError": "ValueError: Context budget exceeded: 3079 > 2048; no truncation performed",
+          "afterError": null
+        },
+        {
+          "id": "spy-family-apple-title",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": false,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "spy-family-apple-image",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "spy-family-apple-description",
+          "beforeValid": false,
+          "afterValid": true,
+          "bothValid": false,
+          "sameChoice": false,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": "ValueError: Context budget exceeded: 3649 > 2048; no truncation performed",
+          "afterError": null
+        },
+        {
+          "id": "chainsaw-tving-title",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": true,
+          "afterCorrect": true,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "chainsaw-tving-image",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "chainsaw-tving-description",
+          "beforeValid": false,
+          "afterValid": true,
+          "bothValid": false,
+          "sameChoice": false,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": "ValueError: Context budget exceeded: 4062 > 2048; no truncation performed",
+          "afterError": null
+        },
+        {
+          "id": "demon-slayer-laftel-title",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": false,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "demon-slayer-laftel-image",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "demon-slayer-laftel-description",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": false,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "new-search-laftel-title",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "new-search-laftel-image",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": true,
+          "afterCorrect": true,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "new-search-laftel-description",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": true,
+          "afterCorrect": true,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "new-help-netflix-title",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "new-help-netflix-image",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": true,
+          "afterCorrect": true,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "new-help-netflix-description",
+          "beforeValid": false,
+          "afterValid": true,
+          "bothValid": false,
+          "sameChoice": false,
+          "beforeCorrect": false,
+          "afterCorrect": true,
+          "beforeError": "ValueError: Context budget exceeded: 3258 > 2048; no truncation performed",
+          "afterError": null
+        }
+      ]
+    },
+    "pairedEnrichedToSelected": {
+      "n": 18,
+      "bothValid": 18,
+      "sameChoices": 15,
+      "commonValidBeforeCorrect": 4,
+      "commonValidAfterCorrect": 6,
+      "newlyValid": 0,
+      "newlyValidCorrect": 0,
+      "correctToWrong": 0,
+      "wrongToCorrect": 2,
+      "pairs": [
+        {
+          "id": "dandadan-netflix-title",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "dandadan-netflix-image",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "dandadan-netflix-description",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": false,
+          "beforeCorrect": false,
+          "afterCorrect": true,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "spy-family-apple-title",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": false,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "spy-family-apple-image",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "spy-family-apple-description",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "chainsaw-tving-title",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": true,
+          "afterCorrect": true,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "chainsaw-tving-image",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "chainsaw-tving-description",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "demon-slayer-laftel-title",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "demon-slayer-laftel-image",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "demon-slayer-laftel-description",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "new-search-laftel-title",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "new-search-laftel-image",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": true,
+          "afterCorrect": true,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "new-search-laftel-description",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": false,
+          "beforeCorrect": false,
+          "afterCorrect": true,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "new-help-netflix-title",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": false,
+          "afterCorrect": false,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "new-help-netflix-image",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": true,
+          "afterCorrect": true,
+          "beforeError": null,
+          "afterError": null
+        },
+        {
+          "id": "new-help-netflix-description",
+          "beforeValid": true,
+          "afterValid": true,
+          "bothValid": true,
+          "sameChoice": true,
+          "beforeCorrect": true,
+          "afterCorrect": true,
+          "beforeError": null,
+          "afterError": null
+        }
+      ]
+    }
+  },
+  "sources": [
+    {
+      "path": "eval/tiny-decision/v2/slayer/screen.json",
+      "sha256": "cb1c62e7b61e17a0796213d1d8c15d9282d54af3b03677f4274af1882cc35ee1"
+    },
+    {
+      "path": "eval/tiny-decision/v2/slayer/development.json",
+      "sha256": "effb912479eee35b6ea2b55189bd2a569008c17e95f834152af248d0b1194fc9"
+    },
+    {
+      "path": "eval/tiny-decision/v2/slayer/selection.json",
+      "sha256": "317c0a6b9320540d9f44bf6086300e55d477a9915e4a1507241cf470898648b9"
+    },
+    {
+      "path": "eval/tiny-decision/v2/slayer/pointwise-pilot.json",
+      "sha256": "6aa83530823f860cbab4796ef5f728d9edaeaccc90065963de4273efdd755fda"
+    },
+    {
+      "path": "eval/tiny-decision/v2/slayer/pointwise-pilot-inference.json",
+      "sha256": "75a689336ca46b6338ec3ae2812b336df242bf936d020a0471bce1aea5e1677f"
+    },
+    {
+      "path": "eval/tiny-decision/v2/slayer/order.json",
+      "sha256": "da896bdc47cfc9073d34ef69c3d15c3d40d7262b4a86c443e9b6433193a9aec3"
+    },
+    {
+      "path": "eval/tiny-decision/v2/global-freeze.json",
+      "sha256": "6f45f3814d0cc904a3b683079a56ab40f49e2035f8581d71a2e66afa90d596a3"
+    },
+    {
+      "path": "eval/tiny-decision/v2/slayer/fresh.json",
+      "sha256": "4e18319121c15a472b62e38972ec8e9754435ad3a539330f5ff3956a964b5800"
+    },
+    {
+      "path": "eval/tiny-decision/v2/slayer/legacy-fresh.json",
+      "sha256": "9fa4ea2fad3fee05d3e8f32717811d49692c073f35c7277d730e474b6d5c44a5"
+    }
+  ],
+  "generatedAt": "2026-11-13T12:43:43.635Z"
+}

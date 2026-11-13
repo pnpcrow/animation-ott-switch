@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 2,
+  "lockedAt": "2026-11-13T12:36:11.759Z",
+  "selections": {
+    "jev": {
+      "path": "eval/tiny-decision/v2/reports/jev-selection.json",
+      "sha256": "b25e7f0a9ee1383a0d13f92801b5996c746a86c2aef5164c5d09aac3e35783fc",
+      "lockedAt": "2026-11-13T12:36:11.658Z"
+    },
+    "slayer": {
+      "path": "eval/tiny-decision/v2/slayer/selection.json",
+      "sha256": "317c0a6b9320540d9f44bf6086300e55d477a9915e4a1507241cf470898648b9",
+      "lockedAt": "2026-11-13T12:25:32.947Z"
+    },
+    "slayerPointwise": {
+      "path": "eval/tiny-decision/v2/slayer/pointwise-pilot.json",
+      "sha256": "6aa83530823f860cbab4796ef5f728d9edaeaccc90065963de4273efdd755fda",
+      "lockedAt": "2026-11-13T12:24:27.839Z"
+    },
+    "needle": {
+      "path": "eval/tiny-decision/v2/needle/reports/development-summary.json",
+      "sha256": "c7384a82020497dc442e33c6fc175c95a8787f5f7914a9216da6dd5678a47975",
+      "lockedAt": "2026-11-13T12:22:49.548Z"
+    }
+  },
+  "sources": {
+    "eval/tiny-decision/v2/features.mjs": "01d561a330e0e46faff35a989255332bebecb69844494d74f827ebdea8d9df9a",
+    "eval/tiny-decision/v2/templates.mjs": "0b98aec911b5476732b910bc38da80252f991d0b172a34c290d9d9c29931106b",
+    "eval/tiny-decision/v2/refined.mjs": "4d7d0a423e56bd6699a965beb6e5697ac48b7d2cc76697fb809fb13ebd20cd37",
+    "eval/tiny-decision/v2/needle/templates.mjs": "b0bc42ee1e2cb11cc56d8c34418cb7654f7026d5c2de32436a0f47f5442d2374",
+    "eval/tiny-decision/v2/slayer/pointwise.mjs": "bb5804247f3a3cd51a61dbfcb691cc8bf8b1ab3e21fee97e3d999982bd7cee78",
+    "eval/tiny-decision/baseline.mjs": "de220fa60bb9cc856d19034745c16c68f6cfb9746d137b5c8e34e938c121d20f",
+    "eval/tiny-decision/v2/data/development-inputs.json": "1964fe0e69340d29490fd466f31db4890de647cde6343ea35854fe0601029f7e",
+    "eval/tiny-decision/v2/data/development-labels.json": "3b3221073527a7a4c169637f8f68c613c42a94b3d00dd35db397d9b5bd38b92a",
+    "eval/tiny-decision/v2/data/holdout-inputs.json": "10e9dc2188098b04f0fdae3a89cc484358306f40259d408f2a5f27167aa5110a",
+    "eval/tiny-decision/v2/data/holdout-labels.json": "4a9be08bca1b7aa415a33fc5238cea5df3c2fde2dcba94b51dc30a93d1594f0f"
+  },
+  "protocol": "All development choices are fixed before opening fresh candidate inputs, labels, annotations, or predictions. Source URL references are visible in dataset documentation. No fresh-driven template, threshold, or candidate tuning. Holdout hashes were computed without parsing content. Existing lock is never overwritten.",
+  "jevValidation": "Selected v2 and legacy-enriched on all 18 fresh cases; unchanged v1 dom-hierarchy on the same 18; selected v2 on a full reverse permutation of all 18. Reversed cases are dependent diagnostics, not new examples.",
+  "slayerValidation": "Selected v2 and legacy-enriched on all 18 fresh cases; unchanged v1 korean-structure on the same 18. Pointwise failed its development gate and is not promoted.",
+  "needleValidation": "Selected v2 on all 18 fresh cases; unchanged v1 tool-routing on the first positive and first none case per field (six matched cases), chosen by frozen input order before predictions.",
+  "baseline": "Apply the unchanged v1 compact generic DOM rules to the new 18 cases, with no v2 rule tuning.",
+  "automaticNavigation": false
+}

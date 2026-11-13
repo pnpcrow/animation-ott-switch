@@ -1,0 +1,2087 @@
+{
+  "schemaVersion": 2,
+  "model": "Athekunal/llm-jev-qwen3-0.6b",
+  "revision": "92727826acf82f170d3c05da74e5784907d3ea5c",
+  "runtime": "PyTorch CPU float32 SDPA",
+  "threads": 4,
+  "torch": "2.9.1+cpu",
+  "transformers": "5.17.0",
+  "python": "3.12.10",
+  "modelHashes": {
+    "chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "config.json": "8e93c2725fce6a85c8a855bd260c10f34b10dfaa5a70bf84f2192ff03170e9d9",
+    "model.safetensors": "ecb07d72f94ae9bc96955ca2f9ea5f7e2901a1cee4d0a3f156c8a1aecb843b7b",
+    "tokenizer_config.json": "04b1682c59acbd057f4c9072297faa73d56fc9de053094c659cdb4c464f58f86",
+    "tokenizer.json": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+  },
+  "implementationSha256": "b3a39fd93862d5aa42e828d289fb4383509a476c48b36f6c5de07028038cd6d4",
+  "jobsSha256": "b010c6acab6d0dc07ccbc1bdf33184fca617c5ade3677f169dfb1d944a8c9c01",
+  "inputsSha256": "bebb25cead1343f49808c4f27bb1ce519f0597db4602df79449cc2d76c2deeb7",
+  "labelsSha256": "98dac0f575d3c523686d8ab246e51a2bc6cc73c379ae9284137454b325544677",
+  "sampling": {
+    "policy": "Fixed dataset order: two rows per field × positive/none. Second prefers a different hostname AND work, then hostname, then work, then next row. No model outputs used.",
+    "selectedIds": [
+      "witch-title",
+      "sakura-title",
+      "frieren-wavve-search-title",
+      "dungeon-watcha-search-title",
+      "witch-image",
+      "sakura-image",
+      "frieren-wavve-search-image",
+      "dungeon-watcha-search-image",
+      "witch-description",
+      "sakura-description",
+      "apothecary-description",
+      "frieren-wavve-search-description"
+    ],
+    "available": 48,
+    "excludedIds": [
+      "frieren-title",
+      "frieren-image",
+      "frieren-description",
+      "apothecary-title",
+      "apothecary-image",
+      "nia-title",
+      "nia-image",
+      "nia-description",
+      "rezero-title",
+      "rezero-image",
+      "rezero-description",
+      "dungeon-title",
+      "dungeon-image",
+      "dungeon-description",
+      "dinner-title",
+      "dinner-image",
+      "dinner-description",
+      "frieren-aniplus-title",
+      "frieren-aniplus-image",
+      "frieren-aniplus-description",
+      "witch-tving-title",
+      "witch-tving-image",
+      "witch-tving-description",
+      "frieren-tving-title",
+      "frieren-tving-image",
+      "frieren-tving-description",
+      "witch-wavve-title",
+      "witch-wavve-image",
+      "witch-wavve-description",
+      "dungeon-watcha-search-description",
+      "dungeon-coupang-search-title",
+      "dungeon-coupang-search-image",
+      "dungeon-coupang-search-description",
+      "witch-crunchyroll-title",
+      "witch-crunchyroll-image",
+      "witch-crunchyroll-description"
+    ],
+    "strata": [
+      {
+        "id": "witch-title",
+        "field": "title",
+        "targetClass": "positive",
+        "hostname": "laftel.net",
+        "work": "witch"
+      },
+      {
+        "id": "sakura-title",
+        "field": "title",
+        "targetClass": "positive",
+        "hostname": "tv.apple.com",
+        "work": "sakura"
+      },
+      {
+        "id": "frieren-wavve-search-title",
+        "field": "title",
+        "targetClass": "none",
+        "hostname": "www.wavve.com",
+        "work": "frieren"
+      },
+      {
+        "id": "dungeon-watcha-search-title",
+        "field": "title",
+        "targetClass": "none",
+        "hostname": "watcha.com",
+        "work": "dungeon"
+      },
+      {
+        "id": "witch-image",
+        "field": "image",
+        "targetClass": "positive",
+        "hostname": "laftel.net",
+        "work": "witch"
+      },
+      {
+        "id": "sakura-image",
+        "field": "image",
+        "targetClass": "positive",
+        "hostname": "tv.apple.com",
+        "work": "sakura"
+      },
+      {
+        "id": "frieren-wavve-search-image",
+        "field": "image",
+        "targetClass": "none",
+        "hostname": "www.wavve.com",
+        "work": "frieren"
+      },
+      {
+        "id": "dungeon-watcha-search-image",
+        "field": "image",
+        "targetClass": "none",
+        "hostname": "watcha.com",
+        "work": "dungeon"
+      },
+      {
+        "id": "witch-description",
+        "field": "description",
+        "targetClass": "positive",
+        "hostname": "laftel.net",
+        "work": "witch"
+      },
+      {
+        "id": "sakura-description",
+        "field": "description",
+        "targetClass": "positive",
+        "hostname": "tv.apple.com",
+        "work": "sakura"
+      },
+      {
+        "id": "apothecary-description",
+        "field": "description",
+        "targetClass": "none",
+        "hostname": "laftel.net",
+        "work": "apothecary"
+      },
+      {
+        "id": "frieren-wavve-search-description",
+        "field": "description",
+        "targetClass": "none",
+        "hostname": "www.wavve.com",
+        "work": "frieren"
+      }
+    ]
+  },
+  "loadMs": 3827.331400010735,
+  "results": [
+    {
+      "id": "witch-title",
+      "split": "development",
+      "field": "title",
+      "template": "scope-contrast",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "optionIds": [
+        "t3",
+        "t5",
+        "t8",
+        "__none__",
+        "t2",
+        "t7",
+        "t6",
+        "t4",
+        "t1"
+      ],
+      "reuseKey": "adefd8e913a95f113358a808f9ff63dc84a58b140c31fd95e1348dac0cbc0013",
+      "promptSha256": "ba822c4b8141cf15d3cd2de703627fd121b9ce2dddd0df2fb3a0b6da7e7417df",
+      "promptTokens": 807,
+      "textLimit": 96,
+      "probabilities": [
+        0.8445701003074646,
+        0.024216191843152046,
+        0.010659141466021538,
+        0.012301401235163212,
+        0.07628566771745682,
+        0.0023848344571888447,
+        0.0013479995541274548,
+        0.00214790110476315,
+        0.026086729019880295
+      ],
+      "logScores": [
+        -0.16987118124961853,
+        -3.721677303314209,
+        -4.542281150817871,
+        -4.398985862731934,
+        -2.574213743209839,
+        -6.03956937789917,
+        -6.610077381134033,
+        -6.144207954406738,
+        -3.6472721099853516
+      ],
+      "legalRootMass": 0.9993135333061218,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t3",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 6486.290199914947
+    },
+    {
+      "id": "witch-image",
+      "split": "development",
+      "field": "image",
+      "template": "scope-contrast",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "optionIds": [
+        "i6",
+        "i4",
+        "i1",
+        "i3",
+        "i5",
+        "__none__",
+        "i8",
+        "i2",
+        "i7"
+      ],
+      "reuseKey": "026ef96ab147cdb081842083e7bb0060b80253580fddf30592b7e8238f6c6034",
+      "promptSha256": "c025a562c0ce12d6f16e52ea4113c5e3a2e519291a3987f55038dd7041b987c9",
+      "promptTokens": 1008,
+      "textLimit": 96,
+      "probabilities": [
+        0.15149731934070587,
+        0.042379382997751236,
+        0.7472190260887146,
+        0.03560233116149902,
+        0.01023500133305788,
+        0.005983463954180479,
+        0.0033551258966326714,
+        0.0021207232493907213,
+        0.0016076023457571864
+      ],
+      "logScores": [
+        -1.8886377811431885,
+        -3.162543773651123,
+        -0.29284733533859253,
+        -3.33679461479187,
+        -4.583392143249512,
+        -5.120205879211426,
+        -5.698716163635254,
+        -6.1574482917785645,
+        -6.43446159362793
+      ],
+      "legalRootMass": 0.9986894130706787,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i1",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 7776.245200075209
+    },
+    {
+      "id": "witch-description",
+      "split": "development",
+      "field": "description",
+      "template": "scope-contrast",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "optionIds": [
+        "__none__",
+        "d4",
+        "d7",
+        "d5",
+        "d6",
+        "d8",
+        "d1",
+        "d3",
+        "d2"
+      ],
+      "reuseKey": "a5f9398442d54b67c6ca60c1f3466bab13d34d416cf54de9852189ffb39d0cda",
+      "promptSha256": "bb7b8d288f7e571ed0d46911b1a563e216734341729c595199335f0494be0ae5",
+      "promptTokens": 1358,
+      "textLimit": 96,
+      "probabilities": [
+        0.19221335649490356,
+        0.054149921983480453,
+        0.028965596109628677,
+        0.039997175335884094,
+        0.027959154918789864,
+        0.012397130951285362,
+        0.6339053511619568,
+        0.007355414796620607,
+        0.003056946210563183
+      ],
+      "logScores": [
+        -1.6505578756332397,
+        -2.917407274246216,
+        -3.5430550575256348,
+        -3.2203550338745117,
+        -3.5784192085266113,
+        -4.391698837280273,
+        -0.4572641849517822,
+        -4.913726806640625,
+        -5.791747093200684
+      ],
+      "legalRootMass": 0.9993147850036621,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "d1",
+      "valid": true,
+      "reused": false,
+      "correct": false,
+      "elapsedMs": 10531.387599883601
+    },
+    {
+      "id": "sakura-title",
+      "split": "development",
+      "field": "title",
+      "template": "scope-contrast",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "optionIds": [
+        "t2",
+        "t6",
+        "t8",
+        "t7",
+        "t3",
+        "t4",
+        "__none__",
+        "t5",
+        "t1"
+      ],
+      "reuseKey": "a6d392348b20a339d01cea9e878eb42816b6c48fc33be417df8545980a816168",
+      "promptSha256": "627b82958e6e305c948de89f9f4a6c2d2815ae0397f6d001443cac42eca83442",
+      "promptTokens": 778,
+      "textLimit": 96,
+      "probabilities": [
+        0.9419416189193726,
+        0.020932698622345924,
+        0.007793829310685396,
+        0.006014066748321056,
+        0.0042430139146745205,
+        0.0018634966108947992,
+        0.0030882349237799644,
+        0.004728806205093861,
+        0.00939422007650137
+      ],
+      "logScores": [
+        -0.06085485592484474,
+        -3.867485761642456,
+        -4.855465888977051,
+        -5.114696979522705,
+        -5.463524341583252,
+        -6.286343574523926,
+        -5.781198501586914,
+        -5.355125427246094,
+        -4.668703556060791
+      ],
+      "legalRootMass": 0.9991772770881653,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t2",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 6356.95690009743
+    },
+    {
+      "id": "sakura-image",
+      "split": "development",
+      "field": "image",
+      "template": "scope-contrast",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "optionIds": [
+        "i7",
+        "i8",
+        "i3",
+        "i1",
+        "__none__",
+        "i5",
+        "i6",
+        "i2",
+        "i4"
+      ],
+      "reuseKey": "7fa5c02b422b83b9cb4da1b8e5e9b8f3e08e7e9f40164f68cb2349b086071a61",
+      "promptSha256": "f32b2b450a3f1c9d6a6a5191d153e019a5a3e629a5b598bb098e160a4e62161d",
+      "promptTokens": 841,
+      "textLimit": 96,
+      "probabilities": [
+        0.5414136052131653,
+        0.09675788134336472,
+        0.06777645647525787,
+        0.04683762788772583,
+        0.1585850566625595,
+        0.04841989278793335,
+        0.012953405268490314,
+        0.01954811066389084,
+        0.0077079907059669495
+      ],
+      "logScores": [
+        -0.6160697340965271,
+        -2.3380415439605713,
+        -2.6940383911132812,
+        -3.0635664463043213,
+        -1.8439621925354004,
+        -3.0303425788879395,
+        -4.3488945960998535,
+        -3.9373745918273926,
+        -4.867995738983154
+      ],
+      "legalRootMass": 0.9977072477340698,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i7",
+      "valid": true,
+      "reused": false,
+      "correct": false,
+      "elapsedMs": 6501.1668999213725
+    },
+    {
+      "id": "sakura-description",
+      "split": "development",
+      "field": "description",
+      "template": "scope-contrast",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "optionIds": [
+        "__none__",
+        "d3",
+        "d7",
+        "d1",
+        "d5",
+        "d2",
+        "d4",
+        "d6",
+        "d8"
+      ],
+      "reuseKey": "4a229bd98f7dd31161cd58d4649db0b484331c83d2149efd9760d43ede8b27d7",
+      "promptSha256": "9a317696272fc59ee5d2a3d7508feb292fda509d4693310597beaff88ce04fa7",
+      "promptTokens": 1241,
+      "textLimit": 96,
+      "probabilities": [
+        0.24408020079135895,
+        0.22232688963413239,
+        0.1063372790813446,
+        0.3560120165348053,
+        0.036693595349788666,
+        0.019980503246188164,
+        0.006596745457500219,
+        0.003154014702886343,
+        0.004818718880414963
+      ],
+      "logScores": [
+        -1.4115676879882812,
+        -1.5049158334732056,
+        -2.242448568344116,
+        -1.03410005569458,
+        -3.306462287902832,
+        -3.9143075942993164,
+        -5.022488117218018,
+        -5.760388374328613,
+        -5.336556434631348
+      ],
+      "legalRootMass": 0.998969316482544,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "d1",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 9784.026499837637
+    },
+    {
+      "id": "apothecary-description",
+      "split": "development",
+      "field": "description",
+      "template": "scope-contrast",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "d2",
+        "d4",
+        "d1",
+        "__none__",
+        "d3"
+      ],
+      "reuseKey": "7cfe294d3b2a5e04d969111df7e43c03a76fceaac8ccfb2cb9f06d44b3244ff4",
+      "promptSha256": "63c17379c0e67b9ed52e047de60efd22e0214dffd7987c77ea2c464100f37317",
+      "promptTokens": 611,
+      "textLimit": 96,
+      "probabilities": [
+        0.4968056380748749,
+        0.08960308879613876,
+        0.23132437467575073,
+        0.1455860584974289,
+        0.03668079897761345
+      ],
+      "logScores": [
+        -0.7008914351463318,
+        -2.413700580596924,
+        -1.4652693271636963,
+        -1.9283229112625122,
+        -3.3068368434906006
+      ],
+      "legalRootMass": 0.9989526271820068,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ]
+      ],
+      "chosenId": "d2",
+      "valid": true,
+      "reused": false,
+      "correct": false,
+      "elapsedMs": 5093.121699988842
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "split": "development",
+      "field": "title",
+      "template": "scope-contrast",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "t5",
+        "t2",
+        "__none__",
+        "t6",
+        "t8",
+        "t3",
+        "t1",
+        "t7",
+        "t4"
+      ],
+      "reuseKey": "84a6b7fac2ec5951a0da7d5129d85defb04ce7e1462621a2b3616513fb84816d",
+      "promptSha256": "bec23d16eab89443251fd339a044bedb63e6c3d0d5284ba94f7155fc6a67a5ce",
+      "promptTokens": 719,
+      "textLimit": 96,
+      "probabilities": [
+        0.21583528816699982,
+        0.16301986575126648,
+        0.2893903851509094,
+        0.030855046585202217,
+        0.013742712326347828,
+        0.06642315536737442,
+        0.19973796606063843,
+        0.00951913557946682,
+        0.011476456187665462
+      ],
+      "logScores": [
+        -1.5348914861679077,
+        -1.8155349493026733,
+        -1.2416304349899292,
+        -3.480106830596924,
+        -4.288898468017578,
+        -2.7133612632751465,
+        -1.612400770187378,
+        -4.656103134155273,
+        -4.469109535217285
+      ],
+      "legalRootMass": 0.9986609816551208,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 6664.741100044921
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "split": "development",
+      "field": "image",
+      "template": "scope-contrast",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "i7",
+        "__none__",
+        "i6",
+        "i4",
+        "i3",
+        "i1",
+        "i2",
+        "i5",
+        "i8"
+      ],
+      "reuseKey": "77b7573258ed28f5b78bf8e3bad57a87707ec5e577a767c66ba9fe0106551409",
+      "promptSha256": "fe9f54a0a53a9441c11aa52e425709035a777046dc4407e65d64f38e3e1c6337",
+      "promptTokens": 785,
+      "textLimit": 96,
+      "probabilities": [
+        0.4565913677215576,
+        0.20584630966186523,
+        0.07618167251348495,
+        0.02821759693324566,
+        0.026228351518511772,
+        0.18079252541065216,
+        0.009433030150830746,
+        0.009327992796897888,
+        0.007381086703389883
+      ],
+      "logScores": [
+        -0.786922812461853,
+        -1.583581805229187,
+        -2.5775907039642334,
+        -3.570765972137451,
+        -3.6438708305358887,
+        -1.7133615016937256,
+        -4.666494369506836,
+        -4.67769193649292,
+        -4.91179084777832
+      ],
+      "legalRootMass": 0.9973323345184326,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i7",
+      "valid": true,
+      "reused": false,
+      "correct": false,
+      "elapsedMs": 8002.038000151515
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "split": "development",
+      "field": "description",
+      "template": "scope-contrast",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "d6",
+        "d2",
+        "__none__",
+        "d3",
+        "d1",
+        "d4",
+        "d5"
+      ],
+      "reuseKey": "0645b648f95b63e2a44963464cbb8668858f560de9d7cb858b027d44371359c0",
+      "promptSha256": "c0a15209dfc071a78c33bff90bdec6b8cfc7c35a668d3b50185d6beb67925c1f",
+      "promptTokens": 775,
+      "textLimit": 96,
+      "probabilities": [
+        0.18744702637195587,
+        0.07026057690382004,
+        0.5269176959991455,
+        0.13825948536396027,
+        0.045938681811094284,
+        0.013226984068751335,
+        0.01794937625527382
+      ],
+      "logScores": [
+        -1.676764726638794,
+        -2.658050060272217,
+        -0.6432165503501892,
+        -1.9811286926269531,
+        -3.082953453063965,
+        -4.328001976013184,
+        -4.022705554962158
+      ],
+      "legalRootMass": 0.9977914690971375,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 8054.30810013786
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "split": "development",
+      "field": "title",
+      "template": "scope-contrast",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "t1",
+        "__none__",
+        "t2"
+      ],
+      "reuseKey": "073f8b2926092f87f25c95f9200625029f942add00fd5d1f4bb0c66191007ae8",
+      "promptSha256": "37b4305fb1811b7416df3c5611833e39cdac7abb41895ba8c7434ee74f3733e3",
+      "promptTokens": 375,
+      "textLimit": 96,
+      "probabilities": [
+        0.9230549335479736,
+        0.05317194014787674,
+        0.023773109540343285
+      ],
+      "logScores": [
+        -0.080805703997612,
+        -2.9349637031555176,
+        -3.7399394512176514
+      ],
+      "legalRootMass": 0.999442458152771,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ]
+      ],
+      "chosenId": "t1",
+      "valid": true,
+      "reused": false,
+      "correct": false,
+      "elapsedMs": 4460.753299994394
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "split": "development",
+      "field": "image",
+      "template": "scope-contrast",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "i1",
+        "__none__"
+      ],
+      "reuseKey": "060869544155dbe3701527ccca3e0aee8eb71a15e06d78c75173f96a4656e5dc",
+      "promptSha256": "e13fb0349af3f31f0be90331d2e5c21e675ea94dff10cc64c86f38a0f0a96792",
+      "promptTokens": 324,
+      "textLimit": 96,
+      "probabilities": [
+        0.4826442301273346,
+        0.517355740070343
+      ],
+      "logScores": [
+        -0.731231689453125,
+        -0.6617807745933533
+      ],
+      "legalRootMass": 0.9974743127822876,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 3366.3256999570876
+    },
+    {
+      "id": "witch-title",
+      "split": "development",
+      "field": "title",
+      "template": "field-worked",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "optionIds": [
+        "t3",
+        "t5",
+        "t8",
+        "__none__",
+        "t2",
+        "t7",
+        "t6",
+        "t4",
+        "t1"
+      ],
+      "reuseKey": "3a0f163441784112ca135cdd6e0e52b8c5e3d574838818a5888d68763acad63b",
+      "promptSha256": "bbb8b2807740c46042c2a3048fd7793d22720179e8f75eb1833d9211e448f35d",
+      "promptTokens": 891,
+      "textLimit": 96,
+      "probabilities": [
+        0.7470183968544006,
+        0.02662341110408306,
+        0.012670822441577911,
+        0.018270529806613922,
+        0.13346527516841888,
+        0.0033889575861394405,
+        0.002192762913182378,
+        0.003044180339202285,
+        0.05332576483488083
+      ],
+      "logScores": [
+        -0.29278209805488586,
+        -3.6270809173583984,
+        -4.369570255279541,
+        -4.00358247756958,
+        -2.0150306224823,
+        -5.688349723815918,
+        -6.123709678649902,
+        -5.795640468597412,
+        -2.9324522018432617
+      ],
+      "legalRootMass": 0.9991078972816467,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t3",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 9341.475300025195
+    },
+    {
+      "id": "witch-image",
+      "split": "development",
+      "field": "image",
+      "template": "field-worked",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "optionIds": [
+        "i6",
+        "i4",
+        "i1",
+        "i3",
+        "i5",
+        "__none__",
+        "i8",
+        "i2",
+        "i7"
+      ],
+      "reuseKey": "58492af22aa1c58023dc7430e4278c94d93b62cbd688fee6cb859b2a4955c062",
+      "promptSha256": "5e24fa52736d9467d23a798b4a0abe689c3ab7bc41f1d960342ba4dfdd97d140",
+      "promptTokens": 1094,
+      "textLimit": 96,
+      "probabilities": [
+        0.11844857782125473,
+        0.0374763049185276,
+        0.7907439470291138,
+        0.031987033784389496,
+        0.009202194400131702,
+        0.005961023271083832,
+        0.003068845020607114,
+        0.0019072918221354485,
+        0.0012047209311276674
+      ],
+      "logScores": [
+        -2.134600877761841,
+        -3.2853708267211914,
+        -0.2361055612564087,
+        -3.443749189376831,
+        -4.689637660980225,
+        -5.123837471008301,
+        -5.787778377532959,
+        -6.263395309448242,
+        -6.722831726074219
+      ],
+      "legalRootMass": 0.9988149404525757,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i1",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 11216.603099834174
+    },
+    {
+      "id": "witch-description",
+      "split": "development",
+      "field": "description",
+      "template": "field-worked",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "optionIds": [
+        "__none__",
+        "d4",
+        "d7",
+        "d5",
+        "d6",
+        "d8",
+        "d1",
+        "d3",
+        "d2"
+      ],
+      "reuseKey": "41a8995f5bc1c5ba4f3977274c4d6417d700bcda00fc295f3e568c885c881701",
+      "promptSha256": "22b39179969db8c4850c4c5dc50a6d16f8e2bc813810408aaab7bbaf88618f90",
+      "promptTokens": 1480,
+      "textLimit": 96,
+      "probabilities": [
+        0.15660470724105835,
+        0.055212605744600296,
+        0.02759447880089283,
+        0.040265992283821106,
+        0.02623964473605156,
+        0.010171513073146343,
+        0.6749411225318909,
+        0.0058701359666883945,
+        0.0030997362919151783
+      ],
+      "logScores": [
+        -1.8554357290267944,
+        -2.8979692459106445,
+        -3.5915448665618896,
+        -3.213653326034546,
+        -3.6418890953063965,
+        -4.589569568634033,
+        -0.3945350646972656,
+        -5.139282703399658,
+        -5.777843475341797
+      ],
+      "legalRootMass": 0.9994351863861084,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "d1",
+      "valid": true,
+      "reused": false,
+      "correct": false,
+      "elapsedMs": 16672.648899955675
+    },
+    {
+      "id": "sakura-title",
+      "split": "development",
+      "field": "title",
+      "template": "field-worked",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "optionIds": [
+        "t2",
+        "t6",
+        "t8",
+        "t7",
+        "t3",
+        "t4",
+        "__none__",
+        "t5",
+        "t1"
+      ],
+      "reuseKey": "24f984075a6a40bfe19c6044eabd21a29fbb87a85caaa38bd83be8f506422ad7",
+      "promptSha256": "f5408441e879755ab3e68c313f54611a5dace9bb9ac78fcdf1e4d15cca8b2e51",
+      "promptTokens": 862,
+      "textLimit": 96,
+      "probabilities": [
+        0.9523005485534668,
+        0.017608486115932465,
+        0.006850383244454861,
+        0.005538536235690117,
+        0.0038486728444695473,
+        0.001625708886422217,
+        0.0023482588585466146,
+        0.003454698948189616,
+        0.006424660794436932
+      ],
+      "logScores": [
+        -0.049928322434425354,
+        -4.040428161621094,
+        -4.984504222869873,
+        -5.197078704833984,
+        -5.561080455780029,
+        -6.42286491394043,
+        -6.0551347732543945,
+        -5.669073581695557,
+        -5.0486650466918945
+      ],
+      "legalRootMass": 0.9991379380226135,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t2",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 9020.141000160947
+    },
+    {
+      "id": "sakura-image",
+      "split": "development",
+      "field": "image",
+      "template": "field-worked",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "optionIds": [
+        "i7",
+        "i8",
+        "i3",
+        "i1",
+        "__none__",
+        "i5",
+        "i6",
+        "i2",
+        "i4"
+      ],
+      "reuseKey": "41d900e03c0fe9c3051746166a3f72d801fd92796f718041be10e14a11c3f0d1",
+      "promptSha256": "27c8434dfbfb83b1335a936389541bcfd98e84accf397f7fdd04814fc0d7ff7c",
+      "promptTokens": 927,
+      "textLimit": 96,
+      "probabilities": [
+        0.5539442896842957,
+        0.09576544165611267,
+        0.08383326977491379,
+        0.07102851569652557,
+        0.1012338250875473,
+        0.05038497969508171,
+        0.014719102531671524,
+        0.020635677501559258,
+        0.008454829454421997
+      ],
+      "logScores": [
+        -0.5934317111968994,
+        -2.3485939502716064,
+        -2.481665849685669,
+        -2.647414445877075,
+        -2.293062925338745,
+        -2.990802764892578,
+        -4.221349716186523,
+        -3.883474349975586,
+        -4.775758266448975
+      ],
+      "legalRootMass": 0.9974947571754456,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i7",
+      "valid": true,
+      "reused": false,
+      "correct": false,
+      "elapsedMs": 10154.832100030035
+    },
+    {
+      "id": "sakura-description",
+      "split": "development",
+      "field": "description",
+      "template": "field-worked",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "optionIds": [
+        "__none__",
+        "d3",
+        "d7",
+        "d1",
+        "d5",
+        "d2",
+        "d4",
+        "d6",
+        "d8"
+      ],
+      "reuseKey": "e95f7710d962253dd9c7c13929114abd619058e79f6049a4afcd7533ba058261",
+      "promptSha256": "0e538c812fbc9ce01dcceaab092790915083aa013bde7c80b6b3121aed7a7f00",
+      "promptTokens": 1363,
+      "textLimit": 96,
+      "probabilities": [
+        0.2243935763835907,
+        0.21417520940303802,
+        0.09783536195755005,
+        0.38968518376350403,
+        0.038441579788923264,
+        0.01940756104886532,
+        0.007401784881949425,
+        0.003258799435570836,
+        0.005400968715548515
+      ],
+      "logScores": [
+        -1.4956167936325073,
+        -1.5422239303588867,
+        -2.3257322311401367,
+        -0.9436790943145752,
+        -3.259878635406494,
+        -3.9433555603027344,
+        -4.907297134399414,
+        -5.727659702301025,
+        -5.222439765930176
+      ],
+      "legalRootMass": 0.9990732073783875,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "d1",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 15174.730699975044
+    },
+    {
+      "id": "apothecary-description",
+      "split": "development",
+      "field": "description",
+      "template": "field-worked",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "d2",
+        "d4",
+        "d1",
+        "__none__",
+        "d3"
+      ],
+      "reuseKey": "f75973ebe5d4149531a758467423dc2a57198eca653bae889732d8f2e323ef55",
+      "promptSha256": "0a4da4bb4f72dcb05cf58c7fb6c11c57ff68a0302fc521da156ea12c9179825e",
+      "promptTokens": 733,
+      "textLimit": 96,
+      "probabilities": [
+        0.32572728395462036,
+        0.10260628908872604,
+        0.2332734316587448,
+        0.2876165211200714,
+        0.05077645927667618
+      ],
+      "logScores": [
+        -1.1230093240737915,
+        -2.278170585632324,
+        -1.456858515739441,
+        -1.2474417686462402,
+        -2.9816370010375977
+      ],
+      "legalRootMass": 0.9989752769470215,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ]
+      ],
+      "chosenId": "d2",
+      "valid": true,
+      "reused": false,
+      "correct": false,
+      "elapsedMs": 7787.489400012419
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "split": "development",
+      "field": "title",
+      "template": "field-worked",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "t5",
+        "t2",
+        "__none__",
+        "t6",
+        "t8",
+        "t3",
+        "t1",
+        "t7",
+        "t4"
+      ],
+      "reuseKey": "3f0358643617a56960feea7b0034df852990d9449b7c0a86cc6b298fff1e542c",
+      "promptSha256": "6e2932d9e083069ad9431eb704db10fb0a77bf7a11a72d4596f6140a25dd3658",
+      "promptTokens": 803,
+      "textLimit": 96,
+      "probabilities": [
+        0.21967902779579163,
+        0.17674265801906586,
+        0.12358167767524719,
+        0.03216705471277237,
+        0.01795262098312378,
+        0.06562543660402298,
+        0.3365628123283386,
+        0.013649685308337212,
+        0.014038982801139355
+      ],
+      "logScores": [
+        -1.5174425840377808,
+        -1.7349153757095337,
+        -2.092707872390747,
+        -3.4386672973632812,
+        -4.021873950958252,
+        -2.725646734237671,
+        -1.0908253192901611,
+        -4.295893669128418,
+        -4.267772197723389
+      ],
+      "legalRootMass": 0.998400092124939,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t1",
+      "valid": true,
+      "reused": false,
+      "correct": false,
+      "elapsedMs": 8584.271899890155
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "split": "development",
+      "field": "image",
+      "template": "field-worked",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "i7",
+        "__none__",
+        "i6",
+        "i4",
+        "i3",
+        "i1",
+        "i2",
+        "i5",
+        "i8"
+      ],
+      "reuseKey": "978f06866a83bd25f907fc508f27633de3f29dfc60eeba79042ceced347ba578",
+      "promptSha256": "fa9d10686e1e63b4c7d87d38a0fc8be35af15566eb5b954051ca263533de450e",
+      "promptTokens": 871,
+      "textLimit": 96,
+      "probabilities": [
+        0.4689570367336273,
+        0.20167483389377594,
+        0.07253723591566086,
+        0.030467664822936058,
+        0.02488894574344158,
+        0.17562487721443176,
+        0.010191211476922035,
+        0.008695811964571476,
+        0.006962547544389963
+      ],
+      "logScores": [
+        -0.7604572772979736,
+        -1.6043117046356201,
+        -2.626868486404419,
+        -3.49430251121521,
+        -3.696544647216797,
+        -1.7426180839538574,
+        -4.589442729949951,
+        -4.748126983642578,
+        -4.970422744750977
+      ],
+      "legalRootMass": 0.9971287846565247,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i7",
+      "valid": true,
+      "reused": false,
+      "correct": false,
+      "elapsedMs": 9163.905299967155
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "split": "development",
+      "field": "description",
+      "template": "field-worked",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "d6",
+        "d2",
+        "__none__",
+        "d3",
+        "d1",
+        "d4",
+        "d5"
+      ],
+      "reuseKey": "f848f1879aca84ee5e4a86efa8666de3887da8083032c2d93ec3c680c4335b04",
+      "promptSha256": "51ef6d08226dcc720225845f0a0bc4a6744b0f37b5d89b9be4df0827092513d0",
+      "promptTokens": 897,
+      "textLimit": 96,
+      "probabilities": [
+        0.17061181366443634,
+        0.05710119754076004,
+        0.5762170553207397,
+        0.12777918577194214,
+        0.04447111487388611,
+        0.01130950078368187,
+        0.012510133907198906
+      ],
+      "logScores": [
+        -1.7703989744186401,
+        -2.864964723587036,
+        -0.553305447101593,
+        -2.059486150741577,
+        -3.114949941635132,
+        -4.484146595001221,
+        -4.383250713348389
+      ],
+      "legalRootMass": 0.9982900619506836,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 8947.449499974027
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "split": "development",
+      "field": "title",
+      "template": "field-worked",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "t1",
+        "__none__",
+        "t2"
+      ],
+      "reuseKey": "10c0a9733e546aef208c17be31a826bdb749b7ff01ba3056d315a4af341d46f8",
+      "promptSha256": "c9c7efb4505e6a661d14ab44c0c09f145d893d02b4b027ed66a6fdf61cbb34b8",
+      "promptTokens": 459,
+      "textLimit": 96,
+      "probabilities": [
+        0.9074211716651917,
+        0.06351912766695023,
+        0.029059698805212975
+      ],
+      "logScores": [
+        -0.09796462208032608,
+        -2.757230043411255,
+        -3.5392189025878906
+      ],
+      "legalRootMass": 0.99936842918396,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ]
+      ],
+      "chosenId": "t1",
+      "valid": true,
+      "reused": false,
+      "correct": false,
+      "elapsedMs": 4565.370200201869
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "split": "development",
+      "field": "image",
+      "template": "field-worked",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "optionIds": [
+        "i1",
+        "__none__"
+      ],
+      "reuseKey": "b79abb4b8077d40c5d6666461397b981fc0c2938d2a78e61688a5a10dc343732",
+      "promptSha256": "c23d756f585e382f6ca5d2606d5ee20498b71b7979d7ab74785235d47733072f",
+      "promptTokens": 410,
+      "textLimit": 96,
+      "probabilities": [
+        0.47844478487968445,
+        0.5215551853179932
+      ],
+      "logScores": [
+        -0.7403989434242249,
+        -0.6541246771812439
+      ],
+      "legalRootMass": 0.9971295595169067,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "reused": false,
+      "correct": true,
+      "elapsedMs": 4051.980100106448
+    }
+  ],
+  "finishedAt": "2026-11-13T12:23:11Z"
+}

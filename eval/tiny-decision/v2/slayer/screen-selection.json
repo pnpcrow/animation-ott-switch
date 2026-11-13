@@ -1,0 +1,665 @@
+{
+  "schemaVersion": 2,
+  "model": "SlayerLab/Slayer-149M-Decision-v1",
+  "source": "eval/tiny-decision/v2/slayer/screen.json",
+  "sourceSha256": "cb1c62e7b61e17a0796213d1d8c15d9282d54af3b03677f4274af1882cc35ee1",
+  "selectedAt": "2026-11-13T12:18:29.703Z",
+  "policy": "Highest development accuracy, then fewer false element selections, more valid outputs, stable template ID. Latency is excluded because of reuse and concurrent loads.",
+  "selectedTemplates": [
+    "json-evidence",
+    "contrast-example"
+  ],
+  "ranked": [
+    {
+      "template": "json-evidence",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 3,
+        "accuracy": 0.25,
+        "accepted": 11,
+        "acceptedPrecision": 0.18181818181818182,
+        "falseSelections": 9,
+        "correctAbstentions": 1,
+        "errors": 0,
+        "p50Ms": 3963.947,
+        "p95Ms": 6373.291
+      },
+      "fields": {
+        "title": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 1,
+          "accuracy": 0.25,
+          "accepted": 4,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 3,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3963.947,
+          "p95Ms": 4409.044
+        },
+        "image": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3397.188,
+          "p95Ms": 3768.134
+        },
+        "description": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 2,
+          "accuracy": 0.5,
+          "accepted": 3,
+          "acceptedPrecision": 0.3333333333333333,
+          "falseSelections": 2,
+          "correctAbstentions": 1,
+          "errors": 0,
+          "p50Ms": 4385.495,
+          "p95Ms": 6373.291
+        }
+      }
+    },
+    {
+      "template": "contrast-example",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 2,
+        "accuracy": 0.16666666666666666,
+        "accepted": 12,
+        "acceptedPrecision": 0.16666666666666666,
+        "falseSelections": 10,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 3406.818,
+        "p95Ms": 5552.746
+      },
+      "fields": {
+        "title": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 2,
+          "accuracy": 0.5,
+          "accepted": 4,
+          "acceptedPrecision": 0.5,
+          "falseSelections": 2,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3406.818,
+          "p95Ms": 3538.14
+        },
+        "image": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2547.453,
+          "p95Ms": 3163.548
+        },
+        "description": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3788.435,
+          "p95Ms": 5552.746
+        }
+      }
+    },
+    {
+      "template": "natural-evidence",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 2,
+        "accuracy": 0.16666666666666666,
+        "accepted": 12,
+        "acceptedPrecision": 0.16666666666666666,
+        "falseSelections": 10,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 2927.753,
+        "p95Ms": 6342.258
+      },
+      "fields": {
+        "title": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 2,
+          "accuracy": 0.5,
+          "accepted": 4,
+          "acceptedPrecision": 0.5,
+          "falseSelections": 2,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2927.753,
+          "p95Ms": 3245.899
+        },
+        "image": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2683.144,
+          "p95Ms": 2764.789
+        },
+        "description": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3578.825,
+          "p95Ms": 6342.258
+        }
+      }
+    },
+    {
+      "template": "scope-first",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 2,
+        "accuracy": 0.16666666666666666,
+        "accepted": 12,
+        "acceptedPrecision": 0.16666666666666666,
+        "falseSelections": 10,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 3362.262,
+        "p95Ms": 5708.699
+      },
+      "fields": {
+        "title": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 1,
+          "accuracy": 0.25,
+          "accepted": 4,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 3,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3362.262,
+          "p95Ms": 3514.85
+        },
+        "image": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2911.779,
+          "p95Ms": 3035.576
+        },
+        "description": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 1,
+          "accuracy": 0.25,
+          "accepted": 4,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 3,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 4179.041,
+          "p95Ms": 5708.699
+        }
+      }
+    },
+    {
+      "template": "field-rubric",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 1,
+        "accuracy": 0.08333333333333333,
+        "accepted": 12,
+        "acceptedPrecision": 0.08333333333333333,
+        "falseSelections": 11,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 3170.755,
+        "p95Ms": 7085.884
+      },
+      "fields": {
+        "title": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 1,
+          "accuracy": 0.25,
+          "accepted": 4,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 3,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3170.755,
+          "p95Ms": 3277.27
+        },
+        "image": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2550.012,
+          "p95Ms": 3062.856
+        },
+        "description": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3749.378,
+          "p95Ms": 7085.884
+        }
+      }
+    },
+    {
+      "template": "legacy-enriched",
+      "summary": {
+        "attempted": 12,
+        "valid": 12,
+        "correct": 1,
+        "accuracy": 0.08333333333333333,
+        "accepted": 12,
+        "acceptedPrecision": 0.08333333333333333,
+        "falseSelections": 11,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 2933.061,
+        "p95Ms": 6077.234
+      },
+      "fields": {
+        "title": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 1,
+          "accuracy": 0.25,
+          "accepted": 4,
+          "acceptedPrecision": 0.25,
+          "falseSelections": 3,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2933.061,
+          "p95Ms": 3488.996
+        },
+        "image": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 2434.456,
+          "p95Ms": 2871.557
+        },
+        "description": {
+          "attempted": 4,
+          "valid": 4,
+          "correct": 0,
+          "accuracy": 0,
+          "accepted": 4,
+          "acceptedPrecision": 0,
+          "falseSelections": 4,
+          "correctAbstentions": 0,
+          "errors": 0,
+          "p50Ms": 3554.482,
+          "p95Ms": 6077.234
+        }
+      }
+    }
+  ],
+  "fieldDiagnostics": {
+    "title": {
+      "winner": "contrast-example",
+      "ranked": [
+        {
+          "template": "contrast-example",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 2,
+            "accuracy": 0.5,
+            "accepted": 4,
+            "acceptedPrecision": 0.5,
+            "falseSelections": 2,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 3406.818,
+            "p95Ms": 3538.14
+          }
+        },
+        {
+          "template": "natural-evidence",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 2,
+            "accuracy": 0.5,
+            "accepted": 4,
+            "acceptedPrecision": 0.5,
+            "falseSelections": 2,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 2927.753,
+            "p95Ms": 3245.899
+          }
+        },
+        {
+          "template": "field-rubric",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 1,
+            "accuracy": 0.25,
+            "accepted": 4,
+            "acceptedPrecision": 0.25,
+            "falseSelections": 3,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 3170.755,
+            "p95Ms": 3277.27
+          }
+        },
+        {
+          "template": "json-evidence",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 1,
+            "accuracy": 0.25,
+            "accepted": 4,
+            "acceptedPrecision": 0.25,
+            "falseSelections": 3,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 3963.947,
+            "p95Ms": 4409.044
+          }
+        },
+        {
+          "template": "legacy-enriched",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 1,
+            "accuracy": 0.25,
+            "accepted": 4,
+            "acceptedPrecision": 0.25,
+            "falseSelections": 3,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 2933.061,
+            "p95Ms": 3488.996
+          }
+        },
+        {
+          "template": "scope-first",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 1,
+            "accuracy": 0.25,
+            "accepted": 4,
+            "acceptedPrecision": 0.25,
+            "falseSelections": 3,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 3362.262,
+            "p95Ms": 3514.85
+          }
+        }
+      ],
+      "note": "Development-only diagnostic, not selected by fresh holdout or deployed as field-specific routing."
+    },
+    "image": {
+      "winner": "contrast-example",
+      "ranked": [
+        {
+          "template": "contrast-example",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 0,
+            "accuracy": 0,
+            "accepted": 4,
+            "acceptedPrecision": 0,
+            "falseSelections": 4,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 2547.453,
+            "p95Ms": 3163.548
+          }
+        },
+        {
+          "template": "field-rubric",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 0,
+            "accuracy": 0,
+            "accepted": 4,
+            "acceptedPrecision": 0,
+            "falseSelections": 4,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 2550.012,
+            "p95Ms": 3062.856
+          }
+        },
+        {
+          "template": "json-evidence",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 0,
+            "accuracy": 0,
+            "accepted": 4,
+            "acceptedPrecision": 0,
+            "falseSelections": 4,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 3397.188,
+            "p95Ms": 3768.134
+          }
+        },
+        {
+          "template": "legacy-enriched",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 0,
+            "accuracy": 0,
+            "accepted": 4,
+            "acceptedPrecision": 0,
+            "falseSelections": 4,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 2434.456,
+            "p95Ms": 2871.557
+          }
+        },
+        {
+          "template": "natural-evidence",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 0,
+            "accuracy": 0,
+            "accepted": 4,
+            "acceptedPrecision": 0,
+            "falseSelections": 4,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 2683.144,
+            "p95Ms": 2764.789
+          }
+        },
+        {
+          "template": "scope-first",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 0,
+            "accuracy": 0,
+            "accepted": 4,
+            "acceptedPrecision": 0,
+            "falseSelections": 4,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 2911.779,
+            "p95Ms": 3035.576
+          }
+        }
+      ],
+      "note": "Development-only diagnostic, not selected by fresh holdout or deployed as field-specific routing."
+    },
+    "description": {
+      "winner": "json-evidence",
+      "ranked": [
+        {
+          "template": "json-evidence",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 2,
+            "accuracy": 0.5,
+            "accepted": 3,
+            "acceptedPrecision": 0.3333333333333333,
+            "falseSelections": 2,
+            "correctAbstentions": 1,
+            "errors": 0,
+            "p50Ms": 4385.495,
+            "p95Ms": 6373.291
+          }
+        },
+        {
+          "template": "scope-first",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 1,
+            "accuracy": 0.25,
+            "accepted": 4,
+            "acceptedPrecision": 0.25,
+            "falseSelections": 3,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 4179.041,
+            "p95Ms": 5708.699
+          }
+        },
+        {
+          "template": "contrast-example",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 0,
+            "accuracy": 0,
+            "accepted": 4,
+            "acceptedPrecision": 0,
+            "falseSelections": 4,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 3788.435,
+            "p95Ms": 5552.746
+          }
+        },
+        {
+          "template": "field-rubric",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 0,
+            "accuracy": 0,
+            "accepted": 4,
+            "acceptedPrecision": 0,
+            "falseSelections": 4,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 3749.378,
+            "p95Ms": 7085.884
+          }
+        },
+        {
+          "template": "legacy-enriched",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 0,
+            "accuracy": 0,
+            "accepted": 4,
+            "acceptedPrecision": 0,
+            "falseSelections": 4,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 3554.482,
+            "p95Ms": 6077.234
+          }
+        },
+        {
+          "template": "natural-evidence",
+          "summary": {
+            "attempted": 4,
+            "valid": 4,
+            "correct": 0,
+            "accuracy": 0,
+            "accepted": 4,
+            "acceptedPrecision": 0,
+            "falseSelections": 4,
+            "correctAbstentions": 0,
+            "errors": 0,
+            "p50Ms": 3578.825,
+            "p95Ms": 6342.258
+          }
+        }
+      ],
+      "note": "Development-only diagnostic, not selected by fresh holdout or deployed as field-specific routing."
+    }
+  },
+  "automaticNavigation": false
+}

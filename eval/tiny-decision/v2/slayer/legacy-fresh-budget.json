@@ -1,0 +1,564 @@
+{
+  "sourceSha256": "f79d41d8518519ab7ccc2e70cf28043bcdef9892bf0c9ee1af50e3152c742864",
+  "limit": 2048,
+  "decisions": [
+    {
+      "id": "dandadan-netflix-title",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "dandadan-netflix-title",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 1708,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1710,
+        "withinBudget": true,
+        "promptBytes": 2850,
+        "promptSha256": "cd999729687c88d7ae43a552769bf89b33ad64a27373f77089f242512d800db2"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "dandadan-netflix-title",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 1708,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1710,
+          "withinBudget": true,
+          "promptBytes": 2850,
+          "promptSha256": "cd999729687c88d7ae43a552769bf89b33ad64a27373f77089f242512d800db2"
+        }
+      ]
+    },
+    {
+      "id": "dandadan-netflix-image",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "dandadan-netflix-image",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 2146,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 2148,
+        "withinBudget": false,
+        "promptBytes": 3536,
+        "promptSha256": "57f1d70a254ef71965517e609f1208afd105c9d397f8a9f415e79c54d1f9076b"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "dandadan-netflix-image",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 2146,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2148,
+          "withinBudget": false,
+          "promptBytes": 3536,
+          "promptSha256": "57f1d70a254ef71965517e609f1208afd105c9d397f8a9f415e79c54d1f9076b"
+        }
+      ]
+    },
+    {
+      "id": "dandadan-netflix-description",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "dandadan-netflix-description",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 3077,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 3079,
+        "withinBudget": false,
+        "promptBytes": 4181,
+        "promptSha256": "0c309068cf234fd4ee5dd1ed6610d695573d436c523eac579bee7071c9e030ab"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "dandadan-netflix-description",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 3077,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 3079,
+          "withinBudget": false,
+          "promptBytes": 4181,
+          "promptSha256": "0c309068cf234fd4ee5dd1ed6610d695573d436c523eac579bee7071c9e030ab"
+        }
+      ]
+    },
+    {
+      "id": "spy-family-apple-title",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "spy-family-apple-title",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 1617,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1619,
+        "withinBudget": true,
+        "promptBytes": 2828,
+        "promptSha256": "1490a02333ea0a9839bf7af4c672f7bd45afbe1e377a0414f2bef75e77580373"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "spy-family-apple-title",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 1617,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1619,
+          "withinBudget": true,
+          "promptBytes": 2828,
+          "promptSha256": "1490a02333ea0a9839bf7af4c672f7bd45afbe1e377a0414f2bef75e77580373"
+        }
+      ]
+    },
+    {
+      "id": "spy-family-apple-image",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "spy-family-apple-image",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 1862,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1864,
+        "withinBudget": true,
+        "promptBytes": 3556,
+        "promptSha256": "218e2792caf68d1cd016f75454f3f64819f977885c84d1b31dc99673ae8d1a12"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "spy-family-apple-image",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 1862,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1864,
+          "withinBudget": true,
+          "promptBytes": 3556,
+          "promptSha256": "218e2792caf68d1cd016f75454f3f64819f977885c84d1b31dc99673ae8d1a12"
+        }
+      ]
+    },
+    {
+      "id": "spy-family-apple-description",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "spy-family-apple-description",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 3647,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 3649,
+        "withinBudget": false,
+        "promptBytes": 4890,
+        "promptSha256": "9939eb5ca69c46f5e50f204ca19abbb17c3b28ed791ef0f5217378259373b7d2"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "spy-family-apple-description",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 3647,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 3649,
+          "withinBudget": false,
+          "promptBytes": 4890,
+          "promptSha256": "9939eb5ca69c46f5e50f204ca19abbb17c3b28ed791ef0f5217378259373b7d2"
+        }
+      ]
+    },
+    {
+      "id": "chainsaw-tving-title",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "chainsaw-tving-title",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 996,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 998,
+        "withinBudget": true,
+        "promptBytes": 1745,
+        "promptSha256": "f31c9b7dd60991809e37e61348415c311b63a4a44ed56d3ed6f611086e97c69d"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "chainsaw-tving-title",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 996,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 998,
+          "withinBudget": true,
+          "promptBytes": 1745,
+          "promptSha256": "f31c9b7dd60991809e37e61348415c311b63a4a44ed56d3ed6f611086e97c69d"
+        }
+      ]
+    },
+    {
+      "id": "chainsaw-tving-image",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "chainsaw-tving-image",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 1513,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1515,
+        "withinBudget": true,
+        "promptBytes": 2857,
+        "promptSha256": "db0d0effa316668fe697f10eafbf3e748b449ccb5808af0c1b1e047f408c1b5c"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "chainsaw-tving-image",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 1513,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1515,
+          "withinBudget": true,
+          "promptBytes": 2857,
+          "promptSha256": "db0d0effa316668fe697f10eafbf3e748b449ccb5808af0c1b1e047f408c1b5c"
+        }
+      ]
+    },
+    {
+      "id": "chainsaw-tving-description",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "chainsaw-tving-description",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 4060,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 4062,
+        "withinBudget": false,
+        "promptBytes": 5355,
+        "promptSha256": "4e9b5a1de63d11b5f86dc19bf30af546a7e063fa36943497921e88934251f66f"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "chainsaw-tving-description",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 4060,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 4062,
+          "withinBudget": false,
+          "promptBytes": 5355,
+          "promptSha256": "4e9b5a1de63d11b5f86dc19bf30af546a7e063fa36943497921e88934251f66f"
+        }
+      ]
+    },
+    {
+      "id": "demon-slayer-laftel-title",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "demon-slayer-laftel-title",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 1872,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1874,
+        "withinBudget": true,
+        "promptBytes": 3205,
+        "promptSha256": "2ccd039390d39efb484500248c10d5bab426e7c7c4d022b50f57b0ad591b2978"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "demon-slayer-laftel-title",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 1872,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1874,
+          "withinBudget": true,
+          "promptBytes": 3205,
+          "promptSha256": "2ccd039390d39efb484500248c10d5bab426e7c7c4d022b50f57b0ad591b2978"
+        }
+      ]
+    },
+    {
+      "id": "demon-slayer-laftel-image",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "demon-slayer-laftel-image",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 2002,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 2004,
+        "withinBudget": true,
+        "promptBytes": 3354,
+        "promptSha256": "22ecf7682585c315067d8247964c6a9ef334748f74b9af97e19609305283db9d"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "demon-slayer-laftel-image",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 2002,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2004,
+          "withinBudget": true,
+          "promptBytes": 3354,
+          "promptSha256": "22ecf7682585c315067d8247964c6a9ef334748f74b9af97e19609305283db9d"
+        }
+      ]
+    },
+    {
+      "id": "demon-slayer-laftel-description",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "demon-slayer-laftel-description",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 1610,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1612,
+        "withinBudget": true,
+        "promptBytes": 2297,
+        "promptSha256": "ad20c93f4b4998df028b4323995bf3b7c61464e8bf6088eed3edc7b16c0d3aaf"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "demon-slayer-laftel-description",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 1610,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1612,
+          "withinBudget": true,
+          "promptBytes": 2297,
+          "promptSha256": "ad20c93f4b4998df028b4323995bf3b7c61464e8bf6088eed3edc7b16c0d3aaf"
+        }
+      ]
+    },
+    {
+      "id": "new-search-laftel-title",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "new-search-laftel-title",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 1056,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1058,
+        "withinBudget": true,
+        "promptBytes": 1751,
+        "promptSha256": "8946f8f6b056f9b21ade49e2c5d7dc27723f2f72d96865544f09edaac8f2f84b"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "new-search-laftel-title",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 1056,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1058,
+          "withinBudget": true,
+          "promptBytes": 1751,
+          "promptSha256": "8946f8f6b056f9b21ade49e2c5d7dc27723f2f72d96865544f09edaac8f2f84b"
+        }
+      ]
+    },
+    {
+      "id": "new-search-laftel-image",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "new-search-laftel-image",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 764,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 766,
+        "withinBudget": true,
+        "promptBytes": 1332,
+        "promptSha256": "70b122ddead3926e3332c3a26dc7828323a557c9d0279481c4a827bda6f5d8a2"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "new-search-laftel-image",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 764,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 766,
+          "withinBudget": true,
+          "promptBytes": 1332,
+          "promptSha256": "70b122ddead3926e3332c3a26dc7828323a557c9d0279481c4a827bda6f5d8a2"
+        }
+      ]
+    },
+    {
+      "id": "new-search-laftel-description",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "new-search-laftel-description",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 1064,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1066,
+        "withinBudget": true,
+        "promptBytes": 1614,
+        "promptSha256": "1a4aea98a888a6b1a8ec97aa3cd77ea7e7f31fda7af812a33ea8b7757a4f1cc8"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "new-search-laftel-description",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 1064,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1066,
+          "withinBudget": true,
+          "promptBytes": 1614,
+          "promptSha256": "1a4aea98a888a6b1a8ec97aa3cd77ea7e7f31fda7af812a33ea8b7757a4f1cc8"
+        }
+      ]
+    },
+    {
+      "id": "new-help-netflix-title",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "new-help-netflix-title",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 1671,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1673,
+        "withinBudget": true,
+        "promptBytes": 2737,
+        "promptSha256": "f0faf774065068e47a01aa8c4229d0649af49916cb98ecf6a57992ee291b93e6"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "new-help-netflix-title",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 1671,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1673,
+          "withinBudget": true,
+          "promptBytes": 2737,
+          "promptSha256": "f0faf774065068e47a01aa8c4229d0649af49916cb98ecf6a57992ee291b93e6"
+        }
+      ]
+    },
+    {
+      "id": "new-help-netflix-image",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "new-help-netflix-image",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 1105,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1107,
+        "withinBudget": true,
+        "promptBytes": 2073,
+        "promptSha256": "20f1653c7e86d3fd207904715949952526aa5861191efedc1482f410bef9ee9c"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "new-help-netflix-image",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 1105,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1107,
+          "withinBudget": true,
+          "promptBytes": 2073,
+          "promptSha256": "20f1653c7e86d3fd207904715949952526aa5861191efedc1482f410bef9ee9c"
+        }
+      ]
+    },
+    {
+      "id": "new-help-netflix-description",
+      "template": "korean-structure",
+      "chosenTier": 0,
+      "chosenTextLimit": null,
+      "selected": {
+        "id": "new-help-netflix-description",
+        "template": "korean-structure",
+        "split": "holdout",
+        "promptTokens": 3256,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 3258,
+        "withinBudget": false,
+        "promptBytes": 4635,
+        "promptSha256": "f9209e10c5175bc351847d95782072e1aedec1cf6cda98162c1ed450e040e05d"
+      },
+      "tiers": [
+        {
+          "textLimit": null,
+          "id": "new-help-netflix-description",
+          "template": "korean-structure",
+          "split": "holdout",
+          "promptTokens": 3256,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 3258,
+          "withinBudget": false,
+          "promptBytes": 4635,
+          "promptSha256": "f9209e10c5175bc351847d95782072e1aedec1cf6cda98162c1ed450e040e05d"
+        }
+      ]
+    }
+  ]
+}

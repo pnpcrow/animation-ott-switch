@@ -62,3 +62,41 @@ node scripts/needle3-v2-control.mjs --selection=eval/tiny-decision/v2/needle/rep
 ```
 
 Fresh validation must wait until all models' development selections are locked, so another model's fresh results cannot indirectly influence this round's template design.
+
+## Fresh validation results
+
+The shared global freeze was recorded at `2026-11-13T12:36:11.759Z`. This runner verified the original selected template and both source hashes, then first read fresh data at `2026-11-13T12:36:26.541Z`. All 18 calls finished at `2026-11-13T12:42:07.662Z` without changing templates, decoding settings or native thresholds.
+
+| Selected template, all 18 fresh cases | Positive / 12 | None / 6 | Total / 18 |
+| ------------------------------------- | ------------: | -------: | ---------: |
+| Valid final correct                   |             0 |        0 |          0 |
+| Single observed proposal correct      |             0 |        6 |          6 |
+
+All 18 observed proposals were `absent`; 17 were suppressed by the native engine. The one emitted call was also `absent`, on a positive title case, and was incorrect. Consequently the 6/18 proposal-level matches are only the negative cases and do not demonstrate extraction ability. No concrete work element was emitted. The official gate was retained; suppressed answers were not promoted to correct abstentions.
+
+Fresh p50/p95 latency was 16,262 / 31,285 ms. Maximum input was 1,488 characters / 2,133 bytes across the native argument strings, or 1,519 characters / 2,164 bytes as complete JSON. Every request used the initial 96-character feature tier and fit the 1,800 target. There were no runtime errors, unregistered tool names or external requests. The detailed results, positive/none diagnostics and schema audit are in `reports/holdout.json`, `reports/holdout-summary.json` and `reports/holdout-schema-audit.json`.
+
+These results support declining production use of this tested Needle input/engine combination for work-element selection. They do not establish a universal limit of the model or of all possible templates.
+
+## Matched six-case control
+
+This is a separate paired comparison on six of the fresh cases: the Netflix detail page and Laftel search page, each with title/image/description. The first-positive/first-none policy was declared before fresh inference. It covers two source pages, not all six pages or all 18 decisions. Both arms use exactly the same original candidate options and scoring labels. The control protocol verifies the complete fresh input/label hash against the v2 report.
+
+| Same six fresh cases               | v1 tool-routing |   v2 field-enum |
+| ---------------------------------- | --------------: | --------------: |
+| Final positive correct / 3         |               2 |               0 |
+| Final none correct / 3             |               2 |               0 |
+| Final total correct / 6            |               4 |               0 |
+| Valid final IDs / 6                |               6 |               1 |
+| Wrong concrete choices             |               2 |               0 |
+| Observed proposal positive / 3     |               2 |               0 |
+| Observed proposal none / 3         |               2 |               3 |
+| p50 / p95 ms                       | 19,914 / 65,179 | 12,481 / 16,129 |
+| Maximum native-argument characters |           6,631 |           1,348 |
+| Maximum full JSON characters       |           6,655 |           1,379 |
+
+The shorter new design was faster on these cases but lost accuracy. The unchanged v1 control correctly selected a positive image and description, which also prevents interpreting the v2 result as proof that Needle cannot make any positive DOM choice. Conversely, v1 made two wrong concrete choices among four concrete choices, so this small result is insufficient for automatic navigation. The control's four correct finals were all emitted; no suppressed calls were promoted.
+
+The original v1 template used much longer candidate-tool descriptions: 6,091 maximum tool-JSON characters versus v2's 328 on this subset. Because v2 also clips the observation representation and changes tool shape, this test does not isolate which individual change caused the regression. We did not use fresh outcomes to revise the selected template, serializer, native gate or thresholds.
+
+`reports/v1-matched-control.json` preserves original responses, reconstructed exact requests, the fixed sampling protocol and the same six v2 rows' summary. The compact comparison is also in `reports/v1-matched-control-summary.json`; the exact schema-name audit is in `reports/v1-matched-control-schema-audit.json`.

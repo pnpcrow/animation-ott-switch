@@ -1,0 +1,4830 @@
+{
+  "sourceSha256": "096fad9f38c56703ca270ccbf874e8a973c45ab8e451810c86c8c83d22645d41",
+  "limit": 2048,
+  "decisions": [
+    {
+      "id": "witch-title",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-title",
+        "template": "legacy-enriched",
+        "split": "development",
+        "promptTokens": 954,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 956,
+        "withinBudget": true,
+        "promptBytes": 1960,
+        "promptSha256": "93a782d8f1b9c09d62502997e88141cd9ca0c458ba6aadb4b9ed48e22c0b5b6f"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 954,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 956,
+          "withinBudget": true,
+          "promptBytes": 1960,
+          "promptSha256": "93a782d8f1b9c09d62502997e88141cd9ca0c458ba6aadb4b9ed48e22c0b5b6f"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 954,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 956,
+          "withinBudget": true,
+          "promptBytes": 1960,
+          "promptSha256": "93a782d8f1b9c09d62502997e88141cd9ca0c458ba6aadb4b9ed48e22c0b5b6f"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 954,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 956,
+          "withinBudget": true,
+          "promptBytes": 1960,
+          "promptSha256": "93a782d8f1b9c09d62502997e88141cd9ca0c458ba6aadb4b9ed48e22c0b5b6f"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 941,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 943,
+          "withinBudget": true,
+          "promptBytes": 1947,
+          "promptSha256": "79cd27a2a06ca2739b3246260aac65ab3d77f87dfc62e6b1b4215daa7d1aa1af"
+        }
+      ]
+    },
+    {
+      "id": "witch-image",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-image",
+        "template": "legacy-enriched",
+        "split": "development",
+        "promptTokens": 1108,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1110,
+        "withinBudget": true,
+        "promptBytes": 2245,
+        "promptSha256": "06b7ade6058ece8dc503caf44e110c4feb93f857eff32ca4f9295c1abd5f0e12"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 1108,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1110,
+          "withinBudget": true,
+          "promptBytes": 2245,
+          "promptSha256": "06b7ade6058ece8dc503caf44e110c4feb93f857eff32ca4f9295c1abd5f0e12"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 1108,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1110,
+          "withinBudget": true,
+          "promptBytes": 2245,
+          "promptSha256": "06b7ade6058ece8dc503caf44e110c4feb93f857eff32ca4f9295c1abd5f0e12"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 1108,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1110,
+          "withinBudget": true,
+          "promptBytes": 2238,
+          "promptSha256": "da10daad4435ac9d49418cea84968345432cb0f574eca84645caa525de1ed867"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 1024,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1026,
+          "withinBudget": true,
+          "promptBytes": 2113,
+          "promptSha256": "b4b8df36871bb3725f03e320b14906e735e720b50a4cfe8321d7472ec6c2583a"
+        }
+      ]
+    },
+    {
+      "id": "witch-description",
+      "template": "legacy-enriched",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "witch-description",
+        "template": "legacy-enriched",
+        "split": "development",
+        "promptTokens": 1823,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1825,
+        "withinBudget": true,
+        "promptBytes": 2908,
+        "promptSha256": "3bc23f4fe3de553cbd56ca9957ebc493e5a0b11c37515a7e8b0b7ea00996823d"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 2758,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2760,
+          "withinBudget": false,
+          "promptBytes": 3846,
+          "promptSha256": "4eef4bb87c4fa6b03d44a74c1e62a1a567271b34dea9c55fef030f2aeaa1f1f0"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 2290,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2292,
+          "withinBudget": false,
+          "promptBytes": 3376,
+          "promptSha256": "c600572db6dbfef443ba846adac9b0561012cb0acc237cc783ab523bd913a272"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 1823,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1825,
+          "withinBudget": true,
+          "promptBytes": 2908,
+          "promptSha256": "3bc23f4fe3de553cbd56ca9957ebc493e5a0b11c37515a7e8b0b7ea00996823d"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 1511,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1513,
+          "withinBudget": true,
+          "promptBytes": 2594,
+          "promptSha256": "c340d6da6442069cda9e2189a8fa17b9bd4b067979b3b1e1ed2e5a2dd9a77b99"
+        }
+      ]
+    },
+    {
+      "id": "sakura-title",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "sakura-title",
+        "template": "legacy-enriched",
+        "split": "development",
+        "promptTokens": 849,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 851,
+        "withinBudget": true,
+        "promptBytes": 1898,
+        "promptSha256": "5ab08278eb7d74c3de47ca6cc17b6af68e14961f2a1f069c14c7056d5ba379c8"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 849,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 851,
+          "withinBudget": true,
+          "promptBytes": 1898,
+          "promptSha256": "5ab08278eb7d74c3de47ca6cc17b6af68e14961f2a1f069c14c7056d5ba379c8"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 849,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 851,
+          "withinBudget": true,
+          "promptBytes": 1898,
+          "promptSha256": "5ab08278eb7d74c3de47ca6cc17b6af68e14961f2a1f069c14c7056d5ba379c8"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 849,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 851,
+          "withinBudget": true,
+          "promptBytes": 1898,
+          "promptSha256": "5ab08278eb7d74c3de47ca6cc17b6af68e14961f2a1f069c14c7056d5ba379c8"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 849,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 851,
+          "withinBudget": true,
+          "promptBytes": 1898,
+          "promptSha256": "5ab08278eb7d74c3de47ca6cc17b6af68e14961f2a1f069c14c7056d5ba379c8"
+        }
+      ]
+    },
+    {
+      "id": "sakura-image",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "sakura-image",
+        "template": "legacy-enriched",
+        "split": "development",
+        "promptTokens": 769,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 771,
+        "withinBudget": true,
+        "promptBytes": 1818,
+        "promptSha256": "d0bc0807cb4cfbfd25d3285cc21d04efd5eb507d58b76bad7a6b257935aa1e49"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 769,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 771,
+          "withinBudget": true,
+          "promptBytes": 1818,
+          "promptSha256": "d0bc0807cb4cfbfd25d3285cc21d04efd5eb507d58b76bad7a6b257935aa1e49"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 769,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 771,
+          "withinBudget": true,
+          "promptBytes": 1818,
+          "promptSha256": "d0bc0807cb4cfbfd25d3285cc21d04efd5eb507d58b76bad7a6b257935aa1e49"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 769,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 771,
+          "withinBudget": true,
+          "promptBytes": 1818,
+          "promptSha256": "d0bc0807cb4cfbfd25d3285cc21d04efd5eb507d58b76bad7a6b257935aa1e49"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 718,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 720,
+          "withinBudget": true,
+          "promptBytes": 1737,
+          "promptSha256": "daafe3a7cdd028951d1ff47173a57f1a5c02a1a1693d91f07dbedcce350f9f02"
+        }
+      ]
+    },
+    {
+      "id": "sakura-description",
+      "template": "legacy-enriched",
+      "chosenTier": 1,
+      "chosenTextLimit": 72,
+      "selected": {
+        "id": "sakura-description",
+        "template": "legacy-enriched",
+        "split": "development",
+        "promptTokens": 2026,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 2028,
+        "withinBudget": true,
+        "promptBytes": 3111,
+        "promptSha256": "4475bc212c27ff3274116883025dfd2aa28b478c45463b71c97e39d952e5a6de"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 2438,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2440,
+          "withinBudget": false,
+          "promptBytes": 3525,
+          "promptSha256": "bf4b792487c4045bb5bde77b05bd0c08d9f1e6efcfece5c3f8ba51633788a2bb"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 2026,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2028,
+          "withinBudget": true,
+          "promptBytes": 3111,
+          "promptSha256": "4475bc212c27ff3274116883025dfd2aa28b478c45463b71c97e39d952e5a6de"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 1616,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1618,
+          "withinBudget": true,
+          "promptBytes": 2701,
+          "promptSha256": "6fa6ced012b8acbe88040a739b0cfcb56fc8ba194acc1f272f3b99d141854bf4"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 1341,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1343,
+          "withinBudget": true,
+          "promptBytes": 2424,
+          "promptSha256": "9900721bf43b0ed70fbabd62f05bf51ae6ff231722d68034b7857bc26a50afef"
+        }
+      ]
+    },
+    {
+      "id": "apothecary-description",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "apothecary-description",
+        "template": "legacy-enriched",
+        "split": "development",
+        "promptTokens": 880,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 882,
+        "withinBudget": true,
+        "promptBytes": 1782,
+        "promptSha256": "0bbe9509dda8c7751a80efed79e8fb04889c1e4d94195ed4d93da00c14d702ed"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "apothecary-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 880,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 882,
+          "withinBudget": true,
+          "promptBytes": 1782,
+          "promptSha256": "0bbe9509dda8c7751a80efed79e8fb04889c1e4d94195ed4d93da00c14d702ed"
+        },
+        {
+          "textLimit": 72,
+          "id": "apothecary-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 818,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 820,
+          "withinBudget": true,
+          "promptBytes": 1720,
+          "promptSha256": "c9a731dccd017fccf42e4a9341ceac29a0301884a4d916cc08bb6c265a6d3399"
+        },
+        {
+          "textLimit": 48,
+          "id": "apothecary-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 758,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 760,
+          "withinBudget": true,
+          "promptBytes": 1656,
+          "promptSha256": "386b760caaa098b0f60d0bb759ca72371813b6226f1528fa8894559e9df3df95"
+        },
+        {
+          "textLimit": 32,
+          "id": "apothecary-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 678,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 680,
+          "withinBudget": true,
+          "promptBytes": 1564,
+          "promptSha256": "a06faa833e4f215bed90550d303038b175a5ea72e798f7f9aa398cc5d77fa103"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-title",
+        "template": "legacy-enriched",
+        "split": "development",
+        "promptTokens": 783,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 785,
+        "withinBudget": true,
+        "promptBytes": 1840,
+        "promptSha256": "d1f35bc619baba1488739ba1f6777691b8cab90a18448bbad5b5d5caed2cc2cc"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 783,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 785,
+          "withinBudget": true,
+          "promptBytes": 1840,
+          "promptSha256": "d1f35bc619baba1488739ba1f6777691b8cab90a18448bbad5b5d5caed2cc2cc"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 783,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 785,
+          "withinBudget": true,
+          "promptBytes": 1840,
+          "promptSha256": "d1f35bc619baba1488739ba1f6777691b8cab90a18448bbad5b5d5caed2cc2cc"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 783,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 785,
+          "withinBudget": true,
+          "promptBytes": 1840,
+          "promptSha256": "d1f35bc619baba1488739ba1f6777691b8cab90a18448bbad5b5d5caed2cc2cc"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 783,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 785,
+          "withinBudget": true,
+          "promptBytes": 1840,
+          "promptSha256": "d1f35bc619baba1488739ba1f6777691b8cab90a18448bbad5b5d5caed2cc2cc"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-image",
+        "template": "legacy-enriched",
+        "split": "development",
+        "promptTokens": 630,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 632,
+        "withinBudget": true,
+        "promptBytes": 1729,
+        "promptSha256": "afdc2de04cd092b2d35e1eeba21da71fd2d1158c6995a5441c26d9f643a9b0d9"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 630,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 632,
+          "withinBudget": true,
+          "promptBytes": 1729,
+          "promptSha256": "afdc2de04cd092b2d35e1eeba21da71fd2d1158c6995a5441c26d9f643a9b0d9"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 630,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 632,
+          "withinBudget": true,
+          "promptBytes": 1729,
+          "promptSha256": "afdc2de04cd092b2d35e1eeba21da71fd2d1158c6995a5441c26d9f643a9b0d9"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 630,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 632,
+          "withinBudget": true,
+          "promptBytes": 1729,
+          "promptSha256": "afdc2de04cd092b2d35e1eeba21da71fd2d1158c6995a5441c26d9f643a9b0d9"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 626,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 628,
+          "withinBudget": true,
+          "promptBytes": 1724,
+          "promptSha256": "f4447fe753a46f4bdb0fee2448caf62e2e62590e5876744f85a16de5a583bfa1"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-description",
+        "template": "legacy-enriched",
+        "split": "development",
+        "promptTokens": 1065,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1067,
+        "withinBudget": true,
+        "promptBytes": 2059,
+        "promptSha256": "f0056c337beda2668adfaa69d208705ef856c4dee74ab50791c7af3339256284"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 1065,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1067,
+          "withinBudget": true,
+          "promptBytes": 2059,
+          "promptSha256": "f0056c337beda2668adfaa69d208705ef856c4dee74ab50791c7af3339256284"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 1065,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1067,
+          "withinBudget": true,
+          "promptBytes": 2059,
+          "promptSha256": "f0056c337beda2668adfaa69d208705ef856c4dee74ab50791c7af3339256284"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 1065,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1067,
+          "withinBudget": true,
+          "promptBytes": 2059,
+          "promptSha256": "f0056c337beda2668adfaa69d208705ef856c4dee74ab50791c7af3339256284"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-description",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 983,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 985,
+          "withinBudget": true,
+          "promptBytes": 1972,
+          "promptSha256": "cd0c1bc287a464798fb3f0eb022848fc7de4cba548b3fc417321ce60251967a4"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dungeon-watcha-search-title",
+        "template": "legacy-enriched",
+        "split": "development",
+        "promptTokens": 324,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 326,
+        "withinBudget": true,
+        "promptBytes": 1114,
+        "promptSha256": "79b63fb4a46fcfe57df89e59570692149ff35e9e23f0f11a0663a2527d1fa8a8"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dungeon-watcha-search-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 324,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 326,
+          "withinBudget": true,
+          "promptBytes": 1114,
+          "promptSha256": "79b63fb4a46fcfe57df89e59570692149ff35e9e23f0f11a0663a2527d1fa8a8"
+        },
+        {
+          "textLimit": 72,
+          "id": "dungeon-watcha-search-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 324,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 326,
+          "withinBudget": true,
+          "promptBytes": 1114,
+          "promptSha256": "79b63fb4a46fcfe57df89e59570692149ff35e9e23f0f11a0663a2527d1fa8a8"
+        },
+        {
+          "textLimit": 48,
+          "id": "dungeon-watcha-search-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 324,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 326,
+          "withinBudget": true,
+          "promptBytes": 1114,
+          "promptSha256": "79b63fb4a46fcfe57df89e59570692149ff35e9e23f0f11a0663a2527d1fa8a8"
+        },
+        {
+          "textLimit": 32,
+          "id": "dungeon-watcha-search-title",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 318,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 320,
+          "withinBudget": true,
+          "promptBytes": 1108,
+          "promptSha256": "6569efa6edca066b4614e4ca24d9a207dbcf623f39ef46dde1c60d67d1425f97"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "template": "legacy-enriched",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dungeon-watcha-search-image",
+        "template": "legacy-enriched",
+        "split": "development",
+        "promptTokens": 242,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 244,
+        "withinBudget": true,
+        "promptBytes": 1009,
+        "promptSha256": "7e3eeec0d3e0e3b9636cc995c88e1f297560d6cd33d432461155e9cbc26e984e"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dungeon-watcha-search-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 242,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 244,
+          "withinBudget": true,
+          "promptBytes": 1009,
+          "promptSha256": "7e3eeec0d3e0e3b9636cc995c88e1f297560d6cd33d432461155e9cbc26e984e"
+        },
+        {
+          "textLimit": 72,
+          "id": "dungeon-watcha-search-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 242,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 244,
+          "withinBudget": true,
+          "promptBytes": 1009,
+          "promptSha256": "7e3eeec0d3e0e3b9636cc995c88e1f297560d6cd33d432461155e9cbc26e984e"
+        },
+        {
+          "textLimit": 48,
+          "id": "dungeon-watcha-search-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 242,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 244,
+          "withinBudget": true,
+          "promptBytes": 1009,
+          "promptSha256": "7e3eeec0d3e0e3b9636cc995c88e1f297560d6cd33d432461155e9cbc26e984e"
+        },
+        {
+          "textLimit": 32,
+          "id": "dungeon-watcha-search-image",
+          "template": "legacy-enriched",
+          "split": "development",
+          "promptTokens": 242,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 244,
+          "withinBudget": true,
+          "promptBytes": 1009,
+          "promptSha256": "7e3eeec0d3e0e3b9636cc995c88e1f297560d6cd33d432461155e9cbc26e984e"
+        }
+      ]
+    },
+    {
+      "id": "witch-title",
+      "template": "field-rubric",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-title",
+        "template": "field-rubric",
+        "split": "development",
+        "promptTokens": 945,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 947,
+        "withinBudget": true,
+        "promptBytes": 1879,
+        "promptSha256": "676db9cc961b3705cb5c9c05d2973aa84e6ba1bc149481cf569507ae3279ea7e"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 945,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 947,
+          "withinBudget": true,
+          "promptBytes": 1879,
+          "promptSha256": "676db9cc961b3705cb5c9c05d2973aa84e6ba1bc149481cf569507ae3279ea7e"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 945,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 947,
+          "withinBudget": true,
+          "promptBytes": 1879,
+          "promptSha256": "676db9cc961b3705cb5c9c05d2973aa84e6ba1bc149481cf569507ae3279ea7e"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 945,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 947,
+          "withinBudget": true,
+          "promptBytes": 1879,
+          "promptSha256": "676db9cc961b3705cb5c9c05d2973aa84e6ba1bc149481cf569507ae3279ea7e"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 932,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 934,
+          "withinBudget": true,
+          "promptBytes": 1866,
+          "promptSha256": "5827c59d26db4b3a7f1843e857c53bebf1c9ef03ea80bb430cfdaa4fcbe9e23c"
+        }
+      ]
+    },
+    {
+      "id": "witch-image",
+      "template": "field-rubric",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-image",
+        "template": "field-rubric",
+        "split": "development",
+        "promptTokens": 1101,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1103,
+        "withinBudget": true,
+        "promptBytes": 2148,
+        "promptSha256": "34b00b7110cc464e33129079647d661d8b45068241378b8885dd73f030d8b617"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 1101,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1103,
+          "withinBudget": true,
+          "promptBytes": 2148,
+          "promptSha256": "34b00b7110cc464e33129079647d661d8b45068241378b8885dd73f030d8b617"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 1101,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1103,
+          "withinBudget": true,
+          "promptBytes": 2148,
+          "promptSha256": "34b00b7110cc464e33129079647d661d8b45068241378b8885dd73f030d8b617"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 1101,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1103,
+          "withinBudget": true,
+          "promptBytes": 2141,
+          "promptSha256": "69148710376c9279087e1d9ba02cfbaf613070ad8022a7e6b723b6a8aef6dc08"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 1017,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1019,
+          "withinBudget": true,
+          "promptBytes": 2016,
+          "promptSha256": "c410e2affa6ad791a3a95bc795122be2ffaa9c75888739564717aa15843e8493"
+        }
+      ]
+    },
+    {
+      "id": "witch-description",
+      "template": "field-rubric",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "witch-description",
+        "template": "field-rubric",
+        "split": "development",
+        "promptTokens": 1815,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1817,
+        "withinBudget": true,
+        "promptBytes": 2826,
+        "promptSha256": "5a82199a4d9fec63c7ae28b32da5fb816518eb055719dbe1b61415dec9b85d2f"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 2750,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2752,
+          "withinBudget": false,
+          "promptBytes": 3764,
+          "promptSha256": "2d85df1265137047424134322e614ffe82742ae47443b9926aaf31ad85a92a2d"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 2282,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2284,
+          "withinBudget": false,
+          "promptBytes": 3294,
+          "promptSha256": "a19df35b1e458a3133b002b28b01fecac95b48c036032a3d30b7973688789d0b"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 1815,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1817,
+          "withinBudget": true,
+          "promptBytes": 2826,
+          "promptSha256": "5a82199a4d9fec63c7ae28b32da5fb816518eb055719dbe1b61415dec9b85d2f"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 1503,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1505,
+          "withinBudget": true,
+          "promptBytes": 2512,
+          "promptSha256": "f5e1e4641931043539477c0a5b7ae533f425647efc6b66c0b568ad4a37862999"
+        }
+      ]
+    },
+    {
+      "id": "sakura-title",
+      "template": "field-rubric",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "sakura-title",
+        "template": "field-rubric",
+        "split": "development",
+        "promptTokens": 840,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 842,
+        "withinBudget": true,
+        "promptBytes": 1817,
+        "promptSha256": "4dae2a6f437ca830a5736aa1e52e1b9eee102e962097ec2b8576c516f585f775"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 840,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 842,
+          "withinBudget": true,
+          "promptBytes": 1817,
+          "promptSha256": "4dae2a6f437ca830a5736aa1e52e1b9eee102e962097ec2b8576c516f585f775"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 840,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 842,
+          "withinBudget": true,
+          "promptBytes": 1817,
+          "promptSha256": "4dae2a6f437ca830a5736aa1e52e1b9eee102e962097ec2b8576c516f585f775"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 840,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 842,
+          "withinBudget": true,
+          "promptBytes": 1817,
+          "promptSha256": "4dae2a6f437ca830a5736aa1e52e1b9eee102e962097ec2b8576c516f585f775"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 840,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 842,
+          "withinBudget": true,
+          "promptBytes": 1817,
+          "promptSha256": "4dae2a6f437ca830a5736aa1e52e1b9eee102e962097ec2b8576c516f585f775"
+        }
+      ]
+    },
+    {
+      "id": "sakura-image",
+      "template": "field-rubric",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "sakura-image",
+        "template": "field-rubric",
+        "split": "development",
+        "promptTokens": 762,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 764,
+        "withinBudget": true,
+        "promptBytes": 1721,
+        "promptSha256": "2fe720e71711b526604fbc6dc0c17febcd704c63c281151c21eadfe983d3e3a7"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 762,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 764,
+          "withinBudget": true,
+          "promptBytes": 1721,
+          "promptSha256": "2fe720e71711b526604fbc6dc0c17febcd704c63c281151c21eadfe983d3e3a7"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 762,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 764,
+          "withinBudget": true,
+          "promptBytes": 1721,
+          "promptSha256": "2fe720e71711b526604fbc6dc0c17febcd704c63c281151c21eadfe983d3e3a7"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 762,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 764,
+          "withinBudget": true,
+          "promptBytes": 1721,
+          "promptSha256": "2fe720e71711b526604fbc6dc0c17febcd704c63c281151c21eadfe983d3e3a7"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 711,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 713,
+          "withinBudget": true,
+          "promptBytes": 1640,
+          "promptSha256": "558e743e5a103808e80e077a265854b937b495d9fb4d6d4c91bc2f3d2548107a"
+        }
+      ]
+    },
+    {
+      "id": "sakura-description",
+      "template": "field-rubric",
+      "chosenTier": 1,
+      "chosenTextLimit": 72,
+      "selected": {
+        "id": "sakura-description",
+        "template": "field-rubric",
+        "split": "development",
+        "promptTokens": 2018,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 2020,
+        "withinBudget": true,
+        "promptBytes": 3029,
+        "promptSha256": "ecab60cd47fdb441c8d9671ad24f11a1ef56f26308db16109d5a1eb2e9711640"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 2430,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2432,
+          "withinBudget": false,
+          "promptBytes": 3443,
+          "promptSha256": "86b49003e41767c898deced608c4b64a678dd529ed3efb96f51b739288302945"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 2018,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2020,
+          "withinBudget": true,
+          "promptBytes": 3029,
+          "promptSha256": "ecab60cd47fdb441c8d9671ad24f11a1ef56f26308db16109d5a1eb2e9711640"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 1608,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1610,
+          "withinBudget": true,
+          "promptBytes": 2619,
+          "promptSha256": "52fb008af1d0ea1f8baa78b39f23dd9eeed5eb52377644486834fdf9cb3767fc"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 1333,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1335,
+          "withinBudget": true,
+          "promptBytes": 2342,
+          "promptSha256": "39da81dc328233d1ce90ac4c69c89eb6fc1a7ab12e06f560f393d5f2fb3999ae"
+        }
+      ]
+    },
+    {
+      "id": "apothecary-description",
+      "template": "field-rubric",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "apothecary-description",
+        "template": "field-rubric",
+        "split": "development",
+        "promptTokens": 872,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 874,
+        "withinBudget": true,
+        "promptBytes": 1700,
+        "promptSha256": "0f2b5da54b00a2cbc4ca6a5cdaa9280081c423405ceaa1dc1ef16c49ddc0b1d2"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "apothecary-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 872,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 874,
+          "withinBudget": true,
+          "promptBytes": 1700,
+          "promptSha256": "0f2b5da54b00a2cbc4ca6a5cdaa9280081c423405ceaa1dc1ef16c49ddc0b1d2"
+        },
+        {
+          "textLimit": 72,
+          "id": "apothecary-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 810,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 812,
+          "withinBudget": true,
+          "promptBytes": 1638,
+          "promptSha256": "e7106c57f204a136e16481df6e56df2c6a54bb8900a66d8128337cd08cbf2c5b"
+        },
+        {
+          "textLimit": 48,
+          "id": "apothecary-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 750,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 752,
+          "withinBudget": true,
+          "promptBytes": 1574,
+          "promptSha256": "585aa57598ab00cbb0cd9f0a8f142d31eb748e4b305ae860013de1c5bef77baf"
+        },
+        {
+          "textLimit": 32,
+          "id": "apothecary-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 670,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 672,
+          "withinBudget": true,
+          "promptBytes": 1482,
+          "promptSha256": "04f4ef9ffe5c412233ab98a22bbf1f7ef98b48ccfbb337397ffe7e9cce09cd72"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "template": "field-rubric",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-title",
+        "template": "field-rubric",
+        "split": "development",
+        "promptTokens": 774,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 776,
+        "withinBudget": true,
+        "promptBytes": 1759,
+        "promptSha256": "b7cacd5b008d45cffef897802dfc7bbcea2cfd782abd7df49326e52e91b81ea5"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 774,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 776,
+          "withinBudget": true,
+          "promptBytes": 1759,
+          "promptSha256": "b7cacd5b008d45cffef897802dfc7bbcea2cfd782abd7df49326e52e91b81ea5"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 774,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 776,
+          "withinBudget": true,
+          "promptBytes": 1759,
+          "promptSha256": "b7cacd5b008d45cffef897802dfc7bbcea2cfd782abd7df49326e52e91b81ea5"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 774,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 776,
+          "withinBudget": true,
+          "promptBytes": 1759,
+          "promptSha256": "b7cacd5b008d45cffef897802dfc7bbcea2cfd782abd7df49326e52e91b81ea5"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 774,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 776,
+          "withinBudget": true,
+          "promptBytes": 1759,
+          "promptSha256": "b7cacd5b008d45cffef897802dfc7bbcea2cfd782abd7df49326e52e91b81ea5"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "template": "field-rubric",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-image",
+        "template": "field-rubric",
+        "split": "development",
+        "promptTokens": 623,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 625,
+        "withinBudget": true,
+        "promptBytes": 1632,
+        "promptSha256": "7159e951cd1e17b4da87f78e0c77402d29316dd7c85ebd335dbf2ff502fe2e52"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 623,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 625,
+          "withinBudget": true,
+          "promptBytes": 1632,
+          "promptSha256": "7159e951cd1e17b4da87f78e0c77402d29316dd7c85ebd335dbf2ff502fe2e52"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 623,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 625,
+          "withinBudget": true,
+          "promptBytes": 1632,
+          "promptSha256": "7159e951cd1e17b4da87f78e0c77402d29316dd7c85ebd335dbf2ff502fe2e52"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 623,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 625,
+          "withinBudget": true,
+          "promptBytes": 1632,
+          "promptSha256": "7159e951cd1e17b4da87f78e0c77402d29316dd7c85ebd335dbf2ff502fe2e52"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 619,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 621,
+          "withinBudget": true,
+          "promptBytes": 1627,
+          "promptSha256": "02f21e04950819ae953ca98c644b9ba941094c67acad1ae478756874c1631c19"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "template": "field-rubric",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-description",
+        "template": "field-rubric",
+        "split": "development",
+        "promptTokens": 1057,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1059,
+        "withinBudget": true,
+        "promptBytes": 1977,
+        "promptSha256": "8c0ecb1679cbd0b13d879d90d2aa450477348822f59094c0256ff8c9d01a4b8a"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 1057,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1059,
+          "withinBudget": true,
+          "promptBytes": 1977,
+          "promptSha256": "8c0ecb1679cbd0b13d879d90d2aa450477348822f59094c0256ff8c9d01a4b8a"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 1057,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1059,
+          "withinBudget": true,
+          "promptBytes": 1977,
+          "promptSha256": "8c0ecb1679cbd0b13d879d90d2aa450477348822f59094c0256ff8c9d01a4b8a"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 1057,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1059,
+          "withinBudget": true,
+          "promptBytes": 1977,
+          "promptSha256": "8c0ecb1679cbd0b13d879d90d2aa450477348822f59094c0256ff8c9d01a4b8a"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-description",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 975,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 977,
+          "withinBudget": true,
+          "promptBytes": 1890,
+          "promptSha256": "6cbca6158cbe463af2b0cc476c19a958202fcc129c2566478925772b0035da1e"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "template": "field-rubric",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dungeon-watcha-search-title",
+        "template": "field-rubric",
+        "split": "development",
+        "promptTokens": 315,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 317,
+        "withinBudget": true,
+        "promptBytes": 1033,
+        "promptSha256": "b2b7f48f2e1b76106956b65603a77c309bc6befcfc2bba1ffc21aa664e409c5b"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dungeon-watcha-search-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 315,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 317,
+          "withinBudget": true,
+          "promptBytes": 1033,
+          "promptSha256": "b2b7f48f2e1b76106956b65603a77c309bc6befcfc2bba1ffc21aa664e409c5b"
+        },
+        {
+          "textLimit": 72,
+          "id": "dungeon-watcha-search-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 315,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 317,
+          "withinBudget": true,
+          "promptBytes": 1033,
+          "promptSha256": "b2b7f48f2e1b76106956b65603a77c309bc6befcfc2bba1ffc21aa664e409c5b"
+        },
+        {
+          "textLimit": 48,
+          "id": "dungeon-watcha-search-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 315,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 317,
+          "withinBudget": true,
+          "promptBytes": 1033,
+          "promptSha256": "b2b7f48f2e1b76106956b65603a77c309bc6befcfc2bba1ffc21aa664e409c5b"
+        },
+        {
+          "textLimit": 32,
+          "id": "dungeon-watcha-search-title",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 309,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 311,
+          "withinBudget": true,
+          "promptBytes": 1027,
+          "promptSha256": "df55724f28e891e1b1cd6a0e8db7858088f4d4e36272df1cfba7c5277d3eafa4"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "template": "field-rubric",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dungeon-watcha-search-image",
+        "template": "field-rubric",
+        "split": "development",
+        "promptTokens": 235,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 237,
+        "withinBudget": true,
+        "promptBytes": 912,
+        "promptSha256": "82428c33d34497ae0004fde12099d2ba136ec159dbbc946dbce01302d072e3d9"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dungeon-watcha-search-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 235,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 237,
+          "withinBudget": true,
+          "promptBytes": 912,
+          "promptSha256": "82428c33d34497ae0004fde12099d2ba136ec159dbbc946dbce01302d072e3d9"
+        },
+        {
+          "textLimit": 72,
+          "id": "dungeon-watcha-search-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 235,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 237,
+          "withinBudget": true,
+          "promptBytes": 912,
+          "promptSha256": "82428c33d34497ae0004fde12099d2ba136ec159dbbc946dbce01302d072e3d9"
+        },
+        {
+          "textLimit": 48,
+          "id": "dungeon-watcha-search-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 235,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 237,
+          "withinBudget": true,
+          "promptBytes": 912,
+          "promptSha256": "82428c33d34497ae0004fde12099d2ba136ec159dbbc946dbce01302d072e3d9"
+        },
+        {
+          "textLimit": 32,
+          "id": "dungeon-watcha-search-image",
+          "template": "field-rubric",
+          "split": "development",
+          "promptTokens": 235,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 237,
+          "withinBudget": true,
+          "promptBytes": 912,
+          "promptSha256": "82428c33d34497ae0004fde12099d2ba136ec159dbbc946dbce01302d072e3d9"
+        }
+      ]
+    },
+    {
+      "id": "witch-title",
+      "template": "contrast-example",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-title",
+        "template": "contrast-example",
+        "split": "development",
+        "promptTokens": 1005,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1007,
+        "withinBudget": true,
+        "promptBytes": 2106,
+        "promptSha256": "0059f0936d70e84b5cfd491d6fefa4c6618c4414e975ea12f6be0fba356dc88e"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1005,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1007,
+          "withinBudget": true,
+          "promptBytes": 2106,
+          "promptSha256": "0059f0936d70e84b5cfd491d6fefa4c6618c4414e975ea12f6be0fba356dc88e"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1005,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1007,
+          "withinBudget": true,
+          "promptBytes": 2106,
+          "promptSha256": "0059f0936d70e84b5cfd491d6fefa4c6618c4414e975ea12f6be0fba356dc88e"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1005,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1007,
+          "withinBudget": true,
+          "promptBytes": 2106,
+          "promptSha256": "0059f0936d70e84b5cfd491d6fefa4c6618c4414e975ea12f6be0fba356dc88e"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 992,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 994,
+          "withinBudget": true,
+          "promptBytes": 2093,
+          "promptSha256": "d36dc6e4c16975a3c5b37cfbe0d8c42fcba5bfbe41afdab66b212c4e72e9eb21"
+        }
+      ]
+    },
+    {
+      "id": "witch-image",
+      "template": "contrast-example",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-image",
+        "template": "contrast-example",
+        "split": "development",
+        "promptTokens": 1166,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1168,
+        "withinBudget": true,
+        "promptBytes": 2401,
+        "promptSha256": "0f17fc5c9db51367ddb8e6b1078a62b73a22a521c84b24327493aab032e6ab2e"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1166,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1168,
+          "withinBudget": true,
+          "promptBytes": 2401,
+          "promptSha256": "0f17fc5c9db51367ddb8e6b1078a62b73a22a521c84b24327493aab032e6ab2e"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1166,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1168,
+          "withinBudget": true,
+          "promptBytes": 2401,
+          "promptSha256": "0f17fc5c9db51367ddb8e6b1078a62b73a22a521c84b24327493aab032e6ab2e"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1166,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1168,
+          "withinBudget": true,
+          "promptBytes": 2394,
+          "promptSha256": "7328e01819c23cf2e41c1d558c24abb71725d7b9b42a720977de6942489e37c7"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1082,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1084,
+          "withinBudget": true,
+          "promptBytes": 2269,
+          "promptSha256": "0a8f1a9d60579beef32778e490293d825126750aa7cda08ee404abfe7f18f318"
+        }
+      ]
+    },
+    {
+      "id": "witch-description",
+      "template": "contrast-example",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "witch-description",
+        "template": "contrast-example",
+        "split": "development",
+        "promptTokens": 1876,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1878,
+        "withinBudget": true,
+        "promptBytes": 3070,
+        "promptSha256": "28a48177e63cb9833ec7889d9b51cebf5e0d96e98c7db1f9eb6188462dec99b7"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 2811,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2813,
+          "withinBudget": false,
+          "promptBytes": 4008,
+          "promptSha256": "c08c233db01c8e27cc9dca1d4e44a7b493caf84199bbda9bf6201f5975fa4efc"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 2343,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2345,
+          "withinBudget": false,
+          "promptBytes": 3538,
+          "promptSha256": "4c9e206b945b2ebba8e7dfb0bb129b2d10c606d19eb0c1ddbe7a5c9cd84472d1"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1876,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1878,
+          "withinBudget": true,
+          "promptBytes": 3070,
+          "promptSha256": "28a48177e63cb9833ec7889d9b51cebf5e0d96e98c7db1f9eb6188462dec99b7"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1564,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1566,
+          "withinBudget": true,
+          "promptBytes": 2756,
+          "promptSha256": "c468d10e248a3573e60a5d7d9ff0a420c9e39f1c7a24d2eb549883feeb94ed34"
+        }
+      ]
+    },
+    {
+      "id": "sakura-title",
+      "template": "contrast-example",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "sakura-title",
+        "template": "contrast-example",
+        "split": "development",
+        "promptTokens": 900,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 902,
+        "withinBudget": true,
+        "promptBytes": 2044,
+        "promptSha256": "601d8f1208b9c329665a69947991495ac6411a56c070223fec0e67b3d5373eb4"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 900,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 902,
+          "withinBudget": true,
+          "promptBytes": 2044,
+          "promptSha256": "601d8f1208b9c329665a69947991495ac6411a56c070223fec0e67b3d5373eb4"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 900,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 902,
+          "withinBudget": true,
+          "promptBytes": 2044,
+          "promptSha256": "601d8f1208b9c329665a69947991495ac6411a56c070223fec0e67b3d5373eb4"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 900,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 902,
+          "withinBudget": true,
+          "promptBytes": 2044,
+          "promptSha256": "601d8f1208b9c329665a69947991495ac6411a56c070223fec0e67b3d5373eb4"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 900,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 902,
+          "withinBudget": true,
+          "promptBytes": 2044,
+          "promptSha256": "601d8f1208b9c329665a69947991495ac6411a56c070223fec0e67b3d5373eb4"
+        }
+      ]
+    },
+    {
+      "id": "sakura-image",
+      "template": "contrast-example",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "sakura-image",
+        "template": "contrast-example",
+        "split": "development",
+        "promptTokens": 827,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 829,
+        "withinBudget": true,
+        "promptBytes": 1974,
+        "promptSha256": "a27586e67384a414fcd79cd52f9a3e00235af333537c73c45f13d8dd2287986c"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 827,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 829,
+          "withinBudget": true,
+          "promptBytes": 1974,
+          "promptSha256": "a27586e67384a414fcd79cd52f9a3e00235af333537c73c45f13d8dd2287986c"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 827,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 829,
+          "withinBudget": true,
+          "promptBytes": 1974,
+          "promptSha256": "a27586e67384a414fcd79cd52f9a3e00235af333537c73c45f13d8dd2287986c"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 827,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 829,
+          "withinBudget": true,
+          "promptBytes": 1974,
+          "promptSha256": "a27586e67384a414fcd79cd52f9a3e00235af333537c73c45f13d8dd2287986c"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 776,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 778,
+          "withinBudget": true,
+          "promptBytes": 1893,
+          "promptSha256": "aed75b81d2469b0ebdcbf13e5cf1e0a538c1c6938e07f2e7c50c4f420f0c6938"
+        }
+      ]
+    },
+    {
+      "id": "sakura-description",
+      "template": "contrast-example",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "sakura-description",
+        "template": "contrast-example",
+        "split": "development",
+        "promptTokens": 1669,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1671,
+        "withinBudget": true,
+        "promptBytes": 2863,
+        "promptSha256": "fe5d93436c9c62e8402d8a8cf0549c0c4fd16ecc8a7eae41fd516664196ccd82"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 2491,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2493,
+          "withinBudget": false,
+          "promptBytes": 3687,
+          "promptSha256": "b5de2b2b401f53baf6250ed16e18faa6e68c2dbb05620c3649eaa8fcc586f054"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 2079,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2081,
+          "withinBudget": false,
+          "promptBytes": 3273,
+          "promptSha256": "46caa36c1607f0b842a32ded1f6357f20afea4550ff4b898248e04bcee546baf"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1669,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1671,
+          "withinBudget": true,
+          "promptBytes": 2863,
+          "promptSha256": "fe5d93436c9c62e8402d8a8cf0549c0c4fd16ecc8a7eae41fd516664196ccd82"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1394,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1396,
+          "withinBudget": true,
+          "promptBytes": 2586,
+          "promptSha256": "f6d9ac9cc6cf6b0b91247f5f4544fcda25416e94ecde97fb3b1c5b914ea69a2a"
+        }
+      ]
+    },
+    {
+      "id": "apothecary-description",
+      "template": "contrast-example",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "apothecary-description",
+        "template": "contrast-example",
+        "split": "development",
+        "promptTokens": 933,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 935,
+        "withinBudget": true,
+        "promptBytes": 1944,
+        "promptSha256": "3babb1ae6b1444a38e1ba10146e985d793e3ab0f990392e16d8e45db1f84200f"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "apothecary-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 933,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 935,
+          "withinBudget": true,
+          "promptBytes": 1944,
+          "promptSha256": "3babb1ae6b1444a38e1ba10146e985d793e3ab0f990392e16d8e45db1f84200f"
+        },
+        {
+          "textLimit": 72,
+          "id": "apothecary-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 871,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 873,
+          "withinBudget": true,
+          "promptBytes": 1882,
+          "promptSha256": "6ad89781e6a9308e0a8a77affe6a97e9d8d7353ee5dbfe0fe189caf43374ac66"
+        },
+        {
+          "textLimit": 48,
+          "id": "apothecary-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 811,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 813,
+          "withinBudget": true,
+          "promptBytes": 1818,
+          "promptSha256": "1abede76ff5137dd279fe6b3f3dc302551dcb7d06d3cfec4869834a1fe673625"
+        },
+        {
+          "textLimit": 32,
+          "id": "apothecary-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 731,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 733,
+          "withinBudget": true,
+          "promptBytes": 1726,
+          "promptSha256": "d32d99339041f53807df647d6fb590170cee4ef10fb489673bb7ee1f3b7f5fef"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "template": "contrast-example",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-title",
+        "template": "contrast-example",
+        "split": "development",
+        "promptTokens": 834,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 836,
+        "withinBudget": true,
+        "promptBytes": 1986,
+        "promptSha256": "935ae30f7690679efb427e1738c6fa7c920e49be80b2af935229292bb8f68763"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 834,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 836,
+          "withinBudget": true,
+          "promptBytes": 1986,
+          "promptSha256": "935ae30f7690679efb427e1738c6fa7c920e49be80b2af935229292bb8f68763"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 834,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 836,
+          "withinBudget": true,
+          "promptBytes": 1986,
+          "promptSha256": "935ae30f7690679efb427e1738c6fa7c920e49be80b2af935229292bb8f68763"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 834,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 836,
+          "withinBudget": true,
+          "promptBytes": 1986,
+          "promptSha256": "935ae30f7690679efb427e1738c6fa7c920e49be80b2af935229292bb8f68763"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 834,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 836,
+          "withinBudget": true,
+          "promptBytes": 1986,
+          "promptSha256": "935ae30f7690679efb427e1738c6fa7c920e49be80b2af935229292bb8f68763"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "template": "contrast-example",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-image",
+        "template": "contrast-example",
+        "split": "development",
+        "promptTokens": 688,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 690,
+        "withinBudget": true,
+        "promptBytes": 1885,
+        "promptSha256": "e722fd32907a73cf451328a25a7228e89d09c5a646773ce57972302273ee5a25"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 688,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 690,
+          "withinBudget": true,
+          "promptBytes": 1885,
+          "promptSha256": "e722fd32907a73cf451328a25a7228e89d09c5a646773ce57972302273ee5a25"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 688,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 690,
+          "withinBudget": true,
+          "promptBytes": 1885,
+          "promptSha256": "e722fd32907a73cf451328a25a7228e89d09c5a646773ce57972302273ee5a25"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 688,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 690,
+          "withinBudget": true,
+          "promptBytes": 1885,
+          "promptSha256": "e722fd32907a73cf451328a25a7228e89d09c5a646773ce57972302273ee5a25"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 684,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 686,
+          "withinBudget": true,
+          "promptBytes": 1880,
+          "promptSha256": "670fd93b07fd8c0abf13828f49f2f437dbddac72aa7bdec30efe42348e1d8a84"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "template": "contrast-example",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-description",
+        "template": "contrast-example",
+        "split": "development",
+        "promptTokens": 1118,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1120,
+        "withinBudget": true,
+        "promptBytes": 2221,
+        "promptSha256": "b7ea8f3284bf6405f2a40f70ebf4de41981a2b1cdd1be90fd9747b8ceb6d0369"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1118,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1120,
+          "withinBudget": true,
+          "promptBytes": 2221,
+          "promptSha256": "b7ea8f3284bf6405f2a40f70ebf4de41981a2b1cdd1be90fd9747b8ceb6d0369"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1118,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1120,
+          "withinBudget": true,
+          "promptBytes": 2221,
+          "promptSha256": "b7ea8f3284bf6405f2a40f70ebf4de41981a2b1cdd1be90fd9747b8ceb6d0369"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1118,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1120,
+          "withinBudget": true,
+          "promptBytes": 2221,
+          "promptSha256": "b7ea8f3284bf6405f2a40f70ebf4de41981a2b1cdd1be90fd9747b8ceb6d0369"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-description",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 1036,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1038,
+          "withinBudget": true,
+          "promptBytes": 2134,
+          "promptSha256": "b4680bcaf0f472cedd6fbefb6bc2ef0b0c2cfc8963a30dd6cd8fa7c6d1f3082a"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "template": "contrast-example",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dungeon-watcha-search-title",
+        "template": "contrast-example",
+        "split": "development",
+        "promptTokens": 375,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 377,
+        "withinBudget": true,
+        "promptBytes": 1260,
+        "promptSha256": "3dc8d0d3433a516ac5893ac99e9795cc30d1d3649a452d76d487931dd1786d5e"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dungeon-watcha-search-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 375,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 377,
+          "withinBudget": true,
+          "promptBytes": 1260,
+          "promptSha256": "3dc8d0d3433a516ac5893ac99e9795cc30d1d3649a452d76d487931dd1786d5e"
+        },
+        {
+          "textLimit": 72,
+          "id": "dungeon-watcha-search-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 375,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 377,
+          "withinBudget": true,
+          "promptBytes": 1260,
+          "promptSha256": "3dc8d0d3433a516ac5893ac99e9795cc30d1d3649a452d76d487931dd1786d5e"
+        },
+        {
+          "textLimit": 48,
+          "id": "dungeon-watcha-search-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 375,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 377,
+          "withinBudget": true,
+          "promptBytes": 1260,
+          "promptSha256": "3dc8d0d3433a516ac5893ac99e9795cc30d1d3649a452d76d487931dd1786d5e"
+        },
+        {
+          "textLimit": 32,
+          "id": "dungeon-watcha-search-title",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 369,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 371,
+          "withinBudget": true,
+          "promptBytes": 1254,
+          "promptSha256": "c4ba3d29d1c410f73c9cd74f3115a55cfd3f172a20dc5a1902449e44cc4f8f6b"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "template": "contrast-example",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dungeon-watcha-search-image",
+        "template": "contrast-example",
+        "split": "development",
+        "promptTokens": 300,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 302,
+        "withinBudget": true,
+        "promptBytes": 1165,
+        "promptSha256": "4898942ca4efdad45fdd4492c8887246303624e5c80aecbf70650a21ed01ec98"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dungeon-watcha-search-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 300,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 302,
+          "withinBudget": true,
+          "promptBytes": 1165,
+          "promptSha256": "4898942ca4efdad45fdd4492c8887246303624e5c80aecbf70650a21ed01ec98"
+        },
+        {
+          "textLimit": 72,
+          "id": "dungeon-watcha-search-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 300,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 302,
+          "withinBudget": true,
+          "promptBytes": 1165,
+          "promptSha256": "4898942ca4efdad45fdd4492c8887246303624e5c80aecbf70650a21ed01ec98"
+        },
+        {
+          "textLimit": 48,
+          "id": "dungeon-watcha-search-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 300,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 302,
+          "withinBudget": true,
+          "promptBytes": 1165,
+          "promptSha256": "4898942ca4efdad45fdd4492c8887246303624e5c80aecbf70650a21ed01ec98"
+        },
+        {
+          "textLimit": 32,
+          "id": "dungeon-watcha-search-image",
+          "template": "contrast-example",
+          "split": "development",
+          "promptTokens": 300,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 302,
+          "withinBudget": true,
+          "promptBytes": 1165,
+          "promptSha256": "4898942ca4efdad45fdd4492c8887246303624e5c80aecbf70650a21ed01ec98"
+        }
+      ]
+    },
+    {
+      "id": "witch-title",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-title",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1358,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1360,
+        "withinBudget": true,
+        "promptBytes": 2495,
+        "promptSha256": "e760326a93a064fbaa05606cf0f627eec49ea21fda869edf13d366270c5009ed"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1358,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1360,
+          "withinBudget": true,
+          "promptBytes": 2495,
+          "promptSha256": "e760326a93a064fbaa05606cf0f627eec49ea21fda869edf13d366270c5009ed"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1358,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1360,
+          "withinBudget": true,
+          "promptBytes": 2495,
+          "promptSha256": "e760326a93a064fbaa05606cf0f627eec49ea21fda869edf13d366270c5009ed"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1358,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1360,
+          "withinBudget": true,
+          "promptBytes": 2495,
+          "promptSha256": "e760326a93a064fbaa05606cf0f627eec49ea21fda869edf13d366270c5009ed"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1345,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1347,
+          "withinBudget": true,
+          "promptBytes": 2482,
+          "promptSha256": "b783edffca4685b1b5d68d811357e316339986f79da11d4680ee8d9ab7893252"
+        }
+      ]
+    },
+    {
+      "id": "witch-image",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-image",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1421,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1423,
+        "withinBudget": true,
+        "promptBytes": 2657,
+        "promptSha256": "d4bd2ee7f7fb0d4b6eec1231f691336078ab254fbb8d71e3b0ad64d56d24a383"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1421,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1423,
+          "withinBudget": true,
+          "promptBytes": 2657,
+          "promptSha256": "d4bd2ee7f7fb0d4b6eec1231f691336078ab254fbb8d71e3b0ad64d56d24a383"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1421,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1423,
+          "withinBudget": true,
+          "promptBytes": 2657,
+          "promptSha256": "d4bd2ee7f7fb0d4b6eec1231f691336078ab254fbb8d71e3b0ad64d56d24a383"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1421,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1423,
+          "withinBudget": true,
+          "promptBytes": 2650,
+          "promptSha256": "ac910d8d3dd8ac31c1514ee1b329ca0f2d732e34a7bd3b2feb6aff24e9d2f2a5"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1337,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1339,
+          "withinBudget": true,
+          "promptBytes": 2525,
+          "promptSha256": "b4f3c4aa6c8c10fe4c98f4f58989c9ca0e8f9ea0f0f7265773ea15fb9aa585ed"
+        }
+      ]
+    },
+    {
+      "id": "witch-description",
+      "template": "json-evidence",
+      "chosenTier": 3,
+      "chosenTextLimit": 32,
+      "selected": {
+        "id": "witch-description",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1824,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1826,
+        "withinBudget": true,
+        "promptBytes": 3041,
+        "promptSha256": "8b53455fc286f19f6e44c5ffc54d8fb575a60e805c542d4ff561260874845f3f"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 3070,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 3072,
+          "withinBudget": false,
+          "promptBytes": 4293,
+          "promptSha256": "03b5c3d1a024dd552c8e06e78dbe379e785c353e9e3245037b2c81e615ded40d"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 2602,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2604,
+          "withinBudget": false,
+          "promptBytes": 3823,
+          "promptSha256": "63b3f351d7d694d5d35c4521b9dbc6b9235d21733203af98d2739c0aacada52c"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 2137,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2139,
+          "withinBudget": false,
+          "promptBytes": 3355,
+          "promptSha256": "2aec6977768ff1b1a6977fc4faa4d454867806b69fda0d894631cd6ac09aa4a2"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1824,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1826,
+          "withinBudget": true,
+          "promptBytes": 3041,
+          "promptSha256": "8b53455fc286f19f6e44c5ffc54d8fb575a60e805c542d4ff561260874845f3f"
+        }
+      ]
+    },
+    {
+      "id": "sakura-title",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "sakura-title",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1177,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1179,
+        "withinBudget": true,
+        "promptBytes": 2371,
+        "promptSha256": "cf85fc3c406943e16dbdc74f685db8c8d735b24c965ad5675604a292bd67a47f"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1177,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1179,
+          "withinBudget": true,
+          "promptBytes": 2371,
+          "promptSha256": "cf85fc3c406943e16dbdc74f685db8c8d735b24c965ad5675604a292bd67a47f"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1177,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1179,
+          "withinBudget": true,
+          "promptBytes": 2371,
+          "promptSha256": "cf85fc3c406943e16dbdc74f685db8c8d735b24c965ad5675604a292bd67a47f"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1177,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1179,
+          "withinBudget": true,
+          "promptBytes": 2371,
+          "promptSha256": "cf85fc3c406943e16dbdc74f685db8c8d735b24c965ad5675604a292bd67a47f"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1177,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1179,
+          "withinBudget": true,
+          "promptBytes": 2371,
+          "promptSha256": "cf85fc3c406943e16dbdc74f685db8c8d735b24c965ad5675604a292bd67a47f"
+        }
+      ]
+    },
+    {
+      "id": "sakura-image",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "sakura-image",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1062,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1064,
+        "withinBudget": true,
+        "promptBytes": 2251,
+        "promptSha256": "3892938a5dd129943186250e64ecbb856960fd4a26385eeed59539525ee81585"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1062,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1064,
+          "withinBudget": true,
+          "promptBytes": 2251,
+          "promptSha256": "3892938a5dd129943186250e64ecbb856960fd4a26385eeed59539525ee81585"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1062,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1064,
+          "withinBudget": true,
+          "promptBytes": 2251,
+          "promptSha256": "3892938a5dd129943186250e64ecbb856960fd4a26385eeed59539525ee81585"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1062,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1064,
+          "withinBudget": true,
+          "promptBytes": 2251,
+          "promptSha256": "3892938a5dd129943186250e64ecbb856960fd4a26385eeed59539525ee81585"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1011,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1013,
+          "withinBudget": true,
+          "promptBytes": 2170,
+          "promptSha256": "162e846b2c64bbb23acaeb88fc469403e878aa8a9dedfb8009ba4c9a76a7d700"
+        }
+      ]
+    },
+    {
+      "id": "sakura-description",
+      "template": "json-evidence",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "sakura-description",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1931,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1933,
+        "withinBudget": true,
+        "promptBytes": 3150,
+        "promptSha256": "5a909c38b656876db90c6274876b5fc5b400af23a2db099827d0f699aed08b3b"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 2753,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2755,
+          "withinBudget": false,
+          "promptBytes": 3974,
+          "promptSha256": "f04283edfaaa54161ae709e3a52c01ec392f04d07907203bb5e3f61be10160e3"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 2340,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2342,
+          "withinBudget": false,
+          "promptBytes": 3560,
+          "promptSha256": "ef040aee2491c9a3701c91b16486941ad9b7cfa875c7b2765deabcab52e0e37e"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1931,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1933,
+          "withinBudget": true,
+          "promptBytes": 3150,
+          "promptSha256": "5a909c38b656876db90c6274876b5fc5b400af23a2db099827d0f699aed08b3b"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1658,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1660,
+          "withinBudget": true,
+          "promptBytes": 2873,
+          "promptSha256": "cdbe0b78b286a5fd648495a5732c6423f63e0bafe44a33391fc876f057a196eb"
+        }
+      ]
+    },
+    {
+      "id": "apothecary-description",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "apothecary-description",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1029,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1031,
+        "withinBudget": true,
+        "promptBytes": 1931,
+        "promptSha256": "6275143229f99935f978147c75ef24682006f55d5b41a97fc2b5bcc94ac727a3"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "apothecary-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1029,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1031,
+          "withinBudget": true,
+          "promptBytes": 1931,
+          "promptSha256": "6275143229f99935f978147c75ef24682006f55d5b41a97fc2b5bcc94ac727a3"
+        },
+        {
+          "textLimit": 72,
+          "id": "apothecary-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 966,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 968,
+          "withinBudget": true,
+          "promptBytes": 1869,
+          "promptSha256": "f08288a5fb61b918d40e6e13748052cef45d603f3b7345241f252b4e66f1efef"
+        },
+        {
+          "textLimit": 48,
+          "id": "apothecary-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 907,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 909,
+          "withinBudget": true,
+          "promptBytes": 1805,
+          "promptSha256": "deefeaf504c5fca13361d936f422f8dd211190831a8e46d9ab71ce0fd021db1a"
+        },
+        {
+          "textLimit": 32,
+          "id": "apothecary-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 828,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 830,
+          "withinBudget": true,
+          "promptBytes": 1713,
+          "promptSha256": "f3c4230598007919b4929c1ee03b1d40321fb31f914c947ae011d09ea7175528"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-title",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1115,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1117,
+        "withinBudget": true,
+        "promptBytes": 2315,
+        "promptSha256": "50a5bbd84d68ea7f6d283eef21f7ba1436a5e49f269e3729355dd87260dbca0e"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1115,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1117,
+          "withinBudget": true,
+          "promptBytes": 2315,
+          "promptSha256": "50a5bbd84d68ea7f6d283eef21f7ba1436a5e49f269e3729355dd87260dbca0e"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1115,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1117,
+          "withinBudget": true,
+          "promptBytes": 2315,
+          "promptSha256": "50a5bbd84d68ea7f6d283eef21f7ba1436a5e49f269e3729355dd87260dbca0e"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1115,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1117,
+          "withinBudget": true,
+          "promptBytes": 2315,
+          "promptSha256": "50a5bbd84d68ea7f6d283eef21f7ba1436a5e49f269e3729355dd87260dbca0e"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1115,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1117,
+          "withinBudget": true,
+          "promptBytes": 2315,
+          "promptSha256": "50a5bbd84d68ea7f6d283eef21f7ba1436a5e49f269e3729355dd87260dbca0e"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-image",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 887,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 889,
+        "withinBudget": true,
+        "promptBytes": 2040,
+        "promptSha256": "3cbbaa3f9b8db129eaa8b6d36a611fb48574f3320f3571b4b3629c9178c84f37"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 887,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 889,
+          "withinBudget": true,
+          "promptBytes": 2040,
+          "promptSha256": "3cbbaa3f9b8db129eaa8b6d36a611fb48574f3320f3571b4b3629c9178c84f37"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 887,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 889,
+          "withinBudget": true,
+          "promptBytes": 2040,
+          "promptSha256": "3cbbaa3f9b8db129eaa8b6d36a611fb48574f3320f3571b4b3629c9178c84f37"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 887,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 889,
+          "withinBudget": true,
+          "promptBytes": 2040,
+          "promptSha256": "3cbbaa3f9b8db129eaa8b6d36a611fb48574f3320f3571b4b3629c9178c84f37"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 883,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 885,
+          "withinBudget": true,
+          "promptBytes": 2035,
+          "promptSha256": "000993e9f37b9e0c18cde5c921d6a34c6c1ce2766330433af4dbc672e259ed9a"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-description",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 1345,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1347,
+        "withinBudget": true,
+        "promptBytes": 2466,
+        "promptSha256": "9d4a4409a1d92627be332cf07fc811295fe4497aab8d688275c59945228bca30"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1345,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1347,
+          "withinBudget": true,
+          "promptBytes": 2466,
+          "promptSha256": "9d4a4409a1d92627be332cf07fc811295fe4497aab8d688275c59945228bca30"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1345,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1347,
+          "withinBudget": true,
+          "promptBytes": 2466,
+          "promptSha256": "9d4a4409a1d92627be332cf07fc811295fe4497aab8d688275c59945228bca30"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1345,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1347,
+          "withinBudget": true,
+          "promptBytes": 2466,
+          "promptSha256": "9d4a4409a1d92627be332cf07fc811295fe4497aab8d688275c59945228bca30"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-description",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 1264,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1266,
+          "withinBudget": true,
+          "promptBytes": 2379,
+          "promptSha256": "52faccaa05be67ed5a3806d0d07eed295468a0645ea38ea391134fbb41aa9e77"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dungeon-watcha-search-title",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 383,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 385,
+        "withinBudget": true,
+        "promptBytes": 1105,
+        "promptSha256": "0e4153ba45b5822c0a362e9a7fce209ab7d2c3f1620692f9ddd78fdc83ebb28a"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dungeon-watcha-search-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 383,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 385,
+          "withinBudget": true,
+          "promptBytes": 1105,
+          "promptSha256": "0e4153ba45b5822c0a362e9a7fce209ab7d2c3f1620692f9ddd78fdc83ebb28a"
+        },
+        {
+          "textLimit": 72,
+          "id": "dungeon-watcha-search-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 383,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 385,
+          "withinBudget": true,
+          "promptBytes": 1105,
+          "promptSha256": "0e4153ba45b5822c0a362e9a7fce209ab7d2c3f1620692f9ddd78fdc83ebb28a"
+        },
+        {
+          "textLimit": 48,
+          "id": "dungeon-watcha-search-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 383,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 385,
+          "withinBudget": true,
+          "promptBytes": 1105,
+          "promptSha256": "0e4153ba45b5822c0a362e9a7fce209ab7d2c3f1620692f9ddd78fdc83ebb28a"
+        },
+        {
+          "textLimit": 32,
+          "id": "dungeon-watcha-search-title",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 376,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 378,
+          "withinBudget": true,
+          "promptBytes": 1099,
+          "promptSha256": "b224aef3e5329748787ee16829a72348e0153b2cc2b94d289b54a85c0eb0c985"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "template": "json-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dungeon-watcha-search-image",
+        "template": "json-evidence",
+        "split": "development",
+        "promptTokens": 267,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 269,
+        "withinBudget": true,
+        "promptBytes": 923,
+        "promptSha256": "bd4d4a10dae249932f089fb3f1a6a54a1f6eb6f0d13d100abf380637b5f85202"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dungeon-watcha-search-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 267,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 269,
+          "withinBudget": true,
+          "promptBytes": 923,
+          "promptSha256": "bd4d4a10dae249932f089fb3f1a6a54a1f6eb6f0d13d100abf380637b5f85202"
+        },
+        {
+          "textLimit": 72,
+          "id": "dungeon-watcha-search-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 267,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 269,
+          "withinBudget": true,
+          "promptBytes": 923,
+          "promptSha256": "bd4d4a10dae249932f089fb3f1a6a54a1f6eb6f0d13d100abf380637b5f85202"
+        },
+        {
+          "textLimit": 48,
+          "id": "dungeon-watcha-search-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 267,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 269,
+          "withinBudget": true,
+          "promptBytes": 923,
+          "promptSha256": "bd4d4a10dae249932f089fb3f1a6a54a1f6eb6f0d13d100abf380637b5f85202"
+        },
+        {
+          "textLimit": 32,
+          "id": "dungeon-watcha-search-image",
+          "template": "json-evidence",
+          "split": "development",
+          "promptTokens": 267,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 269,
+          "withinBudget": true,
+          "promptBytes": 923,
+          "promptSha256": "bd4d4a10dae249932f089fb3f1a6a54a1f6eb6f0d13d100abf380637b5f85202"
+        }
+      ]
+    },
+    {
+      "id": "witch-title",
+      "template": "natural-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-title",
+        "template": "natural-evidence",
+        "split": "development",
+        "promptTokens": 1056,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1058,
+        "withinBudget": true,
+        "promptBytes": 2205,
+        "promptSha256": "f583068b61ae1f32dd70af5a843601ef5804e7f1b3618028cb3eb6a2b0507b81"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1056,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1058,
+          "withinBudget": true,
+          "promptBytes": 2205,
+          "promptSha256": "f583068b61ae1f32dd70af5a843601ef5804e7f1b3618028cb3eb6a2b0507b81"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1056,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1058,
+          "withinBudget": true,
+          "promptBytes": 2205,
+          "promptSha256": "f583068b61ae1f32dd70af5a843601ef5804e7f1b3618028cb3eb6a2b0507b81"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1056,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1058,
+          "withinBudget": true,
+          "promptBytes": 2205,
+          "promptSha256": "f583068b61ae1f32dd70af5a843601ef5804e7f1b3618028cb3eb6a2b0507b81"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1043,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1045,
+          "withinBudget": true,
+          "promptBytes": 2192,
+          "promptSha256": "731a6381c15f21f5892f47e5eda7d1f205a31fb4d2c115218b7ff5b32f136fe0"
+        }
+      ]
+    },
+    {
+      "id": "witch-image",
+      "template": "natural-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-image",
+        "template": "natural-evidence",
+        "split": "development",
+        "promptTokens": 826,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 828,
+        "withinBudget": true,
+        "promptBytes": 1998,
+        "promptSha256": "49ea141799e003301124543732244ca981f975c2d267fcae7c3eeaec10983a3b"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 826,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 828,
+          "withinBudget": true,
+          "promptBytes": 1998,
+          "promptSha256": "49ea141799e003301124543732244ca981f975c2d267fcae7c3eeaec10983a3b"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 826,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 828,
+          "withinBudget": true,
+          "promptBytes": 1998,
+          "promptSha256": "49ea141799e003301124543732244ca981f975c2d267fcae7c3eeaec10983a3b"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 826,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 828,
+          "withinBudget": true,
+          "promptBytes": 1991,
+          "promptSha256": "08e46a9c179a24dd2449fb2188d2c8d5ad77d9d540e057a74c4089fea4bcfcb8"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 742,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 744,
+          "withinBudget": true,
+          "promptBytes": 1866,
+          "promptSha256": "f725f2423e6903c81c2fbcbd9d82a20a7dd1a5502fe491e1bbda8fea762d41e0"
+        }
+      ]
+    },
+    {
+      "id": "witch-description",
+      "template": "natural-evidence",
+      "chosenTier": 1,
+      "chosenTextLimit": 72,
+      "selected": {
+        "id": "witch-description",
+        "template": "natural-evidence",
+        "split": "development",
+        "promptTokens": 1978,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1980,
+        "withinBudget": true,
+        "promptBytes": 3097,
+        "promptSha256": "bd85dd611b3084ce9f5724b494baa6b7f3834854738a34ed591303649da80c68"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 2446,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2448,
+          "withinBudget": false,
+          "promptBytes": 3567,
+          "promptSha256": "ad127c0c4319d60b8571019a3350c3e171c342d87e3eb42ab698017f0eaef6a7"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1978,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1980,
+          "withinBudget": true,
+          "promptBytes": 3097,
+          "promptSha256": "bd85dd611b3084ce9f5724b494baa6b7f3834854738a34ed591303649da80c68"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1511,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1513,
+          "withinBudget": true,
+          "promptBytes": 2629,
+          "promptSha256": "8f60838d466530727dc9ab809f5fe4d4419459e22a35474d0e05bb092c4b5070"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1199,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1201,
+          "withinBudget": true,
+          "promptBytes": 2315,
+          "promptSha256": "eda7b34da0895cddb69e83fa7cce65357390d5de20b90532b97c4d7ef454ac99"
+        }
+      ]
+    },
+    {
+      "id": "sakura-title",
+      "template": "natural-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "sakura-title",
+        "template": "natural-evidence",
+        "split": "development",
+        "promptTokens": 769,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 771,
+        "withinBudget": true,
+        "promptBytes": 1937,
+        "promptSha256": "c81dcae26c675ef9a80755a61edcd072a08615114f1950ebe1a2ec23c99e2de7"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 769,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 771,
+          "withinBudget": true,
+          "promptBytes": 1937,
+          "promptSha256": "c81dcae26c675ef9a80755a61edcd072a08615114f1950ebe1a2ec23c99e2de7"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 769,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 771,
+          "withinBudget": true,
+          "promptBytes": 1937,
+          "promptSha256": "c81dcae26c675ef9a80755a61edcd072a08615114f1950ebe1a2ec23c99e2de7"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 769,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 771,
+          "withinBudget": true,
+          "promptBytes": 1937,
+          "promptSha256": "c81dcae26c675ef9a80755a61edcd072a08615114f1950ebe1a2ec23c99e2de7"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 769,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 771,
+          "withinBudget": true,
+          "promptBytes": 1937,
+          "promptSha256": "c81dcae26c675ef9a80755a61edcd072a08615114f1950ebe1a2ec23c99e2de7"
+        }
+      ]
+    },
+    {
+      "id": "sakura-image",
+      "template": "natural-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "sakura-image",
+        "template": "natural-evidence",
+        "split": "development",
+        "promptTokens": 785,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 787,
+        "withinBudget": true,
+        "promptBytes": 1929,
+        "promptSha256": "3a29236320374bcd247a777f4feac9ed0f08394b8e6bcd2f02eeae11037b2475"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 785,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 787,
+          "withinBudget": true,
+          "promptBytes": 1929,
+          "promptSha256": "3a29236320374bcd247a777f4feac9ed0f08394b8e6bcd2f02eeae11037b2475"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 785,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 787,
+          "withinBudget": true,
+          "promptBytes": 1929,
+          "promptSha256": "3a29236320374bcd247a777f4feac9ed0f08394b8e6bcd2f02eeae11037b2475"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 785,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 787,
+          "withinBudget": true,
+          "promptBytes": 1929,
+          "promptSha256": "3a29236320374bcd247a777f4feac9ed0f08394b8e6bcd2f02eeae11037b2475"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 734,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 736,
+          "withinBudget": true,
+          "promptBytes": 1848,
+          "promptSha256": "3c32fb4ef13dc115ba777fe925353e7cded67ec773e1de3dafec26d28597e9c7"
+        }
+      ]
+    },
+    {
+      "id": "sakura-description",
+      "template": "natural-evidence",
+      "chosenTier": 1,
+      "chosenTextLimit": 72,
+      "selected": {
+        "id": "sakura-description",
+        "template": "natural-evidence",
+        "split": "development",
+        "promptTokens": 1816,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1818,
+        "withinBudget": true,
+        "promptBytes": 2953,
+        "promptSha256": "d94faa0456c78e79ea061b1598a9dd4f9e5604518f85c0564994a5eeb964792b"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 2228,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2230,
+          "withinBudget": false,
+          "promptBytes": 3367,
+          "promptSha256": "2b5dbdf0464f7bed67e442fc54af69d82b926a42ea262fd36226cc7847596617"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1816,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1818,
+          "withinBudget": true,
+          "promptBytes": 2953,
+          "promptSha256": "d94faa0456c78e79ea061b1598a9dd4f9e5604518f85c0564994a5eeb964792b"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1406,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1408,
+          "withinBudget": true,
+          "promptBytes": 2543,
+          "promptSha256": "e8ed29c0ed183089559a6e7ff25ba8dd3385592f72588229014fc1d74419159a"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1131,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1133,
+          "withinBudget": true,
+          "promptBytes": 2266,
+          "promptSha256": "f710f2749170ca1ac32d38e7f2ce42cb93398767821335b5659633ff38e422c8"
+        }
+      ]
+    },
+    {
+      "id": "apothecary-description",
+      "template": "natural-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "apothecary-description",
+        "template": "natural-evidence",
+        "split": "development",
+        "promptTokens": 839,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 841,
+        "withinBudget": true,
+        "promptBytes": 1757,
+        "promptSha256": "8b7ced18111753ffed89e904085d6d4dbf1f414d81414ca699b8c8543e5ac7ba"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "apothecary-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 839,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 841,
+          "withinBudget": true,
+          "promptBytes": 1757,
+          "promptSha256": "8b7ced18111753ffed89e904085d6d4dbf1f414d81414ca699b8c8543e5ac7ba"
+        },
+        {
+          "textLimit": 72,
+          "id": "apothecary-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 777,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 779,
+          "withinBudget": true,
+          "promptBytes": 1695,
+          "promptSha256": "5fe056ee21c8163af7bb5b769cf26596d9e5e9e1d96d7fa04f60310f90b39778"
+        },
+        {
+          "textLimit": 48,
+          "id": "apothecary-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 717,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 719,
+          "withinBudget": true,
+          "promptBytes": 1631,
+          "promptSha256": "687fad99ebbae3e878b62a602697480d67036387f7a0efad79a3defcdf96d7a9"
+        },
+        {
+          "textLimit": 32,
+          "id": "apothecary-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 637,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 639,
+          "withinBudget": true,
+          "promptBytes": 1539,
+          "promptSha256": "9035ac6dc66e789049e7c142264b62b0220c2f9c7229e1680a05b625136d21f2"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "template": "natural-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-title",
+        "template": "natural-evidence",
+        "split": "development",
+        "promptTokens": 821,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 823,
+        "withinBudget": true,
+        "promptBytes": 2034,
+        "promptSha256": "011b1039699dfe3ae11db7d063c0f3e19292e0d035e10312826e6556d8bb4224"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 821,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 823,
+          "withinBudget": true,
+          "promptBytes": 2034,
+          "promptSha256": "011b1039699dfe3ae11db7d063c0f3e19292e0d035e10312826e6556d8bb4224"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 821,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 823,
+          "withinBudget": true,
+          "promptBytes": 2034,
+          "promptSha256": "011b1039699dfe3ae11db7d063c0f3e19292e0d035e10312826e6556d8bb4224"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 821,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 823,
+          "withinBudget": true,
+          "promptBytes": 2034,
+          "promptSha256": "011b1039699dfe3ae11db7d063c0f3e19292e0d035e10312826e6556d8bb4224"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 821,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 823,
+          "withinBudget": true,
+          "promptBytes": 2034,
+          "promptSha256": "011b1039699dfe3ae11db7d063c0f3e19292e0d035e10312826e6556d8bb4224"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "template": "natural-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-image",
+        "template": "natural-evidence",
+        "split": "development",
+        "promptTokens": 653,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 655,
+        "withinBudget": true,
+        "promptBytes": 1860,
+        "promptSha256": "419d10783a5cef6057c74c12b0de334a40e828d9f312e897ed7dc22a0d45802b"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 653,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 655,
+          "withinBudget": true,
+          "promptBytes": 1860,
+          "promptSha256": "419d10783a5cef6057c74c12b0de334a40e828d9f312e897ed7dc22a0d45802b"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 653,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 655,
+          "withinBudget": true,
+          "promptBytes": 1860,
+          "promptSha256": "419d10783a5cef6057c74c12b0de334a40e828d9f312e897ed7dc22a0d45802b"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 653,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 655,
+          "withinBudget": true,
+          "promptBytes": 1860,
+          "promptSha256": "419d10783a5cef6057c74c12b0de334a40e828d9f312e897ed7dc22a0d45802b"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 649,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 651,
+          "withinBudget": true,
+          "promptBytes": 1855,
+          "promptSha256": "63ec01604358eff13e773884d1df8fe8b8d6f0bf626ee021fd0d4af0cff12657"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "template": "natural-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-description",
+        "template": "natural-evidence",
+        "split": "development",
+        "promptTokens": 1104,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1106,
+        "withinBudget": true,
+        "promptBytes": 2198,
+        "promptSha256": "abfe35d07418bb7ac0043a12266546e33c703c35b3069049b575248f832e1caa"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1104,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1106,
+          "withinBudget": true,
+          "promptBytes": 2198,
+          "promptSha256": "abfe35d07418bb7ac0043a12266546e33c703c35b3069049b575248f832e1caa"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1104,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1106,
+          "withinBudget": true,
+          "promptBytes": 2198,
+          "promptSha256": "abfe35d07418bb7ac0043a12266546e33c703c35b3069049b575248f832e1caa"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1104,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1106,
+          "withinBudget": true,
+          "promptBytes": 2198,
+          "promptSha256": "abfe35d07418bb7ac0043a12266546e33c703c35b3069049b575248f832e1caa"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-description",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 1022,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1024,
+          "withinBudget": true,
+          "promptBytes": 2111,
+          "promptSha256": "da3c5e38cd2baaa54bcf5bbfdffd9004b441f212653afcd7ad83a327f577f86d"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "template": "natural-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dungeon-watcha-search-title",
+        "template": "natural-evidence",
+        "split": "development",
+        "promptTokens": 326,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 328,
+        "withinBudget": true,
+        "promptBytes": 1083,
+        "promptSha256": "65b245afef4a1559264087b1e9372a5143302548fbbf0177f833440e92d3adbc"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dungeon-watcha-search-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 326,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 328,
+          "withinBudget": true,
+          "promptBytes": 1083,
+          "promptSha256": "65b245afef4a1559264087b1e9372a5143302548fbbf0177f833440e92d3adbc"
+        },
+        {
+          "textLimit": 72,
+          "id": "dungeon-watcha-search-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 326,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 328,
+          "withinBudget": true,
+          "promptBytes": 1083,
+          "promptSha256": "65b245afef4a1559264087b1e9372a5143302548fbbf0177f833440e92d3adbc"
+        },
+        {
+          "textLimit": 48,
+          "id": "dungeon-watcha-search-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 326,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 328,
+          "withinBudget": true,
+          "promptBytes": 1083,
+          "promptSha256": "65b245afef4a1559264087b1e9372a5143302548fbbf0177f833440e92d3adbc"
+        },
+        {
+          "textLimit": 32,
+          "id": "dungeon-watcha-search-title",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 320,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 322,
+          "withinBudget": true,
+          "promptBytes": 1077,
+          "promptSha256": "59c01b131f5cb193bc430cfd3f8bb7104b3722b221ffc7c1b0dc9db683498ee7"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "template": "natural-evidence",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dungeon-watcha-search-image",
+        "template": "natural-evidence",
+        "split": "development",
+        "promptTokens": 241,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 243,
+        "withinBudget": true,
+        "promptBytes": 937,
+        "promptSha256": "bd0cce5c80ad45055f4f0eed45ad00f84248e016561514fccf4ddef50638aa7c"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dungeon-watcha-search-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 241,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 243,
+          "withinBudget": true,
+          "promptBytes": 937,
+          "promptSha256": "bd0cce5c80ad45055f4f0eed45ad00f84248e016561514fccf4ddef50638aa7c"
+        },
+        {
+          "textLimit": 72,
+          "id": "dungeon-watcha-search-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 241,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 243,
+          "withinBudget": true,
+          "promptBytes": 937,
+          "promptSha256": "bd0cce5c80ad45055f4f0eed45ad00f84248e016561514fccf4ddef50638aa7c"
+        },
+        {
+          "textLimit": 48,
+          "id": "dungeon-watcha-search-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 241,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 243,
+          "withinBudget": true,
+          "promptBytes": 937,
+          "promptSha256": "bd0cce5c80ad45055f4f0eed45ad00f84248e016561514fccf4ddef50638aa7c"
+        },
+        {
+          "textLimit": 32,
+          "id": "dungeon-watcha-search-image",
+          "template": "natural-evidence",
+          "split": "development",
+          "promptTokens": 241,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 243,
+          "withinBudget": true,
+          "promptBytes": 937,
+          "promptSha256": "bd0cce5c80ad45055f4f0eed45ad00f84248e016561514fccf4ddef50638aa7c"
+        }
+      ]
+    },
+    {
+      "id": "witch-title",
+      "template": "scope-first",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-title",
+        "template": "scope-first",
+        "split": "development",
+        "promptTokens": 1012,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1014,
+        "withinBudget": true,
+        "promptBytes": 2181,
+        "promptSha256": "5dffd6b47488bb54860e9544d2b47d9436bf846db08956e653c49b379eb43b06"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1012,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1014,
+          "withinBudget": true,
+          "promptBytes": 2181,
+          "promptSha256": "5dffd6b47488bb54860e9544d2b47d9436bf846db08956e653c49b379eb43b06"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1012,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1014,
+          "withinBudget": true,
+          "promptBytes": 2181,
+          "promptSha256": "5dffd6b47488bb54860e9544d2b47d9436bf846db08956e653c49b379eb43b06"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1012,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1014,
+          "withinBudget": true,
+          "promptBytes": 2181,
+          "promptSha256": "5dffd6b47488bb54860e9544d2b47d9436bf846db08956e653c49b379eb43b06"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 999,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1001,
+          "withinBudget": true,
+          "promptBytes": 2168,
+          "promptSha256": "4c60ce2a9112910497592f3ea4823cc5ab87dd1f568358cdf632040909d48e7e"
+        }
+      ]
+    },
+    {
+      "id": "witch-image",
+      "template": "scope-first",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "witch-image",
+        "template": "scope-first",
+        "split": "development",
+        "promptTokens": 1168,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1170,
+        "withinBudget": true,
+        "promptBytes": 2450,
+        "promptSha256": "db59ce12b2403d166a3c27e4c8a134fa04c64f210b2945f6df27e9cbe7686e51"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1168,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1170,
+          "withinBudget": true,
+          "promptBytes": 2450,
+          "promptSha256": "db59ce12b2403d166a3c27e4c8a134fa04c64f210b2945f6df27e9cbe7686e51"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1168,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1170,
+          "withinBudget": true,
+          "promptBytes": 2450,
+          "promptSha256": "db59ce12b2403d166a3c27e4c8a134fa04c64f210b2945f6df27e9cbe7686e51"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1168,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1170,
+          "withinBudget": true,
+          "promptBytes": 2443,
+          "promptSha256": "49b7769ec6fb168a9a86aba4e381b95e11d74e340fdc54f87b60acce7dd2ba3e"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1084,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1086,
+          "withinBudget": true,
+          "promptBytes": 2318,
+          "promptSha256": "1057d36da5630c1fe018ac02e069f54525b2705e630b6897900948eba1512404"
+        }
+      ]
+    },
+    {
+      "id": "witch-description",
+      "template": "scope-first",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "witch-description",
+        "template": "scope-first",
+        "split": "development",
+        "promptTokens": 1882,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1884,
+        "withinBudget": true,
+        "promptBytes": 3128,
+        "promptSha256": "5718454c2913323395c49a8eed6597117a01c216c49a988e60d1b9d7c57a051b"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "witch-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 2817,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2819,
+          "withinBudget": false,
+          "promptBytes": 4066,
+          "promptSha256": "39f712d33584a3840cea36a38f96c964e197cd0c5716d0510fecf2f31d0e8068"
+        },
+        {
+          "textLimit": 72,
+          "id": "witch-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 2349,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2351,
+          "withinBudget": false,
+          "promptBytes": 3596,
+          "promptSha256": "f4a43d5ea3c74f233682c7b8b8ed1437e4f0afe5def883eb9d593c7cba9016b6"
+        },
+        {
+          "textLimit": 48,
+          "id": "witch-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1882,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1884,
+          "withinBudget": true,
+          "promptBytes": 3128,
+          "promptSha256": "5718454c2913323395c49a8eed6597117a01c216c49a988e60d1b9d7c57a051b"
+        },
+        {
+          "textLimit": 32,
+          "id": "witch-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1570,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1572,
+          "withinBudget": true,
+          "promptBytes": 2814,
+          "promptSha256": "61b040b8b65103e9139f028e1065f60960a2c76d42d9103fe25437b6d7a21623"
+        }
+      ]
+    },
+    {
+      "id": "sakura-title",
+      "template": "scope-first",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "sakura-title",
+        "template": "scope-first",
+        "split": "development",
+        "promptTokens": 907,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 909,
+        "withinBudget": true,
+        "promptBytes": 2119,
+        "promptSha256": "c5beb4a2cb19f7e62b850b41c7c231d0d18c4c85f01e6703fd45c1816ffdbeee"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 907,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 909,
+          "withinBudget": true,
+          "promptBytes": 2119,
+          "promptSha256": "c5beb4a2cb19f7e62b850b41c7c231d0d18c4c85f01e6703fd45c1816ffdbeee"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 907,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 909,
+          "withinBudget": true,
+          "promptBytes": 2119,
+          "promptSha256": "c5beb4a2cb19f7e62b850b41c7c231d0d18c4c85f01e6703fd45c1816ffdbeee"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 907,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 909,
+          "withinBudget": true,
+          "promptBytes": 2119,
+          "promptSha256": "c5beb4a2cb19f7e62b850b41c7c231d0d18c4c85f01e6703fd45c1816ffdbeee"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 907,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 909,
+          "withinBudget": true,
+          "promptBytes": 2119,
+          "promptSha256": "c5beb4a2cb19f7e62b850b41c7c231d0d18c4c85f01e6703fd45c1816ffdbeee"
+        }
+      ]
+    },
+    {
+      "id": "sakura-image",
+      "template": "scope-first",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "sakura-image",
+        "template": "scope-first",
+        "split": "development",
+        "promptTokens": 829,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 831,
+        "withinBudget": true,
+        "promptBytes": 2023,
+        "promptSha256": "3e40045f423d6bb54173fd94d8bd23effbc02c2ab61759842e6b9e1c0d82b813"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 829,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 831,
+          "withinBudget": true,
+          "promptBytes": 2023,
+          "promptSha256": "3e40045f423d6bb54173fd94d8bd23effbc02c2ab61759842e6b9e1c0d82b813"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 829,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 831,
+          "withinBudget": true,
+          "promptBytes": 2023,
+          "promptSha256": "3e40045f423d6bb54173fd94d8bd23effbc02c2ab61759842e6b9e1c0d82b813"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 829,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 831,
+          "withinBudget": true,
+          "promptBytes": 2023,
+          "promptSha256": "3e40045f423d6bb54173fd94d8bd23effbc02c2ab61759842e6b9e1c0d82b813"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 778,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 780,
+          "withinBudget": true,
+          "promptBytes": 1942,
+          "promptSha256": "f6423d49becf0942a5de8f2a8c75bd98965ca13ac301e2840913b7cadca2afa2"
+        }
+      ]
+    },
+    {
+      "id": "sakura-description",
+      "template": "scope-first",
+      "chosenTier": 2,
+      "chosenTextLimit": 48,
+      "selected": {
+        "id": "sakura-description",
+        "template": "scope-first",
+        "split": "development",
+        "promptTokens": 1675,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1677,
+        "withinBudget": true,
+        "promptBytes": 2921,
+        "promptSha256": "a1c6c5d3d0293ebbb1f83b22c5268eff8b666c1cb77f56b7c40f97e18c2747b3"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "sakura-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 2497,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2499,
+          "withinBudget": false,
+          "promptBytes": 3745,
+          "promptSha256": "a9c8c2bb9dead2afd72b79917acd028502cd9d3ebc2aee5e0ad84e4579c278b0"
+        },
+        {
+          "textLimit": 72,
+          "id": "sakura-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 2085,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 2087,
+          "withinBudget": false,
+          "promptBytes": 3331,
+          "promptSha256": "601554b7ad90ba5a2035a99f939ec89df81cd673d788113c2fae70d4188c6fd3"
+        },
+        {
+          "textLimit": 48,
+          "id": "sakura-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1675,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1677,
+          "withinBudget": true,
+          "promptBytes": 2921,
+          "promptSha256": "a1c6c5d3d0293ebbb1f83b22c5268eff8b666c1cb77f56b7c40f97e18c2747b3"
+        },
+        {
+          "textLimit": 32,
+          "id": "sakura-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1400,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1402,
+          "withinBudget": true,
+          "promptBytes": 2644,
+          "promptSha256": "520923ccda7067a167a57a3626af177ae956bfcd9d13d7df75717862f49c763a"
+        }
+      ]
+    },
+    {
+      "id": "apothecary-description",
+      "template": "scope-first",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "apothecary-description",
+        "template": "scope-first",
+        "split": "development",
+        "promptTokens": 939,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 941,
+        "withinBudget": true,
+        "promptBytes": 2002,
+        "promptSha256": "64d1a0b56e4d089a9af9eec4debd62521cd81fde68d2e364917b64bf85b944c9"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "apothecary-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 939,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 941,
+          "withinBudget": true,
+          "promptBytes": 2002,
+          "promptSha256": "64d1a0b56e4d089a9af9eec4debd62521cd81fde68d2e364917b64bf85b944c9"
+        },
+        {
+          "textLimit": 72,
+          "id": "apothecary-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 877,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 879,
+          "withinBudget": true,
+          "promptBytes": 1940,
+          "promptSha256": "f5c31e4c88004b77b6633bb69efa47faf781a1caa1c1a1aa7b1149093e0c4d9d"
+        },
+        {
+          "textLimit": 48,
+          "id": "apothecary-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 817,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 819,
+          "withinBudget": true,
+          "promptBytes": 1876,
+          "promptSha256": "674c9ee2219d96ee529257b9775c030eb6060a926028646ea57be8dedfa2dea6"
+        },
+        {
+          "textLimit": 32,
+          "id": "apothecary-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 737,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 739,
+          "withinBudget": true,
+          "promptBytes": 1784,
+          "promptSha256": "691af853c87191105ae84acf4106ef78dad39c522bb0009eac1744b2e7e95763"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-title",
+      "template": "scope-first",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-title",
+        "template": "scope-first",
+        "split": "development",
+        "promptTokens": 841,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 843,
+        "withinBudget": true,
+        "promptBytes": 2061,
+        "promptSha256": "b16b4578cdca39c2b7f555ad8e0d7dab57c9d46a59e466dee2fc60767630ff13"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 841,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 843,
+          "withinBudget": true,
+          "promptBytes": 2061,
+          "promptSha256": "b16b4578cdca39c2b7f555ad8e0d7dab57c9d46a59e466dee2fc60767630ff13"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 841,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 843,
+          "withinBudget": true,
+          "promptBytes": 2061,
+          "promptSha256": "b16b4578cdca39c2b7f555ad8e0d7dab57c9d46a59e466dee2fc60767630ff13"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 841,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 843,
+          "withinBudget": true,
+          "promptBytes": 2061,
+          "promptSha256": "b16b4578cdca39c2b7f555ad8e0d7dab57c9d46a59e466dee2fc60767630ff13"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 841,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 843,
+          "withinBudget": true,
+          "promptBytes": 2061,
+          "promptSha256": "b16b4578cdca39c2b7f555ad8e0d7dab57c9d46a59e466dee2fc60767630ff13"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-image",
+      "template": "scope-first",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-image",
+        "template": "scope-first",
+        "split": "development",
+        "promptTokens": 690,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 692,
+        "withinBudget": true,
+        "promptBytes": 1934,
+        "promptSha256": "37d050648dbe0ae5616a8b1d4e5cc0b6291f0c1c7d77074f28fb4a00cc7417c2"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 690,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 692,
+          "withinBudget": true,
+          "promptBytes": 1934,
+          "promptSha256": "37d050648dbe0ae5616a8b1d4e5cc0b6291f0c1c7d77074f28fb4a00cc7417c2"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 690,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 692,
+          "withinBudget": true,
+          "promptBytes": 1934,
+          "promptSha256": "37d050648dbe0ae5616a8b1d4e5cc0b6291f0c1c7d77074f28fb4a00cc7417c2"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 690,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 692,
+          "withinBudget": true,
+          "promptBytes": 1934,
+          "promptSha256": "37d050648dbe0ae5616a8b1d4e5cc0b6291f0c1c7d77074f28fb4a00cc7417c2"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 686,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 688,
+          "withinBudget": true,
+          "promptBytes": 1929,
+          "promptSha256": "fa8cb9051ce366edf50fbb964fa3933cb9d64e5afa724606e01f9114c9e570f4"
+        }
+      ]
+    },
+    {
+      "id": "frieren-wavve-search-description",
+      "template": "scope-first",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "frieren-wavve-search-description",
+        "template": "scope-first",
+        "split": "development",
+        "promptTokens": 1124,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 1126,
+        "withinBudget": true,
+        "promptBytes": 2279,
+        "promptSha256": "24772218885c7d0217c2b6db85eba1b3b6e4cf94cc7810728e31b05e2aef2e3f"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "frieren-wavve-search-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1124,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1126,
+          "withinBudget": true,
+          "promptBytes": 2279,
+          "promptSha256": "24772218885c7d0217c2b6db85eba1b3b6e4cf94cc7810728e31b05e2aef2e3f"
+        },
+        {
+          "textLimit": 72,
+          "id": "frieren-wavve-search-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1124,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1126,
+          "withinBudget": true,
+          "promptBytes": 2279,
+          "promptSha256": "24772218885c7d0217c2b6db85eba1b3b6e4cf94cc7810728e31b05e2aef2e3f"
+        },
+        {
+          "textLimit": 48,
+          "id": "frieren-wavve-search-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1124,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1126,
+          "withinBudget": true,
+          "promptBytes": 2279,
+          "promptSha256": "24772218885c7d0217c2b6db85eba1b3b6e4cf94cc7810728e31b05e2aef2e3f"
+        },
+        {
+          "textLimit": 32,
+          "id": "frieren-wavve-search-description",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 1042,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 1044,
+          "withinBudget": true,
+          "promptBytes": 2192,
+          "promptSha256": "ddbdf355aefa64414fc7461faffe0792ce20db1ba3a25f3387fe7e2c171b8d0f"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "template": "scope-first",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dungeon-watcha-search-title",
+        "template": "scope-first",
+        "split": "development",
+        "promptTokens": 382,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 384,
+        "withinBudget": true,
+        "promptBytes": 1335,
+        "promptSha256": "d8dc83023706ccd46f158af78b99ceed5065d509705ffaacdaacca415e78b5c4"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dungeon-watcha-search-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 382,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 384,
+          "withinBudget": true,
+          "promptBytes": 1335,
+          "promptSha256": "d8dc83023706ccd46f158af78b99ceed5065d509705ffaacdaacca415e78b5c4"
+        },
+        {
+          "textLimit": 72,
+          "id": "dungeon-watcha-search-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 382,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 384,
+          "withinBudget": true,
+          "promptBytes": 1335,
+          "promptSha256": "d8dc83023706ccd46f158af78b99ceed5065d509705ffaacdaacca415e78b5c4"
+        },
+        {
+          "textLimit": 48,
+          "id": "dungeon-watcha-search-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 382,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 384,
+          "withinBudget": true,
+          "promptBytes": 1335,
+          "promptSha256": "d8dc83023706ccd46f158af78b99ceed5065d509705ffaacdaacca415e78b5c4"
+        },
+        {
+          "textLimit": 32,
+          "id": "dungeon-watcha-search-title",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 376,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 378,
+          "withinBudget": true,
+          "promptBytes": 1329,
+          "promptSha256": "9301bbba8192f95095151812a52a0983d3a9399dab3ec22d2d05852a2049ca87"
+        }
+      ]
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "template": "scope-first",
+      "chosenTier": 0,
+      "chosenTextLimit": 96,
+      "selected": {
+        "id": "dungeon-watcha-search-image",
+        "template": "scope-first",
+        "split": "development",
+        "promptTokens": 302,
+        "maximumSuffixTokens": 2,
+        "neededTokens": 304,
+        "withinBudget": true,
+        "promptBytes": 1214,
+        "promptSha256": "6d1d6c7a7c54697fbd915c66658b119bbf1c1881e40f37b537a7e6701cde08cf"
+      },
+      "tiers": [
+        {
+          "textLimit": 96,
+          "id": "dungeon-watcha-search-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 302,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 304,
+          "withinBudget": true,
+          "promptBytes": 1214,
+          "promptSha256": "6d1d6c7a7c54697fbd915c66658b119bbf1c1881e40f37b537a7e6701cde08cf"
+        },
+        {
+          "textLimit": 72,
+          "id": "dungeon-watcha-search-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 302,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 304,
+          "withinBudget": true,
+          "promptBytes": 1214,
+          "promptSha256": "6d1d6c7a7c54697fbd915c66658b119bbf1c1881e40f37b537a7e6701cde08cf"
+        },
+        {
+          "textLimit": 48,
+          "id": "dungeon-watcha-search-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 302,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 304,
+          "withinBudget": true,
+          "promptBytes": 1214,
+          "promptSha256": "6d1d6c7a7c54697fbd915c66658b119bbf1c1881e40f37b537a7e6701cde08cf"
+        },
+        {
+          "textLimit": 32,
+          "id": "dungeon-watcha-search-image",
+          "template": "scope-first",
+          "split": "development",
+          "promptTokens": 302,
+          "maximumSuffixTokens": 2,
+          "neededTokens": 304,
+          "withinBudget": true,
+          "promptBytes": 1214,
+          "promptSha256": "6d1d6c7a7c54697fbd915c66658b119bbf1c1881e40f37b537a7e6701cde08cf"
+        }
+      ]
+    }
+  ]
+}

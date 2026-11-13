@@ -21,6 +21,8 @@ const report = {
   choiceGuardSha256: raw.choiceGuardSha256,
   runnerSha256: raw.runnerSha256,
   parserBoundary: raw.parserBoundary,
+  controlProtocol: raw.controlProtocol,
+  matchedV2: raw.matchedV2,
   finishedAt: raw.finishedAt,
   runs: raw.runs.map((run) => ({
     template: run.template,
