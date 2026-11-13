@@ -145,7 +145,7 @@ test("settings reset removes automatic links and stale results in an open overla
   const pagesBeforeReset = context.pages().length;
 
   await library.getByRole("button", { name: "설정", exact: true }).click();
-  const settings = library.getByRole("dialog", { name: "내 보관함 설정" });
+  const settings = library.getByRole("dialog", { name: "보관함 설정" });
   // Reset is separate from saving settings and must preserve unsaved choices.
   await settings
     .getByRole("checkbox", { name: "Netflix", exact: true })

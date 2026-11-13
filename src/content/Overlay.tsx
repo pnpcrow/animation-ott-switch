@@ -33,10 +33,10 @@ function BrandMark({ size }: { size: number }) {
     <svg width={size} height={size} viewBox="0 0 128 128" aria-hidden="true">
       <rect width="128" height="128" rx="30" fill="#f4bc64" />
       <path
-        d="M27 96 58 28a7 7 0 0 1 12 0l31 68H85L64 48 43 96Z"
+        d="M27 98 55 29C57 24 60 22 64 22s7 2 9 7l28 69H84l-6-16H50l-6 16Zm28-30h18L64 44Z"
         fill="#182127"
+        fillRule="evenodd"
       />
-      <path d="M37 72h39V61l18 17-18 17V84H37Z" fill="#182127" />
     </svg>
   );
 }
@@ -305,8 +305,8 @@ export function Overlay({ page }: { page: PageTitle }) {
             </span>
             <div>
               <button
-                title="내 보관함"
-                aria-label="내 보관함"
+                title="작품 보관함"
+                aria-label="작품 보관함"
                 onClick={() => {
                   void api.openLibrary().catch((e) => setError(e.message));
                 }}
@@ -340,7 +340,7 @@ export function Overlay({ page }: { page: PageTitle }) {
               </span>
             </div>
             <section className="switch-summary">
-              <span className="switch-eyebrow">YOUR NEXT WATCH</span>
+              <span className="switch-eyebrow">OTT TITLE</span>
               <h1>{title}</h1>
               {saved && (
                 <div className="switch-saved">
@@ -355,7 +355,7 @@ export function Overlay({ page }: { page: PageTitle }) {
             <section className="switch-bookmark">
               <div className="switch-section-heading">
                 <h2>
-                  <FolderOpen size={15} /> 내 카테고리
+                  <FolderOpen size={15} /> 카테고리
                 </h2>
                 <button
                   onClick={() => {
@@ -408,7 +408,7 @@ export function Overlay({ page }: { page: PageTitle }) {
                   ? "저장하는 중…"
                   : saved
                     ? "변경 내용 저장"
-                    : "내 보관함에 담기"}
+                    : "보관함에 담기"}
               </button>
               {notice && (
                 <p className="switch-notice" role="status">

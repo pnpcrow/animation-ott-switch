@@ -1,6 +1,6 @@
 {
   "name": "animation-ott-switch",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "private": true,
   "type": "module",
   "description": "AniOTT Switch: cross-OTT discovery and a local title library",

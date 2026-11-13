@@ -557,13 +557,15 @@ function App() {
           </span>
           <span>
             AniOTT <span className="brand-light">Switch</span>
-            <small>나만의 작품 보관함</small>
+            <small>작품 보관·OTT 연결</small>
           </span>
         </a>
         <div className="workspace-label">
-          <span className="workspace-avatar">나</span>
+          <span className="workspace-avatar">
+            <BookmarkIcon size={16} />
+          </span>
           <span>
-            나의 보관함<small>이 브라우저에 저장됨</small>
+            작품 보관함<small>이 브라우저에 저장됨</small>
           </span>
           <ShieldCheck size={16} />
         </div>
@@ -702,7 +704,7 @@ function App() {
       <main className="workspace">
         <header className="topbar">
           <div className="breadcrumb">
-            <span>내 라이브러리</span>
+            <span>작품 보관함</span>
             <ChevronRight size={15} />
             <strong>{viewTitle}</strong>
           </div>
@@ -724,7 +726,7 @@ function App() {
           <section className="title-column" aria-label="작품 목록">
             <div className="list-heading">
               <div>
-                <span className="section-eyebrow">YOUR COLLECTION</span>
+                <span className="section-eyebrow">SAVED TITLES</span>
                 <h1>
                   {viewTitle}
                   <span>{filtered.length}</span>
@@ -768,7 +770,7 @@ function App() {
                 onClick={() => setSubscribedOnly(!subscribedOnly)}
                 aria-pressed={subscribedOnly}
               >
-                <span className="tiny-dot" />내 구독 OTT
+                <span className="tiny-dot" />구독 OTT
               </button>
               <label className="sort-select">
                 <span className="sr-only">작품 정렬</span>
@@ -808,7 +810,7 @@ function App() {
                         ? "설정에서 구독 OTT를 선택하거나 필터를 꺼 보세요."
                         : bookmarks.length
                           ? "이 카테고리에 작품을 담아 보세요."
-                          : "마음에 드는 작품을 나만의 보관함에 모아 보세요."}
+                          : "마음에 드는 작품을 보관하고 다른 OTT에서 찾아보세요."}
                   </p>
                   {(query || subscribedOnly) && (
                     <button
@@ -887,7 +889,7 @@ function App() {
             </div>
             <div className="list-footer">
               <BookmarkIcon size={13} />
-              <span>{bookmarks.length}개의 이야기, 하나의 보관함</span>
+              <span>{bookmarks.length}개의 이야기, 하작품 보관함</span>
             </div>
           </section>
           <section className="detail-column" aria-label="작품 상세 미리보기">
@@ -902,7 +904,7 @@ function App() {
                   </button>
                   <span className="detail-caption">
                     <BookmarkIcon size={14} />
-                    나의 작품 기록
+                    저장한 작품
                   </span>
                   <div className="detail-actions">
                     <button
@@ -964,7 +966,7 @@ function App() {
                     <div className="hero-content">
                       <div className="hero-eyebrow">
                         <span className="tiny-dot" />
-                        IN MY COLLECTION
+                        SAVED TITLE
                       </div>
                       <h2>{selected.title}</h2>
                       <div className="hero-meta">
@@ -1002,7 +1004,7 @@ function App() {
                       </div>
                       <p className={selected.description ? "" : "muted"}>
                         {selected.description ||
-                          "아직 저장된 소개가 없어요. 작품 정보를 편집해서 나만의 소개를 적어 보세요."}
+                          "아직 저장된 소개가 없어요. 작품 정보를 편집해서 소개를 정리해 보세요."}
                       </p>
                     </section>
                     <section className="where-to-watch">
@@ -1218,7 +1220,7 @@ function App() {
                       <div className="block-heading">
                         <h3>
                           <Pencil size={14} />
-                          나의 메모
+                          작품 메모
                         </h3>
                         <button
                           className="text-button"
@@ -1265,7 +1267,7 @@ function App() {
                   </div>
                 </div>
                 <span className="welcome-eyebrow">
-                  ONE LIBRARY. EVERY STORY.
+                  ONE TITLE. MORE WAYS TO WATCH.
                 </span>
                 <h2>
                   {bookmarks.length ? (
@@ -1283,9 +1285,9 @@ function App() {
                     "카테고리나 검색 조건을 바꿔 작품을 찾아보세요."
                   ) : (
                     <>
-                      OTT마다 흩어진 작품을 나만의 카테고리로 정리하고,
+                      OTT마다 흩어진 작품을 카테고리별로 정리하고,
                       <br />
-                      내가 구독하는 곳에서 바로 이어 보세요.
+                      구독 중인 OTT에서 같은 작품을 찾아 이어 보세요.
                     </>
                   )}
                 </p>
@@ -1424,7 +1426,7 @@ function ModalContent({
     return (
       <Dialog
         title={modal.category ? "카테고리 편집" : "새 카테고리"}
-        subtitle="작품을 나만의 기준으로 정리해 보세요."
+        subtitle="작품을 카테고리별로 정리해 보세요."
         close={close}
       >
         <form
@@ -1587,7 +1589,7 @@ function ModalContent({
   if (modal.type === "settings")
     return (
       <Dialog
-        title="내 보관함 설정"
+        title="보관함 설정"
         subtitle="구독하는 OTT를 선택하면 작품을 더 빠르게 찾을 수 있어요."
         close={close}
       >
@@ -1903,7 +1905,7 @@ function BookmarkEditor({
   return (
     <Dialog
       title="작품 정보 편집"
-      subtitle="내가 고른 이미지와 소개는 OTT 원본보다 우선해서 표시됩니다."
+      subtitle="저장한 이미지와 소개를 OTT 원본보다 우선해서 표시합니다."
       close={close}
       wide
     >
@@ -2031,7 +2033,7 @@ function BookmarkEditor({
           </div>
         </fieldset>
         <label className="field">
-          나의 메모
+          작품 메모
           <textarea
             name="notes"
             rows={3}

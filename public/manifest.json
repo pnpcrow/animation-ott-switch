@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
   "name": "AniOTT Switch",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAoUoBFWhp/skLO+wmGDRUFVUBzn7k5/FRPsPLV4pRHMKGXKIsvJqqP/aOmSQ54BttCLY4pqEDwNhhMV+Qa7tmgzKFqPYgoSMjYWyAgiFeOv6zeD+v3Lq21YB09Viyy6UIVq/GEjFamQcH3+yMLh3SR2BjJeiOI1UsQTmpU4ImMXVcc95AvwZ7sOSPXSFToFHaCykbk7rhTAgdURsZx9zqnVzYxTmMAOHi9bz9aWCme3QLANdKbt39h/q0Vms2xBRM4dJZOqR9YgsEhAm//2W52mpJ0FaSWeYSdp2jrATnAtri74dzn7zWbl5Zor/Ae71U7P036DPHZR9BS8fjC5c6uwIDAQAB",
-  "description": "애니메이션과 보고 싶은 작품을 다른 OTT에서 찾아 이동하고, 카테고리별로 나만의 작품 보관함을 만드세요.",
+  "description": "보고 싶은 작품을 다른 OTT에서 찾아 이동하고, 작품 보관함에 저장·분류하세요.",
   "minimum_chrome_version": "120",
   "host_permissions": [
     "https://laftel.net/*",
@@ -27,10 +27,16 @@
     "https://watcha.com/*",
     "https://www.watcha.com/*"
   ],
-  "background": { "service_worker": "background.js", "type": "module" },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
   "action": {
     "default_title": "AniOTT Switch 보관함 열기",
-    "default_icon": { "16": "icons/icon-16.png", "32": "icons/icon-32.png" }
+    "default_icon": {
+      "16": "icons/icon-16.png",
+      "32": "icons/icon-32.png"
+    }
   },
   "options_page": "library.html",
   "icons": {

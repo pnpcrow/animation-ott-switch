@@ -92,7 +92,7 @@ test("library dialogs create and edit titles, save preferences, export and merge
     .click();
   dialog = page.getByRole("dialog", { name: "작품 정보 편집", exact: true });
   await dialog.getByLabel("공개 연도").fill("2023");
-  await dialog.getByLabel("나의 메모").fill("금요일 저녁에 이어 보기");
+  await dialog.getByLabel("작품 메모").fill("금요일 저녁에 이어 보기");
   await dialog.getByRole("button", { name: "변경사항 저장" }).click();
   await expect(dialog).toBeHidden();
   expect((await snapshot()).bookmarks[0].year).toBe(2023);
@@ -120,7 +120,7 @@ test("library dialogs create and edit titles, save preferences, export and merge
     page.getByRole("button", { name: "즐겨찾기 해제", exact: true }),
   ).toBeVisible();
   await page.getByRole("button", { name: "설정", exact: true }).click();
-  dialog = page.getByRole("dialog", { name: "내 보관함 설정", exact: true });
+  dialog = page.getByRole("dialog", { name: "보관함 설정", exact: true });
   await expect(dialog.getByRole("checkbox")).toHaveCount(11);
   await dialog.getByRole("checkbox", { name: "Netflix", exact: true }).check();
   await dialog.getByRole("checkbox", { name: "라프텔", exact: true }).check();
