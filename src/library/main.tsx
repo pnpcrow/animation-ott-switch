@@ -24,6 +24,7 @@ import {
   MoreHorizontal,
   Pencil,
   Plus,
+  RotateCcw,
   Search,
   Settings2,
   ShieldCheck,
@@ -216,12 +217,49 @@ function App() {
       });
     }
   }, []);
+  const invalidateSearchResults = useCallback(() => {
+    lookupGeneration.current++;
+    preferredResults.current.clear();
+    setAvailability(null);
+    setSearching(false);
+    setOpeningProviders([]);
+  }, []);
   useEffect(() => {
     void load();
-    return api.subscribe(() => {
+    const unsubscribe = api.subscribe(() => {
       void load();
     });
-  }, [load]);
+    const unsubscribeReset = api.subscribeSearchResultsCleared(() => {
+      invalidateSearchResults();
+      setNotice({
+        text: "검색 결과를 초기화했어요. 다음 검색부터 새로 확인합니다.",
+      });
+      void load();
+    });
+    return () => {
+      unsubscribe();
+      unsubscribeReset();
+    };
+  }, [load, invalidateSearchResults]);
+  const clearSearchResults = async () => {
+    setBusy(true);
+    try {
+      const cleared = await api.clearSearchResults();
+      invalidateSearchResults();
+      await load();
+      setNotice({
+        text: `검색 결과와 ${cleared.bookmarks}개 작품의 자동 연결 ${cleared.links}개를 초기화했어요. 다음 검색부터 새로 확인합니다.`,
+      });
+    } catch (e) {
+      setNotice({
+        text:
+          e instanceof Error ? e.message : "검색 결과를 초기화하지 못했어요.",
+        error: true,
+      });
+    } finally {
+      setBusy(false);
+    }
+  };
   useEffect(() => {
     if (!notice || notice.error) return;
     const timer = setTimeout(() => setNotice(null), 5000);
@@ -652,7 +690,7 @@ function App() {
             >
               <CircleHelp size={18} />
             </button>
-          <span>v0.1.2</span>
+            <span>v0.1.3</span>
           </div>
         </div>
       </aside>
@@ -1320,6 +1358,8 @@ function App() {
             bookmarks={bookmarks}
             busy={busy}
             run={run}
+            clearSearchResults={clearSearchResults}
+            notice={notice && !notice.error ? notice.text : undefined}
             view={view}
           />
         </FormNoticeContext.Provider>
@@ -1341,6 +1381,8 @@ type ModalProps = {
     close?: boolean,
   ) => Promise<void>;
   view: View;
+  clearSearchResults: () => Promise<void>;
+  notice?: string;
 };
 function ModalContent({
   modal,
@@ -1351,6 +1393,8 @@ function ModalContent({
   busy,
   run,
   view,
+  clearSearchResults,
+  notice,
 }: ModalProps) {
   const close = () => {
     if (!busy) setModal(null);
@@ -1590,6 +1634,22 @@ function ModalContent({
           <div className="setting-info">
             <span>검색 지역</span>
             <strong>대한민국 · KR</strong>
+          </div>
+          <div className="search-reset-settings">
+            <p>
+              임시 검색 결과와 자동으로 저장한 OTT 연결을 비웁니다. 작품,
+              카테고리, 직접 연결한 주소는 유지됩니다.
+            </p>
+            <button
+              type="button"
+              className="button secondary"
+              disabled={busy}
+              onClick={() => void clearSearchResults()}
+            >
+              <RotateCcw size={15} />
+              검색 결과 초기화
+            </button>
+            {notice && <p role="status">{notice}</p>}
           </div>
           <div className="future-feature">
             <ShieldCheck size={21} />

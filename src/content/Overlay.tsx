@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import {
   ArrowLeftRight,
   ArrowUpRight,
@@ -9,6 +9,7 @@ import {
   Library,
   LoaderCircle,
   RefreshCw,
+  RotateCcw,
   Search,
   X,
 } from "lucide-react";
@@ -36,6 +37,7 @@ export function Overlay({ page }: { page: PageTitle }) {
   const [loading, setLoading] = useState(false);
   const [opening, setOpening] = useState<ProviderId[]>([]);
   const [saving, setSaving] = useState(false);
+  const [clearing, setClearing] = useState(false);
   const [notice, setNotice] = useState("");
   const [error, setError] = useState("");
   const trigger = useRef<HTMLButtonElement>(null);
@@ -65,6 +67,14 @@ export function Overlay({ page }: { page: PageTitle }) {
     page,
     refreshedSource?.title ? [refreshedSource.title] : [],
   ).title;
+  const invalidateSearchResults = useCallback(() => {
+    generation.current++;
+    preferredResults.current.clear();
+    setResults([]);
+    setManualProviders([]);
+    setOpening([]);
+    setLoading(false);
+  }, []);
 
   useEffect(() => {
     let alive = true;
@@ -81,25 +91,43 @@ export function Overlay({ page }: { page: PageTitle }) {
     const unsubscribe = api.subscribe(() => {
       void load();
     });
+    const unsubscribeReset = api.subscribeSearchResultsCleared(() => {
+      invalidateSearchResults();
+      setNotice("검색 결과를 초기화했어요. 다음 검색부터 새로 확인합니다.");
+      setError("");
+      void load();
+    });
     return () => {
       alive = false;
       generation.current++;
       unsubscribe();
+      unsubscribeReset();
     };
-  }, []);
+  }, [invalidateSearchResults]);
   useEffect(() => {
     setCategories(saved?.categoryIds || []);
   }, [saved?.id, saved?.updatedAt, pageKey]);
   useEffect(() => {
-    setResults([]);
-    setManualProviders([]);
-    setOpening([]);
-    setLoading(false);
-    preferredResults.current.clear();
+    invalidateSearchResults();
     setNotice("");
     setError("");
-    generation.current++;
-  }, [pageKey]);
+  }, [pageKey, invalidateSearchResults]);
+  async function clearSearchResults() {
+    setClearing(true);
+    setError("");
+    try {
+      const cleared = await api.clearSearchResults();
+      invalidateSearchResults();
+      setSnapshot(await api.snapshot());
+      setNotice(
+        `검색 결과와 ${cleared.bookmarks}개 작품의 자동 연결 ${cleared.links}개를 초기화했어요. 다음 검색부터 새로 확인합니다.`,
+      );
+    } catch (e) {
+      setError((e as Error).message);
+    } finally {
+      setClearing(false);
+    }
+  }
   async function search(force = false) {
     const id = ++generation.current;
     setLoading(true);
@@ -351,7 +379,7 @@ export function Overlay({ page }: { page: PageTitle }) {
               )}
               <button
                 className="switch-save"
-                disabled={saving || !snapshot}
+                disabled={saving || clearing || !snapshot}
                 onClick={() => {
                   void save();
                 }}
@@ -383,16 +411,26 @@ export function Overlay({ page }: { page: PageTitle }) {
             <section className="switch-services">
               <div className="switch-section-heading">
                 <h2>어디서 볼 수 있을까요?</h2>
-                <button
-                  aria-label="OTT 다시 확인"
-                  title="다시 확인"
-                  disabled={loading || opening.length > 0}
-                  onClick={() => {
-                    void search(true);
-                  }}
-                >
-                  <RefreshCw size={14} className={loading ? "spin" : ""} />
-                </button>
+                <div className="switch-section-actions">
+                  <button
+                    aria-label="검색 결과 초기화"
+                    title="검색 결과와 자동 저장한 OTT 연결 초기화"
+                    disabled={clearing || saving}
+                    onClick={() => void clearSearchResults()}
+                  >
+                    <RotateCcw size={14} className={clearing ? "spin" : ""} />
+                  </button>
+                  <button
+                    aria-label="OTT 다시 확인"
+                    title="다시 확인"
+                    disabled={clearing || loading || opening.length > 0}
+                    onClick={() => {
+                      void search(true);
+                    }}
+                  >
+                    <RefreshCw size={14} className={loading ? "spin" : ""} />
+                  </button>
+                </div>
               </div>
               <p className="switch-muted">
                 한국 기준 · 제목이 일치하는 작품 페이지로 바로 이동해요.
@@ -469,7 +507,9 @@ export function Overlay({ page }: { page: PageTitle }) {
                           <button
                             className="switch-go"
                             disabled={
-                              isChecking || result?.status === "unavailable"
+                              clearing ||
+                              isChecking ||
+                              result?.status === "unavailable"
                             }
                             onClick={() => void openResult(provider.id)}
                             aria-label={`${provider.name}에서 제목 확인 후 이동`}
@@ -514,7 +554,7 @@ export function Overlay({ page }: { page: PageTitle }) {
                               <div key={candidate.url}>
                                 <span>{candidate.title}</span>
                                 <button
-                                  disabled={isOpening}
+                                  disabled={clearing || isOpening}
                                   onClick={() =>
                                     void openResult(provider.id, candidate.url)
                                   }

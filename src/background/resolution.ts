@@ -16,6 +16,7 @@ const cache = new Map<
 >();
 const pending = new Map<string, Promise<Availability>>();
 let generation = 0;
+let resetGeneration = 0;
 const refreshedSources = new Map<
   string,
   { at: number; task: Promise<PageTitle | null> }
@@ -24,6 +25,21 @@ export function invalidateResolutions() {
   generation++;
   cache.clear();
 }
+
+export function resetResolutions() {
+  resetGeneration++;
+  invalidateResolutions();
+  pending.clear();
+  refreshedSources.clear();
+}
+
+const resetResult = (provider: ProviderId): Availability => ({
+  provider,
+  status: "unknown",
+  checkedAt: Date.now(),
+  reason:
+    "검색 결과가 초기화되어 이전 검색을 취소했습니다. 다시 검색해 주세요.",
+});
 
 async function prepareQuery(
   page: PageTitle,
@@ -77,7 +93,10 @@ export async function resolveProvider(
   force = false,
   explicit = false,
 ): Promise<Availability> {
+  const revision = generation;
+  const reset = resetGeneration;
   const snapshot = await repository.snapshot();
+  if (reset !== resetGeneration) return resetResult(provider);
   const saved = snapshot.bookmarks.find(
     (b) =>
       !b.deletedAt &&
@@ -98,6 +117,7 @@ export async function resolveProvider(
     { ...page, year: saved?.year ?? page.year },
     aliases,
   );
+  if (reset !== resetGeneration) return resetResult(provider);
   if (provider === page.provider)
     return {
       provider,
@@ -138,7 +158,6 @@ export async function resolveProvider(
       stored.browserAttempted)
   )
     return stored.result;
-  const revision = generation;
   const pendingKey = JSON.stringify([revision, key, allowBrowser]);
   if (pending.has(pendingKey)) return pending.get(pendingKey)!;
   const task = (async () => {
@@ -154,7 +173,9 @@ export async function resolveProvider(
       };
     }
     const browserAttempted = result.status === "unknown" && allowBrowser;
+    if (reset !== resetGeneration) return resetResult(provider);
     if (browserAttempted) result = await resolveRendered(provider, query);
+    if (reset !== resetGeneration) return resetResult(provider);
     if (revision === generation) {
       cache.set(key, { result, browserAttempted });
       if (cache.size > 150) cache.delete(cache.keys().next().value!);
@@ -175,8 +196,10 @@ export async function openResolved(
   candidateUrl: string | undefined,
   sender: chrome.runtime.MessageSender,
 ): Promise<Availability> {
+  const reset = resetGeneration;
   // Candidate URLs from the UI are untrusted until the target's rendered metadata agrees.
   const snapshot = await repository.snapshot();
+  if (reset !== resetGeneration) return resetResult(provider);
   const saved = snapshot.bookmarks.find(
     (b) =>
       !b.deletedAt &&
@@ -196,9 +219,11 @@ export async function openResolved(
       ]),
     ].slice(0, 30),
   );
+  if (reset !== resetGeneration) return resetResult(provider);
   const result = candidateUrl
     ? await resolveRendered(provider, query, candidateUrl)
     : await resolveProvider(query, provider, false, true);
+  if (reset !== resetGeneration) return resetResult(provider);
   if (
     result.status !== "available" ||
     !result.url ||
@@ -206,10 +231,12 @@ export async function openResolved(
   )
     return result;
   const { settings } = await repository.snapshot();
+  if (reset !== resetGeneration) return resetResult(provider);
   if (settings.openInNewTab || !sender.tab?.id)
     await chrome.tabs.create({ url: result.url, active: true });
   else {
     const source = await chrome.tabs.get(sender.tab.id);
+    if (reset !== resetGeneration) return resetResult(provider);
     // Do not replace a tab the user has navigated elsewhere while verification was running.
     if (source.url !== sender.url)
       return {

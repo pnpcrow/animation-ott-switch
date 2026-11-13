@@ -20,6 +20,7 @@ describe("official detail title refresh", () => {
       netflix,
       expect.objectContaining({
         credentials: "omit",
+        cache: "no-store",
         signal: expect.any(AbortSignal),
       }),
     );

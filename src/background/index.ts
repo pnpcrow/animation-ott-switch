@@ -12,6 +12,7 @@ import {
   invalidateResolutions,
   openResolved,
   resolveProvider,
+  resetResolutions,
 } from "./resolution";
 
 const lookupCache = new Map<string, { at: number; results: Availability[] }>();
@@ -131,22 +132,34 @@ async function lookup(page: PageTitle, force = false): Promise<Availability[]> {
   }
 }
 
-async function notifyChanged() {
+function resetSearchCaches() {
+  resetResolutions();
+  cacheGeneration++;
+  lookupCache.clear();
+  pending.clear();
+}
+
+async function notifyChanged(searchReset = false) {
   invalidateResolutions();
   cacheGeneration++;
   lookupCache.clear();
-  await chrome.runtime
-    .sendMessage({ channel: "ott-switch", event: "changed" })
-    .catch(() => {});
+  const events = searchReset
+    ? ["search-results-cleared", "changed"]
+    : ["changed"];
+  for (const event of events)
+    await chrome.runtime
+      .sendMessage({ channel: "ott-switch", event })
+      .catch(() => {});
   const tabs = await chrome.tabs.query({});
   await Promise.all(
     tabs
       .filter((t) => t.id && t.url && detectProvider(t.url))
-      .map((t) =>
-        chrome.tabs
-          .sendMessage(t.id!, { channel: "ott-switch", event: "changed" })
-          .catch(() => {}),
-      ),
+      .map(async (t) => {
+        for (const event of events)
+          await chrome.tabs
+            .sendMessage(t.id!, { channel: "ott-switch", event })
+            .catch(() => {});
+      }),
   );
 }
 
@@ -179,6 +192,16 @@ async function handle(
       return repository.updateBookmark(...request.args);
     case "deleteBookmark":
       return repository.deleteBookmark(...request.args);
+    case "clearSearchResults": {
+      if (request.args.length)
+        throw new Error("검색 결과 초기화 요청이 올바르지 않습니다.");
+      resetSearchCaches();
+      try {
+        return await repository.clearSearchResults();
+      } finally {
+        resetSearchCaches();
+      }
+    }
     case "saveCategory":
       return repository.saveCategory(
         request.args[0],
@@ -229,6 +252,11 @@ chrome.runtime.onMessage.addListener((request: Request, sender, reply) => {
   if (request?.channel !== "ott-switch" || !("action" in request)) return;
   handle(request, sender)
     .then(async (data) => {
+      if (request.action === "clearSearchResults") {
+        await notifyChanged(true);
+        reply({ ok: true, data });
+        return;
+      }
       reply({ ok: true, data });
       if (
         ![

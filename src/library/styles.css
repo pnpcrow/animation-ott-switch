@@ -1534,6 +1534,21 @@ a {
   color: #a9bd93;
   margin: 10px 0;
 }
+.search-reset-settings {
+  margin-top: 20px;
+  padding-top: 18px;
+  border-top: 1px solid #343b36;
+}
+.search-reset-settings p {
+  color: #9da8a1;
+  font-size: 11px;
+  line-height: 1.8;
+  margin-bottom: 10px;
+}
+.search-reset-settings [role="status"] {
+  color: #b7e27c;
+  margin: 10px 0 0;
+}
 .future-feature > svg {
   margin-top: 2px;
 }

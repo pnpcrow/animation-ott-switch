@@ -146,6 +146,7 @@ async function request(
 ): Promise<{ body: string; url: string }> {
   const response = await fetch(url, {
     credentials: "omit",
+    cache: "no-store",
     redirect: "follow",
     signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
     headers: { Accept: "text/html,application/json" },

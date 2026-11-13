@@ -311,6 +311,28 @@ export function createRepository(name = "ott-switch-library") {
     });
   }
 
+  async function clearSearchResults(): Promise<{
+    links: number;
+    bookmarks: number;
+  }> {
+    return mutate((state) => {
+      let links = 0,
+        bookmarks = 0;
+      for (const bookmark of state.bookmarks) {
+        const automatic = Object.entries(bookmark.links).filter(
+          ([, link]) => link?.source === "search",
+        );
+        if (!automatic.length) continue;
+        for (const [provider] of automatic)
+          delete bookmark.links[provider as ProviderId];
+        links += automatic.length;
+        bookmarks++;
+        Object.assign(bookmark, stamp(state));
+      }
+      return { links, bookmarks };
+    });
+  }
+
   async function saveCategory(
     name: string,
     color = "#818cf8",
@@ -504,6 +526,7 @@ export function createRepository(name = "ott-switch-library") {
     saveBookmark,
     updateBookmark,
     deleteBookmark,
+    clearSearchResults,
     saveCategory,
     deleteCategory,
     updateSettings,

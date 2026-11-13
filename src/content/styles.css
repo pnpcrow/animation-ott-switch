@@ -237,6 +237,11 @@ p {
   align-items: center;
   gap: 7px;
 }
+.switch-section-actions {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 .switch-section-heading button {
   display: flex;
   align-items: center;

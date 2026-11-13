@@ -16,6 +16,10 @@ export interface ApiMethods {
   saveBookmark: { args: [SaveBookmarkInput]; result: Bookmark };
   updateBookmark: { args: [string, BookmarkPatch]; result: Bookmark };
   deleteBookmark: { args: [string]; result: void };
+  clearSearchResults: {
+    args: [];
+    result: { links: number; bookmarks: number };
+  };
   saveCategory: { args: [string, string?, string?]; result: Category };
   deleteCategory: { args: [string]; result: void };
   updateSettings: {
@@ -51,6 +55,7 @@ export type Request = {
   };
 }[Action];
 const previewListeners = new Set<() => void>();
+const previewSearchResetListeners = new Set<() => void>();
 const isExtension = () => typeof chrome !== "undefined" && !!chrome.runtime?.id;
 
 async function call<A extends Action>(
@@ -100,6 +105,8 @@ async function call<A extends Action>(
     >
   ] as (...values: unknown[]) => Promise<unknown>;
   const data = await fn.apply(repository, args);
+  if (action === "clearSearchResults")
+    previewSearchResetListeners.forEach((listener) => listener());
   if (!["snapshot", "exportBackup"].includes(action))
     previewListeners.forEach((listener) => listener());
   return data as ApiMethods[A]["result"];
@@ -111,6 +118,7 @@ export const api = {
   updateBookmark: (id: string, patch: BookmarkPatch) =>
     call("updateBookmark", id, patch),
   deleteBookmark: (id: string) => call("deleteBookmark", id),
+  clearSearchResults: () => call("clearSearchResults"),
   saveCategory: (name: string, color?: string, id?: string) =>
     call("saveCategory", name, color, id),
   deleteCategory: (id: string) => call("deleteCategory", id),
@@ -141,6 +149,23 @@ export const api = {
     candidateUrl?: string,
   ) => call("openResolved", page, provider, candidateUrl),
   openLibrary: () => call("openLibrary"),
+  subscribeSearchResultsCleared(listener: () => void) {
+    if (!isExtension()) {
+      previewSearchResetListeners.add(listener);
+      return () => {
+        previewSearchResetListeners.delete(listener);
+      };
+    }
+    const handler = (message: { channel?: string; event?: string }) => {
+      if (
+        message?.channel === "ott-switch" &&
+        message.event === "search-results-cleared"
+      )
+        listener();
+    };
+    chrome.runtime.onMessage.addListener(handler);
+    return () => chrome.runtime.onMessage.removeListener(handler);
+  },
   subscribe(listener: () => void) {
     if (!isExtension()) {
       previewListeners.add(listener);
