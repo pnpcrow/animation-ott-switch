@@ -6,6 +6,7 @@ import {
   detectProvider,
   isDetailUrl,
   isWorkTitle as isTitle,
+  normalizeTitle,
   providerTitleId,
   safeImageUrl,
   titleVariants,
@@ -15,14 +16,23 @@ function text(value: unknown): string {
   return typeof value === "string" ? value.trim() : "";
 }
 function meta(document: Document, name: string): string {
-  return (
-    document
-      .querySelector<HTMLMetaElement>(
-        `meta[property="${name}"], meta[name="${name}"]`,
-      )
-      ?.getAttribute("content")
-      ?.trim() ?? ""
-  );
+  const nodes = [
+    ...document.querySelectorAll<HTMLMetaElement>(
+      `meta[property="${name}"], meta[name="${name}"]`,
+    ),
+  ];
+  // Vue-managed title metadata can coexist with the site's static home tags.
+  const current =
+    nodes.filter((node) => node.hasAttribute("data-vue-meta")).at(-1) ??
+    nodes[0];
+  return current?.getAttribute("content")?.trim() ?? "";
+}
+
+function declaredPageUrl(value: string, base: string): string {
+  // Wavve publishes an official og:url without a scheme. Never treat an
+  // arbitrary hostname-like string as a trusted provider URL.
+  const absolute = `https://${value}`;
+  return detectProvider(absolute) ? absolute : new URL(value, base).href;
 }
 function structuredWorks(document: ParentNode): Record<string, unknown>[] {
   const works: Record<string, unknown>[] = [];
@@ -163,7 +173,7 @@ export function extractPage(
     for (const declaredUrl of [canonical, meta(document, "og:url")]) {
       if (!declaredUrl) continue;
       try {
-        const target = new URL(declaredUrl, value).href;
+        const target = declaredPageUrl(declaredUrl, value);
         if (
           isDetailUrl(target) &&
           (detectProvider(target) !== provider ||
@@ -189,12 +199,26 @@ export function extractPage(
         typeof w.url === "string" &&
         providerTitleId(w.url) === providerTitleId(value),
     ) ?? works[0];
-  const logo = root.querySelector(
-    'img.previewModal--player-titleTreatment-logo, .previewModal--player-titleTreatment-logo img, img.title-logo, [data-uia="title-logo"]',
+  const wavveHero =
+    provider === "wavve" ? root.querySelector(".video-wrap") : null;
+  const wavveLogo = wavveHero?.querySelector(
+    ".video-detail-area h1.logo-box img[alt]",
   );
+  const logo =
+    wavveLogo ||
+    root.querySelector(
+      'img.previewModal--player-titleTreatment-logo, .previewModal--player-titleTreatment-logo img, img.title-logo, [data-uia="title-logo"]',
+    );
   const rawHeadings = [
-    ...root.querySelectorAll('h1, [data-uia="title-info-title"], .title-title'),
+    ...(
+      wavveHero?.querySelector(".video-detail-area") || root
+    ).querySelectorAll('h1, [data-uia="title-info-title"], .title-title'),
   ]
+    .filter(
+      (heading) =>
+        provider !== "wavve" ||
+        !heading.closest("footer, nav, .footer, .episode-item-container"),
+    )
     .map((heading) => {
       const copy = heading.cloneNode(true) as Element;
       // Headings can wrap player buttons; those action labels are not the title.
@@ -207,10 +231,12 @@ export function extractPage(
   const visualTitles = [text(logo?.getAttribute("alt")), ...rawHeadings]
     .map(cleanTitle)
     .filter(isTitle);
-  const authoritative = [
+  const sourceTitles = [
     ...(modal ? [] : [text(work?.name)]),
     text(logo?.getAttribute("alt")),
-  ]
+  ];
+  if (wavveLogo) sourceTitles.reverse();
+  const authoritative = sourceTitles
     .map((title) => cleanPageTitle(title, provider, "title", visualTitles))
     .filter(isTitle);
   const metadata = modal
@@ -234,6 +260,12 @@ export function extractPage(
     : [authoritative[0] ?? "", heading ?? "", ...metadata];
   const title = choices.find(isTitle);
   if (!title) return null;
+  if (
+    wavveLogo &&
+    metadata[0] &&
+    normalizeTitle(metadata[0]) !== normalizeTitle(title)
+  )
+    return null;
   const alternate = work?.alternateName;
   const aliases = [
     ...new Set([
@@ -264,8 +296,13 @@ export function extractPage(
           ?.getAttribute("poster") ||
         root.querySelector('[class*="ItemHeader"] img')?.getAttribute("src")
       : undefined;
+  const wavvePoster = wavveHero
+    ?.querySelector(".player-area .poster-box img.poster-thumb")
+    ?.getAttribute("src");
   const imageUrl = safeImageUrl(
-    modal ? text(modalImage) : meta(document, "og:image") || text(image),
+    modal
+      ? text(modalImage)
+      : text(wavvePoster) || meta(document, "og:image") || text(image),
     value,
   );
   const modalDescription = netflixOverlay
@@ -275,10 +312,15 @@ export function extractPage(
     : laftelOverlay
       ? root.querySelector('[class*="ItemInfoBody__SummaryText"]')?.textContent
       : undefined;
+  const wavveSynopsis = wavveHero?.querySelector(
+    ".video-detail-area .detail-info-box.player-detail .content-clamp .text",
+  );
   const description = (
     modal
       ? text(modalDescription)
-      : text(work?.description) ||
+      : text(wavveSynopsis?.getAttribute("aria-label")) ||
+        text(wavveSynopsis?.textContent) ||
+        text(work?.description) ||
         meta(document, "og:description") ||
         text(
           root.querySelector(

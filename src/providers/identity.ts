@@ -217,7 +217,11 @@ export function canonicalizeProviderUrl(value: string): string | null {
     const key = ["contentid", "movieid", "programid"].find((key) =>
       url.searchParams.has(key),
     )!;
-    return `https://www.wavve.com${url.pathname.replace(".html", "").replace(/\/$/, "")}?${key}=${encodeURIComponent(id)}`;
+    const landing =
+      key === "programid" && url.searchParams.get("landing") === "season"
+        ? "&landing=season"
+        : "";
+    return `https://www.wavve.com${url.pathname.replace(".html", "").replace(/\/$/, "")}?${key}=${encodeURIComponent(id)}${landing}`;
   }
   url.search = "";
   url.hash = "";
@@ -226,13 +230,16 @@ export function canonicalizeProviderUrl(value: string): string | null {
 }
 
 const brandName =
-  "(?:라프텔|Laftel|넷플릭스|Netflix|Crunchyroll|Apple\\s*TV|애니플러스|ANIPLUS|Prime Video|Wavve|웨이브|TVING|티빙|쿠팡플레이|Coupang Play|왓챠|WATCHA)(?:\\+)?";
+  "(?:라프텔|Laftel|넷플릭스|Netflix|크런치롤|Crunchyroll|애플\\s*TV|Apple\\s*TV|애니플러스|ANIPLUS|프라임\\s*비디오|Prime\\s*Video|Wavve(?:\\(웨이브\\))?|웨이브|TVING|티빙|쿠팡\\s*플레이|Coupang\\s*Play|왓챠|WATCHA)(?:\\+)?";
+const brandPrefix = new RegExp(`^${brandName}\\s*:\\s*`, "i");
 const brandSuffix = new RegExp(
   `\\s*[|ㅣᅵ–—-]\\s*${brandName}(?:\\s+.*)?$`,
   "i",
 );
-const englishWatchBrandSuffix =
-  /\s*(?:[|–—-]\s*|on\s+)(?:Crunchyroll|Netflix|Prime Video|Apple\s*TV)(?:\+)?(?:\s+.*)?$/i;
+const englishWatchBrandSuffix = new RegExp(
+  `\\s*(?:[|–—-]\\s*|on\\s+)${brandName}(?:\\s+.*)?$`,
+  "i",
+);
 
 function presentationText(value: string): string {
   return value
@@ -244,12 +251,14 @@ function presentationText(value: string): string {
 
 function removeServiceDecoration(value: string): string {
   return value
+    .replace(/^\[wavve\]\s*/i, "")
+    .replace(/\s+:\s*(?:웨이브|Wavve(?:\(웨이브\))?)$/i, "")
     .replace(brandSuffix, "")
     .replace(
       /\s+on\s+(?:Netflix|Crunchyroll|Prime Video|Apple\s*TV)(?:\+)?$/i,
       "",
     )
-    .replace(/^Prime Video:\s*/i, "")
+    .replace(brandPrefix, "")
     .replace(/\s+라프텔\s*-\s*애니 추천 애니 스트리밍 서비스$/i, "")
     .replace(/,?\s*지금 시청하세요\s*$/i, "")
     .replace(
@@ -292,6 +301,9 @@ function isServicePageTitle(value: string): boolean {
       value,
     ) ||
     /^(?:Watch\s+)?Popular Anime,?\s*Play Games\s*(?:&|and)\s*Shop Online[.!]?$/i.test(
+      value,
+    ) ||
+    /^(?:(?:watch|stream)\s+)?(?:tv shows(?:\s+online)?(?:,\s*watch movies(?:\s+online)?)?|movies online|anime online)[.!]?$/i.test(
       value,
     ) ||
     /애니 추천 애니 스트리밍 서비스|한일 동시\s*방영.*채널/.test(value)
