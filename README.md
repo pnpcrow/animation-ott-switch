@@ -1,12 +1,12 @@
 # OTT Switch
 
-현재 작품을 다른 OTT에서 찾아 이동하고, 작품 중심으로 북마크를 관리하는 Chrome Manifest V3 확장 프로그램입니다. 기본 지역은 대한민국(KR)입니다.
+마음에 든 작품을 내 OTT로 이어 보고, 작품 중심으로 모아 두는 Chrome Manifest V3 확장 프로그램입니다. **한국 서비스 우선 · 로컬 저장 · 비공개 알파 0.1.0**
 
 ## 개발 계획
 
 1. **기반** — 비공개 GitHub 저장소, TypeScript/React, MV3 빌드, 데이터 계약.
 2. **로컬 보관함** — IndexedDB, 카테고리, 작품 편집, JSON 그룹 공유/백업, 최신 수정 우선 병합.
-3. **OTT 연결** — 라프텔·넷플릭스·Apple TV·Crunchyroll 작품 감지, 검색과 보수적인 동일 작품 판정, 재생 중 숨기는 오버레이.
+3. **OTT 연결** — 라프텔·애니플러스·Crunchyroll·Netflix·Prime Video·Apple TV·웨이브·티빙·쿠팡플레이·왓챠 작품 주소 인식, 검색과 보수적인 동일 작품 판정, 재생 중 숨기는 오버레이.
 4. **검증 및 비공개 배포** — 단위/브라우저 테스트, 설치 가능한 ZIP, CI, 제한 사항 기록.
 
 단위별 커밋을 만들고 각 단계가 끝날 때 `main`에 푸시합니다. 안정화 전에는 비공개를 유지합니다.
@@ -21,7 +21,47 @@
 
 ## 개발
 
-Node.js 22 이상에서 `npm install`, `npm run check`를 실행합니다. 실행·설치 및 검증 결과는 구현 완료 시 이 문서에 추가합니다.
+Node.js 22 이상에서 실행합니다.
+
+```sh
+npm ci
+npm run check
+npx playwright install chromium
+npm run test:e2e
+npm run package
+```
+
+빌드 결과는 `dist/`, 설치용 ZIP은 `release/ott-switch-0.1.0.zip`에 생성됩니다. `npm run dev`는 빌드 후 `http://127.0.0.1:4173/library.html`에 보관함 미리보기를 엽니다. localhost DB는 확장 DB와 별개이며 미리보기에서는 자동 OTT 조회를 하지 않습니다.
+
+## 설치
+
+1. [비공개 Releases](https://github.com/pnpcrow/animation-ott-switch/releases)에서 ZIP을 받아 압축을 풉니다. 또는 위 명령으로 `dist`를 빌드합니다.
+2. Chrome 주소창에서 `chrome://extensions`를 열고 **개발자 모드**를 켭니다.
+3. **압축해제된 확장 프로그램을 로드합니다**에서 `manifest.json`이 들어 있는 폴더를 선택합니다.
+4. 지원 OTT 작품 페이지를 새로고침하고 왼쪽 `OTT` 탭에서 카테고리를 선택해 저장합니다.
+5. 툴바의 OTT Switch 아이콘으로 보관함을 열고 설정에서 실제 구독 중인 서비스를 선택합니다.
+
+업데이트는 같은 폴더의 파일을 교체한 뒤 확장 **새로고침**을 사용하세요. 확장을 제거하면 로컬 데이터도 삭제되므로 먼저 JSON으로 백업하세요. 다른 설치 폴더·Chrome 프로필 간 이동도 JSON 백업을 이용합니다.
+
+## 현재 기능
+
+카테고리 / 작품 목록 / 대표 이미지와 소개를 분리한 3단 보관함을 제공합니다. 검색·정렬·즐겨찾기·구독 OTT 필터, 제목·이미지·설명·별칭·메모 편집과 직접 작품 추가를 지원합니다. 전체 JSON 백업과 선택 카테고리 그룹 공유가 가능하며 그룹 공유에는 개인 메모·즐겨찾기·구독 설정을 제외합니다.
+
+**10개 서비스의 자동 검색을 모두 보장하는 버전은 아닙니다.** 라프텔 공개 검색과 Apple TV 한국 검색은 실제 연결을 확인했습니다. 로그인·접근 확인·클라이언트 렌더링이 필요한 서비스는 `확인 필요`로 표시하고 공식 검색을 제공합니다. 동명·자막·더빙 후보는 직접 선택할 수 있습니다. 작품 페이지 확인은 구독 포함·무료 재생·한국 판권을 보증하지 않습니다. 상세 범위는 [서비스 지원표](docs/provider-support.md)에 기록했습니다.
+
+Google Drive 연결은 **아직 구현하지 않았습니다**. 수정 시각·기기 ID·삭제 기록과 병합 구조를 준비했으며 [동기화 설계](docs/sync-design.md)에 후속 구현 원칙을 정리했습니다. 공개 저장소 전환과 Chrome 웹 스토어 등록은 안정화 후 별도 진행합니다.
+
+## 검증 및 구조
+
+단위 테스트는 실제 응답에서 추린 fixture, URL 경계, 검색/접근 실패, 버전 중복, 원자적 저장, 백업 검증, 병합·삭제, 메시지 경계를 검사합니다. 브라우저 테스트는 Chromium에 실제 MV3 확장을 로드해 영속 저장·오버레이·재생 감지·SPA 이동·보관함을 확인합니다. 사이트 DOM은 고정 fixture이며 실제 로그인 계정 검증을 대신하지 않습니다. GitHub Actions에서도 검사 후 ZIP artifact를 생성합니다.
+
+`src/providers`는 사이트 어댑터, `src/background`는 네트워크/저장 메시지 처리, `src/content`는 Shadow DOM 오버레이, `src/core`는 DB/백업, `src/library`는 React 보관함입니다.
+
+- [서비스 지원표와 실측 근거](docs/provider-support.md)
+- [아키텍처](docs/architecture.md) 및 [동기화 설계](docs/sync-design.md)
+- [수동 QA 목록](docs/manual-qa.md)
+- [개인정보 및 권한](docs/privacy.md)
+- [0.1.0 변경 기록](docs/release-notes.md)
 
 ## 기술 참고
 
