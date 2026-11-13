@@ -1,0 +1,67 @@
+[
+  {
+    "id": "witch",
+    "requested": "어느 마녀가 죽을떄까지",
+    "query": "어느 마녀가 죽을 때까지",
+    "source": { "provider": "laftel", "url": "https://laftel.net/item/42783" },
+    "note": "사용자 입력의 떄 오타를 기준 자료에서 교정. 제품의 오타 교정 성공을 의미하지 않음."
+  },
+  {
+    "id": "frieren",
+    "requested": "장송의 프리렌",
+    "query": "장송의 프리렌",
+    "source": { "provider": "laftel", "url": "https://laftel.net/item/41666" },
+    "note": "출발 작품은 자막판. 더빙판·2기는 별도 후보."
+  },
+  {
+    "id": "sakura",
+    "requested": "카드캡터 사쿠라",
+    "query": "카드캡터 사쿠라",
+    "source": {
+      "provider": "apple",
+      "url": "https://tv.apple.com/kr/show/카드캡터-체리/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d"
+    },
+    "note": "1998 TV 시리즈. 공식 한국어 제목 카드캡터 체리. 극장판·클리어카드와 구분."
+  },
+  {
+    "id": "apothecary",
+    "requested": "약사의 혼잣말",
+    "query": "약사의 혼잣말",
+    "source": { "provider": "laftel", "url": "https://laftel.net/item/41714" },
+    "note": "출발 카탈로그의 재생 가능 여부와 다른 OTT 작품 존재 여부를 분리. 총집편은 별도."
+  },
+  {
+    "id": "nia",
+    "requested": "흉란영애 니아 리스톤",
+    "query": "흉란영애 니아 리스톤",
+    "source": { "provider": "laftel", "url": "https://laftel.net/item/47452" },
+    "note": "공식 전체 제목에 병약한 영애로 전생한 살신 무인의 화려한 무쌍담 부제가 있음."
+  },
+  {
+    "id": "rezero",
+    "requested": "Re: 제로부터 시작하는 이세계 생활",
+    "query": "Re: 제로부터 시작하는 이세계 생활",
+    "source": { "provider": "laftel", "url": "https://laftel.net/item/39644" },
+    "note": "현재 출발 페이지는 1기 감독판. 일반판·다른 시즌과 자동 동일시하면 안 됨."
+  },
+  {
+    "id": "dungeon",
+    "requested": "던전밥",
+    "query": "던전밥",
+    "source": {
+      "provider": "netflix",
+      "url": "https://www.netflix.com/kr/title/81564899"
+    },
+    "note": "2024 TV 애니메이션."
+  },
+  {
+    "id": "dinner",
+    "requested": "수수께끼 풀이는 저녁식사 후에",
+    "query": "수수께끼 풀이는 저녁식사 후에",
+    "source": {
+      "provider": "prime",
+      "url": "https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2"
+    },
+    "note": "2025 애니메이션. 동명의 실사 드라마·영화와 구분."
+  }
+]
