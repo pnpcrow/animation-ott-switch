@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-11-13T15:25:43.771Z",
+  "holdoutPredictionsInspected": false,
+  "wrapperSha256": "bef35d7997632d5c621842089075831533c613befa02f7dd03fa94aa9511ce92",
+  "frozenScorerSha256": "980857b519099dda07b9480a4f8b88835244c2ba230d7930242960f65d8311a5",
+  "dataFreezeSha256": "69d8b9a27c0ce91e495ee9851ae060c0c27d836c553e39fd99f21954bcc531a7",
+  "reason": "Parent observed all-none collapse for the 12-layer compact condition on development validation, before held-out outputs. It added a four-layer natural384 condition to separate shorter architecture from compact representation.",
+  "recipe": "small-natural",
+  "design": {
+    "layers": 4,
+    "representation": "original natural384",
+    "epochs": 3,
+    "seed": "same original fixed seed",
+    "split": "same original fixed split"
+  },
+  "reportOriginalThreeConditions": true,
+  "baselineComparison": "paired same120 cases against original full-natural/full",
+  "browserSelection": "Development-only selection; if selected run worker/WASM1/micro2 with tokenizer and score actual browser choices",
+  "dataAndLabelsChanged": false
+}

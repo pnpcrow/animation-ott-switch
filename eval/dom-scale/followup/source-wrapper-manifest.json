@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "hashes": {
+    "eval/dom-scale/followup/pipeline.py": "e6898a4c85757e5b1477290bb0cda0a9838a45eecdd3adb70d14ac776ff2af1d",
+    "eval/dom-scale/followup/prepare-inputs.mjs": "c04edde32c14accb3e1d51e5229add82368e57aa7d1654df3fcfedf4c075a7f8"
+  },
+  "originalModelFreezeSha256": "5895e23fb71789e56ffa9de82fa7f10779fb3f11ec26c924573b5f19358dec16",
+  "originalDesignSha256": "fcf36390bc739311cc345b0348ca5b608cd517cad0302be750cc499e12763bf4",
+  "originalTrainingSha256": "55d2c237131b77c8b1fb1e48f116363b806cf501ddf16528767f7f45d96210db",
+  "postDevelopmentFollowup": true,
+  "reason": "Post-development follow-up: both original compact conditions selected none for all 57 validation cases. Add four-layer natural input to isolate depth reduction from the failed compact representation; no held-out data observed.",
+  "recipe": {
+    "small-natural": {
+      "layers": [
+        2,
+        5,
+        8,
+        11
+      ],
+      "maximumTokens": 384
+    }
+  },
+  "frozenAt": "2026-11-13T15:30:04Z"
+}

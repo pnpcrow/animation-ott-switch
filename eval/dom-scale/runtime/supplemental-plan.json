@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "recipe": "small-natural",
+  "reason": "Added after development-only full-compact validation collapsed to all NONE, before any held-out predictions. Retain natural input to distinguish information compression from encoder-depth reduction.",
+  "originalConditionsRetained": true,
+  "runnerFreeze": "eval/dom-scale/runtime/source-freeze.json",
+  "mode": "worker",
+  "batch": "full",
+  "performanceBatches": ["full", "micro2"],
+  "developmentRuntimeAmendment": "Before any blind predictions, small-natural q8 full scored 42/57 versus micro2 40/57, with only 50/57 identical choices. Use full batch for the selected browser test; measure both for the performance/accuracy tradeoff. The initial micro2 plan is preserved as supplemental-plan.initial.json.",
+  "provider": "wasm",
+  "threads": 1,
+  "tokenize": true,
+  "arena": true,
+  "memoryPattern": true,
+  "cohort": "The identical 57 frozen development-validation fields, no correct-only filtering.",
+  "rounds": 2,
+  "timing": "Execute sequentially after the two original counterbalanced benchmark rounds, fresh isolated Chromium each time. Report additional ordering limitation. No simultaneous training or native prediction.",
+  "accuracySelection": "Use the same development-only final-epoch selection rule across all four candidates. Blind test may not change selection, templates, labels or weights.",
+  "metrics": "Identical processing/inference/tokenization latency, sampled process-set memory and native choice agreement to the original runtime plan."
+}

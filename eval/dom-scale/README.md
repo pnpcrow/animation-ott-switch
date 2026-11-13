@@ -30,6 +30,12 @@ Candidate identity, work identity and human page-kind annotations are not model 
 
 Models are exported to dynamic-shape ONNX and q8. Native FP32 versus q8 and full-candidate versus two-candidate microbatches are compared directly. Reduced precision and different batch shapes may change scores or choices; equivalence is measured rather than assumed. Model, data, representation, predictor and browser source hashes are frozen before blind evaluation. The independent evaluator retains failed cases in the denominator and reports field, provider, observed-state, positive/NONE and target-work-cluster uncertainty.
 
+### Development-driven fourth condition
+
+The compact 12-layer condition selected NONE for all 57 development-validation fields. Before inspecting or running any blind predictions, a separate `small-natural` follow-up was added: the same four retained layers, but the original natural input and 384-token budget. The same seed, split, three epochs and optimizer are retained. Original three-condition sources and freezes remain unchanged; `followup/` has separate wrappers, design, artifacts and freeze. This is an adaptive development experiment, not a fourth condition planned before seeing development results. All four results must be reported; selection uses development only. Its browser runs use the same frozen runner and 57-case cohort, with the extra run-order limitation recorded in `runtime/supplemental-plan.json`.
+
+The follow-up q8 model scored 42/57 with full batches and 40/57 with microbatches of two; only 50/57 choices matched. The selected follow-up browser path therefore uses **full batches**, decided before blind prediction. Both batch shapes remain in the native and performance reports. Original microbatch plans and their amendment history are retained.
+
 ## Browser measurement
 
 `scripts/dom-scale-browser.mjs` serves only local model/runtime assets to an isolated Chromium process. External requests are blocked. WASM uses one thread. The optimized path uses a dedicated module worker, sequential microbatches of two candidates, immediate tensor disposal, session release and worker termination. No WebGPU-capable device or hosted API is required.

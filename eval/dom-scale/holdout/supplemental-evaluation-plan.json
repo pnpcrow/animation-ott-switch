@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-11-13T15:25:43.771Z",
+  "holdoutPredictionsInspected": false,
+  "wrapperSha256": "5c62e1da110c292566b17dd63f60623c9b6d88924c7845428f7d1511e31687b1",
+  "frozenScorerSha256": "980857b519099dda07b9480a4f8b88835244c2ba230d7930242960f65d8311a5",
+  "dataFreezeSha256": "69d8b9a27c0ce91e495ee9851ae060c0c27d836c553e39fd99f21954bcc531a7",
+  "reason": "Parent observed all-none collapse for the 12-layer compact condition on development validation, before held-out outputs. It added a four-layer natural384 condition to separate shorter architecture from compact representation.",
+  "recipe": "small-natural",
+  "design": {
+    "layers": 4,
+    "representation": "original natural384",
+    "epochs": 3,
+    "seed": "same original fixed seed",
+    "split": "same original fixed split"
+  },
+  "reportOriginalThreeConditions": true,
+  "baselineComparison": "paired same120 cases against original full-natural/full",
+  "browserSelection": "Development-only selection; selected worker/WASM1/full with tokenizer, score actual browser choices",
+  "dataAndLabelsChanged": false,
+  "amendedAt": "2026-11-13T15:36:12.204Z",
+  "previousPlanSha256": "2da219b52a37bd7ae4f7e8a003c115d5c7872eb532e7c572007783044a344661",
+  "previousWrapperSha256": "bef35d7997632d5c621842089075831533c613befa02f7dd03fa94aa9511ce92",
+  "amendmentReason": "Before held-out predictions: parent selected full batch from development-only q8 results (full42/57, micro2 40/57; choices same50/57). Native full and micro2 remain reported.",
+  "selectedBatch": "full",
+  "browserConfiguration": {
+    "mode": "worker",
+    "provider": "wasm",
+    "threads": 1,
+    "batch": "full",
+    "tokenize": true
+  }
+}

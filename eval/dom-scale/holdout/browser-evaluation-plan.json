@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-11-13T15:21:27.535Z",
+  "modelOutputsInspected": false,
+  "browserOutputsInspected": false,
+  "wrapperSha256": "e084d49f3cf12ae455c65794bbae2a2272a419057a7b102ab16a541942e0115b",
+  "frozenScorerSha256": "980857b519099dda07b9480a4f8b88835244c2ba230d7930242960f65d8311a5",
+  "dataFreezeSha256": "69d8b9a27c0ce91e495ee9851ae060c0c27d836c553e39fd99f21954bcc531a7",
+  "recipeSelection": "Development validation only; no held-out selection",
+  "configuration": {
+    "mode": "worker",
+    "provider": "wasm",
+    "threads": 1,
+    "microbatch": 2,
+    "tokenize": true
+  },
+  "denominator": "All frozen120 cases; missing/invalid/error cases are wrong; actual browser choices only",
+  "nativeComparison": "Compare only two valid selections; never use native choices to fill browser results"
+}

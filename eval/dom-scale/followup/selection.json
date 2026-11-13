@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "selectionRule": "validation correct descending, false selections ascending, parameter count ascending, recipe ID; final epoch only",
+  "basis": "Original fixed development validation only; final epoch fp32; holdout remains unseen.",
+  "postDevelopmentFollowup": true,
+  "reason": "Post-development follow-up: both original compact conditions selected none for all 57 validation cases. Add four-layer natural input to isolate depth reduction from the failed compact representation; no held-out data observed.",
+  "originalTrainingSha256": "55d2c237131b77c8b1fb1e48f116363b806cf501ddf16528767f7f45d96210db",
+  "followupTrainingSha256": "5621e7c0f8b6d16df112c5c62d4af1ade26b7b9eb533d3b8a4feeafcb286e699",
+  "selected": "small-natural",
+  "selectedCompactArchitecture": "small-natural",
+  "ranking": [
+    {
+      "recipe": "small-natural",
+      "parameters": 7738369,
+      "validationScore": {
+        "total": 57,
+        "correct": 41,
+        "positiveCorrect": 8,
+        "noneCorrect": 33,
+        "falseSelections": 11,
+        "abstentions": 38,
+        "errors": 0
+      }
+    },
+    {
+      "recipe": "full-natural",
+      "parameters": 14056449,
+      "validationScore": {
+        "total": 57,
+        "correct": 39,
+        "positiveCorrect": 6,
+        "noneCorrect": 33,
+        "falseSelections": 6,
+        "abstentions": 45,
+        "errors": 0
+      }
+    },
+    {
+      "recipe": "small-compact",
+      "parameters": 7738369,
+      "validationScore": {
+        "total": 57,
+        "correct": 33,
+        "positiveCorrect": 0,
+        "noneCorrect": 33,
+        "falseSelections": 0,
+        "abstentions": 57,
+        "errors": 0
+      }
+    },
+    {
+      "recipe": "full-compact",
+      "parameters": 14056449,
+      "validationScore": {
+        "total": 57,
+        "correct": 33,
+        "positiveCorrect": 0,
+        "noneCorrect": 33,
+        "falseSelections": 0,
+        "abstentions": 57,
+        "errors": 0
+      }
+    }
+  ],
+  "frozenAt": "2026-11-13T15:33:47Z"
+}

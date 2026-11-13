@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "selected": "small-natural",
+  "designSha256": "abf7f21ec5966654e11be2a67865fcef60f5b4867c84a17ac6973c7f5ead3b32",
+  "trainingSha256": "5621e7c0f8b6d16df112c5c62d4af1ade26b7b9eb533d3b8a4feeafcb286e699",
+  "models": {
+    "small-natural": {
+      "path": ".tmp\\dom-scale\\followup\\weights\\small-natural.safetensors",
+      "bytes": 30961964,
+      "sha256": "9e1fa3b26ab97ef215393b285750ff1683960563a8c7dfc6f166593d728a2843"
+    }
+  },
+  "sources": {
+    "eval/dom-scale/model/train.py": "5f68378d8295aaec1ea2d072dde548d83adfce9dfc5f04967611a0ca75777600",
+    "eval/dom-scale/model/shared.py": "b781f694c1e8b9692bbcd99eaf633e7b8ea1cd0737c212aca00f65d0406ddd25",
+    "eval/dom-scale/model/representation.mjs": "f3a84fc60995afd5a684897d7214fb2d0e1760680e32c837d96dbf41a22e8bd4",
+    "eval/dom-scale/model/prepare-inputs.mjs": "7a0b1062e37d10e1d09102e6023e210df6cbab9840c79bed2bdc0ccf0bd0de83",
+    "eval/dom-scale/model/export.py": "af089d9b0427856ca1ccf060bec363f998252357c6f4cd4dde50a9f76bcac20e",
+    "eval/dom-scale/model/predict.py": "8ab5e47e2686c89cbb950023ea7f4a65f3cf3ddeb09103c593df20dfe924668b",
+    "eval/dom-adaptation/finetune/prepare.py": "d86e56e50f05c8193acc387269851be2779629c10a77ce3fe9cf5c740bc86ef5",
+    "eval/tiny-decision/v2/features.mjs": "01d561a330e0e46faff35a989255332bebecb69844494d74f827ebdea8d9df9a",
+    "eval/dom-adaptation/templates.mjs": "bb3f1e92b62aa7c8cbd74505125b411a9ee37766e4017fe45b260084fa2a4b1e",
+    "eval/dom-scale/followup/pipeline.py": "e6898a4c85757e5b1477290bb0cda0a9838a45eecdd3adb70d14ac776ff2af1d",
+    "eval/dom-scale/followup/prepare-inputs.mjs": "c04edde32c14accb3e1d51e5229add82368e57aa7d1654df3fcfedf4c075a7f8",
+    "eval/dom-scale/followup/source-wrapper-manifest.json": "c9fcb4d46c6494e2ddb2d4d87b9add759f1d07bbbedc7d273ad3dfe8ac6beea8"
+  },
+  "frozenAt": "2026-11-13T15:33:46Z",
+  "holdoutStatus": "Development-motivated fourth condition frozen; no held-out inputs, labels or results read.",
+  "postDevelopmentFollowup": true
+}
