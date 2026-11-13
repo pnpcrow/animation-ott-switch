@@ -13,3 +13,6 @@ artifacts/
 .tmp/
 __pycache__/
 *.pyc
+# Large reproducible holdout tensors are preserved as checked gzip archives.
+eval/dom-scale/holdout/predictions/*-browser.json
+eval/dom-scale/holdout/supplemental/predictions/*-browser.json

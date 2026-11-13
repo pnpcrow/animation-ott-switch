@@ -1,0 +1,484 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T15:47:20.726Z",
+  "notes": [
+    "Development-validation cohort, not the blind test.",
+    "Two independent fresh-browser rounds in opposite order. Per-case latency percentiles are not population confidence intervals.",
+    "Sampled working-set sums include browser overhead/shared-page double counting. Not continuous peak physical RAM.",
+    "Complete field processing still excludes DOM collection/template construction, fixture I/O, load and reporting."
+  ],
+  "runs": [
+    {
+      "id": "natural-main-full",
+      "recipe": "full-natural",
+      "round": 1,
+      "path": "eval/dom-scale/runtime/results/natural-main-full-r1.json",
+      "sha256": "59329d4aa83e66d21050383febba31edcfb90ca7dd132a72ed8daf74e3a6e2f3",
+      "cases": 57,
+      "valid": 57,
+      "correct": 39,
+      "automaticNone": 1,
+      "processing": {
+        "count": 56,
+        "p50Ms": 1195.9349999427795,
+        "p95Ms": 1949.625
+      },
+      "inference": {
+        "count": 56,
+        "p50Ms": 1193.1400001049042,
+        "p95Ms": 1944.4499998092651
+      },
+      "tokenizationAndInference": {
+        "count": 56,
+        "p50Ms": 1195.1299998760223,
+        "p95Ms": 1948.4150002002716
+      },
+      "loadMs": 466.90499997138977,
+      "modelBytes": 14700237,
+      "tokenizerLoadMs": 40.53999996185303,
+      "nativeReference": {
+        "complete": true,
+        "cases": 57,
+        "sameSelections": 57,
+        "maximumAbsoluteLogitDifference": 0.522664487361908,
+        "note": "Native and WASM numerical equality is not assumed. Score differences and top-choice agreement are separate from successful inference and exact tokenizer parity."
+      },
+      "timer": {
+        "samples": 502,
+        "maximumGapMs": 2232.2599999904633,
+        "note": "Diagnostic timer intervals include loading, reporting and browser scheduling; not a user interaction latency metric."
+      },
+      "memory": {
+        "baselineBytes": 412037120,
+        "sampledMaximumBytes": 652349440,
+        "sampledMaximumStage": "one-second-after-release",
+        "baselineToMaximumBytes": 240312320,
+        "afterTerminationAndOneSecondBytes": 652349440,
+        "retainedAboveBaselineBytes": 240312320
+      },
+      "environment": {
+        "platform": "win32",
+        "osRelease": "10.0.26300",
+        "arch": "x64",
+        "cpu": "AMD Ryzen 7 8840U w/ Radeon 780M Graphics      ",
+        "logicalCpus": 16,
+        "physicalMemoryBytes": 55611957248,
+        "node": "v24.19.0",
+        "chromium": "158.0.8127.18"
+      }
+    },
+    {
+      "id": "natural-main-full",
+      "recipe": "full-natural",
+      "round": 2,
+      "path": "eval/dom-scale/runtime/results/natural-main-full-r2.json",
+      "sha256": "aa5be8f8354bd041f72dd4f522301581124bf3ef7afb6752c03458415dd848b0",
+      "cases": 57,
+      "valid": 57,
+      "correct": 39,
+      "automaticNone": 1,
+      "processing": {
+        "count": 56,
+        "p50Ms": 1207.914999961853,
+        "p95Ms": 1870.710000038147
+      },
+      "inference": {
+        "count": 56,
+        "p50Ms": 1205.0599999427795,
+        "p95Ms": 1866.7800002098083
+      },
+      "tokenizationAndInference": {
+        "count": 56,
+        "p50Ms": 1207.1000006198883,
+        "p95Ms": 1869.6500005722046
+      },
+      "loadMs": 482.960000038147,
+      "modelBytes": 14700237,
+      "tokenizerLoadMs": 41.12999987602234,
+      "nativeReference": {
+        "complete": true,
+        "cases": 57,
+        "sameSelections": 57,
+        "maximumAbsoluteLogitDifference": 0.522664487361908,
+        "note": "Native and WASM numerical equality is not assumed. Score differences and top-choice agreement are separate from successful inference and exact tokenizer parity."
+      },
+      "timer": {
+        "samples": 515,
+        "maximumGapMs": 2071.7750000953674,
+        "note": "Diagnostic timer intervals include loading, reporting and browser scheduling; not a user interaction latency metric."
+      },
+      "memory": {
+        "baselineBytes": 408309760,
+        "sampledMaximumBytes": 646602752,
+        "sampledMaximumStage": "released-57",
+        "baselineToMaximumBytes": 238292992,
+        "afterTerminationAndOneSecondBytes": 645689344,
+        "retainedAboveBaselineBytes": 237379584
+      },
+      "environment": {
+        "platform": "win32",
+        "osRelease": "10.0.26300",
+        "arch": "x64",
+        "cpu": "AMD Ryzen 7 8840U w/ Radeon 780M Graphics      ",
+        "logicalCpus": 16,
+        "physicalMemoryBytes": 55611957248,
+        "node": "v24.19.0",
+        "chromium": "158.0.8127.18"
+      }
+    },
+    {
+      "id": "natural-worker-micro2",
+      "recipe": "full-natural",
+      "round": 1,
+      "path": "eval/dom-scale/runtime/results/natural-worker-micro2-r1.json",
+      "sha256": "38e6fd58d20274f74f58af14539b1c2ff4f789140962e85535157c21ca442d86",
+      "cases": 57,
+      "valid": 57,
+      "correct": 39,
+      "automaticNone": 1,
+      "processing": {
+        "count": 56,
+        "p50Ms": 1023.1699998378754,
+        "p95Ms": 1809.9049999713898
+      },
+      "inference": {
+        "count": 56,
+        "p50Ms": 1019.3199999332428,
+        "p95Ms": 1804.795000076294
+      },
+      "tokenizationAndInference": {
+        "count": 56,
+        "p50Ms": 1022.3999996185303,
+        "p95Ms": 1808.604999780655
+      },
+      "loadMs": 463.0549998283386,
+      "modelBytes": 14700237,
+      "tokenizerLoadMs": 42.9449999332428,
+      "nativeReference": {
+        "complete": true,
+        "cases": 57,
+        "sameSelections": 57,
+        "maximumAbsoluteLogitDifference": 0.858480304479599,
+        "note": "Native and WASM numerical equality is not assumed. Score differences and top-choice agreement are separate from successful inference and exact tokenizer parity."
+      },
+      "timer": {
+        "samples": 3942,
+        "maximumGapMs": 23.044999837875366,
+        "note": "Diagnostic timer intervals include loading, reporting and browser scheduling; not a user interaction latency metric."
+      },
+      "memory": {
+        "baselineBytes": 409518080,
+        "sampledMaximumBytes": 634998784,
+        "sampledMaximumStage": "inference-29",
+        "baselineToMaximumBytes": 225480704,
+        "afterTerminationAndOneSecondBytes": 490176512,
+        "retainedAboveBaselineBytes": 80658432
+      },
+      "environment": {
+        "platform": "win32",
+        "osRelease": "10.0.26300",
+        "arch": "x64",
+        "cpu": "AMD Ryzen 7 8840U w/ Radeon 780M Graphics      ",
+        "logicalCpus": 16,
+        "physicalMemoryBytes": 55611957248,
+        "node": "v24.19.0",
+        "chromium": "158.0.8127.18"
+      }
+    },
+    {
+      "id": "natural-worker-micro2",
+      "recipe": "full-natural",
+      "round": 2,
+      "path": "eval/dom-scale/runtime/results/natural-worker-micro2-r2.json",
+      "sha256": "0161469a73a844d3490f772819b1e2c24cac580c84f8f5c8a8058e3ea886c15e",
+      "cases": 57,
+      "valid": 57,
+      "correct": 39,
+      "automaticNone": 1,
+      "processing": {
+        "count": 56,
+        "p50Ms": 1034.7649998664856,
+        "p95Ms": 1714.8499999046326
+      },
+      "inference": {
+        "count": 56,
+        "p50Ms": 1030.7749993801117,
+        "p95Ms": 1709.7649998664856
+      },
+      "tokenizationAndInference": {
+        "count": 56,
+        "p50Ms": 1033.949999332428,
+        "p95Ms": 1713.5699996948242
+      },
+      "loadMs": 461.41999983787537,
+      "modelBytes": 14700237,
+      "tokenizerLoadMs": 38.08999991416931,
+      "nativeReference": {
+        "complete": true,
+        "cases": 57,
+        "sameSelections": 57,
+        "maximumAbsoluteLogitDifference": 0.858480304479599,
+        "note": "Native and WASM numerical equality is not assumed. Score differences and top-choice agreement are separate from successful inference and exact tokenizer parity."
+      },
+      "timer": {
+        "samples": 3559,
+        "maximumGapMs": 22.605000019073486,
+        "note": "Diagnostic timer intervals include loading, reporting and browser scheduling; not a user interaction latency metric."
+      },
+      "memory": {
+        "baselineBytes": 406032384,
+        "sampledMaximumBytes": 634707968,
+        "sampledMaximumStage": "inference-29",
+        "baselineToMaximumBytes": 228675584,
+        "afterTerminationAndOneSecondBytes": 493367296,
+        "retainedAboveBaselineBytes": 87334912
+      },
+      "environment": {
+        "platform": "win32",
+        "osRelease": "10.0.26300",
+        "arch": "x64",
+        "cpu": "AMD Ryzen 7 8840U w/ Radeon 780M Graphics      ",
+        "logicalCpus": 16,
+        "physicalMemoryBytes": 55611957248,
+        "node": "v24.19.0",
+        "chromium": "158.0.8127.18"
+      }
+    },
+    {
+      "id": "compact-worker-micro2",
+      "recipe": "full-compact",
+      "round": 1,
+      "path": "eval/dom-scale/runtime/results/compact-worker-micro2-r1.json",
+      "sha256": "ea5680ef51990a146db889c914f9cd0dbed8447bb31a9a02aefd242d6730c65d",
+      "cases": 57,
+      "valid": 57,
+      "correct": 33,
+      "automaticNone": 1,
+      "processing": {
+        "count": 56,
+        "p50Ms": 523.67999958992,
+        "p95Ms": 1018.7649998664856
+      },
+      "inference": {
+        "count": 56,
+        "p50Ms": 521.9249999523163,
+        "p95Ms": 1012.1749997138977
+      },
+      "tokenizationAndInference": {
+        "count": 56,
+        "p50Ms": 523.2200002670288,
+        "p95Ms": 1017.4150002002716
+      },
+      "loadMs": 495.3049998283386,
+      "modelBytes": 14700237,
+      "tokenizerLoadMs": 39.670000076293945,
+      "nativeReference": {
+        "complete": true,
+        "cases": 57,
+        "sameSelections": 57,
+        "maximumAbsoluteLogitDifference": 0.29920315742492676,
+        "note": "Native and WASM numerical equality is not assumed. Score differences and top-choice agreement are separate from successful inference and exact tokenizer parity."
+      },
+      "timer": {
+        "samples": 2345,
+        "maximumGapMs": 22.68499994277954,
+        "note": "Diagnostic timer intervals include loading, reporting and browser scheduling; not a user interaction latency metric."
+      },
+      "memory": {
+        "baselineBytes": 406495232,
+        "sampledMaximumBytes": 626958336,
+        "sampledMaximumStage": "inference-29",
+        "baselineToMaximumBytes": 220463104,
+        "afterTerminationAndOneSecondBytes": 487985152,
+        "retainedAboveBaselineBytes": 81489920
+      },
+      "environment": {
+        "platform": "win32",
+        "osRelease": "10.0.26300",
+        "arch": "x64",
+        "cpu": "AMD Ryzen 7 8840U w/ Radeon 780M Graphics      ",
+        "logicalCpus": 16,
+        "physicalMemoryBytes": 55611957248,
+        "node": "v24.19.0",
+        "chromium": "158.0.8127.18"
+      }
+    },
+    {
+      "id": "compact-worker-micro2",
+      "recipe": "full-compact",
+      "round": 2,
+      "path": "eval/dom-scale/runtime/results/compact-worker-micro2-r2.json",
+      "sha256": "eb25c2f2dfb87feee0167eeec031631bd1dc1220a170e1cf20042eeee658b2ae",
+      "cases": 57,
+      "valid": 57,
+      "correct": 33,
+      "automaticNone": 1,
+      "processing": {
+        "count": 56,
+        "p50Ms": 509.5499999523163,
+        "p95Ms": 935.6149995326996
+      },
+      "inference": {
+        "count": 56,
+        "p50Ms": 507.8050000667572,
+        "p95Ms": 932.5800001621246
+      },
+      "tokenizationAndInference": {
+        "count": 56,
+        "p50Ms": 509.10000014305115,
+        "p95Ms": 934.8399994373322
+      },
+      "loadMs": 484.77999997138977,
+      "modelBytes": 14700237,
+      "tokenizerLoadMs": 44.16000008583069,
+      "nativeReference": {
+        "complete": true,
+        "cases": 57,
+        "sameSelections": 57,
+        "maximumAbsoluteLogitDifference": 0.29920315742492676,
+        "note": "Native and WASM numerical equality is not assumed. Score differences and top-choice agreement are separate from successful inference and exact tokenizer parity."
+      },
+      "timer": {
+        "samples": 2248,
+        "maximumGapMs": 17.58999991416931,
+        "note": "Diagnostic timer intervals include loading, reporting and browser scheduling; not a user interaction latency metric."
+      },
+      "memory": {
+        "baselineBytes": 406347776,
+        "sampledMaximumBytes": 625553408,
+        "sampledMaximumStage": "inference-29",
+        "baselineToMaximumBytes": 219205632,
+        "afterTerminationAndOneSecondBytes": 497913856,
+        "retainedAboveBaselineBytes": 91566080
+      },
+      "environment": {
+        "platform": "win32",
+        "osRelease": "10.0.26300",
+        "arch": "x64",
+        "cpu": "AMD Ryzen 7 8840U w/ Radeon 780M Graphics      ",
+        "logicalCpus": 16,
+        "physicalMemoryBytes": 55611957248,
+        "node": "v24.19.0",
+        "chromium": "158.0.8127.18"
+      }
+    },
+    {
+      "id": "small-worker-micro2",
+      "recipe": "small-compact",
+      "round": 1,
+      "path": "eval/dom-scale/runtime/results/small-worker-micro2-r1.json",
+      "sha256": "7c7030584c35ee05fdd8f9e5ae149e788608ceca76ed425118cb1866fa997fbc",
+      "cases": 57,
+      "valid": 57,
+      "correct": 33,
+      "automaticNone": 1,
+      "processing": {
+        "count": 56,
+        "p50Ms": 174.76500010490417,
+        "p95Ms": 331.025000333786
+      },
+      "inference": {
+        "count": 56,
+        "p50Ms": 173.01000022888184,
+        "p95Ms": 327.8250002861023
+      },
+      "tokenizationAndInference": {
+        "count": 56,
+        "p50Ms": 174.28499960899353,
+        "p95Ms": 330.16000032424927
+      },
+      "loadMs": 364.6949999332428,
+      "modelBytes": 7969650,
+      "tokenizerLoadMs": 43.735000133514404,
+      "nativeReference": {
+        "complete": true,
+        "cases": 57,
+        "sameSelections": 57,
+        "maximumAbsoluteLogitDifference": 0.510923445224762,
+        "note": "Native and WASM numerical equality is not assumed. Score differences and top-choice agreement are separate from successful inference and exact tokenizer parity."
+      },
+      "timer": {
+        "samples": 1066,
+        "maximumGapMs": 17.505000114440918,
+        "note": "Diagnostic timer intervals include loading, reporting and browser scheduling; not a user interaction latency metric."
+      },
+      "memory": {
+        "baselineBytes": 405729280,
+        "sampledMaximumBytes": 602779648,
+        "sampledMaximumStage": "released-57",
+        "baselineToMaximumBytes": 197050368,
+        "afterTerminationAndOneSecondBytes": 495181824,
+        "retainedAboveBaselineBytes": 89452544
+      },
+      "environment": {
+        "platform": "win32",
+        "osRelease": "10.0.26300",
+        "arch": "x64",
+        "cpu": "AMD Ryzen 7 8840U w/ Radeon 780M Graphics      ",
+        "logicalCpus": 16,
+        "physicalMemoryBytes": 55611957248,
+        "node": "v24.19.0",
+        "chromium": "158.0.8127.18"
+      }
+    },
+    {
+      "id": "small-worker-micro2",
+      "recipe": "small-compact",
+      "round": 2,
+      "path": "eval/dom-scale/runtime/results/small-worker-micro2-r2.json",
+      "sha256": "7c5c46cc4d01abdf6bce237072a1e14c5b7e8ebccb50108fae6533fecf4c508b",
+      "cases": 57,
+      "valid": 57,
+      "correct": 33,
+      "automaticNone": 1,
+      "processing": {
+        "count": 56,
+        "p50Ms": 204.7649998664856,
+        "p95Ms": 343.79499983787537
+      },
+      "inference": {
+        "count": 56,
+        "p50Ms": 202.72999954223633,
+        "p95Ms": 340.10000014305115
+      },
+      "tokenizationAndInference": {
+        "count": 56,
+        "p50Ms": 204.28499913215637,
+        "p95Ms": 342.93499994277954
+      },
+      "loadMs": 366.085000038147,
+      "modelBytes": 7969650,
+      "tokenizerLoadMs": 45.5699999332428,
+      "nativeReference": {
+        "complete": true,
+        "cases": 57,
+        "sameSelections": 57,
+        "maximumAbsoluteLogitDifference": 0.510923445224762,
+        "note": "Native and WASM numerical equality is not assumed. Score differences and top-choice agreement are separate from successful inference and exact tokenizer parity."
+      },
+      "timer": {
+        "samples": 1103,
+        "maximumGapMs": 17.570000171661377,
+        "note": "Diagnostic timer intervals include loading, reporting and browser scheduling; not a user interaction latency metric."
+      },
+      "memory": {
+        "baselineBytes": 406974464,
+        "sampledMaximumBytes": 603271168,
+        "sampledMaximumStage": "released-57",
+        "baselineToMaximumBytes": 196296704,
+        "afterTerminationAndOneSecondBytes": 496373760,
+        "retainedAboveBaselineBytes": 89399296
+      },
+      "environment": {
+        "platform": "win32",
+        "osRelease": "10.0.26300",
+        "arch": "x64",
+        "cpu": "AMD Ryzen 7 8840U w/ Radeon 780M Graphics      ",
+        "logicalCpus": 16,
+        "physicalMemoryBytes": 55611957248,
+        "node": "v24.19.0",
+        "chromium": "158.0.8127.18"
+      }
+    }
+  ]
+}

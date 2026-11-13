@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "algorithm": "gzip level9; Node writes zero mtime; decompressed bytes preserved exactly",
+  "files": [
+    {
+      "original": "eval/dom-scale/holdout/predictions/full-compact-full-browser.json",
+      "archive": "eval/dom-scale/holdout/browser-plan-archives/full-compact-full-browser.json.gz",
+      "originalBytes": 15365792,
+      "originalSha256": "1992952668dbe7c79570537da68c03fab03a8bcc2e6e7f1a17a1f9afd6ebdbb3",
+      "archiveBytes": 394275,
+      "archiveSha256": "6e4f903d600e1de5c361426a44cf205ef28e95898b3ca11b6f32302ad0aff58b"
+    },
+    {
+      "original": "eval/dom-scale/holdout/predictions/full-compact-micro2-browser.json",
+      "archive": "eval/dom-scale/holdout/browser-plan-archives/full-compact-micro2-browser.json.gz",
+      "originalBytes": 15366724,
+      "originalSha256": "8d4c32de1d6fe20c376fad13421efb31389b02abe84b5ec5979948763fa2e22c",
+      "archiveBytes": 390058,
+      "archiveSha256": "a921726f1f85fe009bed27373e37664de3b34942b9ee1ea6c4ac953782dc9591"
+    },
+    {
+      "original": "eval/dom-scale/holdout/predictions/full-natural-full-browser.json",
+      "archive": "eval/dom-scale/holdout/browser-plan-archives/full-natural-full-browser.json.gz",
+      "originalBytes": 24776947,
+      "originalSha256": "f02c3cf79604c8f0450d83502e11baa4a499facd95963f88aa5ba0627d826eb2",
+      "archiveBytes": 535164,
+      "archiveSha256": "d9591d52a04c97ac0fcf1f57b69d86ade4216a815991618dc47ebcb84136b074"
+    },
+    {
+      "original": "eval/dom-scale/holdout/predictions/full-natural-micro2-browser.json",
+      "archive": "eval/dom-scale/holdout/browser-plan-archives/full-natural-micro2-browser.json.gz",
+      "originalBytes": 24629631,
+      "originalSha256": "02b68c80c352a8a0b726f70200c8477db946a42709ecef17188eaf2e29164dbb",
+      "archiveBytes": 517138,
+      "archiveSha256": "eafbc0adb61780f22d5cf1153b085edca19eeb94a84b02353b3144e5398d033d"
+    },
+    {
+      "original": "eval/dom-scale/holdout/predictions/small-compact-full-browser.json",
+      "archive": "eval/dom-scale/holdout/browser-plan-archives/small-compact-full-browser.json.gz",
+      "originalBytes": 15365923,
+      "originalSha256": "06432f148d2d443c87fe14c586ef5f431d846bdc2fb0f703928d3a556cf0be3f",
+      "archiveBytes": 393684,
+      "archiveSha256": "9b1fba0788780e976a7432cce80a946c0c4b852743a62d73116611f622115004"
+    },
+    {
+      "original": "eval/dom-scale/holdout/predictions/small-compact-micro2-browser.json",
+      "archive": "eval/dom-scale/holdout/browser-plan-archives/small-compact-micro2-browser.json.gz",
+      "originalBytes": 15366860,
+      "originalSha256": "45dfd138cdda6d9f723e74c615c7f6d8d18aeacee73dba69d023ed2c93e059ad",
+      "archiveBytes": 389399,
+      "archiveSha256": "f9ad406a69cd922a23473b4e3522f137b68af4feeaaaf44068f2d34ea754b375"
+    },
+    {
+      "original": "eval/dom-scale/holdout/supplemental/predictions/small-natural-full-browser.json",
+      "archive": "eval/dom-scale/holdout/browser-plan-archives/small-natural-full-browser.json.gz",
+      "originalBytes": 24777025,
+      "originalSha256": "cd7b49711dbf7b55b6ebd3bbfaf6aaf13af22e9672103dfa89e1bd9885bdae09",
+      "archiveBytes": 534596,
+      "archiveSha256": "aad39e173ab3623a3c490f3e938585996552e9c25d8359c4bd7f7ca7a45208e4"
+    },
+    {
+      "original": "eval/dom-scale/holdout/supplemental/predictions/small-natural-micro2-browser.json",
+      "archive": "eval/dom-scale/holdout/browser-plan-archives/small-natural-micro2-browser.json.gz",
+      "originalBytes": 24629577,
+      "originalSha256": "0e587e1900de787253904a201ad0e1a6c2029ad567971770cab9b09a3652652d",
+      "archiveBytes": 516443,
+      "archiveSha256": "2b892b25321aa1ee4a58407b2c23f0f53cf20f2862c8200f2518d960c07ca908"
+    }
+  ]
+}

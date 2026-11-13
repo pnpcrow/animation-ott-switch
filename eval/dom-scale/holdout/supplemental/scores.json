@@ -1,0 +1,3288 @@
+{
+  "schemaVersion": 1,
+  "scoredAt": "2026-11-13T15:38:59.587Z",
+  "supplementalPlanSha256": "1b5fdcccfa286be75a1161f0236aae7f3d28c81808e1e392dad9b9328edda5ba",
+  "dataFreezeSha256": "69d8b9a27c0ce91e495ee9851ae060c0c27d836c553e39fd99f21954bcc531a7",
+  "modelFreezeSha256": "e3517f3b16af675951e4f3953c956639b966fa322e69a8f367f345472cdab4dc",
+  "modelSha256": "285709af6114a0ecb7d22c836b52111696becfbd40db7e1ff45fa0e535ac164a",
+  "predictionsSha256": "11f52a88b34905610c5cb0875db1b15ba63d84a3b996fe0e68160b4f32996327",
+  "reason": "Parent observed all-none collapse for the 12-layer compact condition on development validation, before held-out outputs. It added a four-layer natural384 condition to separate shorter architecture from compact representation.",
+  "models": [
+    {
+      "recipe": "small-natural",
+      "mode": "full",
+      "metrics": {
+        "cases": 120,
+        "correct": 51,
+        "accuracy": 0.425,
+        "correctPositive": 9,
+        "positiveCases": 72,
+        "correctNone": 42,
+        "noneCases": 48,
+        "positiveSelectionPrecision": 0.17647058823529413,
+        "positiveSelectionRecall": 0.125,
+        "nonePrecision": 0.6086956521739131,
+        "noneRecall": 0.875,
+        "falsePositiveOnNone": 6,
+        "falseNoneOnPositive": 27,
+        "executionFailures": 0,
+        "missingGoldCases": 3,
+        "allFieldsCorrectPages": 13,
+        "completePages": 40,
+        "accuracyWhenGoldInPool": 0.4358974358974359,
+        "inferenceMs": {
+          "median": 42.171499924734235,
+          "p95": 60.11039996519685
+        },
+        "workClusterAccuracy95": {
+          "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+          "resamples": 2000,
+          "clusters": 12,
+          "low": 0.2318840579710145,
+          "high": 0.55
+        }
+      },
+      "breakdown": {
+        "field": {
+          "title": {
+            "cases": 40,
+            "correct": 18,
+            "accuracy": 0.45,
+            "correctPositive": 4,
+            "positiveCases": 24,
+            "correctNone": 14,
+            "noneCases": 16,
+            "positiveSelectionPrecision": 0.23529411764705882,
+            "positiveSelectionRecall": 0.16666666666666666,
+            "nonePrecision": 0.6086956521739131,
+            "noneRecall": 0.875,
+            "falsePositiveOnNone": 2,
+            "falseNoneOnPositive": 9,
+            "executionFailures": 0,
+            "missingGoldCases": 1,
+            "allFieldsCorrectPages": 0,
+            "completePages": 0,
+            "accuracyWhenGoldInPool": 0.46153846153846156,
+            "inferenceMs": {
+              "median": 37.899199873209,
+              "p95": 51.81559990160167
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 12,
+              "low": 0.2692307692307692,
+              "high": 0.5526315789473685
+            }
+          },
+          "image": {
+            "cases": 40,
+            "correct": 17,
+            "accuracy": 0.425,
+            "correctPositive": 3,
+            "positiveCases": 24,
+            "correctNone": 14,
+            "noneCases": 16,
+            "positiveSelectionPrecision": 0.17647058823529413,
+            "positiveSelectionRecall": 0.125,
+            "nonePrecision": 0.6086956521739131,
+            "noneRecall": 0.875,
+            "falsePositiveOnNone": 2,
+            "falseNoneOnPositive": 9,
+            "executionFailures": 0,
+            "missingGoldCases": 2,
+            "allFieldsCorrectPages": 0,
+            "completePages": 0,
+            "accuracyWhenGoldInPool": 0.4473684210526316,
+            "inferenceMs": {
+              "median": 49.071500077843666,
+              "p95": 59.633399825543165
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 12,
+              "low": 0.21739130434782608,
+              "high": 0.5833333333333334
+            }
+          },
+          "description": {
+            "cases": 40,
+            "correct": 16,
+            "accuracy": 0.4,
+            "correctPositive": 2,
+            "positiveCases": 24,
+            "correctNone": 14,
+            "noneCases": 16,
+            "positiveSelectionPrecision": 0.11764705882352941,
+            "positiveSelectionRecall": 0.08333333333333333,
+            "nonePrecision": 0.6086956521739131,
+            "noneRecall": 0.875,
+            "falsePositiveOnNone": 2,
+            "falseNoneOnPositive": 9,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 0,
+            "completePages": 0,
+            "accuracyWhenGoldInPool": 0.4,
+            "inferenceMs": {
+              "median": 41.947799967601895,
+              "p95": 62.36250000074506
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 12,
+              "low": 0.2,
+              "high": 0.5384615384615384
+            }
+          }
+        },
+        "cohort": {
+          "unseen-service": {
+            "cases": 69,
+            "correct": 18,
+            "accuracy": 0.2608695652173913,
+            "correctPositive": 3,
+            "positiveCases": 51,
+            "correctNone": 15,
+            "noneCases": 18,
+            "positiveSelectionPrecision": 0.0967741935483871,
+            "positiveSelectionRecall": 0.058823529411764705,
+            "nonePrecision": 0.39473684210526316,
+            "noneRecall": 0.8333333333333334,
+            "falsePositiveOnNone": 3,
+            "falseNoneOnPositive": 23,
+            "executionFailures": 0,
+            "missingGoldCases": 3,
+            "allFieldsCorrectPages": 5,
+            "completePages": 23,
+            "accuracyWhenGoldInPool": 0.2727272727272727,
+            "inferenceMs": {
+              "median": 42.171499924734235,
+              "p95": 54.657400120049715
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 11,
+              "low": 0.09523809523809523,
+              "high": 0.38333333333333336
+            }
+          },
+          "unseen-work": {
+            "cases": 51,
+            "correct": 33,
+            "accuracy": 0.6470588235294118,
+            "correctPositive": 6,
+            "positiveCases": 21,
+            "correctNone": 27,
+            "noneCases": 30,
+            "positiveSelectionPrecision": 0.3,
+            "positiveSelectionRecall": 0.2857142857142857,
+            "nonePrecision": 0.8709677419354839,
+            "noneRecall": 0.9,
+            "falsePositiveOnNone": 3,
+            "falseNoneOnPositive": 4,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 8,
+            "completePages": 17,
+            "accuracyWhenGoldInPool": 0.6470588235294118,
+            "inferenceMs": {
+              "median": 45.07609992288053,
+              "p95": 62.36250000074506
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 3,
+              "low": 0.4444444444444444,
+              "high": 0.8333333333333334
+            }
+          }
+        },
+        "provider": {
+          "netflix": {
+            "cases": 36,
+            "correct": 13,
+            "accuracy": 0.3611111111111111,
+            "correctPositive": 1,
+            "positiveCases": 24,
+            "correctNone": 12,
+            "noneCases": 12,
+            "positiveSelectionPrecision": 0.3333333333333333,
+            "positiveSelectionRecall": 0.041666666666666664,
+            "nonePrecision": 0.36363636363636365,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 21,
+            "executionFailures": 0,
+            "missingGoldCases": 3,
+            "allFieldsCorrectPages": 4,
+            "completePages": 12,
+            "accuracyWhenGoldInPool": 0.3939393939393939,
+            "inferenceMs": {
+              "median": 40.717999916523695,
+              "p95": 52.73559992201626
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 6,
+              "low": 0,
+              "high": 0.5
+            }
+          },
+          "apple": {
+            "cases": 33,
+            "correct": 5,
+            "accuracy": 0.15151515151515152,
+            "correctPositive": 2,
+            "positiveCases": 27,
+            "correctNone": 3,
+            "noneCases": 6,
+            "positiveSelectionPrecision": 0.07142857142857142,
+            "positiveSelectionRecall": 0.07407407407407407,
+            "nonePrecision": 0.6,
+            "noneRecall": 0.5,
+            "falsePositiveOnNone": 3,
+            "falseNoneOnPositive": 2,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 1,
+            "completePages": 11,
+            "accuracyWhenGoldInPool": 0.15151515151515152,
+            "inferenceMs": {
+              "median": 43.555499985814095,
+              "p95": 56.67389999143779
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 7,
+              "low": 0.02564102564102564,
+              "high": 0.28205128205128205
+            }
+          },
+          "laftel": {
+            "cases": 27,
+            "correct": 18,
+            "accuracy": 0.6666666666666666,
+            "correctPositive": 3,
+            "positiveCases": 12,
+            "correctNone": 15,
+            "noneCases": 15,
+            "positiveSelectionPrecision": 0.25,
+            "positiveSelectionRecall": 0.25,
+            "nonePrecision": 1,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 5,
+            "completePages": 9,
+            "accuracyWhenGoldInPool": 0.6666666666666666,
+            "inferenceMs": {
+              "median": 14.138999860733747,
+              "p95": 64.99810004606843
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 3,
+              "low": 0.3333333333333333,
+              "high": 1
+            }
+          },
+          "tving": {
+            "cases": 24,
+            "correct": 15,
+            "accuracy": 0.625,
+            "correctPositive": 3,
+            "positiveCases": 9,
+            "correctNone": 12,
+            "noneCases": 15,
+            "positiveSelectionPrecision": 0.375,
+            "positiveSelectionRecall": 0.3333333333333333,
+            "nonePrecision": 0.75,
+            "noneRecall": 0.8,
+            "falsePositiveOnNone": 3,
+            "falseNoneOnPositive": 4,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 3,
+            "completePages": 8,
+            "accuracyWhenGoldInPool": 0.625,
+            "inferenceMs": {
+              "median": 45.762000139802694,
+              "p95": 59.22290007583797
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 3,
+              "low": 0.5555555555555556,
+              "high": 0.6666666666666666
+            }
+          }
+        },
+        "observedKind": {
+          "detail": {
+            "cases": 48,
+            "correct": 5,
+            "accuracy": 0.10416666666666667,
+            "correctPositive": 5,
+            "positiveCases": 48,
+            "correctNone": 0,
+            "noneCases": 0,
+            "positiveSelectionPrecision": 0.20833333333333334,
+            "positiveSelectionRecall": 0.10416666666666667,
+            "nonePrecision": 0,
+            "noneRecall": null,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 24,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 0,
+            "completePages": 16,
+            "accuracyWhenGoldInPool": 0.10416666666666667,
+            "inferenceMs": {
+              "median": 44.118800200521946,
+              "p95": 55.51470001228154
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 12,
+              "low": 0.023809523809523808,
+              "high": 0.17777777777777778
+            }
+          },
+          "login": {
+            "cases": 9,
+            "correct": 9,
+            "accuracy": 1,
+            "correctPositive": 0,
+            "positiveCases": 0,
+            "correctNone": 9,
+            "noneCases": 9,
+            "positiveSelectionPrecision": null,
+            "positiveSelectionRecall": null,
+            "nonePrecision": 1,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 3,
+            "completePages": 3,
+            "accuracyWhenGoldInPool": 1,
+            "inferenceMs": {
+              "median": 7.036999799311161,
+              "p95": 44.41180010326207
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 2,
+              "low": 1,
+              "high": 1
+            }
+          },
+          "description-modal": {
+            "cases": 6,
+            "correct": 0,
+            "accuracy": 0,
+            "correctPositive": 0,
+            "positiveCases": 6,
+            "correctNone": 0,
+            "noneCases": 0,
+            "positiveSelectionPrecision": 0,
+            "positiveSelectionRecall": 0,
+            "nonePrecision": null,
+            "noneRecall": null,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 0,
+            "completePages": 2,
+            "accuracyWhenGoldInPool": 0,
+            "inferenceMs": {
+              "median": 47.23190004006028,
+              "p95": 56.67389999143779
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 2,
+              "low": 0,
+              "high": 0
+            }
+          },
+          "search-landing": {
+            "cases": 3,
+            "correct": 3,
+            "accuracy": 1,
+            "correctPositive": 0,
+            "positiveCases": 0,
+            "correctNone": 3,
+            "noneCases": 3,
+            "positiveSelectionPrecision": null,
+            "positiveSelectionRecall": null,
+            "nonePrecision": 1,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 1,
+            "completePages": 1,
+            "accuracyWhenGoldInPool": 1,
+            "inferenceMs": {
+              "median": 9.811899857595563,
+              "p95": 9.811899857595563
+            },
+            "workClusterAccuracy95": null
+          },
+          "search": {
+            "cases": 21,
+            "correct": 21,
+            "accuracy": 1,
+            "correctPositive": 0,
+            "positiveCases": 0,
+            "correctNone": 21,
+            "noneCases": 21,
+            "positiveSelectionPrecision": null,
+            "positiveSelectionRecall": null,
+            "nonePrecision": 1,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 7,
+            "completePages": 7,
+            "accuracyWhenGoldInPool": 1,
+            "inferenceMs": {
+              "median": 26.30280004814267,
+              "p95": 53.30809997394681
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 4,
+              "low": 1,
+              "high": 1
+            }
+          },
+          "work-modal": {
+            "cases": 18,
+            "correct": 4,
+            "accuracy": 0.2222222222222222,
+            "correctPositive": 4,
+            "positiveCases": 18,
+            "correctNone": 0,
+            "noneCases": 0,
+            "positiveSelectionPrecision": 0.26666666666666666,
+            "positiveSelectionRecall": 0.2222222222222222,
+            "nonePrecision": 0,
+            "noneRecall": null,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 3,
+            "executionFailures": 0,
+            "missingGoldCases": 3,
+            "allFieldsCorrectPages": 0,
+            "completePages": 6,
+            "accuracyWhenGoldInPool": 0.26666666666666666,
+            "inferenceMs": {
+              "median": 53.06950001977384,
+              "p95": 65.16200001351535
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 3,
+              "low": 0,
+              "high": 0.3333333333333333
+            }
+          },
+          "subscription-modal": {
+            "cases": 6,
+            "correct": 3,
+            "accuracy": 0.5,
+            "correctPositive": 0,
+            "positiveCases": 0,
+            "correctNone": 3,
+            "noneCases": 6,
+            "positiveSelectionPrecision": 0,
+            "positiveSelectionRecall": null,
+            "nonePrecision": 1,
+            "noneRecall": 0.5,
+            "falsePositiveOnNone": 3,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 0,
+            "completePages": 2,
+            "accuracyWhenGoldInPool": 0.5,
+            "inferenceMs": {
+              "median": 45.566200045868754,
+              "p95": 52.418499952182174
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 2,
+              "low": 0.3333333333333333,
+              "high": 0.6666666666666666
+            }
+          },
+          "login-modal": {
+            "cases": 3,
+            "correct": 0,
+            "accuracy": 0,
+            "correctPositive": 0,
+            "positiveCases": 0,
+            "correctNone": 0,
+            "noneCases": 3,
+            "positiveSelectionPrecision": 0,
+            "positiveSelectionRecall": null,
+            "nonePrecision": null,
+            "noneRecall": 0,
+            "falsePositiveOnNone": 3,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 0,
+            "completePages": 1,
+            "accuracyWhenGoldInPool": 0,
+            "inferenceMs": {
+              "median": 41.89520003274083,
+              "p95": 41.89520003274083
+            },
+            "workClusterAccuracy95": null
+          },
+          "full-player": {
+            "cases": 6,
+            "correct": 6,
+            "accuracy": 1,
+            "correctPositive": 0,
+            "positiveCases": 0,
+            "correctNone": 6,
+            "noneCases": 6,
+            "positiveSelectionPrecision": null,
+            "positiveSelectionRecall": null,
+            "nonePrecision": 1,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 2,
+            "completePages": 2,
+            "accuracyWhenGoldInPool": 1,
+            "inferenceMs": {
+              "median": 28.714000014588237,
+              "p95": 30.951400054618716
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 2,
+              "low": 1,
+              "high": 1
+            }
+          }
+        },
+        "kind": {
+          "real-public-dom": {
+            "cases": 105,
+            "correct": 41,
+            "accuracy": 0.3904761904761905,
+            "correctPositive": 8,
+            "positiveCases": 66,
+            "correctNone": 33,
+            "noneCases": 39,
+            "positiveSelectionPrecision": 0.16666666666666666,
+            "positiveSelectionRecall": 0.12121212121212122,
+            "nonePrecision": 0.5789473684210527,
+            "noneRecall": 0.8461538461538461,
+            "falsePositiveOnNone": 6,
+            "falseNoneOnPositive": 24,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 10,
+            "completePages": 35,
+            "accuracyWhenGoldInPool": 0.3904761904761905,
+            "inferenceMs": {
+              "median": 43.67140005342662,
+              "p95": 60.11039996519685
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 12,
+              "low": 0.15873015873015872,
+              "high": 0.5333333333333333
+            }
+          },
+          "real-authenticated-dom": {
+            "cases": 15,
+            "correct": 10,
+            "accuracy": 0.6666666666666666,
+            "correctPositive": 1,
+            "positiveCases": 6,
+            "correctNone": 9,
+            "noneCases": 9,
+            "positiveSelectionPrecision": 0.3333333333333333,
+            "positiveSelectionRecall": 0.16666666666666666,
+            "nonePrecision": 0.75,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 3,
+            "executionFailures": 0,
+            "missingGoldCases": 3,
+            "allFieldsCorrectPages": 3,
+            "completePages": 5,
+            "accuracyWhenGoldInPool": 0.8333333333333334,
+            "inferenceMs": {
+              "median": 35.24529980495572,
+              "p95": 53.06950001977384
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 2,
+              "low": 0.5,
+              "high": 0.7777777777777778
+            }
+          }
+        }
+      },
+      "cases": [
+        {
+          "id": "h001-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h001-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h001-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h002-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h002-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h002-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h003-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h003-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h003-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h004-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h004-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h004-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h005-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h005-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h005-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h006-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h006-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h006-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h007-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h007-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h007-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h015-title",
+          "validSelection": true,
+          "selected": "t6",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h015-image",
+          "validSelection": true,
+          "selected": "i4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h015-description",
+          "validSelection": true,
+          "selected": "d7",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h016-title",
+          "validSelection": true,
+          "selected": "t6",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h016-image",
+          "validSelection": true,
+          "selected": "i4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h016-description",
+          "validSelection": true,
+          "selected": "d2",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h017-title",
+          "validSelection": true,
+          "selected": "t2",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h017-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h017-description",
+          "validSelection": true,
+          "selected": "d7",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h018-title",
+          "validSelection": true,
+          "selected": "t10",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h018-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h018-description",
+          "validSelection": true,
+          "selected": "d6",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h019-title",
+          "validSelection": true,
+          "selected": "t11",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h019-image",
+          "validSelection": true,
+          "selected": "i4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h019-description",
+          "validSelection": true,
+          "selected": "d7",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h020-title",
+          "validSelection": true,
+          "selected": "t2",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h020-image",
+          "validSelection": true,
+          "selected": "i4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h020-description",
+          "validSelection": true,
+          "selected": "d2",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h021-title",
+          "validSelection": true,
+          "selected": "t4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h021-image",
+          "validSelection": true,
+          "selected": "i4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h021-description",
+          "validSelection": true,
+          "selected": "d6",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h022-title",
+          "validSelection": true,
+          "selected": "t3",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h022-image",
+          "validSelection": true,
+          "selected": "i4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h022-description",
+          "validSelection": true,
+          "selected": "d2",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h023-title",
+          "validSelection": true,
+          "selected": "t10",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h023-image",
+          "validSelection": true,
+          "selected": "i3",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h023-description",
+          "validSelection": true,
+          "selected": "d2",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h024-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h024-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h024-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h028-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h028-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h028-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h029-title",
+          "validSelection": true,
+          "selected": "t4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h029-image",
+          "validSelection": true,
+          "selected": "i1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h029-description",
+          "validSelection": true,
+          "selected": "d4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h030-title",
+          "validSelection": true,
+          "selected": "t6",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h030-image",
+          "validSelection": true,
+          "selected": "i8",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h030-description",
+          "validSelection": true,
+          "selected": "d4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h031-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h031-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h031-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h032-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h032-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h032-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h033-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h033-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h033-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h034-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h034-image",
+          "validSelection": true,
+          "selected": "i1",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h034-description",
+          "validSelection": true,
+          "selected": "d5",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h035-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h035-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h035-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h036-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h036-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h036-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h037-title",
+          "validSelection": true,
+          "selected": "t3",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h037-image",
+          "validSelection": true,
+          "selected": "i1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h037-description",
+          "validSelection": true,
+          "selected": "d2",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h038-title",
+          "validSelection": true,
+          "selected": "t3",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h038-image",
+          "validSelection": true,
+          "selected": "i6",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h038-description",
+          "validSelection": true,
+          "selected": "d9",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h039-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h039-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h039-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h040-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h040-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h040-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h041-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h041-image",
+          "validSelection": true,
+          "selected": "i1",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h041-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h042-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h042-image",
+          "validSelection": true,
+          "selected": "i1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h042-description",
+          "validSelection": true,
+          "selected": "d6",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h043-title",
+          "validSelection": true,
+          "selected": "t1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h043-image",
+          "validSelection": true,
+          "selected": "i1",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h043-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h044-title",
+          "validSelection": true,
+          "selected": "t1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h044-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h044-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h047-title",
+          "validSelection": true,
+          "selected": "t10",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h047-image",
+          "validSelection": true,
+          "selected": "i3",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h047-description",
+          "validSelection": true,
+          "selected": "d2",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h048-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": true
+        },
+        {
+          "id": "h048-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": true
+        },
+        {
+          "id": "h048-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h049-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h049-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h049-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h050-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h050-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h050-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h051-title",
+          "validSelection": true,
+          "selected": "t12",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h051-image",
+          "validSelection": true,
+          "selected": "i8",
+          "correct": false,
+          "error": null,
+          "missingGold": true
+        },
+        {
+          "id": "h051-description",
+          "validSelection": true,
+          "selected": "d1",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h052-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h052-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h052-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        }
+      ]
+    },
+    {
+      "recipe": "small-natural",
+      "mode": "micro2",
+      "metrics": {
+        "cases": 120,
+        "correct": 50,
+        "accuracy": 0.4166666666666667,
+        "correctPositive": 8,
+        "positiveCases": 72,
+        "correctNone": 42,
+        "noneCases": 48,
+        "positiveSelectionPrecision": 0.16,
+        "positiveSelectionRecall": 0.1111111111111111,
+        "nonePrecision": 0.6,
+        "noneRecall": 0.875,
+        "falsePositiveOnNone": 6,
+        "falseNoneOnPositive": 28,
+        "executionFailures": 0,
+        "missingGoldCases": 3,
+        "allFieldsCorrectPages": 13,
+        "completePages": 40,
+        "accuracyWhenGoldInPool": 0.42735042735042733,
+        "inferenceMs": {
+          "median": 39.996299892663956,
+          "p95": 54.798300145193934
+        },
+        "workClusterAccuracy95": {
+          "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+          "resamples": 2000,
+          "clusters": 12,
+          "low": 0.24358974358974358,
+          "high": 0.5151515151515151
+        }
+      },
+      "breakdown": {
+        "field": {
+          "title": {
+            "cases": 40,
+            "correct": 16,
+            "accuracy": 0.4,
+            "correctPositive": 2,
+            "positiveCases": 24,
+            "correctNone": 14,
+            "noneCases": 16,
+            "positiveSelectionPrecision": 0.11764705882352941,
+            "positiveSelectionRecall": 0.08333333333333333,
+            "nonePrecision": 0.6086956521739131,
+            "noneRecall": 0.875,
+            "falsePositiveOnNone": 2,
+            "falseNoneOnPositive": 9,
+            "executionFailures": 0,
+            "missingGoldCases": 1,
+            "allFieldsCorrectPages": 0,
+            "completePages": 0,
+            "accuracyWhenGoldInPool": 0.41025641025641024,
+            "inferenceMs": {
+              "median": 37.54130005836487,
+              "p95": 43.40860014781356
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 12,
+              "low": 0.25,
+              "high": 0.47692307692307695
+            }
+          },
+          "image": {
+            "cases": 40,
+            "correct": 16,
+            "accuracy": 0.4,
+            "correctPositive": 2,
+            "positiveCases": 24,
+            "correctNone": 14,
+            "noneCases": 16,
+            "positiveSelectionPrecision": 0.13333333333333333,
+            "positiveSelectionRecall": 0.08333333333333333,
+            "nonePrecision": 0.56,
+            "noneRecall": 0.875,
+            "falsePositiveOnNone": 2,
+            "falseNoneOnPositive": 11,
+            "executionFailures": 0,
+            "missingGoldCases": 2,
+            "allFieldsCorrectPages": 0,
+            "completePages": 0,
+            "accuracyWhenGoldInPool": 0.42105263157894735,
+            "inferenceMs": {
+              "median": 43.67239982821047,
+              "p95": 56.81039998307824
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 12,
+              "low": 0.19047619047619047,
+              "high": 0.5681818181818182
+            }
+          },
+          "description": {
+            "cases": 40,
+            "correct": 18,
+            "accuracy": 0.45,
+            "correctPositive": 4,
+            "positiveCases": 24,
+            "correctNone": 14,
+            "noneCases": 16,
+            "positiveSelectionPrecision": 0.2222222222222222,
+            "positiveSelectionRecall": 0.16666666666666666,
+            "nonePrecision": 0.6363636363636364,
+            "noneRecall": 0.875,
+            "falsePositiveOnNone": 2,
+            "falseNoneOnPositive": 8,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 0,
+            "completePages": 0,
+            "accuracyWhenGoldInPool": 0.45,
+            "inferenceMs": {
+              "median": 38.5447998996824,
+              "p95": 55.112099973484874
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 12,
+              "low": 0.23809523809523808,
+              "high": 0.5490196078431373
+            }
+          }
+        },
+        "cohort": {
+          "unseen-service": {
+            "cases": 69,
+            "correct": 17,
+            "accuracy": 0.2463768115942029,
+            "correctPositive": 2,
+            "positiveCases": 51,
+            "correctNone": 15,
+            "noneCases": 18,
+            "positiveSelectionPrecision": 0.06666666666666667,
+            "positiveSelectionRecall": 0.0392156862745098,
+            "nonePrecision": 0.38461538461538464,
+            "noneRecall": 0.8333333333333334,
+            "falsePositiveOnNone": 3,
+            "falseNoneOnPositive": 24,
+            "executionFailures": 0,
+            "missingGoldCases": 3,
+            "allFieldsCorrectPages": 5,
+            "completePages": 23,
+            "accuracyWhenGoldInPool": 0.25757575757575757,
+            "inferenceMs": {
+              "median": 40.54030007682741,
+              "p95": 54.798300145193934
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 11,
+              "low": 0.06060606060606061,
+              "high": 0.36666666666666664
+            }
+          },
+          "unseen-work": {
+            "cases": 51,
+            "correct": 33,
+            "accuracy": 0.6470588235294118,
+            "correctPositive": 6,
+            "positiveCases": 21,
+            "correctNone": 27,
+            "noneCases": 30,
+            "positiveSelectionPrecision": 0.3,
+            "positiveSelectionRecall": 0.2857142857142857,
+            "nonePrecision": 0.8709677419354839,
+            "noneRecall": 0.9,
+            "falsePositiveOnNone": 3,
+            "falseNoneOnPositive": 4,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 8,
+            "completePages": 17,
+            "accuracyWhenGoldInPool": 0.6470588235294118,
+            "inferenceMs": {
+              "median": 37.61270013637841,
+              "p95": 53.54090011678636
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 3,
+              "low": 0.5,
+              "high": 0.7777777777777778
+            }
+          }
+        },
+        "provider": {
+          "netflix": {
+            "cases": 36,
+            "correct": 13,
+            "accuracy": 0.3611111111111111,
+            "correctPositive": 1,
+            "positiveCases": 24,
+            "correctNone": 12,
+            "noneCases": 12,
+            "positiveSelectionPrecision": 0.3333333333333333,
+            "positiveSelectionRecall": 0.041666666666666664,
+            "nonePrecision": 0.36363636363636365,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 21,
+            "executionFailures": 0,
+            "missingGoldCases": 3,
+            "allFieldsCorrectPages": 4,
+            "completePages": 12,
+            "accuracyWhenGoldInPool": 0.3939393939393939,
+            "inferenceMs": {
+              "median": 42.87519981153309,
+              "p95": 55.112099973484874
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 6,
+              "low": 0,
+              "high": 0.5
+            }
+          },
+          "apple": {
+            "cases": 33,
+            "correct": 4,
+            "accuracy": 0.12121212121212122,
+            "correctPositive": 1,
+            "positiveCases": 27,
+            "correctNone": 3,
+            "noneCases": 6,
+            "positiveSelectionPrecision": 0.037037037037037035,
+            "positiveSelectionRecall": 0.037037037037037035,
+            "nonePrecision": 0.5,
+            "noneRecall": 0.5,
+            "falsePositiveOnNone": 3,
+            "falseNoneOnPositive": 3,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 1,
+            "completePages": 11,
+            "accuracyWhenGoldInPool": 0.12121212121212122,
+            "inferenceMs": {
+              "median": 38.78319985233247,
+              "p95": 52.522300044074655
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 7,
+              "low": 0,
+              "high": 0.2564102564102564
+            }
+          },
+          "laftel": {
+            "cases": 27,
+            "correct": 18,
+            "accuracy": 0.6666666666666666,
+            "correctPositive": 3,
+            "positiveCases": 12,
+            "correctNone": 15,
+            "noneCases": 15,
+            "positiveSelectionPrecision": 0.25,
+            "positiveSelectionRecall": 0.25,
+            "nonePrecision": 1,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 5,
+            "completePages": 9,
+            "accuracyWhenGoldInPool": 0.6666666666666666,
+            "inferenceMs": {
+              "median": 11.440800037235022,
+              "p95": 52.095199935138226
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 3,
+              "low": 0.4444444444444444,
+              "high": 1
+            }
+          },
+          "tving": {
+            "cases": 24,
+            "correct": 15,
+            "accuracy": 0.625,
+            "correctPositive": 3,
+            "positiveCases": 9,
+            "correctNone": 12,
+            "noneCases": 15,
+            "positiveSelectionPrecision": 0.375,
+            "positiveSelectionRecall": 0.3333333333333333,
+            "nonePrecision": 0.75,
+            "noneRecall": 0.8,
+            "falsePositiveOnNone": 3,
+            "falseNoneOnPositive": 4,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 3,
+            "completePages": 8,
+            "accuracyWhenGoldInPool": 0.625,
+            "inferenceMs": {
+              "median": 40.682199876755476,
+              "p95": 53.54090011678636
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 3,
+              "low": 0.5555555555555556,
+              "high": 0.8333333333333334
+            }
+          }
+        },
+        "observedKind": {
+          "detail": {
+            "cases": 48,
+            "correct": 4,
+            "accuracy": 0.08333333333333333,
+            "correctPositive": 4,
+            "positiveCases": 48,
+            "correctNone": 0,
+            "noneCases": 0,
+            "positiveSelectionPrecision": 0.17391304347826086,
+            "positiveSelectionRecall": 0.08333333333333333,
+            "nonePrecision": 0,
+            "noneRecall": null,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 25,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 0,
+            "completePages": 16,
+            "accuracyWhenGoldInPool": 0.08333333333333333,
+            "inferenceMs": {
+              "median": 42.38020000047982,
+              "p95": 56.81039998307824
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 12,
+              "low": 0,
+              "high": 0.15
+            }
+          },
+          "login": {
+            "cases": 9,
+            "correct": 9,
+            "accuracy": 1,
+            "correctPositive": 0,
+            "positiveCases": 0,
+            "correctNone": 9,
+            "noneCases": 9,
+            "positiveSelectionPrecision": null,
+            "positiveSelectionRecall": null,
+            "nonePrecision": 1,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 3,
+            "completePages": 3,
+            "accuracyWhenGoldInPool": 1,
+            "inferenceMs": {
+              "median": 5.799399921670556,
+              "p95": 47.74140007793903
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 2,
+              "low": 1,
+              "high": 1
+            }
+          },
+          "description-modal": {
+            "cases": 6,
+            "correct": 0,
+            "accuracy": 0,
+            "correctPositive": 0,
+            "positiveCases": 6,
+            "correctNone": 0,
+            "noneCases": 0,
+            "positiveSelectionPrecision": 0,
+            "positiveSelectionRecall": 0,
+            "nonePrecision": null,
+            "noneRecall": null,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 0,
+            "completePages": 2,
+            "accuracyWhenGoldInPool": 0,
+            "inferenceMs": {
+              "median": 37.22629998810589,
+              "p95": 47.8901001624763
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 2,
+              "low": 0,
+              "high": 0
+            }
+          },
+          "search-landing": {
+            "cases": 3,
+            "correct": 3,
+            "accuracy": 1,
+            "correctPositive": 0,
+            "positiveCases": 0,
+            "correctNone": 3,
+            "noneCases": 3,
+            "positiveSelectionPrecision": null,
+            "positiveSelectionRecall": null,
+            "nonePrecision": 1,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 1,
+            "completePages": 1,
+            "accuracyWhenGoldInPool": 1,
+            "inferenceMs": {
+              "median": 5.59299997985363,
+              "p95": 5.59299997985363
+            },
+            "workClusterAccuracy95": null
+          },
+          "search": {
+            "cases": 21,
+            "correct": 21,
+            "accuracy": 1,
+            "correctPositive": 0,
+            "positiveCases": 0,
+            "correctNone": 21,
+            "noneCases": 21,
+            "positiveSelectionPrecision": null,
+            "positiveSelectionRecall": null,
+            "nonePrecision": 1,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 7,
+            "completePages": 7,
+            "accuracyWhenGoldInPool": 1,
+            "inferenceMs": {
+              "median": 24.481200147420168,
+              "p95": 46.196699840947986
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 4,
+              "low": 1,
+              "high": 1
+            }
+          },
+          "work-modal": {
+            "cases": 18,
+            "correct": 4,
+            "accuracy": 0.2222222222222222,
+            "correctPositive": 4,
+            "positiveCases": 18,
+            "correctNone": 0,
+            "noneCases": 0,
+            "positiveSelectionPrecision": 0.26666666666666666,
+            "positiveSelectionRecall": 0.2222222222222222,
+            "nonePrecision": 0,
+            "noneRecall": null,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 3,
+            "executionFailures": 0,
+            "missingGoldCases": 3,
+            "allFieldsCorrectPages": 0,
+            "completePages": 6,
+            "accuracyWhenGoldInPool": 0.26666666666666666,
+            "inferenceMs": {
+              "median": 43.201700085774064,
+              "p95": 52.7027000207454
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 3,
+              "low": 0.16666666666666666,
+              "high": 0.3333333333333333
+            }
+          },
+          "subscription-modal": {
+            "cases": 6,
+            "correct": 3,
+            "accuracy": 0.5,
+            "correctPositive": 0,
+            "positiveCases": 0,
+            "correctNone": 3,
+            "noneCases": 6,
+            "positiveSelectionPrecision": 0,
+            "positiveSelectionRecall": null,
+            "nonePrecision": 1,
+            "noneRecall": 0.5,
+            "falsePositiveOnNone": 3,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 0,
+            "completePages": 2,
+            "accuracyWhenGoldInPool": 0.5,
+            "inferenceMs": {
+              "median": 37.91600000113249,
+              "p95": 51.96279985830188
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 2,
+              "low": 0.3333333333333333,
+              "high": 0.6666666666666666
+            }
+          },
+          "login-modal": {
+            "cases": 3,
+            "correct": 0,
+            "accuracy": 0,
+            "correctPositive": 0,
+            "positiveCases": 0,
+            "correctNone": 0,
+            "noneCases": 3,
+            "positiveSelectionPrecision": 0,
+            "positiveSelectionRecall": null,
+            "nonePrecision": null,
+            "noneRecall": 0,
+            "falsePositiveOnNone": 3,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 0,
+            "completePages": 1,
+            "accuracyWhenGoldInPool": 0,
+            "inferenceMs": {
+              "median": 43.40860014781356,
+              "p95": 43.40860014781356
+            },
+            "workClusterAccuracy95": null
+          },
+          "full-player": {
+            "cases": 6,
+            "correct": 6,
+            "accuracy": 1,
+            "correctPositive": 0,
+            "positiveCases": 0,
+            "correctNone": 6,
+            "noneCases": 6,
+            "positiveSelectionPrecision": null,
+            "positiveSelectionRecall": null,
+            "nonePrecision": 1,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 0,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 2,
+            "completePages": 2,
+            "accuracyWhenGoldInPool": 1,
+            "inferenceMs": {
+              "median": 31.453500036150217,
+              "p95": 33.467100001871586
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 2,
+              "low": 1,
+              "high": 1
+            }
+          }
+        },
+        "kind": {
+          "real-public-dom": {
+            "cases": 105,
+            "correct": 40,
+            "accuracy": 0.38095238095238093,
+            "correctPositive": 7,
+            "positiveCases": 66,
+            "correctNone": 33,
+            "noneCases": 39,
+            "positiveSelectionPrecision": 0.14893617021276595,
+            "positiveSelectionRecall": 0.10606060606060606,
+            "nonePrecision": 0.5689655172413793,
+            "noneRecall": 0.8461538461538461,
+            "falsePositiveOnNone": 6,
+            "falseNoneOnPositive": 25,
+            "executionFailures": 0,
+            "missingGoldCases": 0,
+            "allFieldsCorrectPages": 10,
+            "completePages": 35,
+            "accuracyWhenGoldInPool": 0.38095238095238093,
+            "inferenceMs": {
+              "median": 40.13790003955364,
+              "p95": 54.798300145193934
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 12,
+              "low": 0.17647058823529413,
+              "high": 0.49122807017543857
+            }
+          },
+          "real-authenticated-dom": {
+            "cases": 15,
+            "correct": 10,
+            "accuracy": 0.6666666666666666,
+            "correctPositive": 1,
+            "positiveCases": 6,
+            "correctNone": 9,
+            "noneCases": 9,
+            "positiveSelectionPrecision": 0.3333333333333333,
+            "positiveSelectionRecall": 0.16666666666666666,
+            "nonePrecision": 0.75,
+            "noneRecall": 1,
+            "falsePositiveOnNone": 0,
+            "falseNoneOnPositive": 3,
+            "executionFailures": 0,
+            "missingGoldCases": 3,
+            "allFieldsCorrectPages": 3,
+            "completePages": 5,
+            "accuracyWhenGoldInPool": 0.8333333333333334,
+            "inferenceMs": {
+              "median": 39.996299892663956,
+              "p95": 47.14859998784959
+            },
+            "workClusterAccuracy95": {
+              "method": "percentile bootstrap by canonical work family; all pages/fields/services for a sampled work stay together",
+              "resamples": 2000,
+              "clusters": 2,
+              "low": 0.5,
+              "high": 0.7777777777777778
+            }
+          }
+        }
+      },
+      "cases": [
+        {
+          "id": "h001-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h001-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h001-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h002-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h002-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h002-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h003-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h003-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h003-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h004-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h004-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h004-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h005-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h005-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h005-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h006-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h006-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h006-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h007-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h007-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h007-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h015-title",
+          "validSelection": true,
+          "selected": "t1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h015-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h015-description",
+          "validSelection": true,
+          "selected": "d7",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h016-title",
+          "validSelection": true,
+          "selected": "t10",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h016-image",
+          "validSelection": true,
+          "selected": "i4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h016-description",
+          "validSelection": true,
+          "selected": "d2",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h017-title",
+          "validSelection": true,
+          "selected": "t1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h017-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h017-description",
+          "validSelection": true,
+          "selected": "d7",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h018-title",
+          "validSelection": true,
+          "selected": "t1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h018-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h018-description",
+          "validSelection": true,
+          "selected": "d6",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h019-title",
+          "validSelection": true,
+          "selected": "t11",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h019-image",
+          "validSelection": true,
+          "selected": "i4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h019-description",
+          "validSelection": true,
+          "selected": "d6",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h020-title",
+          "validSelection": true,
+          "selected": "t2",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h020-image",
+          "validSelection": true,
+          "selected": "i4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h020-description",
+          "validSelection": true,
+          "selected": "d2",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h021-title",
+          "validSelection": true,
+          "selected": "t4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h021-image",
+          "validSelection": true,
+          "selected": "i3",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h021-description",
+          "validSelection": true,
+          "selected": "d6",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h022-title",
+          "validSelection": true,
+          "selected": "t10",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h022-image",
+          "validSelection": true,
+          "selected": "i4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h022-description",
+          "validSelection": true,
+          "selected": "d7",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h023-title",
+          "validSelection": true,
+          "selected": "t10",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h023-image",
+          "validSelection": true,
+          "selected": "i4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h023-description",
+          "validSelection": true,
+          "selected": "d3",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h024-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h024-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h024-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h028-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h028-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h028-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h029-title",
+          "validSelection": true,
+          "selected": "t11",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h029-image",
+          "validSelection": true,
+          "selected": "i1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h029-description",
+          "validSelection": true,
+          "selected": "d4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h030-title",
+          "validSelection": true,
+          "selected": "t12",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h030-image",
+          "validSelection": true,
+          "selected": "i8",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h030-description",
+          "validSelection": true,
+          "selected": "d3",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h031-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h031-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h031-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h032-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h032-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h032-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h033-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h033-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h033-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h034-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h034-image",
+          "validSelection": true,
+          "selected": "i1",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h034-description",
+          "validSelection": true,
+          "selected": "d1",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h035-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h035-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h035-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h036-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h036-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h036-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h037-title",
+          "validSelection": true,
+          "selected": "t3",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h037-image",
+          "validSelection": true,
+          "selected": "i1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h037-description",
+          "validSelection": true,
+          "selected": "d2",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h038-title",
+          "validSelection": true,
+          "selected": "t6",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h038-image",
+          "validSelection": true,
+          "selected": "i9",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h038-description",
+          "validSelection": true,
+          "selected": "d9",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h039-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h039-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h039-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h040-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h040-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h040-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h041-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h041-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h041-description",
+          "validSelection": true,
+          "selected": "d12",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h042-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h042-image",
+          "validSelection": true,
+          "selected": "i1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h042-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h043-title",
+          "validSelection": true,
+          "selected": "t1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h043-image",
+          "validSelection": true,
+          "selected": "i1",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h043-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h044-title",
+          "validSelection": true,
+          "selected": "t1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h044-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h044-description",
+          "validSelection": true,
+          "selected": "d11",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h047-title",
+          "validSelection": true,
+          "selected": "t1",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h047-image",
+          "validSelection": true,
+          "selected": "i4",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h047-description",
+          "validSelection": true,
+          "selected": "d5",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h048-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": true
+        },
+        {
+          "id": "h048-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": true
+        },
+        {
+          "id": "h048-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h049-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h049-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h049-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h050-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h050-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h050-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h051-title",
+          "validSelection": true,
+          "selected": "t12",
+          "correct": false,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h051-image",
+          "validSelection": true,
+          "selected": "i8",
+          "correct": false,
+          "error": null,
+          "missingGold": true
+        },
+        {
+          "id": "h051-description",
+          "validSelection": true,
+          "selected": "d1",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h052-title",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h052-image",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        },
+        {
+          "id": "h052-description",
+          "validSelection": true,
+          "selected": "__none__",
+          "correct": true,
+          "error": null,
+          "missingGold": false
+        }
+      ]
+    }
+  ],
+  "comparisons": [
+    {
+      "before": "full-natural/full",
+      "after": "small-natural/full",
+      "cases": 120,
+      "correctGained": 10,
+      "correctLost": 12,
+      "sameSelection": 64,
+      "comparableSelections": 120,
+      "accuracyDifference": -0.016666666666666663,
+      "pairedWorkClusterDifference95": {
+        "method": "paired percentile bootstrap by canonical work family",
+        "resamples": 2000,
+        "clusters": 12,
+        "low": -0.13333333333333333,
+        "high": 0.03825136612021858
+      }
+    },
+    {
+      "before": "small-natural/full",
+      "after": "small-natural/micro2",
+      "cases": 120,
+      "correctGained": 3,
+      "correctLost": 4,
+      "sameSelection": 96,
+      "comparableSelections": 120,
+      "accuracyDifference": -0.008333333333333304,
+      "pairedWorkClusterDifference95": {
+        "method": "paired percentile bootstrap by canonical work family",
+        "resamples": 2000,
+        "clusters": 12,
+        "low": -0.04597701149425287,
+        "high": 0.024390243902439025
+      }
+    }
+  ],
+  "notes": [
+    "Development-driven additional condition, not part of the original three-condition preregistration.",
+    "All original conditions must remain reported.",
+    "Same frozen120 cases and exact metric functions; three missing-gold cases remain failures.",
+    "Actual browser choices are scored independently; native equality is not assumed."
+  ]
+}

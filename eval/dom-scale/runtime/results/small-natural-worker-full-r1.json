@@ -1,0 +1,5734 @@
+{
+  "schemaVersion": 2,
+  "startedAt": "2026-11-13T15:47:10.952Z",
+  "model": {
+    "id": "monologg/koelectra-small-v3-discriminator-dom-scale-small-natural",
+    "revision": "7488f8db0f208beff4a1f3f9bb3ed04650a89ed7",
+    "recipe": "small-natural",
+    "sha256": "285709af6114a0ecb7d22c836b52111696becfbd40db7e1ff45fa0e535ac164a",
+    "outputName": "scores",
+    "pooling": "logits"
+  },
+  "modelBytes": 7969650,
+  "modelSha256": "285709af6114a0ecb7d22c836b52111696becfbd40db7e1ff45fa0e535ac164a",
+  "jobsSha256": "24da8670f3480cb916a5c7f78f740c55a49349370c6324d9693170196759c102",
+  "mode": "worker",
+  "provider": "wasm",
+  "threads": 1,
+  "arena": true,
+  "memoryPattern": true,
+  "tokenize": true,
+  "sourceSha256": {
+    "scripts/dom-scale-browser.mjs": "4d2de8618743a92fafb470a611167ca2dd71bfb77e6feaa0766d5a93e7f8b853",
+    "eval/tiny-decision/slayer/node_modules/onnxruntime-web/dist/ort.wasm.min.mjs": "c21d9c326d453a4a61398270c804d5979e118540597cb0c07f7b3d64e6098234",
+    "eval/tiny-decision/slayer/node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded.mjs": "30ed0b5cd1182ede931fea448afb567d4dc705ec957af09f108a2be5f770dac3",
+    "eval/tiny-decision/slayer/node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded.wasm": "4b884c203b0fa48d057be3332c65513ff85aa3c5bddd6946acc0fab7ecda001d",
+    "eval/dom-scale/runtime/contract.mjs": "e20cfab130740df957e522528fa259e6a6b2afc35afade36cd99bee9bbb831df",
+    "eval/dom-scale/runtime/inference.mjs": "7b38cbbb13dac8ff406a35e372063ba645077b85a99083ecf567023bda37d9b3",
+    "eval/dom-scale/runtime/worker.mjs": "51b0142c5f6628e82979f4e39f3790706da86611da187b2fc5c29e73f13b3d1e",
+    "eval/dom-scale/runtime/page.mjs": "e23823c351db814aa5c439a40d5243b84e119fb8c7c75ea30fa8aabac2d3693b",
+    "eval/dom-scale/runtime/tokenize.mjs": "93e787622d9d99bc2487c22180b04362c66b27d303c7733297bdbb4303074112",
+    "eval/dom-scale/runtime/package-lock.json": "dd6b3c46d18c52d61d6378cdc782c91b061db9a41dcf951bb7542cca17fd24d8",
+    "eval/dom-scale/model/tokenizer-manifest.json": "a7b299e49735b7bdb1460d9f081a0d3dd30bfd3ffc08cad76986292261b5e3fc",
+    "eval/dom-scale/runtime/node_modules/@huggingface/tokenizers/dist/tokenizers.mjs": "1c4a848f86156201c033d6cd08c4cf81ae1088552acec3367f31ef086edf5af0"
+  },
+  "runtime": "ONNX Runtime Web 1.31.1",
+  "externalRequests": [],
+  "processMemory": [
+    {
+      "stage": "before-page",
+      "workingSetBytes": 407031808,
+      "privateBytes": 225091584,
+      "processes": [
+        {
+          "Id": 8320,
+          "WorkingSet64": 95965184,
+          "PrivateMemorySize64": 104087552
+        },
+        {
+          "Id": 12068,
+          "WorkingSet64": 32120832,
+          "PrivateMemorySize64": 15638528
+        },
+        {
+          "Id": 15632,
+          "WorkingSet64": 30027776,
+          "PrivateMemorySize64": 11362304
+        },
+        {
+          "Id": 32668,
+          "WorkingSet64": 19734528,
+          "PrivateMemorySize64": 8593408
+        },
+        {
+          "Id": 40292,
+          "WorkingSet64": 47239168,
+          "PrivateMemorySize64": 18227200
+        },
+        {
+          "Id": 58420,
+          "WorkingSet64": 110485504,
+          "PrivateMemorySize64": 32686080
+        },
+        {
+          "Id": 60000,
+          "WorkingSet64": 71458816,
+          "PrivateMemorySize64": 34496512
+        }
+      ]
+    },
+    {
+      "stage": "loaded-0",
+      "workingSetBytes": 567181312,
+      "privateBytes": 382140416,
+      "processes": [
+        {
+          "Id": 8320,
+          "WorkingSet64": 97177600,
+          "PrivateMemorySize64": 113926144
+        },
+        {
+          "Id": 12068,
+          "WorkingSet64": 195588096,
+          "PrivateMemorySize64": 161878016
+        },
+        {
+          "Id": 15632,
+          "WorkingSet64": 33120256,
+          "PrivateMemorySize64": 11784192
+        },
+        {
+          "Id": 32668,
+          "WorkingSet64": 20172800,
+          "PrivateMemorySize64": 8683520
+        },
+        {
+          "Id": 36928,
+          "WorkingSet64": 32124928,
+          "PrivateMemorySize64": 16678912
+        },
+        {
+          "Id": 58420,
+          "WorkingSet64": 117469184,
+          "PrivateMemorySize64": 34689024
+        },
+        {
+          "Id": 60000,
+          "WorkingSet64": 71528448,
+          "PrivateMemorySize64": 34500608
+        }
+      ]
+    },
+    {
+      "stage": "inference-1",
+      "workingSetBytes": 586375168,
+      "privateBytes": 398368768,
+      "processes": [
+        {
+          "Id": 8320,
+          "WorkingSet64": 96473088,
+          "PrivateMemorySize64": 112492544
+        },
+        {
+          "Id": 12068,
+          "WorkingSet64": 204185600,
+          "PrivateMemorySize64": 172797952
+        },
+        {
+          "Id": 15632,
+          "WorkingSet64": 33120256,
+          "PrivateMemorySize64": 11784192
+        },
+        {
+          "Id": 32668,
+          "WorkingSet64": 20172800,
+          "PrivateMemorySize64": 8683520
+        },
+        {
+          "Id": 36928,
+          "WorkingSet64": 32124928,
+          "PrivateMemorySize64": 16678912
+        },
+        {
+          "Id": 58420,
+          "WorkingSet64": 128770048,
+          "PrivateMemorySize64": 41431040
+        },
+        {
+          "Id": 60000,
+          "WorkingSet64": 71528448,
+          "PrivateMemorySize64": 34500608
+        }
+      ]
+    },
+    {
+      "stage": "inference-29",
+      "workingSetBytes": 629895168,
+      "privateBytes": 397885440,
+      "processes": [
+        {
+          "Id": 8320,
+          "WorkingSet64": 96538624,
+          "PrivateMemorySize64": 77410304
+        },
+        {
+          "Id": 12068,
+          "WorkingSet64": 246685696,
+          "PrivateMemorySize64": 206807040
+        },
+        {
+          "Id": 15632,
+          "WorkingSet64": 33452032,
+          "PrivateMemorySize64": 12058624
+        },
+        {
+          "Id": 32668,
+          "WorkingSet64": 20176896,
+          "PrivateMemorySize64": 8683520
+        },
+        {
+          "Id": 36928,
+          "WorkingSet64": 32141312,
+          "PrivateMemorySize64": 16678912
+        },
+        {
+          "Id": 58420,
+          "WorkingSet64": 129331200,
+          "PrivateMemorySize64": 41746432
+        },
+        {
+          "Id": 60000,
+          "WorkingSet64": 71569408,
+          "PrivateMemorySize64": 34500608
+        }
+      ]
+    },
+    {
+      "stage": "inference-57",
+      "workingSetBytes": 646467584,
+      "privateBytes": 427540480,
+      "processes": [
+        {
+          "Id": 8320,
+          "WorkingSet64": 96538624,
+          "PrivateMemorySize64": 77410304
+        },
+        {
+          "Id": 12068,
+          "WorkingSet64": 263229440,
+          "PrivateMemorySize64": 236437504
+        },
+        {
+          "Id": 15632,
+          "WorkingSet64": 33456128,
+          "PrivateMemorySize64": 12062720
+        },
+        {
+          "Id": 32668,
+          "WorkingSet64": 20176896,
+          "PrivateMemorySize64": 8683520
+        },
+        {
+          "Id": 36928,
+          "WorkingSet64": 32141312,
+          "PrivateMemorySize64": 16678912
+        },
+        {
+          "Id": 58420,
+          "WorkingSet64": 129355776,
+          "PrivateMemorySize64": 41766912
+        },
+        {
+          "Id": 60000,
+          "WorkingSet64": 71569408,
+          "PrivateMemorySize64": 34500608
+        }
+      ]
+    },
+    {
+      "stage": "released-57",
+      "workingSetBytes": 646676480,
+      "privateBytes": 426934272,
+      "processes": [
+        {
+          "Id": 8320,
+          "WorkingSet64": 96538624,
+          "PrivateMemorySize64": 77410304
+        },
+        {
+          "Id": 12068,
+          "WorkingSet64": 263630848,
+          "PrivateMemorySize64": 236384256
+        },
+        {
+          "Id": 15632,
+          "WorkingSet64": 33456128,
+          "PrivateMemorySize64": 12062720
+        },
+        {
+          "Id": 32668,
+          "WorkingSet64": 20176896,
+          "PrivateMemorySize64": 8683520
+        },
+        {
+          "Id": 36928,
+          "WorkingSet64": 32141312,
+          "PrivateMemorySize64": 16678912
+        },
+        {
+          "Id": 58420,
+          "WorkingSet64": 129163264,
+          "PrivateMemorySize64": 41213952
+        },
+        {
+          "Id": 60000,
+          "WorkingSet64": 71569408,
+          "PrivateMemorySize64": 34500608
+        }
+      ]
+    },
+    {
+      "stage": "worker-terminated-57",
+      "workingSetBytes": 496824320,
+      "privateBytes": 255135744,
+      "processes": [
+        {
+          "Id": 8320,
+          "WorkingSet64": 96538624,
+          "PrivateMemorySize64": 77410304
+        },
+        {
+          "Id": 12068,
+          "WorkingSet64": 113741824,
+          "PrivateMemorySize64": 64585728
+        },
+        {
+          "Id": 15632,
+          "WorkingSet64": 33456128,
+          "PrivateMemorySize64": 12062720
+        },
+        {
+          "Id": 32668,
+          "WorkingSet64": 20176896,
+          "PrivateMemorySize64": 8683520
+        },
+        {
+          "Id": 36928,
+          "WorkingSet64": 32141312,
+          "PrivateMemorySize64": 16678912
+        },
+        {
+          "Id": 58420,
+          "WorkingSet64": 129200128,
+          "PrivateMemorySize64": 41213952
+        },
+        {
+          "Id": 60000,
+          "WorkingSet64": 71569408,
+          "PrivateMemorySize64": 34500608
+        }
+      ]
+    },
+    {
+      "stage": "one-second-after-release",
+      "workingSetBytes": 500060160,
+      "privateBytes": 253857792,
+      "processes": [
+        {
+          "Id": 8320,
+          "WorkingSet64": 96579584,
+          "PrivateMemorySize64": 77447168
+        },
+        {
+          "Id": 12068,
+          "WorkingSet64": 113553408,
+          "PrivateMemorySize64": 64577536
+        },
+        {
+          "Id": 15632,
+          "WorkingSet64": 33308672,
+          "PrivateMemorySize64": 12054528
+        },
+        {
+          "Id": 32668,
+          "WorkingSet64": 20119552,
+          "PrivateMemorySize64": 8577024
+        },
+        {
+          "Id": 36928,
+          "WorkingSet64": 32141312,
+          "PrivateMemorySize64": 16678912
+        },
+        {
+          "Id": 58420,
+          "WorkingSet64": 133263360,
+          "PrivateMemorySize64": 43933696
+        },
+        {
+          "Id": 60000,
+          "WorkingSet64": 71094272,
+          "PrivateMemorySize64": 30588928
+        }
+      ]
+    }
+  ],
+  "environment": {
+    "platform": "win32",
+    "osRelease": "10.0.26300",
+    "arch": "x64",
+    "cpu": "AMD Ryzen 7 8840U w/ Radeon 780M Graphics      ",
+    "logicalCpus": 16,
+    "physicalMemoryBytes": 55611957248,
+    "node": "v24.19.0",
+    "chromium": "158.0.8127.18"
+  },
+  "notes": [
+    "Browser tokenizer regenerates every tensor with exact Python parity; DOM collection/template formatting excluded.",
+    "Local loopback asset loading; not internet-download timing.",
+    "Whole isolated Chromium process-set working set, observed at milestones; not continuous peak or model-only physical RAM.",
+    "Each field runs once. Chunk times summed per field; reporting/memory observation overhead excluded from inference.",
+    "Worker teardown is an explicit lifecycle action after all cases, not implicit proof of background memory reclamation."
+  ],
+  "stage": "worker-terminated",
+  "completedCases": 57,
+  "importMs": 8.890000104904175,
+  "rows": [
+    {
+      "id": "auth-coupang-jujutsu-player-description::batch-0",
+      "caseId": "auth-coupang-jujutsu-player-description",
+      "candidateIds": [
+        "__none__",
+        "d3",
+        "d1",
+        "d2"
+      ],
+      "pairIds": [
+        "auth-coupang-jujutsu-player-description::__none__",
+        "auth-coupang-jujutsu-player-description::d3",
+        "auth-coupang-jujutsu-player-description::d1",
+        "auth-coupang-jujutsu-player-description::d2"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          4,
+          208
+        ],
+        "token_type_ids": [
+          4,
+          208
+        ],
+        "attention_mask": [
+          4,
+          208
+        ]
+      },
+      "tokenizationMs": 2.4799997806549072,
+      "tokenizerParity": true,
+      "scores": [
+        -3.4585931301116943,
+        -3.6988937854766846,
+        -3.5950472354888916,
+        -3.6623833179473877
+      ],
+      "elapsedMs": 210.27999997138977,
+      "processingMs": 213.67500019073486
+    },
+    {
+      "id": "auth-coupang-jujutsu-player-image::batch-0",
+      "caseId": "auth-coupang-jujutsu-player-image",
+      "candidateIds": [
+        "i2",
+        "i1",
+        "__none__"
+      ],
+      "pairIds": [
+        "auth-coupang-jujutsu-player-image::i2",
+        "auth-coupang-jujutsu-player-image::i1",
+        "auth-coupang-jujutsu-player-image::__none__"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          3,
+          208
+        ],
+        "token_type_ids": [
+          3,
+          208
+        ],
+        "attention_mask": [
+          3,
+          208
+        ]
+      },
+      "tokenizationMs": 0.6850001811981201,
+      "tokenizerParity": true,
+      "scores": [
+        -3.605501174926758,
+        -3.6440975666046143,
+        -3.3896868228912354
+      ],
+      "elapsedMs": 123.97000002861023,
+      "processingMs": 124.91999983787537
+    },
+    {
+      "id": "auth-coupang-jujutsu-player-title::batch-0",
+      "caseId": "auth-coupang-jujutsu-player-title",
+      "candidateIds": [
+        "t1",
+        "__none__",
+        "t2"
+      ],
+      "pairIds": [
+        "auth-coupang-jujutsu-player-title::t1",
+        "auth-coupang-jujutsu-player-title::__none__",
+        "auth-coupang-jujutsu-player-title::t2"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          3,
+          211
+        ],
+        "token_type_ids": [
+          3,
+          211
+        ],
+        "attention_mask": [
+          3,
+          211
+        ]
+      },
+      "tokenizationMs": 0.5950000286102295,
+      "tokenizerParity": true,
+      "scores": [
+        -3.510148286819458,
+        -3.5062379837036133,
+        -3.6539108753204346
+      ],
+      "elapsedMs": 123.36500000953674,
+      "processingMs": 124.24000000953674
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-description::batch-0",
+      "caseId": "auth-coupang-jujutsu-search-description",
+      "candidateIds": [
+        "d1",
+        "d2",
+        "d5",
+        "d6",
+        "d4",
+        "__none__",
+        "d3"
+      ],
+      "pairIds": [
+        "auth-coupang-jujutsu-search-description::d1",
+        "auth-coupang-jujutsu-search-description::d2",
+        "auth-coupang-jujutsu-search-description::d5",
+        "auth-coupang-jujutsu-search-description::d6",
+        "auth-coupang-jujutsu-search-description::d4",
+        "auth-coupang-jujutsu-search-description::__none__",
+        "auth-coupang-jujutsu-search-description::d3"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          7,
+          228
+        ],
+        "token_type_ids": [
+          7,
+          228
+        ],
+        "attention_mask": [
+          7,
+          228
+        ]
+      },
+      "tokenizationMs": 1.2250001430511475,
+      "tokenizerParity": true,
+      "scores": [
+        -3.5405631065368652,
+        -3.632699728012085,
+        -3.586174964904785,
+        -3.5650253295898438,
+        -3.6712403297424316,
+        2.39229154586792,
+        -3.621487855911255
+      ],
+      "elapsedMs": 325.164999961853,
+      "processingMs": 326.9300000667572
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-image::batch-0",
+      "caseId": "auth-coupang-jujutsu-search-image",
+      "candidateIds": [
+        "i3",
+        "i8",
+        "i5",
+        "i9",
+        "i2",
+        "i12",
+        "i6",
+        "i7",
+        "i1",
+        "i11",
+        "__none__",
+        "i4",
+        "i10"
+      ],
+      "pairIds": [
+        "auth-coupang-jujutsu-search-image::i3",
+        "auth-coupang-jujutsu-search-image::i8",
+        "auth-coupang-jujutsu-search-image::i5",
+        "auth-coupang-jujutsu-search-image::i9",
+        "auth-coupang-jujutsu-search-image::i2",
+        "auth-coupang-jujutsu-search-image::i12",
+        "auth-coupang-jujutsu-search-image::i6",
+        "auth-coupang-jujutsu-search-image::i7",
+        "auth-coupang-jujutsu-search-image::i1",
+        "auth-coupang-jujutsu-search-image::i11",
+        "auth-coupang-jujutsu-search-image::__none__",
+        "auth-coupang-jujutsu-search-image::i4",
+        "auth-coupang-jujutsu-search-image::i10"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          210
+        ],
+        "token_type_ids": [
+          13,
+          210
+        ],
+        "attention_mask": [
+          13,
+          210
+        ]
+      },
+      "tokenizationMs": 3.5550003051757812,
+      "tokenizerParity": true,
+      "scores": [
+        -3.5893898010253906,
+        -3.5643069744110107,
+        -3.549769163131714,
+        -3.5659451484680176,
+        -3.6612184047698975,
+        -3.6024532318115234,
+        -3.572845458984375,
+        -3.5911505222320557,
+        -3.7362005710601807,
+        -3.676145315170288,
+        2.090691328048706,
+        -3.556689977645874,
+        -3.6295015811920166
+      ],
+      "elapsedMs": 541.4700000286102,
+      "processingMs": 545.8799998760223
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-title::batch-0",
+      "caseId": "auth-coupang-jujutsu-search-title",
+      "candidateIds": [
+        "t7",
+        "t9",
+        "t1",
+        "t2",
+        "t12",
+        "t10",
+        "t4",
+        "t5",
+        "t3",
+        "t6",
+        "t11",
+        "__none__",
+        "t8"
+      ],
+      "pairIds": [
+        "auth-coupang-jujutsu-search-title::t7",
+        "auth-coupang-jujutsu-search-title::t9",
+        "auth-coupang-jujutsu-search-title::t1",
+        "auth-coupang-jujutsu-search-title::t2",
+        "auth-coupang-jujutsu-search-title::t12",
+        "auth-coupang-jujutsu-search-title::t10",
+        "auth-coupang-jujutsu-search-title::t4",
+        "auth-coupang-jujutsu-search-title::t5",
+        "auth-coupang-jujutsu-search-title::t3",
+        "auth-coupang-jujutsu-search-title::t6",
+        "auth-coupang-jujutsu-search-title::t11",
+        "auth-coupang-jujutsu-search-title::__none__",
+        "auth-coupang-jujutsu-search-title::t8"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          188
+        ],
+        "token_type_ids": [
+          13,
+          188
+        ],
+        "attention_mask": [
+          13,
+          188
+        ]
+      },
+      "tokenizationMs": 1.8849997520446777,
+      "tokenizerParity": true,
+      "scores": [
+        -3.664569616317749,
+        -3.6347179412841797,
+        -3.573082447052002,
+        -3.67918062210083,
+        -3.65388822555542,
+        -3.6361942291259766,
+        -3.672515630722046,
+        -3.678724765777588,
+        -3.7319366931915283,
+        -3.664048671722412,
+        -3.6604013442993164,
+        2.053753614425659,
+        -3.6277706623077393
+      ],
+      "elapsedMs": 479.27999997138977,
+      "processingMs": 482.17500019073486
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-description::batch-0",
+      "caseId": "auth-crunchyroll-jujutsu-search-description",
+      "candidateIds": [
+        "d3",
+        "d2",
+        "d8",
+        "d10",
+        "d5",
+        "d11",
+        "__none__",
+        "d6",
+        "d4",
+        "d12",
+        "d9",
+        "d7",
+        "d1"
+      ],
+      "pairIds": [
+        "auth-crunchyroll-jujutsu-search-description::d3",
+        "auth-crunchyroll-jujutsu-search-description::d2",
+        "auth-crunchyroll-jujutsu-search-description::d8",
+        "auth-crunchyroll-jujutsu-search-description::d10",
+        "auth-crunchyroll-jujutsu-search-description::d5",
+        "auth-crunchyroll-jujutsu-search-description::d11",
+        "auth-crunchyroll-jujutsu-search-description::__none__",
+        "auth-crunchyroll-jujutsu-search-description::d6",
+        "auth-crunchyroll-jujutsu-search-description::d4",
+        "auth-crunchyroll-jujutsu-search-description::d12",
+        "auth-crunchyroll-jujutsu-search-description::d9",
+        "auth-crunchyroll-jujutsu-search-description::d7",
+        "auth-crunchyroll-jujutsu-search-description::d1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          208
+        ],
+        "token_type_ids": [
+          13,
+          208
+        ],
+        "attention_mask": [
+          13,
+          208
+        ]
+      },
+      "tokenizationMs": 3.0349998474121094,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6892499923706055,
+        -3.65466046333313,
+        -3.631155490875244,
+        -3.640817880630493,
+        -3.6146230697631836,
+        -3.662095785140991,
+        -1.8766158819198608,
+        -3.6295793056488037,
+        -3.6945438385009766,
+        -3.6122589111328125,
+        -3.607067823410034,
+        -3.6019625663757324,
+        -3.6384708881378174
+      ],
+      "elapsedMs": 551.8550000190735,
+      "processingMs": 556.3250000476837
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-image::batch-0",
+      "caseId": "auth-crunchyroll-jujutsu-search-image",
+      "candidateIds": [
+        "i5",
+        "i9",
+        "i1",
+        "i7",
+        "i10",
+        "i8",
+        "i4",
+        "i6",
+        "__none__",
+        "i3",
+        "i2"
+      ],
+      "pairIds": [
+        "auth-crunchyroll-jujutsu-search-image::i5",
+        "auth-crunchyroll-jujutsu-search-image::i9",
+        "auth-crunchyroll-jujutsu-search-image::i1",
+        "auth-crunchyroll-jujutsu-search-image::i7",
+        "auth-crunchyroll-jujutsu-search-image::i10",
+        "auth-crunchyroll-jujutsu-search-image::i8",
+        "auth-crunchyroll-jujutsu-search-image::i4",
+        "auth-crunchyroll-jujutsu-search-image::i6",
+        "auth-crunchyroll-jujutsu-search-image::__none__",
+        "auth-crunchyroll-jujutsu-search-image::i3",
+        "auth-crunchyroll-jujutsu-search-image::i2"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          11,
+          227
+        ],
+        "token_type_ids": [
+          11,
+          227
+        ],
+        "attention_mask": [
+          11,
+          227
+        ]
+      },
+      "tokenizationMs": 1.5600001811981201,
+      "tokenizerParity": true,
+      "scores": [
+        -3.581796884536743,
+        -3.6419332027435303,
+        -3.7039601802825928,
+        -3.610590696334839,
+        -3.6751251220703125,
+        -3.6649723052978516,
+        -3.6560730934143066,
+        -3.667027473449707,
+        -0.560531497001648,
+        -3.7341928482055664,
+        -3.658066749572754
+      ],
+      "elapsedMs": 505.4300000667572,
+      "processingMs": 507.7699999809265
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-title::batch-0",
+      "caseId": "auth-crunchyroll-jujutsu-search-title",
+      "candidateIds": [
+        "t3",
+        "t8",
+        "t7",
+        "__none__",
+        "t9",
+        "t1",
+        "t6",
+        "t10",
+        "t11",
+        "t4",
+        "t5",
+        "t2",
+        "t12"
+      ],
+      "pairIds": [
+        "auth-crunchyroll-jujutsu-search-title::t3",
+        "auth-crunchyroll-jujutsu-search-title::t8",
+        "auth-crunchyroll-jujutsu-search-title::t7",
+        "auth-crunchyroll-jujutsu-search-title::__none__",
+        "auth-crunchyroll-jujutsu-search-title::t9",
+        "auth-crunchyroll-jujutsu-search-title::t1",
+        "auth-crunchyroll-jujutsu-search-title::t6",
+        "auth-crunchyroll-jujutsu-search-title::t10",
+        "auth-crunchyroll-jujutsu-search-title::t11",
+        "auth-crunchyroll-jujutsu-search-title::t4",
+        "auth-crunchyroll-jujutsu-search-title::t5",
+        "auth-crunchyroll-jujutsu-search-title::t2",
+        "auth-crunchyroll-jujutsu-search-title::t12"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          178
+        ],
+        "token_type_ids": [
+          13,
+          178
+        ],
+        "attention_mask": [
+          13,
+          178
+        ]
+      },
+      "tokenizationMs": 1.6449995040893555,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6491546630859375,
+        -3.6829442977905273,
+        -3.6468076705932617,
+        -2.2336552143096924,
+        -3.679598569869995,
+        -3.5991194248199463,
+        -3.669494867324829,
+        -3.6857404708862305,
+        -3.7202625274658203,
+        -3.6850414276123047,
+        -3.651268482208252,
+        -3.61651349067688,
+        -3.7162511348724365
+      ],
+      "elapsedMs": 460.34500002861023,
+      "processingMs": 462.74000000953674
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-description::batch-0",
+      "caseId": "authprofile-watcha-jujutsu-detail-description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "pairIds": [
+        "authprofile-watcha-jujutsu-detail-description::d2",
+        "authprofile-watcha-jujutsu-detail-description::__none__",
+        "authprofile-watcha-jujutsu-detail-description::d1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          3,
+          211
+        ],
+        "token_type_ids": [
+          3,
+          211
+        ],
+        "attention_mask": [
+          3,
+          211
+        ]
+      },
+      "tokenizationMs": 0.6150000095367432,
+      "tokenizerParity": true,
+      "scores": [
+        -3.54722261428833,
+        -4.2419233322143555,
+        -3.6091787815093994
+      ],
+      "elapsedMs": 123.1949999332428,
+      "processingMs": 124.0550000667572
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-image::batch-0",
+      "caseId": "authprofile-watcha-jujutsu-detail-image",
+      "candidateIds": [
+        "i11",
+        "i12",
+        "i6",
+        "__none__",
+        "i4",
+        "i1",
+        "i7",
+        "i10",
+        "i5",
+        "i8",
+        "i2",
+        "i3",
+        "i9"
+      ],
+      "pairIds": [
+        "authprofile-watcha-jujutsu-detail-image::i11",
+        "authprofile-watcha-jujutsu-detail-image::i12",
+        "authprofile-watcha-jujutsu-detail-image::i6",
+        "authprofile-watcha-jujutsu-detail-image::__none__",
+        "authprofile-watcha-jujutsu-detail-image::i4",
+        "authprofile-watcha-jujutsu-detail-image::i1",
+        "authprofile-watcha-jujutsu-detail-image::i7",
+        "authprofile-watcha-jujutsu-detail-image::i10",
+        "authprofile-watcha-jujutsu-detail-image::i5",
+        "authprofile-watcha-jujutsu-detail-image::i8",
+        "authprofile-watcha-jujutsu-detail-image::i2",
+        "authprofile-watcha-jujutsu-detail-image::i3",
+        "authprofile-watcha-jujutsu-detail-image::i9"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          204
+        ],
+        "token_type_ids": [
+          13,
+          204
+        ],
+        "attention_mask": [
+          13,
+          204
+        ]
+      },
+      "tokenizationMs": 2.979999542236328,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6595101356506348,
+        -3.6421191692352295,
+        -3.630490303039551,
+        -4.095728874206543,
+        -3.6694161891937256,
+        -3.6021981239318848,
+        -3.6654212474823,
+        -3.6656291484832764,
+        -3.6066091060638428,
+        -3.6301932334899902,
+        -3.634916067123413,
+        -3.6401586532592773,
+        -3.6321685314178467
+      ],
+      "elapsedMs": 557.1950001716614,
+      "processingMs": 561.0599999427795
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-title::batch-0",
+      "caseId": "authprofile-watcha-jujutsu-detail-title",
+      "candidateIds": [
+        "t9",
+        "t1",
+        "t6",
+        "t7",
+        "t2",
+        "__none__",
+        "t8",
+        "t3",
+        "t4",
+        "t10",
+        "t12",
+        "t5",
+        "t11"
+      ],
+      "pairIds": [
+        "authprofile-watcha-jujutsu-detail-title::t9",
+        "authprofile-watcha-jujutsu-detail-title::t1",
+        "authprofile-watcha-jujutsu-detail-title::t6",
+        "authprofile-watcha-jujutsu-detail-title::t7",
+        "authprofile-watcha-jujutsu-detail-title::t2",
+        "authprofile-watcha-jujutsu-detail-title::__none__",
+        "authprofile-watcha-jujutsu-detail-title::t8",
+        "authprofile-watcha-jujutsu-detail-title::t3",
+        "authprofile-watcha-jujutsu-detail-title::t4",
+        "authprofile-watcha-jujutsu-detail-title::t10",
+        "authprofile-watcha-jujutsu-detail-title::t12",
+        "authprofile-watcha-jujutsu-detail-title::t5",
+        "authprofile-watcha-jujutsu-detail-title::t11"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          169
+        ],
+        "token_type_ids": [
+          13,
+          169
+        ],
+        "attention_mask": [
+          13,
+          169
+        ]
+      },
+      "tokenizationMs": 1.755000114440918,
+      "tokenizerParity": true,
+      "scores": [
+        -3.66133713722229,
+        -3.706136465072632,
+        -3.6778788566589355,
+        -3.6469175815582275,
+        -3.716660499572754,
+        -4.231563568115234,
+        -3.6404054164886475,
+        -3.6677329540252686,
+        -3.6508712768554688,
+        -3.6830391883850098,
+        -3.6952784061431885,
+        -3.6666135787963867,
+        -3.6650872230529785
+      ],
+      "elapsedMs": 432.36500000953674,
+      "processingMs": 434.83000016212463
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-description::batch-0",
+      "caseId": "authprofile-watcha-jujutsu-search-description",
+      "candidateIds": [
+        "d1",
+        "__none__"
+      ],
+      "pairIds": [
+        "authprofile-watcha-jujutsu-search-description::d1",
+        "authprofile-watcha-jujutsu-search-description::__none__"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          2,
+          150
+        ],
+        "token_type_ids": [
+          2,
+          150
+        ],
+        "attention_mask": [
+          2,
+          150
+        ]
+      },
+      "tokenizationMs": 0.4200000762939453,
+      "tokenizerParity": true,
+      "scores": [
+        -3.5520968437194824,
+        4.98161506652832
+      ],
+      "elapsedMs": 53.99499988555908,
+      "processingMs": 54.55999994277954
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-image::batch-0",
+      "caseId": "authprofile-watcha-jujutsu-search-image",
+      "candidateIds": [
+        "i4",
+        "i2",
+        "i1",
+        "i3",
+        "__none__"
+      ],
+      "pairIds": [
+        "authprofile-watcha-jujutsu-search-image::i4",
+        "authprofile-watcha-jujutsu-search-image::i2",
+        "authprofile-watcha-jujutsu-search-image::i1",
+        "authprofile-watcha-jujutsu-search-image::i3",
+        "authprofile-watcha-jujutsu-search-image::__none__"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          5,
+          178
+        ],
+        "token_type_ids": [
+          5,
+          178
+        ],
+        "attention_mask": [
+          5,
+          178
+        ]
+      },
+      "tokenizationMs": 0.9400002956390381,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6361052989959717,
+        -3.6840946674346924,
+        -3.5287444591522217,
+        -3.658944845199585,
+        5.207456111907959
+      ],
+      "elapsedMs": 169.68499994277954,
+      "processingMs": 170.95499992370605
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-title::batch-0",
+      "caseId": "authprofile-watcha-jujutsu-search-title",
+      "candidateIds": [
+        "t1",
+        "t2",
+        "t5",
+        "t4",
+        "__none__",
+        "t3"
+      ],
+      "pairIds": [
+        "authprofile-watcha-jujutsu-search-title::t1",
+        "authprofile-watcha-jujutsu-search-title::t2",
+        "authprofile-watcha-jujutsu-search-title::t5",
+        "authprofile-watcha-jujutsu-search-title::t4",
+        "authprofile-watcha-jujutsu-search-title::__none__",
+        "authprofile-watcha-jujutsu-search-title::t3"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          6,
+          158
+        ],
+        "token_type_ids": [
+          6,
+          158
+        ],
+        "attention_mask": [
+          6,
+          158
+        ]
+      },
+      "tokenizationMs": 1.0899999141693115,
+      "tokenizerParity": true,
+      "scores": [
+        -3.611161470413208,
+        -3.563754081726074,
+        -3.650648593902588,
+        -3.6655495166778564,
+        4.848755836486816,
+        -3.657322406768799
+      ],
+      "elapsedMs": 177.30999994277954,
+      "processingMs": 178.97000002861023
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-description::batch-0",
+      "caseId": "scale-aniplus-jujutsu-kaisen-search-description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "pairIds": [
+        "scale-aniplus-jujutsu-kaisen-search-description::d2",
+        "scale-aniplus-jujutsu-kaisen-search-description::__none__",
+        "scale-aniplus-jujutsu-kaisen-search-description::d1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          3,
+          239
+        ],
+        "token_type_ids": [
+          3,
+          239
+        ],
+        "attention_mask": [
+          3,
+          239
+        ]
+      },
+      "tokenizationMs": 0.5600001811981201,
+      "tokenizerParity": true,
+      "scores": [
+        -3.5432872772216797,
+        5.05457878112793,
+        -3.4133455753326416
+      ],
+      "elapsedMs": 136.31500005722046,
+      "processingMs": 137.13000011444092
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-image::batch-0",
+      "caseId": "scale-aniplus-jujutsu-kaisen-search-image",
+      "candidateIds": [
+        "i1",
+        "__none__"
+      ],
+      "pairIds": [
+        "scale-aniplus-jujutsu-kaisen-search-image::i1",
+        "scale-aniplus-jujutsu-kaisen-search-image::__none__"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          2,
+          180
+        ],
+        "token_type_ids": [
+          2,
+          180
+        ],
+        "attention_mask": [
+          2,
+          180
+        ]
+      },
+      "tokenizationMs": 0.4049999713897705,
+      "tokenizerParity": true,
+      "scores": [
+        -3.4111738204956055,
+        5.051591873168945
+      ],
+      "elapsedMs": 67.07999992370605,
+      "processingMs": 67.63499999046326
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-description::batch-0",
+      "caseId": "scale-aniplus-jujutsu-kaisen-search-opened-work-description",
+      "candidateIds": [
+        "d5",
+        "d2",
+        "d11",
+        "d3",
+        "d12",
+        "d1",
+        "d4",
+        "d8",
+        "__none__",
+        "d6",
+        "d9",
+        "d7",
+        "d10"
+      ],
+      "pairIds": [
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::d5",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::d2",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::d11",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::d3",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::d12",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::d1",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::d4",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::d8",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::__none__",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::d6",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::d9",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::d7",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description::d10"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          253
+        ],
+        "token_type_ids": [
+          13,
+          253
+        ],
+        "attention_mask": [
+          13,
+          253
+        ]
+      },
+      "tokenizationMs": 2.7300000190734863,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6224868297576904,
+        -3.642052173614502,
+        -3.587771415710449,
+        -3.640267848968506,
+        -3.611056089401245,
+        -3.5988998413085938,
+        -3.59877872467041,
+        -3.6166656017303467,
+        -3.705298900604248,
+        -3.574768304824829,
+        -3.655085563659668,
+        -3.6037230491638184,
+        -3.559602975845337
+      ],
+      "elapsedMs": 705.1450002193451,
+      "processingMs": 708.9349999427795
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-image::batch-0",
+      "caseId": "scale-aniplus-jujutsu-kaisen-search-opened-work-image",
+      "candidateIds": [
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "pairIds": [
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-image::i1",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-image::i2",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-image::__none__"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          3,
+          171
+        ],
+        "token_type_ids": [
+          3,
+          171
+        ],
+        "attention_mask": [
+          3,
+          171
+        ]
+      },
+      "tokenizationMs": 0.505000114440918,
+      "tokenizerParity": true,
+      "scores": [
+        -3.5358376502990723,
+        -3.567854404449463,
+        -3.7305240631103516
+      ],
+      "elapsedMs": 98.51500010490417,
+      "processingMs": 99.22999978065491
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-title::batch-0",
+      "caseId": "scale-aniplus-jujutsu-kaisen-search-opened-work-title",
+      "candidateIds": [
+        "t6",
+        "t3",
+        "t8",
+        "t7",
+        "t2",
+        "t9",
+        "t5",
+        "t12",
+        "__none__",
+        "t11",
+        "t10",
+        "t4",
+        "t1"
+      ],
+      "pairIds": [
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::t6",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::t3",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::t8",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::t7",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::t2",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::t9",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::t5",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::t12",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::__none__",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::t11",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::t10",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::t4",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title::t1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          211
+        ],
+        "token_type_ids": [
+          13,
+          211
+        ],
+        "attention_mask": [
+          13,
+          211
+        ]
+      },
+      "tokenizationMs": 2.015000343322754,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6891090869903564,
+        -3.6130430698394775,
+        -3.630927085876465,
+        -3.6291067600250244,
+        -3.61023211479187,
+        -3.6903469562530518,
+        -3.6528310775756836,
+        -3.6271989345550537,
+        -3.6666665077209473,
+        -3.674589157104492,
+        -3.6223199367523193,
+        -3.6753318309783936,
+        -3.6346845626831055
+      ],
+      "elapsedMs": 546.8050000667572,
+      "processingMs": 549.710000038147
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-title::batch-0",
+      "caseId": "scale-aniplus-jujutsu-kaisen-search-title",
+      "candidateIds": [
+        "t1",
+        "__none__",
+        "t4",
+        "t2",
+        "t5",
+        "t3"
+      ],
+      "pairIds": [
+        "scale-aniplus-jujutsu-kaisen-search-title::t1",
+        "scale-aniplus-jujutsu-kaisen-search-title::__none__",
+        "scale-aniplus-jujutsu-kaisen-search-title::t4",
+        "scale-aniplus-jujutsu-kaisen-search-title::t2",
+        "scale-aniplus-jujutsu-kaisen-search-title::t5",
+        "scale-aniplus-jujutsu-kaisen-search-title::t3"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          6,
+          198
+        ],
+        "token_type_ids": [
+          6,
+          198
+        ],
+        "attention_mask": [
+          6,
+          198
+        ]
+      },
+      "tokenizationMs": 1.1700000762939453,
+      "tokenizerParity": true,
+      "scores": [
+        -3.4691362380981445,
+        5.036277770996094,
+        -3.589695692062378,
+        -3.456233263015747,
+        -3.6105780601501465,
+        -3.6321206092834473
+      ],
+      "elapsedMs": 228.23499989509583,
+      "processingMs": 230.05999994277954
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-description::batch-0",
+      "caseId": "scale-coupang-jujutsu-kaisen-search-description",
+      "candidateIds": [
+        "d1",
+        "d2",
+        "__none__"
+      ],
+      "pairIds": [
+        "scale-coupang-jujutsu-kaisen-search-description::d1",
+        "scale-coupang-jujutsu-kaisen-search-description::d2",
+        "scale-coupang-jujutsu-kaisen-search-description::__none__"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          3,
+          206
+        ],
+        "token_type_ids": [
+          3,
+          206
+        ],
+        "attention_mask": [
+          3,
+          206
+        ]
+      },
+      "tokenizationMs": 0.6800003051757812,
+      "tokenizerParity": true,
+      "scores": [
+        -3.505448579788208,
+        -3.508864402770996,
+        4.854879856109619
+      ],
+      "elapsedMs": 124.99500012397766,
+      "processingMs": 126.00999999046326
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-title::batch-0",
+      "caseId": "scale-coupang-jujutsu-kaisen-search-title",
+      "candidateIds": [
+        "t1",
+        "__none__"
+      ],
+      "pairIds": [
+        "scale-coupang-jujutsu-kaisen-search-title::t1",
+        "scale-coupang-jujutsu-kaisen-search-title::__none__"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          2,
+          162
+        ],
+        "token_type_ids": [
+          2,
+          162
+        ],
+        "attention_mask": [
+          2,
+          162
+        ]
+      },
+      "tokenizationMs": 0.33500003814697266,
+      "tokenizerParity": true,
+      "scores": [
+        -3.55837345123291,
+        4.393182277679443
+      ],
+      "elapsedMs": 60.204999923706055,
+      "processingMs": 60.69000005722046
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-description::batch-0",
+      "caseId": "scale-laftel-jujutsu-kaisen-search-description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "pairIds": [
+        "scale-laftel-jujutsu-kaisen-search-description::__none__",
+        "scale-laftel-jujutsu-kaisen-search-description::d1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          2,
+          210
+        ],
+        "token_type_ids": [
+          2,
+          210
+        ],
+        "attention_mask": [
+          2,
+          210
+        ]
+      },
+      "tokenizationMs": 0.47499990463256836,
+      "tokenizerParity": true,
+      "scores": [
+        5.351078510284424,
+        -3.5955989360809326
+      ],
+      "elapsedMs": 83.98499989509583,
+      "processingMs": 84.65499997138977
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-image::batch-0",
+      "caseId": "scale-laftel-jujutsu-kaisen-search-image",
+      "candidateIds": [
+        "i1",
+        "__none__"
+      ],
+      "pairIds": [
+        "scale-laftel-jujutsu-kaisen-search-image::i1",
+        "scale-laftel-jujutsu-kaisen-search-image::__none__"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          2,
+          162
+        ],
+        "token_type_ids": [
+          2,
+          162
+        ],
+        "attention_mask": [
+          2,
+          162
+        ]
+      },
+      "tokenizationMs": 0.4850001335144043,
+      "tokenizerParity": true,
+      "scores": [
+        -3.476565361022949,
+        5.419583797454834
+      ],
+      "elapsedMs": 58.74499988555908,
+      "processingMs": 59.394999980926514
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-description::batch-0",
+      "caseId": "scale-laftel-jujutsu-kaisen-search-opened-work-description",
+      "candidateIds": [
+        "d4",
+        "d1",
+        "d8",
+        "d12",
+        "__none__",
+        "d7",
+        "d2",
+        "d11",
+        "d9",
+        "d3",
+        "d6",
+        "d5",
+        "d10"
+      ],
+      "pairIds": [
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::d4",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::d1",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::d8",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::d12",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::__none__",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::d7",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::d2",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::d11",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::d9",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::d3",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::d6",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::d5",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description::d10"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          256
+        ],
+        "token_type_ids": [
+          13,
+          256
+        ],
+        "attention_mask": [
+          13,
+          256
+        ]
+      },
+      "tokenizationMs": 3.130000114440918,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6489012241363525,
+        -3.6591150760650635,
+        -3.651062250137329,
+        -3.6595041751861572,
+        -3.8189492225646973,
+        -3.604689359664917,
+        -3.632089614868164,
+        -3.568660020828247,
+        -3.6133618354797363,
+        -3.631570816040039,
+        -3.6472301483154297,
+        -3.6274220943450928,
+        -3.613548994064331
+      ],
+      "elapsedMs": 700.1150000095367,
+      "processingMs": 704.3099999427795
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-image::batch-0",
+      "caseId": "scale-laftel-jujutsu-kaisen-search-opened-work-image",
+      "candidateIds": [
+        "i11",
+        "i3",
+        "i12",
+        "i9",
+        "i10",
+        "i1",
+        "i5",
+        "i2",
+        "i6",
+        "__none__",
+        "i7",
+        "i8",
+        "i4"
+      ],
+      "pairIds": [
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::i11",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::i3",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::i12",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::i9",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::i10",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::i1",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::i5",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::i2",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::i6",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::__none__",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::i7",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::i8",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image::i4"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          202
+        ],
+        "token_type_ids": [
+          13,
+          202
+        ],
+        "attention_mask": [
+          13,
+          202
+        ]
+      },
+      "tokenizationMs": 2.3999998569488525,
+      "tokenizerParity": true,
+      "scores": [
+        -3.625460624694824,
+        -3.6614317893981934,
+        -3.695380449295044,
+        -3.7238495349884033,
+        -3.653280735015869,
+        -3.5684921741485596,
+        -3.6559221744537354,
+        -3.6087353229522705,
+        -3.6771457195281982,
+        -3.7219927310943604,
+        -3.627558708190918,
+        -3.6204640865325928,
+        -3.682126998901367
+      ],
+      "elapsedMs": 514.0249998569489,
+      "processingMs": 517.3650000095367
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-title::batch-0",
+      "caseId": "scale-laftel-jujutsu-kaisen-search-opened-work-title",
+      "candidateIds": [
+        "t12",
+        "__none__",
+        "t2",
+        "t1",
+        "t7",
+        "t9",
+        "t11",
+        "t3",
+        "t5",
+        "t8",
+        "t6",
+        "t10",
+        "t4"
+      ],
+      "pairIds": [
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::t12",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::__none__",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::t2",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::t1",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::t7",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::t9",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::t11",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::t3",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::t5",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::t8",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::t6",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::t10",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title::t4"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          189
+        ],
+        "token_type_ids": [
+          13,
+          189
+        ],
+        "attention_mask": [
+          13,
+          189
+        ]
+      },
+      "tokenizationMs": 1.565000295639038,
+      "tokenizerParity": true,
+      "scores": [
+        -3.68037486076355,
+        -3.7884018421173096,
+        -3.657388687133789,
+        -3.6138200759887695,
+        -3.6780879497528076,
+        -3.659836769104004,
+        -3.670567512512207,
+        -3.65523362159729,
+        -3.6497509479522705,
+        -3.672473430633545,
+        -3.709738254547119,
+        -3.682236671447754,
+        -3.6450891494750977
+      ],
+      "elapsedMs": 459.4850001335144,
+      "processingMs": 461.8050000667572
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-description::batch-0",
+      "caseId": "scale-laftel-jujutsu-kaisen-search-playback-entry-description",
+      "candidateIds": [
+        "d1",
+        "d4",
+        "d2",
+        "d3",
+        "__none__"
+      ],
+      "pairIds": [
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-description::d1",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-description::d4",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-description::d2",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-description::d3",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-description::__none__"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          5,
+          208
+        ],
+        "token_type_ids": [
+          5,
+          208
+        ],
+        "attention_mask": [
+          5,
+          208
+        ]
+      },
+      "tokenizationMs": 0.8150005340576172,
+      "tokenizerParity": true,
+      "scores": [
+        -3.5745065212249756,
+        -3.646491289138794,
+        -3.5953619480133057,
+        -3.6576013565063477,
+        3.412076234817505
+      ],
+      "elapsedMs": 194.5149998664856,
+      "processingMs": 195.71000003814697
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-image::batch-0",
+      "caseId": "scale-laftel-jujutsu-kaisen-search-playback-entry-image",
+      "candidateIds": [
+        "i10",
+        "i5",
+        "i2",
+        "i8",
+        "i3",
+        "i7",
+        "i4",
+        "i12",
+        "i1",
+        "i11",
+        "i9",
+        "__none__",
+        "i6"
+      ],
+      "pairIds": [
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::i10",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::i5",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::i2",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::i8",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::i3",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::i7",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::i4",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::i12",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::i1",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::i11",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::i9",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::__none__",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image::i6"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          186
+        ],
+        "token_type_ids": [
+          13,
+          186
+        ],
+        "attention_mask": [
+          13,
+          186
+        ]
+      },
+      "tokenizationMs": 1.8349997997283936,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6383628845214844,
+        -3.624603509902954,
+        -3.6201393604278564,
+        -3.670886993408203,
+        -3.674462080001831,
+        -3.602804660797119,
+        -3.6841440200805664,
+        -3.6615142822265625,
+        -3.6301302909851074,
+        -3.6740562915802,
+        -3.6288936138153076,
+        4.372648239135742,
+        -3.669534206390381
+      ],
+      "elapsedMs": 451.0149998664856,
+      "processingMs": 453.5899999141693
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-title::batch-0",
+      "caseId": "scale-laftel-jujutsu-kaisen-search-playback-entry-title",
+      "candidateIds": [
+        "t7",
+        "t11",
+        "t3",
+        "t2",
+        "t6",
+        "t5",
+        "t10",
+        "__none__",
+        "t9",
+        "t8",
+        "t1",
+        "t12",
+        "t4"
+      ],
+      "pairIds": [
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::t7",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::t11",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::t3",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::t2",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::t6",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::t5",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::t10",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::__none__",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::t9",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::t8",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::t1",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::t12",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title::t4"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          172
+        ],
+        "token_type_ids": [
+          13,
+          172
+        ],
+        "attention_mask": [
+          13,
+          172
+        ]
+      },
+      "tokenizationMs": 2.0399997234344482,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6763250827789307,
+        -3.6349899768829346,
+        -3.660419464111328,
+        -3.4766712188720703,
+        -3.727707862854004,
+        -3.6430203914642334,
+        -3.689204692840576,
+        3.457519292831421,
+        -3.695178985595703,
+        -3.741945266723633,
+        -3.4883289337158203,
+        -3.6550464630126953,
+        -3.6697301864624023
+      ],
+      "elapsedMs": 413.35000014305115,
+      "processingMs": 416.414999961853
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-title::batch-0",
+      "caseId": "scale-laftel-jujutsu-kaisen-search-title",
+      "candidateIds": [
+        "__none__",
+        "t3",
+        "t2",
+        "t1"
+      ],
+      "pairIds": [
+        "scale-laftel-jujutsu-kaisen-search-title::__none__",
+        "scale-laftel-jujutsu-kaisen-search-title::t3",
+        "scale-laftel-jujutsu-kaisen-search-title::t2",
+        "scale-laftel-jujutsu-kaisen-search-title::t1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          4,
+          164
+        ],
+        "token_type_ids": [
+          4,
+          164
+        ],
+        "attention_mask": [
+          4,
+          164
+        ]
+      },
+      "tokenizationMs": 0.5449998378753662,
+      "tokenizerParity": true,
+      "scores": [
+        5.365568161010742,
+        -3.604499578475952,
+        -3.5144670009613037,
+        -3.546846866607666
+      ],
+      "elapsedMs": 119.98000001907349,
+      "processingMs": 120.84999990463257
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-description::batch-0",
+      "caseId": "scale-prime-ghost-in-the-shell-detail-description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "pairIds": [
+        "scale-prime-ghost-in-the-shell-detail-description::__none__",
+        "scale-prime-ghost-in-the-shell-detail-description::d1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          2,
+          253
+        ],
+        "token_type_ids": [
+          2,
+          253
+        ],
+        "attention_mask": [
+          2,
+          253
+        ]
+      },
+      "tokenizationMs": 0.7300000190734863,
+      "tokenizerParity": true,
+      "scores": [
+        -4.285740375518799,
+        -3.5660393238067627
+      ],
+      "elapsedMs": 100.15499997138977,
+      "processingMs": 101.07500004768372
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-image::batch-0",
+      "caseId": "scale-prime-ghost-in-the-shell-detail-image",
+      "candidateIds": [
+        "i2",
+        "i9",
+        "i5",
+        "i6",
+        "__none__",
+        "i12",
+        "i11",
+        "i4",
+        "i3",
+        "i7",
+        "i8",
+        "i1",
+        "i10"
+      ],
+      "pairIds": [
+        "scale-prime-ghost-in-the-shell-detail-image::i2",
+        "scale-prime-ghost-in-the-shell-detail-image::i9",
+        "scale-prime-ghost-in-the-shell-detail-image::i5",
+        "scale-prime-ghost-in-the-shell-detail-image::i6",
+        "scale-prime-ghost-in-the-shell-detail-image::__none__",
+        "scale-prime-ghost-in-the-shell-detail-image::i12",
+        "scale-prime-ghost-in-the-shell-detail-image::i11",
+        "scale-prime-ghost-in-the-shell-detail-image::i4",
+        "scale-prime-ghost-in-the-shell-detail-image::i3",
+        "scale-prime-ghost-in-the-shell-detail-image::i7",
+        "scale-prime-ghost-in-the-shell-detail-image::i8",
+        "scale-prime-ghost-in-the-shell-detail-image::i1",
+        "scale-prime-ghost-in-the-shell-detail-image::i10"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          251
+        ],
+        "token_type_ids": [
+          13,
+          251
+        ],
+        "attention_mask": [
+          13,
+          251
+        ]
+      },
+      "tokenizationMs": 4.184999942779541,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6191816329956055,
+        -3.7296907901763916,
+        -3.6428682804107666,
+        -3.6957342624664307,
+        -4.182054042816162,
+        -3.682403326034546,
+        -3.6676993370056152,
+        -3.8011369705200195,
+        -3.744180202484131,
+        -3.7241122722625732,
+        -3.696392059326172,
+        -3.810262441635132,
+        -3.7622456550598145
+      ],
+      "elapsedMs": 675.0800001621246,
+      "processingMs": 680.2849998474121
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-title::batch-0",
+      "caseId": "scale-prime-ghost-in-the-shell-detail-title",
+      "candidateIds": [
+        "t7",
+        "t3",
+        "t5",
+        "t6",
+        "__none__",
+        "t1",
+        "t8",
+        "t2",
+        "t4"
+      ],
+      "pairIds": [
+        "scale-prime-ghost-in-the-shell-detail-title::t7",
+        "scale-prime-ghost-in-the-shell-detail-title::t3",
+        "scale-prime-ghost-in-the-shell-detail-title::t5",
+        "scale-prime-ghost-in-the-shell-detail-title::t6",
+        "scale-prime-ghost-in-the-shell-detail-title::__none__",
+        "scale-prime-ghost-in-the-shell-detail-title::t1",
+        "scale-prime-ghost-in-the-shell-detail-title::t8",
+        "scale-prime-ghost-in-the-shell-detail-title::t2",
+        "scale-prime-ghost-in-the-shell-detail-title::t4"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          9,
+          233
+        ],
+        "token_type_ids": [
+          9,
+          233
+        ],
+        "attention_mask": [
+          9,
+          233
+        ]
+      },
+      "tokenizationMs": 1.7750003337860107,
+      "tokenizerParity": true,
+      "scores": [
+        -3.657938003540039,
+        -3.8050265312194824,
+        -3.767993688583374,
+        -3.6801884174346924,
+        -4.275800704956055,
+        -3.881831645965576,
+        -3.7381365299224854,
+        -3.642960786819458,
+        -3.8501250743865967
+      ],
+      "elapsedMs": 408.7349998950958,
+      "processingMs": 411.15499997138977
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-description::batch-0",
+      "caseId": "scale-prime-jujutsu-kaisen-search-description",
+      "candidateIds": [
+        "__none__",
+        "d2",
+        "d10",
+        "d5",
+        "d8",
+        "d6",
+        "d12",
+        "d7",
+        "d9",
+        "d3",
+        "d11",
+        "d1",
+        "d4"
+      ],
+      "pairIds": [
+        "scale-prime-jujutsu-kaisen-search-description::__none__",
+        "scale-prime-jujutsu-kaisen-search-description::d2",
+        "scale-prime-jujutsu-kaisen-search-description::d10",
+        "scale-prime-jujutsu-kaisen-search-description::d5",
+        "scale-prime-jujutsu-kaisen-search-description::d8",
+        "scale-prime-jujutsu-kaisen-search-description::d6",
+        "scale-prime-jujutsu-kaisen-search-description::d12",
+        "scale-prime-jujutsu-kaisen-search-description::d7",
+        "scale-prime-jujutsu-kaisen-search-description::d9",
+        "scale-prime-jujutsu-kaisen-search-description::d3",
+        "scale-prime-jujutsu-kaisen-search-description::d11",
+        "scale-prime-jujutsu-kaisen-search-description::d1",
+        "scale-prime-jujutsu-kaisen-search-description::d4"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          206
+        ],
+        "token_type_ids": [
+          13,
+          206
+        ],
+        "attention_mask": [
+          13,
+          206
+        ]
+      },
+      "tokenizationMs": 2.5199999809265137,
+      "tokenizerParity": true,
+      "scores": [
+        5.424184799194336,
+        -3.6590538024902344,
+        -3.678558111190796,
+        -3.764787435531616,
+        -3.715632915496826,
+        -3.7017996311187744,
+        -3.686589479446411,
+        -3.7734906673431396,
+        -3.684114456176758,
+        -3.805238723754883,
+        -3.65110445022583,
+        -3.8029277324676514,
+        -3.7382843494415283
+      ],
+      "elapsedMs": 523.6549999713898,
+      "processingMs": 527.2349998950958
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-image::batch-0",
+      "caseId": "scale-prime-jujutsu-kaisen-search-image",
+      "candidateIds": [
+        "i5",
+        "i9",
+        "i2",
+        "i1",
+        "__none__",
+        "i8",
+        "i3",
+        "i6",
+        "i7",
+        "i12",
+        "i11",
+        "i4",
+        "i10"
+      ],
+      "pairIds": [
+        "scale-prime-jujutsu-kaisen-search-image::i5",
+        "scale-prime-jujutsu-kaisen-search-image::i9",
+        "scale-prime-jujutsu-kaisen-search-image::i2",
+        "scale-prime-jujutsu-kaisen-search-image::i1",
+        "scale-prime-jujutsu-kaisen-search-image::__none__",
+        "scale-prime-jujutsu-kaisen-search-image::i8",
+        "scale-prime-jujutsu-kaisen-search-image::i3",
+        "scale-prime-jujutsu-kaisen-search-image::i6",
+        "scale-prime-jujutsu-kaisen-search-image::i7",
+        "scale-prime-jujutsu-kaisen-search-image::i12",
+        "scale-prime-jujutsu-kaisen-search-image::i11",
+        "scale-prime-jujutsu-kaisen-search-image::i4",
+        "scale-prime-jujutsu-kaisen-search-image::i10"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          184
+        ],
+        "token_type_ids": [
+          13,
+          184
+        ],
+        "attention_mask": [
+          13,
+          184
+        ]
+      },
+      "tokenizationMs": 2.3999998569488525,
+      "tokenizerParity": true,
+      "scores": [
+        -3.695377826690674,
+        -3.6793770790100098,
+        -3.679474353790283,
+        -3.6152937412261963,
+        5.477927207946777,
+        -3.691535711288452,
+        -3.62119460105896,
+        -3.702754020690918,
+        -3.670396089553833,
+        -3.702381134033203,
+        -3.6746273040771484,
+        -3.722191333770752,
+        -3.6495320796966553
+      ],
+      "elapsedMs": 453.59500002861023,
+      "processingMs": 456.9100000858307
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-title::batch-0",
+      "caseId": "scale-prime-jujutsu-kaisen-search-title",
+      "candidateIds": [
+        "t2",
+        "__none__",
+        "t1"
+      ],
+      "pairIds": [
+        "scale-prime-jujutsu-kaisen-search-title::t2",
+        "scale-prime-jujutsu-kaisen-search-title::__none__",
+        "scale-prime-jujutsu-kaisen-search-title::t1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          3,
+          140
+        ],
+        "token_type_ids": [
+          3,
+          140
+        ],
+        "attention_mask": [
+          3,
+          140
+        ]
+      },
+      "tokenizationMs": 0.4849998950958252,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6174352169036865,
+        5.431392192840576,
+        -3.514723062515259
+      ],
+      "elapsedMs": 76.95500016212463,
+      "processingMs": 77.62999987602234
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-description::batch-0",
+      "caseId": "scale-prime-karakuri-circus-detail-description",
+      "candidateIds": [
+        "d1",
+        "__none__"
+      ],
+      "pairIds": [
+        "scale-prime-karakuri-circus-detail-description::d1",
+        "scale-prime-karakuri-circus-detail-description::__none__"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          2,
+          259
+        ],
+        "token_type_ids": [
+          2,
+          259
+        ],
+        "attention_mask": [
+          2,
+          259
+        ]
+      },
+      "tokenizationMs": 0.6850001811981201,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6099088191986084,
+        -4.212406158447266
+      ],
+      "elapsedMs": 105.86999988555908,
+      "processingMs": 106.77500009536743
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-image::batch-0",
+      "caseId": "scale-prime-karakuri-circus-detail-image",
+      "candidateIds": [
+        "__none__",
+        "i5",
+        "i7",
+        "i4",
+        "i12",
+        "i8",
+        "i10",
+        "i9",
+        "i2",
+        "i1",
+        "i6",
+        "i11",
+        "i3"
+      ],
+      "pairIds": [
+        "scale-prime-karakuri-circus-detail-image::__none__",
+        "scale-prime-karakuri-circus-detail-image::i5",
+        "scale-prime-karakuri-circus-detail-image::i7",
+        "scale-prime-karakuri-circus-detail-image::i4",
+        "scale-prime-karakuri-circus-detail-image::i12",
+        "scale-prime-karakuri-circus-detail-image::i8",
+        "scale-prime-karakuri-circus-detail-image::i10",
+        "scale-prime-karakuri-circus-detail-image::i9",
+        "scale-prime-karakuri-circus-detail-image::i2",
+        "scale-prime-karakuri-circus-detail-image::i1",
+        "scale-prime-karakuri-circus-detail-image::i6",
+        "scale-prime-karakuri-circus-detail-image::i11",
+        "scale-prime-karakuri-circus-detail-image::i3"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          235
+        ],
+        "token_type_ids": [
+          13,
+          235
+        ],
+        "attention_mask": [
+          13,
+          235
+        ]
+      },
+      "tokenizationMs": 2.989999771118164,
+      "tokenizerParity": true,
+      "scores": [
+        -4.198261260986328,
+        -3.7148308753967285,
+        -3.6937549114227295,
+        -3.782142162322998,
+        -3.7487125396728516,
+        -3.683049440383911,
+        -3.6997933387756348,
+        -3.6534993648529053,
+        -3.6830639839172363,
+        -3.746480941772461,
+        -3.72493839263916,
+        -3.6692662239074707,
+        -3.6924421787261963
+      ],
+      "elapsedMs": 627.704999923706,
+      "processingMs": 631.5899999141693
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-title::batch-0",
+      "caseId": "scale-prime-karakuri-circus-detail-title",
+      "candidateIds": [
+        "t4",
+        "t5",
+        "t2",
+        "__none__",
+        "t3",
+        "t7",
+        "t6",
+        "t1",
+        "t8"
+      ],
+      "pairIds": [
+        "scale-prime-karakuri-circus-detail-title::t4",
+        "scale-prime-karakuri-circus-detail-title::t5",
+        "scale-prime-karakuri-circus-detail-title::t2",
+        "scale-prime-karakuri-circus-detail-title::__none__",
+        "scale-prime-karakuri-circus-detail-title::t3",
+        "scale-prime-karakuri-circus-detail-title::t7",
+        "scale-prime-karakuri-circus-detail-title::t6",
+        "scale-prime-karakuri-circus-detail-title::t1",
+        "scale-prime-karakuri-circus-detail-title::t8"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          9,
+          194
+        ],
+        "token_type_ids": [
+          9,
+          194
+        ],
+        "attention_mask": [
+          9,
+          194
+        ]
+      },
+      "tokenizationMs": 1.9149999618530273,
+      "tokenizerParity": true,
+      "scores": [
+        -3.665104866027832,
+        -3.652179002761841,
+        -3.677107334136963,
+        -4.195568561553955,
+        -3.635213851928711,
+        -3.6633591651916504,
+        -3.628087282180786,
+        -3.7160580158233643,
+        -3.700838327407837
+      ],
+      "elapsedMs": 327.47500014305115,
+      "processingMs": 330.00999999046326
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-description::batch-0",
+      "caseId": "scale-tving-jujutsu-kaisen-detail-description",
+      "candidateIds": [
+        "d9",
+        "d4",
+        "d10",
+        "d1",
+        "d6",
+        "d2",
+        "d3",
+        "d11",
+        "d7",
+        "d12",
+        "d8",
+        "__none__",
+        "d5"
+      ],
+      "pairIds": [
+        "scale-tving-jujutsu-kaisen-detail-description::d9",
+        "scale-tving-jujutsu-kaisen-detail-description::d4",
+        "scale-tving-jujutsu-kaisen-detail-description::d10",
+        "scale-tving-jujutsu-kaisen-detail-description::d1",
+        "scale-tving-jujutsu-kaisen-detail-description::d6",
+        "scale-tving-jujutsu-kaisen-detail-description::d2",
+        "scale-tving-jujutsu-kaisen-detail-description::d3",
+        "scale-tving-jujutsu-kaisen-detail-description::d11",
+        "scale-tving-jujutsu-kaisen-detail-description::d7",
+        "scale-tving-jujutsu-kaisen-detail-description::d12",
+        "scale-tving-jujutsu-kaisen-detail-description::d8",
+        "scale-tving-jujutsu-kaisen-detail-description::__none__",
+        "scale-tving-jujutsu-kaisen-detail-description::d5"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          236
+        ],
+        "token_type_ids": [
+          13,
+          236
+        ],
+        "attention_mask": [
+          13,
+          236
+        ]
+      },
+      "tokenizationMs": 3.130000591278076,
+      "tokenizerParity": true,
+      "scores": [
+        -3.5952539443969727,
+        -3.6005442142486572,
+        -3.58178973197937,
+        -3.579533338546753,
+        -3.6501271724700928,
+        -3.5842854976654053,
+        -3.583134651184082,
+        -3.5597329139709473,
+        -3.5920262336730957,
+        -3.5338356494903564,
+        -3.5236589908599854,
+        -3.5541739463806152,
+        -3.5618250370025635
+      ],
+      "elapsedMs": 623.8250000476837,
+      "processingMs": 628.0650000572205
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-image::batch-0",
+      "caseId": "scale-tving-jujutsu-kaisen-detail-image",
+      "candidateIds": [
+        "i2",
+        "i10",
+        "__none__",
+        "i5",
+        "i6",
+        "i8",
+        "i9",
+        "i11",
+        "i7",
+        "i12",
+        "i4",
+        "i1",
+        "i3"
+      ],
+      "pairIds": [
+        "scale-tving-jujutsu-kaisen-detail-image::i2",
+        "scale-tving-jujutsu-kaisen-detail-image::i10",
+        "scale-tving-jujutsu-kaisen-detail-image::__none__",
+        "scale-tving-jujutsu-kaisen-detail-image::i5",
+        "scale-tving-jujutsu-kaisen-detail-image::i6",
+        "scale-tving-jujutsu-kaisen-detail-image::i8",
+        "scale-tving-jujutsu-kaisen-detail-image::i9",
+        "scale-tving-jujutsu-kaisen-detail-image::i11",
+        "scale-tving-jujutsu-kaisen-detail-image::i7",
+        "scale-tving-jujutsu-kaisen-detail-image::i12",
+        "scale-tving-jujutsu-kaisen-detail-image::i4",
+        "scale-tving-jujutsu-kaisen-detail-image::i1",
+        "scale-tving-jujutsu-kaisen-detail-image::i3"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          174
+        ],
+        "token_type_ids": [
+          13,
+          174
+        ],
+        "attention_mask": [
+          13,
+          174
+        ]
+      },
+      "tokenizationMs": 1.4599997997283936,
+      "tokenizerParity": true,
+      "scores": [
+        -3.658324718475342,
+        -3.7202134132385254,
+        -3.520789623260498,
+        -3.685762882232666,
+        -3.7202134132385254,
+        -3.7202134132385254,
+        -3.7202134132385254,
+        -3.7202134132385254,
+        -3.7202134132385254,
+        -3.7202134132385254,
+        -3.711428165435791,
+        -3.476079225540161,
+        -3.6378679275512695
+      ],
+      "elapsedMs": 421.61500000953674,
+      "processingMs": 423.80000019073486
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-title::batch-0",
+      "caseId": "scale-tving-jujutsu-kaisen-detail-title",
+      "candidateIds": [
+        "t4",
+        "t2",
+        "t3",
+        "t1",
+        "__none__"
+      ],
+      "pairIds": [
+        "scale-tving-jujutsu-kaisen-detail-title::t4",
+        "scale-tving-jujutsu-kaisen-detail-title::t2",
+        "scale-tving-jujutsu-kaisen-detail-title::t3",
+        "scale-tving-jujutsu-kaisen-detail-title::t1",
+        "scale-tving-jujutsu-kaisen-detail-title::__none__"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          5,
+          189
+        ],
+        "token_type_ids": [
+          5,
+          189
+        ],
+        "attention_mask": [
+          5,
+          189
+        ]
+      },
+      "tokenizationMs": 0.7149996757507324,
+      "tokenizerParity": true,
+      "scores": [
+        -3.683929681777954,
+        -3.6182148456573486,
+        -3.7063255310058594,
+        -3.5154311656951904,
+        -3.5410711765289307
+      ],
+      "elapsedMs": 177.92000007629395,
+      "processingMs": 178.9800000190735
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-description::batch-0",
+      "caseId": "scale-tving-jujutsu-kaisen-search-description",
+      "candidateIds": [
+        "d2",
+        "d8",
+        "d6",
+        "d7",
+        "__none__",
+        "d9",
+        "d3",
+        "d4",
+        "d1",
+        "d5"
+      ],
+      "pairIds": [
+        "scale-tving-jujutsu-kaisen-search-description::d2",
+        "scale-tving-jujutsu-kaisen-search-description::d8",
+        "scale-tving-jujutsu-kaisen-search-description::d6",
+        "scale-tving-jujutsu-kaisen-search-description::d7",
+        "scale-tving-jujutsu-kaisen-search-description::__none__",
+        "scale-tving-jujutsu-kaisen-search-description::d9",
+        "scale-tving-jujutsu-kaisen-search-description::d3",
+        "scale-tving-jujutsu-kaisen-search-description::d4",
+        "scale-tving-jujutsu-kaisen-search-description::d1",
+        "scale-tving-jujutsu-kaisen-search-description::d5"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          10,
+          239
+        ],
+        "token_type_ids": [
+          10,
+          239
+        ],
+        "attention_mask": [
+          10,
+          239
+        ]
+      },
+      "tokenizationMs": 1.6600000858306885,
+      "tokenizerParity": true,
+      "scores": [
+        -3.754307985305786,
+        -3.5870344638824463,
+        -3.6961166858673096,
+        -3.6111819744110107,
+        5.287361145019531,
+        -3.6476995944976807,
+        -3.7489593029022217,
+        -3.735630989074707,
+        -3.5396974086761475,
+        -3.753192901611328
+      ],
+      "elapsedMs": 478.38499999046326,
+      "processingMs": 480.7650001049042
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-image::batch-0",
+      "caseId": "scale-tving-jujutsu-kaisen-search-image",
+      "candidateIds": [
+        "i2",
+        "i7",
+        "i1",
+        "__none__",
+        "i9",
+        "i6",
+        "i11",
+        "i5",
+        "i10",
+        "i12",
+        "i8",
+        "i3",
+        "i4"
+      ],
+      "pairIds": [
+        "scale-tving-jujutsu-kaisen-search-image::i2",
+        "scale-tving-jujutsu-kaisen-search-image::i7",
+        "scale-tving-jujutsu-kaisen-search-image::i1",
+        "scale-tving-jujutsu-kaisen-search-image::__none__",
+        "scale-tving-jujutsu-kaisen-search-image::i9",
+        "scale-tving-jujutsu-kaisen-search-image::i6",
+        "scale-tving-jujutsu-kaisen-search-image::i11",
+        "scale-tving-jujutsu-kaisen-search-image::i5",
+        "scale-tving-jujutsu-kaisen-search-image::i10",
+        "scale-tving-jujutsu-kaisen-search-image::i12",
+        "scale-tving-jujutsu-kaisen-search-image::i8",
+        "scale-tving-jujutsu-kaisen-search-image::i3",
+        "scale-tving-jujutsu-kaisen-search-image::i4"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          214
+        ],
+        "token_type_ids": [
+          13,
+          214
+        ],
+        "attention_mask": [
+          13,
+          214
+        ]
+      },
+      "tokenizationMs": 1.6899998188018799,
+      "tokenizerParity": true,
+      "scores": [
+        -3.624298572540283,
+        -3.6100332736968994,
+        -3.5126900672912598,
+        5.381804943084717,
+        -3.686999797821045,
+        -3.6430861949920654,
+        -3.7216591835021973,
+        -3.66105318069458,
+        -3.6802775859832764,
+        -3.637359142303467,
+        -3.6991000175476074,
+        -3.714954376220703,
+        -3.719214677810669
+      ],
+      "elapsedMs": 571.7349998950958,
+      "processingMs": 574.3150000572205
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-title::batch-0",
+      "caseId": "scale-tving-jujutsu-kaisen-search-title",
+      "candidateIds": [
+        "t12",
+        "t10",
+        "t3",
+        "t8",
+        "__none__",
+        "t9",
+        "t6",
+        "t2",
+        "t11",
+        "t4",
+        "t7",
+        "t1",
+        "t5"
+      ],
+      "pairIds": [
+        "scale-tving-jujutsu-kaisen-search-title::t12",
+        "scale-tving-jujutsu-kaisen-search-title::t10",
+        "scale-tving-jujutsu-kaisen-search-title::t3",
+        "scale-tving-jujutsu-kaisen-search-title::t8",
+        "scale-tving-jujutsu-kaisen-search-title::__none__",
+        "scale-tving-jujutsu-kaisen-search-title::t9",
+        "scale-tving-jujutsu-kaisen-search-title::t6",
+        "scale-tving-jujutsu-kaisen-search-title::t2",
+        "scale-tving-jujutsu-kaisen-search-title::t11",
+        "scale-tving-jujutsu-kaisen-search-title::t4",
+        "scale-tving-jujutsu-kaisen-search-title::t7",
+        "scale-tving-jujutsu-kaisen-search-title::t1",
+        "scale-tving-jujutsu-kaisen-search-title::t5"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          204
+        ],
+        "token_type_ids": [
+          13,
+          204
+        ],
+        "attention_mask": [
+          13,
+          204
+        ]
+      },
+      "tokenizationMs": 1.8799998760223389,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6162450313568115,
+        -3.7356033325195312,
+        -3.6731374263763428,
+        -3.6302342414855957,
+        5.24158239364624,
+        -3.6812543869018555,
+        -3.696216106414795,
+        -3.673099994659424,
+        -3.699115037918091,
+        -3.6356019973754883,
+        -3.6765973567962646,
+        -3.6364996433258057,
+        -3.63906192779541
+      ],
+      "elapsedMs": 512.6599998474121,
+      "processingMs": 515.5349998474121
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-description::batch-0",
+      "caseId": "scale-watcha-jujutsu-kaisen-detail-description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "pairIds": [
+        "scale-watcha-jujutsu-kaisen-detail-description::d2",
+        "scale-watcha-jujutsu-kaisen-detail-description::__none__",
+        "scale-watcha-jujutsu-kaisen-detail-description::d1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          3,
+          205
+        ],
+        "token_type_ids": [
+          3,
+          205
+        ],
+        "attention_mask": [
+          3,
+          205
+        ]
+      },
+      "tokenizationMs": 0.559999942779541,
+      "tokenizerParity": true,
+      "scores": [
+        -3.650149345397949,
+        -4.170813083648682,
+        -3.6912529468536377
+      ],
+      "elapsedMs": 116.00500011444092,
+      "processingMs": 116.82500004768372
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-image::batch-0",
+      "caseId": "scale-watcha-jujutsu-kaisen-detail-image",
+      "candidateIds": [
+        "i2",
+        "i3",
+        "__none__",
+        "i1"
+      ],
+      "pairIds": [
+        "scale-watcha-jujutsu-kaisen-detail-image::i2",
+        "scale-watcha-jujutsu-kaisen-detail-image::i3",
+        "scale-watcha-jujutsu-kaisen-detail-image::__none__",
+        "scale-watcha-jujutsu-kaisen-detail-image::i1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          4,
+          195
+        ],
+        "token_type_ids": [
+          4,
+          195
+        ],
+        "attention_mask": [
+          4,
+          195
+        ]
+      },
+      "tokenizationMs": 0.75,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6939337253570557,
+        -3.6118173599243164,
+        -3.9594316482543945,
+        -3.581071376800537
+      ],
+      "elapsedMs": 146.17000007629395,
+      "processingMs": 147.23499989509583
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-title::batch-0",
+      "caseId": "scale-watcha-jujutsu-kaisen-detail-title",
+      "candidateIds": [
+        "__none__",
+        "t2",
+        "t1"
+      ],
+      "pairIds": [
+        "scale-watcha-jujutsu-kaisen-detail-title::__none__",
+        "scale-watcha-jujutsu-kaisen-detail-title::t2",
+        "scale-watcha-jujutsu-kaisen-detail-title::t1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          3,
+          150
+        ],
+        "token_type_ids": [
+          3,
+          150
+        ],
+        "attention_mask": [
+          3,
+          150
+        ]
+      },
+      "tokenizationMs": 0.40000009536743164,
+      "tokenizerParity": true,
+      "scores": [
+        -4.173511505126953,
+        -3.7170305252075195,
+        -3.75579571723938
+      ],
+      "elapsedMs": 77.78500008583069,
+      "processingMs": 78.35999989509583
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-description::batch-0",
+      "caseId": "scale-wavve-jujutsu-kaisen-search-description",
+      "candidateIds": [
+        "d3",
+        "d2",
+        "d4",
+        "__none__",
+        "d1"
+      ],
+      "pairIds": [
+        "scale-wavve-jujutsu-kaisen-search-description::d3",
+        "scale-wavve-jujutsu-kaisen-search-description::d2",
+        "scale-wavve-jujutsu-kaisen-search-description::d4",
+        "scale-wavve-jujutsu-kaisen-search-description::__none__",
+        "scale-wavve-jujutsu-kaisen-search-description::d1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          5,
+          199
+        ],
+        "token_type_ids": [
+          5,
+          199
+        ],
+        "attention_mask": [
+          5,
+          199
+        ]
+      },
+      "tokenizationMs": 0.8850002288818359,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6310224533081055,
+        -3.6432228088378906,
+        -3.6877784729003906,
+        5.180080413818359,
+        -3.88968563079834
+      ],
+      "elapsedMs": 182.7850000858307,
+      "processingMs": 184.0350000858307
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-image::batch-0",
+      "caseId": "scale-wavve-jujutsu-kaisen-search-image",
+      "candidateIds": [
+        "i3",
+        "i6",
+        "i8",
+        "i9",
+        "i10",
+        "i1",
+        "i11",
+        "i2",
+        "__none__",
+        "i7",
+        "i5",
+        "i4",
+        "i12"
+      ],
+      "pairIds": [
+        "scale-wavve-jujutsu-kaisen-search-image::i3",
+        "scale-wavve-jujutsu-kaisen-search-image::i6",
+        "scale-wavve-jujutsu-kaisen-search-image::i8",
+        "scale-wavve-jujutsu-kaisen-search-image::i9",
+        "scale-wavve-jujutsu-kaisen-search-image::i10",
+        "scale-wavve-jujutsu-kaisen-search-image::i1",
+        "scale-wavve-jujutsu-kaisen-search-image::i11",
+        "scale-wavve-jujutsu-kaisen-search-image::i2",
+        "scale-wavve-jujutsu-kaisen-search-image::__none__",
+        "scale-wavve-jujutsu-kaisen-search-image::i7",
+        "scale-wavve-jujutsu-kaisen-search-image::i5",
+        "scale-wavve-jujutsu-kaisen-search-image::i4",
+        "scale-wavve-jujutsu-kaisen-search-image::i12"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          199
+        ],
+        "token_type_ids": [
+          13,
+          199
+        ],
+        "attention_mask": [
+          13,
+          199
+        ]
+      },
+      "tokenizationMs": 3.234999895095825,
+      "tokenizerParity": true,
+      "scores": [
+        -3.657973051071167,
+        -3.634765625,
+        -3.620175838470459,
+        -3.652973175048828,
+        -3.646812915802002,
+        -3.7956128120422363,
+        -3.643144130706787,
+        -3.639458417892456,
+        5.384784698486328,
+        -3.645720958709717,
+        -3.6952240467071533,
+        -3.666471004486084,
+        -3.6297318935394287
+      ],
+      "elapsedMs": 497.0750000476837,
+      "processingMs": 501.12000012397766
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-description::batch-0",
+      "caseId": "scale-wavve-jujutsu-kaisen-search-opened-work-description",
+      "candidateIds": [
+        "d2",
+        "d11",
+        "d10",
+        "d5",
+        "d12",
+        "d7",
+        "d6",
+        "d1",
+        "d3",
+        "d9",
+        "__none__",
+        "d8",
+        "d4"
+      ],
+      "pairIds": [
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::d2",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::d11",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::d10",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::d5",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::d12",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::d7",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::d6",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::d1",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::d3",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::d9",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::__none__",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::d8",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description::d4"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          202
+        ],
+        "token_type_ids": [
+          13,
+          202
+        ],
+        "attention_mask": [
+          13,
+          202
+        ]
+      },
+      "tokenizationMs": 1.760000467300415,
+      "tokenizerParity": true,
+      "scores": [
+        -3.616274118423462,
+        -3.574652910232544,
+        -3.559694290161133,
+        -3.623840093612671,
+        -3.6052801609039307,
+        -3.5928492546081543,
+        -3.5627760887145996,
+        -3.7403411865234375,
+        -3.6221606731414795,
+        -3.555088996887207,
+        -1.6727352142333984,
+        -3.613053798675537,
+        -3.616516590118408
+      ],
+      "elapsedMs": 527.4950001239777,
+      "processingMs": 530.0500001907349
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-image::batch-0",
+      "caseId": "scale-wavve-jujutsu-kaisen-search-opened-work-image",
+      "candidateIds": [
+        "i9",
+        "i8",
+        "i12",
+        "i11",
+        "i6",
+        "i5",
+        "i4",
+        "__none__",
+        "i7",
+        "i3",
+        "i10",
+        "i1",
+        "i2"
+      ],
+      "pairIds": [
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::i9",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::i8",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::i12",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::i11",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::i6",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::i5",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::i4",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::__none__",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::i7",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::i3",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::i10",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::i1",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image::i2"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          200
+        ],
+        "token_type_ids": [
+          13,
+          200
+        ],
+        "attention_mask": [
+          13,
+          200
+        ]
+      },
+      "tokenizationMs": 3.8399994373321533,
+      "tokenizerParity": true,
+      "scores": [
+        -3.620502471923828,
+        -3.706233024597168,
+        -3.689629554748535,
+        -3.6965460777282715,
+        -3.6717841625213623,
+        -3.6434109210968018,
+        -3.465873956680298,
+        0.29842206835746765,
+        -3.6176364421844482,
+        -3.6873366832733154,
+        -3.643869638442993,
+        -3.7152321338653564,
+        -3.688387632369995
+      ],
+      "elapsedMs": 507.97499990463257,
+      "processingMs": 512.6549999713898
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-title::batch-0",
+      "caseId": "scale-wavve-jujutsu-kaisen-search-opened-work-title",
+      "candidateIds": [
+        "t10",
+        "t11",
+        "t8",
+        "t2",
+        "t5",
+        "t4",
+        "__none__",
+        "t3",
+        "t1",
+        "t6",
+        "t12",
+        "t7",
+        "t9"
+      ],
+      "pairIds": [
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::t10",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::t11",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::t8",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::t2",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::t5",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::t4",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::__none__",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::t3",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::t1",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::t6",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::t12",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::t7",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title::t9"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          178
+        ],
+        "token_type_ids": [
+          13,
+          178
+        ],
+        "attention_mask": [
+          13,
+          178
+        ]
+      },
+      "tokenizationMs": 1.489999771118164,
+      "tokenizerParity": true,
+      "scores": [
+        -3.6219372749328613,
+        -3.630492687225342,
+        -3.6223533153533936,
+        -3.6960394382476807,
+        -3.621121644973755,
+        -3.715963125228882,
+        -2.0223641395568848,
+        -3.6291775703430176,
+        -3.5748660564422607,
+        -3.804196834564209,
+        -3.6129324436187744,
+        -3.499948024749756,
+        -3.6469874382019043
+      ],
+      "elapsedMs": 436.8199999332428,
+      "processingMs": 439.0050001144409
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-title::batch-0",
+      "caseId": "scale-wavve-jujutsu-kaisen-search-title",
+      "candidateIds": [
+        "t7",
+        "t2",
+        "t12",
+        "t11",
+        "__none__",
+        "t5",
+        "t4",
+        "t1",
+        "t10",
+        "t8",
+        "t3",
+        "t6",
+        "t9"
+      ],
+      "pairIds": [
+        "scale-wavve-jujutsu-kaisen-search-title::t7",
+        "scale-wavve-jujutsu-kaisen-search-title::t2",
+        "scale-wavve-jujutsu-kaisen-search-title::t12",
+        "scale-wavve-jujutsu-kaisen-search-title::t11",
+        "scale-wavve-jujutsu-kaisen-search-title::__none__",
+        "scale-wavve-jujutsu-kaisen-search-title::t5",
+        "scale-wavve-jujutsu-kaisen-search-title::t4",
+        "scale-wavve-jujutsu-kaisen-search-title::t1",
+        "scale-wavve-jujutsu-kaisen-search-title::t10",
+        "scale-wavve-jujutsu-kaisen-search-title::t8",
+        "scale-wavve-jujutsu-kaisen-search-title::t3",
+        "scale-wavve-jujutsu-kaisen-search-title::t6",
+        "scale-wavve-jujutsu-kaisen-search-title::t9"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          13,
+          173
+        ],
+        "token_type_ids": [
+          13,
+          173
+        ],
+        "attention_mask": [
+          13,
+          173
+        ]
+      },
+      "tokenizationMs": 1.565000057220459,
+      "tokenizerParity": true,
+      "scores": [
+        -3.7062978744506836,
+        -3.7681427001953125,
+        -3.6977896690368652,
+        -3.5977048873901367,
+        5.141560077667236,
+        -3.7071099281311035,
+        -3.740403890609741,
+        -3.594475030899048,
+        -3.6405773162841797,
+        -3.665787696838379,
+        -3.707331418991089,
+        -3.61942720413208,
+        -3.630371332168579
+      ],
+      "elapsedMs": 422.289999961853,
+      "processingMs": 424.5350000858307
+    }
+  ],
+  "cases": [
+    {
+      "id": "auth-coupang-jujutsu-player-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d3",
+        "d1",
+        "d2"
+      ],
+      "valid": true,
+      "scores": [
+        -3.4585931301116943,
+        -3.6988937854766846,
+        -3.5950472354888916,
+        -3.6623833179473877
+      ],
+      "selected": "__none__",
+      "inferenceMs": 210.27999997138977,
+      "batches": 1,
+      "processingMs": 213.67500019073486,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 2.4799997806549072,
+      "tokenizationAndInferenceMs": 212.75999975204468
+    },
+    {
+      "id": "auth-coupang-jujutsu-player-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i1",
+        "__none__"
+      ],
+      "valid": true,
+      "scores": [
+        -3.605501174926758,
+        -3.6440975666046143,
+        -3.3896868228912354
+      ],
+      "selected": "__none__",
+      "inferenceMs": 123.97000002861023,
+      "batches": 1,
+      "processingMs": 124.91999983787537,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.6850001811981201,
+      "tokenizationAndInferenceMs": 124.65500020980835
+    },
+    {
+      "id": "auth-coupang-jujutsu-player-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "__none__",
+        "t2"
+      ],
+      "valid": true,
+      "scores": [
+        -3.510148286819458,
+        -3.5062379837036133,
+        -3.6539108753204346
+      ],
+      "selected": "__none__",
+      "inferenceMs": 123.36500000953674,
+      "batches": 1,
+      "processingMs": 124.24000000953674,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.5950000286102295,
+      "tokenizationAndInferenceMs": 123.96000003814697
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d2",
+        "d5",
+        "d6",
+        "d4",
+        "__none__",
+        "d3"
+      ],
+      "valid": true,
+      "scores": [
+        -3.5405631065368652,
+        -3.632699728012085,
+        -3.586174964904785,
+        -3.5650253295898438,
+        -3.6712403297424316,
+        2.39229154586792,
+        -3.621487855911255
+      ],
+      "selected": "__none__",
+      "inferenceMs": 325.164999961853,
+      "batches": 1,
+      "processingMs": 326.9300000667572,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.2250001430511475,
+      "tokenizationAndInferenceMs": 326.3900001049042
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i3",
+        "i8",
+        "i5",
+        "i9",
+        "i2",
+        "i12",
+        "i6",
+        "i7",
+        "i1",
+        "i11",
+        "__none__",
+        "i4",
+        "i10"
+      ],
+      "valid": true,
+      "scores": [
+        -3.5893898010253906,
+        -3.5643069744110107,
+        -3.549769163131714,
+        -3.5659451484680176,
+        -3.6612184047698975,
+        -3.6024532318115234,
+        -3.572845458984375,
+        -3.5911505222320557,
+        -3.7362005710601807,
+        -3.676145315170288,
+        2.090691328048706,
+        -3.556689977645874,
+        -3.6295015811920166
+      ],
+      "selected": "__none__",
+      "inferenceMs": 541.4700000286102,
+      "batches": 1,
+      "processingMs": 545.8799998760223,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 3.5550003051757812,
+      "tokenizationAndInferenceMs": 545.025000333786
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t9",
+        "t1",
+        "t2",
+        "t12",
+        "t10",
+        "t4",
+        "t5",
+        "t3",
+        "t6",
+        "t11",
+        "__none__",
+        "t8"
+      ],
+      "valid": true,
+      "scores": [
+        -3.664569616317749,
+        -3.6347179412841797,
+        -3.573082447052002,
+        -3.67918062210083,
+        -3.65388822555542,
+        -3.6361942291259766,
+        -3.672515630722046,
+        -3.678724765777588,
+        -3.7319366931915283,
+        -3.664048671722412,
+        -3.6604013442993164,
+        2.053753614425659,
+        -3.6277706623077393
+      ],
+      "selected": "__none__",
+      "inferenceMs": 479.27999997138977,
+      "batches": 1,
+      "processingMs": 482.17500019073486,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.8849997520446777,
+      "tokenizationAndInferenceMs": 481.16499972343445
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d3",
+        "d2",
+        "d8",
+        "d10",
+        "d5",
+        "d11",
+        "__none__",
+        "d6",
+        "d4",
+        "d12",
+        "d9",
+        "d7",
+        "d1"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6892499923706055,
+        -3.65466046333313,
+        -3.631155490875244,
+        -3.640817880630493,
+        -3.6146230697631836,
+        -3.662095785140991,
+        -1.8766158819198608,
+        -3.6295793056488037,
+        -3.6945438385009766,
+        -3.6122589111328125,
+        -3.607067823410034,
+        -3.6019625663757324,
+        -3.6384708881378174
+      ],
+      "selected": "__none__",
+      "inferenceMs": 551.8550000190735,
+      "batches": 1,
+      "processingMs": 556.3250000476837,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 3.0349998474121094,
+      "tokenizationAndInferenceMs": 554.8899998664856
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i5",
+        "i9",
+        "i1",
+        "i7",
+        "i10",
+        "i8",
+        "i4",
+        "i6",
+        "__none__",
+        "i3",
+        "i2"
+      ],
+      "valid": true,
+      "scores": [
+        -3.581796884536743,
+        -3.6419332027435303,
+        -3.7039601802825928,
+        -3.610590696334839,
+        -3.6751251220703125,
+        -3.6649723052978516,
+        -3.6560730934143066,
+        -3.667027473449707,
+        -0.560531497001648,
+        -3.7341928482055664,
+        -3.658066749572754
+      ],
+      "selected": "__none__",
+      "inferenceMs": 505.4300000667572,
+      "batches": 1,
+      "processingMs": 507.7699999809265,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.5600001811981201,
+      "tokenizationAndInferenceMs": 506.9900002479553
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t3",
+        "t8",
+        "t7",
+        "__none__",
+        "t9",
+        "t1",
+        "t6",
+        "t10",
+        "t11",
+        "t4",
+        "t5",
+        "t2",
+        "t12"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6491546630859375,
+        -3.6829442977905273,
+        -3.6468076705932617,
+        -2.2336552143096924,
+        -3.679598569869995,
+        -3.5991194248199463,
+        -3.669494867324829,
+        -3.6857404708862305,
+        -3.7202625274658203,
+        -3.6850414276123047,
+        -3.651268482208252,
+        -3.61651349067688,
+        -3.7162511348724365
+      ],
+      "selected": "__none__",
+      "inferenceMs": 460.34500002861023,
+      "batches": 1,
+      "processingMs": 462.74000000953674,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.6449995040893555,
+      "tokenizationAndInferenceMs": 461.9899995326996
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "valid": true,
+      "scores": [
+        -3.54722261428833,
+        -4.2419233322143555,
+        -3.6091787815093994
+      ],
+      "selected": "d2",
+      "inferenceMs": 123.1949999332428,
+      "batches": 1,
+      "processingMs": 124.0550000667572,
+      "nativeReference": {
+        "valid": true,
+        "selected": "d2",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.6150000095367432,
+      "tokenizationAndInferenceMs": 123.80999994277954
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i11",
+        "i12",
+        "i6",
+        "__none__",
+        "i4",
+        "i1",
+        "i7",
+        "i10",
+        "i5",
+        "i8",
+        "i2",
+        "i3",
+        "i9"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6595101356506348,
+        -3.6421191692352295,
+        -3.630490303039551,
+        -4.095728874206543,
+        -3.6694161891937256,
+        -3.6021981239318848,
+        -3.6654212474823,
+        -3.6656291484832764,
+        -3.6066091060638428,
+        -3.6301932334899902,
+        -3.634916067123413,
+        -3.6401586532592773,
+        -3.6321685314178467
+      ],
+      "selected": "i1",
+      "inferenceMs": 557.1950001716614,
+      "batches": 1,
+      "processingMs": 561.0599999427795,
+      "nativeReference": {
+        "valid": true,
+        "selected": "i1",
+        "sameSelection": true
+      },
+      "tokenizationMs": 2.979999542236328,
+      "tokenizationAndInferenceMs": 560.1749997138977
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t9",
+        "t1",
+        "t6",
+        "t7",
+        "t2",
+        "__none__",
+        "t8",
+        "t3",
+        "t4",
+        "t10",
+        "t12",
+        "t5",
+        "t11"
+      ],
+      "valid": true,
+      "scores": [
+        -3.66133713722229,
+        -3.706136465072632,
+        -3.6778788566589355,
+        -3.6469175815582275,
+        -3.716660499572754,
+        -4.231563568115234,
+        -3.6404054164886475,
+        -3.6677329540252686,
+        -3.6508712768554688,
+        -3.6830391883850098,
+        -3.6952784061431885,
+        -3.6666135787963867,
+        -3.6650872230529785
+      ],
+      "selected": "t8",
+      "inferenceMs": 432.36500000953674,
+      "batches": 1,
+      "processingMs": 434.83000016212463,
+      "nativeReference": {
+        "valid": true,
+        "selected": "t4",
+        "sameSelection": false
+      },
+      "tokenizationMs": 1.755000114440918,
+      "tokenizationAndInferenceMs": 434.12000012397766
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "__none__"
+      ],
+      "valid": true,
+      "scores": [
+        -3.5520968437194824,
+        4.98161506652832
+      ],
+      "selected": "__none__",
+      "inferenceMs": 53.99499988555908,
+      "batches": 1,
+      "processingMs": 54.55999994277954,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.4200000762939453,
+      "tokenizationAndInferenceMs": 54.41499996185303
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i4",
+        "i2",
+        "i1",
+        "i3",
+        "__none__"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6361052989959717,
+        -3.6840946674346924,
+        -3.5287444591522217,
+        -3.658944845199585,
+        5.207456111907959
+      ],
+      "selected": "__none__",
+      "inferenceMs": 169.68499994277954,
+      "batches": 1,
+      "processingMs": 170.95499992370605,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.9400002956390381,
+      "tokenizationAndInferenceMs": 170.62500023841858
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "t2",
+        "t5",
+        "t4",
+        "__none__",
+        "t3"
+      ],
+      "valid": true,
+      "scores": [
+        -3.611161470413208,
+        -3.563754081726074,
+        -3.650648593902588,
+        -3.6655495166778564,
+        4.848755836486816,
+        -3.657322406768799
+      ],
+      "selected": "__none__",
+      "inferenceMs": 177.30999994277954,
+      "batches": 1,
+      "processingMs": 178.97000002861023,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.0899999141693115,
+      "tokenizationAndInferenceMs": 178.39999985694885
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "valid": true,
+      "scores": [
+        -3.5432872772216797,
+        5.05457878112793,
+        -3.4133455753326416
+      ],
+      "selected": "__none__",
+      "inferenceMs": 136.31500005722046,
+      "batches": 1,
+      "processingMs": 137.13000011444092,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.5600001811981201,
+      "tokenizationAndInferenceMs": 136.87500023841858
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "__none__"
+      ],
+      "valid": true,
+      "scores": [
+        -3.4111738204956055,
+        5.051591873168945
+      ],
+      "selected": "__none__",
+      "inferenceMs": 67.07999992370605,
+      "batches": 1,
+      "processingMs": 67.63499999046326,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.4049999713897705,
+      "tokenizationAndInferenceMs": 67.48499989509583
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d5",
+        "d2",
+        "d11",
+        "d3",
+        "d12",
+        "d1",
+        "d4",
+        "d8",
+        "__none__",
+        "d6",
+        "d9",
+        "d7",
+        "d10"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6224868297576904,
+        -3.642052173614502,
+        -3.587771415710449,
+        -3.640267848968506,
+        -3.611056089401245,
+        -3.5988998413085938,
+        -3.59877872467041,
+        -3.6166656017303467,
+        -3.705298900604248,
+        -3.574768304824829,
+        -3.655085563659668,
+        -3.6037230491638184,
+        -3.559602975845337
+      ],
+      "selected": "d10",
+      "inferenceMs": 705.1450002193451,
+      "batches": 1,
+      "processingMs": 708.9349999427795,
+      "nativeReference": {
+        "valid": true,
+        "selected": "d10",
+        "sameSelection": true
+      },
+      "tokenizationMs": 2.7300000190734863,
+      "tokenizationAndInferenceMs": 707.8750002384186
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "i2",
+        "__none__"
+      ],
+      "valid": true,
+      "scores": [
+        -3.5358376502990723,
+        -3.567854404449463,
+        -3.7305240631103516
+      ],
+      "selected": "i1",
+      "inferenceMs": 98.51500010490417,
+      "batches": 1,
+      "processingMs": 99.22999978065491,
+      "nativeReference": {
+        "valid": true,
+        "selected": "i1",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.505000114440918,
+      "tokenizationAndInferenceMs": 99.02000021934509
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t6",
+        "t3",
+        "t8",
+        "t7",
+        "t2",
+        "t9",
+        "t5",
+        "t12",
+        "__none__",
+        "t11",
+        "t10",
+        "t4",
+        "t1"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6891090869903564,
+        -3.6130430698394775,
+        -3.630927085876465,
+        -3.6291067600250244,
+        -3.61023211479187,
+        -3.6903469562530518,
+        -3.6528310775756836,
+        -3.6271989345550537,
+        -3.6666665077209473,
+        -3.674589157104492,
+        -3.6223199367523193,
+        -3.6753318309783936,
+        -3.6346845626831055
+      ],
+      "selected": "t2",
+      "inferenceMs": 546.8050000667572,
+      "batches": 1,
+      "processingMs": 549.710000038147,
+      "nativeReference": {
+        "valid": true,
+        "selected": "t12",
+        "sameSelection": false
+      },
+      "tokenizationMs": 2.015000343322754,
+      "tokenizationAndInferenceMs": 548.82000041008
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "__none__",
+        "t4",
+        "t2",
+        "t5",
+        "t3"
+      ],
+      "valid": true,
+      "scores": [
+        -3.4691362380981445,
+        5.036277770996094,
+        -3.589695692062378,
+        -3.456233263015747,
+        -3.6105780601501465,
+        -3.6321206092834473
+      ],
+      "selected": "__none__",
+      "inferenceMs": 228.23499989509583,
+      "batches": 1,
+      "processingMs": 230.05999994277954,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.1700000762939453,
+      "tokenizationAndInferenceMs": 229.40499997138977
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d2",
+        "__none__"
+      ],
+      "valid": true,
+      "scores": [
+        -3.505448579788208,
+        -3.508864402770996,
+        4.854879856109619
+      ],
+      "selected": "__none__",
+      "inferenceMs": 124.99500012397766,
+      "batches": 1,
+      "processingMs": 126.00999999046326,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.6800003051757812,
+      "tokenizationAndInferenceMs": 125.67500042915344
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__"
+      ],
+      "valid": true,
+      "selected": "__none__",
+      "automaticNone": true,
+      "scores": [
+        0
+      ],
+      "inferenceMs": 0,
+      "processingMs": 0,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0,
+      "tokenizationAndInferenceMs": 0
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t1",
+        "__none__"
+      ],
+      "valid": true,
+      "scores": [
+        -3.55837345123291,
+        4.393182277679443
+      ],
+      "selected": "__none__",
+      "inferenceMs": 60.204999923706055,
+      "batches": 1,
+      "processingMs": 60.69000005722046,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.33500003814697266,
+      "tokenizationAndInferenceMs": 60.53999996185303
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "valid": true,
+      "scores": [
+        5.351078510284424,
+        -3.5955989360809326
+      ],
+      "selected": "__none__",
+      "inferenceMs": 83.98499989509583,
+      "batches": 1,
+      "processingMs": 84.65499997138977,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.47499990463256836,
+      "tokenizationAndInferenceMs": 84.4599997997284
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i1",
+        "__none__"
+      ],
+      "valid": true,
+      "scores": [
+        -3.476565361022949,
+        5.419583797454834
+      ],
+      "selected": "__none__",
+      "inferenceMs": 58.74499988555908,
+      "batches": 1,
+      "processingMs": 59.394999980926514,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.4850001335144043,
+      "tokenizationAndInferenceMs": 59.230000019073486
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d4",
+        "d1",
+        "d8",
+        "d12",
+        "__none__",
+        "d7",
+        "d2",
+        "d11",
+        "d9",
+        "d3",
+        "d6",
+        "d5",
+        "d10"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6489012241363525,
+        -3.6591150760650635,
+        -3.651062250137329,
+        -3.6595041751861572,
+        -3.8189492225646973,
+        -3.604689359664917,
+        -3.632089614868164,
+        -3.568660020828247,
+        -3.6133618354797363,
+        -3.631570816040039,
+        -3.6472301483154297,
+        -3.6274220943450928,
+        -3.613548994064331
+      ],
+      "selected": "d11",
+      "inferenceMs": 700.1150000095367,
+      "batches": 1,
+      "processingMs": 704.3099999427795,
+      "nativeReference": {
+        "valid": true,
+        "selected": "d11",
+        "sameSelection": true
+      },
+      "tokenizationMs": 3.130000114440918,
+      "tokenizationAndInferenceMs": 703.2450001239777
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i11",
+        "i3",
+        "i12",
+        "i9",
+        "i10",
+        "i1",
+        "i5",
+        "i2",
+        "i6",
+        "__none__",
+        "i7",
+        "i8",
+        "i4"
+      ],
+      "valid": true,
+      "scores": [
+        -3.625460624694824,
+        -3.6614317893981934,
+        -3.695380449295044,
+        -3.7238495349884033,
+        -3.653280735015869,
+        -3.5684921741485596,
+        -3.6559221744537354,
+        -3.6087353229522705,
+        -3.6771457195281982,
+        -3.7219927310943604,
+        -3.627558708190918,
+        -3.6204640865325928,
+        -3.682126998901367
+      ],
+      "selected": "i1",
+      "inferenceMs": 514.0249998569489,
+      "batches": 1,
+      "processingMs": 517.3650000095367,
+      "nativeReference": {
+        "valid": true,
+        "selected": "i1",
+        "sameSelection": true
+      },
+      "tokenizationMs": 2.3999998569488525,
+      "tokenizationAndInferenceMs": 516.4249997138977
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t12",
+        "__none__",
+        "t2",
+        "t1",
+        "t7",
+        "t9",
+        "t11",
+        "t3",
+        "t5",
+        "t8",
+        "t6",
+        "t10",
+        "t4"
+      ],
+      "valid": true,
+      "scores": [
+        -3.68037486076355,
+        -3.7884018421173096,
+        -3.657388687133789,
+        -3.6138200759887695,
+        -3.6780879497528076,
+        -3.659836769104004,
+        -3.670567512512207,
+        -3.65523362159729,
+        -3.6497509479522705,
+        -3.672473430633545,
+        -3.709738254547119,
+        -3.682236671447754,
+        -3.6450891494750977
+      ],
+      "selected": "t1",
+      "inferenceMs": 459.4850001335144,
+      "batches": 1,
+      "processingMs": 461.8050000667572,
+      "nativeReference": {
+        "valid": true,
+        "selected": "t1",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.565000295639038,
+      "tokenizationAndInferenceMs": 461.05000042915344
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "d4",
+        "d2",
+        "d3",
+        "__none__"
+      ],
+      "valid": true,
+      "scores": [
+        -3.5745065212249756,
+        -3.646491289138794,
+        -3.5953619480133057,
+        -3.6576013565063477,
+        3.412076234817505
+      ],
+      "selected": "__none__",
+      "inferenceMs": 194.5149998664856,
+      "batches": 1,
+      "processingMs": 195.71000003814697,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.8150005340576172,
+      "tokenizationAndInferenceMs": 195.3300004005432
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-image",
+      "field": "image",
+      "candidateIds": [
+        "i10",
+        "i5",
+        "i2",
+        "i8",
+        "i3",
+        "i7",
+        "i4",
+        "i12",
+        "i1",
+        "i11",
+        "i9",
+        "__none__",
+        "i6"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6383628845214844,
+        -3.624603509902954,
+        -3.6201393604278564,
+        -3.670886993408203,
+        -3.674462080001831,
+        -3.602804660797119,
+        -3.6841440200805664,
+        -3.6615142822265625,
+        -3.6301302909851074,
+        -3.6740562915802,
+        -3.6288936138153076,
+        4.372648239135742,
+        -3.669534206390381
+      ],
+      "selected": "__none__",
+      "inferenceMs": 451.0149998664856,
+      "batches": 1,
+      "processingMs": 453.5899999141693,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.8349997997283936,
+      "tokenizationAndInferenceMs": 452.849999666214
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t11",
+        "t3",
+        "t2",
+        "t6",
+        "t5",
+        "t10",
+        "__none__",
+        "t9",
+        "t8",
+        "t1",
+        "t12",
+        "t4"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6763250827789307,
+        -3.6349899768829346,
+        -3.660419464111328,
+        -3.4766712188720703,
+        -3.727707862854004,
+        -3.6430203914642334,
+        -3.689204692840576,
+        3.457519292831421,
+        -3.695178985595703,
+        -3.741945266723633,
+        -3.4883289337158203,
+        -3.6550464630126953,
+        -3.6697301864624023
+      ],
+      "selected": "__none__",
+      "inferenceMs": 413.35000014305115,
+      "batches": 1,
+      "processingMs": 416.414999961853,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 2.0399997234344482,
+      "tokenizationAndInferenceMs": 415.3899998664856
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t3",
+        "t2",
+        "t1"
+      ],
+      "valid": true,
+      "scores": [
+        5.365568161010742,
+        -3.604499578475952,
+        -3.5144670009613037,
+        -3.546846866607666
+      ],
+      "selected": "__none__",
+      "inferenceMs": 119.98000001907349,
+      "batches": 1,
+      "processingMs": 120.84999990463257,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.5449998378753662,
+      "tokenizationAndInferenceMs": 120.52499985694885
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d1"
+      ],
+      "valid": true,
+      "scores": [
+        -4.285740375518799,
+        -3.5660393238067627
+      ],
+      "selected": "d1",
+      "inferenceMs": 100.15499997138977,
+      "batches": 1,
+      "processingMs": 101.07500004768372,
+      "nativeReference": {
+        "valid": true,
+        "selected": "d1",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.7300000190734863,
+      "tokenizationAndInferenceMs": 100.88499999046326
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i9",
+        "i5",
+        "i6",
+        "__none__",
+        "i12",
+        "i11",
+        "i4",
+        "i3",
+        "i7",
+        "i8",
+        "i1",
+        "i10"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6191816329956055,
+        -3.7296907901763916,
+        -3.6428682804107666,
+        -3.6957342624664307,
+        -4.182054042816162,
+        -3.682403326034546,
+        -3.6676993370056152,
+        -3.8011369705200195,
+        -3.744180202484131,
+        -3.7241122722625732,
+        -3.696392059326172,
+        -3.810262441635132,
+        -3.7622456550598145
+      ],
+      "selected": "i2",
+      "inferenceMs": 675.0800001621246,
+      "batches": 1,
+      "processingMs": 680.2849998474121,
+      "nativeReference": {
+        "valid": true,
+        "selected": "i2",
+        "sameSelection": true
+      },
+      "tokenizationMs": 4.184999942779541,
+      "tokenizationAndInferenceMs": 679.2650001049042
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t3",
+        "t5",
+        "t6",
+        "__none__",
+        "t1",
+        "t8",
+        "t2",
+        "t4"
+      ],
+      "valid": true,
+      "scores": [
+        -3.657938003540039,
+        -3.8050265312194824,
+        -3.767993688583374,
+        -3.6801884174346924,
+        -4.275800704956055,
+        -3.881831645965576,
+        -3.7381365299224854,
+        -3.642960786819458,
+        -3.8501250743865967
+      ],
+      "selected": "t2",
+      "inferenceMs": 408.7349998950958,
+      "batches": 1,
+      "processingMs": 411.15499997138977,
+      "nativeReference": {
+        "valid": true,
+        "selected": "t2",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.7750003337860107,
+      "tokenizationAndInferenceMs": 410.51000022888184
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "__none__",
+        "d2",
+        "d10",
+        "d5",
+        "d8",
+        "d6",
+        "d12",
+        "d7",
+        "d9",
+        "d3",
+        "d11",
+        "d1",
+        "d4"
+      ],
+      "valid": true,
+      "scores": [
+        5.424184799194336,
+        -3.6590538024902344,
+        -3.678558111190796,
+        -3.764787435531616,
+        -3.715632915496826,
+        -3.7017996311187744,
+        -3.686589479446411,
+        -3.7734906673431396,
+        -3.684114456176758,
+        -3.805238723754883,
+        -3.65110445022583,
+        -3.8029277324676514,
+        -3.7382843494415283
+      ],
+      "selected": "__none__",
+      "inferenceMs": 523.6549999713898,
+      "batches": 1,
+      "processingMs": 527.2349998950958,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 2.5199999809265137,
+      "tokenizationAndInferenceMs": 526.1749999523163
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i5",
+        "i9",
+        "i2",
+        "i1",
+        "__none__",
+        "i8",
+        "i3",
+        "i6",
+        "i7",
+        "i12",
+        "i11",
+        "i4",
+        "i10"
+      ],
+      "valid": true,
+      "scores": [
+        -3.695377826690674,
+        -3.6793770790100098,
+        -3.679474353790283,
+        -3.6152937412261963,
+        5.477927207946777,
+        -3.691535711288452,
+        -3.62119460105896,
+        -3.702754020690918,
+        -3.670396089553833,
+        -3.702381134033203,
+        -3.6746273040771484,
+        -3.722191333770752,
+        -3.6495320796966553
+      ],
+      "selected": "__none__",
+      "inferenceMs": 453.59500002861023,
+      "batches": 1,
+      "processingMs": 456.9100000858307,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 2.3999998569488525,
+      "tokenizationAndInferenceMs": 455.9949998855591
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t2",
+        "__none__",
+        "t1"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6174352169036865,
+        5.431392192840576,
+        -3.514723062515259
+      ],
+      "selected": "__none__",
+      "inferenceMs": 76.95500016212463,
+      "batches": 1,
+      "processingMs": 77.62999987602234,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.4849998950958252,
+      "tokenizationAndInferenceMs": 77.44000005722046
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d1",
+        "__none__"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6099088191986084,
+        -4.212406158447266
+      ],
+      "selected": "d1",
+      "inferenceMs": 105.86999988555908,
+      "batches": 1,
+      "processingMs": 106.77500009536743,
+      "nativeReference": {
+        "valid": true,
+        "selected": "d1",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.6850001811981201,
+      "tokenizationAndInferenceMs": 106.5550000667572
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "__none__",
+        "i5",
+        "i7",
+        "i4",
+        "i12",
+        "i8",
+        "i10",
+        "i9",
+        "i2",
+        "i1",
+        "i6",
+        "i11",
+        "i3"
+      ],
+      "valid": true,
+      "scores": [
+        -4.198261260986328,
+        -3.7148308753967285,
+        -3.6937549114227295,
+        -3.782142162322998,
+        -3.7487125396728516,
+        -3.683049440383911,
+        -3.6997933387756348,
+        -3.6534993648529053,
+        -3.6830639839172363,
+        -3.746480941772461,
+        -3.72493839263916,
+        -3.6692662239074707,
+        -3.6924421787261963
+      ],
+      "selected": "i9",
+      "inferenceMs": 627.704999923706,
+      "batches": 1,
+      "processingMs": 631.5899999141693,
+      "nativeReference": {
+        "valid": true,
+        "selected": "i9",
+        "sameSelection": true
+      },
+      "tokenizationMs": 2.989999771118164,
+      "tokenizationAndInferenceMs": 630.6949996948242
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t4",
+        "t5",
+        "t2",
+        "__none__",
+        "t3",
+        "t7",
+        "t6",
+        "t1",
+        "t8"
+      ],
+      "valid": true,
+      "scores": [
+        -3.665104866027832,
+        -3.652179002761841,
+        -3.677107334136963,
+        -4.195568561553955,
+        -3.635213851928711,
+        -3.6633591651916504,
+        -3.628087282180786,
+        -3.7160580158233643,
+        -3.700838327407837
+      ],
+      "selected": "t6",
+      "inferenceMs": 327.47500014305115,
+      "batches": 1,
+      "processingMs": 330.00999999046326,
+      "nativeReference": {
+        "valid": true,
+        "selected": "t3",
+        "sameSelection": false
+      },
+      "tokenizationMs": 1.9149999618530273,
+      "tokenizationAndInferenceMs": 329.3900001049042
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d9",
+        "d4",
+        "d10",
+        "d1",
+        "d6",
+        "d2",
+        "d3",
+        "d11",
+        "d7",
+        "d12",
+        "d8",
+        "__none__",
+        "d5"
+      ],
+      "valid": true,
+      "scores": [
+        -3.5952539443969727,
+        -3.6005442142486572,
+        -3.58178973197937,
+        -3.579533338546753,
+        -3.6501271724700928,
+        -3.5842854976654053,
+        -3.583134651184082,
+        -3.5597329139709473,
+        -3.5920262336730957,
+        -3.5338356494903564,
+        -3.5236589908599854,
+        -3.5541739463806152,
+        -3.5618250370025635
+      ],
+      "selected": "d8",
+      "inferenceMs": 623.8250000476837,
+      "batches": 1,
+      "processingMs": 628.0650000572205,
+      "nativeReference": {
+        "valid": true,
+        "selected": "d8",
+        "sameSelection": true
+      },
+      "tokenizationMs": 3.130000591278076,
+      "tokenizationAndInferenceMs": 626.9550006389618
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i10",
+        "__none__",
+        "i5",
+        "i6",
+        "i8",
+        "i9",
+        "i11",
+        "i7",
+        "i12",
+        "i4",
+        "i1",
+        "i3"
+      ],
+      "valid": true,
+      "scores": [
+        -3.658324718475342,
+        -3.7202134132385254,
+        -3.520789623260498,
+        -3.685762882232666,
+        -3.7202134132385254,
+        -3.7202134132385254,
+        -3.7202134132385254,
+        -3.7202134132385254,
+        -3.7202134132385254,
+        -3.7202134132385254,
+        -3.711428165435791,
+        -3.476079225540161,
+        -3.6378679275512695
+      ],
+      "selected": "i1",
+      "inferenceMs": 421.61500000953674,
+      "batches": 1,
+      "processingMs": 423.80000019073486,
+      "nativeReference": {
+        "valid": true,
+        "selected": "i1",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.4599997997283936,
+      "tokenizationAndInferenceMs": 423.07499980926514
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "t4",
+        "t2",
+        "t3",
+        "t1",
+        "__none__"
+      ],
+      "valid": true,
+      "scores": [
+        -3.683929681777954,
+        -3.6182148456573486,
+        -3.7063255310058594,
+        -3.5154311656951904,
+        -3.5410711765289307
+      ],
+      "selected": "t1",
+      "inferenceMs": 177.92000007629395,
+      "batches": 1,
+      "processingMs": 178.9800000190735,
+      "nativeReference": {
+        "valid": true,
+        "selected": "t1",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.7149996757507324,
+      "tokenizationAndInferenceMs": 178.63499975204468
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "d8",
+        "d6",
+        "d7",
+        "__none__",
+        "d9",
+        "d3",
+        "d4",
+        "d1",
+        "d5"
+      ],
+      "valid": true,
+      "scores": [
+        -3.754307985305786,
+        -3.5870344638824463,
+        -3.6961166858673096,
+        -3.6111819744110107,
+        5.287361145019531,
+        -3.6476995944976807,
+        -3.7489593029022217,
+        -3.735630989074707,
+        -3.5396974086761475,
+        -3.753192901611328
+      ],
+      "selected": "__none__",
+      "inferenceMs": 478.38499999046326,
+      "batches": 1,
+      "processingMs": 480.7650001049042,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.6600000858306885,
+      "tokenizationAndInferenceMs": 480.04500007629395
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i7",
+        "i1",
+        "__none__",
+        "i9",
+        "i6",
+        "i11",
+        "i5",
+        "i10",
+        "i12",
+        "i8",
+        "i3",
+        "i4"
+      ],
+      "valid": true,
+      "scores": [
+        -3.624298572540283,
+        -3.6100332736968994,
+        -3.5126900672912598,
+        5.381804943084717,
+        -3.686999797821045,
+        -3.6430861949920654,
+        -3.7216591835021973,
+        -3.66105318069458,
+        -3.6802775859832764,
+        -3.637359142303467,
+        -3.6991000175476074,
+        -3.714954376220703,
+        -3.719214677810669
+      ],
+      "selected": "__none__",
+      "inferenceMs": 571.7349998950958,
+      "batches": 1,
+      "processingMs": 574.3150000572205,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.6899998188018799,
+      "tokenizationAndInferenceMs": 573.4249997138977
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t12",
+        "t10",
+        "t3",
+        "t8",
+        "__none__",
+        "t9",
+        "t6",
+        "t2",
+        "t11",
+        "t4",
+        "t7",
+        "t1",
+        "t5"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6162450313568115,
+        -3.7356033325195312,
+        -3.6731374263763428,
+        -3.6302342414855957,
+        5.24158239364624,
+        -3.6812543869018555,
+        -3.696216106414795,
+        -3.673099994659424,
+        -3.699115037918091,
+        -3.6356019973754883,
+        -3.6765973567962646,
+        -3.6364996433258057,
+        -3.63906192779541
+      ],
+      "selected": "__none__",
+      "inferenceMs": 512.6599998474121,
+      "batches": 1,
+      "processingMs": 515.5349998474121,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.8799998760223389,
+      "tokenizationAndInferenceMs": 514.5399997234344
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "__none__",
+        "d1"
+      ],
+      "valid": true,
+      "scores": [
+        -3.650149345397949,
+        -4.170813083648682,
+        -3.6912529468536377
+      ],
+      "selected": "d2",
+      "inferenceMs": 116.00500011444092,
+      "batches": 1,
+      "processingMs": 116.82500004768372,
+      "nativeReference": {
+        "valid": true,
+        "selected": "d2",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.559999942779541,
+      "tokenizationAndInferenceMs": 116.56500005722046
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-image",
+      "field": "image",
+      "candidateIds": [
+        "i2",
+        "i3",
+        "__none__",
+        "i1"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6939337253570557,
+        -3.6118173599243164,
+        -3.9594316482543945,
+        -3.581071376800537
+      ],
+      "selected": "i1",
+      "inferenceMs": 146.17000007629395,
+      "batches": 1,
+      "processingMs": 147.23499989509583,
+      "nativeReference": {
+        "valid": true,
+        "selected": "i1",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.75,
+      "tokenizationAndInferenceMs": 146.92000007629395
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-title",
+      "field": "title",
+      "candidateIds": [
+        "__none__",
+        "t2",
+        "t1"
+      ],
+      "valid": true,
+      "scores": [
+        -4.173511505126953,
+        -3.7170305252075195,
+        -3.75579571723938
+      ],
+      "selected": "t2",
+      "inferenceMs": 77.78500008583069,
+      "batches": 1,
+      "processingMs": 78.35999989509583,
+      "nativeReference": {
+        "valid": true,
+        "selected": "t2",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.40000009536743164,
+      "tokenizationAndInferenceMs": 78.18500018119812
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-description",
+      "field": "description",
+      "candidateIds": [
+        "d3",
+        "d2",
+        "d4",
+        "__none__",
+        "d1"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6310224533081055,
+        -3.6432228088378906,
+        -3.6877784729003906,
+        5.180080413818359,
+        -3.88968563079834
+      ],
+      "selected": "__none__",
+      "inferenceMs": 182.7850000858307,
+      "batches": 1,
+      "processingMs": 184.0350000858307,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 0.8850002288818359,
+      "tokenizationAndInferenceMs": 183.67000031471252
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-image",
+      "field": "image",
+      "candidateIds": [
+        "i3",
+        "i6",
+        "i8",
+        "i9",
+        "i10",
+        "i1",
+        "i11",
+        "i2",
+        "__none__",
+        "i7",
+        "i5",
+        "i4",
+        "i12"
+      ],
+      "valid": true,
+      "scores": [
+        -3.657973051071167,
+        -3.634765625,
+        -3.620175838470459,
+        -3.652973175048828,
+        -3.646812915802002,
+        -3.7956128120422363,
+        -3.643144130706787,
+        -3.639458417892456,
+        5.384784698486328,
+        -3.645720958709717,
+        -3.6952240467071533,
+        -3.666471004486084,
+        -3.6297318935394287
+      ],
+      "selected": "__none__",
+      "inferenceMs": 497.0750000476837,
+      "batches": 1,
+      "processingMs": 501.12000012397766,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 3.234999895095825,
+      "tokenizationAndInferenceMs": 500.30999994277954
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-description",
+      "field": "description",
+      "candidateIds": [
+        "d2",
+        "d11",
+        "d10",
+        "d5",
+        "d12",
+        "d7",
+        "d6",
+        "d1",
+        "d3",
+        "d9",
+        "__none__",
+        "d8",
+        "d4"
+      ],
+      "valid": true,
+      "scores": [
+        -3.616274118423462,
+        -3.574652910232544,
+        -3.559694290161133,
+        -3.623840093612671,
+        -3.6052801609039307,
+        -3.5928492546081543,
+        -3.5627760887145996,
+        -3.7403411865234375,
+        -3.6221606731414795,
+        -3.555088996887207,
+        -1.6727352142333984,
+        -3.613053798675537,
+        -3.616516590118408
+      ],
+      "selected": "__none__",
+      "inferenceMs": 527.4950001239777,
+      "batches": 1,
+      "processingMs": 530.0500001907349,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.760000467300415,
+      "tokenizationAndInferenceMs": 529.2550005912781
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-image",
+      "field": "image",
+      "candidateIds": [
+        "i9",
+        "i8",
+        "i12",
+        "i11",
+        "i6",
+        "i5",
+        "i4",
+        "__none__",
+        "i7",
+        "i3",
+        "i10",
+        "i1",
+        "i2"
+      ],
+      "valid": true,
+      "scores": [
+        -3.620502471923828,
+        -3.706233024597168,
+        -3.689629554748535,
+        -3.6965460777282715,
+        -3.6717841625213623,
+        -3.6434109210968018,
+        -3.465873956680298,
+        0.29842206835746765,
+        -3.6176364421844482,
+        -3.6873366832733154,
+        -3.643869638442993,
+        -3.7152321338653564,
+        -3.688387632369995
+      ],
+      "selected": "__none__",
+      "inferenceMs": 507.97499990463257,
+      "batches": 1,
+      "processingMs": 512.6549999713898,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 3.8399994373321533,
+      "tokenizationAndInferenceMs": 511.8149993419647
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-title",
+      "field": "title",
+      "candidateIds": [
+        "t10",
+        "t11",
+        "t8",
+        "t2",
+        "t5",
+        "t4",
+        "__none__",
+        "t3",
+        "t1",
+        "t6",
+        "t12",
+        "t7",
+        "t9"
+      ],
+      "valid": true,
+      "scores": [
+        -3.6219372749328613,
+        -3.630492687225342,
+        -3.6223533153533936,
+        -3.6960394382476807,
+        -3.621121644973755,
+        -3.715963125228882,
+        -2.0223641395568848,
+        -3.6291775703430176,
+        -3.5748660564422607,
+        -3.804196834564209,
+        -3.6129324436187744,
+        -3.499948024749756,
+        -3.6469874382019043
+      ],
+      "selected": "__none__",
+      "inferenceMs": 436.8199999332428,
+      "batches": 1,
+      "processingMs": 439.0050001144409,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.489999771118164,
+      "tokenizationAndInferenceMs": 438.30999970436096
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-title",
+      "field": "title",
+      "candidateIds": [
+        "t7",
+        "t2",
+        "t12",
+        "t11",
+        "__none__",
+        "t5",
+        "t4",
+        "t1",
+        "t10",
+        "t8",
+        "t3",
+        "t6",
+        "t9"
+      ],
+      "valid": true,
+      "scores": [
+        -3.7062978744506836,
+        -3.7681427001953125,
+        -3.6977896690368652,
+        -3.5977048873901367,
+        5.141560077667236,
+        -3.7071099281311035,
+        -3.740403890609741,
+        -3.594475030899048,
+        -3.6405773162841797,
+        -3.665787696838379,
+        -3.707331418991089,
+        -3.61942720413208,
+        -3.630371332168579
+      ],
+      "selected": "__none__",
+      "inferenceMs": 422.289999961853,
+      "batches": 1,
+      "processingMs": 424.5350000858307,
+      "nativeReference": {
+        "valid": true,
+        "selected": "__none__",
+        "sameSelection": true
+      },
+      "tokenizationMs": 1.565000057220459,
+      "tokenizationAndInferenceMs": 423.8550000190735
+    }
+  ],
+  "referenceComparison": [
+    {
+      "id": "auth-coupang-jujutsu-player-description::batch-0",
+      "maxAbsError": 0.015524625778198242
+    },
+    {
+      "id": "auth-coupang-jujutsu-player-image::batch-0",
+      "maxAbsError": 0.010161638259887695
+    },
+    {
+      "id": "auth-coupang-jujutsu-player-title::batch-0",
+      "maxAbsError": 0.023194551467895508
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-description::batch-0",
+      "maxAbsError": 0.23107576370239258
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-image::batch-0",
+      "maxAbsError": 0.10343551635742188
+    },
+    {
+      "id": "auth-coupang-jujutsu-search-title::batch-0",
+      "maxAbsError": 0.14079952239990234
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-description::batch-0",
+      "maxAbsError": 0.1155538558959961
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-image::batch-0",
+      "maxAbsError": 0.26158595085144043
+    },
+    {
+      "id": "auth-crunchyroll-jujutsu-search-title::batch-0",
+      "maxAbsError": 0.026519060134887695
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-description::batch-0",
+      "maxAbsError": 0.04155755043029785
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-image::batch-0",
+      "maxAbsError": 0.028173446655273438
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-detail-title::batch-0",
+      "maxAbsError": 0.036786794662475586
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-description::batch-0",
+      "maxAbsError": 0.009673118591308594
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-image::batch-0",
+      "maxAbsError": 0.024441242218017578
+    },
+    {
+      "id": "authprofile-watcha-jujutsu-search-title::batch-0",
+      "maxAbsError": 0.027288436889648438
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-description::batch-0",
+      "maxAbsError": 0.03657197952270508
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-image::batch-0",
+      "maxAbsError": 0.004749774932861328
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-description::batch-0",
+      "maxAbsError": 0.021059751510620117
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-image::batch-0",
+      "maxAbsError": 0.015682220458984375
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-opened-work-title::batch-0",
+      "maxAbsError": 0.034502267837524414
+    },
+    {
+      "id": "scale-aniplus-jujutsu-kaisen-search-title::batch-0",
+      "maxAbsError": 0.027155637741088867
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-description::batch-0",
+      "maxAbsError": 0.0807790756225586
+    },
+    {
+      "id": "scale-coupang-jujutsu-kaisen-search-title::batch-0",
+      "maxAbsError": 7.152557373046875e-7
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-description::batch-0",
+      "maxAbsError": 0
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-image::batch-0",
+      "maxAbsError": 0.011627674102783203
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-description::batch-0",
+      "maxAbsError": 0.03628826141357422
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-image::batch-0",
+      "maxAbsError": 0.04308485984802246
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-opened-work-title::batch-0",
+      "maxAbsError": 0.03924703598022461
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-description::batch-0",
+      "maxAbsError": 0.17008233070373535
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-image::batch-0",
+      "maxAbsError": 0.040632009506225586
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-playback-entry-title::batch-0",
+      "maxAbsError": 0.1310133934020996
+    },
+    {
+      "id": "scale-laftel-jujutsu-kaisen-search-title::batch-0",
+      "maxAbsError": 0.04301738739013672
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-description::batch-0",
+      "maxAbsError": 0.0030307769775390625
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-image::batch-0",
+      "maxAbsError": 0.027130603790283203
+    },
+    {
+      "id": "scale-prime-ghost-in-the-shell-detail-title::batch-0",
+      "maxAbsError": 0.042243242263793945
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-description::batch-0",
+      "maxAbsError": 0.047821044921875
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-image::batch-0",
+      "maxAbsError": 0.03147268295288086
+    },
+    {
+      "id": "scale-prime-jujutsu-kaisen-search-title::batch-0",
+      "maxAbsError": 0.015649080276489258
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-description::batch-0",
+      "maxAbsError": 0.017753124237060547
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-image::batch-0",
+      "maxAbsError": 0.027608871459960938
+    },
+    {
+      "id": "scale-prime-karakuri-circus-detail-title::batch-0",
+      "maxAbsError": 0.017557621002197266
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-description::batch-0",
+      "maxAbsError": 0.035201072692871094
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-image::batch-0",
+      "maxAbsError": 0.027041912078857422
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-detail-title::batch-0",
+      "maxAbsError": 0.02747488021850586
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-description::batch-0",
+      "maxAbsError": 0.0333101749420166
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-image::batch-0",
+      "maxAbsError": 0.03380227088928223
+    },
+    {
+      "id": "scale-tving-jujutsu-kaisen-search-title::batch-0",
+      "maxAbsError": 0.04318833351135254
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-description::batch-0",
+      "maxAbsError": 0.012222051620483398
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-image::batch-0",
+      "maxAbsError": 0.03291606903076172
+    },
+    {
+      "id": "scale-watcha-jujutsu-kaisen-detail-title::batch-0",
+      "maxAbsError": 0.020378589630126953
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-description::batch-0",
+      "maxAbsError": 0.02803659439086914
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-image::batch-0",
+      "maxAbsError": 0.03131747245788574
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-description::batch-0",
+      "maxAbsError": 0.18519365787506104
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-image::batch-0",
+      "maxAbsError": 0.03042149543762207
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-opened-work-title::batch-0",
+      "maxAbsError": 0.10113239288330078
+    },
+    {
+      "id": "scale-wavve-jujutsu-kaisen-search-title::batch-0",
+      "maxAbsError": 0.03331279754638672
+    }
+  ],
+  "gpuQueueSubmissions": 0,
+  "tokenizerLoadMs": 40.16000008583069,
+  "loadMs": 355.72000002861023,
+  "inputNames": [
+    "input_ids",
+    "attention_mask",
+    "token_type_ids"
+  ],
+  "outputNames": [
+    "scores"
+  ],
+  "inference": {
+    "count": 56,
+    "p50Ms": 408.7349998950958,
+    "p95Ms": 627.704999923706
+  },
+  "processing": {
+    "count": 56,
+    "p50Ms": 411.15499997138977,
+    "p95Ms": 631.5899999141693
+  },
+  "tokenizationAndInference": {
+    "count": 56,
+    "p50Ms": 410.51000022888184,
+    "p95Ms": 630.6949996948242
+  },
+  "nativeReference": {
+    "complete": true,
+    "cases": 57,
+    "sameSelections": 54,
+    "maximumAbsoluteLogitDifference": 0.26158595085144043,
+    "note": "Native and WASM numerical equality is not assumed. Score differences and top-choice agreement are separate from successful inference and exact tokenizer parity."
+  },
+  "wallMs": 26339.09500002861,
+  "mainThreadTimer": {
+    "samples": 1646,
+    "maximumGapMs": 17.694999933242798,
+    "note": "Diagnostic timer intervals include loading, reporting and browser scheduling; not a user interaction latency metric."
+  },
+  "finishedAt": "2026-11-13T15:47:42.872Z",
+  "servedBytes": {
+    "/page.mjs": 1785,
+    "/inference.mjs": 14110,
+    "/contract.mjs": 9094,
+    "/tokenize.mjs": 3132,
+    "/worker.mjs": 632,
+    "/ort/ort.wasm.min.mjs": 53725,
+    "/tokenizers.mjs": 98937,
+    "/tokenizer.json": 814850,
+    "/tokenizer_config.json": 365,
+    "/ort/ort-wasm-simd-threaded.mjs": 24738,
+    "/ort/ort-wasm-simd-threaded.wasm": 14848852,
+    "/model.onnx": 7969650
+  }
+}

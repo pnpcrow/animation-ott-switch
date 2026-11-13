@@ -1,0 +1,157 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-11-13T15:56:07.605Z",
+  "status": "passed",
+  "auditCounts": {
+    "verified": 206,
+    "mismatch": 0,
+    "error": 0,
+    "unavailable": 0,
+    "deferred": 0
+  },
+  "frozenGlobalSha256": "9fe67c01b38cbb3f740a1e3688aa7fdc4754930a2b71f0ac7f1c3c1e4e08b55a",
+  "verifierSha256": "58b6671875426bf728dff642e74795b96f3ccdec858ea7ff2b225f320b07a982",
+  "archivedPlans": 8,
+  "browserRuns": [
+    {
+      "path": "eval/dom-scale/runtime/results/natural-main-full-r1.json",
+      "sha256": "59329d4aa83e66d21050383febba31edcfb90ca7dd132a72ed8daf74e3a6e2f3",
+      "cases": 57,
+      "inferredCases": 56,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 57,
+      "externalRequests": 0
+    },
+    {
+      "path": "eval/dom-scale/runtime/results/natural-main-full-r2.json",
+      "sha256": "aa5be8f8354bd041f72dd4f522301581124bf3ef7afb6752c03458415dd848b0",
+      "cases": 57,
+      "inferredCases": 56,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 57,
+      "externalRequests": 0
+    },
+    {
+      "path": "eval/dom-scale/runtime/results/natural-worker-micro2-r1.json",
+      "sha256": "38e6fd58d20274f74f58af14539b1c2ff4f789140962e85535157c21ca442d86",
+      "cases": 57,
+      "inferredCases": 56,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 57,
+      "externalRequests": 0
+    },
+    {
+      "path": "eval/dom-scale/runtime/results/natural-worker-micro2-r2.json",
+      "sha256": "0161469a73a844d3490f772819b1e2c24cac580c84f8f5c8a8058e3ea886c15e",
+      "cases": 57,
+      "inferredCases": 56,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 57,
+      "externalRequests": 0
+    },
+    {
+      "path": "eval/dom-scale/runtime/results/compact-worker-micro2-r1.json",
+      "sha256": "ea5680ef51990a146db889c914f9cd0dbed8447bb31a9a02aefd242d6730c65d",
+      "cases": 57,
+      "inferredCases": 56,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 57,
+      "externalRequests": 0
+    },
+    {
+      "path": "eval/dom-scale/runtime/results/compact-worker-micro2-r2.json",
+      "sha256": "eb25c2f2dfb87feee0167eeec031631bd1dc1220a170e1cf20042eeee658b2ae",
+      "cases": 57,
+      "inferredCases": 56,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 57,
+      "externalRequests": 0
+    },
+    {
+      "path": "eval/dom-scale/runtime/results/small-worker-micro2-r1.json",
+      "sha256": "7c7030584c35ee05fdd8f9e5ae149e788608ceca76ed425118cb1866fa997fbc",
+      "cases": 57,
+      "inferredCases": 56,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 57,
+      "externalRequests": 0
+    },
+    {
+      "path": "eval/dom-scale/runtime/results/small-worker-micro2-r2.json",
+      "sha256": "7c5c46cc4d01abdf6bce237072a1e14c5b7e8ebccb50108fae6533fecf4c508b",
+      "cases": 57,
+      "inferredCases": 56,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 57,
+      "externalRequests": 0
+    },
+    {
+      "path": "eval/dom-scale/runtime/results/small-natural-worker-full-r1.json",
+      "sha256": "6ca50fd805c9dd55118a093eb578065b54b290ec0ca9d02410b7fd1527d29e92",
+      "cases": 57,
+      "inferredCases": 56,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 54,
+      "externalRequests": 0
+    },
+    {
+      "path": "eval/dom-scale/runtime/results/small-natural-worker-micro2-r1.json",
+      "sha256": "956eb74adb5e418e9f0edebe81062266a5c9fdaee88d521f9602120cb84139c6",
+      "cases": 57,
+      "inferredCases": 56,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 52,
+      "externalRequests": 0
+    },
+    {
+      "path": "eval/dom-scale/runtime/results/small-natural-worker-full-r2.json",
+      "sha256": "74873eb8c882fd1ca5f45f073d62174ce500bb6fe92a964cdc53677504b2ff73",
+      "cases": 57,
+      "inferredCases": 56,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 54,
+      "externalRequests": 0
+    },
+    {
+      "path": "eval/dom-scale/runtime/results/small-natural-worker-micro2-r2.json",
+      "sha256": "ef6b46f66b38bc768a1ea7bfc30014001db604dd166d3b723d2bbd8fd705f61b",
+      "cases": 57,
+      "inferredCases": 56,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 52,
+      "externalRequests": 0
+    },
+    {
+      "path": "eval/dom-scale/runtime/holdout-small-natural-full.json",
+      "sha256": "3a92e2f6d8a1f3c0ec531be9aef045a1914427c2e4aefb316efcca8783746087",
+      "cases": 120,
+      "inferredCases": 118,
+      "valid": true,
+      "tokenizerParity": true,
+      "nativeSameSelections": 103,
+      "externalRequests": 0
+    }
+  ],
+  "scoredActualBrowser": {
+    "correct": 50,
+    "cases": 120,
+    "positiveCorrect": 9,
+    "positiveCases": 72
+  },
+  "notes": [
+    "This verifies artifact integrity and execution contracts, not correctness of human annotations or adequacy of model accuracy.",
+    "Native/browser numeric equality is not required; actual choices are separately scored."
+  ]
+}

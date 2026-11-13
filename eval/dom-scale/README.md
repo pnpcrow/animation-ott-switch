@@ -1,5 +1,7 @@
 # Expanded DOM adaptation experiment
 
+Completed findings and measured limitations: [결과 보고서](RESULTS.md).
+
 This experiment expands real OTT observations, retrains a small Korean encoder from its original pinned checkpoint, and measures browser inference with bounded inputs and explicit worker lifetime. It does not enable an experimental model in the shipping extension.
 
 ## Data and separation
