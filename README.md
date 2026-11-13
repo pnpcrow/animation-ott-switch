@@ -1,6 +1,6 @@
-# OTT Switch
+# AniOTT Switch
 
-마음에 든 작품을 내 OTT로 이어 보고, 작품 중심으로 모아 두는 Chrome Manifest V3 확장 프로그램입니다. **한국 서비스 우선 · 로컬 저장 · 비공개 알파 0.1.6**
+마음에 든 작품을 내 OTT로 이어 보고, 작품 중심으로 모아 두는 Chrome Manifest V3 확장 프로그램입니다. **한국 서비스 우선 · 로컬 저장 · 공개 테스트 버전 0.1.7**
 
 v0.1.5로 만든 스토어 항목의 ID **`cmaijknliglhgokkmijggladebokgafl`**를 고정해 사용합니다. 빌드·패키징에서 공개키와 ID를 검증합니다. 버전은 업데이트마다 올리며 ID는 유지합니다. [식별자와 기존 데이터 전환 안내](docs/extension-identity.md)를 참고하세요.
 
@@ -11,7 +11,7 @@ v0.1.5로 만든 스토어 항목의 ID **`cmaijknliglhgokkmijggladebokgafl`**�
 3. **OTT 연결** — 라프텔·애니플러스·Crunchyroll·Netflix·Prime Video·Apple TV·웨이브·티빙·쿠팡플레이·왓챠 작품 주소 인식, 검색과 보수적인 동일 작품 판정, 재생 중 숨기는 오버레이.
 4. **검증 및 비공개 배포** — 단위/브라우저 테스트, 설치 가능한 ZIP, CI, 제한 사항 기록.
 
-단위별 커밋을 만들고 각 단계가 끝날 때 `main`에 푸시합니다. 안정화 전에는 비공개를 유지합니다.
+단위별 커밋을 만들고 각 단계가 끝날 때 `main`에 푸시합니다. 0.1.7부터 스토어 등록 준비를 위해 저장소를 공개합니다. 스토어 심사 제출은 별도 단계입니다.
 
 ## 설계 원칙
 
@@ -36,15 +36,15 @@ npm run test:e2e
 npm run package
 ```
 
-빌드 결과는 `dist/`, 설치용 ZIP은 `release/ott-switch-0.1.6.zip`에 생성됩니다. `npm run dev`는 빌드 후 `http://127.0.0.1:4173/library.html`에 보관함 미리보기를 엽니다. localhost DB는 확장 DB와 별개이며 미리보기에서는 자동 OTT 조회를 하지 않습니다.
+빌드 결과는 `dist/`, 설치용 ZIP은 `release/ott-switch-0.1.7.zip`에 생성됩니다. `npm run dev`는 빌드 후 `http://127.0.0.1:4173/library.html`에 보관함 미리보기를 엽니다. localhost DB는 확장 DB와 별개이며 미리보기에서는 자동 OTT 조회를 하지 않습니다.
 
 ## 설치
 
-1. [v0.1.6 비공개 테스트 Release](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.6)에서 ZIP을 받아 압축을 풉니다. 또는 위 명령으로 `dist`를 빌드합니다. 한국어 성능 보고서(HTML/Markdown)와 원시 측정 JSON은 [v0.1.5 릴리즈](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.5)에 보존되어 있습니다.
+1. [v0.1.7 테스트 Release](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.7)에서 ZIP을 받아 압축을 풉니다. 또는 위 명령으로 `dist`를 빌드합니다. 한국어 성능 보고서(HTML/Markdown)와 원시 측정 JSON은 [v0.1.5 릴리즈](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.5)에 보존되어 있습니다.
 2. Chrome 주소창에서 `chrome://extensions`를 열고 **개발자 모드**를 켭니다.
 3. **압축해제된 확장 프로그램을 로드합니다**에서 `manifest.json`이 들어 있는 폴더를 선택합니다.
 4. 지원 OTT 작품 페이지를 새로고침하고 왼쪽 `OTT` 탭에서 카테고리를 선택해 저장합니다.
-5. 툴바의 OTT Switch 아이콘으로 보관함을 열고 설정에서 실제 구독 중인 서비스를 선택합니다.
+5. 툴바의 AniOTT Switch 아이콘으로 보관함을 열고 설정에서 실제 구독 중인 서비스를 선택합니다.
 
 업데이트는 같은 폴더의 파일을 교체한 뒤 확장 **새로고침**을 사용하세요. 확장을 제거하면 로컬 데이터도 삭제되므로 먼저 JSON으로 백업하세요. 다른 설치 폴더·Chrome 프로필 간 이동도 JSON 백업을 이용합니다.
 
@@ -68,7 +68,15 @@ Prime Video의 공식 `phrase` 검색어는 그대로 전달합니다. 페이지
 
 라프텔 검색·홈의 작품 모달과 Netflix의 상세 모달·단독 작품 페이지를 인식합니다. Prime Video의 자동 미리보기 전환 중에는 사이드바를 유지합니다. **10개 서비스의 모든 계정과 작품에서 자동 검색을 보장하는 버전은 아닙니다.** 로그인·접근 제한·제목 불일치는 `확인 필요`로 남으며 공식 검색도 제공됩니다. 작품 페이지 확인은 구독 포함·무료 재생·한국 판권을 보증하지 않습니다. 상세 범위는 [서비스 지원표](docs/provider-support.md)에 기록했습니다.
 
-Google Drive 연결은 **아직 구현하지 않았습니다**. 수정 시각·기기 ID·삭제 기록과 병합 구조를 준비했으며 [동기화 설계](docs/sync-design.md)에 후속 구현 원칙을 정리했습니다. 공개 저장소 전환과 Chrome 웹 스토어 등록은 안정화 후 별도 진행합니다.
+Google Drive 연결은 **아직 구현하지 않았습니다**. 수정 시각·기기 ID·삭제 기록과 병합 구조를 준비했으며 [동기화 설계](docs/sync-design.md)에 후속 구현 원칙을 정리했습니다. 저장소 공개와 스토어 등록 자료는 0.1.7에 준비하며, 스토어 심사 제출은 별도로 진행합니다.
+
+## 스토어 등록 자료
+
+- [스토어 설명과 권한·개인정보 입력 안내](docs/store-listing.ko.md)
+- [개인정보처리방침](docs/privacy.md) · [기능별 데이터 처리 근거](docs/privacy-data-map.md)
+- [스토어 아이콘·스크린샷·프로모션 이미지](assets/store/README.md)
+
+0.1.7에서 표시 이름을 **AniOTT Switch**로 바꾸고 본문16px·보조문구14px 중심으로 가독성을 개선했습니다. 실제 저장에 쓰이지 않던 `storage` 권한을 제거했으며 북마크는 기존 IndexedDB에 그대로 보존합니다. 공개키·확장 ID·백업 형식은 유지합니다.
 
 ## 검증 및 구조
 
