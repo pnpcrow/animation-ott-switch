@@ -412,4 +412,24 @@ describe("network boundaries and public search", () => {
     expect((await searchProvider("apple", page)).status).toBe("unknown");
     expect(fetchMock).toHaveBeenCalledTimes(2);
   });
+  it("rejects a detail redirect to another ID even if the title matches", async () => {
+    const detail = new Response(
+      '<html><head><meta property="og:title" content="장송의 프리렌"></head></html>',
+    );
+    Object.defineProperty(detail, "url", {
+      value: "https://tv.apple.com/kr/show/name/umc.cmc.456",
+    });
+    vi.stubGlobal(
+      "fetch",
+      vi
+        .fn()
+        .mockResolvedValueOnce(
+          new Response(
+            '<html><body><a data-testid="search-card-lockup" aria-label="장송의 프리렌" href="/kr/show/name/umc.cmc.123"></a></body></html>',
+          ),
+        )
+        .mockResolvedValueOnce(detail),
+    );
+    expect((await searchProvider("apple", page)).status).toBe("unknown");
+  });
 });

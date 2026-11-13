@@ -281,12 +281,7 @@ export async function searchProvider(
         if (provider === "laftel" || matched.status === "ambiguous")
           return matched;
         // Reopen the candidate's official detail metadata to avoid trusting search labels alone.
-        const verified = await request(matched.url!, provider);
-        const { document } = parseHTML(verified.body);
-        const detail = extractPage(
-          document as unknown as Document,
-          verified.url,
-        );
+        const detail = await readDetailPage(provider, matched.url!);
         if (!detail)
           return result(
             provider,
