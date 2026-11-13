@@ -1,6 +1,6 @@
 # OTT Switch
 
-마음에 든 작품을 내 OTT로 이어 보고, 작품 중심으로 모아 두는 Chrome Manifest V3 확장 프로그램입니다. **한국 서비스 우선 · 로컬 저장 · 비공개 알파 0.1.4**
+마음에 든 작품을 내 OTT로 이어 보고, 작품 중심으로 모아 두는 Chrome Manifest V3 확장 프로그램입니다. **한국 서비스 우선 · 로컬 저장 · 비공개 알파 0.1.5**
 
 ## 개발 계획
 
@@ -34,11 +34,11 @@ npm run test:e2e
 npm run package
 ```
 
-빌드 결과는 `dist/`, 설치용 ZIP은 `release/ott-switch-0.1.4.zip`에 생성됩니다. `npm run dev`는 빌드 후 `http://127.0.0.1:4173/library.html`에 보관함 미리보기를 엽니다. localhost DB는 확장 DB와 별개이며 미리보기에서는 자동 OTT 조회를 하지 않습니다.
+빌드 결과는 `dist/`, 설치용 ZIP은 `release/ott-switch-0.1.5.zip`에 생성됩니다. `npm run dev`는 빌드 후 `http://127.0.0.1:4173/library.html`에 보관함 미리보기를 엽니다. localhost DB는 확장 DB와 별개이며 미리보기에서는 자동 OTT 조회를 하지 않습니다.
 
 ## 설치
 
-1. [v0.1.4 비공개 Release](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.4)에서 ZIP을 받아 압축을 풉니다. 또는 위 명령으로 `dist`를 빌드합니다.
+1. [v0.1.5 비공개 테스트 Release](https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.5)에서 ZIP을 받아 압축을 풉니다. 또는 위 명령으로 `dist`를 빌드합니다. 같은 릴리즈에 한국어 성능 보고서(HTML/Markdown)와 원시 측정 JSON도 제공합니다.
 2. Chrome 주소창에서 `chrome://extensions`를 열고 **개발자 모드**를 켭니다.
 3. **압축해제된 확장 프로그램을 로드합니다**에서 `manifest.json`이 들어 있는 폴더를 선택합니다.
 4. 지원 OTT 작품 페이지를 새로고침하고 왼쪽 `OTT` 탭에서 카테고리를 선택해 저장합니다.
@@ -68,6 +68,8 @@ Google Drive 연결은 **아직 구현하지 않았습니다**. 수정 시각·�
 
 ## 검증 및 구조
 
+0.1.5는 작품 영역 안에서 제목·설명·이미지 후보를 따로 읽는 국소 DOM 수집과 링크 제목의 소유 범위 검증을 적용합니다. JS에 명시된 작품 URL도 실제 상세 페이지 확인 후 이동합니다. [한국어 성능 보고서](docs/performance-0.1.5.md)에 처리 시간·입력 크기·후보 회수와 과거 모델 실험을 분리해 정리했습니다. [변경 기록](docs/release-0.1.5.md)에서 설치 및 검증 범위를 확인할 수 있습니다.
+
 0.1.4에서는 제공된 8개 작품의 [교차 검증 결과](docs/cross-check-2026-11-13.md)를 기록했습니다. 애니플러스의 URL 없는 카드·상세 레이어, 티빙의 `포스터`·`1화` 제목 장식, 자막/더빙 표기 위치를 보완하고 잘못된 Apple 검색 부재 판정을 수정했습니다. 단위 테스트 339개와 브라우저 회귀 테스트 28개, 선택형 평가 도구의 계약 검사 7개가 통과했습니다. 실제 카탈로그 조사와 확장 이동, 모델 품질 평가는 구분해 기록합니다.
 
 단위 테스트는 실제 응답에서 추린 fixture, URL 경계, 검색/접근 실패, 버전 중복, 원자적 저장, 백업 검증, 병합·삭제, 메시지 경계를 검사합니다. 브라우저 테스트는 Chromium에 실제 MV3 확장을 로드해 영속 저장·오버레이·재생 감지·SPA 이동·보관함을 확인합니다. 사이트 DOM은 고정 fixture이며 실제 로그인 계정 검증을 대신하지 않습니다. GitHub Actions에도 검사·ZIP artifact 생성 워크플로를 구성했습니다.
@@ -85,6 +87,7 @@ Google Drive 연결은 **아직 구현하지 않았습니다**. 수정 시각·�
 - [수동 QA 목록](docs/manual-qa.md)
 - [개인정보 및 권한](docs/privacy.md)
 - [8작품 교차 검증](docs/cross-check-2026-11-13.md) · [선택형 WebLLM 평가 도구](eval/webllm/README.md)
+- [0.1.5 변경 기록](docs/release-0.1.5.md) · [성능 검사 보고서](docs/performance-0.1.5.md)
 - [0.1.4 변경 기록](docs/release-0.1.4.md) · [0.1.3 변경 기록](docs/release-0.1.3.md) · [0.1.2 변경 기록](docs/release-0.1.2.md) · [0.1.1 변경 기록](docs/release-0.1.1.md) · [0.1.0 변경 기록](docs/release-notes.md)
 
 ## 기술 참고

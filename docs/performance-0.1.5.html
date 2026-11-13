@@ -1,0 +1,939 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>OTT Switch 0.1.5 · 성능 검사 결과</title>
+    <style>
+      :root {
+        --ink: #14233a;
+        --muted: #56657a;
+        --blue: #2767dc;
+        --cyan: #137b84;
+        --line: #dce4ef;
+        --pale: #edf3fd;
+        --amber: #7d5218;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: #f3f6fa;
+        color: var(--ink);
+        font-family:
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          "Malgun Gothic",
+          sans-serif;
+        line-height: 1.65;
+        font-size: 15px;
+      }
+      main {
+        max-width: 1180px;
+        margin: 0 auto;
+        padding: 48px 36px 64px;
+      }
+      header {
+        border-top: 6px solid var(--blue);
+        background: white;
+        padding: 34px 36px 30px;
+        border-radius: 0 0 16px 16px;
+        box-shadow: 0 6px 24px #152f5610;
+      }
+      .eyebrow {
+        font-size: 12px;
+        letter-spacing: 0.13em;
+        font-weight: 800;
+        color: var(--blue);
+      }
+      h1 {
+        font-size: 38px;
+        line-height: 1.25;
+        margin: 10px 0 16px;
+        letter-spacing: -0.04em;
+      }
+      h2 {
+        font-size: 24px;
+        margin: 0 0 12px;
+        letter-spacing: -0.025em;
+      }
+      h3 {
+        font-size: 17px;
+        margin: 24px 0 10px;
+      }
+      p {
+        margin: 10px 0;
+      }
+      .lead {
+        font-size: 17px;
+        max-width: 920px;
+        color: #32455f;
+      }
+      .meta {
+        font-size: 12px;
+        color: var(--muted);
+        margin-top: 18px;
+      }
+      .metrics {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 12px;
+        margin: 22px 0;
+      }
+      .metric {
+        background: white;
+        border: 1px solid var(--line);
+        border-radius: 12px;
+        padding: 20px;
+      }
+      .metric b {
+        font-size: 29px;
+        line-height: 1.1;
+        display: block;
+        letter-spacing: -0.04em;
+        color: var(--blue);
+      }
+      .metric span {
+        display: block;
+        font-size: 12px;
+        color: var(--muted);
+        margin-top: 8px;
+      }
+      .metric strong {
+        display: block;
+        font-size: 14px;
+        margin-top: 10px;
+      }
+      .panel {
+        background: white;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 28px 30px;
+        margin: 20px 0;
+      }
+      .kicker {
+        display: inline-block;
+        font-weight: 800;
+        font-size: 11px;
+        color: var(--blue);
+        margin-bottom: 9px;
+        letter-spacing: 0.08em;
+      }
+      .note {
+        background: var(--pale);
+        border-left: 4px solid var(--blue);
+        padding: 13px 17px;
+        border-radius: 0 7px 7px 0;
+        color: #314764;
+        margin: 16px 0;
+      }
+      .warning {
+        background: #fff8e9;
+        border-color: #dda34c;
+        color: var(--amber);
+      }
+      .fine {
+        font-size: 12px;
+        color: var(--muted);
+      }
+      .table-wrap {
+        width: 100%;
+        overflow-x: auto;
+        margin: 16px 0;
+      }
+      table {
+        border-collapse: collapse;
+        min-width: 770px;
+        width: 100%;
+        font-size: 12px;
+        line-height: 1.55;
+      }
+      th {
+        text-align: left;
+        background: #edf2f8;
+        color: #32455f;
+        padding: 12px 10px;
+        border-bottom: 2px solid #c8d6e8;
+        font-weight: 750;
+        white-space: nowrap;
+      }
+      td {
+        padding: 12px 10px;
+        border-bottom: 1px solid var(--line);
+        vertical-align: top;
+        font-variant-numeric: tabular-nums;
+      }
+      tbody tr:nth-child(even) {
+        background: #fafcfe;
+      }
+      td:first-child {
+        font-weight: 650;
+      }
+      a {
+        color: #235dbe;
+        text-underline-offset: 3px;
+      }
+      code {
+        font-size: 0.88em;
+        background: #eef2f7;
+        padding: 2px 5px;
+        border-radius: 4px;
+        overflow-wrap: anywhere;
+      }
+      .two {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 26px;
+      }
+      .bars {
+        margin-top: 14px;
+      }
+      .barrow {
+        display: grid;
+        grid-template-columns: 138px 1fr 85px;
+        gap: 10px;
+        align-items: center;
+        margin: 15px 0;
+        font-size: 12px;
+      }
+      .track {
+        height: 17px;
+        background: #e9eef6;
+        border-radius: 4px;
+        overflow: hidden;
+      }
+      .fill {
+        height: 100%;
+        background: #a6b6cd;
+        min-width: 3px;
+      }
+      .fill.blue {
+        background: var(--blue);
+      }
+      .barrow b {
+        text-align: right;
+        font-variant-numeric: tabular-nums;
+      }
+      .list {
+        padding-left: 20px;
+      }
+      .list li {
+        margin: 8px 0;
+      }
+      .divider {
+        border-top: 1px solid var(--line);
+        margin: 24px 0;
+      }
+      footer {
+        font-size: 12px;
+        color: var(--muted);
+        padding: 12px 0;
+      }
+      .tag {
+        display: inline-block;
+        border-radius: 100px;
+        font-size: 11px;
+        font-weight: 750;
+        padding: 3px 9px;
+        background: #eaf4f1;
+        color: #246b58;
+      }
+      .tag.amber {
+        background: #fff1d5;
+        color: #855819;
+      }
+      @media (max-width: 850px) {
+        main {
+          padding: 20px 16px 40px;
+        }
+        header {
+          padding: 25px 22px;
+        }
+        h1 {
+          font-size: 30px;
+        }
+        .panel {
+          padding: 22px 20px;
+        }
+        .metrics {
+          grid-template-columns: 1fr 1fr;
+        }
+        .two {
+          grid-template-columns: 1fr;
+        }
+        .barrow {
+          grid-template-columns: 116px 1fr 78px;
+        }
+        table {
+          min-width: 740px;
+        }
+      }
+      @media print {
+        body {
+          background: white;
+          font-size: 10px;
+        }
+        main {
+          padding: 0;
+          max-width: none;
+        }
+        header {
+          box-shadow: none;
+          padding: 18px 20px;
+        }
+        h1 {
+          font-size: 26px;
+        }
+        .metrics {
+          gap: 8px;
+        }
+        .metric {
+          padding: 12px;
+        }
+        .metric b {
+          font-size: 23px;
+        }
+        .panel {
+          padding: 16px 18px;
+          break-inside: auto;
+          margin: 12px 0;
+        }
+        .table-wrap {
+          overflow: visible;
+        }
+        table {
+          min-width: 0;
+          font-size: 9px;
+        }
+        th,
+        td {
+          padding: 7px 5px;
+        }
+        tr {
+          break-inside: avoid;
+        }
+        h2,
+        h3 {
+          break-after: avoid;
+        }
+        .fine,
+        .meta,
+        footer {
+          font-size: 9px;
+        }
+        .two {
+          display: block;
+        }
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="eyebrow">OTT SWITCH · PERFORMANCE REPORT · 2026.11.14</div>
+        <h1>필요한 DOM만 읽는 수집기,<br />측정 결과로 확인하기</h1>
+        <p class="lead">
+          0.1.5 테스트 릴리즈용 성능 검사 결과입니다. 기존에 완료한 브라우저
+          측정을 정리했습니다. 현재 적용한 <strong>국소 DOM 수집</strong>과
+          제품에 넣지 않은 <strong>과거 학습 모델 실험</strong>을 분리해
+          보여줍니다.
+        </p>
+        <div class="meta">
+          측정 기준 코드 f488c20 · Chromium 158.0.8127.18 · 측정 시각 2026-11-14
+          01:25 KST · 이번 문서 작성 시 성능 재측정 없음
+        </div>
+      </header>
+      <div class="metrics">
+        <div class="metric">
+          <b
+            >0.30–1.60<span
+              style="display: inline; font-size: 14px; color: inherit"
+            >
+              ms</span
+            ></b
+          ><strong>공개 DOM 필드별 p50</strong
+          ><span>기존 어댑터가 범위를 지정한 9필드</span>
+        </div>
+        <div class="metric">
+          <b>8 / 9</b><strong>필요한 후보 회수</strong
+          ><span>이미 개발에 쓴 3화면 · 모델 정확도 아님</span>
+        </div>
+        <div class="metric">
+          <b>18 / 18</b><strong>합성 필드 검사 통과</strong
+          ><span>주석 후보는 17/17 회수 · 선택/보류 포함</span>
+        </div>
+        <div class="metric">
+          <b>미측정</b><strong>현재 DOM 수집 RAM 변화</strong
+          ><span>직렬화 크기를 메모리 절감률로 대체하지 않음</span>
+        </div>
+      </div>
+      <div class="note">
+        <strong>이 수치가 뜻하는 것</strong><br />짧은 시간에 후보와 주변 구조를
+        모으는 개발용 진단 결과입니다. 모델 추론, 페이지 로딩, OTT 전환 완료
+        시간이나 지원 OTT 전체의 정확도는 측정한 값이 아닙니다.
+      </div>
+
+      <section class="panel">
+        <div class="kicker">01 · REAL DOM REPLAY</div>
+        <h2>실제 공개 HTML에서 무엇을 찾았나</h2>
+        <p>
+          라프텔·프라임비디오·티빙의 기존 공개 캡처를 분리 문서로 읽었습니다.
+          스크립트·이벤트·외부 리소스를 제거하고 네트워크를 차단했습니다. 실제
+          사이트 CSS, 표시 크기, SPA 동작과 로그인 상태는 재현하지 않았습니다.
+        </p>
+        <p class="fine">
+          필드별 5회 워밍업 + 20회 측정. p50=중앙값, p95=95백분위수. 아래는 기존
+          어댑터가 작품 범위를 지정한 조건입니다. 설명은 과거 정답의 접두어와
+          비교하며, 제목·이미지는 허용된 정답 값과 비교합니다.
+        </p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>서비스·작품</th>
+                <th>필드</th>
+                <th>p50 (ms)</th>
+                <th>p95 (ms)</th>
+                <th>입력 (B)</th>
+                <th>후보</th>
+                <th>기본 선택기</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>라프텔 · 주술회전</td>
+                <td>제목</td>
+                <td>0.30</td>
+                <td>0.40</td>
+                <td>845</td>
+                <td>회수</td>
+                <td>기존 정답 일치</td>
+              </tr>
+              <tr>
+                <td>라프텔 · 주술회전</td>
+                <td>설명</td>
+                <td>0.50</td>
+                <td>0.80</td>
+                <td>1,842</td>
+                <td>회수</td>
+                <td>기존 정답 일치</td>
+              </tr>
+              <tr>
+                <td>라프텔 · 주술회전</td>
+                <td>이미지</td>
+                <td>0.30</td>
+                <td>0.40</td>
+                <td>1,013</td>
+                <td>회수</td>
+                <td>기존 정답 일치</td>
+              </tr>
+              <tr>
+                <td>프라임비디오 · 룩백</td>
+                <td>제목</td>
+                <td>1.00</td>
+                <td>1.30</td>
+                <td>1,275</td>
+                <td>회수</td>
+                <td>기존 정답 일치</td>
+              </tr>
+              <tr>
+                <td>프라임비디오 · 룩백</td>
+                <td>설명</td>
+                <td>1.60</td>
+                <td>1.80</td>
+                <td>1,255</td>
+                <td>회수</td>
+                <td>기존 정답 일치</td>
+              </tr>
+              <tr>
+                <td>프라임비디오 · 룩백</td>
+                <td>이미지</td>
+                <td>1.00</td>
+                <td>1.20</td>
+                <td>1,629</td>
+                <td>누락</td>
+                <td>선택 보류</td>
+              </tr>
+              <tr>
+                <td>티빙 · 장송의 프리렌</td>
+                <td>제목</td>
+                <td>0.70</td>
+                <td>1.20</td>
+                <td>1,644</td>
+                <td>회수</td>
+                <td>선택 보류</td>
+              </tr>
+              <tr>
+                <td>티빙 · 장송의 프리렌</td>
+                <td>설명</td>
+                <td>1.00</td>
+                <td>1.10</td>
+                <td>1,558</td>
+                <td>회수</td>
+                <td>선택 보류</td>
+              </tr>
+              <tr>
+                <td>티빙 · 장송의 프리렌</td>
+                <td>이미지</td>
+                <td>0.60</td>
+                <td>0.80</td>
+                <td>2,180</td>
+                <td>회수</td>
+                <td>선택 보류</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="two">
+          <div>
+            <h3>후보 회수 8/9 ≠ 자동 선택 8/9</h3>
+            <p>
+              기본 선택기는
+              <strong>5개를 기존 정답과 일치하게 선택하고 4개를 보류</strong
+              >했습니다. 티빙은 정답 후보가 있어도 작품·회차와 이미지·설명
+              후보가 경쟁하므로 세 필드 모두 보류했습니다.
+            </p>
+          </div>
+          <div>
+            <h3>누락한 프라임 이미지</h3>
+            <p>
+              기존 정답 이미지가 메타데이터나 picture의 다른 소스에 있어
+              img.src/video.poster 기반 수집에서는 찾지 못했습니다. 기존
+              메타데이터·서비스 어댑터를 계속 사용합니다.
+            </p>
+          </div>
+        </div>
+        <div class="note warning">
+          이 자료를 보며 제목 이미지 alt와 소개 펼치기 버튼 지원을 보완했습니다.
+          따라서
+          <strong>새로운 서비스·작품에 대한 블라인드 평가가 아닙니다.</strong>
+        </div>
+        <h3>범위 선택 방식에 따른 측정</h3>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>서비스·작품</th>
+                <th>범위</th>
+                <th>필드별 p50 범위 (ms)</th>
+                <th>필드별 p95 범위 (ms)</th>
+                <th>3필드 입력 합계 (B)</th>
+                <th>최대 방문</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>라프텔 · 주술회전</td>
+                <td>자동 범위</td>
+                <td>0.50–0.80</td>
+                <td>0.80–1.00</td>
+                <td>3,703</td>
+                <td>159</td>
+              </tr>
+              <tr>
+                <td>라프텔 · 주술회전</td>
+                <td>기존 어댑터 범위</td>
+                <td>0.30–0.50</td>
+                <td>0.40–0.80</td>
+                <td>3,700</td>
+                <td>92</td>
+              </tr>
+              <tr>
+                <td>프라임비디오 · 룩백</td>
+                <td>자동 범위</td>
+                <td>1.10–1.60</td>
+                <td>1.30–1.90</td>
+                <td>4,159</td>
+                <td>458</td>
+              </tr>
+              <tr>
+                <td>프라임비디오 · 룩백</td>
+                <td>기존 어댑터 범위</td>
+                <td>1.00–1.60</td>
+                <td>1.20–1.80</td>
+                <td>4,159</td>
+                <td>458</td>
+              </tr>
+              <tr>
+                <td>티빙 · 장송의 프리렌</td>
+                <td>자동 범위</td>
+                <td>0.70–1.00</td>
+                <td>0.90–1.20</td>
+                <td>5,433</td>
+                <td>228</td>
+              </tr>
+              <tr>
+                <td>티빙 · 장송의 프리렌</td>
+                <td>기존 어댑터 범위</td>
+                <td>0.60–1.00</td>
+                <td>0.80–1.20</td>
+                <td>5,382</td>
+                <td>227</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p class="fine">
+          시간 범위는 세 필드의 p50/p95 최솟값–최댓값이며 신뢰구간이 아닙니다.
+          3필드 입력 합계와 시간 범위는 서로 다른 집계입니다. 한 페이지 처리
+          시간으로 읽지 마세요.
+        </p>
+      </section>
+
+      <section class="panel">
+        <div class="kicker">02 · PAYLOAD & PROGRESSIVE SCANNING</div>
+        <h2>전체 문서 대신 작은 후보 문맥 전달</h2>
+        <div class="two">
+          <div>
+            <h3>큰 합성 모달의 직렬화 크기</h3>
+            <div class="bars">
+              <div class="barrow">
+                <span>전체 fixture HTML</span>
+                <div class="track">
+                  <div class="fill" style="width: 100%"></div>
+                </div>
+                <b>58,414 B</b>
+              </div>
+              <div class="barrow">
+                <span>세 필드 JSON 합계</span>
+                <div class="track">
+                  <div class="fill blue" style="width: 4.6461%"></div>
+                </div>
+                <b>2,714 B</b>
+              </div>
+            </div>
+            <p>
+              <strong>95.4% 작아진 직렬화 예시</strong>입니다. 이전 제품의 모델
+              입력이나 브라우저 RAM과 비교한 수치는 아닙니다.
+            </p>
+          </div>
+          <div>
+            <h3>첫 후보를 점진적으로 반환</h3>
+            <div class="bars">
+              <div class="barrow">
+                <span>전체 스캔</span>
+                <div class="track">
+                  <div class="fill" style="width: 100%"></div>
+                </div>
+                <b>807 방문</b>
+              </div>
+              <div class="barrow">
+                <span>첫 후보까지</span>
+                <div class="track">
+                  <div class="fill blue" style="width: 1.487%"></div>
+                </div>
+                <b>12 방문</b>
+              </div>
+            </div>
+            <p>
+              close() 후 추가 후보가 나오지 않았습니다. 첫 후보만으로 유일성을
+              확정하지 않으며, 기본 선택기는 완결된 탐색과 합의를 요구합니다.
+            </p>
+          </div>
+        </div>
+        <h3>합성 화면 6개의 비용</h3>
+        <p class="fine">
+          격리 headless Chromium, 화면 1280×900. 각 필드 10회 워밍업 + 50회
+          측정, 자동 범위 발견 포함. 1ms 미만 수치는 타이머 해상도 영향을
+          받습니다. 0.00ms는 비용이 없다는 뜻이 아닙니다.
+        </p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>합성 화면</th>
+                <th>전체 HTML (B)</th>
+                <th>3필드 JSON 합계 (B)</th>
+                <th>필드별 p50 범위 (ms)</th>
+                <th>필드별 p95 범위 (ms)</th>
+                <th>최대 방문</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>배경 카드 뒤의 활성 모달</td>
+                <td>58,414</td>
+                <td>2,714</td>
+                <td>0.10–0.10</td>
+                <td>0.20–0.20</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <td>단독 상세</td>
+                <td>704</td>
+                <td>3,530</td>
+                <td>0.00–0.10</td>
+                <td>0.10–0.20</td>
+                <td>19</td>
+              </tr>
+              <tr>
+                <td>서로 다른 작품 경쟁</td>
+                <td>486</td>
+                <td>3,318</td>
+                <td>0.00–0.10</td>
+                <td>0.10–0.20</td>
+                <td>19</td>
+              </tr>
+              <tr>
+                <td>툴팁·일반 본문 혼동</td>
+                <td>732</td>
+                <td>2,960</td>
+                <td>0.00–0.10</td>
+                <td>0.10–0.20</td>
+                <td>18</td>
+              </tr>
+              <tr>
+                <td>작은 OTT 로고</td>
+                <td>601</td>
+                <td>2,666</td>
+                <td>0.00–0.10</td>
+                <td>0.10–0.10</td>
+                <td>13</td>
+              </tr>
+              <tr>
+                <td>숨겨진 모달</td>
+                <td>675</td>
+                <td>2,666</td>
+                <td>0.00–0.00</td>
+                <td>0.10–0.20</td>
+                <td>11</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="note">
+          작은 화면에서는 후보의 구조화된 주변 문맥 때문에 JSON이 원본 HTML보다
+          큽니다. 큰 모달의 95.4%를 모든 사이트의 절감률로 일반화할 수 없습니다.
+        </div>
+        <h3>혼동하기 쉬운 사례도 확인</h3>
+        <ul class="list">
+          <li>
+            실제 1440×1440 이미지에서 대표 이미지의
+            <strong>표시 크기 720×405</strong>와 원본 크기를 분리하고,
+            <strong>23×23 서비스 로고</strong>를 제외했습니다.
+          </li>
+          <li>
+            DOM 교체 후 동일 XPath가 다른 요소를 가리키는 경우를 확인했습니다.
+            위치만으로 비동기 결과를 신뢰하지 않습니다.
+          </li>
+          <li>
+            링크 검사에서 리터럴 URL 2개와 목적지 미확인 동작 1개를
+            구분했습니다. JS 액션은 실행하지 않았습니다.
+          </li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <div class="kicker">03 · HISTORICAL MODEL RESEARCH</div>
+        <h2>과거 모델은 작아졌지만, 정확도가 부족했다</h2>
+        <span class="tag amber">이번 릴리즈의 기본 경로에 미적용</span>
+        <p>
+          이 표는 별도 동결한 KoELECTRA 기반 연구 결과입니다. 현재 국소 DOM
+          템플릿으로 다시 학습한 결과가 아니며 위의 수집 시간과 직접 비교하지
+          않습니다. 같은 개발 검증 57필드를 구성별 새 Chromium에서 두 번
+          실행했습니다. 시간은 추론이 필요한 56필드 기준입니다.
+        </p>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>연구 모델 구성</th>
+                <th>개발 정답</th>
+                <th>p50 (ms)</th>
+                <th>p95 (ms)</th>
+                <th>관측 최대 WS (MiB)</th>
+                <th>종료 1초 후 WS (MiB)</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>12층 자연어 · main/full</td>
+                <td>39/57</td>
+                <td>1,196–1,208</td>
+                <td>1,871–1,950</td>
+                <td>617–622</td>
+                <td>616–622</td>
+              </tr>
+              <tr>
+                <td>12층 자연어 · worker/micro2</td>
+                <td>39/57</td>
+                <td>1,023–1,035</td>
+                <td>1,715–1,810</td>
+                <td>605–606</td>
+                <td>467–471</td>
+              </tr>
+              <tr>
+                <td>12층 짧은 입력 · worker/micro2</td>
+                <td>33/57</td>
+                <td>510–524</td>
+                <td>936–1,019</td>
+                <td>597–598</td>
+                <td>465–475</td>
+              </tr>
+              <tr>
+                <td>4층 짧은 입력 · worker/micro2</td>
+                <td>33/57</td>
+                <td>175–205</td>
+                <td>331–344</td>
+                <td>575</td>
+                <td>472–473</td>
+              </tr>
+              <tr>
+                <td>4층 자연어 · worker/full (선택)</td>
+                <td>42/57</td>
+                <td>411–424</td>
+                <td>632–685</td>
+                <td>613–617</td>
+                <td>476–477</td>
+              </tr>
+              <tr>
+                <td>4층 자연어 · worker/micro2</td>
+                <td>39/57</td>
+                <td>348–350</td>
+                <td>556–561</td>
+                <td>597</td>
+                <td>463–466</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p>
+          선택한 4층 자연어 worker/full은 12층 자연어 main/full보다 p50 평균 약
+          <strong>65%</strong>, 모델 파일 약 <strong>46%</strong>(14.70→7.97MB),
+          종료 후 WS 평균 약 <strong>23%</strong> 감소했습니다.
+          <strong>관측 최대 WS는 거의 같았습니다.</strong> 모델 깊이와 실행
+          구성이 함께 달라졌으므로 worker 단독 효과가 아닙니다.
+        </p>
+        <div class="note warning">
+          <strong>독립 브라우저 검증: 정답 50/120 (41.7%)</strong><br />항상
+          NONE 기준선 48/120(40.0%)에 가깝습니다. 양성 추출은 9/72(12.5%), 세
+          필드를 모두 맞힌 양성 페이지는 0/24였습니다. 별도 독립 실행의
+          p50/p95는 507/673ms(추론 필요 118필드)였습니다. 빠른 실행만으로 기본
+          기능에 적용하지 않았습니다.
+        </div>
+        <p class="fine">
+          모델 측정 환경: Ryzen 7 8840U, Windows, Chromium 158.0.8127.18, ONNX
+          Runtime Web 1.31.1, WASM 1 thread. 시간에는 토큰 변환·padding·정합
+          검사·텐서 생성·추론·결과 읽기·해제가 포함되며 DOM 수집·문장 작성·모델
+          로딩·I/O는 제외됩니다. 표 범위는 두 실행값이며 신뢰구간이 아닙니다.
+        </p>
+        <p class="fine">
+          WS는 격리 Chromium 프로세스의 working set 합입니다. 기본 브라우저
+          비용과 공유 페이지 중복 계산이 포함되어 실제 확장의 추가 물리 메모리나
+          연속 peak RAM으로 볼 수 없습니다.
+        </p>
+      </section>
+
+      <section class="panel">
+        <div class="kicker">04 · VERIFICATION & LIMITS</div>
+        <h2>릴리즈 검증과 남은 확인</h2>
+        <p>
+          0.1.5 릴리즈 빌드에서
+          <strong
+            >TypeScript·단위 테스트 413개·빌드·전체 브라우저 통합 테스트
+            30개</strong
+          >를 새로 실행해 통과했습니다. 성능 수집 코드는 기준 커밋과 같으며 위의
+          성능 수치는 기존 측정값입니다.
+        </p>
+        <p>
+          배포 ZIP은 <strong>388,142B(379.0KiB), 파일 10개</strong>이며 dist와
+          바이트 단위로 일치했습니다. ZIP을 풀어 격리 Chromium 158의 새 프로필에
+          로드한 뒤 버전 0.1.5, 보관함, snapshot RPC를 확인했고
+          <strong>오류는 0개</strong>였습니다.
+        </p>
+        <p class="fine">
+          ZIP SHA-256<br /><code
+            >372c2c725dcca32fd018edca931fea6bacd3dbfdef57bd1dfa83d14f62d2fdee</code
+          >
+        </p>
+        <p>
+          <a
+            href="https://github.com/pnpcrow/animation-ott-switch/releases/tag/v0.1.5"
+            >테스트 릴리즈 v0.1.5</a
+          >
+          ·
+          <a
+            href="https://github.com/pnpcrow/animation-ott-switch/releases/download/v0.1.5/package-validation-0.1.5.json"
+            >패키지 검증 JSON</a
+          >
+        </p>
+        <ul class="list">
+          <li>
+            국소 수집기의
+            <strong>전체 브라우저 RAM 변화와 OTT 이동 완료 시간</strong>은 이번
+            자료에 없습니다.
+          </li>
+          <li>
+            이전 구현과 같은 페이지를 동일 조건으로 비교한 전후 시간 실험이
+            아닙니다.
+          </li>
+          <li>
+            개발용 3화면과 합성 화면만으로 지원 OTT 전체 정확도나 사이트
+            업데이트 내성을 보증하지 않습니다.
+          </li>
+          <li>
+            기존 메타데이터와 어댑터를 유지하며 누락된 값만 보수적으로
+            보완합니다. 학습 모델은 기본 경로에 넣지 않았습니다.
+          </li>
+        </ul>
+      </section>
+
+      <section class="panel">
+        <div class="kicker">05 · PROVENANCE</div>
+        <h2>원시 결과와 재현 자료</h2>
+        <p>기준 커밋 <code>f488c20477410026bd60e3e7904b5425b98fddef</code></p>
+        <p class="fine">
+          DOM SHA-256<br /><code
+            >361406ef77ada3b9e4dcf647286661e4e71822018e4a719740f3ff259d358f6f</code
+          >
+        </p>
+        <p class="fine">
+          링크 SHA-256<br /><code
+            >410e2b1a2a7e73c2c330392c36fa2340efb1abacda4da7d93f4fd226b0a8fb99</code
+          >
+        </p>
+        <ul class="list">
+          <li>
+            <a
+              href="https://github.com/pnpcrow/animation-ott-switch/blob/f488c20477410026bd60e3e7904b5425b98fddef/eval/dom-local/browser-results.json"
+              >국소 브라우저 원시 측정</a
+            >
+            ·
+            <a
+              href="https://github.com/pnpcrow/animation-ott-switch/blob/f488c20477410026bd60e3e7904b5425b98fddef/eval/dom-local/replay-results.json"
+              >공개 DOM 재생 원시 측정</a
+            >
+          </li>
+          <li>
+            <a
+              href="https://github.com/pnpcrow/animation-ott-switch/blob/f488c20477410026bd60e3e7904b5425b98fddef/eval/dom-local/README.md"
+              >진단 실행 절차</a
+            >
+            ·
+            <a
+              href="https://github.com/pnpcrow/animation-ott-switch/blob/f488c20477410026bd60e3e7904b5425b98fddef/eval/dom-scale/RESULTS.md"
+              >동결 모델 실험 보고서</a
+            >
+          </li>
+        </ul>
+        <p class="fine">
+          비공개 저장소 링크는 접근 권한이 필요합니다. 이 HTML은 외부 자산과
+          스크립트 없이 열리며 네트워크 요청을 하지 않습니다. 재실행:
+          <code>node eval/dom-local/browser.mjs</code>,
+          <code>node eval/dom-local/replay.mjs</code>. 두 번째 명령은 기존 로컬
+          공개 HTML 캡처가 필요합니다.
+        </p>
+      </section>
+      <footer>
+        OTT Switch · 0.1.5 테스트 릴리즈용 성능 보고서 · 기존 측정 결과 정리 ·
+        2026-11-14
+      </footer>
+    </main>
+  </body>
+</html>
