@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "sanitizedAt": "2026-11-14",
+  "baselineRef": "v0.1.6",
+  "scope": "Remove the complete query string from one expired third-party signed search-icon URL in each of four current evaluation snapshots. URL host/path, candidate IDs, order, labels, model outputs and quality metrics are unchanged.",
+  "sourceUrlKind": "Anonymous public-page search icon hosted on S3; not a user account token or playback URL.",
+  "signedAtUtc": "2026-11-13T12:04:06Z",
+  "expiresAfterSeconds": 1800,
+  "expiredAtUtc": "2026-11-13T12:34:06Z",
+  "historyPolicy": "Old tags, commits, frozen manifests and report provenance hashes remain unchanged. This record maps only the exact original digests to sanitized public snapshots; it does not claim Git history was sanitized or that historical models were rerun.",
+  "files": [
+    {
+      "path": "eval/light-dom/data/development-inputs.json",
+      "beforeSha256": "ee7d11bf1ee8f9e72623a78e89dcb19d2d826e337d9d7c65de4250c23b8282a6",
+      "afterSha256": "a5d5a9ab8384dbf7ca190dafc53b7461e198508ce26e7bc021817be66563f703",
+      "removedUrlQueryCount": 1
+    },
+    {
+      "path": "eval/light-dom/data/development-observations.json",
+      "beforeSha256": "316875001b34f939f5ca5f865a14b2cb223b5c92f603ae5d1194a7987321c473",
+      "afterSha256": "89fff2ee1e49af7c1392caefb3c2960c6846096b3fc2ed6993d413f422af6e7b",
+      "removedUrlQueryCount": 1
+    },
+    {
+      "path": "eval/tiny-decision/v2/data/holdout-inputs.json",
+      "beforeSha256": "10e9dc2188098b04f0fdae3a89cc484358306f40259d408f2a5f27167aa5110a",
+      "afterSha256": "d7737b293b9f3d24e013b09d40c2f42018f9c353671f3c5282a3f26a906a55ef",
+      "removedUrlQueryCount": 1
+    },
+    {
+      "path": "eval/tiny-decision/v2/data/holdout-observations.json",
+      "beforeSha256": "d3f4f5bfb374931770e4613721ba8fb0d0fd434ff3c6c485fd2c115ddcbfb1e5",
+      "afterSha256": "ae9aa5147849ff937823f20b36c874ba185ded3b835231ff4273fe04e646e503",
+      "removedUrlQueryCount": 1
+    }
+  ]
+}

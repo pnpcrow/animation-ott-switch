@@ -126,14 +126,17 @@ test("label attachment reports candidate recall without injecting a missing gold
   assert.ok(positive.every((l) => l.acceptedIds.includes(l.expectedId)));
 });
 
-test("frozen input, observation and annotation hashes match the manifest", async () => {
+test("input hashes match the frozen manifest or exact documented public sanitization", async () => {
+  const sanitization = await read("../../publication-sanitization.json");
   for (const [filename, expected] of Object.entries(manifest.hashes)) {
     const content = await readFile(
       new URL(`./data/${filename}`, import.meta.url),
     );
+    const published = sanitization.files.find(row => row.path === `eval/tiny-decision/v2/data/${filename}`);
+    if (published) assert.equal(published.beforeSha256, expected, "Sanitization must refer to the exact frozen input");
     assert.equal(
       createHash("sha256").update(content).digest("hex"),
-      expected,
+      published?.afterSha256 ?? expected,
       filename,
     );
   }

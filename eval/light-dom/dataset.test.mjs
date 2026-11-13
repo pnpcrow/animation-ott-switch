@@ -56,11 +56,14 @@ test("model-input files recursively exclude scoring labels, provenance and annot
   visit(await read("development-inputs.json")); visit(await read("holdout-inputs.json"));
 });
 
-test("all frozen data bytes match the collection manifest", async () => {
+test("data bytes match the frozen manifest or exact documented public sanitization", async () => {
   const manifest = await read("manifest.json");
+  const sanitization = await read("publication-sanitization.json", "../");
   for (const [file, expected] of Object.entries(manifest.hashes)) {
     const actual = createHash("sha256").update(await readFile(new URL("./data/" + file, import.meta.url))).digest("hex");
-    assert.equal(actual, expected, `${file} changed after annotation freeze`);
+    const published = sanitization.files.find(row => row.path === `eval/light-dom/data/${file}`);
+    if (published) assert.equal(published.beforeSha256, expected, "Sanitization must refer to the exact frozen input");
+    assert.equal(actual, published?.afterSha256 ?? expected, `${file} changed outside the documented sanitization`);
   }
   assert.equal(manifest.poolRecall.positiveWithAcceptedChoice, 12);
   assert.equal(manifest.holdout.emptyConcretePools, 1);
