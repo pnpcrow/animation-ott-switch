@@ -12,6 +12,7 @@
     "test:decision-eval": "node --test eval/tiny-decision/dataset.test.mjs eval/tiny-decision/challenge.test.mjs eval/tiny-decision/metrics.test.mjs eval/tiny-decision/report.test.mjs eval/tiny-decision/title-recovery.test.mjs eval/tiny-decision/needle3/templates.test.mjs",
     "test:decision-eval-v2": "node scripts/test-decision-v2.mjs",
     "test:light-dom": "node scripts/test-light-dom.mjs",
+    "test:dom-adaptation": "node scripts/test-dom-adaptation.mjs",
     "test:e2e": "playwright test",
     "check": "npm run typecheck && npm test && npm run build",
     "package": "npm run build && node scripts/package.mjs",
