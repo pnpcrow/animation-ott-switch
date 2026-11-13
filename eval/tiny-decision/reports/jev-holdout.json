@@ -1,0 +1,1676 @@
+{
+  "schemaVersion": 1,
+  "model": "Athekunal/llm-jev-qwen3-0.6b",
+  "revision": "92727826acf82f170d3c05da74e5784907d3ea5c",
+  "runtime": "PyTorch CPU float32 SDPA shared-prefix full-suffix readout",
+  "python": "3.12.10",
+  "torch": "2.9.1+cpu",
+  "transformers": "5.17.0",
+  "threads": 4,
+  "loadMs": 3526.237200014293,
+  "jobsSha256": "40f4d3fbe6598bdcafa5cfe91bf12dfb4dc08770ad4e8137534a79ee12aa6378",
+  "datasetSha256": "b06c7e76828956576fa22cf7d34cd6621c03f811de1e1ef3385a99f32b52cbf1",
+  "templateSha256": "99ea75b6218e0ada29578036e76a6567041f711596ad96661e0740110674afc3",
+  "results": [
+    {
+      "id": "sakura-title",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "holdout",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "options": [
+        {
+          "id": "t2"
+        },
+        {
+          "id": "t6"
+        },
+        {
+          "id": "t8"
+        },
+        {
+          "id": "t7"
+        },
+        {
+          "id": "t3"
+        },
+        {
+          "id": "t4"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t5"
+        },
+        {
+          "id": "t1"
+        }
+      ],
+      "probabilities": [
+        0.8093124032020569,
+        0.04688120260834694,
+        0.026744935661554337,
+        0.030367888510227203,
+        0.012856708839535713,
+        0.01703137345612049,
+        0.02201581932604313,
+        0.007840930484235287,
+        0.026948807761073112
+      ],
+      "logScores": [
+        -0.21319684386253357,
+        -3.06176495552063,
+        -3.6230366230010986,
+        -3.4959959983825684,
+        -4.355515956878662,
+        -4.074324607849121,
+        -3.8176205158233643,
+        -4.850024223327637,
+        -3.6154427528381348
+      ],
+      "legalRootMass": 0.9985836148262024,
+      "promptTokens": 867,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t2",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 6661.658499855548
+    },
+    {
+      "id": "sakura-image",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "holdout",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "options": [
+        {
+          "id": "i7"
+        },
+        {
+          "id": "i8"
+        },
+        {
+          "id": "i3"
+        },
+        {
+          "id": "i1"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "i5"
+        },
+        {
+          "id": "i6"
+        },
+        {
+          "id": "i2"
+        },
+        {
+          "id": "i4"
+        }
+      ],
+      "probabilities": [
+        0.3917784094810486,
+        0.07837478816509247,
+        0.15443368256092072,
+        0.09360737353563309,
+        0.18699558079242706,
+        0.0463922955095768,
+        0.01972830481827259,
+        0.014286275953054428,
+        0.014403329230844975
+      ],
+      "logScores": [
+        -0.9397635459899902,
+        -2.548957586288452,
+        -1.8706951141357422,
+        -2.3713507652282715,
+        -1.6793749332427979,
+        -3.073326587677002,
+        -3.928405523300171,
+        -4.251160621643066,
+        -4.243000507354736
+      ],
+      "legalRootMass": 0.997732937335968,
+      "promptTokens": 1226,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i7",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 10097.929100040346
+    },
+    {
+      "id": "sakura-description",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "holdout",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "d3"
+        },
+        {
+          "id": "d7"
+        },
+        {
+          "id": "d1"
+        },
+        {
+          "id": "d5"
+        },
+        {
+          "id": "d2"
+        },
+        {
+          "id": "d4"
+        },
+        {
+          "id": "d6"
+        },
+        {
+          "id": "d8"
+        }
+      ],
+      "probabilities": [
+        0.26413893699645996,
+        0.41476890444755554,
+        0.1362612098455429,
+        0.12036504596471786,
+        0.03858943283557892,
+        0.01029648631811142,
+        0.0046918257139623165,
+        0.00272005726583302,
+        0.008168126456439495
+      ],
+      "logScores": [
+        -1.3334991931915283,
+        -0.8822529911994934,
+        -1.9954007863998413,
+        -2.119445323944092,
+        -3.256995916366577,
+        -4.578171730041504,
+        -5.364152908325195,
+        -5.9093217849731445,
+        -4.80973482131958
+      ],
+      "legalRootMass": 0.9985706806182861,
+      "promptTokens": 1593,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "d3",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 12510.108900023624
+    },
+    {
+      "id": "rezero-title",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "holdout",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t5"
+        },
+        {
+          "id": "t1"
+        },
+        {
+          "id": "t7"
+        },
+        {
+          "id": "t3"
+        },
+        {
+          "id": "t2"
+        },
+        {
+          "id": "t8"
+        },
+        {
+          "id": "t4"
+        },
+        {
+          "id": "t6"
+        }
+      ],
+      "probabilities": [
+        0.22836646437644958,
+        0.2923961579799652,
+        0.3181585371494293,
+        0.0323261097073555,
+        0.09464093297719955,
+        0.018100693821907043,
+        0.004099428653717041,
+        0.002598004648461938,
+        0.00931371096521616
+      ],
+      "logScores": [
+        -1.4802780151367188,
+        -1.233120083808899,
+        -1.1486798524856567,
+        -3.435354232788086,
+        -2.3611395359039307,
+        -4.015279293060303,
+        -5.500381946563721,
+        -5.956485748291016,
+        -4.679741859436035
+      ],
+      "legalRootMass": 0.9979121685028076,
+      "promptTokens": 968,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t1",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 7431.7008999641985
+    },
+    {
+      "id": "rezero-image",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "holdout",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "options": [
+        {
+          "id": "i5"
+        },
+        {
+          "id": "i4"
+        },
+        {
+          "id": "i3"
+        },
+        {
+          "id": "i7"
+        },
+        {
+          "id": "i6"
+        },
+        {
+          "id": "i8"
+        },
+        {
+          "id": "i1"
+        },
+        {
+          "id": "i2"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.2771269381046295,
+        0.053375013172626495,
+        0.07514005899429321,
+        0.025126565247774124,
+        0.030673103407025337,
+        0.0308705884963274,
+        0.09180984646081924,
+        0.03662298619747162,
+        0.37925493717193604
+      ],
+      "logScores": [
+        -1.290393352508545,
+        -2.937526226043701,
+        -2.595515251159668,
+        -3.6909432411193848,
+        -3.491482734680176,
+        -3.485065221786499,
+        -2.3951494693756104,
+        -3.3141930103302,
+        -0.9766603708267212
+      ],
+      "legalRootMass": 0.9932453632354736,
+      "promptTokens": 1243,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 9498.324499931186
+    },
+    {
+      "id": "rezero-description",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "holdout",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "options": [
+        {
+          "id": "d6"
+        },
+        {
+          "id": "d1"
+        },
+        {
+          "id": "d5"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "d7"
+        },
+        {
+          "id": "d8"
+        },
+        {
+          "id": "d4"
+        },
+        {
+          "id": "d3"
+        },
+        {
+          "id": "d2"
+        }
+      ],
+      "probabilities": [
+        0.6499997973442078,
+        0.05966849625110626,
+        0.0621059350669384,
+        0.14055003225803375,
+        0.02814064919948578,
+        0.015967650339007378,
+        0.011176671832799911,
+        0.02008187212049961,
+        0.012308884412050247
+      ],
+      "logScores": [
+        -0.43343237042427063,
+        -2.8216001987457275,
+        -2.7815628051757812,
+        -1.9648408889770508,
+        -3.5731892585754395,
+        -4.1398396492004395,
+        -4.496575832366943,
+        -3.9105868339538574,
+        -4.400083065032959
+      ],
+      "legalRootMass": 0.9987534880638123,
+      "promptTokens": 1726,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "d6",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 13711.75460005179
+    },
+    {
+      "id": "dungeon-title",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "holdout",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "options": [
+        {
+          "id": "t1"
+        },
+        {
+          "id": "t2"
+        },
+        {
+          "id": "t3"
+        },
+        {
+          "id": "t4"
+        },
+        {
+          "id": "t6"
+        },
+        {
+          "id": "t5"
+        },
+        {
+          "id": "t8"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t7"
+        }
+      ],
+      "probabilities": [
+        0.28195080161094666,
+        0.5183284282684326,
+        0.038204070180654526,
+        0.021777180954813957,
+        0.024552974849939346,
+        0.024398265406489372,
+        0.011734196916222572,
+        0.05884077027440071,
+        0.020213210955262184
+      ],
+      "logScores": [
+        -1.268253207206726,
+        -0.6593767404556274,
+        -3.2670438289642334,
+        -3.829123020172119,
+        -3.7091526985168457,
+        -3.7154736518859863,
+        -4.447478294372559,
+        -2.835150957107544,
+        -3.90364933013916
+      ],
+      "legalRootMass": 0.9981082677841187,
+      "promptTokens": 949,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t2",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 7637.09139986895
+    },
+    {
+      "id": "dungeon-image",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "holdout",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "options": [
+        {
+          "id": "i1"
+        },
+        {
+          "id": "i3"
+        },
+        {
+          "id": "i8"
+        },
+        {
+          "id": "i2"
+        },
+        {
+          "id": "i7"
+        },
+        {
+          "id": "i6"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "i5"
+        },
+        {
+          "id": "i4"
+        }
+      ],
+      "probabilities": [
+        0.19977205991744995,
+        0.49617674946784973,
+        0.0442664735019207,
+        0.1150699332356453,
+        0.023207345977425575,
+        0.016672806814312935,
+        0.049733031541109085,
+        0.02306273952126503,
+        0.03203881159424782
+      ],
+      "logScores": [
+        -1.613935947418213,
+        -0.7041807770729065,
+        -3.1208853721618652,
+        -2.1655728816986084,
+        -3.76664400100708,
+        -4.097333908081055,
+        -3.004443645477295,
+        -3.7728946208953857,
+        -3.444164991378784
+      ],
+      "legalRootMass": 0.9970248341560364,
+      "promptTokens": 1486,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i3",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 11425.996500067413
+    },
+    {
+      "id": "dungeon-description",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "holdout",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d1",
+        "d2"
+      ],
+      "options": [
+        {
+          "id": "d3"
+        },
+        {
+          "id": "d2"
+        },
+        {
+          "id": "d5"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "d8"
+        },
+        {
+          "id": "d7"
+        },
+        {
+          "id": "d4"
+        },
+        {
+          "id": "d6"
+        },
+        {
+          "id": "d1"
+        }
+      ],
+      "probabilities": [
+        0.40391576290130615,
+        0.2501307427883148,
+        0.09137342870235443,
+        0.11483357846736908,
+        0.05550350993871689,
+        0.02957194857299328,
+        0.013124127872288227,
+        0.01033302117139101,
+        0.03121398389339447
+      ],
+      "logScores": [
+        -0.9088416695594788,
+        -1.3880642652511597,
+        -2.3950932025909424,
+        -2.1665639877319336,
+        -2.893601655960083,
+        -3.523221731185913,
+        -4.335595607757568,
+        -4.574703216552734,
+        -3.469181776046753
+      ],
+      "legalRootMass": 0.9985643029212952,
+      "promptTokens": 1390,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "d3",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 10589.565299917012
+    },
+    {
+      "id": "dinner-title",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "holdout",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "options": [
+        {
+          "id": "t7"
+        },
+        {
+          "id": "t6"
+        },
+        {
+          "id": "t1"
+        },
+        {
+          "id": "t2"
+        },
+        {
+          "id": "t4"
+        },
+        {
+          "id": "t5"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t3"
+        },
+        {
+          "id": "t8"
+        }
+      ],
+      "probabilities": [
+        0.1518741101026535,
+        0.04075069725513458,
+        0.7127445936203003,
+        0.03900334984064102,
+        0.01326726283878088,
+        0.008565586991608143,
+        0.01513634528964758,
+        0.01147826574742794,
+        0.0071798330172896385
+      ],
+      "logScores": [
+        -1.8871248960494995,
+        -3.2027039527893066,
+        -0.34105369448661804,
+        -3.2465293407440186,
+        -4.3248772621154785,
+        -4.762423992156982,
+        -4.19307804107666,
+        -4.46972131729126,
+        -4.938900470733643
+      ],
+      "legalRootMass": 0.9986282587051392,
+      "promptTokens": 668,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t1",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 5205.209399806336
+    },
+    {
+      "id": "dinner-image",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "holdout",
+      "expectedId": "i3",
+      "acceptedIds": [
+        "i1",
+        "i3"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "i3"
+        },
+        {
+          "id": "i7"
+        },
+        {
+          "id": "i8"
+        },
+        {
+          "id": "i5"
+        },
+        {
+          "id": "i2"
+        },
+        {
+          "id": "i4"
+        },
+        {
+          "id": "i6"
+        },
+        {
+          "id": "i1"
+        }
+      ],
+      "probabilities": [
+        0.2932721674442291,
+        0.42615604400634766,
+        0.09393645823001862,
+        0.05476868525147438,
+        0.04625006392598152,
+        0.024488424882292747,
+        0.016547083854675293,
+        0.021807869896292686,
+        0.02277328632771969
+      ],
+      "logScores": [
+        -1.2305151224136353,
+        -0.8568105697631836,
+        -2.368997573852539,
+        -2.9084975719451904,
+        -3.0775532722473145,
+        -3.7134156227111816,
+        -4.105406284332275,
+        -3.829345226287842,
+        -3.7860279083251953
+      ],
+      "legalRootMass": 0.9968054294586182,
+      "promptTokens": 940,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i3",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 7166.083300020546
+    },
+    {
+      "id": "dinner-description",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "holdout",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "options": [
+        {
+          "id": "d1"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.48365122079849243,
+        0.5163488388061523
+      ],
+      "logScores": [
+        -0.729524552822113,
+        -0.6641059517860413
+      ],
+      "legalRootMass": 0.9972248673439026,
+      "promptTokens": 438,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 3238.6310000438243
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "incomplete-search-shell"
+      ],
+      "cohort": "holdout",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "t1"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t2"
+        }
+      ],
+      "probabilities": [
+        0.367330938577652,
+        0.5454494953155518,
+        0.08721957355737686
+      ],
+      "logScores": [
+        -1.0047948360443115,
+        -0.6094478368759155,
+        -2.442629337310791
+      ],
+      "legalRootMass": 0.9982001781463623,
+      "promptTokens": 301,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 2303.95819991827
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "incomplete-search-shell"
+      ],
+      "cohort": "holdout",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "i1"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.2959573268890381,
+        0.7040426731109619
+      ],
+      "logScores": [
+        -1.22124183177948,
+        -0.35461804270744324
+      ],
+      "legalRootMass": 0.9964737892150879,
+      "promptTokens": 278,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 2125.8254998829216
+    },
+    {
+      "id": "dungeon-watcha-search-description",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "incomplete-search-shell"
+      ],
+      "cohort": "holdout",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "d1"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.2912168502807617,
+        0.7087831497192383
+      ],
+      "logScores": [
+        -1.2393124103546143,
+        -0.3498310148715973
+      ],
+      "legalRootMass": 0.9946876764297485,
+      "promptTokens": 303,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 2345.513200154528
+    },
+    {
+      "id": "dungeon-coupang-search-title",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "unsupported-browser-or-search"
+      ],
+      "cohort": "holdout",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t1"
+        }
+      ],
+      "probabilities": [
+        0.7823687791824341,
+        0.2176312804222107
+      ],
+      "logScores": [
+        -0.2509549856185913,
+        -1.5304789543151855
+      ],
+      "legalRootMass": 0.9947540760040283,
+      "promptTokens": 280,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 2117.943000048399
+    },
+    {
+      "id": "dungeon-coupang-search-image",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "unsupported-browser-or-search"
+      ],
+      "cohort": "holdout",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        1
+      ],
+      "logScores": [
+        -0.020011287182569504
+      ],
+      "legalRootMass": 0.9803668260574341,
+      "promptTokens": 236,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 1778.3373000565916
+    },
+    {
+      "id": "dungeon-coupang-search-description",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "unsupported-browser-or-search"
+      ],
+      "cohort": "holdout",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "d1"
+        },
+        {
+          "id": "d2"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.308969110250473,
+        0.14871321618556976,
+        0.5423176288604736
+      ],
+      "logScores": [
+        -1.1767953634262085,
+        -1.9080168008804321,
+        -0.6141847968101501
+      ],
+      "legalRootMass": 0.9979838132858276,
+      "promptTokens": 376,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 2879.133200040087
+    }
+  ],
+  "modelHashes": {
+    "chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "config.json": "8e93c2725fce6a85c8a855bd260c10f34b10dfaa5a70bf84f2192ff03170e9d9",
+    "model.safetensors": "ecb07d72f94ae9bc96955ca2f9ea5f7e2901a1cee4d0a3f156c8a1aecb843b7b",
+    "tokenizer_config.json": "04b1682c59acbd057f4c9072297faa73d56fc9de053094c659cdb4c464f58f86",
+    "tokenizer.json": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+  },
+  "parameters": 596049920,
+  "confidenceMeaning": "Softmax over listed full suffixes, not calibrated correctness probability",
+  "timingNote": "Load includes checksum verification; inference excludes optional full-reference check. Concurrent evaluation processes may contend for CPU.",
+  "finishedAt": "2026-11-13T10:45:45Z",
+  "cohort": "holdout",
+  "selection": {
+    "template": "dom-hierarchy",
+    "policy": "Highest calibration accuracy; then fewer false selections, more valid outputs, lower median latency, stable name tie-break. Holdout is never used.",
+    "calibration": {
+      "attempted": 30,
+      "valid": 30,
+      "correct": 8,
+      "accuracy": 0.26666666666666666,
+      "accepted": 19,
+      "acceptedPrecision": 0.2631578947368421,
+      "falseSelections": 14,
+      "correctAbstentions": 3,
+      "errors": 0,
+      "p50Ms": 12143.535800045356,
+      "p95Ms": 28513.13899992965
+    },
+    "automaticNavigation": false,
+    "lockedAt": "2026-11-13T10:34:47.454Z",
+    "sourceSha256": "95dcc9977cf2d7046f45528e355c807ca6752174a6ff85f1d6bcdbd9da71e106",
+    "summaries": [
+      {
+        "template": "native-minimal",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 7,
+          "accuracy": 0.23333333333333334,
+          "accepted": 18,
+          "acceptedPrecision": 0.16666666666666666,
+          "falseSelections": 15,
+          "correctAbstentions": 4,
+          "errors": 0,
+          "p50Ms": 8504.51590004377,
+          "p95Ms": 17260.584500152618
+        }
+      },
+      {
+        "template": "dom-hierarchy",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 8,
+          "accuracy": 0.26666666666666666,
+          "accepted": 19,
+          "acceptedPrecision": 0.2631578947368421,
+          "falseSelections": 14,
+          "correctAbstentions": 3,
+          "errors": 0,
+          "p50Ms": 12143.535800045356,
+          "p95Ms": 28513.13899992965
+        }
+      },
+      {
+        "template": "korean-structure",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 6,
+          "accuracy": 0.2,
+          "accepted": 17,
+          "acceptedPrecision": 0.11764705882352941,
+          "falseSelections": 15,
+          "correctAbstentions": 4,
+          "errors": 0,
+          "p50Ms": 9539.075700100511,
+          "p95Ms": 17770.291300024837
+        }
+      },
+      {
+        "template": "field-contrast",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 7,
+          "accuracy": 0.23333333333333334,
+          "accepted": 22,
+          "acceptedPrecision": 0.22727272727272727,
+          "falseSelections": 17,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 8576.605099951848,
+          "p95Ms": 15314.010899979621
+        }
+      },
+      {
+        "template": "contrast-examples",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 6,
+          "accuracy": 0.2,
+          "accepted": 19,
+          "acceptedPrecision": 0.15789473684210525,
+          "falseSelections": 16,
+          "correctAbstentions": 3,
+          "errors": 0,
+          "p50Ms": 7573.034500004724,
+          "p95Ms": 13660.215399926528
+        }
+      }
+    ]
+  },
+  "summary": {
+    "attempted": 18,
+    "valid": 18,
+    "correct": 9,
+    "accuracy": 0.5,
+    "accepted": 10,
+    "acceptedPrecision": 0.3,
+    "falseSelections": 7,
+    "correctAbstentions": 6,
+    "errors": 0,
+    "p50Ms": 6661.658499855548,
+    "p95Ms": 12510.108900023624
+  }
+}

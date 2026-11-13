@@ -1,0 +1,1677 @@
+{
+  "schemaVersion": 1,
+  "model": "Athekunal/llm-jev-qwen3-0.6b",
+  "revision": "92727826acf82f170d3c05da74e5784907d3ea5c",
+  "runtime": "PyTorch CPU float32 SDPA shared-prefix full-suffix readout",
+  "python": "3.12.10",
+  "torch": "2.9.1+cpu",
+  "transformers": "5.17.0",
+  "threads": 4,
+  "loadMs": 3526.237200014293,
+  "jobsSha256": "40f4d3fbe6598bdcafa5cfe91bf12dfb4dc08770ad4e8137534a79ee12aa6378",
+  "datasetSha256": "b06c7e76828956576fa22cf7d34cd6621c03f811de1e1ef3385a99f32b52cbf1",
+  "templateSha256": "99ea75b6218e0ada29578036e76a6567041f711596ad96661e0740110674afc3",
+  "results": [
+    {
+      "id": "sakura-title",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "author-format",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "options": [
+        {
+          "id": "t2"
+        },
+        {
+          "id": "t6"
+        },
+        {
+          "id": "t8"
+        },
+        {
+          "id": "t7"
+        },
+        {
+          "id": "t3"
+        },
+        {
+          "id": "t4"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t5"
+        },
+        {
+          "id": "t1"
+        }
+      ],
+      "probabilities": [
+        0.780718207359314,
+        0.04796617478132248,
+        0.020353542640805244,
+        0.03776990994811058,
+        0.02114192210137844,
+        0.010929228737950325,
+        0.009384610690176487,
+        0.008763844147324562,
+        0.06297250092029572
+      ],
+      "logScores": [
+        -0.2487315535545349,
+        -3.038449764251709,
+        -3.89569091796875,
+        -3.277433156967163,
+        -3.8576879501342773,
+        -4.517505168914795,
+        -4.669874668121338,
+        -4.738311290740967,
+        -2.7662477493286133
+      ],
+      "legalRootMass": 0.9989901185035706,
+      "promptTokens": 791,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t2",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 6214.134200010449
+    },
+    {
+      "id": "sakura-image",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "author-format",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "options": [
+        {
+          "id": "i7"
+        },
+        {
+          "id": "i8"
+        },
+        {
+          "id": "i3"
+        },
+        {
+          "id": "i1"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "i5"
+        },
+        {
+          "id": "i6"
+        },
+        {
+          "id": "i2"
+        },
+        {
+          "id": "i4"
+        }
+      ],
+      "probabilities": [
+        0.3507964313030243,
+        0.07976605743169785,
+        0.08661788702011108,
+        0.1349114328622818,
+        0.20298492908477783,
+        0.07776196300983429,
+        0.03233228623867035,
+        0.017564766108989716,
+        0.017264246940612793
+      ],
+      "logScores": [
+        -1.0502421855926514,
+        -2.5313501358032227,
+        -2.448941946029663,
+        -2.0058298110961914,
+        -1.5973165035247803,
+        -2.556795835494995,
+        -3.4343819618225098,
+        -4.044553279876709,
+        -4.061810493469238
+      ],
+      "legalRootMass": 0.9976428151130676,
+      "promptTokens": 1150,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i7",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 8930.879200110212
+    },
+    {
+      "id": "sakura-description",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "author-format",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "d3"
+        },
+        {
+          "id": "d7"
+        },
+        {
+          "id": "d1"
+        },
+        {
+          "id": "d5"
+        },
+        {
+          "id": "d2"
+        },
+        {
+          "id": "d4"
+        },
+        {
+          "id": "d6"
+        },
+        {
+          "id": "d8"
+        }
+      ],
+      "probabilities": [
+        0.30303120613098145,
+        0.24191123247146606,
+        0.1067441999912262,
+        0.190240278840065,
+        0.08687455952167511,
+        0.04244981333613396,
+        0.010388062335550785,
+        0.005798050202429295,
+        0.012562570162117481
+      ],
+      "logScores": [
+        -1.195828914642334,
+        -1.4210938215255737,
+        -2.239229440689087,
+        -1.6613768339157104,
+        -2.445199489593506,
+        -3.161342144012451,
+        -4.569007396697998,
+        -5.1521430015563965,
+        -4.378942966461182
+      ],
+      "legalRootMass": 0.9986782670021057,
+      "promptTokens": 1517,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 11833.277099998668
+    },
+    {
+      "id": "rezero-title",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "author-format",
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t5"
+        },
+        {
+          "id": "t1"
+        },
+        {
+          "id": "t7"
+        },
+        {
+          "id": "t3"
+        },
+        {
+          "id": "t2"
+        },
+        {
+          "id": "t8"
+        },
+        {
+          "id": "t4"
+        },
+        {
+          "id": "t6"
+        }
+      ],
+      "probabilities": [
+        0.09026522934436798,
+        0.09676656126976013,
+        0.6930261254310608,
+        0.026082178577780724,
+        0.06061997264623642,
+        0.02554832026362419,
+        0.0032642101868987083,
+        0.001529649249278009,
+        0.0028978437185287476
+      ],
+      "logScores": [
+        -2.4070043563842773,
+        -2.3374552726745605,
+        -0.36868906021118164,
+        -3.6485044956207275,
+        -2.8051323890686035,
+        -3.669185161590576,
+        -5.726738929748535,
+        -6.484718322753906,
+        -5.845789909362793
+      ],
+      "legalRootMass": 0.9988173246383667,
+      "promptTokens": 892,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t1",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 7025.4481001757085
+    },
+    {
+      "id": "rezero-image",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "author-format",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1"
+      ],
+      "options": [
+        {
+          "id": "i5"
+        },
+        {
+          "id": "i4"
+        },
+        {
+          "id": "i3"
+        },
+        {
+          "id": "i7"
+        },
+        {
+          "id": "i6"
+        },
+        {
+          "id": "i8"
+        },
+        {
+          "id": "i1"
+        },
+        {
+          "id": "i2"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.20050470530986786,
+        0.037059884518384933,
+        0.0493091456592083,
+        0.021722791716456413,
+        0.03795590624213219,
+        0.03459909185767174,
+        0.2943379878997803,
+        0.03573440760374069,
+        0.28877609968185425
+      ],
+      "logScores": [
+        -1.6118613481521606,
+        -3.300163984298706,
+        -3.014589548110962,
+        -3.834336996078491,
+        -3.2762739658355713,
+        -3.3688716888427734,
+        -1.2279703617095947,
+        -3.33658504486084,
+        -1.2470474243164062
+      ],
+      "legalRootMass": 0.9954179525375366,
+      "promptTokens": 1167,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i1",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 9011.277300072834
+    },
+    {
+      "id": "rezero-description",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "author-format",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d2"
+      ],
+      "options": [
+        {
+          "id": "d6"
+        },
+        {
+          "id": "d1"
+        },
+        {
+          "id": "d5"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "d7"
+        },
+        {
+          "id": "d8"
+        },
+        {
+          "id": "d4"
+        },
+        {
+          "id": "d3"
+        },
+        {
+          "id": "d2"
+        }
+      ],
+      "probabilities": [
+        0.49220946431159973,
+        0.13925185799598694,
+        0.049738671630620956,
+        0.07793108373880386,
+        0.048281438648700714,
+        0.03405114635825157,
+        0.04333275556564331,
+        0.07799602299928665,
+        0.0372074693441391
+      ],
+      "logScores": [
+        -0.7104526162147522,
+        -1.9730727672576904,
+        -3.0025742053985596,
+        -2.553532123565674,
+        -3.0323097705841064,
+        -3.381493330001831,
+        -3.1404480934143066,
+        -2.552699089050293,
+        -3.2928473949432373
+      ],
+      "legalRootMass": 0.9990439414978027,
+      "promptTokens": 1650,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "d6",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 12844.80439987965
+    },
+    {
+      "id": "dungeon-title",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "author-format",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "options": [
+        {
+          "id": "t1"
+        },
+        {
+          "id": "t2"
+        },
+        {
+          "id": "t3"
+        },
+        {
+          "id": "t4"
+        },
+        {
+          "id": "t6"
+        },
+        {
+          "id": "t5"
+        },
+        {
+          "id": "t8"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t7"
+        }
+      ],
+      "probabilities": [
+        0.20471344888210297,
+        0.6604768633842468,
+        0.040128763765096664,
+        0.015793655067682266,
+        0.01800606958568096,
+        0.0175712201744318,
+        0.008346861228346825,
+        0.0178222693502903,
+        0.017140768468379974
+      ],
+      "logScores": [
+        -1.5876410007476807,
+        -0.4162900447845459,
+        -3.217158794403076,
+        -4.149643898010254,
+        -4.018543243408203,
+        -4.042989730834961,
+        -4.7873663902282715,
+        -4.02880334854126,
+        -4.0677924156188965
+      ],
+      "legalRootMass": 0.9986511468887329,
+      "promptTokens": 873,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t2",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 6762.640199856833
+    },
+    {
+      "id": "dungeon-image",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "author-format",
+      "expectedId": "i1",
+      "acceptedIds": [
+        "i1",
+        "i2"
+      ],
+      "options": [
+        {
+          "id": "i1"
+        },
+        {
+          "id": "i3"
+        },
+        {
+          "id": "i8"
+        },
+        {
+          "id": "i2"
+        },
+        {
+          "id": "i7"
+        },
+        {
+          "id": "i6"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "i5"
+        },
+        {
+          "id": "i4"
+        }
+      ],
+      "probabilities": [
+        0.25994446873664856,
+        0.45344117283821106,
+        0.03891240060329437,
+        0.16227217018604279,
+        0.026492098346352577,
+        0.012952696532011032,
+        0.015092667192220688,
+        0.013237225823104382,
+        0.01765509694814682
+      ],
+      "logScores": [
+        -1.3494353294372559,
+        -0.7930378913879395,
+        -3.2485904693603516,
+        -1.8206284046173096,
+        -3.633056879043579,
+        -4.348599433898926,
+        -4.195694446563721,
+        -4.326870441436768,
+        -4.038878917694092
+      ],
+      "legalRootMass": 0.9981915354728699,
+      "promptTokens": 1410,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i3",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 10895.164099987596
+    },
+    {
+      "id": "dungeon-description",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "author-format",
+      "expectedId": "d2",
+      "acceptedIds": [
+        "d1",
+        "d2"
+      ],
+      "options": [
+        {
+          "id": "d3"
+        },
+        {
+          "id": "d2"
+        },
+        {
+          "id": "d5"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "d8"
+        },
+        {
+          "id": "d7"
+        },
+        {
+          "id": "d4"
+        },
+        {
+          "id": "d6"
+        },
+        {
+          "id": "d1"
+        }
+      ],
+      "probabilities": [
+        0.41080188751220703,
+        0.13158603012561798,
+        0.11521736532449722,
+        0.05173609405755997,
+        0.0517004057765007,
+        0.11374485492706299,
+        0.028601329773664474,
+        0.0246207844465971,
+        0.07199115306138992
+      ],
+      "logScores": [
+        -0.8917168974876404,
+        -2.0301671028137207,
+        -2.1630074977874756,
+        -2.963672399520874,
+        -2.964362382888794,
+        -2.175870180130005,
+        -3.5563747882843018,
+        -3.7062370777130127,
+        -2.6332848072052
+      ],
+      "legalRootMass": 0.9984673857688904,
+      "promptTokens": 1314,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "d3",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 10264.590400038287
+    },
+    {
+      "id": "dinner-title",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "author-format",
+      "expectedId": "t2",
+      "acceptedIds": [
+        "t2"
+      ],
+      "options": [
+        {
+          "id": "t7"
+        },
+        {
+          "id": "t6"
+        },
+        {
+          "id": "t1"
+        },
+        {
+          "id": "t2"
+        },
+        {
+          "id": "t4"
+        },
+        {
+          "id": "t5"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t3"
+        },
+        {
+          "id": "t8"
+        }
+      ],
+      "probabilities": [
+        0.07316748797893524,
+        0.023519359529018402,
+        0.8704235553741455,
+        0.014926992356777191,
+        0.005372367333620787,
+        0.0033726429101079702,
+        0.003046468598768115,
+        0.0032805483788251877,
+        0.0028905838262289762
+      ],
+      "logScores": [
+        -2.6161463260650635,
+        -3.7510735988616943,
+        -0.13991770148277283,
+        -4.205726623535156,
+        -5.2276291847229,
+        -5.693201065063477,
+        -5.794914722442627,
+        -5.720887184143066,
+        -5.847439289093018
+      ],
+      "legalRootMass": 0.9993142485618591,
+      "promptTokens": 592,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t1",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 4573.233499890193
+    },
+    {
+      "id": "dinner-image",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "author-format",
+      "expectedId": "i3",
+      "acceptedIds": [
+        "i1",
+        "i3"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "i3"
+        },
+        {
+          "id": "i7"
+        },
+        {
+          "id": "i8"
+        },
+        {
+          "id": "i5"
+        },
+        {
+          "id": "i2"
+        },
+        {
+          "id": "i4"
+        },
+        {
+          "id": "i6"
+        },
+        {
+          "id": "i1"
+        }
+      ],
+      "probabilities": [
+        0.31153997778892517,
+        0.39497295022010803,
+        0.0858929455280304,
+        0.060751836746931076,
+        0.0770832747220993,
+        0.01861448772251606,
+        0.01777501590549946,
+        0.018286878243088722,
+        0.015082676894962788
+      ],
+      "logScores": [
+        -1.1695504188537598,
+        -0.9322608113288879,
+        -2.4579763412475586,
+        -2.8042807579040527,
+        -2.5661916732788086,
+        -3.987137794494629,
+        -4.0332841873168945,
+        -4.004894256591797,
+        -4.197531223297119
+      ],
+      "legalRootMass": 0.9970903992652893,
+      "promptTokens": 864,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "i3",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 6516.2643999792635
+    },
+    {
+      "id": "dinner-description",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "cohort": "author-format",
+      "expectedId": "d1",
+      "acceptedIds": [
+        "d1"
+      ],
+      "options": [
+        {
+          "id": "d1"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.6795332431793213,
+        0.3204667866230011
+      ],
+      "logScores": [
+        -0.39219194650650024,
+        -1.1438194513320923
+      ],
+      "legalRootMass": 0.9944659471511841,
+      "promptTokens": 362,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ]
+      ],
+      "chosenId": "d1",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 2690.2914999518543
+    },
+    {
+      "id": "dungeon-watcha-search-title",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "incomplete-search-shell"
+      ],
+      "cohort": "author-format",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "t1"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t2"
+        }
+      ],
+      "probabilities": [
+        0.5804665684700012,
+        0.2073279321193695,
+        0.21220549941062927
+      ],
+      "logScores": [
+        -0.5455071926116943,
+        -1.5750375986099243,
+        -1.5517842769622803
+      ],
+      "legalRootMass": 0.9988139867782593,
+      "promptTokens": 225,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ]
+      ],
+      "chosenId": "t1",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 1841.0631997976452
+    },
+    {
+      "id": "dungeon-watcha-search-image",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "incomplete-search-shell"
+      ],
+      "cohort": "author-format",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "i1"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.28779327869415283,
+        0.7122067213058472
+      ],
+      "logScores": [
+        -1.252016305923462,
+        -0.34589049220085144
+      ],
+      "legalRootMass": 0.9936319589614868,
+      "promptTokens": 202,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 1541.2688001524657
+    },
+    {
+      "id": "dungeon-watcha-search-description",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "incomplete-search-shell"
+      ],
+      "cohort": "author-format",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "d1"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.500921905040741,
+        0.49907806515693665
+      ],
+      "logScores": [
+        -0.6969926357269287,
+        -0.7006803154945374
+      ],
+      "legalRootMass": 0.9945540428161621,
+      "promptTokens": 227,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ]
+      ],
+      "chosenId": "d1",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 1732.9198000952601
+    },
+    {
+      "id": "dungeon-coupang-search-title",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "unsupported-browser-or-search"
+      ],
+      "cohort": "author-format",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t1"
+        }
+      ],
+      "probabilities": [
+        0.6989662647247314,
+        0.30103370547294617
+      ],
+      "logScores": [
+        -0.3662504553794861,
+        -1.2086306810379028
+      ],
+      "legalRootMass": 0.9921080470085144,
+      "promptTokens": 204,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 1552.6215999852866
+    },
+    {
+      "id": "dungeon-coupang-search-image",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "unsupported-browser-or-search"
+      ],
+      "cohort": "author-format",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        1
+      ],
+      "logScores": [
+        -0.006907649338245392
+      ],
+      "legalRootMass": 0.9932054281234741,
+      "promptTokens": 160,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 1336.5617999807
+    },
+    {
+      "id": "dungeon-coupang-search-description",
+      "split": "holdout",
+      "template": "author-state-control",
+      "scenario": [
+        "unsupported-browser-or-search"
+      ],
+      "cohort": "author-format",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "d1"
+        },
+        {
+          "id": "d2"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.24447505176067352,
+        0.12700490653514862,
+        0.6285200119018555
+      ],
+      "logScores": [
+        -1.4107338190078735,
+        -2.0656213760375977,
+        -0.4664791524410248
+      ],
+      "legalRootMass": 0.9981594085693359,
+      "promptTokens": 300,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 2214.430100051686
+    }
+  ],
+  "modelHashes": {
+    "chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "config.json": "8e93c2725fce6a85c8a855bd260c10f34b10dfaa5a70bf84f2192ff03170e9d9",
+    "model.safetensors": "ecb07d72f94ae9bc96955ca2f9ea5f7e2901a1cee4d0a3f156c8a1aecb843b7b",
+    "tokenizer_config.json": "04b1682c59acbd057f4c9072297faa73d56fc9de053094c659cdb4c464f58f86",
+    "tokenizer.json": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+  },
+  "parameters": 596049920,
+  "confidenceMeaning": "Softmax over listed full suffixes, not calibrated correctness probability",
+  "timingNote": "Load includes checksum verification; inference excludes optional full-reference check. Concurrent evaluation processes may contend for CPU.",
+  "finishedAt": "2026-11-13T10:45:45Z",
+  "cohort": "author-format",
+  "cohortNote": "Fixed author-format sensitivity control; not selected by holdout accuracy or counted as new independent data",
+  "selection": {
+    "template": "dom-hierarchy",
+    "policy": "Highest calibration accuracy; then fewer false selections, more valid outputs, lower median latency, stable name tie-break. Holdout is never used.",
+    "calibration": {
+      "attempted": 30,
+      "valid": 30,
+      "correct": 8,
+      "accuracy": 0.26666666666666666,
+      "accepted": 19,
+      "acceptedPrecision": 0.2631578947368421,
+      "falseSelections": 14,
+      "correctAbstentions": 3,
+      "errors": 0,
+      "p50Ms": 12143.535800045356,
+      "p95Ms": 28513.13899992965
+    },
+    "automaticNavigation": false,
+    "lockedAt": "2026-11-13T10:34:47.454Z",
+    "sourceSha256": "95dcc9977cf2d7046f45528e355c807ca6752174a6ff85f1d6bcdbd9da71e106",
+    "summaries": [
+      {
+        "template": "native-minimal",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 7,
+          "accuracy": 0.23333333333333334,
+          "accepted": 18,
+          "acceptedPrecision": 0.16666666666666666,
+          "falseSelections": 15,
+          "correctAbstentions": 4,
+          "errors": 0,
+          "p50Ms": 8504.51590004377,
+          "p95Ms": 17260.584500152618
+        }
+      },
+      {
+        "template": "dom-hierarchy",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 8,
+          "accuracy": 0.26666666666666666,
+          "accepted": 19,
+          "acceptedPrecision": 0.2631578947368421,
+          "falseSelections": 14,
+          "correctAbstentions": 3,
+          "errors": 0,
+          "p50Ms": 12143.535800045356,
+          "p95Ms": 28513.13899992965
+        }
+      },
+      {
+        "template": "korean-structure",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 6,
+          "accuracy": 0.2,
+          "accepted": 17,
+          "acceptedPrecision": 0.11764705882352941,
+          "falseSelections": 15,
+          "correctAbstentions": 4,
+          "errors": 0,
+          "p50Ms": 9539.075700100511,
+          "p95Ms": 17770.291300024837
+        }
+      },
+      {
+        "template": "field-contrast",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 7,
+          "accuracy": 0.23333333333333334,
+          "accepted": 22,
+          "acceptedPrecision": 0.22727272727272727,
+          "falseSelections": 17,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 8576.605099951848,
+          "p95Ms": 15314.010899979621
+        }
+      },
+      {
+        "template": "contrast-examples",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 6,
+          "accuracy": 0.2,
+          "accepted": 19,
+          "acceptedPrecision": 0.15789473684210525,
+          "falseSelections": 16,
+          "correctAbstentions": 3,
+          "errors": 0,
+          "p50Ms": 7573.034500004724,
+          "p95Ms": 13660.215399926528
+        }
+      }
+    ]
+  },
+  "summary": {
+    "attempted": 18,
+    "valid": 18,
+    "correct": 9,
+    "accuracy": 0.5,
+    "accepted": 13,
+    "acceptedPrecision": 0.38461538461538464,
+    "falseSelections": 8,
+    "correctAbstentions": 4,
+    "errors": 0,
+    "p50Ms": 6214.134200010449,
+    "p95Ms": 11833.277099998668
+  }
+}

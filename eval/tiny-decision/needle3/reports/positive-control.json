@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "model": "Cactus-Compute/needle3",
+  "engine": "Cactus 4.1.0 WASM CPU",
+  "modelRevision": "c95d25b4efa1e9601e785d92438e4ade0dbddbf8",
+  "runtimeRevision": "4e822c9036be2eb0e47ef556df32a818bb1572ef",
+  "assets": {
+    "cactus.js": {
+      "url": "https://huggingface.co/Cactus-Compute/cactus/resolve/4e822c9036be2eb0e47ef556df32a818bb1572ef/releases/4.1.0/wasm/cactus.js",
+      "sha256": "707341e44776ab0eb8dfc8f6a579ed5ac41e2ffc6419a18012f61619a6dfc70c"
+    },
+    "cactus.wasm": {
+      "url": "https://huggingface.co/Cactus-Compute/cactus/resolve/4e822c9036be2eb0e47ef556df32a818bb1572ef/releases/4.1.0/wasm/cactus.wasm",
+      "sha256": "6fb6cb41145cd51fd8af97644cd684fbdd434d4d3ce261881df58cbaef5b67f7"
+    },
+    "needle3.cact": {
+      "url": "https://huggingface.co/Cactus-Compute/needle3/resolve/c95d25b4efa1e9601e785d92438e4ade0dbddbf8/needle3.cact",
+      "sha256": "c9d915eca282ed42d1a09b143b592adb4cc6744ffe2d294adf5cfc5548170c38"
+    }
+  },
+  "startedAt": "2026-11-13T10:11:32.430Z",
+  "environment": {
+    "browser": "158.0.8127.18",
+    "os": "win32 10.0.26300 x64",
+    "cpu": "AMD Ryzen 7 8840U w/ Radeon 780M Graphics      ",
+    "logicalProcessors": 16,
+    "maxNewTokens": 96,
+    "resetBeforeEveryCase": true
+  },
+  "runs": [],
+  "templateSha256": "544733f0c2e56e51faec0ce2ca41a05e2a18ebdfc425cf563b36882e8c3234c7",
+  "load": {
+    "loadMs": 347.40000009536743,
+    "modelBytes": 35335380,
+    "engine": "Cactus 4.1.0 official WASM CPU",
+    "threads": 1
+  },
+  "smokeKind": "official-weather-control",
+  "smoke": {
+    "code": 43,
+    "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"get_weather\",\"arguments\":{\"city\":\"Lagos\"}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks for weather in Lagos. get_weather tool with city 'Lagos'.\",\"confidence\":0.9742,\"prefill_tps\":73.0,\"decode_tps\":52.2,\"peak_ram_mb\":-2097151.9,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+    "result": {
+      "type": "call",
+      "success": true,
+      "error": null,
+      "error_code": null,
+      "reason": null,
+      "function_calls": [
+        {
+          "name": "get_weather",
+          "arguments": {
+            "city": "Lagos"
+          }
+        }
+      ],
+      "suppressed_calls": [],
+      "reasoning": "Query asks for weather in Lagos. get_weather tool with city 'Lagos'.",
+      "confidence": 0.9742,
+      "prefill_tps": 73,
+      "decode_tps": 52.2,
+      "peak_ram_mb": -2097151.9,
+      "validation": {
+        "ungrounded": [],
+        "negation": false
+      }
+    },
+    "elapsedMs": 2200.699999809265
+  },
+  "externalRequests": [],
+  "finishedAt": "2026-11-13T10:11:35.174Z"
+}

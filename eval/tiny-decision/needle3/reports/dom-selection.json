@@ -1,0 +1,2136 @@
+{
+  "schemaVersion": 1,
+  "model": "Cactus-Compute/needle3",
+  "engine": "Cactus 4.1.0 WASM CPU",
+  "modelRevision": "c95d25b4efa1e9601e785d92438e4ade0dbddbf8",
+  "runtimeRevision": "4e822c9036be2eb0e47ef556df32a818bb1572ef",
+  "assets": {
+    "cactus.js": {
+      "url": "https://huggingface.co/Cactus-Compute/cactus/resolve/4e822c9036be2eb0e47ef556df32a818bb1572ef/releases/4.1.0/wasm/cactus.js",
+      "sha256": "707341e44776ab0eb8dfc8f6a579ed5ac41e2ffc6419a18012f61619a6dfc70c"
+    },
+    "cactus.wasm": {
+      "url": "https://huggingface.co/Cactus-Compute/cactus/resolve/4e822c9036be2eb0e47ef556df32a818bb1572ef/releases/4.1.0/wasm/cactus.wasm",
+      "sha256": "6fb6cb41145cd51fd8af97644cd684fbdd434d4d3ce261881df58cbaef5b67f7"
+    },
+    "needle3.cact": {
+      "url": "https://huggingface.co/Cactus-Compute/needle3/resolve/c95d25b4efa1e9601e785d92438e4ade0dbddbf8/needle3.cact",
+      "sha256": "c9d915eca282ed42d1a09b143b592adb4cc6744ffe2d294adf5cfc5548170c38"
+    }
+  },
+  "startedAt": "2026-11-13T10:10:19.005Z",
+  "environment": {
+    "browser": "158.0.8127.18",
+    "os": "win32 10.0.26300 x64",
+    "cpu": "AMD Ryzen 7 8840U w/ Radeon 780M Graphics      ",
+    "logicalProcessors": 16,
+    "maxNewTokens": 96,
+    "resetBeforeEveryCase": true
+  },
+  "runs": [
+    {
+      "template": "enum-direct",
+      "split": "calibration",
+      "rows": [
+        {
+          "id": "witch-title",
+          "split": "calibration",
+          "code": 98,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"t1\"}},{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"t2\"}}],\"reasoning\":\"reaches back to turn 1 (t1) and turn 2 (t3) and turn 5 (t4); changes t1 to t1 and t2 to t3; keeps all other values from turn 1\",\"confidence\":0.0041,\"prefill_tps\":55.5,\"decode_tps\":37.7,\"peak_ram_mb\":-2097149.5,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "t1"
+                }
+              },
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "t2"
+                }
+              }
+            ],
+            "reasoning": "reaches back to turn 1 (t1) and turn 2 (t3) and turn 5 (t4); changes t1 to t1 and t2 to t3; keeps all other values from turn 1",
+            "confidence": 0.0041,
+            "prefill_tps": 55.5,
+            "decode_tps": 37.7,
+            "peak_ram_mb": -2097149.5,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 31432.400000095367,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "witch-image",
+          "split": "calibration",
+          "code": 98,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"i5\"}},{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"i6\"}}],\"reasoning\":\"Reaches back to turn 2 (exactly one overlay) and turn 3 (exactly one overlay). Changes: the overlay is the first overlay, the second overlay is the third overlay.\",\"confidence\":0.0031,\"prefill_tps\":54.7,\"decode_tps\":35.1,\"peak_ram_mb\":-2097149.3,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "i5"
+                }
+              },
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "i6"
+                }
+              }
+            ],
+            "reasoning": "Reaches back to turn 2 (exactly one overlay) and turn 3 (exactly one overlay). Changes: the overlay is the first overlay, the second overlay is the third overlay.",
+            "confidence": 0.0031,
+            "prefill_tps": 54.7,
+            "decode_tps": 35.1,
+            "peak_ram_mb": -2097149.3,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 35032.09999990463,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "witch-description",
+          "split": "calibration",
+          "code": 89,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"d4\"}}],\"reasoning\":\"Reaches back to turn 2 (exactly) for the '죽음의 선고' 에을 듣게 되었다. User wants the same\",\"confidence\":0.0054,\"prefill_tps\":57.5,\"decode_tps\":59.7,\"peak_ram_mb\":-2097147.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "d4"
+                }
+              }
+            ],
+            "reasoning": "Reaches back to turn 2 (exactly) for the '죽음의 선고' 에을 듣게 되었다. User wants the same",
+            "confidence": 0.0054,
+            "prefill_tps": 57.5,
+            "decode_tps": 59.7,
+            "peak_ram_mb": -2097147.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 69035,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "d4",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "apothecary-description",
+          "split": "calibration",
+          "code": 89,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"d4\"}}],\"reasoning\":\"reaches back to turn 2 (first element 'd3') and turn 3 (first element 'd4'); changes element to 'd4' and element to 'd5'\",\"confidence\":0.0030,\"prefill_tps\":70.7,\"decode_tps\":48.6,\"peak_ram_mb\":-2097150.3,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "d4"
+                }
+              }
+            ],
+            "reasoning": "reaches back to turn 2 (first element 'd3') and turn 3 (first element 'd4'); changes element to 'd4' and element to 'd5'",
+            "confidence": 0.003,
+            "prefill_tps": 70.7,
+            "decode_tps": 48.6,
+            "peak_ram_mb": -2097150.3,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 19367,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "d4",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "frieren-wavve-search-title",
+          "split": "calibration",
+          "code": 96,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"t1\"}}],\"reasoning\":\"t1: value=\\\"애니 속 확신의 성장캐\\\"; t2: value=\\\"에피소드76\\\"; t3\",\"confidence\":0.0185,\"prefill_tps\":58.4,\"decode_tps\":46.5,\"peak_ram_mb\":-2097150.5,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "t1"
+                }
+              }
+            ],
+            "reasoning": "t1: value=\"애니 속 확신의 성장캐\"; t2: value=\"에피소드76\"; t3",
+            "confidence": 0.0185,
+            "prefill_tps": 58.4,
+            "decode_tps": 46.5,
+            "peak_ram_mb": -2097150.5,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 17201.599999904633,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "t1",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "search-not-detail",
+            "version-card-duplicates"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "frieren-wavve-search-image",
+          "split": "calibration",
+          "code": 89,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"i5\"}}],\"reasoning\":\"Reaches back to turn 2 (img.wavve.com/v1/thumbnails/240_135/meta/image/202403/17113255340133) and turn 3 (img.wavve.com/v1\",\"confidence\":0.0192,\"prefill_tps\":54.8,\"decode_tps\":43.7,\"peak_ram_mb\":-2097149.8,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "i5"
+                }
+              }
+            ],
+            "reasoning": "Reaches back to turn 2 (img.wavve.com/v1/thumbnails/240_135/meta/image/202403/17113255340133) and turn 3 (img.wavve.com/v1",
+            "confidence": 0.0192,
+            "prefill_tps": 54.8,
+            "decode_tps": 43.7,
+            "peak_ram_mb": -2097149.8,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 25431.900000095367,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "i5",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "search-not-detail",
+            "version-card-duplicates"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false
+        }
+      ],
+      "summary": {
+        "attempted": 6,
+        "valid": 0,
+        "correct": 0,
+        "accuracy": 0,
+        "accepted": 0,
+        "acceptedPrecision": null,
+        "falseSelections": 0,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 25431.900000095367,
+        "p95Ms": 35032.09999990463,
+        "rawProposalCorrect": 0,
+        "meanMs": 32916.666666666664
+      }
+    },
+    {
+      "template": "enum-structural",
+      "split": "calibration",
+      "rows": [
+        {
+          "id": "witch-title",
+          "split": "calibration",
+          "code": 90,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"t1\"}},{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"t2\"}}],\"reasoning\":\"reaches back to turn 2 (t1) and turn 3 (t2) for the 't1' field; changes t1 to 't1' and t2 to 't2'\",\"confidence\":0.0103,\"prefill_tps\":52.7,\"decode_tps\":31.4,\"peak_ram_mb\":-2097149.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "t1"
+                }
+              },
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "t2"
+                }
+              }
+            ],
+            "reasoning": "reaches back to turn 2 (t1) and turn 3 (t2) for the 't1' field; changes t1 to 't1' and t2 to 't2'",
+            "confidence": 0.0103,
+            "prefill_tps": 52.7,
+            "decode_tps": 31.4,
+            "peak_ram_mb": -2097149.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 33541.299999952316,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "witch-image",
+          "split": "calibration",
+          "code": 81,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"i8\"}}],\"reasoning\":\"Earlier turn 1 used select_dom_element with id 'i7' and 'i8' (no other params). Follow-up changes id to 'i8' and adds 'i9' to the same tool.\",\"confidence\":0.0369,\"prefill_tps\":56.0,\"decode_tps\":34.5,\"peak_ram_mb\":-2097149.2,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "i8"
+                }
+              }
+            ],
+            "reasoning": "Earlier turn 1 used select_dom_element with id 'i7' and 'i8' (no other params). Follow-up changes id to 'i8' and adds 'i9' to the same tool.",
+            "confidence": 0.0369,
+            "prefill_tps": 56,
+            "decode_tps": 34.5,
+            "peak_ram_mb": -2097149.2,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 34294.40000009537,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "i8",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "witch-description",
+          "split": "calibration",
+          "code": 76,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"d4\"}}],\"reasoning\":\"References turn 2 (select_dom_element) and turn 3 (select_dom_element). Follow-up changes to select_dom_element with the exact id from the query.\",\"confidence\":0.0106,\"prefill_tps\":51.5,\"decode_tps\":21.1,\"peak_ram_mb\":-2097147.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "d4"
+                }
+              }
+            ],
+            "reasoning": "References turn 2 (select_dom_element) and turn 3 (select_dom_element). Follow-up changes to select_dom_element with the exact id from the query.",
+            "confidence": 0.0106,
+            "prefill_tps": 51.5,
+            "decode_tps": 21.1,
+            "peak_ram_mb": -2097147.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 78963.29999995232,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "d4",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "apothecary-description",
+          "split": "calibration",
+          "code": 67,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"d4\"}}],\"reasoning\":\"Earlier turn 2 set_dom_element with 'd3' and 'd4'. Follow-up changes only the 'd3' value to 'd4'.\",\"confidence\":0.0424,\"prefill_tps\":41.4,\"decode_tps\":21.5,\"peak_ram_mb\":-2097150.2,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "d4"
+                }
+              }
+            ],
+            "reasoning": "Earlier turn 2 set_dom_element with 'd3' and 'd4'. Follow-up changes only the 'd3' value to 'd4'.",
+            "confidence": 0.0424,
+            "prefill_tps": 41.4,
+            "decode_tps": 21.5,
+            "peak_ram_mb": -2097150.2,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 33119.89999985695,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "d4",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "frieren-wavve-search-title",
+          "split": "calibration",
+          "code": 89,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"t1\"}}],\"suppressed_calls\":[],\"reasoning\":\"Extract 't1' from 't1: value=에피소드76' from 't1: value=에피소드76'. Extract 't2' from 't2\",\"confidence\":0.1680,\"prefill_tps\":38.9,\"decode_tps\":24.8,\"peak_ram_mb\":-2097150.5,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "t1"
+                }
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Extract 't1' from 't1: value=에피소드76' from 't1: value=에피소드76'. Extract 't2' from 't2",
+            "confidence": 0.168,
+            "prefill_tps": 38.9,
+            "decode_tps": 24.8,
+            "peak_ram_mb": -2097150.5,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 27233.799999952316,
+          "chosenId": "t1",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "search-not-detail",
+            "version-card-duplicates"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "frieren-wavve-search-image",
+          "split": "calibration",
+          "code": 96,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"i8\"}},{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"i2\"}}],\"reasoning\":\"Earlier turn 1 used select_dom_element with id 'i8' and 'i1'. Follow-up changes id to 'i9' and adds 'i2' to the same list.\",\"confidence\":0.0116,\"prefill_tps\":39.6,\"decode_tps\":20.7,\"peak_ram_mb\":-2097149.8,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "i8"
+                }
+              },
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "i2"
+                }
+              }
+            ],
+            "reasoning": "Earlier turn 1 used select_dom_element with id 'i8' and 'i1'. Follow-up changes id to 'i9' and adds 'i2' to the same list.",
+            "confidence": 0.0116,
+            "prefill_tps": 39.6,
+            "decode_tps": 20.7,
+            "peak_ram_mb": -2097149.8,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 37458.59999990463,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "search-not-detail",
+            "version-card-duplicates"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false
+        }
+      ],
+      "summary": {
+        "attempted": 6,
+        "valid": 1,
+        "correct": 0,
+        "accuracy": 0,
+        "accepted": 1,
+        "acceptedPrecision": 0,
+        "falseSelections": 1,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 33541.299999952316,
+        "p95Ms": 37458.59999990463,
+        "rawProposalCorrect": 0,
+        "meanMs": 40768.549999952316
+      }
+    },
+    {
+      "template": "tool-routing",
+      "split": "calibration",
+      "rows": [
+        {
+          "id": "witch-title",
+          "split": "calibration",
+          "code": 81,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_5\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks to select the element named '어느 마녀가 죽을 때까지 라프텔 - 애니 �\",\"confidence\":0.1101,\"prefill_tps\":25.6,\"decode_tps\":22.1,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_5",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query asks to select the element named '어느 마녀가 죽을 때까지 라프텔 - 애니 �",
+            "confidence": 0.1101,
+            "prefill_tps": 25.6,
+            "decode_tps": 22.1,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 82641.90000009537,
+          "chosenId": "t7",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "witch-image",
+          "split": "calibration",
+          "code": 45,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_1\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks to select representative artwork for current page. Use choose_option_1 with no arguments.\",\"confidence\":0.2969,\"prefill_tps\":31.6,\"decode_tps\":27.6,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_1",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query asks to select representative artwork for current page. Use choose_option_1 with no arguments.",
+            "confidence": 0.2969,
+            "prefill_tps": 31.6,
+            "decode_tps": 27.6,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 67294.39999985695,
+          "chosenId": "i4",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "witch-description",
+          "split": "calibration",
+          "code": 55,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_8\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query explicitly says 'select the series/movie plot synopsis of the currently opened work detail' -> choose_option_8 tool.\",\"confidence\":0.2395,\"prefill_tps\":26.3,\"decode_tps\":21.9,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_8",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query explicitly says 'select the series/movie plot synopsis of the currently opened work detail' -> choose_option_8 tool.",
+            "confidence": 0.2395,
+            "prefill_tps": 26.3,
+            "decode_tps": 21.9,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 137620,
+          "chosenId": "d2",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": true,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2"
+          ],
+          "valid": true,
+          "correct": true
+        },
+        {
+          "id": "apothecary-description",
+          "split": "calibration",
+          "code": 46,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_0\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query explicitly asks to select the current opened work detail. Use choose_option_0 with no arguments.\",\"confidence\":0.3912,\"prefill_tps\":34.3,\"decode_tps\":29.7,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_0",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query explicitly asks to select the current opened work detail. Use choose_option_0 with no arguments.",
+            "confidence": 0.3912,
+            "prefill_tps": 34.3,
+            "decode_tps": 29.7,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 39461.200000047684,
+          "chosenId": "d2",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "frieren-wavve-search-title",
+          "split": "calibration",
+          "code": 32,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_5\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Select the element given the user's exact words.\",\"confidence\":0.2519,\"prefill_tps\":35.8,\"decode_tps\":30.7,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_5",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Select the element given the user's exact words.",
+            "confidence": 0.2519,
+            "prefill_tps": 35.8,
+            "decode_tps": 30.7,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 39137.39999985695,
+          "chosenId": "t3",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "search-not-detail",
+            "version-card-duplicates"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "frieren-wavve-search-image",
+          "split": "calibration",
+          "code": 72,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_5\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks to select representative artwork for current series/movie: official artwork metadata/main poster/backdrop. Exclude site/title logos, age icons, episode recommendation thumbnails.\",\"confidence\":0.1053,\"prefill_tps\":36.4,\"decode_tps\":30.6,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_5",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query asks to select representative artwork for current series/movie: official artwork metadata/main poster/backdrop. Exclude site/title logos, age icons, episode recommendation thumbnails.",
+            "confidence": 0.1053,
+            "prefill_tps": 36.4,
+            "decode_tps": 30.6,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 52912.09999990463,
+          "chosenId": "i1",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "search-not-detail",
+            "version-card-duplicates"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": true,
+          "correct": false
+        }
+      ],
+      "summary": {
+        "attempted": 6,
+        "valid": 6,
+        "correct": 1,
+        "accuracy": 0.16666666666666666,
+        "accepted": 6,
+        "acceptedPrecision": 0.16666666666666666,
+        "falseSelections": 5,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 52912.09999990463,
+        "p95Ms": 82641.90000009537,
+        "rawProposalCorrect": 1,
+        "meanMs": 69844.49999996026
+      }
+    },
+    {
+      "template": "enum-evidence-first",
+      "split": "calibration",
+      "rows": [
+        {
+          "id": "witch-title",
+          "split": "calibration",
+          "code": 89,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"t3\"}}],\"reasoning\":\"Reaches back to turn 2 (Question: Select the element giving the clean series/movie title of the currently opened work detail) and turn 3 (Question: Select the web search/movie title of the currently opened work detail). Changes: Select the\",\"confidence\":0.0021,\"prefill_tps\":57.6,\"decode_tps\":50.3,\"peak_ram_mb\":-2097149.2,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "t3"
+                }
+              }
+            ],
+            "reasoning": "Reaches back to turn 2 (Question: Select the element giving the clean series/movie title of the currently opened work detail) and turn 3 (Question: Select the web search/movie title of the currently opened work detail). Changes: Select the",
+            "confidence": 0.0021,
+            "prefill_tps": 57.6,
+            "decode_tps": 50.3,
+            "peak_ram_mb": -2097149.2,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 30983.900000095367,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "t3",
+          "rawProposalCorrect": true,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "witch-image",
+          "split": "calibration",
+          "code": 89,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"i8\"}}],\"reasoning\":\"Reaches back to turn 2 (select_dom_element for 'World War II') and turn 3 (select_dom_element for 'World War II'). Changes: first call opens the original 'World War II' page, second\",\"confidence\":0.0033,\"prefill_tps\":56.5,\"decode_tps\":50.5,\"peak_ram_mb\":-2097149.0,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "i8"
+                }
+              }
+            ],
+            "reasoning": "Reaches back to turn 2 (select_dom_element for 'World War II') and turn 3 (select_dom_element for 'World War II'). Changes: first call opens the original 'World War II' page, second",
+            "confidence": 0.0033,
+            "prefill_tps": 56.5,
+            "decode_tps": 50.5,
+            "peak_ram_mb": -2097149,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 34412,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "i8",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "witch-description",
+          "split": "calibration",
+          "code": 98,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"d4\"}}],\"reasoning\":\"Reaches back to turn 2 (Choose the 'Work' title) and turn 3 (Select the 'Work' subtitle). Changes the title to 'Work' and the subtitle to 'Work' from the query.\",\"confidence\":0.0002,\"prefill_tps\":57.4,\"decode_tps\":38.1,\"peak_ram_mb\":-2097147.1,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "d4"
+                }
+              }
+            ],
+            "reasoning": "Reaches back to turn 2 (Choose the 'Work' title) and turn 3 (Select the 'Work' subtitle). Changes the title to 'Work' and the subtitle to 'Work' from the query.",
+            "confidence": 0.0002,
+            "prefill_tps": 57.4,
+            "decode_tps": 38.1,
+            "peak_ram_mb": -2097147.1,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 71724.5,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "d4",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "apothecary-description",
+          "split": "calibration",
+          "code": 89,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"d4\"}}],\"reasoning\":\"Reaches back to turn 2 (Select the series/movie plot synopsis) and turn 3 (exclude episode plots). Changes the title to 'Select the series/movie plot synopsis of the current work detail' and excludes episode pl\",\"confidence\":0.0009,\"prefill_tps\":50.9,\"decode_tps\":44.9,\"peak_ram_mb\":-2097150.0,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "d4"
+                }
+              }
+            ],
+            "reasoning": "Reaches back to turn 2 (Select the series/movie plot synopsis) and turn 3 (exclude episode plots). Changes the title to 'Select the series/movie plot synopsis of the current work detail' and excludes episode pl",
+            "confidence": 0.0009,
+            "prefill_tps": 50.9,
+            "decode_tps": 44.9,
+            "peak_ram_mb": -2097150,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 27814.099999904633,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "d4",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "frieren-wavve-search-title",
+          "split": "calibration",
+          "code": 43,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"t4\"}}],\"reasoning\":\"Extract the exact element 't4' from the query.\",\"confidence\":0.0853,\"prefill_tps\":49.5,\"decode_tps\":21.9,\"peak_ram_mb\":-2097150.2,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "t4"
+                }
+              }
+            ],
+            "reasoning": "Extract the exact element 't4' from the query.",
+            "confidence": 0.0853,
+            "prefill_tps": 49.5,
+            "decode_tps": 21.9,
+            "peak_ram_mb": -2097150.2,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 21710.39999985695,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "t4",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "search-not-detail",
+            "version-card-duplicates"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "frieren-wavve-search-image",
+          "split": "calibration",
+          "code": 89,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"select_dom_element\",\"arguments\":{\"element_id\":\"i8\"}}],\"reasoning\":\"Reaches back to turn 2 (select_dom_element for the original artwork) and turn 3 (select_dom_element for the original artwork). Changes the artwork's title to 'The Artwork for the Artwork' and the title to '\",\"confidence\":0.0007,\"prefill_tps\":53.9,\"decode_tps\":50.9,\"peak_ram_mb\":-2097149.6,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "select_dom_element",
+                "arguments": {
+                  "element_id": "i8"
+                }
+              }
+            ],
+            "reasoning": "Reaches back to turn 2 (select_dom_element for the original artwork) and turn 3 (select_dom_element for the original artwork). Changes the artwork's title to 'The Artwork for the Artwork' and the title to '",
+            "confidence": 0.0007,
+            "prefill_tps": 53.9,
+            "decode_tps": 50.9,
+            "peak_ram_mb": -2097149.6,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 27509.5,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "i8",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "search-not-detail",
+            "version-card-duplicates"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false
+        }
+      ],
+      "summary": {
+        "attempted": 6,
+        "valid": 0,
+        "correct": 0,
+        "accuracy": 0,
+        "accepted": 0,
+        "acceptedPrecision": null,
+        "falseSelections": 0,
+        "correctAbstentions": 0,
+        "errors": 0,
+        "p50Ms": 27814.099999904633,
+        "p95Ms": 34412,
+        "rawProposalCorrect": 1,
+        "meanMs": 35692.39999997616
+      }
+    },
+    {
+      "template": "tool-routing",
+      "split": "holdout",
+      "rows": [
+        {
+          "id": "sakura-title",
+          "split": "holdout",
+          "code": 32,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_5\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Select the element with the exact title from the query.\",\"confidence\":0.1973,\"prefill_tps\":38.9,\"decode_tps\":37.2,\"peak_ram_mb\":-2097151.3,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_5",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Select the element with the exact title from the query.",
+            "confidence": 0.1973,
+            "prefill_tps": 38.9,
+            "decode_tps": 37.2,
+            "peak_ram_mb": -2097151.3,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 46464.5,
+          "chosenId": "t4",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "sakura-image",
+          "split": "holdout",
+          "code": 46,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_5\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks to 'select the most recent image' -> tool choose_option_5; no arguments needed.\",\"confidence\":0.2785,\"prefill_tps\":37.1,\"decode_tps\":33.9,\"peak_ram_mb\":-2097151.3,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_5",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query asks to 'select the most recent image' -> tool choose_option_5; no arguments needed.",
+            "confidence": 0.2785,
+            "prefill_tps": 37.1,
+            "decode_tps": 33.9,
+            "peak_ram_mb": -2097151.3,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 59093.5,
+          "chosenId": "i5",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "sakura-description",
+          "split": "holdout",
+          "code": 58,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_option_5\",\"arguments\":{}}],\"reasoning\":\"Query asks to 'exclude episode plots' -> exclude episode plots. Use show_option_5 with empty array to exclude all episodes.\",\"confidence\":0.0488,\"prefill_tps\":31.2,\"decode_tps\":28.2,\"peak_ram_mb\":-2097151.3,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_option_5",
+                "arguments": {}
+              }
+            ],
+            "reasoning": "Query asks to 'exclude episode plots' -> exclude episode plots. Use show_option_5 with empty array to exclude all episodes.",
+            "confidence": 0.0488,
+            "prefill_tps": 31.2,
+            "decode_tps": 28.2,
+            "peak_ram_mb": -2097151.3,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 115697.69999980927,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "d2",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "rezero-title",
+          "split": "holdout",
+          "code": 30,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_6\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Select the element given the current work detail.\",\"confidence\":0.2224,\"prefill_tps\":37.6,\"decode_tps\":31.2,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_6",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Select the element given the current work detail.",
+            "confidence": 0.2224,
+            "prefill_tps": 37.6,
+            "decode_tps": 31.2,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 54857.5,
+          "chosenId": "t8",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "rezero-image",
+          "split": "holdout",
+          "code": 51,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_5\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks to exclude site/title logos from the current series/movie. Use choose_option_5 with no arguments.\",\"confidence\":0.2874,\"prefill_tps\":36.4,\"decode_tps\":34.8,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_5",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query asks to exclude site/title logos from the current series/movie. Use choose_option_5 with no arguments.",
+            "confidence": 0.2874,
+            "prefill_tps": 36.4,
+            "decode_tps": 34.8,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 61019.799999952316,
+          "chosenId": "i8",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "rezero-description",
+          "split": "holdout",
+          "code": 65,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_6\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks to 'exclude episode plots, service marketing, placeholders, legal text and recommendations' -> exclude episode plots, service marketing, placeholders, legal text and recommendations.\",\"confidence\":0.1387,\"prefill_tps\":31.1,\"decode_tps\":28.4,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_6",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query asks to 'exclude episode plots, service marketing, placeholders, legal text and recommendations' -> exclude episode plots, service marketing, placeholders, legal text and recommendations.",
+            "confidence": 0.1387,
+            "prefill_tps": 31.1,
+            "decode_tps": 28.4,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 123604.90000009537,
+          "chosenId": "d4",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "dungeon-title",
+          "split": "holdout",
+          "code": 63,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_5\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query explicitly asks to exclude episode names/numbers/service slogans/search-result/recommendation titles. Use choose_option_5 with those exact values.\",\"confidence\":0.2308,\"prefill_tps\":38.4,\"decode_tps\":34.4,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_5",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query explicitly asks to exclude episode names/numbers/service slogans/search-result/recommendation titles. Use choose_option_5 with those exact values.",
+            "confidence": 0.2308,
+            "prefill_tps": 38.4,
+            "decode_tps": 34.4,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 50228.90000009537,
+          "chosenId": "t5",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "dungeon-image",
+          "split": "holdout",
+          "code": 81,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_option_5\",\"arguments\":{}}],\"reasoning\":\"Query asks to select representative artwork for current series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode recommendation thumbnails. Return none when no work detail\",\"confidence\":0.0843,\"prefill_tps\":35.7,\"decode_tps\":32.0,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_option_5",
+                "arguments": {}
+              }
+            ],
+            "reasoning": "Query asks to select representative artwork for current series/movie: official artwork metadata or its main poster/backdrop. Exclude site/title logos, age icons, episode recommendation thumbnails. Return none when no work detail",
+            "confidence": 0.0843,
+            "prefill_tps": 35.7,
+            "decode_tps": 32,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 68892.5,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "i6",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "dungeon-description",
+          "split": "holdout",
+          "code": 55,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_5\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query explicitly says 'select the series/movie plot synopsis of the currently opened work detail' -> choose_option_5 tool.\",\"confidence\":0.2768,\"prefill_tps\":33.3,\"decode_tps\":29.2,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_5",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query explicitly says 'select the series/movie plot synopsis of the currently opened work detail' -> choose_option_5 tool.",
+            "confidence": 0.2768,
+            "prefill_tps": 33.3,
+            "decode_tps": 29.2,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 95095.20000004768,
+          "chosenId": "d7",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "dinner-title",
+          "split": "holdout",
+          "code": 81,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_5\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks to select the element named '프라임 비디오: 수수께끼 풀이는 저녁식�\",\"confidence\":0.1347,\"prefill_tps\":37.8,\"decode_tps\":34.4,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_5",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query asks to select the element named '프라임 비디오: 수수께끼 풀이는 저녁식�",
+            "confidence": 0.1347,
+            "prefill_tps": 37.8,
+            "decode_tps": 34.4,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 45372.799999952316,
+          "chosenId": "t5",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "dinner-image",
+          "split": "holdout",
+          "code": 81,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_option_5\",\"arguments\":{}}],\"reasoning\":\"Query asks to select representative artwork for current series/movie: official artwork metadata/main poster/backdrop. Exclude site/title logos, age icons, episode recommendation thumbnails. Return none when no work detail or\",\"confidence\":0.0651,\"prefill_tps\":37.3,\"decode_tps\":33.8,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_option_5",
+                "arguments": {}
+              }
+            ],
+            "reasoning": "Query asks to select representative artwork for current series/movie: official artwork metadata/main poster/backdrop. Exclude site/title logos, age icons, episode recommendation thumbnails. Return none when no work detail or",
+            "confidence": 0.0651,
+            "prefill_tps": 37.3,
+            "decode_tps": 33.8,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 48945.200000047684,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "i2",
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "i3",
+          "acceptedIds": [
+            "i1",
+            "i3"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "dinner-description",
+          "split": "holdout",
+          "code": 47,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_1\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks to select the series/movie plot synopsis. Use choose_option_1 with no arguments.\",\"confidence\":0.5387,\"prefill_tps\":44.8,\"decode_tps\":39.3,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_1",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query asks to select the series/movie plot synopsis. Use choose_option_1 with no arguments.",
+            "confidence": 0.5387,
+            "prefill_tps": 44.8,
+            "decode_tps": 39.3,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 18396.599999904633,
+          "chosenId": "__none__",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "public-detail",
+            "competing-metadata"
+          ],
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "dungeon-watcha-search-title",
+          "split": "holdout",
+          "code": 42,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_1\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks to select the current work detail element. Use choose_option_1 with no arguments.\",\"confidence\":0.5351,\"prefill_tps\":52.0,\"decode_tps\":44.2,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_1",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query asks to select the current work detail element. Use choose_option_1 with no arguments.",
+            "confidence": 0.5351,
+            "prefill_tps": 52,
+            "decode_tps": 44.2,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 11356.099999904633,
+          "chosenId": "__none__",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": true,
+          "scenario": [
+            "incomplete-search-shell"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": true,
+          "correct": true
+        },
+        {
+          "id": "dungeon-watcha-search-image",
+          "split": "holdout",
+          "code": 45,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_1\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks to select an artwork from current series/movie. Choose_option_1 has no required parameters.\",\"confidence\":0.5825,\"prefill_tps\":57.8,\"decode_tps\":48.2,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_1",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query asks to select an artwork from current series/movie. Choose_option_1 has no required parameters.",
+            "confidence": 0.5825,
+            "prefill_tps": 57.8,
+            "decode_tps": 48.2,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 8843.099999904633,
+          "chosenId": "__none__",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": true,
+          "scenario": [
+            "incomplete-search-shell"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": true,
+          "correct": true
+        },
+        {
+          "id": "dungeon-watcha-search-description",
+          "split": "holdout",
+          "code": 47,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_1\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks to select the series/movie plot synopsis. Use choose_option_1 with no arguments.\",\"confidence\":0.5590,\"prefill_tps\":55.8,\"decode_tps\":44.9,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_1",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query asks to select the series/movie plot synopsis. Use choose_option_1 with no arguments.",
+            "confidence": 0.559,
+            "prefill_tps": 55.8,
+            "decode_tps": 44.9,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 10696.799999952316,
+          "chosenId": "__none__",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": true,
+          "scenario": [
+            "incomplete-search-shell"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": true,
+          "correct": true
+        },
+        {
+          "id": "dungeon-coupang-search-title",
+          "split": "holdout",
+          "code": 41,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_1\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query asks to select the current work detail. Choose_option_1 has no required params.\",\"confidence\":0.6540,\"prefill_tps\":59.3,\"decode_tps\":52.9,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_1",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query asks to select the current work detail. Choose_option_1 has no required params.",
+            "confidence": 0.654,
+            "prefill_tps": 59.3,
+            "decode_tps": 52.9,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 7867.5,
+          "chosenId": "t1",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": false,
+          "scenario": [
+            "unsupported-browser-or-search"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": true,
+          "correct": false
+        },
+        {
+          "id": "dungeon-coupang-search-image",
+          "split": "holdout",
+          "code": 81,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[],\"suppressed_calls\":[{\"name\":\"choose_option_0\",\"arguments\":{}}],\"reasoning\":\"Query asks to select artwork with specific title and description. Choose_option_0 tool matches. Arguments: title 'Access Denied', description 'access Denied', description 'access Denied', description 'access Denied', description 'access\",\"confidence\":0.0989,\"prefill_tps\":64.8,\"decode_tps\":52.1,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [],
+            "suppressed_calls": [
+              {
+                "name": "choose_option_0",
+                "arguments": {}
+              }
+            ],
+            "reasoning": "Query asks to select artwork with specific title and description. Choose_option_0 tool matches. Arguments: title 'Access Denied', description 'access Denied', description 'access Denied', description 'access Denied', description 'access",
+            "confidence": 0.0989,
+            "prefill_tps": 64.8,
+            "decode_tps": 52.1,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 6576.100000143051,
+          "chosenId": null,
+          "accepted": false,
+          "reason": "No unique unsuppressed tool call",
+          "suppressedId": "__none__",
+          "rawProposalCorrect": true,
+          "scenario": [
+            "unsupported-browser-or-search"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": false,
+          "correct": false
+        },
+        {
+          "id": "dungeon-coupang-search-description",
+          "split": "holdout",
+          "code": 51,
+          "raw": "{\"type\":\"call\",\"success\":true,\"error\":null,\"error_code\":null,\"reason\":null,\"function_calls\":[{\"name\":\"choose_option_2\",\"arguments\":{}}],\"suppressed_calls\":[],\"reasoning\":\"Query explicitly asks to 'select the series/movie plot synopsis' -> choose_option_2 with no arguments.\",\"confidence\":0.4401,\"prefill_tps\":52.0,\"decode_tps\":44.1,\"peak_ram_mb\":-2097151.4,\"validation\":{\"ungrounded\":[],\"negation\":false}}",
+          "result": {
+            "type": "call",
+            "success": true,
+            "error": null,
+            "error_code": null,
+            "reason": null,
+            "function_calls": [
+              {
+                "name": "choose_option_2",
+                "arguments": {}
+              }
+            ],
+            "suppressed_calls": [],
+            "reasoning": "Query explicitly asks to 'select the series/movie plot synopsis' -> choose_option_2 with no arguments.",
+            "confidence": 0.4401,
+            "prefill_tps": 52,
+            "decode_tps": 44.1,
+            "peak_ram_mb": -2097151.4,
+            "validation": {
+              "ungrounded": [],
+              "negation": false
+            }
+          },
+          "elapsedMs": 12609.200000047684,
+          "chosenId": "__none__",
+          "accepted": true,
+          "suppressedId": null,
+          "rawProposalCorrect": true,
+          "scenario": [
+            "unsupported-browser-or-search"
+          ],
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "valid": true,
+          "correct": true
+        }
+      ],
+      "summary": {
+        "attempted": 18,
+        "valid": 14,
+        "correct": 4,
+        "accuracy": 0.2222222222222222,
+        "accepted": 9,
+        "acceptedPrecision": 0,
+        "falseSelections": 9,
+        "correctAbstentions": 4,
+        "errors": 0,
+        "p50Ms": 46464.5,
+        "p95Ms": 115697.69999980927,
+        "rawProposalCorrect": 5,
+        "meanMs": 46978.77222221428
+      }
+    }
+  ],
+  "templateSha256": "544733f0c2e56e51faec0ce2ca41a05e2a18ebdfc425cf563b36882e8c3234c7",
+  "load": {
+    "loadMs": 253.5,
+    "modelBytes": 35335380,
+    "engine": "Cactus 4.1.0 official WASM CPU",
+    "threads": 1
+  },
+  "datasetSha256": "b06c7e76828956576fa22cf7d34cd6621c03f811de1e1ef3385a99f32b52cbf1",
+  "calibrationSampling": {
+    "policy": "Before comparing templates, take the first frozen-order positive and first explicit abstention case for each of title/image/description. Selection uses field and ground-truth class only, never predictions. Full holdout retained.",
+    "reason": "Initial sequential browser WASM timing pilot exceeded the evaluation time budget; full 30-case calibration replaced with predeclared six-case strata.",
+    "available": 30,
+    "selectedIds": [
+      "witch-title",
+      "frieren-wavve-search-title",
+      "witch-image",
+      "frieren-wavve-search-image",
+      "witch-description",
+      "apothecary-description"
+    ],
+    "excludedIds": [
+      "frieren-title",
+      "frieren-image",
+      "frieren-description",
+      "apothecary-title",
+      "apothecary-image",
+      "nia-title",
+      "nia-image",
+      "nia-description",
+      "frieren-aniplus-title",
+      "frieren-aniplus-image",
+      "frieren-aniplus-description",
+      "witch-tving-title",
+      "witch-tving-image",
+      "witch-tving-description",
+      "frieren-tving-title",
+      "frieren-tving-image",
+      "frieren-tving-description",
+      "witch-wavve-title",
+      "witch-wavve-image",
+      "witch-wavve-description",
+      "frieren-wavve-search-description",
+      "witch-crunchyroll-title",
+      "witch-crunchyroll-image",
+      "witch-crunchyroll-description"
+    ],
+    "lockedAt": "2026-11-13T10:10:19.400Z"
+  },
+  "selection": {
+    "template": "tool-routing",
+    "policy": "Highest calibration accuracy; then fewer false selections, more valid outputs, lower median latency, stable name tie-break. Holdout is never used.",
+    "calibration": {
+      "attempted": 6,
+      "valid": 6,
+      "correct": 1,
+      "accuracy": 0.16666666666666666,
+      "accepted": 6,
+      "acceptedPrecision": 0.16666666666666666,
+      "falseSelections": 5,
+      "correctAbstentions": 0,
+      "errors": 0,
+      "p50Ms": 52912.09999990463,
+      "p95Ms": 82641.90000009537,
+      "rawProposalCorrect": 1,
+      "meanMs": 69844.49999996026
+    },
+    "automaticNavigation": false,
+    "lockedAt": "2026-11-13T10:28:15.216Z",
+    "note": "Native suppressed calls are diagnostic refusals, never counted as correct option selections."
+  },
+  "externalRequests": [],
+  "finishedAt": "2026-11-13T10:42:20.928Z"
+}

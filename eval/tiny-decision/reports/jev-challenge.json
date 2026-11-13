@@ -1,0 +1,904 @@
+{
+  "schemaVersion": 1,
+  "model": "Athekunal/llm-jev-qwen3-0.6b",
+  "revision": "92727826acf82f170d3c05da74e5784907d3ea5c",
+  "runtime": "PyTorch CPU float32 SDPA shared-prefix full-suffix readout",
+  "python": "3.12.10",
+  "torch": "2.9.1+cpu",
+  "transformers": "5.17.0",
+  "threads": 4,
+  "loadMs": 3526.237200014293,
+  "jobsSha256": "40f4d3fbe6598bdcafa5cfe91bf12dfb4dc08770ad4e8137534a79ee12aa6378",
+  "datasetSha256": "cc706ddc7df7ca8b3e5dab33525561f62bd549fa0c341ee8f0c203a4f0a2f933",
+  "templateSha256": "99ea75b6218e0ada29578036e76a6567041f711596ad96661e0740110674afc3",
+  "results": [
+    {
+      "id": "synthetic-active-dialog-title",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "active-dialog-hidden-old-main"
+      ],
+      "cohort": "challenge",
+      "expectedId": "n2",
+      "acceptedIds": [
+        "n2"
+      ],
+      "options": [
+        {
+          "id": "n3"
+        },
+        {
+          "id": "n1"
+        },
+        {
+          "id": "n2"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.17515932023525238,
+        0.2656005918979645,
+        0.1030028834939003,
+        0.456237256526947
+      ],
+      "logScores": [
+        -1.7453316450119019,
+        -1.3290338516235352,
+        -2.276270627975464,
+        -0.7880145907402039
+      ],
+      "legalRootMass": 0.9968529343605042,
+      "promptTokens": 204,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 1740.8124001231045
+    },
+    {
+      "id": "synthetic-stale-watch-metadata",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "watch-prefix-stale-brand-metadata"
+      ],
+      "cohort": "challenge",
+      "expectedId": "n2",
+      "acceptedIds": [
+        "n2"
+      ],
+      "options": [
+        {
+          "id": "n3"
+        },
+        {
+          "id": "n2"
+        },
+        {
+          "id": "n1"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.24539192020893097,
+        0.28507545590400696,
+        0.10542231798171997,
+        0.3641103208065033
+      ],
+      "logScores": [
+        -1.410222053527832,
+        -1.2603247165679932,
+        -2.2551043033599854,
+        -1.0156217813491821
+      ],
+      "legalRootMass": 0.9948728084564209,
+      "promptTokens": 217,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 1819.6731000207365
+    },
+    {
+      "id": "synthetic-episode-versus-series",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "episode-heading-series-logo"
+      ],
+      "cohort": "challenge",
+      "expectedId": "n2",
+      "acceptedIds": [
+        "n2"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "n3"
+        },
+        {
+          "id": "n2"
+        },
+        {
+          "id": "n1"
+        }
+      ],
+      "probabilities": [
+        0.1436116099357605,
+        0.3502872586250305,
+        0.23980720341205597,
+        0.26629385352134705
+      ],
+      "logScores": [
+        -1.9418659210205078,
+        -1.0502249002456665,
+        -1.4291431903839111,
+        -1.3243780136108398
+      ],
+      "legalRootMass": 0.9992908835411072,
+      "promptTokens": 227,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "chosenId": "n3",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 1964.6618999540806
+    },
+    {
+      "id": "synthetic-preview-replaced-poster",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "preview-video-dom-replacement"
+      ],
+      "cohort": "challenge",
+      "expectedId": "n2",
+      "acceptedIds": [
+        "n2"
+      ],
+      "options": [
+        {
+          "id": "n2"
+        },
+        {
+          "id": "n3"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "n1"
+        }
+      ],
+      "probabilities": [
+        0.7588281035423279,
+        0.051376886665821075,
+        0.08111471682786942,
+        0.108680360019207
+      ],
+      "logScores": [
+        -0.2778084874153137,
+        -2.97039532661438,
+        -2.513719320297241,
+        -2.221172571182251
+      ],
+      "legalRootMass": 0.9983170032501221,
+      "promptTokens": 224,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "chosenId": "n2",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 1869.8458999861032
+    },
+    {
+      "id": "synthetic-recommendation-description",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "recommendation-plot-versus-main-plot"
+      ],
+      "cohort": "challenge",
+      "expectedId": "n2",
+      "acceptedIds": [
+        "n2"
+      ],
+      "options": [
+        {
+          "id": "n3"
+        },
+        {
+          "id": "n1"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "n2"
+        }
+      ],
+      "probabilities": [
+        0.04137052223086357,
+        0.6120485067367554,
+        0.1409657597541809,
+        0.20561513304710388
+      ],
+      "logScores": [
+        -3.187483549118042,
+        -0.4932405948638916,
+        -1.961535096168518,
+        -1.5840460062026978
+      ],
+      "legalRootMass": 0.9988207817077637,
+      "promptTokens": 273,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "chosenId": "n1",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 2243.3380000293255
+    },
+    {
+      "id": "synthetic-search-season-match",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "exact-title-season-medium-match"
+      ],
+      "cohort": "challenge",
+      "expectedId": "n2",
+      "acceptedIds": [
+        "n2"
+      ],
+      "options": [
+        {
+          "id": "n1"
+        },
+        {
+          "id": "n3"
+        },
+        {
+          "id": "n2"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.0814317837357521,
+        0.4027382433414459,
+        0.36752942204475403,
+        0.1483006626367569
+      ],
+      "logScores": [
+        -2.5096333026885986,
+        -0.9111121892929077,
+        -1.0025956630706787,
+        -1.910157322883606
+      ],
+      "legalRootMass": 0.9986070394515991,
+      "promptTokens": 276,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "chosenId": "n3",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 2292.058299994096
+    },
+    {
+      "id": "synthetic-search-ambiguous-title",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "insufficient-identity-evidence"
+      ],
+      "cohort": "challenge",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "n2"
+        },
+        {
+          "id": "n1"
+        },
+        {
+          "id": "n3"
+        }
+      ],
+      "probabilities": [
+        0.5313436388969421,
+        0.21011821925640106,
+        0.09330771118402481,
+        0.16523043811321259
+      ],
+      "logScores": [
+        -0.6373041272163391,
+        -1.5650427341461182,
+        -2.376810312271118,
+        -1.8053721189498901
+      ],
+      "legalRootMass": 0.9952616095542908,
+      "promptTokens": 253,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 2093.289399985224
+    },
+    {
+      "id": "synthetic-missing-synopsis",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "placeholder-and-marketing-only"
+      ],
+      "cohort": "challenge",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "n3"
+        },
+        {
+          "id": "n1"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "n2"
+        }
+      ],
+      "probabilities": [
+        0.1761089563369751,
+        0.08072242140769958,
+        0.619047224521637,
+        0.12412140518426895
+      ],
+      "logScores": [
+        -1.7404342889785767,
+        -2.5205209255218506,
+        -0.48335570096969604,
+        -2.0902771949768066
+      ],
+      "legalRootMass": 0.9964047074317932,
+      "promptTokens": 231,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "chosenId": "__none__",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 1998.967899940908
+    },
+    {
+      "id": "synthetic-stacked-dialog-title",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "foreground-dialog-versus-visible-inert-dialog"
+      ],
+      "cohort": "challenge",
+      "expectedId": "n2",
+      "acceptedIds": [
+        "n2"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "n2"
+        },
+        {
+          "id": "n3"
+        },
+        {
+          "id": "n1"
+        }
+      ],
+      "probabilities": [
+        0.13945646584033966,
+        0.5202369689941406,
+        0.10061004757881165,
+        0.23969651758670807
+      ],
+      "logScores": [
+        -1.9712648391723633,
+        -0.6547329425811768,
+        -2.2977652549743652,
+        -1.4296437501907349
+      ],
+      "legalRootMass": 0.9989961385726929,
+      "promptTokens": 218,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "chosenId": "n2",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 1823.3193999622017
+    },
+    {
+      "id": "synthetic-search-observed-alias",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "explicit-bilingual-alias"
+      ],
+      "cohort": "challenge",
+      "expectedId": "n1",
+      "acceptedIds": [
+        "n1"
+      ],
+      "options": [
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "n3"
+        },
+        {
+          "id": "n1"
+        },
+        {
+          "id": "n2"
+        }
+      ],
+      "probabilities": [
+        0.09049052745103836,
+        0.24805104732513428,
+        0.6256371140480042,
+        0.035821299999952316
+      ],
+      "logScores": [
+        -2.403395891189575,
+        -1.3950064182281494,
+        -0.46987050771713257,
+        -3.3300983905792236
+      ],
+      "legalRootMass": 0.9992874264717102,
+      "promptTokens": 252,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "chosenId": "n1",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 1997.0101998187602
+    },
+    {
+      "id": "synthetic-closed-modal-title",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "closed-modal-and-search-background"
+      ],
+      "cohort": "challenge",
+      "expectedId": "__none__",
+      "acceptedIds": [
+        "__none__"
+      ],
+      "options": [
+        {
+          "id": "n2"
+        },
+        {
+          "id": "n1"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "n3"
+        }
+      ],
+      "probabilities": [
+        0.08699286729097366,
+        0.5610295534133911,
+        0.28951266407966614,
+        0.06246490031480789
+      ],
+      "logScores": [
+        -2.443889617919922,
+        -0.5799422264099121,
+        -1.2415167093276978,
+        -2.775110960006714
+      ],
+      "legalRootMass": 0.998265266418457,
+      "promptTokens": 237,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "chosenId": "n1",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 2008.364199893549
+    },
+    {
+      "id": "synthetic-accessible-full-synopsis",
+      "split": "holdout",
+      "template": "dom-hierarchy",
+      "scenario": [
+        "accessible-full-text-versus-clipped-text"
+      ],
+      "cohort": "challenge",
+      "expectedId": "n2",
+      "acceptedIds": [
+        "n2"
+      ],
+      "options": [
+        {
+          "id": "n1"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "n2"
+        },
+        {
+          "id": "n3"
+        }
+      ],
+      "probabilities": [
+        0.2647179365158081,
+        0.1496177464723587,
+        0.4660525321960449,
+        0.11961179971694946
+      ],
+      "logScores": [
+        -1.330988883972168,
+        -1.9015700817108154,
+        -0.7653553485870361,
+        -2.1254022121429443
+      ],
+      "legalRootMass": 0.9992485046386719,
+      "promptTokens": 279,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ]
+      ],
+      "chosenId": "n2",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 2291.8853000737727
+    }
+  ],
+  "modelHashes": {
+    "chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "config.json": "8e93c2725fce6a85c8a855bd260c10f34b10dfaa5a70bf84f2192ff03170e9d9",
+    "model.safetensors": "ecb07d72f94ae9bc96955ca2f9ea5f7e2901a1cee4d0a3f156c8a1aecb843b7b",
+    "tokenizer_config.json": "04b1682c59acbd057f4c9072297faa73d56fc9de053094c659cdb4c464f58f86",
+    "tokenizer.json": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+  },
+  "parameters": 596049920,
+  "confidenceMeaning": "Softmax over listed full suffixes, not calibrated correctness probability",
+  "timingNote": "Load includes checksum verification; inference excludes optional full-reference check. Concurrent evaluation processes may contend for CPU.",
+  "finishedAt": "2026-11-13T10:45:45Z",
+  "cohort": "challenge",
+  "selection": {
+    "template": "dom-hierarchy",
+    "policy": "Highest calibration accuracy; then fewer false selections, more valid outputs, lower median latency, stable name tie-break. Holdout is never used.",
+    "calibration": {
+      "attempted": 30,
+      "valid": 30,
+      "correct": 8,
+      "accuracy": 0.26666666666666666,
+      "accepted": 19,
+      "acceptedPrecision": 0.2631578947368421,
+      "falseSelections": 14,
+      "correctAbstentions": 3,
+      "errors": 0,
+      "p50Ms": 12143.535800045356,
+      "p95Ms": 28513.13899992965
+    },
+    "automaticNavigation": false,
+    "lockedAt": "2026-11-13T10:34:47.454Z",
+    "sourceSha256": "95dcc9977cf2d7046f45528e355c807ca6752174a6ff85f1d6bcdbd9da71e106",
+    "summaries": [
+      {
+        "template": "native-minimal",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 7,
+          "accuracy": 0.23333333333333334,
+          "accepted": 18,
+          "acceptedPrecision": 0.16666666666666666,
+          "falseSelections": 15,
+          "correctAbstentions": 4,
+          "errors": 0,
+          "p50Ms": 8504.51590004377,
+          "p95Ms": 17260.584500152618
+        }
+      },
+      {
+        "template": "dom-hierarchy",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 8,
+          "accuracy": 0.26666666666666666,
+          "accepted": 19,
+          "acceptedPrecision": 0.2631578947368421,
+          "falseSelections": 14,
+          "correctAbstentions": 3,
+          "errors": 0,
+          "p50Ms": 12143.535800045356,
+          "p95Ms": 28513.13899992965
+        }
+      },
+      {
+        "template": "korean-structure",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 6,
+          "accuracy": 0.2,
+          "accepted": 17,
+          "acceptedPrecision": 0.11764705882352941,
+          "falseSelections": 15,
+          "correctAbstentions": 4,
+          "errors": 0,
+          "p50Ms": 9539.075700100511,
+          "p95Ms": 17770.291300024837
+        }
+      },
+      {
+        "template": "field-contrast",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 7,
+          "accuracy": 0.23333333333333334,
+          "accepted": 22,
+          "acceptedPrecision": 0.22727272727272727,
+          "falseSelections": 17,
+          "correctAbstentions": 2,
+          "errors": 0,
+          "p50Ms": 8576.605099951848,
+          "p95Ms": 15314.010899979621
+        }
+      },
+      {
+        "template": "contrast-examples",
+        "split": "calibration",
+        "summary": {
+          "attempted": 30,
+          "valid": 30,
+          "correct": 6,
+          "accuracy": 0.2,
+          "accepted": 19,
+          "acceptedPrecision": 0.15789473684210525,
+          "falseSelections": 16,
+          "correctAbstentions": 3,
+          "errors": 0,
+          "p50Ms": 7573.034500004724,
+          "p95Ms": 13660.215399926528
+        }
+      }
+    ]
+  },
+  "summary": {
+    "attempted": 12,
+    "valid": 12,
+    "correct": 6,
+    "accuracy": 0.5,
+    "accepted": 8,
+    "acceptedPrecision": 0.5,
+    "falseSelections": 4,
+    "correctAbstentions": 2,
+    "errors": 0,
+    "p50Ms": 1997.0101998187602,
+    "p95Ms": 2291.8853000737727
+  }
+}

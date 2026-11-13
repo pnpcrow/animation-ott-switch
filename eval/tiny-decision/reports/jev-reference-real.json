@@ -1,0 +1,127 @@
+{
+  "schemaVersion": 1,
+  "model": "Athekunal/llm-jev-qwen3-0.6b",
+  "revision": "92727826acf82f170d3c05da74e5784907d3ea5c",
+  "runtime": "PyTorch CPU float32 SDPA shared-prefix full-suffix readout",
+  "python": "3.12.10",
+  "torch": "2.9.1+cpu",
+  "transformers": "5.17.0",
+  "threads": 4,
+  "loadMs": 3062.0345000643283,
+  "jobsSha256": "17cae9e8427759989eb1b8df953c150c6edef6b6b4ec7869a1819a8a073267b9",
+  "datasetSha256": "b06c7e76828956576fa22cf7d34cd6621c03f811de1e1ef3385a99f32b52cbf1",
+  "templateSha256": "6746355f9a761065ea3f813a195a9ae1c6c5ef773b68c9b5dda294904f560792",
+  "results": [
+    {
+      "id": "witch-title",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": [
+        "public-detail",
+        "competing-metadata"
+      ],
+      "expectedId": "t3",
+      "acceptedIds": [
+        "t3"
+      ],
+      "options": [
+        {
+          "id": "t3"
+        },
+        {
+          "id": "t5"
+        },
+        {
+          "id": "t8"
+        },
+        {
+          "id": "__none__"
+        },
+        {
+          "id": "t2"
+        },
+        {
+          "id": "t7"
+        },
+        {
+          "id": "t6"
+        },
+        {
+          "id": "t4"
+        },
+        {
+          "id": "t1"
+        }
+      ],
+      "probabilities": [
+        0.38374924659729004,
+        0.026210561394691467,
+        0.019771723076701164,
+        0.04117925092577934,
+        0.4405243694782257,
+        0.011021803133189678,
+        0.005119891371577978,
+        0.005732981022447348,
+        0.06669022887945175
+      ],
+      "logScores": [
+        -0.9589985013008118,
+        -3.6428253650665283,
+        -3.9247350692749023,
+        -3.1910533905029297,
+        -0.8210220336914062,
+        -4.509112358093262,
+        -5.275854587554932,
+        -5.162752151489258,
+        -2.7089293003082275
+      ],
+      "legalRootMass": 0.999214231967926,
+      "promptTokens": 904,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ],
+        [
+          19,
+          60
+        ],
+        [
+          20,
+          60
+        ],
+        [
+          21,
+          60
+        ],
+        [
+          22,
+          60
+        ],
+        [
+          23,
+          60
+        ],
+        [
+          24,
+          60
+        ]
+      ],
+      "chosenId": "t2",
+      "valid": true,
+      "correct": false,
+      "elapsedMs": 9083.975400077179
+    }
+  ],
+  "referenceMaxAbsLogScoreError": 5.227106157690287e-06,
+  "referenceCheckMs": 74785.07520002313,
+  "finishedAt": "2026-11-13T10:07:41Z"
+}

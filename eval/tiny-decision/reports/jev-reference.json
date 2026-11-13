@@ -1,0 +1,80 @@
+{
+  "schemaVersion": 1,
+  "model": "Athekunal/llm-jev-qwen3-0.6b",
+  "revision": "92727826acf82f170d3c05da74e5784907d3ea5c",
+  "runtime": "PyTorch CPU float32 SDPA shared-prefix full-suffix readout",
+  "python": "3.12.10",
+  "torch": "2.9.1+cpu",
+  "transformers": "5.17.0",
+  "threads": 4,
+  "loadMs": 4380.863100057468,
+  "jobsSha256": "026030e88781a4526d7b8d4db13ecc49682eae9dd53cc21885aef1cbce09b68a",
+  "datasetSha256": null,
+  "templateSha256": null,
+  "results": [
+    {
+      "id": "reference-smoke",
+      "split": "calibration",
+      "template": "native-minimal",
+      "scenario": null,
+      "expectedId": "a",
+      "acceptedIds": [
+        "a"
+      ],
+      "options": [
+        {
+          "id": "a"
+        },
+        {
+          "id": "b"
+        },
+        {
+          "id": "__none__"
+        }
+      ],
+      "probabilities": [
+        0.84650057554245,
+        0.06731793284416199,
+        0.08618146181106567
+      ],
+      "logScores": [
+        -0.1702868640422821,
+        -2.7019710540771484,
+        -2.4549427032470703
+      ],
+      "legalRootMass": 0.9963873624801636,
+      "promptTokens": 45,
+      "suffixTokens": [
+        [
+          16,
+          60
+        ],
+        [
+          17,
+          60
+        ],
+        [
+          18,
+          60
+        ]
+      ],
+      "chosenId": "a",
+      "valid": true,
+      "correct": true,
+      "elapsedMs": 994.6813001297414
+    }
+  ],
+  "modelHashes": {
+    "chat_template.jinja": "a55ee1b1660128b7098723e0abcd92caa0788061051c62d51cbe87d9cf1974d8",
+    "config.json": "8e93c2725fce6a85c8a855bd260c10f34b10dfaa5a70bf84f2192ff03170e9d9",
+    "model.safetensors": "ecb07d72f94ae9bc96955ca2f9ea5f7e2901a1cee4d0a3f156c8a1aecb843b7b",
+    "tokenizer_config.json": "04b1682c59acbd057f4c9072297faa73d56fc9de053094c659cdb4c464f58f86",
+    "tokenizer.json": "be75606093db2094d7cd20f3c2f385c212750648bd6ea4fb2bf507a6a4c55506"
+  },
+  "parameters": 596049920,
+  "confidenceMeaning": "Softmax over listed full suffixes, not calibrated correctness probability",
+  "timingNote": "Load includes checksum verification; inference excludes optional full-reference check. Concurrent evaluation processes may contend for CPU.",
+  "referenceMaxAbsLogScoreError": 1.788058398233261e-06,
+  "referenceCheckMs": 2007.5559001415968,
+  "finishedAt": "2026-11-13T10:08:26Z"
+}

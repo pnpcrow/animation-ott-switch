@@ -1,0 +1,107 @@
+{
+  "template": "dom-hierarchy",
+  "policy": "Highest calibration accuracy; then fewer false selections, more valid outputs, lower median latency, stable name tie-break. Holdout is never used.",
+  "calibration": {
+    "attempted": 30,
+    "valid": 30,
+    "correct": 8,
+    "accuracy": 0.26666666666666666,
+    "accepted": 19,
+    "acceptedPrecision": 0.2631578947368421,
+    "falseSelections": 14,
+    "correctAbstentions": 3,
+    "errors": 0,
+    "p50Ms": 12143.535800045356,
+    "p95Ms": 28513.13899992965
+  },
+  "automaticNavigation": false,
+  "lockedAt": "2026-11-13T10:34:47.454Z",
+  "sourceSha256": "95dcc9977cf2d7046f45528e355c807ca6752174a6ff85f1d6bcdbd9da71e106",
+  "summaries": [
+    {
+      "template": "native-minimal",
+      "split": "calibration",
+      "summary": {
+        "attempted": 30,
+        "valid": 30,
+        "correct": 7,
+        "accuracy": 0.23333333333333334,
+        "accepted": 18,
+        "acceptedPrecision": 0.16666666666666666,
+        "falseSelections": 15,
+        "correctAbstentions": 4,
+        "errors": 0,
+        "p50Ms": 8504.51590004377,
+        "p95Ms": 17260.584500152618
+      }
+    },
+    {
+      "template": "dom-hierarchy",
+      "split": "calibration",
+      "summary": {
+        "attempted": 30,
+        "valid": 30,
+        "correct": 8,
+        "accuracy": 0.26666666666666666,
+        "accepted": 19,
+        "acceptedPrecision": 0.2631578947368421,
+        "falseSelections": 14,
+        "correctAbstentions": 3,
+        "errors": 0,
+        "p50Ms": 12143.535800045356,
+        "p95Ms": 28513.13899992965
+      }
+    },
+    {
+      "template": "korean-structure",
+      "split": "calibration",
+      "summary": {
+        "attempted": 30,
+        "valid": 30,
+        "correct": 6,
+        "accuracy": 0.2,
+        "accepted": 17,
+        "acceptedPrecision": 0.11764705882352941,
+        "falseSelections": 15,
+        "correctAbstentions": 4,
+        "errors": 0,
+        "p50Ms": 9539.075700100511,
+        "p95Ms": 17770.291300024837
+      }
+    },
+    {
+      "template": "field-contrast",
+      "split": "calibration",
+      "summary": {
+        "attempted": 30,
+        "valid": 30,
+        "correct": 7,
+        "accuracy": 0.23333333333333334,
+        "accepted": 22,
+        "acceptedPrecision": 0.22727272727272727,
+        "falseSelections": 17,
+        "correctAbstentions": 2,
+        "errors": 0,
+        "p50Ms": 8576.605099951848,
+        "p95Ms": 15314.010899979621
+      }
+    },
+    {
+      "template": "contrast-examples",
+      "split": "calibration",
+      "summary": {
+        "attempted": 30,
+        "valid": 30,
+        "correct": 6,
+        "accuracy": 0.2,
+        "accepted": 19,
+        "acceptedPrecision": 0.15789473684210525,
+        "falseSelections": 16,
+        "correctAbstentions": 3,
+        "errors": 0,
+        "p50Ms": 7573.034500004724,
+        "p95Ms": 13660.215399926528
+      }
+    }
+  ]
+}
