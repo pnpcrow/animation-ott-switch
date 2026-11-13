@@ -1,7 +1,10 @@
 import { build } from "esbuild";
 import { mkdir, cp, readFile, writeFile } from "node:fs/promises";
 import { zlibSync } from "fflate";
+import { verifyProjectIdentity } from "./verify-identity.mjs";
 
+// Fail before touching dist if the registered identity was removed or changed.
+await verifyProjectIdentity();
 await mkdir("dist", { recursive: true });
 await cp("public", "dist", { recursive: true });
 const common = {

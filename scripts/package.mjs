@@ -1,5 +1,6 @@
 import { readdir, readFile, mkdir, writeFile } from "node:fs/promises";
 import { zipSync } from "fflate";
+import { verifyProjectIdentity } from "./verify-identity.mjs";
 async function collect(dir, prefix = "") {
   let result = {};
   for (const entry of await readdir(dir, { withFileTypes: true })) {
@@ -10,7 +11,8 @@ async function collect(dir, prefix = "") {
   }
   return result;
 }
-const { version } = JSON.parse(await readFile("package.json", "utf8"));
+// Inspect both source and the actual built manifest; never zip a stale identity.
+const { version } = await verifyProjectIdentity({ includeDist: true });
 await mkdir("release", { recursive: true });
 const path = `release/ott-switch-${version}.zip`;
 await writeFile(path, zipSync(await collect("dist"), { level: 9 }));

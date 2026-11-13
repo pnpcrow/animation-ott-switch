@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "baselineRelease": "v0.1.5",
+  "extensionId": "cmaijknliglhgokkmijggladebokgafl",
+  "publicKeySha256": "2c089adb86b76eaac8966b0341ea605b415387225fca0f39a3e2247a4ed56a55",
+  "packageName": "animation-ott-switch",
+  "manifestName": "OTT Switch · 작품 보관함"
+}

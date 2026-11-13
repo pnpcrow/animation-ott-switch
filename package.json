@@ -1,10 +1,11 @@
 {
   "name": "animation-ott-switch",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "private": true,
   "type": "module",
   "description": "Local-first Chrome extension for cross-OTT discovery and a personal title library",
   "scripts": {
+    "check:identity": "node scripts/verify-identity.mjs",
     "build": "node scripts/build.mjs",
     "dev": "node scripts/dev.mjs",
     "typecheck": "tsc --noEmit",
@@ -15,7 +16,7 @@
     "test:dom-adaptation": "node scripts/test-dom-adaptation.mjs",
     "test:dom-scale": "node scripts/test-dom-scale.mjs",
     "test:e2e": "playwright test",
-    "check": "npm run typecheck && npm test && npm run build",
+    "check": "npm run check:identity && npm run typecheck && npm test && npm run build",
     "package": "npm run build && node scripts/package.mjs",
     "format": "prettier --write src tests scripts public/*.json *.json *.ts docs/*.md README.md"
   },
