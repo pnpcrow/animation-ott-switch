@@ -1,0 +1,4946 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-13T09:34:50.056Z",
+  "scope": "Latest observed outcome per cell. Unchanged providers retain baseline evidence; this is not one final all-provider run. Opened means a verified detail tab, not entitled playback.",
+  "summary": {
+    "source-only": 8,
+    "unknown": 58,
+    "available": 6,
+    "ambiguous": 1,
+    "unavailable": 7
+  },
+  "matrix": [
+    {
+      "caseId": "witch",
+      "target": "laftel",
+      "sourceExtracted": true,
+      "outcome": "source-only",
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "witch",
+      "target": "aniplus",
+      "query": "어느 마녀가 죽을 때까지",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "result": {
+        "provider": "aniplus",
+        "status": "unknown",
+        "checkedAt": 1794561809646,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14253,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "witch",
+      "target": "crunchyroll",
+      "query": "어느 마녀가 죽을 때까지",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "result": {
+        "provider": "crunchyroll",
+        "status": "unknown",
+        "checkedAt": 1794561241025,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14105,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "witch",
+      "target": "netflix",
+      "query": "어느 마녀가 죽을 때까지",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.netflix.com/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "result": {
+        "provider": "netflix",
+        "status": "unknown",
+        "checkedAt": 1794561244111,
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3083,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "witch",
+      "target": "prime",
+      "query": "어느 마녀가 죽을 때까지",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "result": {
+        "provider": "prime",
+        "status": "unknown",
+        "checkedAt": 1794561247849,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3806,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "witch",
+      "target": "apple",
+      "query": "어느 마녀가 죽을 때까지",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "result": {
+        "provider": "apple",
+        "status": "unknown",
+        "checkedAt": 1794561824160,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14517,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "witch",
+      "target": "wavve",
+      "query": "어느 마녀가 죽을 때까지",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "result": {
+        "provider": "wavve",
+        "status": "available",
+        "checkedAt": 1794561829062,
+        "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+        "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+        "title": "어느 마녀가 죽을 때까지",
+        "opened": true
+      },
+      "finalTabs": [
+        {
+          "pendingUrl": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season"
+        }
+      ],
+      "elapsedMs": 4931,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "witch",
+      "target": "tving",
+      "query": "어느 마녀가 죽을 때까지",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.tving.com/search?keyword=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "result": {
+        "provider": "tving",
+        "status": "available",
+        "checkedAt": 1794562238780,
+        "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+        "url": "https://www.tving.com/contents/P001791654",
+        "title": "어느 마녀가 죽을 때까지",
+        "opened": true
+      },
+      "finalTabs": [
+        {
+          "pendingUrl": "https://www.tving.com/contents/P001791654"
+        }
+      ],
+      "elapsedMs": 10606,
+      "evidenceRun": "cross-check-tving-final"
+    },
+    {
+      "caseId": "witch",
+      "target": "coupang",
+      "query": "어느 마녀가 죽을 때까지",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "result": {
+        "provider": "coupang",
+        "status": "unknown",
+        "checkedAt": 1794561257626,
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "finalTabs": [],
+      "elapsedMs": 466,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "witch",
+      "target": "watcha",
+      "query": "어느 마녀가 죽을 때까지",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://watcha.com/search?query=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+      "result": {
+        "provider": "watcha",
+        "status": "unknown",
+        "checkedAt": 1794561272234,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14612,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "frieren",
+      "target": "laftel",
+      "sourceExtracted": true,
+      "outcome": "source-only",
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "frieren",
+      "target": "aniplus",
+      "query": "장송의 프리렌",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "result": {
+        "provider": "aniplus",
+        "status": "unknown",
+        "checkedAt": 1794562260883,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14559,
+      "evidenceRun": "cross-check-aniplus-ambiguity-final"
+    },
+    {
+      "caseId": "frieren",
+      "target": "crunchyroll",
+      "query": "장송의 프리렌",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "result": {
+        "provider": "crunchyroll",
+        "status": "unknown",
+        "checkedAt": 1794561302952,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14086,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "frieren",
+      "target": "netflix",
+      "query": "장송의 프리렌",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.netflix.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "result": {
+        "provider": "netflix",
+        "status": "unknown",
+        "checkedAt": 1794561305814,
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 2848,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "frieren",
+      "target": "prime",
+      "query": "장송의 프리렌",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "result": {
+        "provider": "prime",
+        "status": "unknown",
+        "checkedAt": 1794561308856,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3104,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "frieren",
+      "target": "apple",
+      "query": "장송의 프리렌",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "result": {
+        "provider": "apple",
+        "status": "unknown",
+        "checkedAt": 1794561846031,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 2302,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "frieren",
+      "target": "wavve",
+      "query": "장송의 프리렌",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "result": {
+        "provider": "wavve",
+        "status": "unknown",
+        "checkedAt": 1794561849361,
+        "reason": "같은 제목의 검색 카드가 여러 개입니다. 공식 검색에서 작품을 선택해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3340,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "frieren",
+      "target": "tving",
+      "query": "장송의 프리렌",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "result": {
+        "provider": "tving",
+        "status": "ambiguous",
+        "checkedAt": 1794562246693,
+        "reason": "같은 제목의 여러 버전이 있습니다. 자막·더빙·시즌을 확인한 뒤 연결하세요.",
+        "candidates": [
+          {
+            "title": "장송의 프리렌",
+            "url": "https://www.tving.com/contents/P001760783"
+          },
+          {
+            "title": "장송의 프리렌",
+            "url": "https://www.tving.com/contents/P001747384"
+          }
+        ]
+      },
+      "manualChecks": [
+        {
+          "candidate": {
+            "title": "장송의 프리렌",
+            "url": "https://www.tving.com/contents/P001760783"
+          },
+          "result": {
+            "provider": "tving",
+            "status": "available",
+            "checkedAt": 1794562249651,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://www.tving.com/contents/P001760783",
+            "title": "장송의 프리렌",
+            "opened": true
+          }
+        },
+        {
+          "candidate": {
+            "title": "장송의 프리렌",
+            "url": "https://www.tving.com/contents/P001747384"
+          },
+          "result": {
+            "provider": "tving",
+            "status": "available",
+            "checkedAt": 1794562252279,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://www.tving.com/contents/P001747384",
+            "title": "장송의 프리렌",
+            "opened": true
+          }
+        }
+      ],
+      "finalTabs": [
+        {
+          "pendingUrl": "https://www.tving.com/contents/P001747384"
+        }
+      ],
+      "elapsedMs": 8715,
+      "evidenceRun": "cross-check-tving-final"
+    },
+    {
+      "caseId": "frieren",
+      "target": "coupang",
+      "query": "장송의 프리렌",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "result": {
+        "provider": "coupang",
+        "status": "unknown",
+        "checkedAt": 1794561317489,
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "finalTabs": [],
+      "elapsedMs": 438,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "frieren",
+      "target": "watcha",
+      "query": "장송의 프리렌",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://watcha.com/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+      "result": {
+        "provider": "watcha",
+        "status": "unknown",
+        "checkedAt": 1794561331950,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14461,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "sakura",
+      "target": "laftel",
+      "query": "카드캡터 체리",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://laftel.net/search?keyword=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+      "result": {
+        "provider": "laftel",
+        "status": "unavailable",
+        "checkedAt": 1794561333507,
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 133,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "sakura",
+      "target": "aniplus",
+      "query": "카드캡터 체리",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+      "result": {
+        "provider": "aniplus",
+        "status": "unknown",
+        "checkedAt": 1794561873289,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14164,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "sakura",
+      "target": "crunchyroll",
+      "query": "카드캡터 체리",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+      "result": {
+        "provider": "crunchyroll",
+        "status": "unknown",
+        "checkedAt": 1794561362267,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14430,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "sakura",
+      "target": "netflix",
+      "query": "카드캡터 체리",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.netflix.com/search?q=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+      "result": {
+        "provider": "netflix",
+        "status": "unknown",
+        "checkedAt": 1794561364741,
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 2461,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "sakura",
+      "target": "prime",
+      "query": "카드캡터 체리",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+      "result": {
+        "provider": "prime",
+        "status": "unknown",
+        "checkedAt": 1794561368571,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3919,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "sakura",
+      "target": "apple",
+      "sourceExtracted": true,
+      "outcome": "source-only",
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "sakura",
+      "target": "wavve",
+      "query": "카드캡터 체리",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+      "result": {
+        "provider": "wavve",
+        "status": "unknown",
+        "checkedAt": 1794561878257,
+        "reason": "검색 결과와 상세 작품의 제목·연도가 다릅니다. 자동으로 이동하지 않았습니다."
+      },
+      "finalTabs": [],
+      "elapsedMs": 4961,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "sakura",
+      "target": "tving",
+      "query": "카드캡터 체리",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.tving.com/search?keyword=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+      "result": {
+        "provider": "tving",
+        "status": "unknown",
+        "checkedAt": 1794562260470,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3625,
+      "evidenceRun": "cross-check-tving-final"
+    },
+    {
+      "caseId": "sakura",
+      "target": "coupang",
+      "query": "카드캡터 체리",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+      "result": {
+        "provider": "coupang",
+        "status": "unknown",
+        "checkedAt": 1794561377180,
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "finalTabs": [],
+      "elapsedMs": 511,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "sakura",
+      "target": "watcha",
+      "query": "카드캡터 체리",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://watcha.com/search?query=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+      "result": {
+        "provider": "watcha",
+        "status": "unknown",
+        "checkedAt": 1794561391690,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14511,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "apothecary",
+      "target": "laftel",
+      "sourceExtracted": true,
+      "outcome": "source-only",
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "apothecary",
+      "target": "aniplus",
+      "query": "약사의 혼잣말",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+      "result": {
+        "provider": "aniplus",
+        "status": "unknown",
+        "checkedAt": 1794561901412,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14307,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "apothecary",
+      "target": "crunchyroll",
+      "query": "약사의 혼잣말",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+      "result": {
+        "provider": "crunchyroll",
+        "status": "unknown",
+        "checkedAt": 1794561423434,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14403,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "apothecary",
+      "target": "netflix",
+      "query": "약사의 혼잣말",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.netflix.com/search?q=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+      "result": {
+        "provider": "netflix",
+        "status": "unknown",
+        "checkedAt": 1794561426381,
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 2933,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "apothecary",
+      "target": "prime",
+      "query": "약사의 혼잣말",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+      "result": {
+        "provider": "prime",
+        "status": "unknown",
+        "checkedAt": 1794561429569,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3277,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "apothecary",
+      "target": "apple",
+      "query": "약사의 혼잣말",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+      "result": {
+        "provider": "apple",
+        "status": "unknown",
+        "checkedAt": 1794561903786,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 2370,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "apothecary",
+      "target": "wavve",
+      "query": "약사의 혼잣말",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+      "result": {
+        "provider": "wavve",
+        "status": "unavailable",
+        "checkedAt": 1794561906297,
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 2520,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "apothecary",
+      "target": "tving",
+      "query": "약사의 혼잣말",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.tving.com/search?keyword=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+      "result": {
+        "provider": "tving",
+        "status": "unknown",
+        "checkedAt": 1794562268272,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3359,
+      "evidenceRun": "cross-check-tving-final"
+    },
+    {
+      "caseId": "apothecary",
+      "target": "coupang",
+      "query": "약사의 혼잣말",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+      "result": {
+        "provider": "coupang",
+        "status": "unknown",
+        "checkedAt": 1794561438231,
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "finalTabs": [],
+      "elapsedMs": 464,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "apothecary",
+      "target": "watcha",
+      "query": "약사의 혼잣말",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://watcha.com/search?query=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+      "result": {
+        "provider": "watcha",
+        "status": "unknown",
+        "checkedAt": 1794561452446,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14214,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "nia",
+      "target": "laftel",
+      "sourceExtracted": true,
+      "outcome": "source-only",
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "nia",
+      "target": "aniplus",
+      "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.aniplustv.com/Search?st=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+      "result": {
+        "provider": "aniplus",
+        "status": "available",
+        "checkedAt": 1794561917739,
+        "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+        "url": "https://www.aniplustv.com/items/3960",
+        "title": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+        "opened": true
+      },
+      "finalTabs": [
+        {
+          "url": "https://www.aniplustv.com/items/3960"
+        }
+      ],
+      "elapsedMs": 3853,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "nia",
+      "target": "crunchyroll",
+      "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.crunchyroll.com/search?q=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+      "result": {
+        "provider": "crunchyroll",
+        "status": "unknown",
+        "checkedAt": 1794561483655,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14450,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "nia",
+      "target": "netflix",
+      "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.netflix.com/search?q=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+      "result": {
+        "provider": "netflix",
+        "status": "unknown",
+        "checkedAt": 1794561486065,
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 2392,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "nia",
+      "target": "prime",
+      "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.primevideo.com/search?phrase=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+      "result": {
+        "provider": "prime",
+        "status": "unknown",
+        "checkedAt": 1794561489158,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3164,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "nia",
+      "target": "apple",
+      "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://tv.apple.com/kr/search?term=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+      "result": {
+        "provider": "apple",
+        "status": "unknown",
+        "checkedAt": 1794561932211,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14413,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "nia",
+      "target": "wavve",
+      "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.wavve.com/search?searchWord=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+      "result": {
+        "provider": "wavve",
+        "status": "unavailable",
+        "checkedAt": 1794561934179,
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 1980,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "nia",
+      "target": "tving",
+      "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.tving.com/search?keyword=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+      "result": {
+        "provider": "tving",
+        "status": "unknown",
+        "checkedAt": 1794562276195,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3525,
+      "evidenceRun": "cross-check-tving-final"
+    },
+    {
+      "caseId": "nia",
+      "target": "coupang",
+      "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.coupangplay.com/search?q=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+      "result": {
+        "provider": "coupang",
+        "status": "unknown",
+        "checkedAt": 1794561495235,
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "finalTabs": [],
+      "elapsedMs": 436,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "nia",
+      "target": "watcha",
+      "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://watcha.com/search?query=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+      "result": {
+        "provider": "watcha",
+        "status": "unknown",
+        "checkedAt": 1794561509705,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14472,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "rezero",
+      "target": "laftel",
+      "sourceExtracted": true,
+      "outcome": "source-only",
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "rezero",
+      "target": "aniplus",
+      "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.aniplustv.com/Search?st=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+      "result": {
+        "provider": "aniplus",
+        "status": "available",
+        "checkedAt": 1794561946702,
+        "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+        "url": "https://www.aniplustv.com/items/2259",
+        "title": "Re:제로부터 시작하는 이세계 생활 감독판",
+        "opened": true
+      },
+      "finalTabs": [
+        {
+          "url": "https://www.aniplustv.com/items/2259"
+        }
+      ],
+      "elapsedMs": 5028,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "rezero",
+      "target": "crunchyroll",
+      "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.crunchyroll.com/search?q=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+      "result": {
+        "provider": "crunchyroll",
+        "status": "unknown",
+        "checkedAt": 1794561526646,
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "finalTabs": [],
+      "elapsedMs": 679,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "rezero",
+      "target": "netflix",
+      "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.netflix.com/search?q=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+      "result": {
+        "provider": "netflix",
+        "status": "unknown",
+        "checkedAt": 1794561529759,
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3114,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "rezero",
+      "target": "prime",
+      "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.primevideo.com/search?phrase=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+      "result": {
+        "provider": "prime",
+        "status": "unknown",
+        "checkedAt": 1794561533740,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 4085,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "rezero",
+      "target": "apple",
+      "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://tv.apple.com/kr/search?term=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+      "result": {
+        "provider": "apple",
+        "status": "unknown",
+        "checkedAt": 1794561961308,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14526,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "rezero",
+      "target": "wavve",
+      "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.wavve.com/search?searchWord=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+      "result": {
+        "provider": "wavve",
+        "status": "available",
+        "checkedAt": 1794561965804,
+        "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+        "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000245&landing=season",
+        "title": "Re: 제로부터 시작하는 이세계 생활 감독판",
+        "opened": true
+      },
+      "finalTabs": [
+        {
+          "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000245&landing=season"
+        }
+      ],
+      "elapsedMs": 4688,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "rezero",
+      "target": "tving",
+      "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.tving.com/search?keyword=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+      "result": {
+        "provider": "tving",
+        "status": "available",
+        "checkedAt": 1794562287096,
+        "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+        "url": "https://www.tving.com/contents/P001117839",
+        "title": "Re:제로부터 시작하는 이세계 생활 감독판",
+        "opened": true
+      },
+      "finalTabs": [
+        {
+          "pendingUrl": "https://www.tving.com/contents/P001117839"
+        }
+      ],
+      "elapsedMs": 6094,
+      "evidenceRun": "cross-check-tving-final"
+    },
+    {
+      "caseId": "rezero",
+      "target": "coupang",
+      "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.coupangplay.com/search?q=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+      "result": {
+        "provider": "coupang",
+        "status": "unknown",
+        "checkedAt": 1794561543721,
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "finalTabs": [],
+      "elapsedMs": 533,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "rezero",
+      "target": "watcha",
+      "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://watcha.com/search?query=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+      "result": {
+        "provider": "watcha",
+        "status": "unknown",
+        "checkedAt": 1794561558169,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14442,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "dungeon",
+      "target": "laftel",
+      "query": "던전밥",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://laftel.net/search?keyword=%EB%8D%98%EC%A0%84%EB%B0%A5",
+      "result": {
+        "provider": "laftel",
+        "status": "unavailable",
+        "checkedAt": 1794561563373,
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 194,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "dungeon",
+      "target": "aniplus",
+      "query": "던전밥",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.aniplustv.com/Search?st=%EB%8D%98%EC%A0%84%EB%B0%A5",
+      "result": {
+        "provider": "aniplus",
+        "status": "unknown",
+        "checkedAt": 1794561994849,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14133,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "dungeon",
+      "target": "crunchyroll",
+      "query": "던전밥",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.crunchyroll.com/search?q=%EB%8D%98%EC%A0%84%EB%B0%A5",
+      "result": {
+        "provider": "crunchyroll",
+        "status": "unknown",
+        "checkedAt": 1794561592139,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14573,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "dungeon",
+      "target": "netflix",
+      "sourceExtracted": true,
+      "outcome": "source-only",
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "dungeon",
+      "target": "prime",
+      "query": "던전밥",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.primevideo.com/search?phrase=%EB%8D%98%EC%A0%84%EB%B0%A5",
+      "result": {
+        "provider": "prime",
+        "status": "unknown",
+        "checkedAt": 1794561594919,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 2782,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "dungeon",
+      "target": "apple",
+      "query": "던전밥",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://tv.apple.com/kr/search?term=%EB%8D%98%EC%A0%84%EB%B0%A5",
+      "result": {
+        "provider": "apple",
+        "status": "unknown",
+        "checkedAt": 1794561998011,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3188,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "dungeon",
+      "target": "wavve",
+      "query": "던전밥",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.wavve.com/search?searchWord=%EB%8D%98%EC%A0%84%EB%B0%A5",
+      "result": {
+        "provider": "wavve",
+        "status": "unavailable",
+        "checkedAt": 1794562000480,
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 2464,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "dungeon",
+      "target": "tving",
+      "query": "던전밥",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.tving.com/search?keyword=%EB%8D%98%EC%A0%84%EB%B0%A5",
+      "result": {
+        "provider": "tving",
+        "status": "unknown",
+        "checkedAt": 1794562299263,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3690,
+      "evidenceRun": "cross-check-tving-final"
+    },
+    {
+      "caseId": "dungeon",
+      "target": "coupang",
+      "query": "던전밥",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.coupangplay.com/search?q=%EB%8D%98%EC%A0%84%EB%B0%A5",
+      "result": {
+        "provider": "coupang",
+        "status": "unknown",
+        "checkedAt": 1794561603833,
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "finalTabs": [],
+      "elapsedMs": 615,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "dungeon",
+      "target": "watcha",
+      "query": "던전밥",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://watcha.com/search?query=%EB%8D%98%EC%A0%84%EB%B0%A5",
+      "result": {
+        "provider": "watcha",
+        "status": "unknown",
+        "checkedAt": 1794561618285,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14470,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "dinner",
+      "target": "laftel",
+      "query": "수수께끼 풀이는 저녁식사 후에",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://laftel.net/search?keyword=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+      "result": {
+        "provider": "laftel",
+        "status": "unavailable",
+        "checkedAt": 1794561623173,
+        "reason": "검색된 동일 작품의 서비스 종료 또는 재생 불가 상태가 확인되었습니다."
+      },
+      "finalTabs": [],
+      "elapsedMs": 122,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "dinner",
+      "target": "aniplus",
+      "query": "수수께끼 풀이는 저녁식사 후에",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+      "result": {
+        "provider": "aniplus",
+        "status": "unknown",
+        "checkedAt": 1794562023041,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14369,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "dinner",
+      "target": "crunchyroll",
+      "query": "수수께끼 풀이는 저녁식사 후에",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+      "result": {
+        "provider": "crunchyroll",
+        "status": "unknown",
+        "checkedAt": 1794561651565,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14329,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "dinner",
+      "target": "netflix",
+      "query": "수수께끼 풀이는 저녁식사 후에",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.netflix.com/search?q=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+      "result": {
+        "provider": "netflix",
+        "status": "unknown",
+        "checkedAt": 1794561654545,
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 2946,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "dinner",
+      "target": "prime",
+      "sourceExtracted": true,
+      "outcome": "source-only",
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "dinner",
+      "target": "apple",
+      "query": "수수께끼 풀이는 저녁식사 후에",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+      "result": {
+        "provider": "apple",
+        "status": "unknown",
+        "checkedAt": 1794562025221,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 2176,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "dinner",
+      "target": "wavve",
+      "query": "수수께끼 풀이는 저녁식사 후에",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+      "result": {
+        "provider": "wavve",
+        "status": "unavailable",
+        "checkedAt": 1794562027101,
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 1879,
+      "evidenceRun": "cross-check-extension-fixed"
+    },
+    {
+      "caseId": "dinner",
+      "target": "tving",
+      "query": "수수께끼 풀이는 저녁식사 후에",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.tving.com/search?keyword=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+      "result": {
+        "provider": "tving",
+        "status": "unknown",
+        "checkedAt": 1794562307884,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 3791,
+      "evidenceRun": "cross-check-tving-final"
+    },
+    {
+      "caseId": "dinner",
+      "target": "coupang",
+      "query": "수수께끼 풀이는 저녁식사 후에",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+      "result": {
+        "provider": "coupang",
+        "status": "unknown",
+        "checkedAt": 1794561663127,
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "finalTabs": [],
+      "elapsedMs": 444,
+      "evidenceRun": "cross-check-extension-baseline"
+    },
+    {
+      "caseId": "dinner",
+      "target": "watcha",
+      "query": "수수께끼 풀이는 저녁식사 후에",
+      "sourceExtracted": true,
+      "directSearchUrl": "https://watcha.com/search?query=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+      "result": {
+        "provider": "watcha",
+        "status": "unknown",
+        "checkedAt": 1794561677549,
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "finalTabs": [],
+      "elapsedMs": 14415,
+      "evidenceRun": "cross-check-extension-baseline"
+    }
+  ],
+  "runs": [
+    {
+      "name": "cross-check-http",
+      "mode": "http",
+      "startedAt": "2026-11-13T09:13:09.876Z",
+      "finishedAt": "2026-11-13T09:13:39.175Z",
+      "commit": "45f0077a8c14b41dd09625d83dfb1d6b8ad1cabf",
+      "environment": "isolated Chromium, anonymous public pages, Korea host; does not prove account playback entitlement",
+      "summary": {
+        "available": 1,
+        "unknown": 70,
+        "unavailable": 8,
+        "ambiguous": 1
+      },
+      "cases": [
+        {
+          "id": "witch",
+          "query": "어느 마녀가 죽을 때까지",
+          "source": null
+        },
+        {
+          "id": "frieren",
+          "query": "장송의 프리렌",
+          "source": null
+        },
+        {
+          "id": "sakura",
+          "query": "카드캡터 사쿠라",
+          "source": null
+        },
+        {
+          "id": "apothecary",
+          "query": "약사의 혼잣말",
+          "source": null
+        },
+        {
+          "id": "nia",
+          "query": "흉란영애 니아 리스톤",
+          "source": null
+        },
+        {
+          "id": "rezero",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "source": null
+        },
+        {
+          "id": "dungeon",
+          "query": "던전밥",
+          "source": null
+        },
+        {
+          "id": "dinner",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "source": null
+        }
+      ],
+      "results": [
+        {
+          "caseId": "witch",
+          "target": "laftel",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://laftel.net/search?keyword=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "laftel",
+            "status": "available",
+            "checkedAt": 1794561190115,
+            "reason": "동일 제목의 작품 페이지를 확인했습니다. 재생 권한과 제공 지역은 서비스에서 확인하세요.",
+            "url": "https://laftel.net/item/42783",
+            "title": "어느 마녀가 죽을 때까지"
+          },
+          "elapsedMs": 184
+        },
+        {
+          "caseId": "witch",
+          "target": "aniplus",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561190170,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 53
+        },
+        {
+          "caseId": "witch",
+          "target": "crunchyroll",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561190212,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "elapsedMs": 40
+        },
+        {
+          "caseId": "witch",
+          "target": "netflix",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.netflix.com/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561191818,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1602
+        },
+        {
+          "caseId": "witch",
+          "target": "prime",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561193010,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1190
+        },
+        {
+          "caseId": "witch",
+          "target": "apple",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "apple",
+            "status": "unavailable",
+            "checkedAt": 1794561193305,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "elapsedMs": 288
+        },
+        {
+          "caseId": "witch",
+          "target": "wavve",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "wavve",
+            "status": "unknown",
+            "checkedAt": 1794561193374,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 68
+        },
+        {
+          "caseId": "witch",
+          "target": "tving",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561193638,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 263
+        },
+        {
+          "caseId": "witch",
+          "target": "coupang",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561193884,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 244
+        },
+        {
+          "caseId": "witch",
+          "target": "watcha",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://watcha.com/search?query=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561194063,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 177
+        },
+        {
+          "caseId": "frieren",
+          "target": "laftel",
+          "query": "장송의 프리렌",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "laftel",
+            "status": "ambiguous",
+            "checkedAt": 1794561194217,
+            "reason": "같은 제목의 여러 버전이 있습니다. 자막·더빙·시즌을 확인한 뒤 연결하세요.",
+            "candidates": [
+              {
+                "title": "(자막) 장송의 프리렌",
+                "url": "https://laftel.net/item/41666"
+              },
+              {
+                "title": "(더빙) 장송의 프리렌",
+                "url": "https://laftel.net/item/42389"
+              }
+            ]
+          },
+          "elapsedMs": 152
+        },
+        {
+          "caseId": "frieren",
+          "target": "aniplus",
+          "query": "장송의 프리렌",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561194256,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 38
+        },
+        {
+          "caseId": "frieren",
+          "target": "crunchyroll",
+          "query": "장송의 프리렌",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561194289,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "elapsedMs": 32
+        },
+        {
+          "caseId": "frieren",
+          "target": "netflix",
+          "query": "장송의 프리렌",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.netflix.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561195388,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1097
+        },
+        {
+          "caseId": "frieren",
+          "target": "prime",
+          "query": "장송의 프리렌",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561196504,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1114
+        },
+        {
+          "caseId": "frieren",
+          "target": "apple",
+          "query": "장송의 프리렌",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561196750,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 245
+        },
+        {
+          "caseId": "frieren",
+          "target": "wavve",
+          "query": "장송의 프리렌",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "wavve",
+            "status": "unknown",
+            "checkedAt": 1794561196776,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 25
+        },
+        {
+          "caseId": "frieren",
+          "target": "tving",
+          "query": "장송의 프리렌",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561197030,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 252
+        },
+        {
+          "caseId": "frieren",
+          "target": "coupang",
+          "query": "장송의 프리렌",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561197242,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 210
+        },
+        {
+          "caseId": "frieren",
+          "target": "watcha",
+          "query": "장송의 프리렌",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://watcha.com/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561197364,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 121
+        },
+        {
+          "caseId": "sakura",
+          "target": "laftel",
+          "query": "카드캡터 사쿠라",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://laftel.net/search?keyword=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+          "result": {
+            "provider": "laftel",
+            "status": "unknown",
+            "checkedAt": 1794561197513,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 147
+        },
+        {
+          "caseId": "sakura",
+          "target": "aniplus",
+          "query": "카드캡터 사쿠라",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561197535,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 20
+        },
+        {
+          "caseId": "sakura",
+          "target": "crunchyroll",
+          "query": "카드캡터 사쿠라",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561197565,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "elapsedMs": 28
+        },
+        {
+          "caseId": "sakura",
+          "target": "netflix",
+          "query": "카드캡터 사쿠라",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.netflix.com/search?q=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561199470,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1903
+        },
+        {
+          "caseId": "sakura",
+          "target": "prime",
+          "query": "카드캡터 사쿠라",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561200784,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1312
+        },
+        {
+          "caseId": "sakura",
+          "target": "apple",
+          "query": "카드캡터 사쿠라",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+          "result": {
+            "provider": "apple",
+            "status": "unavailable",
+            "checkedAt": 1794561201045,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "elapsedMs": 260
+        },
+        {
+          "caseId": "sakura",
+          "target": "wavve",
+          "query": "카드캡터 사쿠라",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+          "result": {
+            "provider": "wavve",
+            "status": "unknown",
+            "checkedAt": 1794561201093,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 46
+        },
+        {
+          "caseId": "sakura",
+          "target": "tving",
+          "query": "카드캡터 사쿠라",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561201290,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 195
+        },
+        {
+          "caseId": "sakura",
+          "target": "coupang",
+          "query": "카드캡터 사쿠라",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561201584,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 293
+        },
+        {
+          "caseId": "sakura",
+          "target": "watcha",
+          "query": "카드캡터 사쿠라",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://watcha.com/search?query=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561201751,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 166
+        },
+        {
+          "caseId": "apothecary",
+          "target": "laftel",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://laftel.net/search?keyword=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "laftel",
+            "status": "unavailable",
+            "checkedAt": 1794561201857,
+            "reason": "검색된 동일 작품의 서비스 종료 또는 재생 불가 상태가 확인되었습니다."
+          },
+          "elapsedMs": 104
+        },
+        {
+          "caseId": "apothecary",
+          "target": "aniplus",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561201891,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 33
+        },
+        {
+          "caseId": "apothecary",
+          "target": "crunchyroll",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561201930,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "elapsedMs": 38
+        },
+        {
+          "caseId": "apothecary",
+          "target": "netflix",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.netflix.com/search?q=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561202945,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1013
+        },
+        {
+          "caseId": "apothecary",
+          "target": "prime",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561204123,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1177
+        },
+        {
+          "caseId": "apothecary",
+          "target": "apple",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561204395,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 264
+        },
+        {
+          "caseId": "apothecary",
+          "target": "wavve",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "wavve",
+            "status": "unknown",
+            "checkedAt": 1794561204451,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 49
+        },
+        {
+          "caseId": "apothecary",
+          "target": "tving",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561204813,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 361
+        },
+        {
+          "caseId": "apothecary",
+          "target": "coupang",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561205057,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 243
+        },
+        {
+          "caseId": "apothecary",
+          "target": "watcha",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://watcha.com/search?query=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561205188,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 130
+        },
+        {
+          "caseId": "nia",
+          "target": "laftel",
+          "query": "흉란영애 니아 리스톤",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://laftel.net/search?keyword=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+          "result": {
+            "provider": "laftel",
+            "status": "unavailable",
+            "checkedAt": 1794561205299,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "elapsedMs": 108
+        },
+        {
+          "caseId": "nia",
+          "target": "aniplus",
+          "query": "흉란영애 니아 리스톤",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561205317,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 17
+        },
+        {
+          "caseId": "nia",
+          "target": "crunchyroll",
+          "query": "흉란영애 니아 리스톤",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561205346,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "elapsedMs": 28
+        },
+        {
+          "caseId": "nia",
+          "target": "netflix",
+          "query": "흉란영애 니아 리스톤",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.netflix.com/search?q=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561206327,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 980
+        },
+        {
+          "caseId": "nia",
+          "target": "prime",
+          "query": "흉란영애 니아 리스톤",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561207481,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1152
+        },
+        {
+          "caseId": "nia",
+          "target": "apple",
+          "query": "흉란영애 니아 리스톤",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+          "result": {
+            "provider": "apple",
+            "status": "unavailable",
+            "checkedAt": 1794561207674,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "elapsedMs": 192
+        },
+        {
+          "caseId": "nia",
+          "target": "wavve",
+          "query": "흉란영애 니아 리스톤",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+          "result": {
+            "provider": "wavve",
+            "status": "unknown",
+            "checkedAt": 1794561207715,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 40
+        },
+        {
+          "caseId": "nia",
+          "target": "tving",
+          "query": "흉란영애 니아 리스톤",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561207910,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 194
+        },
+        {
+          "caseId": "nia",
+          "target": "coupang",
+          "query": "흉란영애 니아 리스톤",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561208176,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 265
+        },
+        {
+          "caseId": "nia",
+          "target": "watcha",
+          "query": "흉란영애 니아 리스톤",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://watcha.com/search?query=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561208308,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 131
+        },
+        {
+          "caseId": "rezero",
+          "target": "laftel",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://laftel.net/search?keyword=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+          "result": {
+            "provider": "laftel",
+            "status": "unavailable",
+            "checkedAt": 1794561208423,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "elapsedMs": 112
+        },
+        {
+          "caseId": "rezero",
+          "target": "aniplus",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561208439,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 15
+        },
+        {
+          "caseId": "rezero",
+          "target": "crunchyroll",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561208470,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "elapsedMs": 29
+        },
+        {
+          "caseId": "rezero",
+          "target": "netflix",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.netflix.com/search?q=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561209760,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1287
+        },
+        {
+          "caseId": "rezero",
+          "target": "prime",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561211034,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1272
+        },
+        {
+          "caseId": "rezero",
+          "target": "apple",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561211313,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 277
+        },
+        {
+          "caseId": "rezero",
+          "target": "wavve",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+          "result": {
+            "provider": "wavve",
+            "status": "unknown",
+            "checkedAt": 1794561211372,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 57
+        },
+        {
+          "caseId": "rezero",
+          "target": "tving",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.tving.com/search?keyword=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561211596,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 222
+        },
+        {
+          "caseId": "rezero",
+          "target": "coupang",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561211899,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 301
+        },
+        {
+          "caseId": "rezero",
+          "target": "watcha",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://watcha.com/search?query=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561212057,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 154
+        },
+        {
+          "caseId": "dungeon",
+          "target": "laftel",
+          "query": "던전밥",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://laftel.net/search?keyword=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "laftel",
+            "status": "unavailable",
+            "checkedAt": 1794561212111,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "elapsedMs": 35
+        },
+        {
+          "caseId": "dungeon",
+          "target": "aniplus",
+          "query": "던전밥",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561212135,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 22
+        },
+        {
+          "caseId": "dungeon",
+          "target": "crunchyroll",
+          "query": "던전밥",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561212170,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "elapsedMs": 34
+        },
+        {
+          "caseId": "dungeon",
+          "target": "netflix",
+          "query": "던전밥",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.netflix.com/search?q=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561213597,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1422
+        },
+        {
+          "caseId": "dungeon",
+          "target": "prime",
+          "query": "던전밥",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561214180,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 581
+        },
+        {
+          "caseId": "dungeon",
+          "target": "apple",
+          "query": "던전밥",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561214590,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 409
+        },
+        {
+          "caseId": "dungeon",
+          "target": "wavve",
+          "query": "던전밥",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "wavve",
+            "status": "unknown",
+            "checkedAt": 1794561214702,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 103
+        },
+        {
+          "caseId": "dungeon",
+          "target": "tving",
+          "query": "던전밥",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561214971,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 268
+        },
+        {
+          "caseId": "dungeon",
+          "target": "coupang",
+          "query": "던전밥",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561215415,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 442
+        },
+        {
+          "caseId": "dungeon",
+          "target": "watcha",
+          "query": "던전밥",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://watcha.com/search?query=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561215588,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 171
+        },
+        {
+          "caseId": "dinner",
+          "target": "laftel",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://laftel.net/search?keyword=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "laftel",
+            "status": "unavailable",
+            "checkedAt": 1794561215684,
+            "reason": "검색된 동일 작품의 서비스 종료 또는 재생 불가 상태가 확인되었습니다."
+          },
+          "elapsedMs": 93
+        },
+        {
+          "caseId": "dinner",
+          "target": "aniplus",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561215708,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 22
+        },
+        {
+          "caseId": "dinner",
+          "target": "crunchyroll",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561215739,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "elapsedMs": 29
+        },
+        {
+          "caseId": "dinner",
+          "target": "netflix",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.netflix.com/search?q=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561217104,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1362
+        },
+        {
+          "caseId": "dinner",
+          "target": "prime",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561218132,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 1026
+        },
+        {
+          "caseId": "dinner",
+          "target": "apple",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561218462,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 328
+        },
+        {
+          "caseId": "dinner",
+          "target": "wavve",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "wavve",
+            "status": "unknown",
+            "checkedAt": 1794561218502,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 38
+        },
+        {
+          "caseId": "dinner",
+          "target": "tving",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561218793,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 289
+        },
+        {
+          "caseId": "dinner",
+          "target": "coupang",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561219035,
+            "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+          },
+          "elapsedMs": 241
+        },
+        {
+          "caseId": "dinner",
+          "target": "watcha",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": false,
+          "directSearchUrl": "https://watcha.com/search?query=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561219173,
+            "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+          },
+          "elapsedMs": 136
+        }
+      ]
+    },
+    {
+      "name": "cross-check-extension-baseline",
+      "mode": "extension",
+      "startedAt": "2026-11-13T09:13:27.129Z",
+      "finishedAt": "2026-11-13T09:21:17.570Z",
+      "commit": "45f0077a8c14b41dd09625d83dfb1d6b8ad1cabf",
+      "environment": "isolated Chromium, anonymous public pages, Korea host; does not prove account playback entitlement",
+      "summary": {
+        "source-only": 8,
+        "unknown": 60,
+        "unavailable": 10,
+        "available": 2
+      },
+      "cases": [
+        {
+          "id": "witch",
+          "query": "어느 마녀가 죽을 때까지",
+          "source": {
+            "finalUrl": "https://laftel.net/item/42783",
+            "title": "어느 마녀가 죽을 때까지",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "frieren",
+          "query": "장송의 프리렌",
+          "source": {
+            "finalUrl": "https://laftel.net/item/41666",
+            "title": "장송의 프리렌",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "sakura",
+          "query": "카드캡터 사쿠라",
+          "source": {
+            "finalUrl": "https://tv.apple.com/kr/show/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d",
+            "title": "카드캡터 체리",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": false
+          }
+        },
+        {
+          "id": "apothecary",
+          "query": "약사의 혼잣말",
+          "source": {
+            "finalUrl": "https://laftel.net/item/41714",
+            "title": "약사의 혼잣말",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "nia",
+          "query": "흉란영애 니아 리스톤",
+          "source": {
+            "finalUrl": "https://laftel.net/item/47452",
+            "title": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "rezero",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "source": {
+            "finalUrl": "https://laftel.net/item/39644",
+            "title": "Re : 제로부터 시작하는 이세계 생활 감독판",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "dungeon",
+          "query": "던전밥",
+          "source": {
+            "finalUrl": "https://www.netflix.com/kr/title/81564899",
+            "title": "던전밥",
+            "aliases": [],
+            "year": 2024,
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "dinner",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "source": {
+            "finalUrl": "https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2",
+            "title": "수수께끼 풀이는 저녁식사 후에",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        }
+      ],
+      "results": [
+        {
+          "caseId": "witch",
+          "target": "laftel",
+          "sourceExtracted": true,
+          "outcome": "source-only"
+        },
+        {
+          "caseId": "witch",
+          "target": "aniplus",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561226912,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14448
+        },
+        {
+          "caseId": "witch",
+          "target": "crunchyroll",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561241025,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14105
+        },
+        {
+          "caseId": "witch",
+          "target": "netflix",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.netflix.com/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561244111,
+            "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3083
+        },
+        {
+          "caseId": "witch",
+          "target": "prime",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561247849,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3806
+        },
+        {
+          "caseId": "witch",
+          "target": "apple",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "apple",
+            "status": "unavailable",
+            "checkedAt": 1794561248530,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 589
+        },
+        {
+          "caseId": "witch",
+          "target": "wavve",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "wavve",
+            "status": "available",
+            "checkedAt": 1794561253383,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+            "title": "어느 마녀가 죽을 때까지",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "pendingUrl": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season"
+            }
+          ],
+          "elapsedMs": 4951
+        },
+        {
+          "caseId": "witch",
+          "target": "tving",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561257122,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3685
+        },
+        {
+          "caseId": "witch",
+          "target": "coupang",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561257626,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 466
+        },
+        {
+          "caseId": "witch",
+          "target": "watcha",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://watcha.com/search?query=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561272234,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14612
+        },
+        {
+          "caseId": "frieren",
+          "target": "laftel",
+          "sourceExtracted": true,
+          "outcome": "source-only"
+        },
+        {
+          "caseId": "frieren",
+          "target": "aniplus",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561288868,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14356
+        },
+        {
+          "caseId": "frieren",
+          "target": "crunchyroll",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561302952,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14086
+        },
+        {
+          "caseId": "frieren",
+          "target": "netflix",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.netflix.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561305814,
+            "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2848
+        },
+        {
+          "caseId": "frieren",
+          "target": "prime",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561308856,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3104
+        },
+        {
+          "caseId": "frieren",
+          "target": "apple",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561311170,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2263
+        },
+        {
+          "caseId": "frieren",
+          "target": "wavve",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "wavve",
+            "status": "unknown",
+            "checkedAt": 1794561313604,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2427
+        },
+        {
+          "caseId": "frieren",
+          "target": "tving",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561317013,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3436
+        },
+        {
+          "caseId": "frieren",
+          "target": "coupang",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561317489,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 438
+        },
+        {
+          "caseId": "frieren",
+          "target": "watcha",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://watcha.com/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561331950,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14461
+        },
+        {
+          "caseId": "sakura",
+          "target": "laftel",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://laftel.net/search?keyword=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "laftel",
+            "status": "unavailable",
+            "checkedAt": 1794561333507,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 133
+        },
+        {
+          "caseId": "sakura",
+          "target": "aniplus",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561347839,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14349
+        },
+        {
+          "caseId": "sakura",
+          "target": "crunchyroll",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561362267,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14430
+        },
+        {
+          "caseId": "sakura",
+          "target": "netflix",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.netflix.com/search?q=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561364741,
+            "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2461
+        },
+        {
+          "caseId": "sakura",
+          "target": "prime",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561368571,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3919
+        },
+        {
+          "caseId": "sakura",
+          "target": "apple",
+          "sourceExtracted": true,
+          "outcome": "source-only"
+        },
+        {
+          "caseId": "sakura",
+          "target": "wavve",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "wavve",
+            "status": "unknown",
+            "checkedAt": 1794561373137,
+            "reason": "검색 결과와 상세 작품의 제목·연도가 다릅니다. 자동으로 이동하지 않았습니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 4484
+        },
+        {
+          "caseId": "sakura",
+          "target": "tving",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561376637,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3513
+        },
+        {
+          "caseId": "sakura",
+          "target": "coupang",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561377180,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 511
+        },
+        {
+          "caseId": "sakura",
+          "target": "watcha",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://watcha.com/search?query=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561391690,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14511
+        },
+        {
+          "caseId": "apothecary",
+          "target": "laftel",
+          "sourceExtracted": true,
+          "outcome": "source-only"
+        },
+        {
+          "caseId": "apothecary",
+          "target": "aniplus",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561409032,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14164
+        },
+        {
+          "caseId": "apothecary",
+          "target": "crunchyroll",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561423434,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14403
+        },
+        {
+          "caseId": "apothecary",
+          "target": "netflix",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.netflix.com/search?q=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561426381,
+            "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2933
+        },
+        {
+          "caseId": "apothecary",
+          "target": "prime",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561429569,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3277
+        },
+        {
+          "caseId": "apothecary",
+          "target": "apple",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561432123,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2475
+        },
+        {
+          "caseId": "apothecary",
+          "target": "wavve",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "wavve",
+            "status": "unavailable",
+            "checkedAt": 1794561434095,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 1973
+        },
+        {
+          "caseId": "apothecary",
+          "target": "tving",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561437735,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3653
+        },
+        {
+          "caseId": "apothecary",
+          "target": "coupang",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561438231,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 464
+        },
+        {
+          "caseId": "apothecary",
+          "target": "watcha",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://watcha.com/search?query=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561452446,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14214
+        },
+        {
+          "caseId": "nia",
+          "target": "laftel",
+          "sourceExtracted": true,
+          "outcome": "source-only"
+        },
+        {
+          "caseId": "nia",
+          "target": "aniplus",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561469212,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14412
+        },
+        {
+          "caseId": "nia",
+          "target": "crunchyroll",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561483655,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14450
+        },
+        {
+          "caseId": "nia",
+          "target": "netflix",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.netflix.com/search?q=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561486065,
+            "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2392
+        },
+        {
+          "caseId": "nia",
+          "target": "prime",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561489158,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3164
+        },
+        {
+          "caseId": "nia",
+          "target": "apple",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "apple",
+            "status": "unavailable",
+            "checkedAt": 1794561489496,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 246
+        },
+        {
+          "caseId": "nia",
+          "target": "wavve",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "wavve",
+            "status": "unavailable",
+            "checkedAt": 1794561491375,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 1924
+        },
+        {
+          "caseId": "nia",
+          "target": "tving",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561494760,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3381
+        },
+        {
+          "caseId": "nia",
+          "target": "coupang",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561495235,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 436
+        },
+        {
+          "caseId": "nia",
+          "target": "watcha",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://watcha.com/search?query=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561509705,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14472
+        },
+        {
+          "caseId": "rezero",
+          "target": "laftel",
+          "sourceExtracted": true,
+          "outcome": "source-only"
+        },
+        {
+          "caseId": "rezero",
+          "target": "aniplus",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561525955,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14172
+        },
+        {
+          "caseId": "rezero",
+          "target": "crunchyroll",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561526646,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 679
+        },
+        {
+          "caseId": "rezero",
+          "target": "netflix",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.netflix.com/search?q=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561529759,
+            "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3114
+        },
+        {
+          "caseId": "rezero",
+          "target": "prime",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561533740,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 4085
+        },
+        {
+          "caseId": "rezero",
+          "target": "apple",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "apple",
+            "status": "unavailable",
+            "checkedAt": 1794561534351,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 483
+        },
+        {
+          "caseId": "rezero",
+          "target": "wavve",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "wavve",
+            "status": "available",
+            "checkedAt": 1794561538938,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000245&landing=season",
+            "title": "Re: 제로부터 시작하는 이세계 생활 감독판",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "pendingUrl": "https://www.wavve.com/player/vod?programid=C6101_C61000000245&landing=season"
+            }
+          ],
+          "elapsedMs": 4662
+        },
+        {
+          "caseId": "rezero",
+          "target": "tving",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561543143,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 4183
+        },
+        {
+          "caseId": "rezero",
+          "target": "coupang",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561543721,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 533
+        },
+        {
+          "caseId": "rezero",
+          "target": "watcha",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://watcha.com/search?query=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561558169,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14442
+        },
+        {
+          "caseId": "dungeon",
+          "target": "laftel",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://laftel.net/search?keyword=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "laftel",
+            "status": "unavailable",
+            "checkedAt": 1794561563373,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 194
+        },
+        {
+          "caseId": "dungeon",
+          "target": "aniplus",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561577574,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14213
+        },
+        {
+          "caseId": "dungeon",
+          "target": "crunchyroll",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561592139,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14573
+        },
+        {
+          "caseId": "dungeon",
+          "target": "netflix",
+          "sourceExtracted": true,
+          "outcome": "source-only"
+        },
+        {
+          "caseId": "dungeon",
+          "target": "prime",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "prime",
+            "status": "unknown",
+            "checkedAt": 1794561594919,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2782
+        },
+        {
+          "caseId": "dungeon",
+          "target": "apple",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561597533,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2588
+        },
+        {
+          "caseId": "dungeon",
+          "target": "wavve",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "wavve",
+            "status": "unavailable",
+            "checkedAt": 1794561599424,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 1897
+        },
+        {
+          "caseId": "dungeon",
+          "target": "tving",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561603175,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3769
+        },
+        {
+          "caseId": "dungeon",
+          "target": "coupang",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561603833,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 615
+        },
+        {
+          "caseId": "dungeon",
+          "target": "watcha",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://watcha.com/search?query=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561618285,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14470
+        },
+        {
+          "caseId": "dinner",
+          "target": "laftel",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://laftel.net/search?keyword=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "laftel",
+            "status": "unavailable",
+            "checkedAt": 1794561623173,
+            "reason": "검색된 동일 작품의 서비스 종료 또는 재생 불가 상태가 확인되었습니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 122
+        },
+        {
+          "caseId": "dinner",
+          "target": "aniplus",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561637245,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14090
+        },
+        {
+          "caseId": "dinner",
+          "target": "crunchyroll",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.crunchyroll.com/search?q=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "crunchyroll",
+            "status": "unknown",
+            "checkedAt": 1794561651565,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14329
+        },
+        {
+          "caseId": "dinner",
+          "target": "netflix",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.netflix.com/search?q=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "netflix",
+            "status": "unknown",
+            "checkedAt": 1794561654545,
+            "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2946
+        },
+        {
+          "caseId": "dinner",
+          "target": "prime",
+          "sourceExtracted": true,
+          "outcome": "source-only"
+        },
+        {
+          "caseId": "dinner",
+          "target": "apple",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561656788,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2260
+        },
+        {
+          "caseId": "dinner",
+          "target": "wavve",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "wavve",
+            "status": "unavailable",
+            "checkedAt": 1794561658672,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 1878
+        },
+        {
+          "caseId": "dinner",
+          "target": "tving",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561662654,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3990
+        },
+        {
+          "caseId": "dinner",
+          "target": "coupang",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.coupangplay.com/search?q=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "coupang",
+            "status": "unknown",
+            "checkedAt": 1794561663127,
+            "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 444
+        },
+        {
+          "caseId": "dinner",
+          "target": "watcha",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://watcha.com/search?query=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "watcha",
+            "status": "unknown",
+            "checkedAt": 1794561677549,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14415
+        }
+      ]
+    },
+    {
+      "name": "cross-check-extension-fixed",
+      "mode": "extension",
+      "startedAt": "2026-11-13T09:23:08.168Z",
+      "finishedAt": "2026-11-13T09:27:10.603Z",
+      "commit": "45f0077a8c14b41dd09625d83dfb1d6b8ad1cabf",
+      "build": {
+        "background.js": "399be63bebd79bf887bff59d0c0f1963b22a896572a4a73e46d11f70fa49f37d",
+        "content.js": "0dae7bedfddd97057a397b60ce9d1e18eef5bea352e5ae156f6cfaf645384b2e",
+        "manifest.json": "07d355a9a4ea5ee120af42ab7f4a0da2d49802abcc45f617651b31b6f21f3ad4"
+      },
+      "environment": "isolated Chromium, anonymous public pages, Korea host; does not prove account playback entitlement",
+      "summary": {
+        "unknown": 21,
+        "available": 5,
+        "ambiguous": 1,
+        "source-only": 1,
+        "unavailable": 4
+      },
+      "cases": [
+        {
+          "id": "witch",
+          "query": "어느 마녀가 죽을 때까지",
+          "source": {
+            "finalUrl": "https://laftel.net/item/42783",
+            "title": "어느 마녀가 죽을 때까지",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "frieren",
+          "query": "장송의 프리렌",
+          "source": {
+            "finalUrl": "https://laftel.net/item/41666",
+            "title": "장송의 프리렌",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "sakura",
+          "query": "카드캡터 사쿠라",
+          "source": {
+            "finalUrl": "https://tv.apple.com/kr/show/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d",
+            "title": "카드캡터 체리",
+            "aliases": [],
+            "imagePresent": false,
+            "descriptionPresent": false
+          }
+        },
+        {
+          "id": "apothecary",
+          "query": "약사의 혼잣말",
+          "source": {
+            "finalUrl": "https://laftel.net/item/41714",
+            "title": "약사의 혼잣말",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "nia",
+          "query": "흉란영애 니아 리스톤",
+          "source": {
+            "finalUrl": "https://laftel.net/item/47452",
+            "title": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "rezero",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "source": {
+            "finalUrl": "https://laftel.net/item/39644",
+            "title": "Re : 제로부터 시작하는 이세계 생활 감독판",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "dungeon",
+          "query": "던전밥",
+          "source": {
+            "finalUrl": "https://www.netflix.com/kr/title/81564899",
+            "title": "던전밥",
+            "aliases": [],
+            "year": 2024,
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "dinner",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "source": {
+            "finalUrl": "https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2",
+            "title": "수수께끼 풀이는 저녁식사 후에",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        }
+      ],
+      "results": [
+        {
+          "caseId": "witch",
+          "target": "aniplus",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561809646,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14253
+        },
+        {
+          "caseId": "witch",
+          "target": "apple",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561824160,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14517
+        },
+        {
+          "caseId": "witch",
+          "target": "wavve",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "wavve",
+            "status": "available",
+            "checkedAt": 1794561829062,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+            "title": "어느 마녀가 죽을 때까지",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "pendingUrl": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season"
+            }
+          ],
+          "elapsedMs": 4931
+        },
+        {
+          "caseId": "witch",
+          "target": "tving",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561835520,
+            "reason": "검색 결과와 상세 작품의 제목·연도가 다릅니다. 자동으로 이동하지 않았습니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 6459
+        },
+        {
+          "caseId": "frieren",
+          "target": "aniplus",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "aniplus",
+            "status": "available",
+            "checkedAt": 1794561843652,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://www.aniplustv.com/items/3011",
+            "title": "장송의 프리렌",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "url": "https://www.aniplustv.com/items/3011"
+            }
+          ],
+          "elapsedMs": 4052
+        },
+        {
+          "caseId": "frieren",
+          "target": "apple",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561846031,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2302
+        },
+        {
+          "caseId": "frieren",
+          "target": "wavve",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "wavve",
+            "status": "unknown",
+            "checkedAt": 1794561849361,
+            "reason": "같은 제목의 검색 카드가 여러 개입니다. 공식 검색에서 작품을 선택해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3340
+        },
+        {
+          "caseId": "frieren",
+          "target": "tving",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "tving",
+            "status": "ambiguous",
+            "checkedAt": 1794561854516,
+            "reason": "같은 제목의 여러 버전이 있습니다. 자막·더빙·시즌을 확인한 뒤 연결하세요.",
+            "candidates": [
+              {
+                "title": "장송의 프리렌",
+                "url": "https://www.tving.com/contents/P001760783"
+              },
+              {
+                "title": "장송의 프리렌",
+                "url": "https://www.tving.com/contents/P001747384"
+              }
+            ]
+          },
+          "finalTabs": [],
+          "elapsedMs": 5166
+        },
+        {
+          "caseId": "sakura",
+          "target": "aniplus",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561873289,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14164
+        },
+        {
+          "caseId": "sakura",
+          "target": "apple",
+          "sourceExtracted": true,
+          "outcome": "source-only"
+        },
+        {
+          "caseId": "sakura",
+          "target": "wavve",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "wavve",
+            "status": "unknown",
+            "checkedAt": 1794561878257,
+            "reason": "검색 결과와 상세 작품의 제목·연도가 다릅니다. 자동으로 이동하지 않았습니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 4961
+        },
+        {
+          "caseId": "sakura",
+          "target": "tving",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561882862,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 4623
+        },
+        {
+          "caseId": "apothecary",
+          "target": "aniplus",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561901412,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14307
+        },
+        {
+          "caseId": "apothecary",
+          "target": "apple",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561903786,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2370
+        },
+        {
+          "caseId": "apothecary",
+          "target": "wavve",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "wavve",
+            "status": "unavailable",
+            "checkedAt": 1794561906297,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2520
+        },
+        {
+          "caseId": "apothecary",
+          "target": "tving",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561909829,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3528
+        },
+        {
+          "caseId": "nia",
+          "target": "aniplus",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "aniplus",
+            "status": "available",
+            "checkedAt": 1794561917739,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://www.aniplustv.com/items/3960",
+            "title": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "url": "https://www.aniplustv.com/items/3960"
+            }
+          ],
+          "elapsedMs": 3853
+        },
+        {
+          "caseId": "nia",
+          "target": "apple",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561932211,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14413
+        },
+        {
+          "caseId": "nia",
+          "target": "wavve",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "wavve",
+            "status": "unavailable",
+            "checkedAt": 1794561934179,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 1980
+        },
+        {
+          "caseId": "nia",
+          "target": "tving",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561937117,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2944
+        },
+        {
+          "caseId": "rezero",
+          "target": "aniplus",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "aniplus",
+            "status": "available",
+            "checkedAt": 1794561946702,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://www.aniplustv.com/items/2259",
+            "title": "Re:제로부터 시작하는 이세계 생활 감독판",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "url": "https://www.aniplustv.com/items/2259"
+            }
+          ],
+          "elapsedMs": 5028
+        },
+        {
+          "caseId": "rezero",
+          "target": "apple",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561961308,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14526
+        },
+        {
+          "caseId": "rezero",
+          "target": "wavve",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "wavve",
+            "status": "available",
+            "checkedAt": 1794561965804,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000245&landing=season",
+            "title": "Re: 제로부터 시작하는 이세계 생활 감독판",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000245&landing=season"
+            }
+          ],
+          "elapsedMs": 4688
+        },
+        {
+          "caseId": "rezero",
+          "target": "tving",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794561974447,
+            "reason": "검색 결과와 상세 작품의 제목·연도가 다릅니다. 자동으로 이동하지 않았습니다."
+          },
+          "finalTabs": [],
+          "elapsedMs": 8435
+        },
+        {
+          "caseId": "dungeon",
+          "target": "aniplus",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794561994849,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14133
+        },
+        {
+          "caseId": "dungeon",
+          "target": "apple",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794561998011,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3188
+        },
+        {
+          "caseId": "dungeon",
+          "target": "wavve",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "wavve",
+            "status": "unavailable",
+            "checkedAt": 1794562000480,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2464
+        },
+        {
+          "caseId": "dungeon",
+          "target": "tving",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794562004142,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3638
+        },
+        {
+          "caseId": "dinner",
+          "target": "aniplus",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794562023041,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14369
+        },
+        {
+          "caseId": "dinner",
+          "target": "apple",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://tv.apple.com/kr/search?term=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "apple",
+            "status": "unknown",
+            "checkedAt": 1794562025221,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 2176
+        },
+        {
+          "caseId": "dinner",
+          "target": "wavve",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.wavve.com/search?searchWord=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "wavve",
+            "status": "unavailable",
+            "checkedAt": 1794562027101,
+            "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 1879
+        },
+        {
+          "caseId": "dinner",
+          "target": "tving",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794562030557,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3465
+        }
+      ]
+    },
+    {
+      "name": "cross-check-tving-final",
+      "mode": "extension",
+      "startedAt": "2026-11-13T09:30:20.690Z",
+      "finishedAt": "2026-11-13T09:31:47.950Z",
+      "commit": "5c80235889a426cb704f9b14c1031adbdedbeaae",
+      "build": {
+        "background.js": "657e9e2c4eebca08f6406e793d19114fad2c1b8136915d1966206a47058671a8",
+        "content.js": "31fd75f9f01813f53f85719d7821a1c8b94dd867216c985e2ab6d38fa47b5c13",
+        "manifest.json": "0638f017f4b3e81a654469fcbb076b9ae35df2f67e3d42395cd35bc5ee9fdb27"
+      },
+      "environment": "isolated Chromium, anonymous public pages, Korea host; does not prove account playback entitlement",
+      "summary": {
+        "available": 2,
+        "ambiguous": 1,
+        "unknown": 5
+      },
+      "cases": [
+        {
+          "id": "witch",
+          "query": "어느 마녀가 죽을 때까지",
+          "source": {
+            "finalUrl": "https://laftel.net/item/42783",
+            "title": "어느 마녀가 죽을 때까지",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "frieren",
+          "query": "장송의 프리렌",
+          "source": {
+            "finalUrl": "https://laftel.net/item/41666",
+            "title": "장송의 프리렌",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "sakura",
+          "query": "카드캡터 사쿠라",
+          "source": {
+            "finalUrl": "https://tv.apple.com/kr/show/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d",
+            "title": "카드캡터 체리",
+            "aliases": [],
+            "imagePresent": false,
+            "descriptionPresent": false
+          }
+        },
+        {
+          "id": "apothecary",
+          "query": "약사의 혼잣말",
+          "source": {
+            "finalUrl": "https://laftel.net/item/41714",
+            "title": "약사의 혼잣말",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "nia",
+          "query": "흉란영애 니아 리스톤",
+          "source": {
+            "finalUrl": "https://laftel.net/item/47452",
+            "title": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "rezero",
+          "query": "Re: 제로부터 시작하는 이세계 생활",
+          "source": {
+            "finalUrl": "https://laftel.net/item/39644",
+            "title": "Re : 제로부터 시작하는 이세계 생활 감독판",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "dungeon",
+          "query": "던전밥",
+          "source": {
+            "finalUrl": "https://www.netflix.com/kr/title/81564899",
+            "title": "던전밥",
+            "aliases": [],
+            "year": 2024,
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "dinner",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "source": {
+            "finalUrl": "https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2",
+            "title": "수수께끼 풀이는 저녁식사 후에",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        }
+      ],
+      "results": [
+        {
+          "caseId": "witch",
+          "target": "tving",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "tving",
+            "status": "available",
+            "checkedAt": 1794562238780,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://www.tving.com/contents/P001791654",
+            "title": "어느 마녀가 죽을 때까지",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "pendingUrl": "https://www.tving.com/contents/P001791654"
+            }
+          ],
+          "elapsedMs": 10606
+        },
+        {
+          "caseId": "frieren",
+          "target": "tving",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "tving",
+            "status": "ambiguous",
+            "checkedAt": 1794562246693,
+            "reason": "같은 제목의 여러 버전이 있습니다. 자막·더빙·시즌을 확인한 뒤 연결하세요.",
+            "candidates": [
+              {
+                "title": "장송의 프리렌",
+                "url": "https://www.tving.com/contents/P001760783"
+              },
+              {
+                "title": "장송의 프리렌",
+                "url": "https://www.tving.com/contents/P001747384"
+              }
+            ]
+          },
+          "manualChecks": [
+            {
+              "candidate": {
+                "title": "장송의 프리렌",
+                "url": "https://www.tving.com/contents/P001760783"
+              },
+              "result": {
+                "provider": "tving",
+                "status": "available",
+                "checkedAt": 1794562249651,
+                "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+                "url": "https://www.tving.com/contents/P001760783",
+                "title": "장송의 프리렌",
+                "opened": true
+              }
+            },
+            {
+              "candidate": {
+                "title": "장송의 프리렌",
+                "url": "https://www.tving.com/contents/P001747384"
+              },
+              "result": {
+                "provider": "tving",
+                "status": "available",
+                "checkedAt": 1794562252279,
+                "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+                "url": "https://www.tving.com/contents/P001747384",
+                "title": "장송의 프리렌",
+                "opened": true
+              }
+            }
+          ],
+          "finalTabs": [
+            {
+              "pendingUrl": "https://www.tving.com/contents/P001747384"
+            }
+          ],
+          "elapsedMs": 8715
+        },
+        {
+          "caseId": "sakura",
+          "target": "tving",
+          "query": "카드캡터 체리",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%B2%B4%EB%A6%AC",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794562260470,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3625
+        },
+        {
+          "caseId": "apothecary",
+          "target": "tving",
+          "query": "약사의 혼잣말",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794562268272,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3359
+        },
+        {
+          "caseId": "nia",
+          "target": "tving",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794562276195,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3525
+        },
+        {
+          "caseId": "rezero",
+          "target": "tving",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=Re%20%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "tving",
+            "status": "available",
+            "checkedAt": 1794562287096,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://www.tving.com/contents/P001117839",
+            "title": "Re:제로부터 시작하는 이세계 생활 감독판",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "pendingUrl": "https://www.tving.com/contents/P001117839"
+            }
+          ],
+          "elapsedMs": 6094
+        },
+        {
+          "caseId": "dungeon",
+          "target": "tving",
+          "query": "던전밥",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EB%8D%98%EC%A0%84%EB%B0%A5",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794562299263,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3690
+        },
+        {
+          "caseId": "dinner",
+          "target": "tving",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.tving.com/search?keyword=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "tving",
+            "status": "unknown",
+            "checkedAt": 1794562307884,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 3791
+        }
+      ]
+    },
+    {
+      "name": "cross-check-aniplus-ambiguity-final",
+      "mode": "extension",
+      "startedAt": "2026-11-13T09:30:31.298Z",
+      "finishedAt": "2026-11-13T09:31:00.920Z",
+      "commit": "5c80235889a426cb704f9b14c1031adbdedbeaae",
+      "build": {
+        "background.js": "657e9e2c4eebca08f6406e793d19114fad2c1b8136915d1966206a47058671a8",
+        "content.js": "31fd75f9f01813f53f85719d7821a1c8b94dd867216c985e2ab6d38fa47b5c13",
+        "manifest.json": "0638f017f4b3e81a654469fcbb076b9ae35df2f67e3d42395cd35bc5ee9fdb27"
+      },
+      "environment": "isolated Chromium, anonymous public pages, Korea host; does not prove account playback entitlement",
+      "summary": {
+        "unknown": 1
+      },
+      "cases": [
+        {
+          "id": "frieren",
+          "query": "장송의 프리렌",
+          "source": {
+            "finalUrl": "https://laftel.net/item/41666",
+            "title": "장송의 프리렌",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        }
+      ],
+      "results": [
+        {
+          "caseId": "frieren",
+          "target": "aniplus",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "aniplus",
+            "status": "unknown",
+            "checkedAt": 1794562260883,
+            "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+          },
+          "finalTabs": [],
+          "elapsedMs": 14559
+        }
+      ]
+    },
+    {
+      "name": "cross-check-reverse",
+      "mode": "extension",
+      "startedAt": "2026-11-13T09:27:37.262Z",
+      "finishedAt": "2026-11-13T09:28:13.928Z",
+      "commit": "45f0077a8c14b41dd09625d83dfb1d6b8ad1cabf",
+      "build": {
+        "background.js": "fc3775807574dad8dd1650358ac1ba78834d70f5652bbe9886dec8c0303867c7",
+        "content.js": "245d241d1c148bb3ae3a881ed1a8a1eb7d12998f43ffd9f1ba766b206bc548e0",
+        "manifest.json": "07d355a9a4ea5ee120af42ab7f4a0da2d49802abcc45f617651b31b6f21f3ad4"
+      },
+      "environment": "isolated Chromium, anonymous public pages, Korea host; does not prove account playback entitlement",
+      "summary": {
+        "available": 4,
+        "ambiguous": 1
+      },
+      "cases": [
+        {
+          "id": "witch-wavve-to-laftel",
+          "query": "어느 마녀가 죽을 때까지",
+          "source": {
+            "finalUrl": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+            "title": "어느 마녀가 죽을 때까지",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "frieren-aniplus-to-laftel",
+          "query": "장송의 프리렌",
+          "source": {
+            "finalUrl": "https://www.aniplustv.com/items/3011",
+            "title": "장송의 프리렌",
+            "aliases": [
+              "葬送のフリーレン"
+            ],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "nia-aniplus-to-laftel",
+          "query": "흉란영애 니아 리스톤",
+          "source": {
+            "finalUrl": "https://www.aniplustv.com/items/3960",
+            "title": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+            "aliases": [
+              "凶乱令嬢ニア・リストン 病弱令嬢に転生した神殺しの武人の華麗なる無双録"
+            ],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "rezero-wavve-to-laftel",
+          "query": "Re : 제로부터 시작하는 이세계 생활 감독판",
+          "source": {
+            "finalUrl": "https://www.wavve.com/player/vod?programid=C6101_C61000000245&landing=season",
+            "title": "Re: 제로부터 시작하는 이세계 생활 감독판",
+            "aliases": [],
+            "imagePresent": false,
+            "descriptionPresent": true
+          }
+        },
+        {
+          "id": "dinner-laftel-to-prime",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "source": {
+            "finalUrl": "https://laftel.net/item/42767",
+            "title": "수수께끼 풀이는 저녁식사 후에",
+            "aliases": [],
+            "imagePresent": true,
+            "descriptionPresent": true
+          }
+        }
+      ],
+      "results": [
+        {
+          "caseId": "witch-wavve-to-laftel",
+          "target": "laftel",
+          "query": "어느 마녀가 죽을 때까지",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://laftel.net/search?keyword=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+          "result": {
+            "provider": "laftel",
+            "status": "available",
+            "checkedAt": 1794562064595,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://laftel.net/item/42783",
+            "title": "어느 마녀가 죽을 때까지",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "pendingUrl": "https://laftel.net/item/42783"
+            }
+          ],
+          "elapsedMs": 230
+        },
+        {
+          "caseId": "frieren-aniplus-to-laftel",
+          "target": "laftel",
+          "query": "장송의 프리렌",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://laftel.net/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+          "result": {
+            "provider": "laftel",
+            "status": "ambiguous",
+            "checkedAt": 1794562072153,
+            "reason": "같은 제목의 여러 버전이 있습니다. 자막·더빙·시즌을 확인한 뒤 연결하세요.",
+            "candidates": [
+              {
+                "title": "(자막) 장송의 프리렌",
+                "url": "https://laftel.net/item/41666"
+              },
+              {
+                "title": "(더빙) 장송의 프리렌",
+                "url": "https://laftel.net/item/42389"
+              }
+            ]
+          },
+          "manualChecks": [
+            {
+              "candidate": {
+                "title": "(자막) 장송의 프리렌",
+                "url": "https://laftel.net/item/41666"
+              },
+              "result": {
+                "provider": "laftel",
+                "status": "available",
+                "checkedAt": 1794562075212,
+                "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+                "url": "https://laftel.net/item/41666",
+                "title": "장송의 프리렌",
+                "opened": true
+              }
+            },
+            {
+              "candidate": {
+                "title": "(더빙) 장송의 프리렌",
+                "url": "https://laftel.net/item/42389"
+              },
+              "result": {
+                "provider": "laftel",
+                "status": "available",
+                "checkedAt": 1794562078269,
+                "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+                "url": "https://laftel.net/item/42389",
+                "title": "장송의 프리렌",
+                "opened": true
+              }
+            }
+          ],
+          "finalTabs": [
+            {
+              "pendingUrl": "https://laftel.net/item/42389"
+            }
+          ],
+          "elapsedMs": 6426
+        },
+        {
+          "caseId": "nia-aniplus-to-laftel",
+          "target": "laftel",
+          "query": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://laftel.net/search?keyword=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4%20-%EB%B3%91%EC%95%BD%ED%95%9C%20%EC%98%81%EC%95%A0%EB%A1%9C%20%EC%A0%84%EC%83%9D%ED%95%9C%20%EC%82%B4%EC%8B%A0%20%EB%AC%B4%EC%9D%B8%EC%9D%98%20%ED%99%94%EB%A0%A4%ED%95%9C%20%EB%AC%B4%EC%8C%8D%EB%8B%B4",
+          "result": {
+            "provider": "laftel",
+            "status": "available",
+            "checkedAt": 1794562083116,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://laftel.net/item/47452",
+            "title": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "pendingUrl": "https://laftel.net/item/47452"
+            }
+          ],
+          "elapsedMs": 192
+        },
+        {
+          "caseId": "rezero-wavve-to-laftel",
+          "target": "laftel",
+          "query": "Re: 제로부터 시작하는 이세계 생활 감독판",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://laftel.net/search?keyword=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C%20%EA%B0%90%EB%8F%85%ED%8C%90",
+          "result": {
+            "provider": "laftel",
+            "status": "available",
+            "checkedAt": 1794562087630,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://laftel.net/item/39644",
+            "title": "Re : 제로부터 시작하는 이세계 생활 감독판",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "pendingUrl": "https://laftel.net/item/39644"
+            }
+          ],
+          "elapsedMs": 162
+        },
+        {
+          "caseId": "dinner-laftel-to-prime",
+          "target": "prime",
+          "query": "수수께끼 풀이는 저녁식사 후에",
+          "sourceExtracted": true,
+          "directSearchUrl": "https://www.primevideo.com/search?phrase=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+          "result": {
+            "provider": "prime",
+            "status": "available",
+            "checkedAt": 1794562093873,
+            "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다.",
+            "url": "https://www.primevideo.com/detail/0TKRFV2FB8U18G5WS16GFOXNG2",
+            "title": "수수께끼 풀이는 저녁식사 후에",
+            "opened": true
+          },
+          "finalTabs": [
+            {
+              "pendingUrl": "https://www.primevideo.com/detail/0TKRFV2FB8U18G5WS16GFOXNG2"
+            }
+          ],
+          "elapsedMs": 1728
+        }
+      ]
+    }
+  ]
+}

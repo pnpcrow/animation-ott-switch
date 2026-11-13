@@ -690,7 +690,7 @@ function App() {
             >
               <CircleHelp size={18} />
             </button>
-            <span>v0.1.3</span>
+            <span>v0.1.4</span>
           </div>
         </div>
       </aside>

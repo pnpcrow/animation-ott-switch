@@ -1,0 +1,2383 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-11-13",
+  "purpose": "Independent official catalog observations plus unmodified0.1.3 function baseline, not a subscription availability database.",
+  "scope": {
+    "titles": 8,
+    "providers": 10,
+    "cells": 80,
+    "krPlaybackTested": false,
+    "accountsUsed": false,
+    "unavailableMeans": "Only the exact query and observed evidence; never a universal catalog or Korean playback assertion."
+  },
+  "sources": [
+    "artifacts/cross-check-official-western.json",
+    "artifacts/cross-check-official-korean.json",
+    "artifacts/cross-check-http.json",
+    "artifacts/cross-check-extension-baseline.json"
+  ],
+  "baseline": {
+    "commit": "45f0077a8c14b41dd09625d83dfb1d6b8ad1cabf",
+    "http": {
+      "startedAt": "2026-11-13T09:13:09.876Z",
+      "finishedAt": "2026-11-13T09:13:39.175Z",
+      "calls": 80,
+      "summary": {
+        "available": 1,
+        "unknown": 70,
+        "unavailable": 8,
+        "ambiguous": 1
+      }
+    },
+    "extension": {
+      "startedAt": "2026-11-13T09:13:27.129Z",
+      "finishedAt": "2026-11-13T09:21:17.570Z",
+      "rows": 80,
+      "sourceOnly": 8,
+      "openResolvedCalls": 72,
+      "summary": {
+        "source-only": 8,
+        "unknown": 60,
+        "unavailable": 10,
+        "available": 2
+      }
+    }
+  },
+  "titles": [
+    {
+      "id": "witch",
+      "input": "어느 마녀가 죽을떄까지",
+      "title": "어느 마녀가 죽을 때까지"
+    },
+    {
+      "id": "frieren",
+      "input": "장송의 프리렌",
+      "title": "장송의 프리렌"
+    },
+    {
+      "id": "sakura",
+      "input": "카드캡터 사쿠라",
+      "title": "카드캡터 사쿠라"
+    },
+    {
+      "id": "apothecary",
+      "input": "약사의 혼잣말",
+      "title": "약사의 혼잣말"
+    },
+    {
+      "id": "nia",
+      "input": "흉란영애 니아 리스톤",
+      "title": "흉란영애 니아 리스톤"
+    },
+    {
+      "id": "rezero",
+      "input": "Re: 제로부터 시작하는 이세계 생활",
+      "title": "Re: 제로부터 시작하는 이세계 생활"
+    },
+    {
+      "id": "dungeon",
+      "input": "던전밥",
+      "title": "던전밥"
+    },
+    {
+      "id": "dinner",
+      "input": "수수께끼 풀이는 저녁식사 후에",
+      "title": "수수께끼 풀이는 저녁식사 후에"
+    }
+  ],
+  "identityNotes": [
+    "카드캡터 사쿠라 / 카드캡터 체리 are localization aliases, but Clear Card, films, OVA and the original TV series remain separate works.",
+    "Laftel original Cardcaptor Cherry 15060 explicitly expired; related current Clear Card and movie catalog entries do not prove original TV availability.",
+    "Re:Zero director cut, season2 parts, later seasons and Frozen Bond movie are distinct editions; original Laftel33227 is expired.",
+    "Nia Liston official Laftel47452 and Aniplus3960 both use the long subtitle. Short-title matching needs corroborating metadata, not arbitrary prefix matching.",
+    "Laftel Apothecary41714 and Dinner42767 are registered metadata-only entries with viewing=false and noepisodes, not playable catalog positives.",
+    "Aniplus Frieren detail3011 visibly directs users to Laftel for viewing. Its official detail page is not proof of playable content on Aniplus itself.",
+    "All public catalog results are timestamped observations, not subscribed KR playback entitlement.",
+    "User typo 떄 normalized to 때 only in test label; do not blindly correct product title identities.",
+    "Netflix director's cut, recap specials, seasonal IDs, Cardcaptor series/film/Clear Card must stay distinct.",
+    "Prime public document title may be Season 2; source title needs visible metadata validation.",
+    "Crunchyroll can return a generic homepage at a valid series URL; never trust it as title.",
+    "Korean Apple TV catalog includes external-provider listings and is not Apple TV subscription availability."
+  ],
+  "cells": [
+    {
+      "titleId": "witch",
+      "provider": "laftel",
+      "evidence": {
+        "status": "api_catalog_candidates",
+        "kind": "official anonymous API",
+        "query": "어느 마녀가 죽을 때까지",
+        "url": "https://api.laftel.net/api/search/v3/keyword/?keyword=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+        "checkedAt": "2026-11-13T09:10:20.485Z",
+        "httpStatus": 200,
+        "count": 1,
+        "completePage": true,
+        "next": null,
+        "candidates": [
+          {
+            "title": "어느 마녀가 죽을 때까지",
+            "url": "https://laftel.net/item/42783",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          }
+        ],
+        "note": "Exact-title, edition and playable flags require separate interpretation. Partial pagination is not exhaustive absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "available",
+        "url": "https://laftel.net/item/42783",
+        "reason": "동일 제목의 작품 페이지를 확인했습니다. 재생 권한과 제공 지역은 서비스에서 확인하세요."
+      },
+      "baselineExtension": {
+        "status": "source-only"
+      }
+    },
+    {
+      "titleId": "witch",
+      "provider": "aniplus",
+      "evidence": {
+        "status": "no_matching_card_observed_not_global_absence",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "어느 마녀가 죽을 때까지",
+        "url": "https://www.aniplustv.com/Search?st=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+        "checkedAt": "2026-11-13T09:12:13.549Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "witch",
+      "provider": "crunchyroll",
+      "evidence": {
+        "status": "indexed_catalog_only",
+        "kind": "official-domain indexed title; direct open returned generic shell",
+        "observedTitle": "Once Upon a Witch's Death",
+        "urls": [
+          "https://www.crunchyroll.com/pt-br/series/GMEHME72W/once-upon-a-witchs-death"
+        ],
+        "note": "Official search index exposes the named series; direct web open instead returns generic Crunchyroll landing / browser-update content. Do not treat the homepage title as a work title; current rendered Korean account needs separate validation."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "witch",
+      "provider": "netflix",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      }
+    },
+    {
+      "titleId": "witch",
+      "provider": "prime",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "witch",
+      "provider": "apple",
+      "evidence": {
+        "status": "catalog_identity_confirmed",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "어느 마녀가 죽을 때까지",
+        "urls": [
+          "https://tv.apple.com/kr/show/%E1%84%8B%E1%85%A5%E1%84%82%E1%85%B3-%E1%84%86%E1%85%A1%E1%84%82%E1%85%A7%E1%84%80%E1%85%A1-%E1%84%8C%E1%85%AE%E1%86%A8%E1%84%8B%E1%85%B3%E1%86%AF-%E1%84%84%E1%85%A2%E1%84%81%E1%85%A1%E1%84%8C%E1%85%B5/umc.cmc.73fz5uhuj4bg23v2gz5eqblix"
+        ],
+        "note": "KR show catalog identity confirmed. Apple TV catalog does not prove Apple TV subscription inclusion."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      },
+      "baselineExtension": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      }
+    },
+    {
+      "titleId": "witch",
+      "provider": "wavve",
+      "evidence": {
+        "status": "matching_or_related_catalog_cards_observed",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "어느 마녀가 죽을 때까지",
+        "url": "https://www.wavve.com/search?searchWord=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+        "checkedAt": "2026-11-13T09:13:13.456Z",
+        "candidates": [
+          {
+            "title": "어느 마녀가 죽을 때까지",
+            "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+            "detailTitle": "어느 마녀가 죽을 때까지 : 웨이브"
+          }
+        ],
+        "observedTitles": ["어느 마녀가 죽을 때까지"],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "available",
+        "url": "https://www.wavve.com/player/vod?programid=CF02_CF0000000119&landing=season",
+        "opened": true,
+        "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다."
+      }
+    },
+    {
+      "titleId": "witch",
+      "provider": "tving",
+      "evidence": {
+        "status": "matching_or_related_catalog_cards_observed",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "어느 마녀가 죽을 때까지",
+        "url": "https://www.tving.com/search?keyword=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+        "checkedAt": "2026-11-13T09:13:00.985Z",
+        "candidates": [
+          {
+            "title": "어느 마녀가 죽을 때까지",
+            "url": "https://www.tving.com/contents/P001791654"
+          }
+        ],
+        "observedTitles": ["어느 마녀가 죽을 때까지"],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "witch",
+      "provider": "coupang",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      }
+    },
+    {
+      "titleId": "witch",
+      "provider": "watcha",
+      "evidence": {
+        "status": "anonymous_search_shell_without_results_or_empty_marker",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "어느 마녀가 죽을 때까지",
+        "url": "https://watcha.com/search?query=%EC%96%B4%EB%8A%90%20%EB%A7%88%EB%85%80%EA%B0%80%20%EC%A3%BD%EC%9D%84%20%EB%95%8C%EA%B9%8C%EC%A7%80",
+        "checkedAt": "2026-11-13T09:12:12.676Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "frieren",
+      "provider": "laftel",
+      "evidence": {
+        "status": "api_catalog_candidates",
+        "kind": "official anonymous API",
+        "query": "장송의 프리렌",
+        "url": "https://api.laftel.net/api/search/v3/keyword/?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+        "checkedAt": "2026-11-13T09:10:20.591Z",
+        "httpStatus": 200,
+        "count": 4,
+        "completePage": true,
+        "next": null,
+        "candidates": [
+          {
+            "title": "(자막) 장송의 프리렌",
+            "url": "https://laftel.net/item/41666",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "(자막) 장송의 프리렌 2기",
+            "url": "https://laftel.net/item/44281",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "(더빙) 장송의 프리렌",
+            "url": "https://laftel.net/item/42389",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "(더빙) 장송의 프리렌 2기",
+            "url": "https://laftel.net/item/45870",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          }
+        ],
+        "note": "Exact-title, edition and playable flags require separate interpretation. Partial pagination is not exhaustive absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "ambiguous",
+        "reason": "같은 제목의 여러 버전이 있습니다. 자막·더빙·시즌을 확인한 뒤 연결하세요."
+      },
+      "baselineExtension": {
+        "status": "source-only"
+      }
+    },
+    {
+      "titleId": "frieren",
+      "provider": "aniplus",
+      "evidence": {
+        "status": "matching_or_related_catalog_cards_observed",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "장송의 프리렌",
+        "url": "https://www.aniplustv.com/Search?st=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+        "checkedAt": "2026-11-13T09:12:29.397Z",
+        "candidates": [
+          {
+            "title": "장송의 프리렌(한국어더빙)",
+            "url": "https://www.aniplustv.com/items/3358",
+            "detailTitle": "장송의 프리렌(한국어더빙) - 애니플러스"
+          },
+          {
+            "title": "장송의 프리렌 2기 (한국어 더빙)",
+            "url": "https://www.aniplustv.com/items/3889",
+            "detailTitle": "장송의 프리렌 2기 (한국어 더빙) - 애니플러스"
+          },
+          {
+            "title": "장송의 프리렌 2기",
+            "url": "https://www.aniplustv.com/items/3782",
+            "detailTitle": "장송의 프리렌 2기 - 애니플러스"
+          },
+          {
+            "title": "장송의 프리렌",
+            "url": "https://www.aniplustv.com/items/3011",
+            "detailTitle": "장송의 프리렌 - 애니플러스"
+          }
+        ],
+        "observedTitles": [
+          "장송의 프리렌(한국어더빙)",
+          "장송의 프리렌 2기 (한국어 더빙)",
+          "장송의 프리렌 2기",
+          "장송의 프리렌"
+        ],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "frieren",
+      "provider": "crunchyroll",
+      "evidence": {
+        "status": "indexed_catalog_only",
+        "kind": "official-domain indexed title; direct open returned generic shell",
+        "observedTitle": "Frieren – Nach dem Ende der Reise",
+        "urls": [
+          "https://www.crunchyroll.com/de/series/GG5H5XQX4/frieren-beyond-journeys-end"
+        ],
+        "note": "Official search index exposes the named series; direct web open instead returns generic Crunchyroll landing / browser-update content. Do not treat the homepage title as a work title; current rendered Korean account needs separate validation."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "frieren",
+      "provider": "netflix",
+      "evidence": {
+        "status": "catalog_identity_confirmed",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "장송의 프리렌",
+        "urls": ["https://www.netflix.com/kr/title/81726714"],
+        "note": "KR path has correct title and story. Year displayed may reflect the newest season; paid playback not tested."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      }
+    },
+    {
+      "titleId": "frieren",
+      "provider": "prime",
+      "evidence": {
+        "status": "related_version",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "Frieren: Beyond Journey's End — Season 2",
+        "urls": [
+          "https://www.primevideo.com/detail/0SE34WYHAUR2RNAVB52KP1S8QH"
+        ],
+        "note": "Search index identifies Frieren Season 2, but direct document title is merely Prime Video: Season 2. Current page extraction must be checked; global catalog does not prove Korean availability."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "frieren",
+      "provider": "apple",
+      "evidence": {
+        "status": "catalog_identity_confirmed",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "장송의 프리렌",
+        "urls": [
+          "https://tv.apple.com/kr/show/%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%89%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%B4-%E1%84%91%E1%85%B3%E1%84%85%E1%85%B5%E1%84%85%E1%85%A6%E1%86%AB/umc.cmc.5xpadyi4v82jo7w8ypikenm7u"
+        ],
+        "note": "KR show catalog identity confirmed. Same show aggregates multiple seasons. Apple TV subscription inclusion not established."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "frieren",
+      "provider": "wavve",
+      "evidence": {
+        "status": "matching_or_related_catalog_cards_observed",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "장송의 프리렌",
+        "url": "https://www.wavve.com/search?searchWord=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+        "checkedAt": "2026-11-13T09:13:42.452Z",
+        "candidates": [
+          {
+            "title": "장송의 프리렌 (자막)",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000690&landing=season",
+            "detailTitle": "장송의 프리렌 (자막) : 웨이브"
+          },
+          {
+            "title": "장송의 프리렌 (더빙)",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000792&landing=season",
+            "detailTitle": "장송의 프리렌 (더빙) : 웨이브"
+          },
+          {
+            "title": "장송의 프리렌 2기 (더빙)",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000930&landing=season",
+            "detailTitle": "장송의 프리렌 2기 (더빙) : 웨이브"
+          },
+          {
+            "title": "장송의 프리렌 2기 (자막)",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000904&landing=season",
+            "detailTitle": "장송의 프리렌 2기 (자막) : 웨이브"
+          }
+        ],
+        "observedTitles": [
+          "장송의 프리렌 (자막)",
+          "장송의 프리렌 (더빙)",
+          "장송의 프리렌 2기 (더빙)",
+          "장송의 프리렌 2기 (자막)"
+        ],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "frieren",
+      "provider": "tving",
+      "evidence": {
+        "status": "matching_or_related_catalog_cards_observed",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "장송의 프리렌",
+        "url": "https://www.tving.com/search?keyword=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+        "checkedAt": "2026-11-13T09:13:03.736Z",
+        "candidates": [
+          {
+            "title": "장송의 프리렌 2기 (더빙)",
+            "url": "https://www.tving.com/contents/P001787100"
+          },
+          {
+            "title": "장송의 프리렌 2기",
+            "url": "https://www.tving.com/contents/P001781702"
+          },
+          {
+            "title": "장송의 프리렌 (더빙)",
+            "url": "https://www.tving.com/contents/P001760783"
+          },
+          {
+            "title": "장송의 프리렌 (자막)",
+            "url": "https://www.tving.com/contents/P001747384"
+          }
+        ],
+        "observedTitles": [
+          "장송의 프리렌 2기 (더빙)",
+          "장송의 프리렌 2기",
+          "장송의 프리렌 (더빙)",
+          "장송의 프리렌 (자막)"
+        ],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "frieren",
+      "provider": "coupang",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      }
+    },
+    {
+      "titleId": "frieren",
+      "provider": "watcha",
+      "evidence": {
+        "status": "anonymous_search_shell_without_results_or_empty_marker",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "장송의 프리렌",
+        "url": "https://watcha.com/search?query=%EC%9E%A5%EC%86%A1%EC%9D%98%20%ED%94%84%EB%A6%AC%EB%A0%8C",
+        "checkedAt": "2026-11-13T09:12:15.054Z",
+        "candidates": [],
+        "observedTitles": [],
+        "additionalIndexedEvidence": [
+          {
+            "provider": "watcha",
+            "title": "장송의 프리렌",
+            "url": "https://watcha.com/ko/contents/tRN7gzz",
+            "evidence": "Official public detail indexed by web search; season1 label and synopsis visible. Anonymous site search itself rendered empty shell in this environment."
+          }
+        ],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "sakura",
+      "provider": "laftel",
+      "evidence": {
+        "status": "api_catalog_candidates",
+        "kind": "official anonymous API",
+        "query": "카드캡터 사쿠라",
+        "url": "https://api.laftel.net/api/search/v3/keyword/?keyword=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+        "checkedAt": "2026-11-13T09:10:20.752Z",
+        "httpStatus": 200,
+        "count": 26,
+        "completePage": false,
+        "next": "https://api.laftel.net/api/search/v3/keyword/?keyword=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC&offset=20&size=20&svod=False&viewing_only=False",
+        "candidates": [
+          {
+            "title": "카드캡터 체리 : 마법의 카드",
+            "url": "https://laftel.net/item/14433",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "카드캡터 체리 : 봉인된 카드",
+            "url": "https://laftel.net/item/14434",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "카드캡터 체리 클리어카드",
+            "url": "https://laftel.net/item/41703",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "카드캡터 체리 OVA : 체리와 두 마리의 곰",
+            "url": "https://laftel.net/item/41704",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "코지코지 part 1",
+            "url": "https://laftel.net/item/19192",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "코지코지 part 2",
+            "url": "https://laftel.net/item/42699",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "(더빙) 마루코는 아홉살 3 part 1",
+            "url": "https://laftel.net/item/39185",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "(자막) 마루코는 아홉살 part 1",
+            "url": "https://laftel.net/item/42734",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "(자막) 마루코는 아홉살 part 2",
+            "url": "https://laftel.net/item/42859",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "카드캡터 체리 [2020년 판권 만료작]",
+            "url": "https://laftel.net/item/15060",
+            "expired": true,
+            "viewing": false,
+            "hasEpisodes": true
+          },
+          {
+            "title": "카드캡터 체리 클리어카드 [2020년 판권 만료작]",
+            "url": "https://laftel.net/item/38297",
+            "expired": true,
+            "viewing": false,
+            "hasEpisodes": true
+          },
+          {
+            "title": "마루코는 아홉살",
+            "url": "https://laftel.net/item/22889",
+            "expired": false,
+            "viewing": false,
+            "hasEpisodes": false
+          },
+          {
+            "title": "사쿠라 트릭",
+            "url": "https://laftel.net/item/23574",
+            "expired": false,
+            "viewing": false,
+            "hasEpisodes": false
+          },
+          {
+            "title": "사쿠라 대전 : 앵화현란 [2025년 판권 만료작]",
+            "url": "https://laftel.net/item/14843",
+            "expired": true,
+            "viewing": false,
+            "hasEpisodes": true
+          },
+          {
+            "title": "사쿠라 대전 : 굉화현란 [2025년 판권 만료작]",
+            "url": "https://laftel.net/item/14335",
+            "expired": true,
+            "viewing": false,
+            "hasEpisodes": true
+          },
+          {
+            "title": "사쿠라 대전",
+            "url": "https://laftel.net/item/14336",
+            "expired": false,
+            "viewing": false,
+            "hasEpisodes": false
+          },
+          {
+            "title": "사쿠라 대전 : 칸자키 스미레 은퇴 기념 [2025년 판권 만료작]",
+            "url": "https://laftel.net/item/17958",
+            "expired": true,
+            "viewing": false,
+            "hasEpisodes": true
+          },
+          {
+            "title": "사쿠라 대전 : 에콜 드 파리 [2025년 판권 만료작]",
+            "url": "https://laftel.net/item/13705",
+            "expired": true,
+            "viewing": false,
+            "hasEpisodes": true
+          },
+          {
+            "title": "사쿠라 대전 : 르 누보 파리 [2025년 판권 만료작]",
+            "url": "https://laftel.net/item/13706",
+            "expired": true,
+            "viewing": false,
+            "hasEpisodes": true
+          },
+          {
+            "title": "사쿠라 대전 : 뉴욕 뉴욕 [2025년 판권 만료작]",
+            "url": "https://laftel.net/item/13707",
+            "expired": true,
+            "viewing": false,
+            "hasEpisodes": true
+          }
+        ],
+        "note": "Exact-title, edition and playable flags require separate interpretation. Partial pagination is not exhaustive absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      }
+    },
+    {
+      "titleId": "sakura",
+      "provider": "aniplus",
+      "evidence": {
+        "status": "no_matching_card_observed_not_global_absence",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "카드캡터 사쿠라",
+        "url": "https://www.aniplustv.com/Search?st=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+        "checkedAt": "2026-11-13T09:12:31.573Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "sakura",
+      "provider": "crunchyroll",
+      "evidence": {
+        "status": "indexed_catalog_only",
+        "kind": "official-domain indexed title; direct open returned generic shell",
+        "observedTitle": "Cardcaptor Sakura",
+        "urls": [
+          "https://www.crunchyroll.com/es/series/GRNQP873R/cardcaptor-sakura"
+        ],
+        "note": "Official search index exposes the named series; direct web open instead returns generic Crunchyroll landing / browser-update content. Do not treat the homepage title as a work title; current rendered Korean account needs separate validation."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "sakura",
+      "provider": "netflix",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      }
+    },
+    {
+      "titleId": "sakura",
+      "provider": "prime",
+      "evidence": {
+        "status": "catalog_identity_confirmed",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "Cardcaptor Sakura",
+        "urls": [
+          "https://www.primevideo.com/detail/0SN04S4LTK5HL8UEC2QFODHD9Q"
+        ],
+        "note": "Global series catalog; separate film and Clear Card sequel exist with similar titles. Korean access not tested.",
+        "relatedVersions": [
+          {
+            "title": "Cardcaptor Sakura film",
+            "url": "https://www.primevideo.com/detail/0G0Y45NVSUWYV1KU5LLJ6DZQCC"
+          },
+          {
+            "title": "Cardcaptor Sakura: Clear Card",
+            "url": "https://www.primevideo.com/detail/0R9IU3SLOAOV7RUWVJNPAIZVB7"
+          }
+        ]
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "sakura",
+      "provider": "apple",
+      "evidence": {
+        "status": "catalog_identity_confirmed",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "카드캡터 체리",
+        "urls": [
+          "https://tv.apple.com/kr/show/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2yfxu8u0trajtjk7o3hsdyn2d"
+        ],
+        "note": "KR catalog series has original Japanese voice cast and Clow Cards story; localized alias requires evidence, not fuzzy title matching. Same-title movie is separate. Apple TV catalog is not Apple TV subscription availability.",
+        "relatedVersions": [
+          {
+            "title": "카드캡터 체리 movie",
+            "url": "https://tv.apple.com/kr/movie/%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5/umc.cmc.2o53u5rxd65rhk9klisyfndbh"
+          },
+          {
+            "title": "극장판 카드캡터 체리: 봉인된 카드",
+            "url": "https://tv.apple.com/kr/movie/%E1%84%80%E1%85%B3%E1%86%A8%E1%84%8C%E1%85%A1%E1%86%BC%E1%84%91%E1%85%A1%E1%86%AB-%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A2%E1%86%B8%E1%84%90%E1%85%A5-%E1%84%8E%E1%85%A6%E1%84%85%E1%85%B5-%E1%84%87%E1%85%A9%E1%86%BC%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%83%E1%85%AC%E1%86%AB-%E1%84%8F%E1%85%A1%E1%84%83%E1%85%B3/umc.cmc.2i1sosz5zec0z0osiemuuuj0y"
+          }
+        ]
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      },
+      "baselineExtension": {
+        "status": "source-only"
+      }
+    },
+    {
+      "titleId": "sakura",
+      "provider": "wavve",
+      "evidence": {
+        "status": "matching_or_related_catalog_cards_observed",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "카드캡터 사쿠라",
+        "url": "https://www.wavve.com/search?searchWord=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+        "checkedAt": "2026-11-13T09:13:49.975Z",
+        "candidates": [
+          {
+            "title": "카드캡터 체리",
+            "url": "https://www.wavve.com/player/movie?movieid=MV_WA01_WA0000000034",
+            "detailTitle": "카드캡터 체리 : 웨이브",
+            "note": "Movie route; not proof of original television-series identity"
+          }
+        ],
+        "observedTitles": ["카드캡터 체리"],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과와 상세 작품의 제목·연도가 다릅니다. 자동으로 이동하지 않았습니다."
+      }
+    },
+    {
+      "titleId": "sakura",
+      "provider": "tving",
+      "evidence": {
+        "status": "matching_or_related_catalog_cards_observed",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "카드캡터 사쿠라",
+        "url": "https://www.tving.com/search?keyword=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+        "checkedAt": "2026-11-13T09:13:06.189Z",
+        "candidates": [
+          {
+            "title": "카드캡터 체리 클리어 카드",
+            "url": "https://www.tving.com/contents/P000798539"
+          },
+          {
+            "title": "카드캡터체리 클리어카드 OVA : 체리와 두 마리의 곰",
+            "url": "https://www.tving.com/contents/P000791840"
+          },
+          {
+            "title": "극장판카드캡터체리:봉인된카드",
+            "url": "https://www.tving.com/contents/M000366485"
+          }
+        ],
+        "observedTitles": [
+          "카드캡터 체리 클리어 카드",
+          "카드캡터체리 클리어카드 OVA : 체리와 두 마리의 곰",
+          "극장판카드캡터체리:봉인된카드"
+        ],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "sakura",
+      "provider": "coupang",
+      "evidence": {
+        "status": "related_indexed_title_blocked",
+        "kind": "official-domain web search",
+        "observedTitle": "카드캡터 체리: 마법의 카드",
+        "urls": [
+          "https://www.coupangplay.com/content/db1a3ae0-49aa-401b-a481-524aa33c2941"
+        ],
+        "note": "Search index shows related Cardcaptor title. Direct open redirects to /not-available; original-series identity and Korean playback not proven. Do not treat as exact original-series positive."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      }
+    },
+    {
+      "titleId": "sakura",
+      "provider": "watcha",
+      "evidence": {
+        "status": "anonymous_search_shell_without_results_or_empty_marker",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "카드캡터 사쿠라",
+        "url": "https://watcha.com/search?query=%EC%B9%B4%EB%93%9C%EC%BA%A1%ED%84%B0%20%EC%82%AC%EC%BF%A0%EB%9D%BC",
+        "checkedAt": "2026-11-13T09:12:17.272Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "apothecary",
+      "provider": "laftel",
+      "evidence": {
+        "status": "api_catalog_candidates",
+        "kind": "official anonymous API",
+        "query": "약사의 혼잣말",
+        "url": "https://api.laftel.net/api/search/v3/keyword/?keyword=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+        "checkedAt": "2026-11-13T09:10:20.847Z",
+        "httpStatus": 200,
+        "count": 2,
+        "completePage": true,
+        "next": null,
+        "candidates": [
+          {
+            "title": "약사의 혼잣말",
+            "url": "https://laftel.net/item/41714",
+            "expired": false,
+            "viewing": false,
+            "hasEpisodes": false
+          },
+          {
+            "title": "약사의 혼잣말 시즌 2",
+            "url": "https://laftel.net/item/42741",
+            "expired": false,
+            "viewing": false,
+            "hasEpisodes": false
+          }
+        ],
+        "note": "Exact-title, edition and playable flags require separate interpretation. Partial pagination is not exhaustive absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unavailable",
+        "reason": "검색된 동일 작품의 서비스 종료 또는 재생 불가 상태가 확인되었습니다."
+      },
+      "baselineExtension": {
+        "status": "source-only"
+      }
+    },
+    {
+      "titleId": "apothecary",
+      "provider": "aniplus",
+      "evidence": {
+        "status": "no_matching_card_observed_not_global_absence",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "약사의 혼잣말",
+        "url": "https://www.aniplustv.com/Search?st=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+        "checkedAt": "2026-11-13T09:12:33.709Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "apothecary",
+      "provider": "crunchyroll",
+      "evidence": {
+        "status": "indexed_catalog_only",
+        "kind": "official-domain indexed title; direct open returned generic shell",
+        "observedTitle": "The Apothecary Diaries",
+        "urls": [
+          "https://www.crunchyroll.com/series/G3KHEVDJ7/the-apothecary-diaries"
+        ],
+        "note": "Official search index exposes the named series; direct web open instead returns generic Crunchyroll landing / browser-update content. Do not treat the homepage title as a work title; current rendered Korean account needs separate validation."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "apothecary",
+      "provider": "netflix",
+      "evidence": {
+        "status": "catalog_identity_confirmed",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "약사의 혼잣말",
+        "urls": ["https://www.netflix.com/kr/title/81712068"],
+        "note": "Correct title and court-apothecary synopsis; direct public response also says currently unavailable in your country. Web tool location is not a verified Korean account.",
+        "relatedVersions": [
+          {
+            "title": "총집편 약사의 혼잣말",
+            "url": "https://www.netflix.com/kr/title/83186246",
+            "relation": "recap; do not auto-equate"
+          }
+        ]
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      }
+    },
+    {
+      "titleId": "apothecary",
+      "provider": "prime",
+      "evidence": {
+        "status": "catalog_identity_confirmed",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "The Apothecary Diaries, Season 1",
+        "urls": [
+          "https://www.primevideo.com/detail/0LYYRIBL2OP1DS56EXFLN57XWU"
+        ],
+        "note": "Global Season 1 catalog identity; do not infer Korean access or Prime inclusion. Separate Season 2 and 3 catalog IDs found.",
+        "relatedVersions": [
+          {
+            "title": "Season 2",
+            "url": "https://www.primevideo.com/detail/0MIBSTLNZIMP6Z3EULUEJ0KS1U"
+          },
+          {
+            "title": "Season 3",
+            "url": "https://www.primevideo.com/detail/0GIOXTCHCNOT7Y17R0KEX49PXY"
+          }
+        ]
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "apothecary",
+      "provider": "apple",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "apothecary",
+      "provider": "wavve",
+      "evidence": {
+        "status": "explicit_no_results_for_query",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "약사의 혼잣말",
+        "url": "https://www.wavve.com/search?searchWord=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+        "checkedAt": "2026-11-13T09:13:52.128Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      }
+    },
+    {
+      "titleId": "apothecary",
+      "provider": "tving",
+      "evidence": {
+        "status": "no_matching_card_observed_not_global_absence",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "약사의 혼잣말",
+        "url": "https://www.tving.com/search?keyword=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+        "checkedAt": "2026-11-13T09:13:08.664Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "apothecary",
+      "provider": "coupang",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      }
+    },
+    {
+      "titleId": "apothecary",
+      "provider": "watcha",
+      "evidence": {
+        "status": "anonymous_search_shell_without_results_or_empty_marker",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "약사의 혼잣말",
+        "url": "https://watcha.com/search?query=%EC%95%BD%EC%82%AC%EC%9D%98%20%ED%98%BC%EC%9E%A3%EB%A7%90",
+        "checkedAt": "2026-11-13T09:12:19.480Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "nia",
+      "provider": "laftel",
+      "evidence": {
+        "status": "api_catalog_candidates",
+        "kind": "official anonymous API",
+        "query": "흉란영애 니아 리스톤",
+        "url": "https://api.laftel.net/api/search/v3/keyword/?keyword=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+        "checkedAt": "2026-11-13T09:10:20.956Z",
+        "httpStatus": 200,
+        "count": 1,
+        "completePage": true,
+        "next": null,
+        "candidates": [
+          {
+            "title": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+            "url": "https://laftel.net/item/47452",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          }
+        ],
+        "note": "Exact-title, edition and playable flags require separate interpretation. Partial pagination is not exhaustive absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      },
+      "baselineExtension": {
+        "status": "source-only"
+      }
+    },
+    {
+      "titleId": "nia",
+      "provider": "aniplus",
+      "evidence": {
+        "status": "matching_or_related_catalog_cards_observed",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "흉란영애 니아 리스톤",
+        "url": "https://www.aniplustv.com/Search?st=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+        "checkedAt": "2026-11-13T09:12:37.836Z",
+        "candidates": [
+          {
+            "title": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담",
+            "url": "https://www.aniplustv.com/items/3960",
+            "detailTitle": "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담 - 애니플러스"
+          }
+        ],
+        "observedTitles": [
+          "흉란영애 니아 리스톤 -병약한 영애로 전생한 살신 무인의 화려한 무쌍담"
+        ],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "nia",
+      "provider": "crunchyroll",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [
+          "https://www.crunchyroll.com/news/latest/2026/9/8/nia-liston-the-merciless-maiden-anime-trailer-two-cour-broadcast-additional-cast"
+        ],
+        "note": "Official news covers the anime but no /series detail URL was established; news is not streaming availability."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "nia",
+      "provider": "netflix",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      }
+    },
+    {
+      "titleId": "nia",
+      "provider": "prime",
+      "evidence": {
+        "status": "catalog_identity_confirmed",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "Nia Liston: The Merciless Maiden - Season 1",
+        "urls": [
+          "https://www.primevideo.com/detail/0NSSK7EFU3PNEK6M2RRRWICBVJ"
+        ],
+        "note": "Official page has 2026 anime, Nia copyright credit and studio Anime Times; no Korean playback verified."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "nia",
+      "provider": "apple",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      },
+      "baselineExtension": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      }
+    },
+    {
+      "titleId": "nia",
+      "provider": "wavve",
+      "evidence": {
+        "status": "explicit_no_results_for_query",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "흉란영애 니아 리스톤",
+        "url": "https://www.wavve.com/search?searchWord=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+        "checkedAt": "2026-11-13T09:13:54.285Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      }
+    },
+    {
+      "titleId": "nia",
+      "provider": "tving",
+      "evidence": {
+        "status": "no_matching_card_observed_not_global_absence",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "흉란영애 니아 리스톤",
+        "url": "https://www.tving.com/search?keyword=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+        "checkedAt": "2026-11-13T09:13:11.164Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "nia",
+      "provider": "coupang",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      }
+    },
+    {
+      "titleId": "nia",
+      "provider": "watcha",
+      "evidence": {
+        "status": "anonymous_search_shell_without_results_or_empty_marker",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "흉란영애 니아 리스톤",
+        "url": "https://watcha.com/search?query=%ED%9D%89%EB%9E%80%EC%98%81%EC%95%A0%20%EB%8B%88%EC%95%84%20%EB%A6%AC%EC%8A%A4%ED%86%A4",
+        "checkedAt": "2026-11-13T09:12:21.677Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "rezero",
+      "provider": "laftel",
+      "evidence": {
+        "status": "api_catalog_candidates",
+        "kind": "official anonymous API",
+        "query": "Re: 제로부터 시작하는 이세계 생활",
+        "url": "https://api.laftel.net/api/search/v3/keyword/?keyword=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+        "checkedAt": "2026-11-13T09:10:21.074Z",
+        "httpStatus": 200,
+        "count": 7,
+        "completePage": true,
+        "next": null,
+        "candidates": [
+          {
+            "title": "Re : 제로부터 시작하는 이세계 생활 감독판",
+            "url": "https://laftel.net/item/39644",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "Re : 제로부터 시작하는 이세계 생활 - 빙결의 인연",
+            "url": "https://laftel.net/item/39880",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "Re : 제로부터 시작하는 이세계 생활 2기 part 1",
+            "url": "https://laftel.net/item/39852",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "Re : 제로부터 시작하는 이세계 생활 2기 part 2",
+            "url": "https://laftel.net/item/40153",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "Re : 제로부터 시작하는 이세계 생활 3기",
+            "url": "https://laftel.net/item/42429",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "Re : 제로부터 시작하는 이세계 생활 4기",
+            "url": "https://laftel.net/item/45428",
+            "expired": false,
+            "viewing": true,
+            "hasEpisodes": true
+          },
+          {
+            "title": "Re : 제로부터 시작하는 이세계 생활 [2021년 판권 만료작]",
+            "url": "https://laftel.net/item/33227",
+            "expired": true,
+            "viewing": false,
+            "hasEpisodes": true
+          }
+        ],
+        "note": "Exact-title, edition and playable flags require separate interpretation. Partial pagination is not exhaustive absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      },
+      "baselineExtension": {
+        "status": "source-only"
+      }
+    },
+    {
+      "titleId": "rezero",
+      "provider": "aniplus",
+      "evidence": {
+        "status": "matching_or_related_catalog_cards_observed",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "Re: 제로부터 시작하는 이세계 생활",
+        "url": "https://www.aniplustv.com/Search?st=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+        "checkedAt": "2026-11-13T09:12:53.337Z",
+        "candidates": [
+          {
+            "title": "Re:제로부터 시작하는 이세계 생활 감독판",
+            "url": "https://www.aniplustv.com/items/2259",
+            "detailTitle": "Re:제로부터 시작하는 이세계 생활 감독판 - 애니플러스"
+          },
+          {
+            "title": "Re:제로부터 시작하는 이세계 생활 4기",
+            "url": "https://www.aniplustv.com/items/3847",
+            "detailTitle": "Re:제로부터 시작하는 이세계 생활 4기 - 애니플러스"
+          },
+          {
+            "title": "Re:제로부터 시작하는 이세계 생활 3기",
+            "url": "https://www.aniplustv.com/items/3398",
+            "detailTitle": "Re:제로부터 시작하는 이세계 생활 3기 - 애니플러스"
+          },
+          {
+            "title": "Re:제로부터 시작하는 이세계 생활 2기",
+            "url": "https://www.aniplustv.com/items/2312",
+            "detailTitle": "Re:제로부터 시작하는 이세계 생활 2기 - 애니플러스"
+          }
+        ],
+        "observedTitles": [
+          "Re:제로부터 시작하는 이세계 생활 감독판",
+          "Re:제로부터 시작하는 이세계 생활 4기",
+          "Re:제로부터 시작하는 이세계 생활 3기",
+          "Re:제로부터 시작하는 이세계 생활 2기"
+        ],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "rezero",
+      "provider": "crunchyroll",
+      "evidence": {
+        "status": "indexed_catalog_only",
+        "kind": "official-domain indexed title; direct open returned generic shell",
+        "observedTitle": "Re:ZERO -Starting Life in Another World-",
+        "urls": ["https://www.crunchyroll.com/series/GRGG9798R/"],
+        "note": "Official search index exposes the named series; direct web open instead returns generic Crunchyroll landing / browser-update content. Do not treat the homepage title as a work title; current rendered Korean account needs separate validation."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      }
+    },
+    {
+      "titleId": "rezero",
+      "provider": "netflix",
+      "evidence": {
+        "status": "related_version",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "Re:제로부터 시작하는 이세계 생활 감독판",
+        "urls": ["https://www.netflix.com/kr/title/81262169"],
+        "note": "Explicit director's cut; synopsis says edited 2016 first-season material with added footage. Bare franchise title cannot prove exact edition."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      }
+    },
+    {
+      "titleId": "rezero",
+      "provider": "prime",
+      "evidence": {
+        "status": "related_version",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "Re:ZERO -Starting Life in Another World- Director's Cut - S01",
+        "urls": [
+          "https://www.primevideo.com/detail/0QGTCS5YRV8N1GW7JRL35LPKFU"
+        ],
+        "note": "Direct document title identifies director's cut although search index says only Season 1. Edition distinction must survive matching."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "rezero",
+      "provider": "apple",
+      "evidence": {
+        "status": "catalog_identity_confirmed",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "Re: 제로부터 시작하는 이세계 생활",
+        "urls": [
+          "https://tv.apple.com/kr/show/re-%E1%84%8C%E1%85%A6%E1%84%85%E1%85%A9%E1%84%87%E1%85%AE%E1%84%90%E1%85%A5-%E1%84%89%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%A8%E1%84%92%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%B5%E1%84%89%E1%85%A6%E1%84%80%E1%85%A8-%E1%84%89%E1%85%A2%E1%86%BC%E1%84%92%E1%85%AA%E1%86%AF/umc.cmc.4zdqlm8jim5xrtehsf1w67ano"
+        ],
+        "note": "KR show catalog identity confirmed; first-season listings include edited double-episode titles and later seasons. Exact edition/season selection needs checking."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      }
+    },
+    {
+      "titleId": "rezero",
+      "provider": "wavve",
+      "evidence": {
+        "status": "matching_or_related_catalog_cards_observed",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "Re: 제로부터 시작하는 이세계 생활",
+        "url": "https://www.wavve.com/search?searchWord=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+        "checkedAt": "2026-11-13T09:14:23.442Z",
+        "candidates": [
+          {
+            "title": "Re:제로부터 시작하는 이세계 생활 4기",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000919&landing=season",
+            "detailTitle": "Re:제로부터 시작하는 이세계 생활 4기 : 웨이브"
+          },
+          {
+            "title": "Re: 제로부터 시작하는 이세계 생활 감독판",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000245&landing=season",
+            "detailTitle": "Re: 제로부터 시작하는 이세계 생활 감독판 : 웨이브"
+          },
+          {
+            "title": "Re:제로부터 시작하는 이세계 생활 3기",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000794&landing=season",
+            "detailTitle": "Re:제로부터 시작하는 이세계 생활 3기 : 웨이브"
+          },
+          {
+            "title": "Re: 제로부터 시작하는 이세계 생활 2기",
+            "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000266&landing=season",
+            "detailTitle": "Re: 제로부터 시작하는 이세계 생활 2기 : 웨이브"
+          },
+          {
+            "title": "Re: 제로부터 시작하는 이세계 생활: 빙결의 인연",
+            "url": "https://www.wavve.com/player/movie?movieid=MV_AP01_AP000000033",
+            "detailTitle": "Re: 제로부터 시작하는 이세계 생활: 빙결의 인연 : 웨이브",
+            "note": "Movie route; not proof of original television-series identity"
+          }
+        ],
+        "observedTitles": [
+          "Re:제로부터 시작하는 이세계 생활 4기",
+          "Re: 제로부터 시작하는 이세계 생활 감독판",
+          "Re:제로부터 시작하는 이세계 생활 3기",
+          "Re: 제로부터 시작하는 이세계 생활 2기",
+          "Re: 제로부터 시작하는 이세계 생활: 빙결의 인연"
+        ],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "available",
+        "url": "https://www.wavve.com/player/vod?programid=C6101_C61000000245&landing=season",
+        "opened": true,
+        "reason": "제목이 일치하는 작품 상세 페이지로 이동했습니다."
+      }
+    },
+    {
+      "titleId": "rezero",
+      "provider": "tving",
+      "evidence": {
+        "status": "matching_or_related_catalog_cards_observed",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "Re: 제로부터 시작하는 이세계 생활",
+        "url": "https://www.tving.com/search?keyword=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+        "checkedAt": "2026-11-13T09:13:13.884Z",
+        "candidates": [
+          {
+            "title": "Re:제로부터 시작하는 이세계 생활 4기",
+            "url": "https://www.tving.com/contents/P001785213"
+          },
+          {
+            "title": "Re:제로부터 시작하는 이세계 생활 3기",
+            "url": "https://www.tving.com/contents/P001762365"
+          },
+          {
+            "title": "Re:제로부터 시작하는 이세계 생활 2기",
+            "url": "https://www.tving.com/contents/P001274566"
+          },
+          {
+            "title": "Re:제로부터 시작하는 이세계 생활 감독판",
+            "url": "https://www.tving.com/contents/P001117839"
+          }
+        ],
+        "observedTitles": [
+          "Re:제로부터 시작하는 이세계 생활 4기",
+          "Re:제로부터 시작하는 이세계 생활 3기",
+          "Re:제로부터 시작하는 이세계 생활 2기",
+          "Re:제로부터 시작하는 이세계 생활 감독판"
+        ],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "rezero",
+      "provider": "coupang",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      }
+    },
+    {
+      "titleId": "rezero",
+      "provider": "watcha",
+      "evidence": {
+        "status": "anonymous_search_shell_without_results_or_empty_marker",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "Re: 제로부터 시작하는 이세계 생활",
+        "url": "https://watcha.com/search?query=Re%3A%20%EC%A0%9C%EB%A1%9C%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%9D%B4%EC%84%B8%EA%B3%84%20%EC%83%9D%ED%99%9C",
+        "checkedAt": "2026-11-13T09:12:23.892Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "dungeon",
+      "provider": "laftel",
+      "evidence": {
+        "status": "explicit_no_results_for_query",
+        "kind": "official anonymous API",
+        "query": "던전밥",
+        "url": "https://api.laftel.net/api/search/v3/keyword/?keyword=%EB%8D%98%EC%A0%84%EB%B0%A5",
+        "checkedAt": "2026-11-13T09:10:21.129Z",
+        "httpStatus": 200,
+        "count": 0,
+        "completePage": true,
+        "next": null,
+        "candidates": [],
+        "note": "Exact-title, edition and playable flags require separate interpretation. Partial pagination is not exhaustive absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      },
+      "baselineExtension": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      }
+    },
+    {
+      "titleId": "dungeon",
+      "provider": "aniplus",
+      "evidence": {
+        "status": "no_matching_card_observed_not_global_absence",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "던전밥",
+        "url": "https://www.aniplustv.com/Search?st=%EB%8D%98%EC%A0%84%EB%B0%A5",
+        "checkedAt": "2026-11-13T09:12:55.549Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "dungeon",
+      "provider": "crunchyroll",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [
+          "https://www.crunchyroll.com/news/latest/2024/3/28/delicious-in-dungeon-anime-reveals-new-trailer-and-visual"
+        ],
+        "note": "News and help-page keyword tags mention the title, but no /series detail URL was established. These are not streaming catalog matches."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "dungeon",
+      "provider": "netflix",
+      "evidence": {
+        "status": "catalog_identity_confirmed",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "던전밥",
+        "urls": ["https://www.netflix.com/kr/title/81564899"],
+        "note": "Official detail has 2024 anime and matching dungeon-cooking synopsis. Paid playback not tested."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "source-only"
+      }
+    },
+    {
+      "titleId": "dungeon",
+      "provider": "prime",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "dungeon",
+      "provider": "apple",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "dungeon",
+      "provider": "wavve",
+      "evidence": {
+        "status": "explicit_no_results_for_query",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "던전밥",
+        "url": "https://www.wavve.com/search?searchWord=%EB%8D%98%EC%A0%84%EB%B0%A5",
+        "checkedAt": "2026-11-13T09:14:25.607Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      }
+    },
+    {
+      "titleId": "dungeon",
+      "provider": "tving",
+      "evidence": {
+        "status": "no_matching_card_observed_not_global_absence",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "던전밥",
+        "url": "https://www.tving.com/search?keyword=%EB%8D%98%EC%A0%84%EB%B0%A5",
+        "checkedAt": "2026-11-13T09:13:16.470Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "dungeon",
+      "provider": "coupang",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      }
+    },
+    {
+      "titleId": "dungeon",
+      "provider": "watcha",
+      "evidence": {
+        "status": "anonymous_search_shell_without_results_or_empty_marker",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "던전밥",
+        "url": "https://watcha.com/search?query=%EB%8D%98%EC%A0%84%EB%B0%A5",
+        "checkedAt": "2026-11-13T09:12:26.123Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "dinner",
+      "provider": "laftel",
+      "evidence": {
+        "status": "api_catalog_candidates",
+        "kind": "official anonymous API",
+        "query": "수수께끼 풀이는 저녁식사 후에",
+        "url": "https://api.laftel.net/api/search/v3/keyword/?keyword=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+        "checkedAt": "2026-11-13T09:10:21.250Z",
+        "httpStatus": 200,
+        "count": 1,
+        "completePage": true,
+        "next": null,
+        "candidates": [
+          {
+            "title": "수수께끼 풀이는 저녁식사 후에",
+            "url": "https://laftel.net/item/42767",
+            "expired": false,
+            "viewing": false,
+            "hasEpisodes": false
+          }
+        ],
+        "note": "Exact-title, edition and playable flags require separate interpretation. Partial pagination is not exhaustive absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unavailable",
+        "reason": "검색된 동일 작품의 서비스 종료 또는 재생 불가 상태가 확인되었습니다."
+      },
+      "baselineExtension": {
+        "status": "unavailable",
+        "reason": "검색된 동일 작품의 서비스 종료 또는 재생 불가 상태가 확인되었습니다."
+      }
+    },
+    {
+      "titleId": "dinner",
+      "provider": "aniplus",
+      "evidence": {
+        "status": "no_matching_card_observed_not_global_absence",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "수수께끼 풀이는 저녁식사 후에",
+        "url": "https://www.aniplustv.com/Search?st=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+        "checkedAt": "2026-11-13T09:12:57.685Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "dinner",
+      "provider": "crunchyroll",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [
+          "https://www.crunchyroll.com/hi/news/latest/2025/4/12/dinner-table-detective-anime-creditless-opening"
+        ],
+        "note": "Official news mentions the anime and Prime distribution, but no Crunchyroll /series detail URL was established."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "dinner",
+      "provider": "netflix",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "서비스에서 로그인 또는 접근 확인이 필요합니다. 로그인 후 다시 시도해 주세요."
+      }
+    },
+    {
+      "titleId": "dinner",
+      "provider": "prime",
+      "evidence": {
+        "status": "catalog_identity_confirmed",
+        "kind": "official detail page opened with web tool",
+        "observedTitle": "수수께끼 풀이는 저녁식사 후에",
+        "urls": [
+          "https://www.primevideo.com/-/ko/detail/0TKRFV2FB8U18G5WS16GFOXNG2"
+        ],
+        "note": "2025 animation with Hanazawa/Kaji/Miyano voice cast, 12 episodes. Different from the earlier live-action adaptation. Korean subtitles listed; Korean subscription playback not tested."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "source-only"
+      }
+    },
+    {
+      "titleId": "dinner",
+      "provider": "apple",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "dinner",
+      "provider": "wavve",
+      "evidence": {
+        "status": "explicit_no_results_for_query",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "수수께끼 풀이는 저녁식사 후에",
+        "url": "https://www.wavve.com/search?searchWord=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+        "checkedAt": "2026-11-13T09:14:27.769Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unavailable",
+        "reason": "이 검색어와 별칭으로 동일 제목을 찾지 못했습니다. 다른 언어의 제목도 확인해 보세요."
+      }
+    },
+    {
+      "titleId": "dinner",
+      "provider": "tving",
+      "evidence": {
+        "status": "no_matching_card_observed_not_global_absence",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "수수께끼 풀이는 저녁식사 후에",
+        "url": "https://www.tving.com/search?keyword=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+        "checkedAt": "2026-11-13T09:13:19.066Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    },
+    {
+      "titleId": "dinner",
+      "provider": "coupang",
+      "evidence": {
+        "status": "unknown",
+        "kind": "official-domain web search",
+        "observedTitle": null,
+        "urls": [],
+        "note": "No matching official detail page established by the targeted web search. This is not evidence of absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "로그인 또는 지원 브라우저에서 직접 확인해 주세요."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "로그인 또는 사이트의 접근 확인이 필요합니다."
+      }
+    },
+    {
+      "titleId": "dinner",
+      "provider": "watcha",
+      "evidence": {
+        "status": "anonymous_search_shell_without_results_or_empty_marker",
+        "kind": "public isolated browser search and normal card navigation when available",
+        "query": "수수께끼 풀이는 저녁식사 후에",
+        "url": "https://watcha.com/search?query=%EC%88%98%EC%88%98%EA%BB%98%EB%81%BC%20%ED%92%80%EC%9D%B4%EB%8A%94%20%EC%A0%80%EB%85%81%EC%8B%9D%EC%82%AC%20%ED%9B%84%EC%97%90",
+        "checkedAt": "2026-11-13T09:12:28.310Z",
+        "candidates": [],
+        "observedTitles": [],
+        "note": "Observed candidates may be related editions. No cards and login/empty shells do not establish global absence."
+      },
+      "krPlayback": "not_tested",
+      "baselineHttp": {
+        "status": "unknown",
+        "reason": "검색 결과를 불러오는 중이거나 작품 링크를 확인할 수 없습니다."
+      },
+      "baselineExtension": {
+        "status": "unknown",
+        "reason": "검색 결과만으로 동일 작품을 확인할 수 없습니다. 공식 검색에서 직접 확인해 주세요."
+      }
+    }
+  ]
+}
