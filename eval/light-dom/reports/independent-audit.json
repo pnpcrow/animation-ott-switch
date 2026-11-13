@@ -1,0 +1,3676 @@
+{
+  "finishedAt": "2026-11-13T13:33:06.802Z",
+  "method": "Independent raw-logit rescoring without importing selection.mjs, metrics.mjs, report.mjs or root report output. Frozen thresholds and candidate IDs, tie-to-none at 1e-9, explicit 128-pair coverage; accepted-ID labels.",
+  "sourceDigests": {
+    "eval/light-dom/nli/holdout.json": "8274007f056b835e5637666f4739ef96505b3d22bfd2c6bbeb43c148ab85cf0a",
+    "eval/light-dom/jina/holdout.json": "670c6ce3fc956601ec2cbc0aec0c80898ec1243a4318e07c81613c86ae891b37",
+    "eval/light-dom/reports/kure-holdout.json": "3329346ce49615ed114f23d8eafb46fdb667a01503984472cb243c379a5c5cdd",
+    "eval/light-dom/nli/browser-webgpu-holdout.json": "44469e1c13763dda3a551a72c3511949d4858629082baaf0f261f6902b72fde7",
+    "eval/light-dom/jina/browser-webgpu-holdout.json": "d6bbe5a3a8b7f78eda81909083b0d2b04c5773416e9ec8efff3a365f38bc05e4",
+    "eval/light-dom/jina/browser-wasm-holdout.json": "099313407b3ea02b8d19f81e7b999b416e5f2e5aeee9847c5184736e0069de1d",
+    "eval/light-dom/reports/kure-browser-webgpu-holdout.json": "73a13b54659532446d31194a428647ba8748100cd11b5e83dee39d75eb57b2f2",
+    "eval/light-dom/reports/structural-browser.json": "7dc18625f6a3af416bc24d10d0aa0ca80b99a5fc97a644f7cfc03b848bc803c6",
+    "eval/light-dom/structural-model.json": "9370b5013ec9d9afde85bb7b286ac94f9d4d93387b6a3c4cf0d5eee3575ac759"
+  },
+  "groups": {
+    "nliNative": {
+      "all": {
+        "correct": 7,
+        "total": 18
+      },
+      "nontrivial": {
+        "correct": 6,
+        "total": 17
+      },
+      "positive": {
+        "correct": 1,
+        "total": 12
+      },
+      "none": {
+        "correct": 6,
+        "total": 6
+      },
+      "falseSelections": 1,
+      "falseAbstentions": 10,
+      "errors": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "i3",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        }
+      ],
+      "rows": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "i3",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": true,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        }
+      ],
+      "maxStoredScoreError": 0
+    },
+    "jinaNative": {
+      "all": {
+        "correct": 6,
+        "total": 18
+      },
+      "nontrivial": {
+        "correct": 5,
+        "total": 17
+      },
+      "positive": {
+        "correct": 0,
+        "total": 12
+      },
+      "none": {
+        "correct": 6,
+        "total": 6
+      },
+      "falseSelections": 0,
+      "falseAbstentions": 12,
+      "errors": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        }
+      ],
+      "rows": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": true,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        }
+      ],
+      "maxStoredScoreError": 0
+    },
+    "kureNative": {
+      "all": {
+        "correct": 5,
+        "total": 18
+      },
+      "nontrivial": {
+        "correct": 4,
+        "total": 17
+      },
+      "positive": {
+        "correct": 2,
+        "total": 12
+      },
+      "none": {
+        "correct": 3,
+        "total": 6
+      },
+      "falseSelections": 4,
+      "falseAbstentions": 9,
+      "errors": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "t5",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "i4",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        }
+      ],
+      "rows": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "t5",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "t3",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "i4",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": true,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        }
+      ],
+      "maxStoredScoreError": 0
+    },
+    "nliWebGPU": {
+      "all": {
+        "correct": 7,
+        "total": 18
+      },
+      "nontrivial": {
+        "correct": 6,
+        "total": 17
+      },
+      "positive": {
+        "correct": 1,
+        "total": 12
+      },
+      "none": {
+        "correct": 6,
+        "total": 6
+      },
+      "falseSelections": 1,
+      "falseAbstentions": 10,
+      "errors": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "d5",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        }
+      ],
+      "rows": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "d5",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": true,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        }
+      ]
+    },
+    "jinaWebGPU": {
+      "all": {
+        "correct": 6,
+        "total": 18
+      },
+      "nontrivial": {
+        "correct": 5,
+        "total": 17
+      },
+      "positive": {
+        "correct": 0,
+        "total": 12
+      },
+      "none": {
+        "correct": 6,
+        "total": 6
+      },
+      "falseSelections": 0,
+      "falseAbstentions": 12,
+      "errors": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        }
+      ],
+      "rows": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": true,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        }
+      ]
+    },
+    "jinaWASM": {
+      "all": {
+        "correct": 6,
+        "total": 18
+      },
+      "nontrivial": {
+        "correct": 5,
+        "total": 17
+      },
+      "positive": {
+        "correct": 0,
+        "total": 12
+      },
+      "none": {
+        "correct": 6,
+        "total": 6
+      },
+      "falseSelections": 0,
+      "falseAbstentions": 12,
+      "errors": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        }
+      ],
+      "rows": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": true,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        }
+      ]
+    },
+    "kureWebGPU": {
+      "all": {
+        "correct": 5,
+        "total": 18
+      },
+      "nontrivial": {
+        "correct": 4,
+        "total": 17
+      },
+      "positive": {
+        "correct": 2,
+        "total": 12
+      },
+      "none": {
+        "correct": 3,
+        "total": 6
+      },
+      "falseSelections": 4,
+      "falseAbstentions": 9,
+      "errors": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "t5",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "i4",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        }
+      ],
+      "rows": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "t5",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "t3",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "i4",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": true,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        }
+      ]
+    },
+    "structuralBrowser": {
+      "all": {
+        "correct": 14,
+        "total": 18
+      },
+      "nontrivial": {
+        "correct": 13,
+        "total": 17
+      },
+      "positive": {
+        "correct": 12,
+        "total": 12
+      },
+      "none": {
+        "correct": 2,
+        "total": 6
+      },
+      "falseSelections": 4,
+      "falseAbstentions": 0,
+      "errors": [
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        }
+      ],
+      "rows": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "d2",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "i2",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "t3",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "t3",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "d2",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "policy-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": true,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        }
+      ]
+    },
+    "structuralNative": {
+      "all": {
+        "correct": 14,
+        "total": 18
+      },
+      "nontrivial": {
+        "correct": 13,
+        "total": 17
+      },
+      "positive": {
+        "correct": 12,
+        "total": 12
+      },
+      "none": {
+        "correct": 2,
+        "total": 6
+      },
+      "falseSelections": 4,
+      "falseAbstentions": 0,
+      "errors": [
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        }
+      ],
+      "rows": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "d2",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "i2",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "t3",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "t3",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "d2",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "policy-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": true,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        }
+      ]
+    },
+    "baseline": {
+      "all": {
+        "correct": 11,
+        "total": 18
+      },
+      "nontrivial": {
+        "correct": 10,
+        "total": 17
+      },
+      "positive": {
+        "correct": 10,
+        "total": 12
+      },
+      "none": {
+        "correct": 1,
+        "total": 6
+      },
+      "falseSelections": 7,
+      "falseAbstentions": 0,
+      "errors": [
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "i8",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "d3",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        }
+      ],
+      "rows": [
+        {
+          "id": "violet-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "violet-netflix-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "violet-netflix-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d1",
+            "d2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "hero-apple-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "t2",
+          "acceptedIds": [
+            "t2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "hero-apple-image",
+          "field": "image",
+          "chosenId": "i8",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1",
+            "i2"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "hero-apple-description",
+          "field": "description",
+          "chosenId": "d3",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "bebop-tving-title",
+          "field": "title",
+          "chosenId": "t3",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "bebop-tving-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "bebop-tving-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "d1",
+          "acceptedIds": [
+            "d1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "tutu-laftel-title",
+          "field": "title",
+          "chosenId": "t3",
+          "expectedId": "t3",
+          "acceptedIds": [
+            "t3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "tutu-laftel-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "i1",
+          "acceptedIds": [
+            "i1"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "tutu-laftel-description",
+          "field": "description",
+          "chosenId": "d2",
+          "expectedId": "d2",
+          "acceptedIds": [
+            "d2",
+            "d3"
+          ],
+          "positive": true,
+          "trivial": false,
+          "correct": true
+        },
+        {
+          "id": "genre-netflix-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-image",
+          "field": "image",
+          "chosenId": "i1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "genre-netflix-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "policy-laftel-title",
+          "field": "title",
+          "chosenId": "t2",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        },
+        {
+          "id": "policy-laftel-image",
+          "field": "image",
+          "chosenId": "__none__",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": true,
+          "correct": true
+        },
+        {
+          "id": "policy-laftel-description",
+          "field": "description",
+          "chosenId": "d1",
+          "expectedId": "__none__",
+          "acceptedIds": [
+            "__none__"
+          ],
+          "positive": false,
+          "trivial": false,
+          "correct": false
+        }
+      ]
+    }
+  }
+}

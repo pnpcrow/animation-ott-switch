@@ -1,0 +1,821 @@
+{
+  "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36",
+  "moduleLoadMs": 21.300000190734863,
+  "rows": [
+    {
+      "id": "violet-netflix-title",
+      "chosenId": "t2",
+      "valid": true,
+      "scores": [
+        {
+          "id": "t2",
+          "score": 3.0269144278227795
+        },
+        {
+          "id": "__none__",
+          "score": -0.10465017333412746
+        },
+        {
+          "id": "t1",
+          "score": -3.0663934248825924
+        },
+        {
+          "id": "t8",
+          "score": -3.6662793667996976
+        },
+        {
+          "id": "t6",
+          "score": -3.6955540066859216
+        },
+        {
+          "id": "t7",
+          "score": -3.7449152443182046
+        },
+        {
+          "id": "t5",
+          "score": -3.7477637904541234
+        },
+        {
+          "id": "t3",
+          "score": -4.608978031391397
+        },
+        {
+          "id": "t4",
+          "score": -4.616233157349926
+        }
+      ],
+      "firstMs": 4.400000095367432,
+      "warmMedianMs": 0.9099999904632569,
+      "warmP95Ms": 1.3700000047683716,
+      "reversedChosenId": "t2",
+      "candidateCount": 8
+    },
+    {
+      "id": "violet-netflix-image",
+      "chosenId": "i1",
+      "valid": true,
+      "scores": [
+        {
+          "id": "i1",
+          "score": 4.82290396581462
+        },
+        {
+          "id": "__none__",
+          "score": -0.0070959195628616245
+        },
+        {
+          "id": "i8",
+          "score": -1.5988053231959767
+        },
+        {
+          "id": "i6",
+          "score": -1.5988053231959767
+        },
+        {
+          "id": "i7",
+          "score": -1.5988053231959767
+        },
+        {
+          "id": "i5",
+          "score": -1.6150171842656889
+        },
+        {
+          "id": "i2",
+          "score": -1.66775380432048
+        },
+        {
+          "id": "i3",
+          "score": -3.886191502573153
+        },
+        {
+          "id": "i4",
+          "score": -3.8980251847769276
+        }
+      ],
+      "firstMs": 1.5999999046325684,
+      "warmMedianMs": 0.9900000095367432,
+      "warmP95Ms": 1.390000009536743,
+      "reversedChosenId": "i1",
+      "candidateCount": 8
+    },
+    {
+      "id": "violet-netflix-description",
+      "chosenId": "d2",
+      "valid": true,
+      "scores": [
+        {
+          "id": "d2",
+          "score": 5.87383498114276
+        },
+        {
+          "id": "d1",
+          "score": 5.017123923032176
+        },
+        {
+          "id": "__none__",
+          "score": 1.5602184206487661
+        },
+        {
+          "id": "d4",
+          "score": -0.5649605776802775
+        },
+        {
+          "id": "d8",
+          "score": -0.5672003335527989
+        },
+        {
+          "id": "d6",
+          "score": -0.5764041729568379
+        },
+        {
+          "id": "d7",
+          "score": -0.6946371501719191
+        },
+        {
+          "id": "d5",
+          "score": -0.6991890450668516
+        },
+        {
+          "id": "d3",
+          "score": -0.8852546947730664
+        }
+      ],
+      "firstMs": 0.8999998569488525,
+      "warmMedianMs": 0.9099999904632569,
+      "warmP95Ms": 1.1399999856948853,
+      "reversedChosenId": "d2",
+      "candidateCount": 8
+    },
+    {
+      "id": "hero-apple-title",
+      "chosenId": "t2",
+      "valid": true,
+      "scores": [
+        {
+          "id": "t2",
+          "score": 4.407212475423889
+        },
+        {
+          "id": "__none__",
+          "score": -0.10465017333412746
+        },
+        {
+          "id": "t5",
+          "score": -0.8679980450378598
+        },
+        {
+          "id": "t4",
+          "score": -0.9169900027162262
+        },
+        {
+          "id": "t8",
+          "score": -2.519345175901001
+        },
+        {
+          "id": "t1",
+          "score": -2.814395767019222
+        },
+        {
+          "id": "t6",
+          "score": -3.4171994456951986
+        },
+        {
+          "id": "t7",
+          "score": -3.427961081696481
+        },
+        {
+          "id": "t3",
+          "score": -5.098539888415017
+        }
+      ],
+      "firstMs": 1.5,
+      "warmMedianMs": 0.8099999904632569,
+      "warmP95Ms": 1.05,
+      "reversedChosenId": "t2",
+      "candidateCount": 8
+    },
+    {
+      "id": "hero-apple-image",
+      "chosenId": "i2",
+      "valid": true,
+      "scores": [
+        {
+          "id": "i2",
+          "score": 3.3804478008728998
+        },
+        {
+          "id": "__none__",
+          "score": -0.0070959195628616245
+        },
+        {
+          "id": "i4",
+          "score": -0.19120438246230276
+        },
+        {
+          "id": "i1",
+          "score": -0.6859955951788538
+        },
+        {
+          "id": "i3",
+          "score": -1.7521033970778357
+        },
+        {
+          "id": "i8",
+          "score": -3.1583029293571583
+        },
+        {
+          "id": "i5",
+          "score": -3.1583029293571583
+        },
+        {
+          "id": "i7",
+          "score": -3.1583029293571583
+        },
+        {
+          "id": "i6",
+          "score": -3.1583029293571583
+        }
+      ],
+      "firstMs": 1.0999999046325684,
+      "warmMedianMs": 0.9899999856948852,
+      "warmP95Ms": 1.1700000047683716,
+      "reversedChosenId": "i2",
+      "candidateCount": 8
+    },
+    {
+      "id": "hero-apple-description",
+      "chosenId": "d1",
+      "valid": true,
+      "scores": [
+        {
+          "id": "d1",
+          "score": 4.539768040929575
+        },
+        {
+          "id": "d2",
+          "score": 1.864146248981812
+        },
+        {
+          "id": "d5",
+          "score": 1.8152739438156384
+        },
+        {
+          "id": "d3",
+          "score": 1.7367094323626922
+        },
+        {
+          "id": "d4",
+          "score": 1.7367094323626922
+        },
+        {
+          "id": "d6",
+          "score": 1.6092726157435724
+        },
+        {
+          "id": "__none__",
+          "score": 1.5602184206487661
+        },
+        {
+          "id": "d8",
+          "score": 0.7723127914933484
+        },
+        {
+          "id": "d7",
+          "score": 0.576907959984398
+        }
+      ],
+      "firstMs": 1.2999999523162842,
+      "warmMedianMs": 1.0700000047683715,
+      "warmP95Ms": 1.359999990463257,
+      "reversedChosenId": "d1",
+      "candidateCount": 8
+    },
+    {
+      "id": "bebop-tving-title",
+      "chosenId": "t3",
+      "valid": true,
+      "scores": [
+        {
+          "id": "t3",
+          "score": 2.937970515516665
+        },
+        {
+          "id": "__none__",
+          "score": -0.10465017333412746
+        },
+        {
+          "id": "t2",
+          "score": -0.9748043117981015
+        },
+        {
+          "id": "t4",
+          "score": -4.452707576526632
+        },
+        {
+          "id": "t1",
+          "score": -4.967095940310694
+        }
+      ],
+      "firstMs": 0.2999999523162842,
+      "warmMedianMs": 0.40999999046325686,
+      "warmP95Ms": 0.6,
+      "reversedChosenId": "t3",
+      "candidateCount": 4
+    },
+    {
+      "id": "bebop-tving-image",
+      "chosenId": "i1",
+      "valid": true,
+      "scores": [
+        {
+          "id": "i1",
+          "score": 5.013621808871267
+        },
+        {
+          "id": "__none__",
+          "score": -0.0070959195628616245
+        },
+        {
+          "id": "i3",
+          "score": -0.17724860355704633
+        },
+        {
+          "id": "i4",
+          "score": -0.880657787911677
+        },
+        {
+          "id": "i2",
+          "score": -2.0607160168932936
+        },
+        {
+          "id": "i6",
+          "score": -3.926684793144922
+        },
+        {
+          "id": "i7",
+          "score": -3.926684793144922
+        },
+        {
+          "id": "i8",
+          "score": -3.926684793144922
+        },
+        {
+          "id": "i5",
+          "score": -4.9876855515523815
+        }
+      ],
+      "firstMs": 0.8000001907348633,
+      "warmMedianMs": 0.8899999856948853,
+      "warmP95Ms": 1.25,
+      "reversedChosenId": "i1",
+      "candidateCount": 8
+    },
+    {
+      "id": "bebop-tving-description",
+      "chosenId": "d1",
+      "valid": true,
+      "scores": [
+        {
+          "id": "d1",
+          "score": 4.090740380313909
+        },
+        {
+          "id": "__none__",
+          "score": 1.5602184206487661
+        },
+        {
+          "id": "d5",
+          "score": -3.207870867684869
+        },
+        {
+          "id": "d4",
+          "score": -3.236133448561215
+        },
+        {
+          "id": "d2",
+          "score": -3.7907820222351
+        },
+        {
+          "id": "d7",
+          "score": -4.001244672480056
+        },
+        {
+          "id": "d8",
+          "score": -4.008565024912497
+        },
+        {
+          "id": "d6",
+          "score": -4.187613845676038
+        },
+        {
+          "id": "d3",
+          "score": -4.211420368179281
+        }
+      ],
+      "firstMs": 1,
+      "warmMedianMs": 0.9,
+      "warmP95Ms": 1.2599999904632568,
+      "reversedChosenId": "d1",
+      "candidateCount": 8
+    },
+    {
+      "id": "tutu-laftel-title",
+      "chosenId": "t3",
+      "valid": true,
+      "scores": [
+        {
+          "id": "t3",
+          "score": 4.788846336131688
+        },
+        {
+          "id": "t7",
+          "score": 1.9268519262193773
+        },
+        {
+          "id": "t4",
+          "score": 1.6841994481391294
+        },
+        {
+          "id": "t6",
+          "score": 1.6760547296153037
+        },
+        {
+          "id": "t5",
+          "score": 0.7533806027164448
+        },
+        {
+          "id": "t8",
+          "score": 0.6570133874590194
+        },
+        {
+          "id": "__none__",
+          "score": -0.10465017333412746
+        },
+        {
+          "id": "t1",
+          "score": -3.216728720784721
+        },
+        {
+          "id": "t2",
+          "score": -3.6483537224687326
+        }
+      ],
+      "firstMs": 1.0999999046325684,
+      "warmMedianMs": 0.7600000143051148,
+      "warmP95Ms": 1.0599999904632569,
+      "reversedChosenId": "t3",
+      "candidateCount": 8
+    },
+    {
+      "id": "tutu-laftel-image",
+      "chosenId": "i1",
+      "valid": true,
+      "scores": [
+        {
+          "id": "i1",
+          "score": 4.748760590253142
+        },
+        {
+          "id": "__none__",
+          "score": -0.0070959195628616245
+        },
+        {
+          "id": "i7",
+          "score": -1.6152668151187812
+        },
+        {
+          "id": "i4",
+          "score": -1.6152668151187812
+        },
+        {
+          "id": "i3",
+          "score": -1.6152668151187812
+        },
+        {
+          "id": "i8",
+          "score": -1.6152668151187812
+        },
+        {
+          "id": "i6",
+          "score": -1.6152668151187812
+        },
+        {
+          "id": "i5",
+          "score": -1.6152668151187812
+        },
+        {
+          "id": "i2",
+          "score": -3.96784388875734
+        }
+      ],
+      "firstMs": 0.9000000953674316,
+      "warmMedianMs": 1.3400000095367433,
+      "warmP95Ms": 1.609999990463257,
+      "reversedChosenId": "i1",
+      "candidateCount": 8
+    },
+    {
+      "id": "tutu-laftel-description",
+      "chosenId": "d2",
+      "valid": true,
+      "scores": [
+        {
+          "id": "d2",
+          "score": 4.416008361640558
+        },
+        {
+          "id": "d3",
+          "score": 3.2323362358893037
+        },
+        {
+          "id": "__none__",
+          "score": 1.5602184206487661
+        },
+        {
+          "id": "d1",
+          "score": 0.6866901911151402
+        },
+        {
+          "id": "d5",
+          "score": -0.18044801032192526
+        },
+        {
+          "id": "d4",
+          "score": -0.307884826941045
+        },
+        {
+          "id": "d6",
+          "score": -0.307884826941045
+        },
+        {
+          "id": "d7",
+          "score": -0.4353216435601648
+        },
+        {
+          "id": "d8",
+          "score": -0.4353216435601648
+        }
+      ],
+      "firstMs": 1.4000000953674316,
+      "warmMedianMs": 1.5799999952316284,
+      "warmP95Ms": 1.95,
+      "reversedChosenId": "d2",
+      "candidateCount": 8
+    },
+    {
+      "id": "genre-netflix-title",
+      "chosenId": "t2",
+      "valid": true,
+      "scores": [
+        {
+          "id": "t2",
+          "score": 0.1656966623926179
+        },
+        {
+          "id": "__none__",
+          "score": -0.10465017333412746
+        },
+        {
+          "id": "t1",
+          "score": -7.719140181277204
+        },
+        {
+          "id": "t7",
+          "score": -8.24357329199718
+        },
+        {
+          "id": "t5",
+          "score": -8.280824317848914
+        },
+        {
+          "id": "t8",
+          "score": -8.304102913160609
+        },
+        {
+          "id": "t6",
+          "score": -8.332239926512612
+        },
+        {
+          "id": "t3",
+          "score": -8.332239926512612
+        },
+        {
+          "id": "t4",
+          "score": -8.751317077596523
+        }
+      ],
+      "firstMs": 1.2000000476837158,
+      "warmMedianMs": 1.05,
+      "warmP95Ms": 1.25,
+      "reversedChosenId": "t2",
+      "candidateCount": 8
+    },
+    {
+      "id": "genre-netflix-image",
+      "chosenId": "i1",
+      "valid": true,
+      "scores": [
+        {
+          "id": "i1",
+          "score": 0.6132867363090679
+        },
+        {
+          "id": "__none__",
+          "score": -0.0070959195628616245
+        },
+        {
+          "id": "i3",
+          "score": -2.9467584915468854
+        },
+        {
+          "id": "i4",
+          "score": -3.614293652652212
+        },
+        {
+          "id": "i2",
+          "score": -4.7505428558325065
+        }
+      ],
+      "firstMs": 1.2000000476837158,
+      "warmMedianMs": 0.6599999904632569,
+      "warmP95Ms": 0.8299999952316284,
+      "reversedChosenId": "i1",
+      "candidateCount": 4
+    },
+    {
+      "id": "genre-netflix-description",
+      "chosenId": "__none__",
+      "valid": true,
+      "scores": [
+        {
+          "id": "__none__",
+          "score": 1.5602184206487661
+        },
+        {
+          "id": "d1",
+          "score": -1.614027781511802
+        },
+        {
+          "id": "d2",
+          "score": -3.061946543243215
+        },
+        {
+          "id": "d6",
+          "score": -4.177737269085709
+        },
+        {
+          "id": "d4",
+          "score": -4.404997687452129
+        },
+        {
+          "id": "d8",
+          "score": -4.52756865862949
+        },
+        {
+          "id": "d3",
+          "score": -6.437865367729145
+        },
+        {
+          "id": "d7",
+          "score": -7.743673946733902
+        },
+        {
+          "id": "d5",
+          "score": -7.977812974907382
+        }
+      ],
+      "firstMs": 1.2999999523162842,
+      "warmMedianMs": 1.15,
+      "warmP95Ms": 1.2799999952316283,
+      "reversedChosenId": "__none__",
+      "candidateCount": 8
+    },
+    {
+      "id": "policy-laftel-title",
+      "chosenId": "t2",
+      "valid": true,
+      "scores": [
+        {
+          "id": "t2",
+          "score": 1.1082841611687224
+        },
+        {
+          "id": "__none__",
+          "score": -0.10465017333412746
+        },
+        {
+          "id": "t6",
+          "score": -3.1836993747980618
+        },
+        {
+          "id": "t7",
+          "score": -3.222644971326974
+        },
+        {
+          "id": "t8",
+          "score": -3.2776816282329957
+        },
+        {
+          "id": "t1",
+          "score": -3.280002873552524
+        },
+        {
+          "id": "t5",
+          "score": -3.3311546649948176
+        },
+        {
+          "id": "t4",
+          "score": -3.4061510523421186
+        },
+        {
+          "id": "t3",
+          "score": -4.355838965593469
+        }
+      ],
+      "firstMs": 1.2000000476837158,
+      "warmMedianMs": 1.2100000143051148,
+      "warmP95Ms": 1.3300000190734864,
+      "reversedChosenId": "t2",
+      "candidateCount": 8
+    },
+    {
+      "id": "policy-laftel-image",
+      "chosenId": "__none__",
+      "valid": true,
+      "scores": [
+        {
+          "id": "__none__",
+          "score": -0.0070959195628616245
+        }
+      ],
+      "firstMs": 0.20000004768371582,
+      "warmMedianMs": 0.1,
+      "warmP95Ms": 0.11000001430511475,
+      "reversedChosenId": "__none__",
+      "candidateCount": 0
+    },
+    {
+      "id": "policy-laftel-description",
+      "chosenId": "d1",
+      "valid": true,
+      "scores": [
+        {
+          "id": "d1",
+          "score": 3.8098135423314012
+        },
+        {
+          "id": "d5",
+          "score": 3.212122558740651
+        },
+        {
+          "id": "d7",
+          "score": 3.1822015246510453
+        },
+        {
+          "id": "d3",
+          "score": 3.0739597984679987
+        },
+        {
+          "id": "d4",
+          "score": 3.0317780381630217
+        },
+        {
+          "id": "d2",
+          "score": 2.97400141250301
+        },
+        {
+          "id": "__none__",
+          "score": 1.5602184206487661
+        },
+        {
+          "id": "d8",
+          "score": 1.2497617731038233
+        },
+        {
+          "id": "d6",
+          "score": 1.0404249497412208
+        }
+      ],
+      "firstMs": 1.7999999523162842,
+      "warmMedianMs": 1.3799999952316284,
+      "warmP95Ms": 1.7300000190734863,
+      "reversedChosenId": "d1",
+      "candidateCount": 8
+    }
+  ],
+  "jsHeap": {
+    "used": 7007976,
+    "total": 13327024
+  },
+  "model": "dom-linear-listwise-v1",
+  "modelBytes": 6540,
+  "modelSha256": "9370b5013ec9d9afde85bb7b286ac94f9d4d93387b6a3c4cf0d5eee3575ac759",
+  "inputSha256": "98eb8348358892e0ca601ab185623781175b6b2efbcfbc28b473b7de643880ae",
+  "sourceHashes": {
+    "eval/light-dom/structural.mjs": "738f5278da234203dd2a75a4d5c11ce133af4fdbf5b5fffe6bf8596ea52ebc34",
+    "eval/tiny-decision/v2/features.mjs": "01d561a330e0e46faff35a989255332bebecb69844494d74f827ebdea8d9df9a"
+  },
+  "externalRequests": [],
+  "finishedAt": "2026-11-13T13:24:36.900Z",
+  "timingScope": "Full observed-evidence featurePack, feature construction, vectorization, linear scoring and selection; excludes live DOM collection, image fetch and network. 30 trials of ten full calls per field; first call separately. Browser JS heap is not complete process memory."
+}

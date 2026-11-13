@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "lockedAt": "2026-11-13T13:14:48.530Z",
+  "selections": {
+    "nli": {
+      "path": "eval/light-dom/nli/selection.json",
+      "sha256": "105284281bbb96d39eee849c5d67a6f6b271143523c0fba1d41b28d68ab775e1",
+      "template": "ko-role",
+      "threshold": 1.988156259059906,
+      "modelSha256": "55614f3c7da74184742eaa0006b978744437aa91de9ba4913db42f94d7844a8f"
+    },
+    "kure": {
+      "path": "eval/light-dom/reports/kure-selection.json",
+      "sha256": "34882384b54c62d18d6b3338b6fd2e0727f752708b229500f9804d49d2be9155",
+      "template": "ko-role",
+      "threshold": -4.892317771911621,
+      "modelSha256": "7ba8aee76afd84420e1ee3a532672f4dd1dc2b3d2f48e1aec492faaed44f078f"
+    },
+    "jina": {
+      "path": "eval/light-dom/jina/selection.json",
+      "sha256": "a0c0e30c2ace2605bf82013576e9d7ce8e1e63fa1445564c7859fe5a645264f5",
+      "template": "en-role",
+      "threshold": 0.40763306617736816,
+      "modelSha256": "5fa8508528828b4ad9bc97c97b6e020984e3b745fbcb53f0a907e68704f8a18a"
+    }
+  },
+  "sources": {
+    "eval/light-dom/templates.mjs": "f4d9c62836d4a5f967ef3658f8daa21b0324de3c5b42f339008f88f2d1b54755",
+    "eval/light-dom/selection.mjs": "3aada00bf4fde5b02800561003731f1835ecfd96df1212d661a59b1afedc4f99",
+    "eval/light-dom/structural.mjs": "738f5278da234203dd2a75a4d5c11ce133af4fdbf5b5fffe6bf8596ea52ebc34",
+    "eval/light-dom/structural-model.json": "9370b5013ec9d9afde85bb7b286ac94f9d4d93387b6a3c4cf0d5eee3575ac759",
+    "eval/light-dom/reports/structural-development.json": "77d0d60568c50ce44d270116e588ff253b68c04895606f6acf231c9b9bf62c8b",
+    "eval/light-dom/data/development-inputs.json": "ee7d11bf1ee8f9e72623a78e89dcb19d2d826e337d9d7c65de4250c23b8282a6",
+    "eval/light-dom/data/development-labels.json": "0befb471e18279b01bc735617731ed78e5b3dfff1510e40b663c33c4157a703b",
+    "eval/light-dom/data/holdout-inputs.json": "98eb8348358892e0ca601ab185623781175b6b2efbcfbc28b473b7de643880ae",
+    "eval/light-dom/data/holdout-labels.json": "21699dbe709838822bc4b8aa59428caadc9685a07594bc4a0bfed7d8b641f252",
+    "eval/tiny-decision/v2/features.mjs": "01d561a330e0e46faff35a989255332bebecb69844494d74f827ebdea8d9df9a",
+    "eval/tiny-decision/baseline.mjs": "de220fa60bb9cc856d19034745c16c68f6cfb9746d137b5c8e34e938c121d20f"
+  },
+  "protocol": "All model choices, scalar thresholds, templates, features and trained weights are fixed before opening new candidate inputs/labels/annotations or predictions. Existing 66 cases are development only. No fresh-driven tuning.",
+  "evaluations": "Selected neural template and global threshold per model on all 18 new cases. Structural ranker and unchanged compact generic rules on the same cases. Report 18 total and 17 nontrivial cases; one image case has no observed candidate. Native quantized outputs, browser runtime compatibility/performance and node-ID choices remain distinct metrics.",
+  "browserProtocol": "One selected-template pass over all nonempty fresh cases per quantized neural model in a working browser provider, paired to native output. Development six-case diagnostics across title/image/description and positive/none for provider and warm timing checks. Browser jobs are pretokenized; memory excludes Python tokenizer. Structural browser times include observed-evidence feature construction and ranking, exclude live DOM collection.",
+  "deployment": "Research only; no model dependency or automatic model download added to extension. Preferred model weight artifact <=200,000,000 bytes, native/browser memory measured separately. No claim that this file-size budget bounds runtime RAM.",
+  "automaticNavigation": false
+}

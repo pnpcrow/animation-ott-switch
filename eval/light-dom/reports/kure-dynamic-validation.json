@@ -1,0 +1,31 @@
+{
+  "model": "nlpai-lab/KURE-Reranker-nano",
+  "revision": "8514b9e113f3b27c441ed9c2b50f81d80388b2fd",
+  "parameters": 149323009,
+  "fp32Sha256": "53a344b0592883069a7838766100a255e252f1e15a1dd118ac99758ec9f25ad6",
+  "q8Sha256": "7ba8aee76afd84420e1ee3a532672f4dd1dc2b3d2f48e1aec492faaed44f078f",
+  "cases": [
+    {
+      "batch": 1,
+      "sequence": 17,
+      "maxAbsoluteFp32Error": 1.430511474609375e-06
+    },
+    {
+      "batch": 2,
+      "sequence": 129,
+      "maxAbsoluteFp32Error": 7.152557373046875e-06
+    },
+    {
+      "batch": 4,
+      "sequence": 257,
+      "maxAbsoluteFp32Error": 4.76837158203125e-06
+    },
+    {
+      "batch": 1,
+      "sequence": 384,
+      "maxAbsoluteFp32Error": 1.430511474609375e-06
+    }
+  ],
+  "note": "Seeded arbitrary tokens validate graph shapes and mask handling, not semantic accuracy. Padded inputs and local-attention boundary lengths are included.",
+  "finishedAt": "2026-11-13T13:04:32Z"
+}

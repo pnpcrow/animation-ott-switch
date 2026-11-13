@@ -1,0 +1,1642 @@
+{
+  "schemaVersion": 1,
+  "model": {
+    "id": "nlpai-lab/KURE-Reranker-nano",
+    "revision": "8514b9e113f3b27c441ed9c2b50f81d80388b2fd",
+    "sha256": "7ba8aee76afd84420e1ee3a532672f4dd1dc2b3d2f48e1aec492faaed44f078f",
+    "outputName": "logits",
+    "pooling": "logits"
+  },
+  "modelFileBytes": 151093062,
+  "modelSha256": "7ba8aee76afd84420e1ee3a532672f4dd1dc2b3d2f48e1aec492faaed44f078f",
+  "jobsSha256": "4c9d069c71263a1b72da4877d64cfaba103a88ca63154de903c41081516b0aa8",
+  "sourceJobsSha256": "3730c9312712c5586dbc4ada61e44a4d06d84fcef9e7dfc67a1921df75c1dd77",
+  "implementationSha256": {
+    "scripts/light-dom-browser.mjs": "74a08e5f2a0bc984ccf71987d17b002d56b40f9c476bf967f25ed477f3c42044",
+    "eval/light-dom/runtime/browser.mjs": "1bc66c9d5cd253d6199acb945eca9b661298c176776de592f678dc563e3b519f",
+    "eval/light-dom/runtime/readout.mjs": "aaad170b2c7a54a6cb543fed48cdac9d22df39ab53900ea09a3b45f45acaf3d7"
+  },
+  "startedAt": "2026-11-13T13:22:43.834Z",
+  "runtime": "ONNX Runtime Web 1.31.1",
+  "network": {
+    "externalRequests": []
+  },
+  "processMemory": [
+    {
+      "stage": "before-page",
+      "workingSetBytes": 410566656,
+      "privateBytes": 228122624,
+      "processes": [
+        {
+          "Id": 10712,
+          "WorkingSet64": 70737920,
+          "PrivateMemorySize64": 32948224
+        },
+        {
+          "Id": 11968,
+          "WorkingSet64": 46891008,
+          "PrivateMemorySize64": 17985536
+        },
+        {
+          "Id": 21856,
+          "WorkingSet64": 112300032,
+          "PrivateMemorySize64": 33263616
+        },
+        {
+          "Id": 37920,
+          "WorkingSet64": 34856960,
+          "PrivateMemorySize64": 18452480
+        },
+        {
+          "Id": 41392,
+          "WorkingSet64": 96014336,
+          "PrivateMemorySize64": 105525248
+        },
+        {
+          "Id": 59648,
+          "WorkingSet64": 30040064,
+          "PrivateMemorySize64": 11366400
+        },
+        {
+          "Id": 71152,
+          "WorkingSet64": 19726336,
+          "PrivateMemorySize64": 8581120
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "loaded-0",
+      "workingSetBytes": 1285423104,
+      "privateBytes": 1126318080,
+      "processes": [
+        {
+          "Id": 10712,
+          "WorkingSet64": 70815744,
+          "PrivateMemorySize64": 32952320
+        },
+        {
+          "Id": 21856,
+          "WorkingSet64": 130715648,
+          "PrivateMemorySize64": 41836544
+        },
+        {
+          "Id": 24484,
+          "WorkingSet64": 32079872,
+          "PrivateMemorySize64": 15589376
+        },
+        {
+          "Id": 37920,
+          "WorkingSet64": 765960192,
+          "PrivateMemorySize64": 739110912
+        },
+        {
+          "Id": 41392,
+          "WorkingSet64": 232693760,
+          "PrivateMemorySize64": 276492288
+        },
+        {
+          "Id": 59648,
+          "WorkingSet64": 32980992,
+          "PrivateMemorySize64": 11653120
+        },
+        {
+          "Id": 71152,
+          "WorkingSet64": 20176896,
+          "PrivateMemorySize64": 8683520
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "inference-1",
+      "workingSetBytes": 1206235136,
+      "privateBytes": 1244336128,
+      "processes": [
+        {
+          "Id": 10712,
+          "WorkingSet64": 70848512,
+          "PrivateMemorySize64": 32952320
+        },
+        {
+          "Id": 21856,
+          "WorkingSet64": 130904064,
+          "PrivateMemorySize64": 41955328
+        },
+        {
+          "Id": 24484,
+          "WorkingSet64": 32088064,
+          "PrivateMemorySize64": 15589376
+        },
+        {
+          "Id": 37920,
+          "WorkingSet64": 601776128,
+          "PrivateMemorySize64": 525348864
+        },
+        {
+          "Id": 41392,
+          "WorkingSet64": 317288448,
+          "PrivateMemorySize64": 608018432
+        },
+        {
+          "Id": 59648,
+          "WorkingSet64": 33148928,
+          "PrivateMemorySize64": 11788288
+        },
+        {
+          "Id": 71152,
+          "WorkingSet64": 20180992,
+          "PrivateMemorySize64": 8683520
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "inference-17",
+      "workingSetBytes": 1350676480,
+      "privateBytes": 1617768448,
+      "processes": [
+        {
+          "Id": 10712,
+          "WorkingSet64": 69210112,
+          "PrivateMemorySize64": 28721152
+        },
+        {
+          "Id": 21856,
+          "WorkingSet64": 133058560,
+          "PrivateMemorySize64": 40529920
+        },
+        {
+          "Id": 24484,
+          "WorkingSet64": 32055296,
+          "PrivateMemorySize64": 15478784
+        },
+        {
+          "Id": 37920,
+          "WorkingSet64": 664678400,
+          "PrivateMemorySize64": 542343168
+        },
+        {
+          "Id": 41392,
+          "WorkingSet64": 398524416,
+          "PrivateMemorySize64": 970752000
+        },
+        {
+          "Id": 59648,
+          "WorkingSet64": 32948224,
+          "PrivateMemorySize64": 11407360
+        },
+        {
+          "Id": 71152,
+          "WorkingSet64": 20201472,
+          "PrivateMemorySize64": 8536064
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "after-release",
+      "workingSetBytes": 1298939904,
+      "privateBytes": 1099132928,
+      "processes": [
+        {
+          "Id": 10712,
+          "WorkingSet64": 69210112,
+          "PrivateMemorySize64": 28721152
+        },
+        {
+          "Id": 21856,
+          "WorkingSet64": 133230592,
+          "PrivateMemorySize64": 40693760
+        },
+        {
+          "Id": 24484,
+          "WorkingSet64": 32055296,
+          "PrivateMemorySize64": 15478784
+        },
+        {
+          "Id": 37920,
+          "WorkingSet64": 665088000,
+          "PrivateMemorySize64": 542552064
+        },
+        {
+          "Id": 41392,
+          "WorkingSet64": 346206208,
+          "PrivateMemorySize64": 451743744
+        },
+        {
+          "Id": 59648,
+          "WorkingSet64": 32948224,
+          "PrivateMemorySize64": 11407360
+        },
+        {
+          "Id": 71152,
+          "WorkingSet64": 20201472,
+          "PrivateMemorySize64": 8536064
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    }
+  ],
+  "batchPlan": [
+    {
+      "id": "violet-netflix-title::ko-role",
+      "pairIds": [
+        "violet-netflix-title::ko-role::t3",
+        "violet-netflix-title::ko-role::t6",
+        "violet-netflix-title::ko-role::t8",
+        "violet-netflix-title::ko-role::t1",
+        "violet-netflix-title::ko-role::t4",
+        "violet-netflix-title::ko-role::t5",
+        "violet-netflix-title::ko-role::t7",
+        "violet-netflix-title::ko-role::t2"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "violet-netflix-image::ko-role",
+      "pairIds": [
+        "violet-netflix-image::ko-role::i5",
+        "violet-netflix-image::ko-role::i4",
+        "violet-netflix-image::ko-role::i1",
+        "violet-netflix-image::ko-role::i8",
+        "violet-netflix-image::ko-role::i6",
+        "violet-netflix-image::ko-role::i3",
+        "violet-netflix-image::ko-role::i2",
+        "violet-netflix-image::ko-role::i7"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "violet-netflix-description::ko-role",
+      "pairIds": [
+        "violet-netflix-description::ko-role::d1",
+        "violet-netflix-description::ko-role::d5",
+        "violet-netflix-description::ko-role::d8",
+        "violet-netflix-description::ko-role::d6",
+        "violet-netflix-description::ko-role::d4",
+        "violet-netflix-description::ko-role::d2",
+        "violet-netflix-description::ko-role::d3",
+        "violet-netflix-description::ko-role::d7"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "hero-apple-title::ko-role",
+      "pairIds": [
+        "hero-apple-title::ko-role::t7",
+        "hero-apple-title::ko-role::t5",
+        "hero-apple-title::ko-role::t6",
+        "hero-apple-title::ko-role::t4",
+        "hero-apple-title::ko-role::t2",
+        "hero-apple-title::ko-role::t1",
+        "hero-apple-title::ko-role::t3",
+        "hero-apple-title::ko-role::t8"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "hero-apple-image::ko-role",
+      "pairIds": [
+        "hero-apple-image::ko-role::i8",
+        "hero-apple-image::ko-role::i1",
+        "hero-apple-image::ko-role::i5",
+        "hero-apple-image::ko-role::i7",
+        "hero-apple-image::ko-role::i4",
+        "hero-apple-image::ko-role::i3",
+        "hero-apple-image::ko-role::i2",
+        "hero-apple-image::ko-role::i6"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "hero-apple-description::ko-role",
+      "pairIds": [
+        "hero-apple-description::ko-role::d3",
+        "hero-apple-description::ko-role::d4",
+        "hero-apple-description::ko-role::d2",
+        "hero-apple-description::ko-role::d7",
+        "hero-apple-description::ko-role::d1",
+        "hero-apple-description::ko-role::d5",
+        "hero-apple-description::ko-role::d6",
+        "hero-apple-description::ko-role::d8"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "bebop-tving-title::ko-role",
+      "pairIds": [
+        "bebop-tving-title::ko-role::t2",
+        "bebop-tving-title::ko-role::t4",
+        "bebop-tving-title::ko-role::t1",
+        "bebop-tving-title::ko-role::t3"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "bebop-tving-image::ko-role",
+      "pairIds": [
+        "bebop-tving-image::ko-role::i5",
+        "bebop-tving-image::ko-role::i2",
+        "bebop-tving-image::ko-role::i3",
+        "bebop-tving-image::ko-role::i1",
+        "bebop-tving-image::ko-role::i4",
+        "bebop-tving-image::ko-role::i6",
+        "bebop-tving-image::ko-role::i7",
+        "bebop-tving-image::ko-role::i8"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "bebop-tving-description::ko-role",
+      "pairIds": [
+        "bebop-tving-description::ko-role::d3",
+        "bebop-tving-description::ko-role::d6",
+        "bebop-tving-description::ko-role::d2",
+        "bebop-tving-description::ko-role::d5",
+        "bebop-tving-description::ko-role::d8",
+        "bebop-tving-description::ko-role::d7",
+        "bebop-tving-description::ko-role::d4",
+        "bebop-tving-description::ko-role::d1"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "tutu-laftel-title::ko-role",
+      "pairIds": [
+        "tutu-laftel-title::ko-role::t7",
+        "tutu-laftel-title::ko-role::t1",
+        "tutu-laftel-title::ko-role::t3",
+        "tutu-laftel-title::ko-role::t8",
+        "tutu-laftel-title::ko-role::t2",
+        "tutu-laftel-title::ko-role::t4",
+        "tutu-laftel-title::ko-role::t6",
+        "tutu-laftel-title::ko-role::t5"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "tutu-laftel-image::ko-role",
+      "pairIds": [
+        "tutu-laftel-image::ko-role::i7",
+        "tutu-laftel-image::ko-role::i1",
+        "tutu-laftel-image::ko-role::i4",
+        "tutu-laftel-image::ko-role::i3",
+        "tutu-laftel-image::ko-role::i8",
+        "tutu-laftel-image::ko-role::i6",
+        "tutu-laftel-image::ko-role::i5",
+        "tutu-laftel-image::ko-role::i2"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "tutu-laftel-description::ko-role",
+      "pairIds": [
+        "tutu-laftel-description::ko-role::d7",
+        "tutu-laftel-description::ko-role::d3",
+        "tutu-laftel-description::ko-role::d8",
+        "tutu-laftel-description::ko-role::d1",
+        "tutu-laftel-description::ko-role::d4",
+        "tutu-laftel-description::ko-role::d2",
+        "tutu-laftel-description::ko-role::d5",
+        "tutu-laftel-description::ko-role::d6"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "genre-netflix-title::ko-role",
+      "pairIds": [
+        "genre-netflix-title::ko-role::t7",
+        "genre-netflix-title::ko-role::t1",
+        "genre-netflix-title::ko-role::t6",
+        "genre-netflix-title::ko-role::t2",
+        "genre-netflix-title::ko-role::t8",
+        "genre-netflix-title::ko-role::t4",
+        "genre-netflix-title::ko-role::t5",
+        "genre-netflix-title::ko-role::t3"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "genre-netflix-image::ko-role",
+      "pairIds": [
+        "genre-netflix-image::ko-role::i3",
+        "genre-netflix-image::ko-role::i4",
+        "genre-netflix-image::ko-role::i2",
+        "genre-netflix-image::ko-role::i1"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "genre-netflix-description::ko-role",
+      "pairIds": [
+        "genre-netflix-description::ko-role::d3",
+        "genre-netflix-description::ko-role::d5",
+        "genre-netflix-description::ko-role::d2",
+        "genre-netflix-description::ko-role::d6",
+        "genre-netflix-description::ko-role::d1",
+        "genre-netflix-description::ko-role::d7",
+        "genre-netflix-description::ko-role::d8",
+        "genre-netflix-description::ko-role::d4"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "policy-laftel-title::ko-role",
+      "pairIds": [
+        "policy-laftel-title::ko-role::t8",
+        "policy-laftel-title::ko-role::t6",
+        "policy-laftel-title::ko-role::t7",
+        "policy-laftel-title::ko-role::t1",
+        "policy-laftel-title::ko-role::t2",
+        "policy-laftel-title::ko-role::t4",
+        "policy-laftel-title::ko-role::t3",
+        "policy-laftel-title::ko-role::t5"
+      ],
+      "repeats": 1
+    },
+    {
+      "id": "policy-laftel-description::ko-role",
+      "pairIds": [
+        "policy-laftel-description::ko-role::d8",
+        "policy-laftel-description::ko-role::d6",
+        "policy-laftel-description::ko-role::d4",
+        "policy-laftel-description::ko-role::d3",
+        "policy-laftel-description::ko-role::d1",
+        "policy-laftel-description::ko-role::d7",
+        "policy-laftel-description::ko-role::d2",
+        "policy-laftel-description::ko-role::d5"
+      ],
+      "repeats": 1
+    }
+  ],
+  "requestedProvider": "webgpu",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36",
+  "crossOriginIsolated": true,
+  "threads": 1,
+  "beforeLoadHeap": {
+    "usedJSHeapSize": 3232660,
+    "totalJSHeapSize": 5363700,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "rows": [
+    {
+      "id": "violet-netflix-title::ko-role",
+      "pairIds": [
+        "violet-netflix-title::ko-role::t3",
+        "violet-netflix-title::ko-role::t6",
+        "violet-netflix-title::ko-role::t8",
+        "violet-netflix-title::ko-role::t1",
+        "violet-netflix-title::ko-role::t4",
+        "violet-netflix-title::ko-role::t5",
+        "violet-netflix-title::ko-role::t7",
+        "violet-netflix-title::ko-role::t2"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          215
+        ],
+        "attention_mask": [
+          8,
+          215
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 9952.569999933243,
+          "elapsedMs": 9952.769999980927
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -4.421799182891846,
+          -5.0794267654418945,
+          -5.4563446044921875,
+          -4.638796806335449,
+          -4.883403301239014,
+          -4.202292442321777,
+          -4.227546691894531,
+          -4.979261875152588
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 9952.769999980927,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 5733612,
+        "totalJSHeapSize": 7659960,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "violet-netflix-image::ko-role",
+      "pairIds": [
+        "violet-netflix-image::ko-role::i5",
+        "violet-netflix-image::ko-role::i4",
+        "violet-netflix-image::ko-role::i1",
+        "violet-netflix-image::ko-role::i8",
+        "violet-netflix-image::ko-role::i6",
+        "violet-netflix-image::ko-role::i3",
+        "violet-netflix-image::ko-role::i2",
+        "violet-netflix-image::ko-role::i7"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          270
+        ],
+        "attention_mask": [
+          8,
+          270
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 11394.444999933243,
+          "elapsedMs": 11394.46499991417
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -5.869138240814209,
+          -6.108714580535889,
+          -5.746301174163818,
+          -5.998287200927734,
+          -5.937391757965088,
+          -6.040496826171875,
+          -5.909576892852783,
+          -5.727318286895752
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 11394.46499991417,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 5898377,
+        "totalJSHeapSize": 7420809,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "violet-netflix-description::ko-role",
+      "pairIds": [
+        "violet-netflix-description::ko-role::d1",
+        "violet-netflix-description::ko-role::d5",
+        "violet-netflix-description::ko-role::d8",
+        "violet-netflix-description::ko-role::d6",
+        "violet-netflix-description::ko-role::d4",
+        "violet-netflix-description::ko-role::d2",
+        "violet-netflix-description::ko-role::d3",
+        "violet-netflix-description::ko-role::d7"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          246
+        ],
+        "attention_mask": [
+          8,
+          246
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 10015.099999904633,
+          "elapsedMs": 10015.129999876022
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -5.115098476409912,
+          -5.9105024337768555,
+          -5.461050987243652,
+          -5.9586992263793945,
+          -6.1420769691467285,
+          -5.357614994049072,
+          -5.53178596496582,
+          -5.276289463043213
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 10015.129999876022,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 5533467,
+        "totalJSHeapSize": 6491139,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "hero-apple-title::ko-role",
+      "pairIds": [
+        "hero-apple-title::ko-role::t7",
+        "hero-apple-title::ko-role::t5",
+        "hero-apple-title::ko-role::t6",
+        "hero-apple-title::ko-role::t4",
+        "hero-apple-title::ko-role::t2",
+        "hero-apple-title::ko-role::t1",
+        "hero-apple-title::ko-role::t3",
+        "hero-apple-title::ko-role::t8"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          250
+        ],
+        "attention_mask": [
+          8,
+          250
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 10560.515000104904,
+          "elapsedMs": 10560.525000095367
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -5.574337005615234,
+          -6.427761077880859,
+          -6.071303844451904,
+          -6.256806373596191,
+          -6.008485317230225,
+          -6.54514217376709,
+          -4.9214253425598145,
+          -5.981679439544678
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 10560.525000095367,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 6114263,
+        "totalJSHeapSize": 6523171,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "hero-apple-image::ko-role",
+      "pairIds": [
+        "hero-apple-image::ko-role::i8",
+        "hero-apple-image::ko-role::i1",
+        "hero-apple-image::ko-role::i5",
+        "hero-apple-image::ko-role::i7",
+        "hero-apple-image::ko-role::i4",
+        "hero-apple-image::ko-role::i3",
+        "hero-apple-image::ko-role::i2",
+        "hero-apple-image::ko-role::i6"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          280
+        ],
+        "attention_mask": [
+          8,
+          280
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 12011.18499994278,
+          "elapsedMs": 12011.200000047684
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -5.487171173095703,
+          -5.012831687927246,
+          -5.688235759735107,
+          -5.649807929992676,
+          -5.304683685302734,
+          -5.26950216293335,
+          -5.14229679107666,
+          -5.488332271575928
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 12011.200000047684,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 6403472,
+        "totalJSHeapSize": 8151664,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "hero-apple-description::ko-role",
+      "pairIds": [
+        "hero-apple-description::ko-role::d3",
+        "hero-apple-description::ko-role::d4",
+        "hero-apple-description::ko-role::d2",
+        "hero-apple-description::ko-role::d7",
+        "hero-apple-description::ko-role::d1",
+        "hero-apple-description::ko-role::d5",
+        "hero-apple-description::ko-role::d6",
+        "hero-apple-description::ko-role::d8"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          300
+        ],
+        "attention_mask": [
+          8,
+          300
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 13112.099999904633,
+          "elapsedMs": 13112.120000123978
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -5.738189697265625,
+          -6.312920093536377,
+          -6.373251914978027,
+          -6.756434440612793,
+          -5.9625043869018555,
+          -6.346358776092529,
+          -6.89150857925415,
+          -7.461012840270996
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 13112.120000123978,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 6686744,
+        "totalJSHeapSize": 7927952,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "bebop-tving-title::ko-role",
+      "pairIds": [
+        "bebop-tving-title::ko-role::t2",
+        "bebop-tving-title::ko-role::t4",
+        "bebop-tving-title::ko-role::t1",
+        "bebop-tving-title::ko-role::t3"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          4,
+          235
+        ],
+        "attention_mask": [
+          4,
+          235
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 5017.2300000190735,
+          "elapsedMs": 5017.245000123978
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          4,
+          1
+        ],
+        "data": [
+          -5.015321254730225,
+          -4.831101894378662,
+          -5.11926794052124,
+          -4.467337608337402
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 5017.245000123978,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 7030668,
+        "totalJSHeapSize": 8467296,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "bebop-tving-image::ko-role",
+      "pairIds": [
+        "bebop-tving-image::ko-role::i5",
+        "bebop-tving-image::ko-role::i2",
+        "bebop-tving-image::ko-role::i3",
+        "bebop-tving-image::ko-role::i1",
+        "bebop-tving-image::ko-role::i4",
+        "bebop-tving-image::ko-role::i6",
+        "bebop-tving-image::ko-role::i7",
+        "bebop-tving-image::ko-role::i8"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          246
+        ],
+        "attention_mask": [
+          8,
+          246
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 10576.409999847412,
+          "elapsedMs": 10576.424999952316
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -4.976243019104004,
+          -5.638216018676758,
+          -5.486070156097412,
+          -5.799421310424805,
+          -5.70022439956665,
+          -5.087013244628906,
+          -5.087013244628906,
+          -5.087013244628906
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 10576.424999952316,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 7242832,
+        "totalJSHeapSize": 8236672,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "bebop-tving-description::ko-role",
+      "pairIds": [
+        "bebop-tving-description::ko-role::d3",
+        "bebop-tving-description::ko-role::d6",
+        "bebop-tving-description::ko-role::d2",
+        "bebop-tving-description::ko-role::d5",
+        "bebop-tving-description::ko-role::d8",
+        "bebop-tving-description::ko-role::d7",
+        "bebop-tving-description::ko-role::d4",
+        "bebop-tving-description::ko-role::d1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          260
+        ],
+        "attention_mask": [
+          8,
+          260
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 10877.15499997139,
+          "elapsedMs": 10877.174999952316
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -5.5831756591796875,
+          -5.396232604980469,
+          -5.447369575500488,
+          -5.533899307250977,
+          -5.310366153717041,
+          -5.858183860778809,
+          -5.471454620361328,
+          -4.472121715545654
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 10877.174999952316,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 8175544,
+        "totalJSHeapSize": 9287040,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "tutu-laftel-title::ko-role",
+      "pairIds": [
+        "tutu-laftel-title::ko-role::t7",
+        "tutu-laftel-title::ko-role::t1",
+        "tutu-laftel-title::ko-role::t3",
+        "tutu-laftel-title::ko-role::t8",
+        "tutu-laftel-title::ko-role::t2",
+        "tutu-laftel-title::ko-role::t4",
+        "tutu-laftel-title::ko-role::t6",
+        "tutu-laftel-title::ko-role::t5"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          215
+        ],
+        "attention_mask": [
+          8,
+          215
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 9543.409999847412,
+          "elapsedMs": 9543.429999828339
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -5.425314426422119,
+          -6.445956230163574,
+          -6.06686544418335,
+          -5.974274635314941,
+          -6.169445991516113,
+          -5.630893230438232,
+          -5.749703884124756,
+          -5.509772777557373
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 9543.429999828339,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 7693868,
+        "totalJSHeapSize": 9019136,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "tutu-laftel-image::ko-role",
+      "pairIds": [
+        "tutu-laftel-image::ko-role::i7",
+        "tutu-laftel-image::ko-role::i1",
+        "tutu-laftel-image::ko-role::i4",
+        "tutu-laftel-image::ko-role::i3",
+        "tutu-laftel-image::ko-role::i8",
+        "tutu-laftel-image::ko-role::i6",
+        "tutu-laftel-image::ko-role::i5",
+        "tutu-laftel-image::ko-role::i2"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          244
+        ],
+        "attention_mask": [
+          8,
+          244
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 10551.974999904633,
+          "elapsedMs": 10551.984999895096
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -6.470355033874512,
+          -6.425734996795654,
+          -6.802398681640625,
+          -5.972959518432617,
+          -6.286401271820068,
+          -6.497735500335693,
+          -6.482336044311523,
+          -6.364716053009033
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 10551.984999895096,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 7960976,
+        "totalJSHeapSize": 9284992,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "tutu-laftel-description::ko-role",
+      "pairIds": [
+        "tutu-laftel-description::ko-role::d7",
+        "tutu-laftel-description::ko-role::d3",
+        "tutu-laftel-description::ko-role::d8",
+        "tutu-laftel-description::ko-role::d1",
+        "tutu-laftel-description::ko-role::d4",
+        "tutu-laftel-description::ko-role::d2",
+        "tutu-laftel-description::ko-role::d5",
+        "tutu-laftel-description::ko-role::d6"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          279
+        ],
+        "attention_mask": [
+          8,
+          279
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 11910.894999980927,
+          "elapsedMs": 11910.914999961853
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -5.97491455078125,
+          -5.878540515899658,
+          -6.063285827636719,
+          -7.630675792694092,
+          -5.683526992797852,
+          -6.173055171966553,
+          -5.874790191650391,
+          -6.0891289710998535
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 11910.914999961853,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 7544732,
+        "totalJSHeapSize": 10075904,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "genre-netflix-title::ko-role",
+      "pairIds": [
+        "genre-netflix-title::ko-role::t7",
+        "genre-netflix-title::ko-role::t1",
+        "genre-netflix-title::ko-role::t6",
+        "genre-netflix-title::ko-role::t2",
+        "genre-netflix-title::ko-role::t8",
+        "genre-netflix-title::ko-role::t4",
+        "genre-netflix-title::ko-role::t5",
+        "genre-netflix-title::ko-role::t3"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          214
+        ],
+        "attention_mask": [
+          8,
+          214
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 9004.975000143051,
+          "elapsedMs": 9004.990000009537
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -2.6960835456848145,
+          -3.379641532897949,
+          -2.5149922370910645,
+          -2.243492841720581,
+          -3.0084474086761475,
+          -3.0096335411071777,
+          -2.5429391860961914,
+          -2.514326810836792
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 9004.990000009537,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 8017700,
+        "totalJSHeapSize": 9579040,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "genre-netflix-image::ko-role",
+      "pairIds": [
+        "genre-netflix-image::ko-role::i3",
+        "genre-netflix-image::ko-role::i4",
+        "genre-netflix-image::ko-role::i2",
+        "genre-netflix-image::ko-role::i1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          4,
+          216
+        ],
+        "attention_mask": [
+          4,
+          216
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 4368.740000009537,
+          "elapsedMs": 4368.759999990463
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          4,
+          1
+        ],
+        "data": [
+          -3.5135087966918945,
+          -3.3573837280273438,
+          -4.150290012359619,
+          -3.92626690864563
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 4368.759999990463,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 8356488,
+        "totalJSHeapSize": 9855024,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "genre-netflix-description::ko-role",
+      "pairIds": [
+        "genre-netflix-description::ko-role::d3",
+        "genre-netflix-description::ko-role::d5",
+        "genre-netflix-description::ko-role::d2",
+        "genre-netflix-description::ko-role::d6",
+        "genre-netflix-description::ko-role::d1",
+        "genre-netflix-description::ko-role::d7",
+        "genre-netflix-description::ko-role::d8",
+        "genre-netflix-description::ko-role::d4"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          244
+        ],
+        "attention_mask": [
+          8,
+          244
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 10944.81500005722,
+          "elapsedMs": 10944.829999923706
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -3.6716320514678955,
+          -4.07502555847168,
+          -3.5128235816955566,
+          -3.801252603530884,
+          -3.3383281230926514,
+          -3.9895102977752686,
+          -4.056190490722656,
+          -3.995793342590332
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 10944.829999923706,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 8789684,
+        "totalJSHeapSize": 9886288,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "policy-laftel-title::ko-role",
+      "pairIds": [
+        "policy-laftel-title::ko-role::t8",
+        "policy-laftel-title::ko-role::t6",
+        "policy-laftel-title::ko-role::t7",
+        "policy-laftel-title::ko-role::t1",
+        "policy-laftel-title::ko-role::t2",
+        "policy-laftel-title::ko-role::t4",
+        "policy-laftel-title::ko-role::t3",
+        "policy-laftel-title::ko-role::t5"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          245
+        ],
+        "attention_mask": [
+          8,
+          245
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 10307.765000104904,
+          "elapsedMs": 10307.77999997139
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -8.491108894348145,
+          -8.446311950683594,
+          -8.236578941345215,
+          -7.741645336151123,
+          -7.043030261993408,
+          -8.122262954711914,
+          -7.499537944793701,
+          -8.567659378051758
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 10307.77999997139,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 8443036,
+        "totalJSHeapSize": 9624272,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "policy-laftel-description::ko-role",
+      "pairIds": [
+        "policy-laftel-description::ko-role::d8",
+        "policy-laftel-description::ko-role::d6",
+        "policy-laftel-description::ko-role::d4",
+        "policy-laftel-description::ko-role::d3",
+        "policy-laftel-description::ko-role::d1",
+        "policy-laftel-description::ko-role::d7",
+        "policy-laftel-description::ko-role::d2",
+        "policy-laftel-description::ko-role::d5"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          295
+        ],
+        "attention_mask": [
+          8,
+          295
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 12952.585000038147,
+          "elapsedMs": 12952.609999895096
+        }
+      ],
+      "gpuQueueSubmissions": 301,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -8.176750183105469,
+          -8.39921760559082,
+          -8.38548469543457,
+          -8.608782768249512,
+          -8.532449722290039,
+          -8.555309295654297,
+          -8.35859489440918,
+          -8.619510650634766
+        ]
+      },
+      "outputName": "logits",
+      "firstMs": 12952.609999895096,
+      "warm": {
+        "count": 0,
+        "p50Ms": null,
+        "p95Ms": null,
+        "minimumMs": null,
+        "maximumMs": null
+      },
+      "heap": {
+        "usedJSHeapSize": 9085080,
+        "totalJSHeapSize": 10972784,
+        "jsHeapSizeLimit": 4395630592
+      }
+    }
+  ],
+  "gpu": {
+    "queueSubmissions": 5312,
+    "computePipelines": 46,
+    "pipelineLabels": [
+      "(unnamed)"
+    ],
+    "totalBufferBytes": 32372030060,
+    "liveBufferBytes": 0,
+    "peakLiveBufferBytes": 690187072
+  },
+  "adapter": {
+    "vendor": "amd",
+    "architecture": "rdna-3",
+    "device": "",
+    "description": "",
+    "isFallbackAdapter": null
+  },
+  "loadMs": 3598.0750000476837,
+  "inputNames": [
+    "input_ids",
+    "attention_mask"
+  ],
+  "outputNames": [
+    "logits"
+  ],
+  "afterLoadHeap": {
+    "usedJSHeapSize": 5243865,
+    "totalJSHeapSize": 8818953,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "stage": "inference",
+  "first": {
+    "count": 17,
+    "p50Ms": 10560.525000095367,
+    "p95Ms": 12952.609999895096,
+    "minimumMs": 4368.759999990463,
+    "maximumMs": 13112.120000123978
+  },
+  "warm": {
+    "count": 0,
+    "p50Ms": null,
+    "p95Ms": null,
+    "minimumMs": null,
+    "maximumMs": null
+  },
+  "afterReleaseHeap": {
+    "usedJSHeapSize": 8745452,
+    "totalJSHeapSize": 10186352,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "gpuObserved": true,
+  "notes": [
+    "Pretokenized inputs: tokenization time and tokenizer download excluded.",
+    "Model load uses local loopback serving, not internet download timing.",
+    "GPU submissions establish some GPU work, not full graph residency; unsupported operators may run CPU.",
+    "JS heap is not total process memory. GPU buffer counters are logical explicitly created buffers, not driver-reported VRAM; GC-only release is not observed.",
+    "Warm iterations repeat the identical batch and do not represent cold page latency."
+  ],
+  "referenceComparison": [
+    {
+      "id": "violet-netflix-title::ko-role",
+      "maxAbsError": 0.3116884231567383
+    },
+    {
+      "id": "violet-netflix-image::ko-role",
+      "maxAbsError": 0.4539365768432617
+    },
+    {
+      "id": "violet-netflix-description::ko-role",
+      "maxAbsError": 0.27303409576416016
+    },
+    {
+      "id": "hero-apple-title::ko-role",
+      "maxAbsError": 0.2570490837097168
+    },
+    {
+      "id": "hero-apple-image::ko-role",
+      "maxAbsError": 0.2596111297607422
+    },
+    {
+      "id": "hero-apple-description::ko-role",
+      "maxAbsError": 0.28369998931884766
+    },
+    {
+      "id": "bebop-tving-title::ko-role",
+      "maxAbsError": 0.2648353576660156
+    },
+    {
+      "id": "bebop-tving-image::ko-role",
+      "maxAbsError": 0.2041492462158203
+    },
+    {
+      "id": "bebop-tving-description::ko-role",
+      "maxAbsError": 0.2644228935241699
+    },
+    {
+      "id": "tutu-laftel-title::ko-role",
+      "maxAbsError": 0.19854259490966797
+    },
+    {
+      "id": "tutu-laftel-image::ko-role",
+      "maxAbsError": 0.323455810546875
+    },
+    {
+      "id": "tutu-laftel-description::ko-role",
+      "maxAbsError": 0.2276921272277832
+    },
+    {
+      "id": "genre-netflix-title::ko-role",
+      "maxAbsError": 0.45685768127441406
+    },
+    {
+      "id": "genre-netflix-image::ko-role",
+      "maxAbsError": 0.1222372055053711
+    },
+    {
+      "id": "genre-netflix-description::ko-role",
+      "maxAbsError": 0.3549659252166748
+    },
+    {
+      "id": "policy-laftel-title::ko-role",
+      "maxAbsError": 0.2388467788696289
+    },
+    {
+      "id": "policy-laftel-description::ko-role",
+      "maxAbsError": 0.3506193161010742
+    }
+  ],
+  "finishedAt": "2026-11-13T13:25:48.181Z",
+  "servedBytes": {
+    "/browser.mjs": 6397,
+    "/readout.mjs": 2176,
+    "/ort/ort.webgpu.min.mjs": 70742,
+    "/ort/ort-wasm-simd-threaded.asyncify.mjs": 53457,
+    "/ort/ort-wasm-simd-threaded.asyncify.wasm": 28747738,
+    "/model.onnx": 151093062
+  }
+}

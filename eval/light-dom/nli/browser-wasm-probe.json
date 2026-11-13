@@ -1,0 +1,552 @@
+{
+  "schemaVersion": 1,
+  "model": {
+    "id": "onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX",
+    "revision": "ca5daf3d11b6c4b3143b1f4602a2edfb64c3ad7e",
+    "sha256": "55614f3c7da74184742eaa0006b978744437aa91de9ba4913db42f94d7844a8f",
+    "outputName": "logits",
+    "pooling": "logits"
+  },
+  "modelFileBytes": 107415176,
+  "modelSha256": "55614f3c7da74184742eaa0006b978744437aa91de9ba4913db42f94d7844a8f",
+  "jobsSha256": "22a46e7b33685d3622fe638a7132be545737f016545cf925316574b8e6eab72b",
+  "startedAt": "2026-11-13T13:09:07.147Z",
+  "runtime": "ONNX Runtime Web 1.31.1",
+  "network": {
+    "externalRequests": []
+  },
+  "processMemory": [
+    {
+      "stage": "before-page",
+      "workingSetBytes": 420507648,
+      "privateBytes": 228655104,
+      "processes": [
+        {
+          "Id": 19896,
+          "WorkingSet64": 32182272,
+          "PrivateMemorySize64": 15613952
+        },
+        {
+          "Id": 53036,
+          "WorkingSet64": 30117888,
+          "PrivateMemorySize64": 11210752
+        },
+        {
+          "Id": 53164,
+          "WorkingSet64": 71966720,
+          "PrivateMemorySize64": 34775040
+        },
+        {
+          "Id": 56244,
+          "WorkingSet64": 49942528,
+          "PrivateMemorySize64": 20836352
+        },
+        {
+          "Id": 58856,
+          "WorkingSet64": 120999936,
+          "PrivateMemorySize64": 35708928
+        },
+        {
+          "Id": 67072,
+          "WorkingSet64": 95371264,
+          "PrivateMemorySize64": 101916672
+        },
+        {
+          "Id": 73100,
+          "WorkingSet64": 19927040,
+          "PrivateMemorySize64": 8593408
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "loaded-0",
+      "workingSetBytes": 960909312,
+      "privateBytes": 724881408,
+      "processes": [
+        {
+          "Id": 19896,
+          "WorkingSet64": 577204224,
+          "PrivateMemorySize64": 538914816
+        },
+        {
+          "Id": 33608,
+          "WorkingSet64": 32153600,
+          "PrivateMemorySize64": 15552512
+        },
+        {
+          "Id": 53036,
+          "WorkingSet64": 33210368,
+          "PrivateMemorySize64": 11743232
+        },
+        {
+          "Id": 53164,
+          "WorkingSet64": 72007680,
+          "PrivateMemorySize64": 34775040
+        },
+        {
+          "Id": 58856,
+          "WorkingSet64": 128987136,
+          "PrivateMemorySize64": 41598976
+        },
+        {
+          "Id": 67072,
+          "WorkingSet64": 97042432,
+          "PrivateMemorySize64": 73617408
+        },
+        {
+          "Id": 73100,
+          "WorkingSet64": 20303872,
+          "PrivateMemorySize64": 8679424
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "inference-1",
+      "workingSetBytes": 964632576,
+      "privateBytes": 727949312,
+      "processes": [
+        {
+          "Id": 19896,
+          "WorkingSet64": 580878336,
+          "PrivateMemorySize64": 541958144
+        },
+        {
+          "Id": 33608,
+          "WorkingSet64": 32161792,
+          "PrivateMemorySize64": 15552512
+        },
+        {
+          "Id": 53036,
+          "WorkingSet64": 33218560,
+          "PrivateMemorySize64": 11743232
+        },
+        {
+          "Id": 53164,
+          "WorkingSet64": 72007680,
+          "PrivateMemorySize64": 34775040
+        },
+        {
+          "Id": 58856,
+          "WorkingSet64": 129019904,
+          "PrivateMemorySize64": 41623552
+        },
+        {
+          "Id": 67072,
+          "WorkingSet64": 97042432,
+          "PrivateMemorySize64": 73617408
+        },
+        {
+          "Id": 73100,
+          "WorkingSet64": 20303872,
+          "PrivateMemorySize64": 8679424
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "inference-3",
+      "workingSetBytes": 965316608,
+      "privateBytes": 728346624,
+      "processes": [
+        {
+          "Id": 19896,
+          "WorkingSet64": 581550080,
+          "PrivateMemorySize64": 542343168
+        },
+        {
+          "Id": 33608,
+          "WorkingSet64": 32161792,
+          "PrivateMemorySize64": 15552512
+        },
+        {
+          "Id": 53036,
+          "WorkingSet64": 33218560,
+          "PrivateMemorySize64": 11743232
+        },
+        {
+          "Id": 53164,
+          "WorkingSet64": 72007680,
+          "PrivateMemorySize64": 34775040
+        },
+        {
+          "Id": 58856,
+          "WorkingSet64": 129032192,
+          "PrivateMemorySize64": 41635840
+        },
+        {
+          "Id": 67072,
+          "WorkingSet64": 97042432,
+          "PrivateMemorySize64": 73617408
+        },
+        {
+          "Id": 73100,
+          "WorkingSet64": 20303872,
+          "PrivateMemorySize64": 8679424
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "after-release",
+      "workingSetBytes": 969027584,
+      "privateBytes": 726847488,
+      "processes": [
+        {
+          "Id": 19896,
+          "WorkingSet64": 581894144,
+          "PrivateMemorySize64": 542617600
+        },
+        {
+          "Id": 33608,
+          "WorkingSet64": 32161792,
+          "PrivateMemorySize64": 15552512
+        },
+        {
+          "Id": 53036,
+          "WorkingSet64": 33206272,
+          "PrivateMemorySize64": 11743232
+        },
+        {
+          "Id": 53164,
+          "WorkingSet64": 72380416,
+          "PrivateMemorySize64": 31870976
+        },
+        {
+          "Id": 58856,
+          "WorkingSet64": 132009984,
+          "PrivateMemorySize64": 42729472
+        },
+        {
+          "Id": 67072,
+          "WorkingSet64": 97071104,
+          "PrivateMemorySize64": 73654272
+        },
+        {
+          "Id": 73100,
+          "WorkingSet64": 20303872,
+          "PrivateMemorySize64": 8679424
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    }
+  ],
+  "requestedProvider": "wasm",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36",
+  "crossOriginIsolated": true,
+  "threads": 1,
+  "beforeLoadHeap": {
+    "usedJSHeapSize": 2119179,
+    "totalJSHeapSize": 3033047,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "rows": [
+    {
+      "id": "witch-title::en-role",
+      "inputShapes": {
+        "input_ids": [
+          8,
+          191
+        ],
+        "attention_mask": [
+          8,
+          191
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 1821.5549998283386,
+          "elapsedMs": 1821.8449997901917
+        },
+        {
+          "index": 1,
+          "forwardMs": 1654.380000114441,
+          "elapsedMs": 1654.4000000953674
+        },
+        {
+          "index": 2,
+          "forwardMs": 1622.0299999713898,
+          "elapsedMs": 1622.0599999427795
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          3
+        ],
+        "data": [
+          -0.04774127155542374,
+          0.7948719263076782,
+          -0.7694292068481445,
+          0.058236587792634964,
+          0.8342041969299316,
+          -0.9184203147888184,
+          0.006675229407846928,
+          0.7223798632621765,
+          -0.7524833083152771,
+          0.024810753762722015,
+          0.7684771418571472,
+          -0.8190164566040039,
+          -0.10490173101425171,
+          0.8015211224555969,
+          -0.7153432369232178,
+          0.026162877678871155,
+          0.8601245284080505,
+          -0.9155134558677673,
+          -0.05444430932402611,
+          0.7826449871063232,
+          -0.7546543478965759,
+          -0.005982310511171818,
+          0.8726942539215088,
+          -0.8931286931037903
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 1821.8449997901917,
+      "warm": {
+        "count": 2,
+        "p50Ms": 1622.0599999427795,
+        "p95Ms": 1622.0599999427795,
+        "minimumMs": 1622.0599999427795,
+        "maximumMs": 1654.4000000953674
+      },
+      "heap": {
+        "usedJSHeapSize": 111729711,
+        "totalJSHeapSize": 113927751,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "witch-image::en-role",
+      "inputShapes": {
+        "input_ids": [
+          8,
+          212
+        ],
+        "attention_mask": [
+          8,
+          212
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 1695.9449999332428,
+          "elapsedMs": 1695.979999780655
+        },
+        {
+          "index": 1,
+          "forwardMs": 1752.8449997901917,
+          "elapsedMs": 1752.8799998760223
+        },
+        {
+          "index": 2,
+          "forwardMs": 1342.6050000190735,
+          "elapsedMs": 1342.6299998760223
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          3
+        ],
+        "data": [
+          -0.02924770675599575,
+          0.8216317296028137,
+          -0.8183853626251221,
+          -0.15429732203483582,
+          0.9714470505714417,
+          -0.8439874053001404,
+          -0.0656362846493721,
+          1.0451304912567139,
+          -1.0132278203964233,
+          -0.11236770451068878,
+          0.8715817928314209,
+          -0.7852796316146851,
+          0.09928660094738007,
+          0.8342376351356506,
+          -0.9621465802192688,
+          -0.05741303786635399,
+          1.0368528366088867,
+          -1.0136518478393555,
+          -0.15415340662002563,
+          1.067801833152771,
+          -0.9439651370048523,
+          -0.11064934730529785,
+          0.9213697910308838,
+          -0.8376790881156921
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 1695.979999780655,
+      "warm": {
+        "count": 2,
+        "p50Ms": 1342.6299998760223,
+        "p95Ms": 1342.6299998760223,
+        "minimumMs": 1342.6299998760223,
+        "maximumMs": 1752.8799998760223
+      },
+      "heap": {
+        "usedJSHeapSize": 112081659,
+        "totalJSHeapSize": 114217319,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "witch-description::en-role",
+      "inputShapes": {
+        "input_ids": [
+          8,
+          252
+        ],
+        "attention_mask": [
+          8,
+          252
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 1667.3399999141693,
+          "elapsedMs": 1667.375
+        },
+        {
+          "index": 1,
+          "forwardMs": 1577.835000038147,
+          "elapsedMs": 1577.8650000095367
+        },
+        {
+          "index": 2,
+          "forwardMs": 1461.6899998188019,
+          "elapsedMs": 1461.7300000190735
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          3
+        ],
+        "data": [
+          -0.120346799492836,
+          0.8160232305526733,
+          -0.720633864402771,
+          -0.5446881055831909,
+          0.9313572645187378,
+          -0.40391281247138977,
+          0.2418701946735382,
+          0.7663028240203857,
+          -1.040962815284729,
+          0.15409080684185028,
+          0.984313428401947,
+          -1.1737546920776367,
+          0.18879520893096924,
+          0.6198294758796692,
+          -0.8341652750968933,
+          -0.09779361635446548,
+          0.4823906719684601,
+          -0.3988575041294098,
+          -0.05270729213953018,
+          0.9865376353263855,
+          -0.9660089015960693,
+          0.2745690941810608,
+          0.6226142644882202,
+          -0.9253684282302856
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 1667.375,
+      "warm": {
+        "count": 2,
+        "p50Ms": 1461.7300000190735,
+        "p95Ms": 1461.7300000190735,
+        "minimumMs": 1461.7300000190735,
+        "maximumMs": 1577.8650000095367
+      },
+      "heap": {
+        "usedJSHeapSize": 112002291,
+        "totalJSHeapSize": 113149127,
+        "jsHeapSizeLimit": 4395630592
+      }
+    }
+  ],
+  "gpu": {
+    "queueSubmissions": 0,
+    "computePipelines": 0,
+    "pipelineLabels": [],
+    "totalBufferBytes": 0,
+    "liveBufferBytes": 0,
+    "peakLiveBufferBytes": 0
+  },
+  "loadMs": 2985.5899999141693,
+  "inputNames": [
+    "input_ids",
+    "attention_mask"
+  ],
+  "outputNames": [
+    "logits"
+  ],
+  "afterLoadHeap": {
+    "usedJSHeapSize": 111307115,
+    "totalJSHeapSize": 113640871,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "stage": "inference",
+  "first": {
+    "count": 3,
+    "p50Ms": 1695.979999780655,
+    "p95Ms": 1695.979999780655,
+    "minimumMs": 1667.375,
+    "maximumMs": 1821.8449997901917
+  },
+  "warm": {
+    "count": 6,
+    "p50Ms": 1577.8650000095367,
+    "p95Ms": 1654.4000000953674,
+    "minimumMs": 1342.6299998760223,
+    "maximumMs": 1752.8799998760223
+  },
+  "afterReleaseHeap": {
+    "usedJSHeapSize": 111789455,
+    "totalJSHeapSize": 113149127,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "gpuObserved": false,
+  "notes": [
+    "Pretokenized inputs: tokenization time and tokenizer download excluded.",
+    "Model load uses local loopback serving, not internet download timing.",
+    "GPU submissions establish some GPU work, not full graph residency; unsupported operators may run CPU.",
+    "JS heap is not total process memory. GPU buffer counters are logical explicitly created buffers, not driver-reported VRAM; GC-only release is not observed.",
+    "Warm iterations repeat the identical batch and do not represent cold page latency."
+  ],
+  "referenceComparison": [
+    {
+      "id": "witch-title::en-role",
+      "maxAbsError": 0.08041298389434814
+    },
+    {
+      "id": "witch-image::en-role",
+      "maxAbsError": 0.10353805497288704
+    },
+    {
+      "id": "witch-description::en-role",
+      "maxAbsError": 0.07979260757565498
+    }
+  ],
+  "finishedAt": "2026-11-13T13:09:38.426Z",
+  "servedBytes": {
+    "/browser.mjs": 6368,
+    "/ort/ort.webgpu.min.mjs": 70742,
+    "/readout.mjs": 2176,
+    "/ort/ort-wasm-simd-threaded.asyncify.mjs": 53457,
+    "/ort/ort-wasm-simd-threaded.asyncify.wasm": 28747738,
+    "/model.onnx": 107415176
+  }
+}

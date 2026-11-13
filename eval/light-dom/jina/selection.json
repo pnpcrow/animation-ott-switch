@@ -1,0 +1,70 @@
+{
+  "selected": {
+    "template": "en-role",
+    "threshold": 0.40763306617736816,
+    "summary": {
+      "attempted": 66,
+      "valid": 66,
+      "correct": 20,
+      "accuracy": 0.30303030303030304,
+      "accepted": 1,
+      "acceptedPrecision": 1,
+      "falseSelections": 0,
+      "correctAbstentions": 19,
+      "errors": 0,
+      "p50Ms": 90.15660011209548,
+      "p95Ms": 146.46289986558259
+    },
+    "positiveCorrect": 1
+  },
+  "perTemplate": [
+    {
+      "template": "en-role",
+      "threshold": 0.40763306617736816,
+      "summary": {
+        "attempted": 66,
+        "valid": 66,
+        "correct": 20,
+        "accuracy": 0.30303030303030304,
+        "accepted": 1,
+        "acceptedPrecision": 1,
+        "falseSelections": 0,
+        "correctAbstentions": 19,
+        "errors": 0,
+        "p50Ms": 90.15660011209548,
+        "p95Ms": 146.46289986558259
+      },
+      "positiveCorrect": 1
+    },
+    {
+      "template": "ko-role",
+      "threshold": 0.44605398178100586,
+      "summary": {
+        "attempted": 66,
+        "valid": 66,
+        "correct": 19,
+        "accuracy": 0.2878787878787879,
+        "accepted": 0,
+        "acceptedPrecision": null,
+        "falseSelections": 0,
+        "correctAbstentions": 19,
+        "errors": 0,
+        "p50Ms": 105.86940008215606,
+        "p95Ms": 179.21480000950396
+      },
+      "positiveCorrect": 0
+    }
+  ],
+  "policy": "One global threshold per template; development accuracy, fewer false selections, positive correctness, stable template ID, larger threshold. No timing criterion; no fresh labels.",
+  "lockedAt": "2026-11-13T13:14:48.420Z",
+  "automaticNavigation": false,
+  "model": "jinaai/jina-reranker-v1-tiny-en",
+  "revision": "aca45de6945b5dc6399abcd2a9c55ded5dc9111f",
+  "modelSha256": "5fa8508528828b4ad9bc97c97b6e020984e3b745fbcb53f0a907e68704f8a18a",
+  "source": "eval/light-dom/jina/development.json",
+  "sourceSha256": "69eee72246450cccd86d788d5bc45edcf405254d6230472d3a4173ca7f4113c2",
+  "jobsSha256": "99aec0943194a1f09cb64eb1a38e47696fd7d9a358b5051efb05882d13bef89e",
+  "labelSha256": "0befb471e18279b01bc735617731ed78e5b3dfff1510e40b663c33c4157a703b",
+  "inputsSha256": "ee7d11bf1ee8f9e72623a78e89dcb19d2d826e337d9d7c65de4250c23b8282a6",
+  "templateSha256": "f4d9c62836d4a5f967ef3658f8daa21b0324de3c5b42f339008f88f2d1b54755"
+}

@@ -1,0 +1,842 @@
+{
+  "schemaVersion": 1,
+  "model": {
+    "id": "jinaai/jina-reranker-v1-tiny-en",
+    "revision": "aca45de6945b5dc6399abcd2a9c55ded5dc9111f",
+    "sha256": "5fa8508528828b4ad9bc97c97b6e020984e3b745fbcb53f0a907e68704f8a18a",
+    "outputName": "logits",
+    "pooling": "logits"
+  },
+  "modelFileBytes": 33424854,
+  "modelSha256": "5fa8508528828b4ad9bc97c97b6e020984e3b745fbcb53f0a907e68704f8a18a",
+  "jobsSha256": "c2583d6123c164135e2f325e2e2d0a535495a3bb27e458faf4f79de40720825d",
+  "sourceJobsSha256": "99aec0943194a1f09cb64eb1a38e47696fd7d9a358b5051efb05882d13bef89e",
+  "implementationSha256": {
+    "scripts/light-dom-browser.mjs": "74a08e5f2a0bc984ccf71987d17b002d56b40f9c476bf967f25ed477f3c42044",
+    "eval/light-dom/runtime/browser.mjs": "1bc66c9d5cd253d6199acb945eca9b661298c176776de592f678dc563e3b519f",
+    "eval/light-dom/runtime/readout.mjs": "aaad170b2c7a54a6cb543fed48cdac9d22df39ab53900ea09a3b45f45acaf3d7"
+  },
+  "startedAt": "2026-11-13T13:21:21.792Z",
+  "runtime": "ONNX Runtime Web 1.31.1",
+  "network": {
+    "externalRequests": []
+  },
+  "processMemory": [
+    {
+      "stage": "before-page",
+      "workingSetBytes": 410169344,
+      "privateBytes": 229535744,
+      "processes": [
+        {
+          "Id": 14168,
+          "WorkingSet64": 19873792,
+          "PrivateMemorySize64": 8617984
+        },
+        {
+          "Id": 19140,
+          "WorkingSet64": 30007296,
+          "PrivateMemorySize64": 11259904
+        },
+        {
+          "Id": 23420,
+          "WorkingSet64": 32133120,
+          "PrivateMemorySize64": 15642624
+        },
+        {
+          "Id": 36568,
+          "WorkingSet64": 110063616,
+          "PrivateMemorySize64": 31784960
+        },
+        {
+          "Id": 42936,
+          "WorkingSet64": 49823744,
+          "PrivateMemorySize64": 20819968
+        },
+        {
+          "Id": 53428,
+          "WorkingSet64": 71053312,
+          "PrivateMemorySize64": 34803712
+        },
+        {
+          "Id": 71944,
+          "WorkingSet64": 97214464,
+          "PrivateMemorySize64": 106606592
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "loaded-0",
+      "workingSetBytes": 647606272,
+      "privateBytes": 457105408,
+      "processes": [
+        {
+          "Id": 14168,
+          "WorkingSet64": 20262912,
+          "PrivateMemorySize64": 8720384
+        },
+        {
+          "Id": 19140,
+          "WorkingSet64": 32829440,
+          "PrivateMemorySize64": 11563008
+        },
+        {
+          "Id": 23420,
+          "WorkingSet64": 278925312,
+          "PrivateMemorySize64": 240529408
+        },
+        {
+          "Id": 36568,
+          "WorkingSet64": 113815552,
+          "PrivateMemorySize64": 33935360
+        },
+        {
+          "Id": 53428,
+          "WorkingSet64": 71073792,
+          "PrivateMemorySize64": 34803712
+        },
+        {
+          "Id": 61400,
+          "WorkingSet64": 32096256,
+          "PrivateMemorySize64": 15605760
+        },
+        {
+          "Id": 71944,
+          "WorkingSet64": 98603008,
+          "PrivateMemorySize64": 111947776
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "inference-1",
+      "workingSetBytes": 650489856,
+      "privateBytes": 439377920,
+      "processes": [
+        {
+          "Id": 14168,
+          "WorkingSet64": 20262912,
+          "PrivateMemorySize64": 8720384
+        },
+        {
+          "Id": 19140,
+          "WorkingSet64": 32919552,
+          "PrivateMemorySize64": 11673600
+        },
+        {
+          "Id": 23420,
+          "WorkingSet64": 281419776,
+          "PrivateMemorySize64": 242507776
+        },
+        {
+          "Id": 36568,
+          "WorkingSet64": 114016256,
+          "PrivateMemorySize64": 33972224
+        },
+        {
+          "Id": 53428,
+          "WorkingSet64": 71081984,
+          "PrivateMemorySize64": 34803712
+        },
+        {
+          "Id": 61400,
+          "WorkingSet64": 32116736,
+          "PrivateMemorySize64": 15605760
+        },
+        {
+          "Id": 71944,
+          "WorkingSet64": 98672640,
+          "PrivateMemorySize64": 92094464
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "inference-6",
+      "workingSetBytes": 643346432,
+      "privateBytes": 436875264,
+      "processes": [
+        {
+          "Id": 14168,
+          "WorkingSet64": 20267008,
+          "PrivateMemorySize64": 8720384
+        },
+        {
+          "Id": 19140,
+          "WorkingSet64": 32952320,
+          "PrivateMemorySize64": 11677696
+        },
+        {
+          "Id": 23420,
+          "WorkingSet64": 274079744,
+          "PrivateMemorySize64": 256761856
+        },
+        {
+          "Id": 36568,
+          "WorkingSet64": 114130944,
+          "PrivateMemorySize64": 34017280
+        },
+        {
+          "Id": 53428,
+          "WorkingSet64": 71114752,
+          "PrivateMemorySize64": 34803712
+        },
+        {
+          "Id": 61400,
+          "WorkingSet64": 32124928,
+          "PrivateMemorySize64": 15605760
+        },
+        {
+          "Id": 71944,
+          "WorkingSet64": 98676736,
+          "PrivateMemorySize64": 75288576
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "after-release",
+      "workingSetBytes": 655036416,
+      "privateBytes": 440713216,
+      "processes": [
+        {
+          "Id": 14168,
+          "WorkingSet64": 20328448,
+          "PrivateMemorySize64": 8720384
+        },
+        {
+          "Id": 19140,
+          "WorkingSet64": 33083392,
+          "PrivateMemorySize64": 11694080
+        },
+        {
+          "Id": 23420,
+          "WorkingSet64": 274407424,
+          "PrivateMemorySize64": 257236992
+        },
+        {
+          "Id": 36568,
+          "WorkingSet64": 125120512,
+          "PrivateMemorySize64": 37363712
+        },
+        {
+          "Id": 53428,
+          "WorkingSet64": 71159808,
+          "PrivateMemorySize64": 34803712
+        },
+        {
+          "Id": 61400,
+          "WorkingSet64": 32210944,
+          "PrivateMemorySize64": 15605760
+        },
+        {
+          "Id": 71944,
+          "WorkingSet64": 98725888,
+          "PrivateMemorySize64": 75288576
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    }
+  ],
+  "batchPlan": [
+    {
+      "id": "witch-title::en-role",
+      "pairIds": [
+        "witch-title::en-role::t3",
+        "witch-title::en-role::t5",
+        "witch-title::en-role::t8",
+        "witch-title::en-role::t2",
+        "witch-title::en-role::t7",
+        "witch-title::en-role::t6",
+        "witch-title::en-role::t4",
+        "witch-title::en-role::t1"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "frieren-wavve-search-title::en-role",
+      "pairIds": [
+        "frieren-wavve-search-title::en-role::t5",
+        "frieren-wavve-search-title::en-role::t2",
+        "frieren-wavve-search-title::en-role::t6",
+        "frieren-wavve-search-title::en-role::t8",
+        "frieren-wavve-search-title::en-role::t3",
+        "frieren-wavve-search-title::en-role::t1",
+        "frieren-wavve-search-title::en-role::t7",
+        "frieren-wavve-search-title::en-role::t4"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "witch-image::en-role",
+      "pairIds": [
+        "witch-image::en-role::i6",
+        "witch-image::en-role::i4",
+        "witch-image::en-role::i1",
+        "witch-image::en-role::i3",
+        "witch-image::en-role::i5",
+        "witch-image::en-role::i8",
+        "witch-image::en-role::i2",
+        "witch-image::en-role::i7"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "frieren-wavve-search-image::en-role",
+      "pairIds": [
+        "frieren-wavve-search-image::en-role::i7",
+        "frieren-wavve-search-image::en-role::i6",
+        "frieren-wavve-search-image::en-role::i4",
+        "frieren-wavve-search-image::en-role::i3",
+        "frieren-wavve-search-image::en-role::i1",
+        "frieren-wavve-search-image::en-role::i2",
+        "frieren-wavve-search-image::en-role::i5",
+        "frieren-wavve-search-image::en-role::i8"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "witch-description::en-role",
+      "pairIds": [
+        "witch-description::en-role::d4",
+        "witch-description::en-role::d7",
+        "witch-description::en-role::d5",
+        "witch-description::en-role::d6",
+        "witch-description::en-role::d8",
+        "witch-description::en-role::d1",
+        "witch-description::en-role::d3",
+        "witch-description::en-role::d2"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "apothecary-description::en-role",
+      "pairIds": [
+        "apothecary-description::en-role::d2",
+        "apothecary-description::en-role::d4",
+        "apothecary-description::en-role::d1",
+        "apothecary-description::en-role::d3"
+      ],
+      "repeats": 3
+    }
+  ],
+  "requestedProvider": "wasm",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36",
+  "crossOriginIsolated": true,
+  "threads": 1,
+  "beforeLoadHeap": {
+    "usedJSHeapSize": 2353008,
+    "totalJSHeapSize": 3295220,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "rows": [
+    {
+      "id": "witch-title::en-role",
+      "pairIds": [
+        "witch-title::en-role::t3",
+        "witch-title::en-role::t5",
+        "witch-title::en-role::t8",
+        "witch-title::en-role::t2",
+        "witch-title::en-role::t7",
+        "witch-title::en-role::t6",
+        "witch-title::en-role::t4",
+        "witch-title::en-role::t1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          165
+        ],
+        "attention_mask": [
+          8,
+          165
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 985.8399999141693,
+          "elapsedMs": 986.0599999427795
+        },
+        {
+          "index": 1,
+          "forwardMs": 885.8649997711182,
+          "elapsedMs": 885.8949999809265
+        },
+        {
+          "index": 2,
+          "forwardMs": 882.789999961853,
+          "elapsedMs": 882.8099999427795
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -1.6975215673446655,
+          -1.7303962707519531,
+          -1.6193732023239136,
+          -1.7636460065841675,
+          -1.6818561553955078,
+          -1.7279205322265625,
+          -1.6807278394699097,
+          -1.7062791585922241
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 986.0599999427795,
+      "warm": {
+        "count": 2,
+        "p50Ms": 882.8099999427795,
+        "p95Ms": 882.8099999427795,
+        "minimumMs": 882.8099999427795,
+        "maximumMs": 885.8949999809265
+      },
+      "heap": {
+        "usedJSHeapSize": 37831154,
+        "totalJSHeapSize": 39933938,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "frieren-wavve-search-title::en-role",
+      "pairIds": [
+        "frieren-wavve-search-title::en-role::t5",
+        "frieren-wavve-search-title::en-role::t2",
+        "frieren-wavve-search-title::en-role::t6",
+        "frieren-wavve-search-title::en-role::t8",
+        "frieren-wavve-search-title::en-role::t3",
+        "frieren-wavve-search-title::en-role::t1",
+        "frieren-wavve-search-title::en-role::t7",
+        "frieren-wavve-search-title::en-role::t4"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          135
+        ],
+        "attention_mask": [
+          8,
+          135
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 719.4649999141693,
+          "elapsedMs": 719.4949998855591
+        },
+        {
+          "index": 1,
+          "forwardMs": 749.4700000286102,
+          "elapsedMs": 749.4950001239777
+        },
+        {
+          "index": 2,
+          "forwardMs": 744.4100000858307,
+          "elapsedMs": 744.4300000667572
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -1.4483518600463867,
+          -1.4358571767807007,
+          -1.5116767883300781,
+          -1.6111626625061035,
+          -1.4725409746170044,
+          -1.4029487371444702,
+          -1.476089596748352,
+          -1.517429232597351
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 719.4949998855591,
+      "warm": {
+        "count": 2,
+        "p50Ms": 744.4300000667572,
+        "p95Ms": 744.4300000667572,
+        "minimumMs": 744.4300000667572,
+        "maximumMs": 749.4950001239777
+      },
+      "heap": {
+        "usedJSHeapSize": 38106414,
+        "totalJSHeapSize": 40213458,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "witch-image::en-role",
+      "pairIds": [
+        "witch-image::en-role::i6",
+        "witch-image::en-role::i4",
+        "witch-image::en-role::i1",
+        "witch-image::en-role::i3",
+        "witch-image::en-role::i5",
+        "witch-image::en-role::i8",
+        "witch-image::en-role::i2",
+        "witch-image::en-role::i7"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          176
+        ],
+        "attention_mask": [
+          8,
+          176
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 997.7250001430511,
+          "elapsedMs": 997.75
+        },
+        {
+          "index": 1,
+          "forwardMs": 956.5550000667572,
+          "elapsedMs": 956.579999923706
+        },
+        {
+          "index": 2,
+          "forwardMs": 951.1800000667572,
+          "elapsedMs": 951.210000038147
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -1.6736222505569458,
+          -1.6572672128677368,
+          -1.7457085847854614,
+          -1.6201759576797485,
+          -1.7277835607528687,
+          -1.722501516342163,
+          -1.6619658470153809,
+          -1.6674823760986328
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 997.75,
+      "warm": {
+        "count": 2,
+        "p50Ms": 951.210000038147,
+        "p95Ms": 951.210000038147,
+        "minimumMs": 951.210000038147,
+        "maximumMs": 956.579999923706
+      },
+      "heap": {
+        "usedJSHeapSize": 38660102,
+        "totalJSHeapSize": 40498226,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "frieren-wavve-search-image::en-role",
+      "pairIds": [
+        "frieren-wavve-search-image::en-role::i7",
+        "frieren-wavve-search-image::en-role::i6",
+        "frieren-wavve-search-image::en-role::i4",
+        "frieren-wavve-search-image::en-role::i3",
+        "frieren-wavve-search-image::en-role::i1",
+        "frieren-wavve-search-image::en-role::i2",
+        "frieren-wavve-search-image::en-role::i5",
+        "frieren-wavve-search-image::en-role::i8"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          150
+        ],
+        "attention_mask": [
+          8,
+          150
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 841.1349999904633,
+          "elapsedMs": 841.164999961853
+        },
+        {
+          "index": 1,
+          "forwardMs": 821.335000038147,
+          "elapsedMs": 821.3550000190735
+        },
+        {
+          "index": 2,
+          "forwardMs": 827.9700000286102,
+          "elapsedMs": 827.9950001239777
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -1.142856478691101,
+          -1.1253299713134766,
+          -1.1906366348266602,
+          -1.1335440874099731,
+          -1.0695041418075562,
+          -1.215297818183899,
+          -1.0850969552993774,
+          -1.1823405027389526
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 841.164999961853,
+      "warm": {
+        "count": 2,
+        "p50Ms": 821.3550000190735,
+        "p95Ms": 821.3550000190735,
+        "minimumMs": 821.3550000190735,
+        "maximumMs": 827.9950001239777
+      },
+      "heap": {
+        "usedJSHeapSize": 38740974,
+        "totalJSHeapSize": 40779666,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "witch-description::en-role",
+      "pairIds": [
+        "witch-description::en-role::d4",
+        "witch-description::en-role::d7",
+        "witch-description::en-role::d5",
+        "witch-description::en-role::d6",
+        "witch-description::en-role::d8",
+        "witch-description::en-role::d1",
+        "witch-description::en-role::d3",
+        "witch-description::en-role::d2"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          236
+        ],
+        "attention_mask": [
+          8,
+          236
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 1366.4500000476837,
+          "elapsedMs": 1366.505000114441
+        },
+        {
+          "index": 1,
+          "forwardMs": 1393.1799998283386,
+          "elapsedMs": 1393.1949999332428
+        },
+        {
+          "index": 2,
+          "forwardMs": 1317.3450000286102,
+          "elapsedMs": 1317.3599998950958
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -1.6528685092926025,
+          -1.6754436492919922,
+          -1.6610342264175415,
+          -1.5661745071411133,
+          -1.5387723445892334,
+          -1.5095558166503906,
+          -1.396586298942566,
+          -1.577728509902954
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 1366.505000114441,
+      "warm": {
+        "count": 2,
+        "p50Ms": 1317.3599998950958,
+        "p95Ms": 1317.3599998950958,
+        "minimumMs": 1317.3599998950958,
+        "maximumMs": 1393.1949999332428
+      },
+      "heap": {
+        "usedJSHeapSize": 37800702,
+        "totalJSHeapSize": 39156594,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "apothecary-description::en-role",
+      "pairIds": [
+        "apothecary-description::en-role::d2",
+        "apothecary-description::en-role::d4",
+        "apothecary-description::en-role::d1",
+        "apothecary-description::en-role::d3"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          4,
+          225
+        ],
+        "attention_mask": [
+          4,
+          225
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 582.3699998855591,
+          "elapsedMs": 582.3849999904633
+        },
+        {
+          "index": 1,
+          "forwardMs": 598.1549999713898,
+          "elapsedMs": 598.170000076294
+        },
+        {
+          "index": 2,
+          "forwardMs": 592.0599999427795,
+          "elapsedMs": 592.079999923706
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          4,
+          1
+        ],
+        "data": [
+          -0.8753790259361267,
+          -0.6566397547721863,
+          -0.9578018188476562,
+          -0.9711331129074097
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 582.3849999904633,
+      "warm": {
+        "count": 2,
+        "p50Ms": 592.079999923706,
+        "p95Ms": 592.079999923706,
+        "minimumMs": 592.079999923706,
+        "maximumMs": 598.170000076294
+      },
+      "heap": {
+        "usedJSHeapSize": 4358440,
+        "totalJSHeapSize": 5484044,
+        "jsHeapSizeLimit": 4395630592
+      }
+    }
+  ],
+  "gpu": {
+    "queueSubmissions": 0,
+    "computePipelines": 0,
+    "pipelineLabels": [],
+    "totalBufferBytes": 0,
+    "liveBufferBytes": 0,
+    "peakLiveBufferBytes": 0
+  },
+  "loadMs": 920.8450000286102,
+  "inputNames": [
+    "input_ids",
+    "attention_mask"
+  ],
+  "outputNames": [
+    "logits"
+  ],
+  "afterLoadHeap": {
+    "usedJSHeapSize": 37208331,
+    "totalJSHeapSize": 39907199,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "stage": "inference",
+  "first": {
+    "count": 6,
+    "p50Ms": 841.164999961853,
+    "p95Ms": 997.75,
+    "minimumMs": 582.3849999904633,
+    "maximumMs": 1366.505000114441
+  },
+  "warm": {
+    "count": 12,
+    "p50Ms": 827.9950001239777,
+    "p95Ms": 1317.3599998950958,
+    "minimumMs": 592.079999923706,
+    "maximumMs": 1393.1949999332428
+  },
+  "afterReleaseHeap": {
+    "usedJSHeapSize": 4591352,
+    "totalJSHeapSize": 5484044,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "gpuObserved": false,
+  "notes": [
+    "Pretokenized inputs: tokenization time and tokenizer download excluded.",
+    "Model load uses local loopback serving, not internet download timing.",
+    "GPU submissions establish some GPU work, not full graph residency; unsupported operators may run CPU.",
+    "JS heap is not total process memory. GPU buffer counters are logical explicitly created buffers, not driver-reported VRAM; GC-only release is not observed.",
+    "Warm iterations repeat the identical batch and do not represent cold page latency."
+  ],
+  "referenceComparison": [
+    {
+      "id": "witch-title::en-role",
+      "maxAbsError": 0.007540464401245117
+    },
+    {
+      "id": "frieren-wavve-search-title::en-role",
+      "maxAbsError": 0.019530892372131348
+    },
+    {
+      "id": "witch-image::en-role",
+      "maxAbsError": 0.005205750465393066
+    },
+    {
+      "id": "frieren-wavve-search-image::en-role",
+      "maxAbsError": 0.015396356582641602
+    },
+    {
+      "id": "witch-description::en-role",
+      "maxAbsError": 0.005774140357971191
+    },
+    {
+      "id": "apothecary-description::en-role",
+      "maxAbsError": 0.021757841110229492
+    }
+  ],
+  "finishedAt": "2026-11-13T13:21:46.867Z",
+  "servedBytes": {
+    "/browser.mjs": 6397,
+    "/readout.mjs": 2176,
+    "/ort/ort.webgpu.min.mjs": 70742,
+    "/ort/ort-wasm-simd-threaded.asyncify.mjs": 53457,
+    "/ort/ort-wasm-simd-threaded.asyncify.wasm": 28747738,
+    "/model.onnx": 33424854
+  }
+}

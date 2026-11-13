@@ -1,0 +1,111 @@
+{
+  "model": "nlpai-lab/KURE-Reranker-nano",
+  "revision": "8514b9e113f3b27c441ed9c2b50f81d80388b2fd",
+  "parameters": 149323009,
+  "source": {
+    "model": "nlpai-lab/KURE-Reranker-nano",
+    "revision": "8514b9e113f3b27c441ed9c2b50f81d80388b2fd",
+    "files": {
+      "config.json": {
+        "sha256": "cadec3925724ceb3c25e8338c3f1a9ccf1090293936c31ab8e7172a9f3a7cfd9",
+        "bytes": 1409
+      },
+      "tokenizer.json": {
+        "sha256": "74b2c7ee06335147e64df0c8047f68416658253db4d3e1dfff300c931dd61f61",
+        "bytes": 1087443
+      },
+      "tokenizer_config.json": {
+        "sha256": "a42c407527bae67da131f993977c4e79bb25773e9832e27596941a09474aa28a",
+        "bytes": 6945
+      },
+      "special_tokens_map.json": {
+        "sha256": "b2e1eb3be501860648066506fbb9b207b84d378b72f0177f72ff2deeadf1ff71",
+        "bytes": 969
+      },
+      "added_tokens.json": {
+        "sha256": "d80078ea0a345ef295e9b15efa9e83a836d342bb8d412262a0fb0dfd36720ba3",
+        "bytes": 21
+      },
+      "vocab.txt": {
+        "sha256": "7bc1893aa4a63f4ca0001dcb8cd7eb9bb11b731875329bd457d447028dbd79d1",
+        "bytes": 289725
+      },
+      "model.safetensors": {
+        "sha256": "41e752090da96fcab4813a9ba82259c31c6d28453c18189322ae63d5599a30c0",
+        "bytes": 597306212
+      }
+    }
+  },
+  "torch": "2.15.0+cpu",
+  "transformers": "5.22.2",
+  "onnx": "1.23.2",
+  "onnxruntime": "1.31.1",
+  "export": {
+    "opset": 18,
+    "stockArchitecture": "ModernBertForSequenceClassification",
+    "trustRemoteCode": false,
+    "attentionImplementation": "eager",
+    "fp32Bytes": 597933389,
+    "fp32Sha256": "53a344b0592883069a7838766100a255e252f1e15a1dd118ac99758ec9f25ad6",
+    "q8Bytes": 151093062,
+    "q8Sha256": "7ba8aee76afd84420e1ee3a532672f4dd1dc2b3d2f48e1aec492faaed44f078f",
+    "quantizedOperators": [
+      "MatMul",
+      "Gather"
+    ],
+    "perChannel": true
+  },
+  "diagnostic": {
+    "pairs": [
+      [
+        "현재 열린 작품의 줄거리는 무엇인가요?",
+        "어린 마녀는 저주를 풀기 위해 사람들과 여행을 시작한다."
+      ],
+      [
+        "What is the work's title?",
+        "The River of Stars"
+      ],
+      [
+        "대표 이미지를 찾습니다.",
+        "서비스 로고, 탐색 메뉴, 너비 32 높이 32"
+      ]
+    ],
+    "sourceLogits": [
+      [
+        -5.9711174964904785
+      ],
+      [
+        -6.5520806312561035
+      ],
+      [
+        -5.587112903594971
+      ]
+    ],
+    "onnxLogits": [
+      [
+        -5.971124649047852
+      ],
+      [
+        -6.5520830154418945
+      ],
+      [
+        -5.587111473083496
+      ]
+    ],
+    "q8Logits": [
+      [
+        -5.993948459625244
+      ],
+      [
+        -6.676210403442383
+      ],
+      [
+        -5.734644889831543
+      ]
+    ],
+    "maxFp32Error": 7.152557373046875e-06,
+    "maxQ8Error": 0.14753198623657227,
+    "note": "Three illustrative pairs check export numerics only; not a DOM accuracy evaluation."
+  },
+  "finishedAt": "2026-11-13T13:02:04Z"
+}

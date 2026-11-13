@@ -1,0 +1,70 @@
+{
+  "selected": {
+    "template": "ko-role",
+    "threshold": -4.892317771911621,
+    "summary": {
+      "attempted": 66,
+      "valid": 66,
+      "correct": 25,
+      "accuracy": 0.3787878787878788,
+      "accepted": 23,
+      "acceptedPrecision": 0.4782608695652174,
+      "falseSelections": 12,
+      "correctAbstentions": 14,
+      "errors": 0,
+      "p50Ms": 1152.5444998405874,
+      "p95Ms": 1738.7296000961214
+    },
+    "positiveCorrect": 11
+  },
+  "perTemplate": [
+    {
+      "template": "en-role",
+      "threshold": -5.224931240081787,
+      "summary": {
+        "attempted": 66,
+        "valid": 66,
+        "correct": 22,
+        "accuracy": 0.3333333333333333,
+        "accepted": 29,
+        "acceptedPrecision": 0.3103448275862069,
+        "falseSelections": 20,
+        "correctAbstentions": 13,
+        "errors": 0,
+        "p50Ms": 1180.0565000157803,
+        "p95Ms": 1549.638699973002
+      },
+      "positiveCorrect": 9
+    },
+    {
+      "template": "ko-role",
+      "threshold": -4.892317771911621,
+      "summary": {
+        "attempted": 66,
+        "valid": 66,
+        "correct": 25,
+        "accuracy": 0.3787878787878788,
+        "accepted": 23,
+        "acceptedPrecision": 0.4782608695652174,
+        "falseSelections": 12,
+        "correctAbstentions": 14,
+        "errors": 0,
+        "p50Ms": 1152.5444998405874,
+        "p95Ms": 1738.7296000961214
+      },
+      "positiveCorrect": 11
+    }
+  ],
+  "policy": "One global threshold per template; development accuracy, fewer false selections, positive correctness, stable template ID, larger threshold. No timing criterion; no fresh labels.",
+  "lockedAt": "2026-11-13T13:10:08.345Z",
+  "automaticNavigation": false,
+  "model": "nlpai-lab/KURE-Reranker-nano",
+  "revision": "8514b9e113f3b27c441ed9c2b50f81d80388b2fd",
+  "modelSha256": "7ba8aee76afd84420e1ee3a532672f4dd1dc2b3d2f48e1aec492faaed44f078f",
+  "source": "eval/light-dom/reports/kure-development.json",
+  "sourceSha256": "d58c85b4fb73bf584bbd761f1e8757d3d01b5dad62e92d722aa744ed334b4ce0",
+  "jobsSha256": "99aec0943194a1f09cb64eb1a38e47696fd7d9a358b5051efb05882d13bef89e",
+  "labelSha256": "0befb471e18279b01bc735617731ed78e5b3dfff1510e40b663c33c4157a703b",
+  "inputsSha256": "ee7d11bf1ee8f9e72623a78e89dcb19d2d826e337d9d7c65de4250c23b8282a6",
+  "templateSha256": "f4d9c62836d4a5f967ef3658f8daa21b0324de3c5b42f339008f88f2d1b54755"
+}

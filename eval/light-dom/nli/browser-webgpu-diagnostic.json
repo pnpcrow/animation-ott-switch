@@ -1,0 +1,939 @@
+{
+  "schemaVersion": 1,
+  "model": {
+    "id": "onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX",
+    "revision": "ca5daf3d11b6c4b3143b1f4602a2edfb64c3ad7e",
+    "sha256": "55614f3c7da74184742eaa0006b978744437aa91de9ba4913db42f94d7844a8f",
+    "outputName": "logits",
+    "pooling": "logits"
+  },
+  "modelFileBytes": 107415176,
+  "modelSha256": "55614f3c7da74184742eaa0006b978744437aa91de9ba4913db42f94d7844a8f",
+  "jobsSha256": "ed439102d79b5a45db0779728277045b5c72d3f2fd87b5801c84ec48e5272b63",
+  "sourceJobsSha256": "99aec0943194a1f09cb64eb1a38e47696fd7d9a358b5051efb05882d13bef89e",
+  "implementationSha256": {
+    "scripts/light-dom-browser.mjs": "74a08e5f2a0bc984ccf71987d17b002d56b40f9c476bf967f25ed477f3c42044",
+    "eval/light-dom/runtime/browser.mjs": "1bc66c9d5cd253d6199acb945eca9b661298c176776de592f678dc563e3b519f",
+    "eval/light-dom/runtime/readout.mjs": "aaad170b2c7a54a6cb543fed48cdac9d22df39ab53900ea09a3b45f45acaf3d7"
+  },
+  "startedAt": "2026-11-13T13:18:27.555Z",
+  "runtime": "ONNX Runtime Web 1.31.1",
+  "network": {
+    "externalRequests": []
+  },
+  "processMemory": [
+    {
+      "stage": "before-page",
+      "workingSetBytes": 408875008,
+      "privateBytes": 227196928,
+      "processes": [
+        {
+          "Id": 22760,
+          "WorkingSet64": 30003200,
+          "PrivateMemorySize64": 11366400
+        },
+        {
+          "Id": 35660,
+          "WorkingSet64": 95363072,
+          "PrivateMemorySize64": 103116800
+        },
+        {
+          "Id": 46336,
+          "WorkingSet64": 19836928,
+          "PrivateMemorySize64": 8585216
+        },
+        {
+          "Id": 65480,
+          "WorkingSet64": 73957376,
+          "PrivateMemorySize64": 36749312
+        },
+        {
+          "Id": 68284,
+          "WorkingSet64": 47144960,
+          "PrivateMemorySize64": 18100224
+        },
+        {
+          "Id": 70100,
+          "WorkingSet64": 32047104,
+          "PrivateMemorySize64": 15577088
+        },
+        {
+          "Id": 71140,
+          "WorkingSet64": 110522368,
+          "PrivateMemorySize64": 33701888
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "loaded-0",
+      "workingSetBytes": 1453637632,
+      "privateBytes": 1234710528,
+      "processes": [
+        {
+          "Id": 21252,
+          "WorkingSet64": 32030720,
+          "PrivateMemorySize64": 15568896
+        },
+        {
+          "Id": 22760,
+          "WorkingSet64": 32829440,
+          "PrivateMemorySize64": 11665408
+        },
+        {
+          "Id": 35660,
+          "WorkingSet64": 345214976,
+          "PrivateMemorySize64": 379363328
+        },
+        {
+          "Id": 46336,
+          "WorkingSet64": 20201472,
+          "PrivateMemorySize64": 8663040
+        },
+        {
+          "Id": 65480,
+          "WorkingSet64": 73977856,
+          "PrivateMemorySize64": 36753408
+        },
+        {
+          "Id": 70100,
+          "WorkingSet64": 836558848,
+          "PrivateMemorySize64": 748773376
+        },
+        {
+          "Id": 71140,
+          "WorkingSet64": 112824320,
+          "PrivateMemorySize64": 33923072
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "inference-1",
+      "workingSetBytes": 1366978560,
+      "privateBytes": 1073930240,
+      "processes": [
+        {
+          "Id": 21252,
+          "WorkingSet64": 32051200,
+          "PrivateMemorySize64": 15568896
+        },
+        {
+          "Id": 22760,
+          "WorkingSet64": 33038336,
+          "PrivateMemorySize64": 11706368
+        },
+        {
+          "Id": 35660,
+          "WorkingSet64": 414998528,
+          "PrivateMemorySize64": 423886848
+        },
+        {
+          "Id": 46336,
+          "WorkingSet64": 20201472,
+          "PrivateMemorySize64": 8663040
+        },
+        {
+          "Id": 65480,
+          "WorkingSet64": 73986048,
+          "PrivateMemorySize64": 36753408
+        },
+        {
+          "Id": 70100,
+          "WorkingSet64": 679694336,
+          "PrivateMemorySize64": 543404032
+        },
+        {
+          "Id": 71140,
+          "WorkingSet64": 113008640,
+          "PrivateMemorySize64": 33947648
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "inference-6",
+      "workingSetBytes": 1419300864,
+      "privateBytes": 1212964864,
+      "processes": [
+        {
+          "Id": 21252,
+          "WorkingSet64": 32145408,
+          "PrivateMemorySize64": 15568896
+        },
+        {
+          "Id": 22760,
+          "WorkingSet64": 33198080,
+          "PrivateMemorySize64": 11722752
+        },
+        {
+          "Id": 35660,
+          "WorkingSet64": 444846080,
+          "PrivateMemorySize64": 550109184
+        },
+        {
+          "Id": 46336,
+          "WorkingSet64": 20267008,
+          "PrivateMemorySize64": 8663040
+        },
+        {
+          "Id": 65480,
+          "WorkingSet64": 74067968,
+          "PrivateMemorySize64": 36757504
+        },
+        {
+          "Id": 70100,
+          "WorkingSet64": 686321664,
+          "PrivateMemorySize64": 548655104
+        },
+        {
+          "Id": 71140,
+          "WorkingSet64": 128454656,
+          "PrivateMemorySize64": 41488384
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "after-release",
+      "workingSetBytes": 1420271616,
+      "privateBytes": 1127153664,
+      "processes": [
+        {
+          "Id": 21252,
+          "WorkingSet64": 32145408,
+          "PrivateMemorySize64": 15568896
+        },
+        {
+          "Id": 22760,
+          "WorkingSet64": 33198080,
+          "PrivateMemorySize64": 11722752
+        },
+        {
+          "Id": 35660,
+          "WorkingSet64": 444809216,
+          "PrivateMemorySize64": 463634432
+        },
+        {
+          "Id": 46336,
+          "WorkingSet64": 20267008,
+          "PrivateMemorySize64": 8663040
+        },
+        {
+          "Id": 65480,
+          "WorkingSet64": 74067968,
+          "PrivateMemorySize64": 36757504
+        },
+        {
+          "Id": 70100,
+          "WorkingSet64": 687296512,
+          "PrivateMemorySize64": 549285888
+        },
+        {
+          "Id": 71140,
+          "WorkingSet64": 128487424,
+          "PrivateMemorySize64": 41521152
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    }
+  ],
+  "batchPlan": [
+    {
+      "id": "witch-title::ko-role",
+      "pairIds": [
+        "witch-title::ko-role::t3",
+        "witch-title::ko-role::t5",
+        "witch-title::ko-role::t8",
+        "witch-title::ko-role::t2",
+        "witch-title::ko-role::t7",
+        "witch-title::ko-role::t6",
+        "witch-title::ko-role::t4",
+        "witch-title::ko-role::t1"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "frieren-wavve-search-title::ko-role",
+      "pairIds": [
+        "frieren-wavve-search-title::ko-role::t5",
+        "frieren-wavve-search-title::ko-role::t2",
+        "frieren-wavve-search-title::ko-role::t6",
+        "frieren-wavve-search-title::ko-role::t8",
+        "frieren-wavve-search-title::ko-role::t3",
+        "frieren-wavve-search-title::ko-role::t1",
+        "frieren-wavve-search-title::ko-role::t7",
+        "frieren-wavve-search-title::ko-role::t4"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "witch-image::ko-role",
+      "pairIds": [
+        "witch-image::ko-role::i6",
+        "witch-image::ko-role::i4",
+        "witch-image::ko-role::i1",
+        "witch-image::ko-role::i3",
+        "witch-image::ko-role::i5",
+        "witch-image::ko-role::i8",
+        "witch-image::ko-role::i2",
+        "witch-image::ko-role::i7"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "frieren-wavve-search-image::ko-role",
+      "pairIds": [
+        "frieren-wavve-search-image::ko-role::i7",
+        "frieren-wavve-search-image::ko-role::i6",
+        "frieren-wavve-search-image::ko-role::i4",
+        "frieren-wavve-search-image::ko-role::i3",
+        "frieren-wavve-search-image::ko-role::i1",
+        "frieren-wavve-search-image::ko-role::i2",
+        "frieren-wavve-search-image::ko-role::i5",
+        "frieren-wavve-search-image::ko-role::i8"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "witch-description::ko-role",
+      "pairIds": [
+        "witch-description::ko-role::d4",
+        "witch-description::ko-role::d7",
+        "witch-description::ko-role::d5",
+        "witch-description::ko-role::d6",
+        "witch-description::ko-role::d8",
+        "witch-description::ko-role::d1",
+        "witch-description::ko-role::d3",
+        "witch-description::ko-role::d2"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "apothecary-description::ko-role",
+      "pairIds": [
+        "apothecary-description::ko-role::d2",
+        "apothecary-description::ko-role::d4",
+        "apothecary-description::ko-role::d1",
+        "apothecary-description::ko-role::d3"
+      ],
+      "repeats": 3
+    }
+  ],
+  "requestedProvider": "webgpu",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36",
+  "crossOriginIsolated": true,
+  "threads": 1,
+  "beforeLoadHeap": {
+    "usedJSHeapSize": 2488996,
+    "totalJSHeapSize": 3295220,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "rows": [
+    {
+      "id": "witch-title::ko-role",
+      "pairIds": [
+        "witch-title::ko-role::t3",
+        "witch-title::ko-role::t5",
+        "witch-title::ko-role::t8",
+        "witch-title::ko-role::t2",
+        "witch-title::ko-role::t7",
+        "witch-title::ko-role::t6",
+        "witch-title::ko-role::t4",
+        "witch-title::ko-role::t1"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          192
+        ],
+        "attention_mask": [
+          8,
+          192
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 1369.8550000190735,
+          "elapsedMs": 1370.039999961853
+        },
+        {
+          "index": 1,
+          "forwardMs": 861.6100001335144,
+          "elapsedMs": 861.6300001144409
+        },
+        {
+          "index": 2,
+          "forwardMs": 909.0899999141693,
+          "elapsedMs": 909.1099998950958
+        }
+      ],
+      "gpuQueueSubmissions": 291,
+      "output": {
+        "dims": [
+          8,
+          3
+        ],
+        "data": [
+          0.3807729184627533,
+          0.5368347764015198,
+          -0.9450159072875977,
+          0.2514408826828003,
+          0.7180079221725464,
+          -0.9989932179450989,
+          0.27194932103157043,
+          0.4780397117137909,
+          -0.7711711525917053,
+          0.4435212314128876,
+          0.5129170417785645,
+          -0.9851810932159424,
+          0.4742484986782074,
+          0.4117317497730255,
+          -0.9102903604507446,
+          0.3967084586620331,
+          0.5923165082931519,
+          -1.0177782773971558,
+          0.27538061141967773,
+          0.7373236417770386,
+          -1.044965147972107,
+          0.2060343474149704,
+          0.8280805349349976,
+          -1.066580057144165
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 1370.039999961853,
+      "warm": {
+        "count": 2,
+        "p50Ms": 861.6300001144409,
+        "p95Ms": 861.6300001144409,
+        "minimumMs": 861.6300001144409,
+        "maximumMs": 909.1099998950958
+      },
+      "heap": {
+        "usedJSHeapSize": 5249164,
+        "totalJSHeapSize": 9208992,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "frieren-wavve-search-title::ko-role",
+      "pairIds": [
+        "frieren-wavve-search-title::ko-role::t5",
+        "frieren-wavve-search-title::ko-role::t2",
+        "frieren-wavve-search-title::ko-role::t6",
+        "frieren-wavve-search-title::ko-role::t8",
+        "frieren-wavve-search-title::ko-role::t3",
+        "frieren-wavve-search-title::ko-role::t1",
+        "frieren-wavve-search-title::ko-role::t7",
+        "frieren-wavve-search-title::ko-role::t4"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          178
+        ],
+        "attention_mask": [
+          8,
+          178
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 859.0100002288818,
+          "elapsedMs": 859.0300002098083
+        },
+        {
+          "index": 1,
+          "forwardMs": 859.8399999141693,
+          "elapsedMs": 859.8599998950958
+        },
+        {
+          "index": 2,
+          "forwardMs": 831.5599999427795,
+          "elapsedMs": 831.5750000476837
+        }
+      ],
+      "gpuQueueSubmissions": 291,
+      "output": {
+        "dims": [
+          8,
+          3
+        ],
+        "data": [
+          -0.079728864133358,
+          1.1804165840148926,
+          -1.1388237476348877,
+          0.28821617364883423,
+          0.7483375072479248,
+          -1.0695809125900269,
+          0.17902642488479614,
+          0.8128763437271118,
+          -1.022682547569275,
+          0.02942802384495735,
+          0.9701563119888306,
+          -1.0310832262039185,
+          0.0883134976029396,
+          0.8904817700386047,
+          -1.0082625150680542,
+          0.1723792850971222,
+          0.9459257125854492,
+          -1.1506640911102295,
+          0.051535896956920624,
+          1.0821069478988647,
+          -1.1690794229507446,
+          0.15091921389102936,
+          0.9471817016601562,
+          -1.1321626901626587
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 859.0300002098083,
+      "warm": {
+        "count": 2,
+        "p50Ms": 831.5750000476837,
+        "p95Ms": 831.5750000476837,
+        "minimumMs": 831.5750000476837,
+        "maximumMs": 859.8599998950958
+      },
+      "heap": {
+        "usedJSHeapSize": 4983489,
+        "totalJSHeapSize": 7910057,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "witch-image::ko-role",
+      "pairIds": [
+        "witch-image::ko-role::i6",
+        "witch-image::ko-role::i4",
+        "witch-image::ko-role::i1",
+        "witch-image::ko-role::i3",
+        "witch-image::ko-role::i5",
+        "witch-image::ko-role::i8",
+        "witch-image::ko-role::i2",
+        "witch-image::ko-role::i7"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          212
+        ],
+        "attention_mask": [
+          8,
+          212
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 943.1799998283386,
+          "elapsedMs": 943.204999923706
+        },
+        {
+          "index": 1,
+          "forwardMs": 1049.6800000667572,
+          "elapsedMs": 1049.7000000476837
+        },
+        {
+          "index": 2,
+          "forwardMs": 1019.0999999046326,
+          "elapsedMs": 1019.1199998855591
+        }
+      ],
+      "gpuQueueSubmissions": 291,
+      "output": {
+        "dims": [
+          8,
+          3
+        ],
+        "data": [
+          0.24542339146137238,
+          0.8317830562591553,
+          -1.1114150285720825,
+          0.007791239768266678,
+          1.0242573022842407,
+          -1.0658878087997437,
+          0.24415843188762665,
+          0.8029256463050842,
+          -1.081113576889038,
+          0.026501506567001343,
+          0.9312958717346191,
+          -0.9899214506149292,
+          0.043141238391399384,
+          0.9615260362625122,
+          -1.037919044494629,
+          0.24436704814434052,
+          0.8905991315841675,
+          -1.1729686260223389,
+          0.17406871914863586,
+          0.9554591774940491,
+          -1.1668895483016968,
+          -0.025738997384905815,
+          1.065349817276001,
+          -1.0747123956680298
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 943.204999923706,
+      "warm": {
+        "count": 2,
+        "p50Ms": 1019.1199998855591,
+        "p95Ms": 1019.1199998855591,
+        "minimumMs": 1019.1199998855591,
+        "maximumMs": 1049.7000000476837
+      },
+      "heap": {
+        "usedJSHeapSize": 5759749,
+        "totalJSHeapSize": 7150761,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "frieren-wavve-search-image::ko-role",
+      "pairIds": [
+        "frieren-wavve-search-image::ko-role::i7",
+        "frieren-wavve-search-image::ko-role::i6",
+        "frieren-wavve-search-image::ko-role::i4",
+        "frieren-wavve-search-image::ko-role::i3",
+        "frieren-wavve-search-image::ko-role::i1",
+        "frieren-wavve-search-image::ko-role::i2",
+        "frieren-wavve-search-image::ko-role::i5",
+        "frieren-wavve-search-image::ko-role::i8"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          193
+        ],
+        "attention_mask": [
+          8,
+          193
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 1043.6800000667572,
+          "elapsedMs": 1043.704999923706
+        },
+        {
+          "index": 1,
+          "forwardMs": 885.1349999904633,
+          "elapsedMs": 885.1449999809265
+        },
+        {
+          "index": 2,
+          "forwardMs": 893.7750000953674,
+          "elapsedMs": 893.7900002002716
+        }
+      ],
+      "gpuQueueSubmissions": 291,
+      "output": {
+        "dims": [
+          8,
+          3
+        ],
+        "data": [
+          0.04762899875640869,
+          0.9849563837051392,
+          -1.0687342882156372,
+          0.11890696734189987,
+          1.0359649658203125,
+          -1.1923718452453613,
+          0.09409432858228683,
+          1.0968912839889526,
+          -1.2307090759277344,
+          0.11591017246246338,
+          0.8877745270729065,
+          -1.038329839706421,
+          -0.03676056116819382,
+          1.2915676832199097,
+          -1.295005202293396,
+          0.06635518372058868,
+          1.0968825817108154,
+          -1.202468991279602,
+          0.005176957231014967,
+          1.0477794408798218,
+          -1.0870789289474487,
+          0.07579482346773148,
+          1.0776385068893433,
+          -1.1923753023147583
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 1043.704999923706,
+      "warm": {
+        "count": 2,
+        "p50Ms": 885.1449999809265,
+        "p95Ms": 885.1449999809265,
+        "minimumMs": 885.1449999809265,
+        "maximumMs": 893.7900002002716
+      },
+      "heap": {
+        "usedJSHeapSize": 5576448,
+        "totalJSHeapSize": 7182692,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "witch-description::ko-role",
+      "pairIds": [
+        "witch-description::ko-role::d4",
+        "witch-description::ko-role::d7",
+        "witch-description::ko-role::d5",
+        "witch-description::ko-role::d6",
+        "witch-description::ko-role::d8",
+        "witch-description::ko-role::d1",
+        "witch-description::ko-role::d3",
+        "witch-description::ko-role::d2"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          8,
+          257
+        ],
+        "attention_mask": [
+          8,
+          257
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 1131.7999999523163,
+          "elapsedMs": 1131.8199999332428
+        },
+        {
+          "index": 1,
+          "forwardMs": 1154.6000001430511,
+          "elapsedMs": 1154.6150000095367
+        },
+        {
+          "index": 2,
+          "forwardMs": 1133.9349999427795,
+          "elapsedMs": 1133.9449999332428
+        }
+      ],
+      "gpuQueueSubmissions": 291,
+      "output": {
+        "dims": [
+          8,
+          3
+        ],
+        "data": [
+          0.13223710656166077,
+          1.0218627452850342,
+          -1.190933346748352,
+          -0.24550285935401917,
+          1.0134719610214233,
+          -0.796341061592102,
+          0.3097946047782898,
+          0.9953591227531433,
+          -1.348227620124817,
+          0.1841992288827896,
+          1.1850491762161255,
+          -1.4167430400848389,
+          0.29641851782798767,
+          0.7359904646873474,
+          -1.0651193857192993,
+          -0.13753512501716614,
+          0.6094182133674622,
+          -0.48831868171691895,
+          0.0989883616566658,
+          1.2291319370269775,
+          -1.3710827827453613,
+          0.47330376505851746,
+          0.7140491008758545,
+          -1.2235825061798096
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 1131.8199999332428,
+      "warm": {
+        "count": 2,
+        "p50Ms": 1133.9449999332428,
+        "p95Ms": 1133.9449999332428,
+        "minimumMs": 1133.9449999332428,
+        "maximumMs": 1154.6150000095367
+      },
+      "heap": {
+        "usedJSHeapSize": 5179196,
+        "totalJSHeapSize": 6953348,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "apothecary-description::ko-role",
+      "pairIds": [
+        "apothecary-description::ko-role::d2",
+        "apothecary-description::ko-role::d4",
+        "apothecary-description::ko-role::d1",
+        "apothecary-description::ko-role::d3"
+      ],
+      "inputShapes": {
+        "input_ids": [
+          4,
+          251
+        ],
+        "attention_mask": [
+          4,
+          251
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 557.8150000572205,
+          "elapsedMs": 557.829999923706
+        },
+        {
+          "index": 1,
+          "forwardMs": 595.6299998760223,
+          "elapsedMs": 595.6449999809265
+        },
+        {
+          "index": 2,
+          "forwardMs": 596.2550001144409,
+          "elapsedMs": 596.2750000953674
+        }
+      ],
+      "gpuQueueSubmissions": 291,
+      "output": {
+        "dims": [
+          4,
+          3
+        ],
+        "data": [
+          0.5577136874198914,
+          0.9823005795478821,
+          -1.5861895084381104,
+          -0.2848360240459442,
+          0.606846034526825,
+          -0.33614444732666016,
+          -0.014444632455706596,
+          1.0112874507904053,
+          -1.030259370803833,
+          0.1685560792684555,
+          1.0004643201828003,
+          -1.2045127153396606
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 557.829999923706,
+      "warm": {
+        "count": 2,
+        "p50Ms": 595.6449999809265,
+        "p95Ms": 595.6449999809265,
+        "minimumMs": 595.6449999809265,
+        "maximumMs": 596.2750000953674
+      },
+      "heap": {
+        "usedJSHeapSize": 5468360,
+        "totalJSHeapSize": 9066516,
+        "jsHeapSizeLimit": 4395630592
+      }
+    }
+  ],
+  "gpu": {
+    "queueSubmissions": 1862,
+    "computePipelines": 35,
+    "pipelineLabels": [
+      "(unnamed)"
+    ],
+    "totalBufferBytes": 4523037628,
+    "liveBufferBytes": 0,
+    "peakLiveBufferBytes": 311105104
+  },
+  "adapter": {
+    "vendor": "amd",
+    "architecture": "rdna-3",
+    "device": "",
+    "description": "",
+    "isFallbackAdapter": null
+  },
+  "loadMs": 1312.9000000953674,
+  "inputNames": [
+    "input_ids",
+    "attention_mask"
+  ],
+  "outputNames": [
+    "logits"
+  ],
+  "afterLoadHeap": {
+    "usedJSHeapSize": 4231006,
+    "totalJSHeapSize": 7798970,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "stage": "inference",
+  "first": {
+    "count": 6,
+    "p50Ms": 943.204999923706,
+    "p95Ms": 1131.8199999332428,
+    "minimumMs": 557.829999923706,
+    "maximumMs": 1370.039999961853
+  },
+  "warm": {
+    "count": 12,
+    "p50Ms": 885.1449999809265,
+    "p95Ms": 1133.9449999332428,
+    "minimumMs": 595.6449999809265,
+    "maximumMs": 1154.6150000095367
+  },
+  "afterReleaseHeap": {
+    "usedJSHeapSize": 5724520,
+    "totalJSHeapSize": 9066516,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "gpuObserved": true,
+  "notes": [
+    "Pretokenized inputs: tokenization time and tokenizer download excluded.",
+    "Model load uses local loopback serving, not internet download timing.",
+    "GPU submissions establish some GPU work, not full graph residency; unsupported operators may run CPU.",
+    "JS heap is not total process memory. GPU buffer counters are logical explicitly created buffers, not driver-reported VRAM; GC-only release is not observed.",
+    "Warm iterations repeat the identical batch and do not represent cold page latency."
+  ],
+  "referenceComparison": [
+    {
+      "id": "witch-title::ko-role",
+      "maxAbsError": 0.09377515316009521
+    },
+    {
+      "id": "frieren-wavve-search-title::ko-role",
+      "maxAbsError": 0.14298224449157715
+    },
+    {
+      "id": "witch-image::ko-role",
+      "maxAbsError": 0.11021523922681808
+    },
+    {
+      "id": "frieren-wavve-search-image::ko-role",
+      "maxAbsError": 0.06153031438589096
+    },
+    {
+      "id": "witch-description::ko-role",
+      "maxAbsError": 0.19456279277801514
+    },
+    {
+      "id": "apothecary-description::ko-role",
+      "maxAbsError": 0.12843573093414307
+    }
+  ],
+  "finishedAt": "2026-11-13T13:18:52.931Z",
+  "servedBytes": {
+    "/browser.mjs": 6397,
+    "/readout.mjs": 2176,
+    "/ort/ort.webgpu.min.mjs": 70742,
+    "/ort/ort-wasm-simd-threaded.asyncify.mjs": 53457,
+    "/ort/ort-wasm-simd-threaded.asyncify.wasm": 28747738,
+    "/model.onnx": 107415176
+  }
+}

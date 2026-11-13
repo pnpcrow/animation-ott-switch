@@ -1,0 +1,3439 @@
+{
+  "schemaVersion": 1,
+  "model": "jinaai/jina-reranker-v1-tiny-en",
+  "revision": "aca45de6945b5dc6399abcd2a9c55ded5dc9111f",
+  "modelSha256": "5fa8508528828b4ad9bc97c97b6e020984e3b745fbcb53f0a907e68704f8a18a",
+  "modelFiles": {
+    "config.json": {
+      "bytes": 1206,
+      "sha256": "dc70646aa6c9e75e3c513cc9c037f35ad54308001c3961d45c0f69749bcfb022"
+    },
+    "onnx/model_quantized.onnx": {
+      "bytes": 33424854,
+      "sha256": "5fa8508528828b4ad9bc97c97b6e020984e3b745fbcb53f0a907e68704f8a18a"
+    },
+    "special_tokens_map.json": {
+      "bytes": 280,
+      "sha256": "06e405a36dfe4b9604f484f6a1e619af1a7f7d09e34a8555eb0b77b66318067f"
+    },
+    "tokenizer.json": {
+      "bytes": 2030772,
+      "sha256": "0046da43cc8c424b317f56b092b0512aaaa65c4f925d2f16af9d9eeb4d0ef902"
+    },
+    "tokenizer_config.json": {
+      "bytes": 1215,
+      "sha256": "d291c6652d96d56ffdbcf1ea19d9bae5ed79003f7648c627e725a619227ce8fa"
+    }
+  },
+  "jobsSha256": "55ad7a76e44c6da4d3dc8fb74b909f5bcbfdf9dec5a89e956d4e7034e29b1ab1",
+  "implementationSha256": "9ea554ba76c8fb123ced54024407ef17dc4d63cc972d1b95c4482ddf6a92425f",
+  "inputsSha256": "98eb8348358892e0ca601ab185623781175b6b2efbcfbc28b473b7de643880ae",
+  "templateSha256": "f4d9c62836d4a5f967ef3658f8daa21b0324de3c5b42f339008f88f2d1b54755",
+  "runtime": "ONNX Runtime native CPU q8",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "versions": {
+    "onnxruntime": "1.31.1",
+    "numpy": "2.5.4",
+    "tokenizers": "0.23.3"
+  },
+  "python": "3.12.10",
+  "threads": 2,
+  "maximumInputTokens": 384,
+  "classes": [
+    "relevance"
+  ],
+  "scoreDefinition": "raw relevance logit; not calibrated correctness probability",
+  "inputOrder": [
+    "field query",
+    "candidate passage"
+  ],
+  "verifyMs": 44.54739997163415,
+  "tokenizerLoadMs": 110.26889993809164,
+  "sessionLoadMs": 146.54380013234913,
+  "loadMs": 301.3601000420749,
+  "initialMemory": {
+    "workingSetBytes": 60100608,
+    "peakWorkingSetBytes": 61239296,
+    "privateBytes": 545701888
+  },
+  "afterLoadMemory": {
+    "workingSetBytes": 120000512,
+    "peakWorkingSetBytes": 138194944,
+    "privateBytes": 600428544
+  },
+  "timingNote": "Pair elapsedMs is its share of one parent case's session.run batch. Sum shares to recover the measured parent inference duration. Tokenization and feed construction are separate; browser pretokenized timing also excludes tokenization. Native process working set is not browser memory.",
+  "predictions": [
+    {
+      "id": "violet-netflix-title::en-role::t3",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t3",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.6512815952301025,
+      "logits": [
+        -1.6512815952301025
+      ],
+      "sigmoidRelevance": 0.16093581354141442,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 148,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 148
+        }
+      ],
+      "elapsedMs": 12.771600013365969,
+      "batchId": "violet-netflix-title::en-role"
+    },
+    {
+      "id": "violet-netflix-title::en-role::t6",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t6",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.6222790479660034,
+      "logits": [
+        -1.6222790479660034
+      ],
+      "sigmoidRelevance": 0.16489080139860648,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 159,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 159
+        }
+      ],
+      "elapsedMs": 12.771600013365969,
+      "batchId": "violet-netflix-title::en-role"
+    },
+    {
+      "id": "violet-netflix-title::en-role::t8",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t8",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.6003942489624023,
+      "logits": [
+        -1.6003942489624023
+      ],
+      "sigmoidRelevance": 0.16792652034859495,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 155,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 155
+        }
+      ],
+      "elapsedMs": 12.771600013365969,
+      "batchId": "violet-netflix-title::en-role"
+    },
+    {
+      "id": "violet-netflix-title::en-role::t1",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t1",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.6101826429367065,
+      "logits": [
+        -1.6101826429367065
+      ],
+      "sigmoidRelevance": 0.1665632575500586,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 161,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 161
+        }
+      ],
+      "elapsedMs": 12.771600013365969,
+      "batchId": "violet-netflix-title::en-role"
+    },
+    {
+      "id": "violet-netflix-title::en-role::t4",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t4",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.6543728113174438,
+      "logits": [
+        -1.6543728113174438
+      ],
+      "sigmoidRelevance": 0.16051882708529433,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 147,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 147
+        }
+      ],
+      "elapsedMs": 12.771600013365969,
+      "batchId": "violet-netflix-title::en-role"
+    },
+    {
+      "id": "violet-netflix-title::en-role::t5",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t5",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.6291505098342896,
+      "logits": [
+        -1.6291505098342896
+      ],
+      "sigmoidRelevance": 0.1639467660941079,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 151,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 151
+        }
+      ],
+      "elapsedMs": 12.771600013365969,
+      "batchId": "violet-netflix-title::en-role"
+    },
+    {
+      "id": "violet-netflix-title::en-role::t7",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t7",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.670913577079773,
+      "logits": [
+        -1.670913577079773
+      ],
+      "sigmoidRelevance": 0.1583024133113358,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 152,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 152
+        }
+      ],
+      "elapsedMs": 12.771600013365969,
+      "batchId": "violet-netflix-title::en-role"
+    },
+    {
+      "id": "violet-netflix-title::en-role::t2",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t2",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.627957820892334,
+      "logits": [
+        -1.627957820892334
+      ],
+      "sigmoidRelevance": 0.16411031137984838,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 153,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 153
+        }
+      ],
+      "elapsedMs": 12.771600013365969,
+      "batchId": "violet-netflix-title::en-role"
+    },
+    {
+      "id": "violet-netflix-image::en-role::i5",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i5",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.5847227573394775,
+      "logits": [
+        -1.5847227573394775
+      ],
+      "sigmoidRelevance": 0.1701276639505077,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 182,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 182
+        }
+      ],
+      "elapsedMs": 15.023887506686151,
+      "batchId": "violet-netflix-image::en-role"
+    },
+    {
+      "id": "violet-netflix-image::en-role::i4",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i4",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.618551254272461,
+      "logits": [
+        -1.618551254272461
+      ],
+      "sigmoidRelevance": 0.16540476685316252,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 187,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 187
+        }
+      ],
+      "elapsedMs": 15.023887506686151,
+      "batchId": "violet-netflix-image::en-role"
+    },
+    {
+      "id": "violet-netflix-image::en-role::i1",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i1",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.6458936929702759,
+      "logits": [
+        -1.6458936929702759
+      ],
+      "sigmoidRelevance": 0.16166470129704577,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 180,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 180
+        }
+      ],
+      "elapsedMs": 15.023887506686151,
+      "batchId": "violet-netflix-image::en-role"
+    },
+    {
+      "id": "violet-netflix-image::en-role::i8",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i8",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.6430718898773193,
+      "logits": [
+        -1.6430718898773193
+      ],
+      "sigmoidRelevance": 0.16204750329820733,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 179,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 179
+        }
+      ],
+      "elapsedMs": 15.023887506686151,
+      "batchId": "violet-netflix-image::en-role"
+    },
+    {
+      "id": "violet-netflix-image::en-role::i6",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i6",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.6192212104797363,
+      "logits": [
+        -1.6192212104797363
+      ],
+      "sigmoidRelevance": 0.1653123027890913,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 178,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 178
+        }
+      ],
+      "elapsedMs": 15.023887506686151,
+      "batchId": "violet-netflix-image::en-role"
+    },
+    {
+      "id": "violet-netflix-image::en-role::i3",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i3",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.6701058149337769,
+      "logits": [
+        -1.6701058149337769
+      ],
+      "sigmoidRelevance": 0.1584100714774041,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 175,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 175
+        }
+      ],
+      "elapsedMs": 15.023887506686151,
+      "batchId": "violet-netflix-image::en-role"
+    },
+    {
+      "id": "violet-netflix-image::en-role::i2",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i2",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.68473482131958,
+      "logits": [
+        -1.68473482131958
+      ],
+      "sigmoidRelevance": 0.1564695179589804,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 188,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 188
+        }
+      ],
+      "elapsedMs": 15.023887506686151,
+      "batchId": "violet-netflix-image::en-role"
+    },
+    {
+      "id": "violet-netflix-image::en-role::i7",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i7",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.6405503749847412,
+      "logits": [
+        -1.6405503749847412
+      ],
+      "sigmoidRelevance": 0.1623901868767568,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 179,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 179
+        }
+      ],
+      "elapsedMs": 15.023887506686151,
+      "batchId": "violet-netflix-image::en-role"
+    },
+    {
+      "id": "violet-netflix-description::en-role::d1",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d1",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.61354660987854,
+      "logits": [
+        -1.61354660987854
+      ],
+      "sigmoidRelevance": 0.16609679552155177,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 207,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 207
+        }
+      ],
+      "elapsedMs": 14.543687488185242,
+      "batchId": "violet-netflix-description::en-role"
+    },
+    {
+      "id": "violet-netflix-description::en-role::d5",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d5",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.6150420904159546,
+      "logits": [
+        -1.6150420904159546
+      ],
+      "sigmoidRelevance": 0.1658897619510723,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 201,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 201
+        }
+      ],
+      "elapsedMs": 14.543687488185242,
+      "batchId": "violet-netflix-description::en-role"
+    },
+    {
+      "id": "violet-netflix-description::en-role::d8",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d8",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.6094118356704712,
+      "logits": [
+        -1.6094118356704712
+      ],
+      "sigmoidRelevance": 0.1666702884708744,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 202,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 202
+        }
+      ],
+      "elapsedMs": 14.543687488185242,
+      "batchId": "violet-netflix-description::en-role"
+    },
+    {
+      "id": "violet-netflix-description::en-role::d6",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d6",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.615975022315979,
+      "logits": [
+        -1.615975022315979
+      ],
+      "sigmoidRelevance": 0.16576071207310833,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 201,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 201
+        }
+      ],
+      "elapsedMs": 14.543687488185242,
+      "batchId": "violet-netflix-description::en-role"
+    },
+    {
+      "id": "violet-netflix-description::en-role::d4",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d4",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.5753248929977417,
+      "logits": [
+        -1.5753248929977417
+      ],
+      "sigmoidRelevance": 0.17145861056900033,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 204,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 204
+        }
+      ],
+      "elapsedMs": 14.543687488185242,
+      "batchId": "violet-netflix-description::en-role"
+    },
+    {
+      "id": "violet-netflix-description::en-role::d2",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d2",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.6344693899154663,
+      "logits": [
+        -1.6344693899154663
+      ],
+      "sigmoidRelevance": 0.16321901915791828,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 201,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 201
+        }
+      ],
+      "elapsedMs": 14.543687488185242,
+      "batchId": "violet-netflix-description::en-role"
+    },
+    {
+      "id": "violet-netflix-description::en-role::d3",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d3",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.5435688495635986,
+      "logits": [
+        -1.5435688495635986
+      ],
+      "sigmoidRelevance": 0.1760170678448449,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 203,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 203
+        }
+      ],
+      "elapsedMs": 14.543687488185242,
+      "batchId": "violet-netflix-description::en-role"
+    },
+    {
+      "id": "violet-netflix-description::en-role::d7",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d7",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.5138978958129883,
+      "logits": [
+        -1.5138978958129883
+      ],
+      "sigmoidRelevance": 0.18036184346601086,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 201,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 201
+        }
+      ],
+      "elapsedMs": 14.543687488185242,
+      "batchId": "violet-netflix-description::en-role"
+    },
+    {
+      "id": "hero-apple-title::en-role::t7",
+      "caseId": "hero-apple-title",
+      "candidateId": "t7",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.1554460525512695,
+      "logits": [
+        -1.1554460525512695
+      ],
+      "sigmoidRelevance": 0.2394957456597212,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 184,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 184
+        }
+      ],
+      "elapsedMs": 16.314287524437532,
+      "batchId": "hero-apple-title::en-role"
+    },
+    {
+      "id": "hero-apple-title::en-role::t5",
+      "caseId": "hero-apple-title",
+      "candidateId": "t5",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.3228567838668823,
+      "logits": [
+        -1.3228567838668823
+      ],
+      "sigmoidRelevance": 0.2103433917417131,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 159,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 159
+        }
+      ],
+      "elapsedMs": 16.314287524437532,
+      "batchId": "hero-apple-title::en-role"
+    },
+    {
+      "id": "hero-apple-title::en-role::t6",
+      "caseId": "hero-apple-title",
+      "candidateId": "t6",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.3869153261184692,
+      "logits": [
+        -1.3869153261184692
+      ],
+      "sigmoidRelevance": 0.1999006641086529,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 194,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 194
+        }
+      ],
+      "elapsedMs": 16.314287524437532,
+      "batchId": "hero-apple-title::en-role"
+    },
+    {
+      "id": "hero-apple-title::en-role::t4",
+      "caseId": "hero-apple-title",
+      "candidateId": "t4",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.1648672819137573,
+      "logits": [
+        -1.1648672819137573
+      ],
+      "sigmoidRelevance": 0.23778399992926702,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 157,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 157
+        }
+      ],
+      "elapsedMs": 16.314287524437532,
+      "batchId": "hero-apple-title::en-role"
+    },
+    {
+      "id": "hero-apple-title::en-role::t2",
+      "caseId": "hero-apple-title",
+      "candidateId": "t2",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.3716453313827515,
+      "logits": [
+        -1.3716453313827515
+      ],
+      "sigmoidRelevance": 0.20235414845645747,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 162,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 162
+        }
+      ],
+      "elapsedMs": 16.314287524437532,
+      "batchId": "hero-apple-title::en-role"
+    },
+    {
+      "id": "hero-apple-title::en-role::t1",
+      "caseId": "hero-apple-title",
+      "candidateId": "t1",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.3593990802764893,
+      "logits": [
+        -1.3593990802764893
+      ],
+      "sigmoidRelevance": 0.20433798484195448,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 170,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 170
+        }
+      ],
+      "elapsedMs": 16.314287524437532,
+      "batchId": "hero-apple-title::en-role"
+    },
+    {
+      "id": "hero-apple-title::en-role::t3",
+      "caseId": "hero-apple-title",
+      "candidateId": "t3",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.3874925374984741,
+      "logits": [
+        -1.3874925374984741
+      ],
+      "sigmoidRelevance": 0.1998083606876627,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 193,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 193
+        }
+      ],
+      "elapsedMs": 16.314287524437532,
+      "batchId": "hero-apple-title::en-role"
+    },
+    {
+      "id": "hero-apple-title::en-role::t8",
+      "caseId": "hero-apple-title",
+      "candidateId": "t8",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.2515963315963745,
+      "logits": [
+        -1.2515963315963745
+      ],
+      "sigmoidRelevance": 0.2224239285109606,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 182,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 182
+        }
+      ],
+      "elapsedMs": 16.314287524437532,
+      "batchId": "hero-apple-title::en-role"
+    },
+    {
+      "id": "hero-apple-image::en-role::i8",
+      "caseId": "hero-apple-image",
+      "candidateId": "i8",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.3883785009384155,
+      "logits": [
+        -1.3883785009384155
+      ],
+      "sigmoidRelevance": 0.19966674611397195,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 186,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 186
+        }
+      ],
+      "elapsedMs": 14.771325018955395,
+      "batchId": "hero-apple-image::en-role"
+    },
+    {
+      "id": "hero-apple-image::en-role::i1",
+      "caseId": "hero-apple-image",
+      "candidateId": "i1",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.4150433540344238,
+      "logits": [
+        -1.4150433540344238
+      ],
+      "sigmoidRelevance": 0.1954398055141776,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 197,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 197
+        }
+      ],
+      "elapsedMs": 14.771325018955395,
+      "batchId": "hero-apple-image::en-role"
+    },
+    {
+      "id": "hero-apple-image::en-role::i5",
+      "caseId": "hero-apple-image",
+      "candidateId": "i5",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.389197587966919,
+      "logits": [
+        -1.389197587966919
+      ],
+      "sigmoidRelevance": 0.1995358882569664,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 187,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 187
+        }
+      ],
+      "elapsedMs": 14.771325018955395,
+      "batchId": "hero-apple-image::en-role"
+    },
+    {
+      "id": "hero-apple-image::en-role::i7",
+      "caseId": "hero-apple-image",
+      "candidateId": "i7",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.3896957635879517,
+      "logits": [
+        -1.3896957635879517
+      ],
+      "sigmoidRelevance": 0.1994563309005019,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 186,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 186
+        }
+      ],
+      "elapsedMs": 14.771325018955395,
+      "batchId": "hero-apple-image::en-role"
+    },
+    {
+      "id": "hero-apple-image::en-role::i4",
+      "caseId": "hero-apple-image",
+      "candidateId": "i4",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.372599720954895,
+      "logits": [
+        -1.372599720954895
+      ],
+      "sigmoidRelevance": 0.2022001471081803,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 205,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 205
+        }
+      ],
+      "elapsedMs": 14.771325018955395,
+      "batchId": "hero-apple-image::en-role"
+    },
+    {
+      "id": "hero-apple-image::en-role::i3",
+      "caseId": "hero-apple-image",
+      "candidateId": "i3",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.436677098274231,
+      "logits": [
+        -1.436677098274231
+      ],
+      "sigmoidRelevance": 0.19206044641034759,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 207,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 207
+        }
+      ],
+      "elapsedMs": 14.771325018955395,
+      "batchId": "hero-apple-image::en-role"
+    },
+    {
+      "id": "hero-apple-image::en-role::i2",
+      "caseId": "hero-apple-image",
+      "candidateId": "i2",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.436232328414917,
+      "logits": [
+        -1.436232328414917
+      ],
+      "sigmoidRelevance": 0.19212947223941146,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 196,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 196
+        }
+      ],
+      "elapsedMs": 14.771325018955395,
+      "batchId": "hero-apple-image::en-role"
+    },
+    {
+      "id": "hero-apple-image::en-role::i6",
+      "caseId": "hero-apple-image",
+      "candidateId": "i6",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.3748164176940918,
+      "logits": [
+        -1.3748164176940918
+      ],
+      "sigmoidRelevance": 0.2018427961699075,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 188,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 188
+        }
+      ],
+      "elapsedMs": 14.771325018955395,
+      "batchId": "hero-apple-image::en-role"
+    },
+    {
+      "id": "hero-apple-description::en-role::d3",
+      "caseId": "hero-apple-description",
+      "candidateId": "d3",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.5552436113357544,
+      "logits": [
+        -1.5552436113357544
+      ],
+      "sigmoidRelevance": 0.17433021761636605,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 234,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 234
+        }
+      ],
+      "elapsedMs": 18.372512480709702,
+      "batchId": "hero-apple-description::en-role"
+    },
+    {
+      "id": "hero-apple-description::en-role::d4",
+      "caseId": "hero-apple-description",
+      "candidateId": "d4",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.3675779104232788,
+      "logits": [
+        -1.3675779104232788
+      ],
+      "sigmoidRelevance": 0.20301145331649986,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 241,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 241
+        }
+      ],
+      "elapsedMs": 18.372512480709702,
+      "batchId": "hero-apple-description::en-role"
+    },
+    {
+      "id": "hero-apple-description::en-role::d2",
+      "caseId": "hero-apple-description",
+      "candidateId": "d2",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.4199507236480713,
+      "logits": [
+        -1.4199507236480713
+      ],
+      "sigmoidRelevance": 0.19466930868519355,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 240,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 240
+        }
+      ],
+      "elapsedMs": 18.372512480709702,
+      "batchId": "hero-apple-description::en-role"
+    },
+    {
+      "id": "hero-apple-description::en-role::d7",
+      "caseId": "hero-apple-description",
+      "candidateId": "d7",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.5425007343292236,
+      "logits": [
+        -1.5425007343292236
+      ],
+      "sigmoidRelevance": 0.1761720356136337,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 239,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 239
+        }
+      ],
+      "elapsedMs": 18.372512480709702,
+      "batchId": "hero-apple-description::en-role"
+    },
+    {
+      "id": "hero-apple-description::en-role::d1",
+      "caseId": "hero-apple-description",
+      "candidateId": "d1",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.3900902271270752,
+      "logits": [
+        -1.3900902271270752
+      ],
+      "sigmoidRelevance": 0.19939335299248767,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 243,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 243
+        }
+      ],
+      "elapsedMs": 18.372512480709702,
+      "batchId": "hero-apple-description::en-role"
+    },
+    {
+      "id": "hero-apple-description::en-role::d5",
+      "caseId": "hero-apple-description",
+      "candidateId": "d5",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.4704755544662476,
+      "logits": [
+        -1.4704755544662476
+      ],
+      "sigmoidRelevance": 0.18687034279300319,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 218,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 218
+        }
+      ],
+      "elapsedMs": 18.372512480709702,
+      "batchId": "hero-apple-description::en-role"
+    },
+    {
+      "id": "hero-apple-description::en-role::d6",
+      "caseId": "hero-apple-description",
+      "candidateId": "d6",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.4098148345947266,
+      "logits": [
+        -1.4098148345947266
+      ],
+      "sigmoidRelevance": 0.19626326345378417,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 240,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 240
+        }
+      ],
+      "elapsedMs": 18.372512480709702,
+      "batchId": "hero-apple-description::en-role"
+    },
+    {
+      "id": "hero-apple-description::en-role::d8",
+      "caseId": "hero-apple-description",
+      "candidateId": "d8",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.2586302757263184,
+      "logits": [
+        -1.2586302757263184
+      ],
+      "sigmoidRelevance": 0.2212097727401722,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 199,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 199
+        }
+      ],
+      "elapsedMs": 18.372512480709702,
+      "batchId": "hero-apple-description::en-role"
+    },
+    {
+      "id": "bebop-tving-title::en-role::t2",
+      "caseId": "bebop-tving-title",
+      "candidateId": "t2",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.0083568096160889,
+      "logits": [
+        -1.0083568096160889
+      ],
+      "sigmoidRelevance": 0.26730154886957597,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 161,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 161
+        }
+      ],
+      "elapsedMs": 11.057074996642768,
+      "batchId": "bebop-tving-title::en-role"
+    },
+    {
+      "id": "bebop-tving-title::en-role::t4",
+      "caseId": "bebop-tving-title",
+      "candidateId": "t4",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.1073325872421265,
+      "logits": [
+        -1.1073325872421265
+      ],
+      "sigmoidRelevance": 0.248368511123581,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 137,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 137
+        }
+      ],
+      "elapsedMs": 11.057074996642768,
+      "batchId": "bebop-tving-title::en-role"
+    },
+    {
+      "id": "bebop-tving-title::en-role::t1",
+      "caseId": "bebop-tving-title",
+      "candidateId": "t1",
+      "template": "en-role",
+      "field": "title",
+      "score": -0.9523358345031738,
+      "logits": [
+        -0.9523358345031738
+      ],
+      "sigmoidRelevance": 0.27841530950081883,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 132,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 132
+        }
+      ],
+      "elapsedMs": 11.057074996642768,
+      "batchId": "bebop-tving-title::en-role"
+    },
+    {
+      "id": "bebop-tving-title::en-role::t3",
+      "caseId": "bebop-tving-title",
+      "candidateId": "t3",
+      "template": "en-role",
+      "field": "title",
+      "score": -0.991685152053833,
+      "logits": [
+        -0.991685152053833
+      ],
+      "sigmoidRelevance": 0.27057935709239167,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 134,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 134
+        }
+      ],
+      "elapsedMs": 11.057074996642768,
+      "batchId": "bebop-tving-title::en-role"
+    },
+    {
+      "id": "bebop-tving-image::en-role::i5",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i5",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.733849048614502,
+      "logits": [
+        -0.733849048614502
+      ],
+      "sigmoidRelevance": 0.3243506491601181,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 140,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 140
+        }
+      ],
+      "elapsedMs": 10.194549977313727,
+      "batchId": "bebop-tving-image::en-role"
+    },
+    {
+      "id": "bebop-tving-image::en-role::i2",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i2",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.8212526440620422,
+      "logits": [
+        -0.8212526440620422
+      ],
+      "sigmoidRelevance": 0.30549782304101786,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 145,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 145
+        }
+      ],
+      "elapsedMs": 10.194549977313727,
+      "batchId": "bebop-tving-image::en-role"
+    },
+    {
+      "id": "bebop-tving-image::en-role::i3",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i3",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.6097071170806885,
+      "logits": [
+        -0.6097071170806885
+      ],
+      "sigmoidRelevance": 0.35212601136725685,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 154,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 154
+        }
+      ],
+      "elapsedMs": 10.194549977313727,
+      "batchId": "bebop-tving-image::en-role"
+    },
+    {
+      "id": "bebop-tving-image::en-role::i1",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i1",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.9102285504341125,
+      "logits": [
+        -0.9102285504341125
+      ],
+      "sigmoidRelevance": 0.286953071036524,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 130,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 130
+        }
+      ],
+      "elapsedMs": 10.194549977313727,
+      "batchId": "bebop-tving-image::en-role"
+    },
+    {
+      "id": "bebop-tving-image::en-role::i4",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i4",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.7446230053901672,
+      "logits": [
+        -0.7446230053901672
+      ],
+      "sigmoidRelevance": 0.3219940480810465,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 153,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 153
+        }
+      ],
+      "elapsedMs": 10.194549977313727,
+      "batchId": "bebop-tving-image::en-role"
+    },
+    {
+      "id": "bebop-tving-image::en-role::i6",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i6",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.5551334619522095,
+      "logits": [
+        -0.5551334619522095
+      ],
+      "sigmoidRelevance": 0.3646742287280319,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 131,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 131
+        }
+      ],
+      "elapsedMs": 10.194549977313727,
+      "batchId": "bebop-tving-image::en-role"
+    },
+    {
+      "id": "bebop-tving-image::en-role::i7",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i7",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.5551334619522095,
+      "logits": [
+        -0.5551334619522095
+      ],
+      "sigmoidRelevance": 0.3646742287280319,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 131,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 131
+        }
+      ],
+      "elapsedMs": 10.194549977313727,
+      "batchId": "bebop-tving-image::en-role"
+    },
+    {
+      "id": "bebop-tving-image::en-role::i8",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i8",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.5551334619522095,
+      "logits": [
+        -0.5551334619522095
+      ],
+      "sigmoidRelevance": 0.3646742287280319,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 131,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 131
+        }
+      ],
+      "elapsedMs": 10.194549977313727,
+      "batchId": "bebop-tving-image::en-role"
+    },
+    {
+      "id": "bebop-tving-description::en-role::d3",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d3",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.4099462032318115,
+      "logits": [
+        -1.4099462032318115
+      ],
+      "sigmoidRelevance": 0.19624254166702923,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 175,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 175
+        }
+      ],
+      "elapsedMs": 14.263025019317865,
+      "batchId": "bebop-tving-description::en-role"
+    },
+    {
+      "id": "bebop-tving-description::en-role::d6",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d6",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.17506742477417,
+      "logits": [
+        -1.17506742477417
+      ],
+      "sigmoidRelevance": 0.2359402451571761,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 182,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 182
+        }
+      ],
+      "elapsedMs": 14.263025019317865,
+      "batchId": "bebop-tving-description::en-role"
+    },
+    {
+      "id": "bebop-tving-description::en-role::d2",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d2",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.44713294506073,
+      "logits": [
+        -1.44713294506073
+      ],
+      "sigmoidRelevance": 0.19044320076890653,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 188,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 188
+        }
+      ],
+      "elapsedMs": 14.263025019317865,
+      "batchId": "bebop-tving-description::en-role"
+    },
+    {
+      "id": "bebop-tving-description::en-role::d5",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d5",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.1988184452056885,
+      "logits": [
+        -1.1988184452056885
+      ],
+      "sigmoidRelevance": 0.23168547521594937,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 200,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 200
+        }
+      ],
+      "elapsedMs": 14.263025019317865,
+      "batchId": "bebop-tving-description::en-role"
+    },
+    {
+      "id": "bebop-tving-description::en-role::d8",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d8",
+      "template": "en-role",
+      "field": "description",
+      "score": -0.4505000114440918,
+      "logits": [
+        -0.4505000114440918
+      ],
+      "sigmoidRelevance": 0.3892418904286682,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 177,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 177
+        }
+      ],
+      "elapsedMs": 14.263025019317865,
+      "batchId": "bebop-tving-description::en-role"
+    },
+    {
+      "id": "bebop-tving-description::en-role::d7",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d7",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.2886942625045776,
+      "logits": [
+        -1.2886942625045776
+      ],
+      "sigmoidRelevance": 0.21607390243884933,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 182,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 182
+        }
+      ],
+      "elapsedMs": 14.263025019317865,
+      "batchId": "bebop-tving-description::en-role"
+    },
+    {
+      "id": "bebop-tving-description::en-role::d4",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d4",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.5173985958099365,
+      "logits": [
+        -1.5173985958099365
+      ],
+      "sigmoidRelevance": 0.17984490886899407,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 190,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 190
+        }
+      ],
+      "elapsedMs": 14.263025019317865,
+      "batchId": "bebop-tving-description::en-role"
+    },
+    {
+      "id": "bebop-tving-description::en-role::d1",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d1",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.36086106300354,
+      "logits": [
+        -1.36086106300354
+      ],
+      "sigmoidRelevance": 0.20410039262424695,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 195,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 195
+        }
+      ],
+      "elapsedMs": 14.263025019317865,
+      "batchId": "bebop-tving-description::en-role"
+    },
+    {
+      "id": "tutu-laftel-title::en-role::t7",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t7",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.188064694404602,
+      "logits": [
+        -1.188064694404602
+      ],
+      "sigmoidRelevance": 0.23360524230212174,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 131,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 131
+        }
+      ],
+      "elapsedMs": 11.22577500063926,
+      "batchId": "tutu-laftel-title::en-role"
+    },
+    {
+      "id": "tutu-laftel-title::en-role::t1",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t1",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.2357805967330933,
+      "logits": [
+        -1.2357805967330933
+      ],
+      "sigmoidRelevance": 0.22517128779769788,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 149,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 149
+        }
+      ],
+      "elapsedMs": 11.22577500063926,
+      "batchId": "tutu-laftel-title::en-role"
+    },
+    {
+      "id": "tutu-laftel-title::en-role::t3",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t3",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.102018117904663,
+      "logits": [
+        -1.102018117904663
+      ],
+      "sigmoidRelevance": 0.2493619509064738,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 155,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 155
+        }
+      ],
+      "elapsedMs": 11.22577500063926,
+      "batchId": "tutu-laftel-title::en-role"
+    },
+    {
+      "id": "tutu-laftel-title::en-role::t8",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t8",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.0846666097640991,
+      "logits": [
+        -1.0846666097640991
+      ],
+      "sigmoidRelevance": 0.2526239203569004,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 151,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 151
+        }
+      ],
+      "elapsedMs": 11.22577500063926,
+      "batchId": "tutu-laftel-title::en-role"
+    },
+    {
+      "id": "tutu-laftel-title::en-role::t2",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t2",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.2804007530212402,
+      "logits": [
+        -1.2804007530212402
+      ],
+      "sigmoidRelevance": 0.2174820142681953,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 138,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 138
+        }
+      ],
+      "elapsedMs": 11.22577500063926,
+      "batchId": "tutu-laftel-title::en-role"
+    },
+    {
+      "id": "tutu-laftel-title::en-role::t4",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t4",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.1885792016983032,
+      "logits": [
+        -1.1885792016983032
+      ],
+      "sigmoidRelevance": 0.23351314071485108,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 125,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 125
+        }
+      ],
+      "elapsedMs": 11.22577500063926,
+      "batchId": "tutu-laftel-title::en-role"
+    },
+    {
+      "id": "tutu-laftel-title::en-role::t6",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t6",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.206939458847046,
+      "logits": [
+        -1.206939458847046
+      ],
+      "sigmoidRelevance": 0.23024302637941074,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 123,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 123
+        }
+      ],
+      "elapsedMs": 11.22577500063926,
+      "batchId": "tutu-laftel-title::en-role"
+    },
+    {
+      "id": "tutu-laftel-title::en-role::t5",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t5",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.2832248210906982,
+      "logits": [
+        -1.2832248210906982
+      ],
+      "sigmoidRelevance": 0.21700178770006162,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 153,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 153
+        }
+      ],
+      "elapsedMs": 11.22577500063926,
+      "batchId": "tutu-laftel-title::en-role"
+    },
+    {
+      "id": "tutu-laftel-image::en-role::i7",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i7",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.3528639078140259,
+      "logits": [
+        -1.3528639078140259
+      ],
+      "sigmoidRelevance": 0.20540255231462792,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 177,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 177
+        }
+      ],
+      "elapsedMs": 12.430100003257394,
+      "batchId": "tutu-laftel-image::en-role"
+    },
+    {
+      "id": "tutu-laftel-image::en-role::i1",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i1",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.1104017496109009,
+      "logits": [
+        -1.1104017496109009
+      ],
+      "sigmoidRelevance": 0.24779599760132973,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 158,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 158
+        }
+      ],
+      "elapsedMs": 12.430100003257394,
+      "batchId": "tutu-laftel-image::en-role"
+    },
+    {
+      "id": "tutu-laftel-image::en-role::i4",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i4",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.0785133838653564,
+      "logits": [
+        -1.0785133838653564
+      ],
+      "sigmoidRelevance": 0.25378744804076736,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 177,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 177
+        }
+      ],
+      "elapsedMs": 12.430100003257394,
+      "batchId": "tutu-laftel-image::en-role"
+    },
+    {
+      "id": "tutu-laftel-image::en-role::i3",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i3",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.885871946811676,
+      "logits": [
+        -0.885871946811676
+      ],
+      "sigmoidRelevance": 0.29196244671109944,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 175,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 175
+        }
+      ],
+      "elapsedMs": 12.430100003257394,
+      "batchId": "tutu-laftel-image::en-role"
+    },
+    {
+      "id": "tutu-laftel-image::en-role::i8",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i8",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.1062597036361694,
+      "logits": [
+        -1.1062597036361694
+      ],
+      "sigmoidRelevance": 0.2485688528123978,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 177,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 177
+        }
+      ],
+      "elapsedMs": 12.430100003257394,
+      "batchId": "tutu-laftel-image::en-role"
+    },
+    {
+      "id": "tutu-laftel-image::en-role::i6",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i6",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.1259410381317139,
+      "logits": [
+        -1.1259410381317139
+      ],
+      "sigmoidRelevance": 0.24491094557944565,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 173,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 173
+        }
+      ],
+      "elapsedMs": 12.430100003257394,
+      "batchId": "tutu-laftel-image::en-role"
+    },
+    {
+      "id": "tutu-laftel-image::en-role::i5",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i5",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.9517672061920166,
+      "logits": [
+        -0.9517672061920166
+      ],
+      "sigmoidRelevance": 0.2785295614490258,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 175,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 175
+        }
+      ],
+      "elapsedMs": 12.430100003257394,
+      "batchId": "tutu-laftel-image::en-role"
+    },
+    {
+      "id": "tutu-laftel-image::en-role::i2",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i2",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.9741576313972473,
+      "logits": [
+        -0.9741576313972473
+      ],
+      "sigmoidRelevance": 0.27405257418557316,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 174,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 174
+        }
+      ],
+      "elapsedMs": 12.430100003257394,
+      "batchId": "tutu-laftel-image::en-role"
+    },
+    {
+      "id": "tutu-laftel-description::en-role::d7",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d7",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.1656017303466797,
+      "logits": [
+        -1.1656017303466797
+      ],
+      "sigmoidRelevance": 0.23765091209795777,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 216,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 216
+        }
+      ],
+      "elapsedMs": 15.399912517750636,
+      "batchId": "tutu-laftel-description::en-role"
+    },
+    {
+      "id": "tutu-laftel-description::en-role::d3",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d3",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.2771469354629517,
+      "logits": [
+        -1.2771469354629517
+      ],
+      "sigmoidRelevance": 0.2180362696309866,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 228,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 228
+        }
+      ],
+      "elapsedMs": 15.399912517750636,
+      "batchId": "tutu-laftel-description::en-role"
+    },
+    {
+      "id": "tutu-laftel-description::en-role::d8",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d8",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.4290529489517212,
+      "logits": [
+        -1.4290529489517212
+      ],
+      "sigmoidRelevance": 0.19324628864601331,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 218,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 218
+        }
+      ],
+      "elapsedMs": 15.399912517750636,
+      "batchId": "tutu-laftel-description::en-role"
+    },
+    {
+      "id": "tutu-laftel-description::en-role::d1",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d1",
+      "template": "en-role",
+      "field": "description",
+      "score": -0.869814932346344,
+      "logits": [
+        -0.869814932346344
+      ],
+      "sigmoidRelevance": 0.29529281219018116,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 225,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 225
+        }
+      ],
+      "elapsedMs": 15.399912517750636,
+      "batchId": "tutu-laftel-description::en-role"
+    },
+    {
+      "id": "tutu-laftel-description::en-role::d4",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d4",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.3235207796096802,
+      "logits": [
+        -1.3235207796096802
+      ],
+      "sigmoidRelevance": 0.21023312389205032,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 219,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 219
+        }
+      ],
+      "elapsedMs": 15.399912517750636,
+      "batchId": "tutu-laftel-description::en-role"
+    },
+    {
+      "id": "tutu-laftel-description::en-role::d2",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d2",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.2665294408798218,
+      "logits": [
+        -1.2665294408798218
+      ],
+      "sigmoidRelevance": 0.21985193339947437,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 216,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 216
+        }
+      ],
+      "elapsedMs": 15.399912517750636,
+      "batchId": "tutu-laftel-description::en-role"
+    },
+    {
+      "id": "tutu-laftel-description::en-role::d5",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d5",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.3890109062194824,
+      "logits": [
+        -1.3890109062194824
+      ],
+      "sigmoidRelevance": 0.19956570698411086,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 221,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 221
+        }
+      ],
+      "elapsedMs": 15.399912517750636,
+      "batchId": "tutu-laftel-description::en-role"
+    },
+    {
+      "id": "tutu-laftel-description::en-role::d6",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d6",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.1609876155853271,
+      "logits": [
+        -1.1609876155853271
+      ],
+      "sigmoidRelevance": 0.23848787657689893,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 220,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 220
+        }
+      ],
+      "elapsedMs": 15.399912517750636,
+      "batchId": "tutu-laftel-description::en-role"
+    },
+    {
+      "id": "genre-netflix-title::en-role::t7",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t7",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.3785510063171387,
+      "logits": [
+        -1.3785510063171387
+      ],
+      "sigmoidRelevance": 0.20124181530851656,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 148,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 148
+        }
+      ],
+      "elapsedMs": 10.136174998478964,
+      "batchId": "genre-netflix-title::en-role"
+    },
+    {
+      "id": "genre-netflix-title::en-role::t1",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t1",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.3371731042861938,
+      "logits": [
+        -1.3371731042861938
+      ],
+      "sigmoidRelevance": 0.2079753249158919,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 134,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 134
+        }
+      ],
+      "elapsedMs": 10.136174998478964,
+      "batchId": "genre-netflix-title::en-role"
+    },
+    {
+      "id": "genre-netflix-title::en-role::t6",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t6",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.4295142889022827,
+      "logits": [
+        -1.4295142889022827
+      ],
+      "sigmoidRelevance": 0.1931743749293055,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 143,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 143
+        }
+      ],
+      "elapsedMs": 10.136174998478964,
+      "batchId": "genre-netflix-title::en-role"
+    },
+    {
+      "id": "genre-netflix-title::en-role::t2",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t2",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.2614742517471313,
+      "logits": [
+        -1.2614742517471313
+      ],
+      "sigmoidRelevance": 0.22072021239010906,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 149,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 149
+        }
+      ],
+      "elapsedMs": 10.136174998478964,
+      "batchId": "genre-netflix-title::en-role"
+    },
+    {
+      "id": "genre-netflix-title::en-role::t8",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t8",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.4321556091308594,
+      "logits": [
+        -1.4321556091308594
+      ],
+      "sigmoidRelevance": 0.19276303754369428,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 138,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 138
+        }
+      ],
+      "elapsedMs": 10.136174998478964,
+      "batchId": "genre-netflix-title::en-role"
+    },
+    {
+      "id": "genre-netflix-title::en-role::t4",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t4",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.4265527725219727,
+      "logits": [
+        -1.4265527725219727
+      ],
+      "sigmoidRelevance": 0.1936363705187893,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 145,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 145
+        }
+      ],
+      "elapsedMs": 10.136174998478964,
+      "batchId": "genre-netflix-title::en-role"
+    },
+    {
+      "id": "genre-netflix-title::en-role::t5",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t5",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.5105814933776855,
+      "logits": [
+        -1.5105814933776855
+      ],
+      "sigmoidRelevance": 0.18085263185290826,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 147,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 147
+        }
+      ],
+      "elapsedMs": 10.136174998478964,
+      "batchId": "genre-netflix-title::en-role"
+    },
+    {
+      "id": "genre-netflix-title::en-role::t3",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t3",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.448601484298706,
+      "logits": [
+        -1.448601484298706
+      ],
+      "sigmoidRelevance": 0.19021689225654193,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 153,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 153
+        }
+      ],
+      "elapsedMs": 10.136174998478964,
+      "batchId": "genre-netflix-title::en-role"
+    },
+    {
+      "id": "genre-netflix-image::en-role::i3",
+      "caseId": "genre-netflix-image",
+      "candidateId": "i3",
+      "template": "en-role",
+      "field": "image",
+      "score": -1.1564767360687256,
+      "logits": [
+        -1.1564767360687256
+      ],
+      "sigmoidRelevance": 0.23930806991313477,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 147,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 147
+        }
+      ],
+      "elapsedMs": 10.092474985867739,
+      "batchId": "genre-netflix-image::en-role"
+    },
+    {
+      "id": "genre-netflix-image::en-role::i4",
+      "caseId": "genre-netflix-image",
+      "candidateId": "i4",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.8164279460906982,
+      "logits": [
+        -0.8164279460906982
+      ],
+      "sigmoidRelevance": 0.3065224334391268,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 121,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 121
+        }
+      ],
+      "elapsedMs": 10.092474985867739,
+      "batchId": "genre-netflix-image::en-role"
+    },
+    {
+      "id": "genre-netflix-image::en-role::i2",
+      "caseId": "genre-netflix-image",
+      "candidateId": "i2",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.9593284726142883,
+      "logits": [
+        -0.9593284726142883
+      ],
+      "sigmoidRelevance": 0.277012665989005,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 144,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 144
+        }
+      ],
+      "elapsedMs": 10.092474985867739,
+      "batchId": "genre-netflix-image::en-role"
+    },
+    {
+      "id": "genre-netflix-image::en-role::i1",
+      "caseId": "genre-netflix-image",
+      "candidateId": "i1",
+      "template": "en-role",
+      "field": "image",
+      "score": -0.9165247678756714,
+      "logits": [
+        -0.9165247678756714
+      ],
+      "sigmoidRelevance": 0.2856665256604087,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 157,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 157
+        }
+      ],
+      "elapsedMs": 10.092474985867739,
+      "batchId": "genre-netflix-image::en-role"
+    },
+    {
+      "id": "genre-netflix-description::en-role::d3",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d3",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.3232719898223877,
+      "logits": [
+        -1.3232719898223877
+      ],
+      "sigmoidRelevance": 0.210274434721498,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 187,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 187
+        }
+      ],
+      "elapsedMs": 14.27927502663806,
+      "batchId": "genre-netflix-description::en-role"
+    },
+    {
+      "id": "genre-netflix-description::en-role::d5",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d5",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.552050232887268,
+      "logits": [
+        -1.552050232887268
+      ],
+      "sigmoidRelevance": 0.17479034807128854,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 147,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 147
+        }
+      ],
+      "elapsedMs": 14.27927502663806,
+      "batchId": "genre-netflix-description::en-role"
+    },
+    {
+      "id": "genre-netflix-description::en-role::d2",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d2",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.3046010732650757,
+      "logits": [
+        -1.3046010732650757
+      ],
+      "sigmoidRelevance": 0.21339168227493976,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 191,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 191
+        }
+      ],
+      "elapsedMs": 14.27927502663806,
+      "batchId": "genre-netflix-description::en-role"
+    },
+    {
+      "id": "genre-netflix-description::en-role::d6",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d6",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.2925200462341309,
+      "logits": [
+        -1.2925200462341309
+      ],
+      "sigmoidRelevance": 0.2154265722918682,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 161,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 161
+        }
+      ],
+      "elapsedMs": 14.27927502663806,
+      "batchId": "genre-netflix-description::en-role"
+    },
+    {
+      "id": "genre-netflix-description::en-role::d1",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d1",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.499777913093567,
+      "logits": [
+        -1.499777913093567
+      ],
+      "sigmoidRelevance": 0.18245864961670064,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 204,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 204
+        }
+      ],
+      "elapsedMs": 14.27927502663806,
+      "batchId": "genre-netflix-description::en-role"
+    },
+    {
+      "id": "genre-netflix-description::en-role::d7",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d7",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.3063803911209106,
+      "logits": [
+        -1.3063803911209106
+      ],
+      "sigmoidRelevance": 0.2130931659924715,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 157,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 157
+        }
+      ],
+      "elapsedMs": 14.27927502663806,
+      "batchId": "genre-netflix-description::en-role"
+    },
+    {
+      "id": "genre-netflix-description::en-role::d8",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d8",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.3006216287612915,
+      "logits": [
+        -1.3006216287612915
+      ],
+      "sigmoidRelevance": 0.21406041644397952,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 152,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 152
+        }
+      ],
+      "elapsedMs": 14.27927502663806,
+      "batchId": "genre-netflix-description::en-role"
+    },
+    {
+      "id": "genre-netflix-description::en-role::d4",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d4",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.5545645952224731,
+      "logits": [
+        -1.5545645952224731
+      ],
+      "sigmoidRelevance": 0.1744279762617435,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 151,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 151
+        }
+      ],
+      "elapsedMs": 14.27927502663806,
+      "batchId": "genre-netflix-description::en-role"
+    },
+    {
+      "id": "policy-laftel-title::en-role::t8",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t8",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.3431822061538696,
+      "logits": [
+        -1.3431822061538696
+      ],
+      "sigmoidRelevance": 0.2069872329898669,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 180,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 180
+        }
+      ],
+      "elapsedMs": 13.977599999634549,
+      "batchId": "policy-laftel-title::en-role"
+    },
+    {
+      "id": "policy-laftel-title::en-role::t6",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t6",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.4196498394012451,
+      "logits": [
+        -1.4196498394012451
+      ],
+      "sigmoidRelevance": 0.1947164835956181,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 184,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 184
+        }
+      ],
+      "elapsedMs": 13.977599999634549,
+      "batchId": "policy-laftel-title::en-role"
+    },
+    {
+      "id": "policy-laftel-title::en-role::t7",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t7",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.130203366279602,
+      "logits": [
+        -1.130203366279602
+      ],
+      "sigmoidRelevance": 0.24412357233138846,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 184,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 184
+        }
+      ],
+      "elapsedMs": 13.977599999634549,
+      "batchId": "policy-laftel-title::en-role"
+    },
+    {
+      "id": "policy-laftel-title::en-role::t1",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t1",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.221740961074829,
+      "logits": [
+        -1.221740961074829
+      ],
+      "sigmoidRelevance": 0.22763021888688412,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 126,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 126
+        }
+      ],
+      "elapsedMs": 13.977599999634549,
+      "batchId": "policy-laftel-title::en-role"
+    },
+    {
+      "id": "policy-laftel-title::en-role::t2",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t2",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.6396207809448242,
+      "logits": [
+        -1.6396207809448242
+      ],
+      "sigmoidRelevance": 0.16251666958555394,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 140,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 140
+        }
+      ],
+      "elapsedMs": 13.977599999634549,
+      "batchId": "policy-laftel-title::en-role"
+    },
+    {
+      "id": "policy-laftel-title::en-role::t4",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t4",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.5267703533172607,
+      "logits": [
+        -1.5267703533172607
+      ],
+      "sigmoidRelevance": 0.17846671315877982,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 162,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 162
+        }
+      ],
+      "elapsedMs": 13.977599999634549,
+      "batchId": "policy-laftel-title::en-role"
+    },
+    {
+      "id": "policy-laftel-title::en-role::t3",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t3",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.5928802490234375,
+      "logits": [
+        -1.5928802490234375
+      ],
+      "sigmoidRelevance": 0.16897905187637205,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 150,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 150
+        }
+      ],
+      "elapsedMs": 13.977599999634549,
+      "batchId": "policy-laftel-title::en-role"
+    },
+    {
+      "id": "policy-laftel-title::en-role::t5",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t5",
+      "template": "en-role",
+      "field": "title",
+      "score": -1.4351187944412231,
+      "logits": [
+        -1.4351187944412231
+      ],
+      "sigmoidRelevance": 0.19230236949259133,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 178,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 178
+        }
+      ],
+      "elapsedMs": 13.977599999634549,
+      "batchId": "policy-laftel-title::en-role"
+    },
+    {
+      "id": "policy-laftel-description::en-role::d8",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d8",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.4531383514404297,
+      "logits": [
+        -1.4531383514404297
+      ],
+      "sigmoidRelevance": 0.18951904051891375,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 205,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 205
+        }
+      ],
+      "elapsedMs": 21.705899998778477,
+      "batchId": "policy-laftel-description::en-role"
+    },
+    {
+      "id": "policy-laftel-description::en-role::d6",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d6",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.5423475503921509,
+      "logits": [
+        -1.5423475503921509
+      ],
+      "sigmoidRelevance": 0.1761942691360499,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 200,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 200
+        }
+      ],
+      "elapsedMs": 21.705899998778477,
+      "batchId": "policy-laftel-description::en-role"
+    },
+    {
+      "id": "policy-laftel-description::en-role::d4",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d4",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.3523958921432495,
+      "logits": [
+        -1.3523958921432495
+      ],
+      "sigmoidRelevance": 0.20547894878106024,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 178,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 178
+        }
+      ],
+      "elapsedMs": 21.705899998778477,
+      "batchId": "policy-laftel-description::en-role"
+    },
+    {
+      "id": "policy-laftel-description::en-role::d3",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d3",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.4381494522094727,
+      "logits": [
+        -1.4381494522094727
+      ],
+      "sigmoidRelevance": 0.19183208007418862,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 197,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 197
+        }
+      ],
+      "elapsedMs": 21.705899998778477,
+      "batchId": "policy-laftel-description::en-role"
+    },
+    {
+      "id": "policy-laftel-description::en-role::d1",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d1",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.3259496688842773,
+      "logits": [
+        -1.3259496688842773
+      ],
+      "sigmoidRelevance": 0.2098301267110042,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 221,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 221
+        }
+      ],
+      "elapsedMs": 21.705899998778477,
+      "batchId": "policy-laftel-description::en-role"
+    },
+    {
+      "id": "policy-laftel-description::en-role::d7",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d7",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.4656670093536377,
+      "logits": [
+        -1.4656670093536377
+      ],
+      "sigmoidRelevance": 0.18760210074319994,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 239,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 239
+        }
+      ],
+      "elapsedMs": 21.705899998778477,
+      "batchId": "policy-laftel-description::en-role"
+    },
+    {
+      "id": "policy-laftel-description::en-role::d2",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d2",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.5812817811965942,
+      "logits": [
+        -1.5812817811965942
+      ],
+      "sigmoidRelevance": 0.17061402714128857,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 221,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 221
+        }
+      ],
+      "elapsedMs": 21.705899998778477,
+      "batchId": "policy-laftel-description::en-role"
+    },
+    {
+      "id": "policy-laftel-description::en-role::d5",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d5",
+      "template": "en-role",
+      "field": "description",
+      "score": -1.6377356052398682,
+      "logits": [
+        -1.6377356052398682
+      ],
+      "sigmoidRelevance": 0.1627734146972181,
+      "unknownTokens": 0,
+      "textLimit": 96,
+      "tokens": 221,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 221
+        }
+      ],
+      "elapsedMs": 21.705899998778477,
+      "batchId": "policy-laftel-description::en-role"
+    }
+  ],
+  "batches": [
+    {
+      "id": "violet-netflix-title::en-role",
+      "pairIds": [
+        "violet-netflix-title::en-role::t3",
+        "violet-netflix-title::en-role::t6",
+        "violet-netflix-title::en-role::t8",
+        "violet-netflix-title::en-role::t1",
+        "violet-netflix-title::en-role::t4",
+        "violet-netflix-title::en-role::t5",
+        "violet-netflix-title::en-role::t7",
+        "violet-netflix-title::en-role::t2"
+      ],
+      "inferenceMs": 102.17280010692775,
+      "tokenizationMs": 6.1061999294906855,
+      "feedMs": 0.4259999841451645,
+      "paddedShape": [
+        8,
+        161
+      ],
+      "memory": {
+        "workingSetBytes": 168878080,
+        "peakWorkingSetBytes": 168878080,
+        "privateBytes": 667791360
+      }
+    },
+    {
+      "id": "violet-netflix-image::en-role",
+      "pairIds": [
+        "violet-netflix-image::en-role::i5",
+        "violet-netflix-image::en-role::i4",
+        "violet-netflix-image::en-role::i1",
+        "violet-netflix-image::en-role::i8",
+        "violet-netflix-image::en-role::i6",
+        "violet-netflix-image::en-role::i3",
+        "violet-netflix-image::en-role::i2",
+        "violet-netflix-image::en-role::i7"
+      ],
+      "inferenceMs": 120.19110005348921,
+      "tokenizationMs": 4.381299950182438,
+      "feedMs": 0.434699933975935,
+      "paddedShape": [
+        8,
+        188
+      ],
+      "memory": {
+        "workingSetBytes": 187412480,
+        "peakWorkingSetBytes": 187412480,
+        "privateBytes": 875835392
+      }
+    },
+    {
+      "id": "violet-netflix-description::en-role",
+      "pairIds": [
+        "violet-netflix-description::en-role::d1",
+        "violet-netflix-description::en-role::d5",
+        "violet-netflix-description::en-role::d8",
+        "violet-netflix-description::en-role::d6",
+        "violet-netflix-description::en-role::d4",
+        "violet-netflix-description::en-role::d2",
+        "violet-netflix-description::en-role::d3",
+        "violet-netflix-description::en-role::d7"
+      ],
+      "inferenceMs": 116.34949990548193,
+      "tokenizationMs": 3.9570999797433615,
+      "feedMs": 0.30109984800219536,
+      "paddedShape": [
+        8,
+        207
+      ],
+      "memory": {
+        "workingSetBytes": 203833344,
+        "peakWorkingSetBytes": 203833344,
+        "privateBytes": 875835392
+      }
+    },
+    {
+      "id": "hero-apple-title::en-role",
+      "pairIds": [
+        "hero-apple-title::en-role::t7",
+        "hero-apple-title::en-role::t5",
+        "hero-apple-title::en-role::t6",
+        "hero-apple-title::en-role::t4",
+        "hero-apple-title::en-role::t2",
+        "hero-apple-title::en-role::t1",
+        "hero-apple-title::en-role::t3",
+        "hero-apple-title::en-role::t8"
+      ],
+      "inferenceMs": 130.51430019550025,
+      "tokenizationMs": 2.620000159367919,
+      "feedMs": 0.2774999011307955,
+      "paddedShape": [
+        8,
+        194
+      ],
+      "memory": {
+        "workingSetBytes": 204308480,
+        "peakWorkingSetBytes": 204308480,
+        "privateBytes": 875839488
+      }
+    },
+    {
+      "id": "hero-apple-image::en-role",
+      "pairIds": [
+        "hero-apple-image::en-role::i8",
+        "hero-apple-image::en-role::i1",
+        "hero-apple-image::en-role::i5",
+        "hero-apple-image::en-role::i7",
+        "hero-apple-image::en-role::i4",
+        "hero-apple-image::en-role::i3",
+        "hero-apple-image::en-role::i2",
+        "hero-apple-image::en-role::i6"
+      ],
+      "inferenceMs": 118.17060015164316,
+      "tokenizationMs": 2.3718001320958138,
+      "feedMs": 0.36889989860355854,
+      "paddedShape": [
+        8,
+        207
+      ],
+      "memory": {
+        "workingSetBytes": 204382208,
+        "peakWorkingSetBytes": 204382208,
+        "privateBytes": 875839488
+      }
+    },
+    {
+      "id": "hero-apple-description::en-role",
+      "pairIds": [
+        "hero-apple-description::en-role::d3",
+        "hero-apple-description::en-role::d4",
+        "hero-apple-description::en-role::d2",
+        "hero-apple-description::en-role::d7",
+        "hero-apple-description::en-role::d1",
+        "hero-apple-description::en-role::d5",
+        "hero-apple-description::en-role::d6",
+        "hero-apple-description::en-role::d8"
+      ],
+      "inferenceMs": 146.98009984567761,
+      "tokenizationMs": 3.140399930998683,
+      "feedMs": 0.34660007804632187,
+      "paddedShape": [
+        8,
+        243
+      ],
+      "memory": {
+        "workingSetBytes": 217178112,
+        "peakWorkingSetBytes": 217178112,
+        "privateBytes": 875839488
+      }
+    },
+    {
+      "id": "bebop-tving-title::en-role",
+      "pairIds": [
+        "bebop-tving-title::en-role::t2",
+        "bebop-tving-title::en-role::t4",
+        "bebop-tving-title::en-role::t1",
+        "bebop-tving-title::en-role::t3"
+      ],
+      "inferenceMs": 44.22829998657107,
+      "tokenizationMs": 1.4499002136290073,
+      "feedMs": 0.14579994603991508,
+      "paddedShape": [
+        4,
+        161
+      ],
+      "memory": {
+        "workingSetBytes": 221155328,
+        "peakWorkingSetBytes": 221155328,
+        "privateBytes": 875839488
+      }
+    },
+    {
+      "id": "bebop-tving-image::en-role",
+      "pairIds": [
+        "bebop-tving-image::en-role::i5",
+        "bebop-tving-image::en-role::i2",
+        "bebop-tving-image::en-role::i3",
+        "bebop-tving-image::en-role::i1",
+        "bebop-tving-image::en-role::i4",
+        "bebop-tving-image::en-role::i6",
+        "bebop-tving-image::en-role::i7",
+        "bebop-tving-image::en-role::i8"
+      ],
+      "inferenceMs": 81.55639981850982,
+      "tokenizationMs": 2.1569000091403723,
+      "feedMs": 0.34909998066723347,
+      "paddedShape": [
+        8,
+        154
+      ],
+      "memory": {
+        "workingSetBytes": 221188096,
+        "peakWorkingSetBytes": 221188096,
+        "privateBytes": 875839488
+      }
+    },
+    {
+      "id": "bebop-tving-description::en-role",
+      "pairIds": [
+        "bebop-tving-description::en-role::d3",
+        "bebop-tving-description::en-role::d6",
+        "bebop-tving-description::en-role::d2",
+        "bebop-tving-description::en-role::d5",
+        "bebop-tving-description::en-role::d8",
+        "bebop-tving-description::en-role::d7",
+        "bebop-tving-description::en-role::d4",
+        "bebop-tving-description::en-role::d1"
+      ],
+      "inferenceMs": 114.10420015454292,
+      "tokenizationMs": 2.8903998900204897,
+      "feedMs": 0.32190000638365746,
+      "paddedShape": [
+        8,
+        200
+      ],
+      "memory": {
+        "workingSetBytes": 221253632,
+        "peakWorkingSetBytes": 221253632,
+        "privateBytes": 875839488
+      }
+    },
+    {
+      "id": "tutu-laftel-title::en-role",
+      "pairIds": [
+        "tutu-laftel-title::en-role::t7",
+        "tutu-laftel-title::en-role::t1",
+        "tutu-laftel-title::en-role::t3",
+        "tutu-laftel-title::en-role::t8",
+        "tutu-laftel-title::en-role::t2",
+        "tutu-laftel-title::en-role::t4",
+        "tutu-laftel-title::en-role::t6",
+        "tutu-laftel-title::en-role::t5"
+      ],
+      "inferenceMs": 89.80620000511408,
+      "tokenizationMs": 1.7689999658614397,
+      "feedMs": 0.2305000089108944,
+      "paddedShape": [
+        8,
+        155
+      ],
+      "memory": {
+        "workingSetBytes": 221327360,
+        "peakWorkingSetBytes": 221327360,
+        "privateBytes": 875839488
+      }
+    },
+    {
+      "id": "tutu-laftel-image::en-role",
+      "pairIds": [
+        "tutu-laftel-image::en-role::i7",
+        "tutu-laftel-image::en-role::i1",
+        "tutu-laftel-image::en-role::i4",
+        "tutu-laftel-image::en-role::i3",
+        "tutu-laftel-image::en-role::i8",
+        "tutu-laftel-image::en-role::i6",
+        "tutu-laftel-image::en-role::i5",
+        "tutu-laftel-image::en-role::i2"
+      ],
+      "inferenceMs": 99.44080002605915,
+      "tokenizationMs": 2.871599979698658,
+      "feedMs": 0.42969989590346813,
+      "paddedShape": [
+        8,
+        177
+      ],
+      "memory": {
+        "workingSetBytes": 221405184,
+        "peakWorkingSetBytes": 221405184,
+        "privateBytes": 875839488
+      }
+    },
+    {
+      "id": "tutu-laftel-description::en-role",
+      "pairIds": [
+        "tutu-laftel-description::en-role::d7",
+        "tutu-laftel-description::en-role::d3",
+        "tutu-laftel-description::en-role::d8",
+        "tutu-laftel-description::en-role::d1",
+        "tutu-laftel-description::en-role::d4",
+        "tutu-laftel-description::en-role::d2",
+        "tutu-laftel-description::en-role::d5",
+        "tutu-laftel-description::en-role::d6"
+      ],
+      "inferenceMs": 123.19930014200509,
+      "tokenizationMs": 4.7108998987823725,
+      "feedMs": 0.47300010919570923,
+      "paddedShape": [
+        8,
+        228
+      ],
+      "memory": {
+        "workingSetBytes": 221470720,
+        "peakWorkingSetBytes": 221470720,
+        "privateBytes": 875839488
+      }
+    },
+    {
+      "id": "genre-netflix-title::en-role",
+      "pairIds": [
+        "genre-netflix-title::en-role::t7",
+        "genre-netflix-title::en-role::t1",
+        "genre-netflix-title::en-role::t6",
+        "genre-netflix-title::en-role::t2",
+        "genre-netflix-title::en-role::t8",
+        "genre-netflix-title::en-role::t4",
+        "genre-netflix-title::en-role::t5",
+        "genre-netflix-title::en-role::t3"
+      ],
+      "inferenceMs": 81.08939998783171,
+      "tokenizationMs": 1.5712999738752842,
+      "feedMs": 0.22869999520480633,
+      "paddedShape": [
+        8,
+        153
+      ],
+      "memory": {
+        "workingSetBytes": 221577216,
+        "peakWorkingSetBytes": 221577216,
+        "privateBytes": 875839488
+      }
+    },
+    {
+      "id": "genre-netflix-image::en-role",
+      "pairIds": [
+        "genre-netflix-image::en-role::i3",
+        "genre-netflix-image::en-role::i4",
+        "genre-netflix-image::en-role::i2",
+        "genre-netflix-image::en-role::i1"
+      ],
+      "inferenceMs": 40.369899943470955,
+      "tokenizationMs": 1.5274998731911182,
+      "feedMs": 0.21529989317059517,
+      "paddedShape": [
+        4,
+        157
+      ],
+      "memory": {
+        "workingSetBytes": 221642752,
+        "peakWorkingSetBytes": 221642752,
+        "privateBytes": 876892160
+      }
+    },
+    {
+      "id": "genre-netflix-description::en-role",
+      "pairIds": [
+        "genre-netflix-description::en-role::d3",
+        "genre-netflix-description::en-role::d5",
+        "genre-netflix-description::en-role::d2",
+        "genre-netflix-description::en-role::d6",
+        "genre-netflix-description::en-role::d1",
+        "genre-netflix-description::en-role::d7",
+        "genre-netflix-description::en-role::d8",
+        "genre-netflix-description::en-role::d4"
+      ],
+      "inferenceMs": 114.23420021310449,
+      "tokenizationMs": 2.9192999936640263,
+      "feedMs": 0.42380020022392273,
+      "paddedShape": [
+        8,
+        204
+      ],
+      "memory": {
+        "workingSetBytes": 221696000,
+        "peakWorkingSetBytes": 221696000,
+        "privateBytes": 876892160
+      }
+    },
+    {
+      "id": "policy-laftel-title::en-role",
+      "pairIds": [
+        "policy-laftel-title::en-role::t8",
+        "policy-laftel-title::en-role::t6",
+        "policy-laftel-title::en-role::t7",
+        "policy-laftel-title::en-role::t1",
+        "policy-laftel-title::en-role::t2",
+        "policy-laftel-title::en-role::t4",
+        "policy-laftel-title::en-role::t3",
+        "policy-laftel-title::en-role::t5"
+      ],
+      "inferenceMs": 111.82079999707639,
+      "tokenizationMs": 2.4272999726235867,
+      "feedMs": 0.2578999847173691,
+      "paddedShape": [
+        8,
+        184
+      ],
+      "memory": {
+        "workingSetBytes": 221761536,
+        "peakWorkingSetBytes": 221761536,
+        "privateBytes": 876892160
+      }
+    },
+    {
+      "id": "policy-laftel-description::en-role",
+      "pairIds": [
+        "policy-laftel-description::en-role::d8",
+        "policy-laftel-description::en-role::d6",
+        "policy-laftel-description::en-role::d4",
+        "policy-laftel-description::en-role::d3",
+        "policy-laftel-description::en-role::d1",
+        "policy-laftel-description::en-role::d7",
+        "policy-laftel-description::en-role::d2",
+        "policy-laftel-description::en-role::d5"
+      ],
+      "inferenceMs": 173.64719999022782,
+      "tokenizationMs": 3.239799989387393,
+      "feedMs": 0.3279999364167452,
+      "paddedShape": [
+        8,
+        239
+      ],
+      "memory": {
+        "workingSetBytes": 221872128,
+        "peakWorkingSetBytes": 221872128,
+        "privateBytes": 876892160
+      }
+    }
+  ],
+  "afterInferenceMemory": {
+    "workingSetBytes": 221937664,
+    "peakWorkingSetBytes": 221937664,
+    "privateBytes": 876892160
+  },
+  "totalWallMs": 2271.217300090939,
+  "finishedAt": "2026-11-13T13:15:46Z"
+}

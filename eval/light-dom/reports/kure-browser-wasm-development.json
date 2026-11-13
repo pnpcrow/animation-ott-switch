@@ -1,0 +1,705 @@
+{
+  "schemaVersion": 1,
+  "model": {
+    "id": "nlpai-lab/KURE-Reranker-nano",
+    "revision": "8514b9e113f3b27c441ed9c2b50f81d80388b2fd",
+    "sha256": "7ba8aee76afd84420e1ee3a532672f4dd1dc2b3d2f48e1aec492faaed44f078f",
+    "outputName": "logits",
+    "pooling": "logits"
+  },
+  "modelFileBytes": 151093062,
+  "modelSha256": "7ba8aee76afd84420e1ee3a532672f4dd1dc2b3d2f48e1aec492faaed44f078f",
+  "jobsSha256": "7f9cf6e20737086a2612409002c351f38bc31584cbe1f3cd6d00b5bbcfa32025",
+  "implementationSha256": {
+    "scripts/light-dom-browser.mjs": "48b8a8fdf6654c61d85013e8932dd60e1447d82a50df0a50df9dfb6e1ed6e247",
+    "eval/light-dom/runtime/browser.mjs": "20f3ca75c533dd1321f8da6fc123c1ed9c2e5516d7a50f3aa2faa2884d3ed8ef",
+    "eval/light-dom/runtime/readout.mjs": "aaad170b2c7a54a6cb543fed48cdac9d22df39ab53900ea09a3b45f45acaf3d7"
+  },
+  "startedAt": "2026-11-13T13:12:56.953Z",
+  "runtime": "ONNX Runtime Web 1.31.1",
+  "network": {
+    "externalRequests": []
+  },
+  "processMemory": [
+    {
+      "stage": "before-page",
+      "workingSetBytes": 409051136,
+      "privateBytes": 228171776,
+      "processes": [
+        {
+          "Id": 8256,
+          "WorkingSet64": 71057408,
+          "PrivateMemorySize64": 34234368
+        },
+        {
+          "Id": 10284,
+          "WorkingSet64": 49827840,
+          "PrivateMemorySize64": 20848640
+        },
+        {
+          "Id": 12512,
+          "WorkingSet64": 110505984,
+          "PrivateMemorySize64": 32804864
+        },
+        {
+          "Id": 27824,
+          "WorkingSet64": 29970432,
+          "PrivateMemorySize64": 11210752
+        },
+        {
+          "Id": 32504,
+          "WorkingSet64": 19791872,
+          "PrivateMemorySize64": 8523776
+        },
+        {
+          "Id": 56480,
+          "WorkingSet64": 32088064,
+          "PrivateMemorySize64": 15626240
+        },
+        {
+          "Id": 66856,
+          "WorkingSet64": 95809536,
+          "PrivateMemorySize64": 104923136
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "loaded-0",
+      "workingSetBytes": 1195020288,
+      "privateBytes": 1096749056,
+      "processes": [
+        {
+          "Id": 8256,
+          "WorkingSet64": 71090176,
+          "PrivateMemorySize64": 34234368
+        },
+        {
+          "Id": 12512,
+          "WorkingSet64": 112971776,
+          "PrivateMemorySize64": 33058816
+        },
+        {
+          "Id": 27824,
+          "WorkingSet64": 32833536,
+          "PrivateMemorySize64": 11513856
+        },
+        {
+          "Id": 32504,
+          "WorkingSet64": 20180992,
+          "PrivateMemorySize64": 8626176
+        },
+        {
+          "Id": 34500,
+          "WorkingSet64": 32137216,
+          "PrivateMemorySize64": 15663104
+        },
+        {
+          "Id": 56480,
+          "WorkingSet64": 828764160,
+          "PrivateMemorySize64": 882417664
+        },
+        {
+          "Id": 66856,
+          "WorkingSet64": 97042432,
+          "PrivateMemorySize64": 111235072
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "inference-1",
+      "workingSetBytes": 887992320,
+      "privateBytes": 686534656,
+      "processes": [
+        {
+          "Id": 8256,
+          "WorkingSet64": 70627328,
+          "PrivateMemorySize64": 30064640
+        },
+        {
+          "Id": 12512,
+          "WorkingSet64": 126861312,
+          "PrivateMemorySize64": 37654528
+        },
+        {
+          "Id": 27824,
+          "WorkingSet64": 33095680,
+          "PrivateMemorySize64": 11616256
+        },
+        {
+          "Id": 32504,
+          "WorkingSet64": 20201472,
+          "PrivateMemorySize64": 8527872
+        },
+        {
+          "Id": 34500,
+          "WorkingSet64": 32206848,
+          "PrivateMemorySize64": 15560704
+        },
+        {
+          "Id": 56480,
+          "WorkingSet64": 507858944,
+          "PrivateMemorySize64": 512245760
+        },
+        {
+          "Id": 66856,
+          "WorkingSet64": 97140736,
+          "PrivateMemorySize64": 70864896
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "inference-6",
+      "workingSetBytes": 888954880,
+      "privateBytes": 683945984,
+      "processes": [
+        {
+          "Id": 8256,
+          "WorkingSet64": 69373952,
+          "PrivateMemorySize64": 28536832
+        },
+        {
+          "Id": 12512,
+          "WorkingSet64": 131297280,
+          "PrivateMemorySize64": 40325120
+        },
+        {
+          "Id": 27824,
+          "WorkingSet64": 32866304,
+          "PrivateMemorySize64": 11210752
+        },
+        {
+          "Id": 32504,
+          "WorkingSet64": 20271104,
+          "PrivateMemorySize64": 8482816
+        },
+        {
+          "Id": 34500,
+          "WorkingSet64": 32227328,
+          "PrivateMemorySize64": 15560704
+        },
+        {
+          "Id": 56480,
+          "WorkingSet64": 506081280,
+          "PrivateMemorySize64": 509784064
+        },
+        {
+          "Id": 66856,
+          "WorkingSet64": 96837632,
+          "PrivateMemorySize64": 70045696
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    },
+    {
+      "stage": "after-release",
+      "workingSetBytes": 889380864,
+      "privateBytes": 684044288,
+      "processes": [
+        {
+          "Id": 8256,
+          "WorkingSet64": 69373952,
+          "PrivateMemorySize64": 28536832
+        },
+        {
+          "Id": 12512,
+          "WorkingSet64": 131162112,
+          "PrivateMemorySize64": 40202240
+        },
+        {
+          "Id": 27824,
+          "WorkingSet64": 32866304,
+          "PrivateMemorySize64": 11210752
+        },
+        {
+          "Id": 32504,
+          "WorkingSet64": 20271104,
+          "PrivateMemorySize64": 8482816
+        },
+        {
+          "Id": 34500,
+          "WorkingSet64": 32227328,
+          "PrivateMemorySize64": 15560704
+        },
+        {
+          "Id": 56480,
+          "WorkingSet64": 506642432,
+          "PrivateMemorySize64": 510005248
+        },
+        {
+          "Id": 66856,
+          "WorkingSet64": 96837632,
+          "PrivateMemorySize64": 70045696
+        }
+      ],
+      "note": "Entire isolated browser process set, including Chromium overhead; not per-model memory or physical GPU VRAM."
+    }
+  ],
+  "requestedProvider": "wasm",
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/158.0.0.0 Safari/537.36",
+  "crossOriginIsolated": true,
+  "threads": 1,
+  "beforeLoadHeap": {
+    "usedJSHeapSize": 1972559,
+    "totalJSHeapSize": 3819479,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "rows": [
+    {
+      "id": "witch-title::en-role",
+      "inputShapes": {
+        "input_ids": [
+          8,
+          217
+        ],
+        "attention_mask": [
+          8,
+          217
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 10464.644999980927,
+          "elapsedMs": 10464.90499997139
+        },
+        {
+          "index": 1,
+          "forwardMs": 10214.974999904633,
+          "elapsedMs": 10214.994999885559
+        },
+        {
+          "index": 2,
+          "forwardMs": 12144.979999780655,
+          "elapsedMs": 12145.009999990463
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -4.951076507568359,
+          -5.399033546447754,
+          -5.434272289276123,
+          -5.663984775543213,
+          -5.348229885101318,
+          -5.1558356285095215,
+          -5.395148277282715,
+          -5.898341655731201
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 10464.90499997139,
+      "warm": {
+        "count": 2,
+        "p50Ms": 10214.994999885559,
+        "p95Ms": 10214.994999885559,
+        "minimumMs": 10214.994999885559,
+        "maximumMs": 12145.009999990463
+      },
+      "heap": {
+        "usedJSHeapSize": 155690689,
+        "totalJSHeapSize": 157870917,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "witch-image::en-role",
+      "inputShapes": {
+        "input_ids": [
+          8,
+          249
+        ],
+        "attention_mask": [
+          8,
+          249
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 13419.25,
+          "elapsedMs": 13419.274999856949
+        },
+        {
+          "index": 1,
+          "forwardMs": 11689.284999847412,
+          "elapsedMs": 11689.30999994278
+        },
+        {
+          "index": 2,
+          "forwardMs": 13496.900000095367,
+          "elapsedMs": 13496.920000076294
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -6.752074718475342,
+          -6.846985340118408,
+          -6.364398002624512,
+          -6.809388637542725,
+          -6.542001247406006,
+          -6.622798442840576,
+          -6.347052574157715,
+          -6.933281898498535
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 13419.274999856949,
+      "warm": {
+        "count": 2,
+        "p50Ms": 11689.30999994278,
+        "p95Ms": 11689.30999994278,
+        "minimumMs": 11689.30999994278,
+        "maximumMs": 13496.920000076294
+      },
+      "heap": {
+        "usedJSHeapSize": 4345303,
+        "totalJSHeapSize": 4946943,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "witch-description::en-role",
+      "inputShapes": {
+        "input_ids": [
+          8,
+          267
+        ],
+        "attention_mask": [
+          8,
+          267
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 12983.619999885559,
+          "elapsedMs": 12983.639999866486
+        },
+        {
+          "index": 1,
+          "forwardMs": 13535.05999994278,
+          "elapsedMs": 13535.079999923706
+        },
+        {
+          "index": 2,
+          "forwardMs": 13143.75,
+          "elapsedMs": 13143.775000095367
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -5.560107707977295,
+          -6.335870742797852,
+          -5.746085166931152,
+          -5.73704195022583,
+          -5.920740127563477,
+          -6.2455620765686035,
+          -5.845812797546387,
+          -6.186367034912109
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 12983.639999866486,
+      "warm": {
+        "count": 2,
+        "p50Ms": 13143.775000095367,
+        "p95Ms": 13143.775000095367,
+        "minimumMs": 13143.775000095367,
+        "maximumMs": 13535.079999923706
+      },
+      "heap": {
+        "usedJSHeapSize": 5046415,
+        "totalJSHeapSize": 5505503,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "frieren-wavve-search-title::en-role",
+      "inputShapes": {
+        "input_ids": [
+          8,
+          207
+        ],
+        "attention_mask": [
+          8,
+          207
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 9472.450000047684,
+          "elapsedMs": 9472.484999895096
+        },
+        {
+          "index": 1,
+          "forwardMs": 9390.075000047684,
+          "elapsedMs": 9390.090000152588
+        },
+        {
+          "index": 2,
+          "forwardMs": 9304.650000095367,
+          "elapsedMs": 9304.670000076294
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -5.340319633483887,
+          -5.7684478759765625,
+          -5.459613800048828,
+          -5.254546642303467,
+          -5.416213035583496,
+          -5.7323150634765625,
+          -5.530948162078857,
+          -5.580660820007324
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 9472.484999895096,
+      "warm": {
+        "count": 2,
+        "p50Ms": 9304.670000076294,
+        "p95Ms": 9304.670000076294,
+        "minimumMs": 9304.670000076294,
+        "maximumMs": 9390.090000152588
+      },
+      "heap": {
+        "usedJSHeapSize": 5119327,
+        "totalJSHeapSize": 5794239,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "frieren-wavve-search-image::en-role",
+      "inputShapes": {
+        "input_ids": [
+          8,
+          236
+        ],
+        "attention_mask": [
+          8,
+          236
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 11088.924999952316,
+          "elapsedMs": 11088.950000047684
+        },
+        {
+          "index": 1,
+          "forwardMs": 13480.855000019073,
+          "elapsedMs": 13480.870000123978
+        },
+        {
+          "index": 2,
+          "forwardMs": 11223.295000076294,
+          "elapsedMs": 11223.320000171661
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          8,
+          1
+        ],
+        "data": [
+          -6.286012649536133,
+          -6.361963272094727,
+          -6.277481555938721,
+          -6.269052505493164,
+          -6.654382705688477,
+          -6.250723838806152,
+          -6.266030311584473,
+          -6.37178373336792
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 11088.950000047684,
+      "warm": {
+        "count": 2,
+        "p50Ms": 11223.320000171661,
+        "p95Ms": 11223.320000171661,
+        "minimumMs": 11223.320000171661,
+        "maximumMs": 13480.870000123978
+      },
+      "heap": {
+        "usedJSHeapSize": 4472255,
+        "totalJSHeapSize": 5207423,
+        "jsHeapSizeLimit": 4395630592
+      }
+    },
+    {
+      "id": "frieren-wavve-search-description::en-role",
+      "inputShapes": {
+        "input_ids": [
+          6,
+          232
+        ],
+        "attention_mask": [
+          6,
+          232
+        ]
+      },
+      "iterations": [
+        {
+          "index": 0,
+          "forwardMs": 7878.829999923706,
+          "elapsedMs": 7878.849999904633
+        },
+        {
+          "index": 1,
+          "forwardMs": 7813.290000200272,
+          "elapsedMs": 7813.310000181198
+        },
+        {
+          "index": 2,
+          "forwardMs": 7877.6449999809265,
+          "elapsedMs": 7877.660000085831
+        }
+      ],
+      "gpuQueueSubmissions": 0,
+      "output": {
+        "dims": [
+          6,
+          1
+        ],
+        "data": [
+          -5.752027988433838,
+          -5.676949501037598,
+          -5.841341495513916,
+          -5.530513286590576,
+          -5.889382362365723,
+          -5.754830837249756
+        ]
+      },
+      "outputName": "logits",
+      "repeatMaxAbsError": 0,
+      "firstMs": 7878.849999904633,
+      "warm": {
+        "count": 2,
+        "p50Ms": 7813.310000181198,
+        "p95Ms": 7813.310000181198,
+        "minimumMs": 7813.310000181198,
+        "maximumMs": 7877.660000085831
+      },
+      "heap": {
+        "usedJSHeapSize": 4879599,
+        "totalJSHeapSize": 5491911,
+        "jsHeapSizeLimit": 4395630592
+      }
+    }
+  ],
+  "gpu": {
+    "queueSubmissions": 0,
+    "computePipelines": 0,
+    "pipelineLabels": [],
+    "totalBufferBytes": 0,
+    "liveBufferBytes": 0,
+    "peakLiveBufferBytes": 0
+  },
+  "loadMs": 2812.444999933243,
+  "inputNames": [
+    "input_ids",
+    "attention_mask"
+  ],
+  "outputNames": [
+    "logits"
+  ],
+  "afterLoadHeap": {
+    "usedJSHeapSize": 155018774,
+    "totalJSHeapSize": 157837522,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "stage": "inference",
+  "first": {
+    "count": 6,
+    "p50Ms": 10464.90499997139,
+    "p95Ms": 12983.639999866486,
+    "minimumMs": 7878.849999904633,
+    "maximumMs": 13419.274999856949
+  },
+  "warm": {
+    "count": 12,
+    "p50Ms": 11223.320000171661,
+    "p95Ms": 13496.920000076294,
+    "minimumMs": 7813.310000181198,
+    "maximumMs": 13535.079999923706
+  },
+  "afterReleaseHeap": {
+    "usedJSHeapSize": 4234471,
+    "totalJSHeapSize": 4967623,
+    "jsHeapSizeLimit": 4395630592
+  },
+  "gpuObserved": false,
+  "notes": [
+    "Pretokenized inputs: tokenization time and tokenizer download excluded.",
+    "Model load uses local loopback serving, not internet download timing.",
+    "GPU submissions establish some GPU work, not full graph residency; unsupported operators may run CPU.",
+    "JS heap is not total process memory. GPU buffer counters are logical explicitly created buffers, not driver-reported VRAM; GC-only release is not observed.",
+    "Warm iterations repeat the identical batch and do not represent cold page latency."
+  ],
+  "referenceComparison": [
+    {
+      "id": "witch-title::en-role",
+      "maxAbsError": 0.28831005096435547
+    },
+    {
+      "id": "witch-image::en-role",
+      "maxAbsError": 0.3313579559326172
+    },
+    {
+      "id": "witch-description::en-role",
+      "maxAbsError": 0.3373408317565918
+    },
+    {
+      "id": "frieren-wavve-search-title::en-role",
+      "maxAbsError": 0.2635188102722168
+    },
+    {
+      "id": "frieren-wavve-search-image::en-role",
+      "maxAbsError": 0.19755983352661133
+    },
+    {
+      "id": "frieren-wavve-search-description::en-role",
+      "maxAbsError": 0.2891373634338379
+    }
+  ],
+  "finishedAt": "2026-11-13T13:16:26.069Z",
+  "servedBytes": {
+    "/browser.mjs": 6368,
+    "/readout.mjs": 2176,
+    "/ort/ort.webgpu.min.mjs": 70742,
+    "/ort/ort-wasm-simd-threaded.asyncify.mjs": 53457,
+    "/ort/ort-wasm-simd-threaded.asyncify.wasm": 28747738,
+    "/model.onnx": 151093062
+  }
+}

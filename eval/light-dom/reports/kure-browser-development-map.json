@@ -1,0 +1,90 @@
+{
+  "jobsSha256": "7f9cf6e20737086a2612409002c351f38bc31584cbe1f3cd6d00b5bbcfa32025",
+  "modelSha256": "7ba8aee76afd84420e1ee3a532672f4dd1dc2b3d2f48e1aec492faaed44f078f",
+  "sourceJobsSha256": "99aec0943194a1f09cb64eb1a38e47696fd7d9a358b5051efb05882d13bef89e",
+  "batches": [
+    {
+      "id": "witch-title::en-role",
+      "pairIds": [
+        "witch-title::en-role::t3",
+        "witch-title::en-role::t5",
+        "witch-title::en-role::t8",
+        "witch-title::en-role::t2",
+        "witch-title::en-role::t7",
+        "witch-title::en-role::t6",
+        "witch-title::en-role::t4",
+        "witch-title::en-role::t1"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "witch-image::en-role",
+      "pairIds": [
+        "witch-image::en-role::i6",
+        "witch-image::en-role::i4",
+        "witch-image::en-role::i1",
+        "witch-image::en-role::i3",
+        "witch-image::en-role::i5",
+        "witch-image::en-role::i8",
+        "witch-image::en-role::i2",
+        "witch-image::en-role::i7"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "witch-description::en-role",
+      "pairIds": [
+        "witch-description::en-role::d4",
+        "witch-description::en-role::d7",
+        "witch-description::en-role::d5",
+        "witch-description::en-role::d6",
+        "witch-description::en-role::d8",
+        "witch-description::en-role::d1",
+        "witch-description::en-role::d3",
+        "witch-description::en-role::d2"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "frieren-wavve-search-title::en-role",
+      "pairIds": [
+        "frieren-wavve-search-title::en-role::t5",
+        "frieren-wavve-search-title::en-role::t2",
+        "frieren-wavve-search-title::en-role::t6",
+        "frieren-wavve-search-title::en-role::t8",
+        "frieren-wavve-search-title::en-role::t3",
+        "frieren-wavve-search-title::en-role::t1",
+        "frieren-wavve-search-title::en-role::t7",
+        "frieren-wavve-search-title::en-role::t4"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "frieren-wavve-search-image::en-role",
+      "pairIds": [
+        "frieren-wavve-search-image::en-role::i7",
+        "frieren-wavve-search-image::en-role::i6",
+        "frieren-wavve-search-image::en-role::i4",
+        "frieren-wavve-search-image::en-role::i3",
+        "frieren-wavve-search-image::en-role::i1",
+        "frieren-wavve-search-image::en-role::i2",
+        "frieren-wavve-search-image::en-role::i5",
+        "frieren-wavve-search-image::en-role::i8"
+      ],
+      "repeats": 3
+    },
+    {
+      "id": "frieren-wavve-search-description::en-role",
+      "pairIds": [
+        "frieren-wavve-search-description::en-role::d6",
+        "frieren-wavve-search-description::en-role::d2",
+        "frieren-wavve-search-description::en-role::d3",
+        "frieren-wavve-search-description::en-role::d1",
+        "frieren-wavve-search-description::en-role::d4",
+        "frieren-wavve-search-description::en-role::d5"
+      ],
+      "repeats": 3
+    }
+  ],
+  "note": "Exact pair alignment for the six development batches; emitted separately because the first browser diagnostic predated inline pairIds metadata."
+}

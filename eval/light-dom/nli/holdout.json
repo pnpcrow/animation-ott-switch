@@ -1,0 +1,4081 @@
+{
+  "schemaVersion": 1,
+  "model": "onnx-community/multilingual-MiniLMv2-L6-mnli-xnli-ONNX",
+  "revision": "ca5daf3d11b6c4b3143b1f4602a2edfb64c3ad7e",
+  "modelSha256": "55614f3c7da74184742eaa0006b978744437aa91de9ba4913db42f94d7844a8f",
+  "modelFiles": {
+    "config.json": {
+      "bytes": 989,
+      "sha256": "3ebbbdf3c3803649b49715fd169207c0f42c4250dfea5dd304b1d8b8f745852a"
+    },
+    "tokenizer_config.json": {
+      "bytes": 1286,
+      "sha256": "329b7d21f02c6c6c9d358733b03a34a89cd8e4fe36998869a6ab824b98e9bf9d"
+    },
+    "special_tokens_map.json": {
+      "bytes": 964,
+      "sha256": "8c785abebea9ae3257b61681b4e6fd8365ceafde980c21970d001e834cf10835"
+    },
+    "tokenizer.json": {
+      "bytes": 17082832,
+      "sha256": "d0091a328b3441d754e481db5a390d7f3b8dabc6016869fd13ba350d23ddc4cd"
+    },
+    "onnx/model_quantized.onnx": {
+      "bytes": 107415176,
+      "sha256": "55614f3c7da74184742eaa0006b978744437aa91de9ba4913db42f94d7844a8f"
+    }
+  },
+  "jobsSha256": "ad316c78970c8f01466d914dc0d65a965c571a441ebeb44f69753c6c168cf618",
+  "implementationSha256": "08ab144d710de9a6d187e1bc220309fd9157aae1da893898ee2d4a96922612bf",
+  "inputsSha256": "98eb8348358892e0ca601ab185623781175b6b2efbcfbc28b473b7de643880ae",
+  "templateSha256": "f4d9c62836d4a5f967ef3658f8daa21b0324de3c5b42f339008f88f2d1b54755",
+  "runtime": "ONNX Runtime native CPU q8",
+  "providers": [
+    "CPUExecutionProvider"
+  ],
+  "versions": {
+    "onnxruntime": "1.31.1",
+    "numpy": "2.5.4",
+    "tokenizers": "0.23.3"
+  },
+  "python": "3.12.10",
+  "threads": 2,
+  "maximumInputTokens": 384,
+  "classes": [
+    "entailment",
+    "neutral",
+    "contradiction"
+  ],
+  "scoreDefinition": "entailment logit minus contradiction logit; not calibrated correctness probability",
+  "inputOrder": [
+    "candidate premise",
+    "field hypothesis"
+  ],
+  "verifyMs": 130.48060005530715,
+  "tokenizerLoadMs": 776.0773000773042,
+  "sessionLoadMs": 179.49260002933443,
+  "loadMs": 1086.0505001619458,
+  "initialMemory": {
+    "workingSetBytes": 60366848,
+    "peakWorkingSetBytes": 61423616,
+    "privateBytes": 545824768
+  },
+  "afterLoadMemory": {
+    "workingSetBytes": 445263872,
+    "peakWorkingSetBytes": 534867968,
+    "privateBytes": 931647488
+  },
+  "timingNote": "Pair elapsedMs is its share of one parent case's session.run batch. Sum shares to recover the measured parent inference duration. Tokenization and feed construction are separate; browser pretokenized timing also excludes tokenization. Native process working set is not browser memory.",
+  "predictions": [
+    {
+      "id": "violet-netflix-title::ko-role::t3",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t3",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.3968526721000671,
+      "logits": [
+        0.3409411311149597,
+        0.6835570931434631,
+        -1.0559115409851074
+      ],
+      "probabilities": [
+        0.3765057406398568,
+        0.530356412280068,
+        0.093137847080075
+      ],
+      "textLimit": 96,
+      "tokens": 191,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 191
+        }
+      ],
+      "elapsedMs": 18.040399998426437,
+      "batchId": "violet-netflix-title::ko-role"
+    },
+    {
+      "id": "violet-netflix-title::ko-role::t6",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t6",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.4376822113990784,
+      "logits": [
+        0.3619700074195862,
+        0.6828444004058838,
+        -1.0757122039794922
+      ],
+      "probabilities": [
+        0.38229076477835083,
+        0.5269237632938976,
+        0.09078547192775158
+      ],
+      "textLimit": 96,
+      "tokens": 195,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 195
+        }
+      ],
+      "elapsedMs": 18.040399998426437,
+      "batchId": "violet-netflix-title::ko-role"
+    },
+    {
+      "id": "violet-netflix-title::ko-role::t8",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t8",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.230444610118866,
+      "logits": [
+        0.19156891107559204,
+        0.8183717727661133,
+        -1.038875699043274
+      ],
+      "probabilities": [
+        0.31607761987338967,
+        0.5915763049947815,
+        0.09234607513182887
+      ],
+      "textLimit": 96,
+      "tokens": 196,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 196
+        }
+      ],
+      "elapsedMs": 18.040399998426437,
+      "batchId": "violet-netflix-title::ko-role"
+    },
+    {
+      "id": "violet-netflix-title::ko-role::t1",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t1",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.539613425731659,
+      "logits": [
+        0.3760778307914734,
+        0.7526164054870605,
+        -1.1635355949401855
+      ],
+      "probabilities": [
+        0.374294117468641,
+        0.5454332720423086,
+        0.08027261048905036
+      ],
+      "textLimit": 96,
+      "tokens": 192,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 192
+        }
+      ],
+      "elapsedMs": 18.040399998426437,
+      "batchId": "violet-netflix-title::ko-role"
+    },
+    {
+      "id": "violet-netflix-title::ko-role::t4",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t4",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.1905229091644287,
+      "logits": [
+        0.1509077548980713,
+        0.856992781162262,
+        -1.0396151542663574
+      ],
+      "probabilities": [
+        0.3002907388767989,
+        0.6084021907438598,
+        0.09130707037934119
+      ],
+      "textLimit": 96,
+      "tokens": 190,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 190
+        }
+      ],
+      "elapsedMs": 18.040399998426437,
+      "batchId": "violet-netflix-title::ko-role"
+    },
+    {
+      "id": "violet-netflix-title::ko-role::t5",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t5",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.30624058842659,
+      "logits": [
+        0.2927526533603668,
+        0.6914605498313904,
+        -1.0134879350662231
+      ],
+      "probabilities": [
+        0.36222242109229225,
+        0.5396745876896808,
+        0.09810299121802699
+      ],
+      "textLimit": 96,
+      "tokens": 192,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 192
+        }
+      ],
+      "elapsedMs": 18.040399998426437,
+      "batchId": "violet-netflix-title::ko-role"
+    },
+    {
+      "id": "violet-netflix-title::ko-role::t7",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t7",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.5993581414222717,
+      "logits": [
+        0.6027430891990662,
+        0.3692278265953064,
+        -0.9966150522232056
+      ],
+      "probabilities": [
+        0.5015619491364314,
+        0.39710942199304305,
+        0.10132862887052548
+      ],
+      "textLimit": 96,
+      "tokens": 194,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 194
+        }
+      ],
+      "elapsedMs": 18.040399998426437,
+      "batchId": "violet-netflix-title::ko-role"
+    },
+    {
+      "id": "violet-netflix-title::ko-role::t2",
+      "caseId": "violet-netflix-title",
+      "candidateId": "t2",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.562575101852417,
+      "logits": [
+        0.49887311458587646,
+        0.5373317003250122,
+        -1.0637019872665405
+      ],
+      "probabilities": [
+        0.4446809485035278,
+        0.4621158610360896,
+        0.0932031904603826
+      ],
+      "textLimit": 96,
+      "tokens": 194,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 194
+        }
+      ],
+      "elapsedMs": 18.040399998426437,
+      "batchId": "violet-netflix-title::ko-role"
+    },
+    {
+      "id": "violet-netflix-image::ko-role::i5",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i5",
+      "template": "ko-role",
+      "field": "image",
+      "score": 0.9161850288510323,
+      "logits": [
+        -0.11564027518033981,
+        1.113402009010315,
+        -1.031825304031372
+      ],
+      "probabilities": [
+        0.20755513895390365,
+        0.7094140293184497,
+        0.0830308317276467
+      ],
+      "textLimit": 96,
+      "tokens": 234,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 234
+        }
+      ],
+      "elapsedMs": 23.866662493674085,
+      "batchId": "violet-netflix-image::ko-role"
+    },
+    {
+      "id": "violet-netflix-image::ko-role::i4",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i4",
+      "template": "ko-role",
+      "field": "image",
+      "score": 0.8765653818845749,
+      "logits": [
+        -0.10953564941883087,
+        1.060172200202942,
+        -0.9861010313034058
+      ],
+      "probabilities": [
+        0.2156445157228888,
+        0.694602084290877,
+        0.08975339998623423
+      ],
+      "textLimit": 96,
+      "tokens": 233,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 233
+        }
+      ],
+      "elapsedMs": 23.866662493674085,
+      "batchId": "violet-netflix-image::ko-role"
+    },
+    {
+      "id": "violet-netflix-image::ko-role::i1",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i1",
+      "template": "ko-role",
+      "field": "image",
+      "score": 0.7470740261487663,
+      "logits": [
+        0.0055207195691764355,
+        0.7119156122207642,
+        -0.7415533065795898
+      ],
+      "probabilities": [
+        0.28567980721674674,
+        0.5789791815852101,
+        0.13534101119804312
+      ],
+      "textLimit": 96,
+      "tokens": 224,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 224
+        }
+      ],
+      "elapsedMs": 23.866662493674085,
+      "batchId": "violet-netflix-image::ko-role"
+    },
+    {
+      "id": "violet-netflix-image::ko-role::i8",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i8",
+      "template": "ko-role",
+      "field": "image",
+      "score": 0.9482825919985771,
+      "logits": [
+        -0.0425272062420845,
+        1.0046495199203491,
+        -0.9908097982406616
+      ],
+      "probabilities": [
+        0.2360160295417229,
+        0.6725499949651793,
+        0.09143397549309781
+      ],
+      "textLimit": 96,
+      "tokens": 234,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 234
+        }
+      ],
+      "elapsedMs": 23.866662493674085,
+      "batchId": "violet-netflix-image::ko-role"
+    },
+    {
+      "id": "violet-netflix-image::ko-role::i6",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i6",
+      "template": "ko-role",
+      "field": "image",
+      "score": 0.9298173785209656,
+      "logits": [
+        -0.1357244849205017,
+        1.1653831005096436,
+        -1.0655418634414673
+      ],
+      "probabilities": [
+        0.19731693368244854,
+        0.7248167192448906,
+        0.0778663470726608
+      ],
+      "textLimit": 96,
+      "tokens": 234,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 234
+        }
+      ],
+      "elapsedMs": 23.866662493674085,
+      "batchId": "violet-netflix-image::ko-role"
+    },
+    {
+      "id": "violet-netflix-image::ko-role::i3",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i3",
+      "template": "ko-role",
+      "field": "image",
+      "score": 0.5970686972141266,
+      "logits": [
+        -0.2975965440273285,
+        1.1591686010360718,
+        -0.8946652412414551
+      ],
+      "probabilities": [
+        0.17116032090414834,
+        0.7346291481126327,
+        0.09421053098321894
+      ],
+      "textLimit": 96,
+      "tokens": 219,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 219
+        }
+      ],
+      "elapsedMs": 23.866662493674085,
+      "batchId": "violet-netflix-image::ko-role"
+    },
+    {
+      "id": "violet-netflix-image::ko-role::i2",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i2",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.0874568363651633,
+      "logits": [
+        0.010840787552297115,
+        1.032206654548645,
+        -1.0766160488128662
+      ],
+      "probabilities": [
+        0.2430690204110793,
+        0.6749990642803241,
+        0.0819319153085967
+      ],
+      "textLimit": 96,
+      "tokens": 246,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 246
+        }
+      ],
+      "elapsedMs": 23.866662493674085,
+      "batchId": "violet-netflix-image::ko-role"
+    },
+    {
+      "id": "violet-netflix-image::ko-role::i7",
+      "caseId": "violet-netflix-image",
+      "candidateId": "i7",
+      "template": "ko-role",
+      "field": "image",
+      "score": 0.8694708570837975,
+      "logits": [
+        -0.08851764351129532,
+        1.0142427682876587,
+        -0.9579885005950928
+      ],
+      "probabilities": [
+        0.2256499192784433,
+        0.6797636609576571,
+        0.09458641976389971
+      ],
+      "textLimit": 96,
+      "tokens": 232,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 232
+        }
+      ],
+      "elapsedMs": 23.866662493674085,
+      "batchId": "violet-netflix-image::ko-role"
+    },
+    {
+      "id": "violet-netflix-description::ko-role::d1",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d1",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.7318575978279114,
+      "logits": [
+        0.5457670092582703,
+        0.6057406663894653,
+        -1.1860905885696411
+      ],
+      "probabilities": [
+        0.4466750467964446,
+        0.47428339496850846,
+        0.07904155823504705
+      ],
+      "textLimit": 96,
+      "tokens": 229,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 229
+        }
+      ],
+      "elapsedMs": 21.038262493675575,
+      "batchId": "violet-netflix-description::ko-role"
+    },
+    {
+      "id": "violet-netflix-description::ko-role::d5",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d5",
+      "template": "ko-role",
+      "field": "description",
+      "score": 0.2277204394340515,
+      "logits": [
+        -0.5573015213012695,
+        1.3105241060256958,
+        -0.785021960735321
+      ],
+      "probabilities": [
+        0.12091093416087775,
+        0.7828020235765152,
+        0.09628704226260708
+      ],
+      "textLimit": 96,
+      "tokens": 222,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 222
+        }
+      ],
+      "elapsedMs": 21.038262493675575,
+      "batchId": "violet-netflix-description::ko-role"
+    },
+    {
+      "id": "violet-netflix-description::ko-role::d8",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d8",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.3874492049217224,
+      "logits": [
+        0.2107803225517273,
+        0.9290506839752197,
+        -1.1766688823699951
+      ],
+      "probabilities": [
+        0.3029757388712717,
+        0.6213677483353959,
+        0.07565651279333248
+      ],
+      "textLimit": 96,
+      "tokens": 232,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 232
+        }
+      ],
+      "elapsedMs": 21.038262493675575,
+      "batchId": "violet-netflix-description::ko-role"
+    },
+    {
+      "id": "violet-netflix-description::ko-role::d6",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d6",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.1932511776685715,
+      "logits": [
+        0.1543899029493332,
+        0.8522480726242065,
+        -1.0388612747192383
+      ],
+      "probabilities": [
+        0.30187057124342637,
+        0.6065920705101338,
+        0.09153735824643987
+      ],
+      "textLimit": 96,
+      "tokens": 228,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 228
+        }
+      ],
+      "elapsedMs": 21.038262493675575,
+      "batchId": "violet-netflix-description::ko-role"
+    },
+    {
+      "id": "violet-netflix-description::ko-role::d4",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d4",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.2467708736658096,
+      "logits": [
+        0.24093879759311676,
+        0.7340604066848755,
+        -1.0058320760726929
+      ],
+      "probabilities": [
+        0.34189774806654616,
+        0.559830085640116,
+        0.0982721662933378
+      ],
+      "textLimit": 96,
+      "tokens": 231,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 231
+        }
+      ],
+      "elapsedMs": 21.038262493675575,
+      "batchId": "violet-netflix-description::ko-role"
+    },
+    {
+      "id": "violet-netflix-description::ko-role::d2",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d2",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.454731523990631,
+      "logits": [
+        0.29087895154953003,
+        0.8372020721435547,
+        -1.163852572441101
+      ],
+      "probabilities": [
+        0.33779734869295913,
+        0.5833394571635607,
+        0.07886319414348024
+      ],
+      "textLimit": 96,
+      "tokens": 226,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 226
+        }
+      ],
+      "elapsedMs": 21.038262493675575,
+      "batchId": "violet-netflix-description::ko-role"
+    },
+    {
+      "id": "violet-netflix-description::ko-role::d3",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d3",
+      "template": "ko-role",
+      "field": "description",
+      "score": 0.5825212299823761,
+      "logits": [
+        -0.1252378523349762,
+        0.8074612021446228,
+        -0.7077590823173523
+      ],
+      "probabilities": [
+        0.24391149895981848,
+        0.619866730914935,
+        0.13622177012524644
+      ],
+      "textLimit": 96,
+      "tokens": 225,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 225
+        }
+      ],
+      "elapsedMs": 21.038262493675575,
+      "batchId": "violet-netflix-description::ko-role"
+    },
+    {
+      "id": "violet-netflix-description::ko-role::d7",
+      "caseId": "violet-netflix-description",
+      "candidateId": "d7",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.0820530354976654,
+      "logits": [
+        0.04558834433555603,
+        0.9575545191764832,
+        -1.0364646911621094
+      ],
+      "probabilities": [
+        0.26122544580528406,
+        0.6502455016029042,
+        0.08852905259181186
+      ],
+      "textLimit": 96,
+      "tokens": 229,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 229
+        }
+      ],
+      "elapsedMs": 21.038262493675575,
+      "batchId": "violet-netflix-description::ko-role"
+    },
+    {
+      "id": "hero-apple-title::ko-role::t7",
+      "caseId": "hero-apple-title",
+      "candidateId": "t7",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.895481288433075,
+      "logits": [
+        0.7984016537666321,
+        0.2711789608001709,
+        -1.0970796346664429
+      ],
+      "probabilities": [
+        0.5745515101906982,
+        0.3391244201748478,
+        0.08632406963445406
+      ],
+      "textLimit": 96,
+      "tokens": 246,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 246
+        }
+      ],
+      "elapsedMs": 24.00842501083389,
+      "batchId": "hero-apple-title::ko-role"
+    },
+    {
+      "id": "hero-apple-title::ko-role::t5",
+      "caseId": "hero-apple-title",
+      "candidateId": "t5",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.2129725962877274,
+      "logits": [
+        0.21833683550357819,
+        0.7478929162025452,
+        -0.9946357607841492
+      ],
+      "probabilities": [
+        0.3338351473569765,
+        0.5669115987292486,
+        0.09925325391377485
+      ],
+      "textLimit": 96,
+      "tokens": 212,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 212
+        }
+      ],
+      "elapsedMs": 24.00842501083389,
+      "batchId": "hero-apple-title::ko-role"
+    },
+    {
+      "id": "hero-apple-title::ko-role::t6",
+      "caseId": "hero-apple-title",
+      "candidateId": "t6",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.795015573501587,
+      "logits": [
+        0.673742413520813,
+        0.41708409786224365,
+        -1.121273159980774
+      ],
+      "probabilities": [
+        0.5155283926143659,
+        0.3988295226656795,
+        0.0856420847199546
+      ],
+      "textLimit": 96,
+      "tokens": 251,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 251
+        }
+      ],
+      "elapsedMs": 24.00842501083389,
+      "batchId": "hero-apple-title::ko-role"
+    },
+    {
+      "id": "hero-apple-title::ko-role::t4",
+      "caseId": "hero-apple-title",
+      "candidateId": "t4",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.1388389617204666,
+      "logits": [
+        0.2303154617547989,
+        0.6516607999801636,
+        -0.9085234999656677
+      ],
+      "probabilities": [
+        0.3515925856696002,
+        0.5358307875784895,
+        0.11257662675191028
+      ],
+      "textLimit": 96,
+      "tokens": 208,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 208
+        }
+      ],
+      "elapsedMs": 24.00842501083389,
+      "batchId": "hero-apple-title::ko-role"
+    },
+    {
+      "id": "hero-apple-title::ko-role::t2",
+      "caseId": "hero-apple-title",
+      "candidateId": "t2",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.411961853504181,
+      "logits": [
+        0.5022593140602112,
+        0.3819805681705475,
+        -0.9097025394439697
+      ],
+      "probabilities": [
+        0.4694090741612754,
+        0.41621246736840406,
+        0.1143784584703205
+      ],
+      "textLimit": 96,
+      "tokens": 215,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 215
+        }
+      ],
+      "elapsedMs": 24.00842501083389,
+      "batchId": "hero-apple-title::ko-role"
+    },
+    {
+      "id": "hero-apple-title::ko-role::t1",
+      "caseId": "hero-apple-title",
+      "candidateId": "t1",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.4584681987762451,
+      "logits": [
+        0.6577211022377014,
+        0.12437573075294495,
+        -0.8007470965385437
+      ],
+      "probabilities": [
+        0.5496826712137882,
+        0.322465379087317,
+        0.1278519496988948
+      ],
+      "textLimit": 96,
+      "tokens": 220,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 220
+        }
+      ],
+      "elapsedMs": 24.00842501083389,
+      "batchId": "hero-apple-title::ko-role"
+    },
+    {
+      "id": "hero-apple-title::ko-role::t3",
+      "caseId": "hero-apple-title",
+      "candidateId": "t3",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.537693440914154,
+      "logits": [
+        0.4848143458366394,
+        0.5388579964637756,
+        -1.0528790950775146
+      ],
+      "probabilities": [
+        0.44044969674437207,
+        0.46490816602766083,
+        0.09464213722796712
+      ],
+      "textLimit": 96,
+      "tokens": 243,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 243
+        }
+      ],
+      "elapsedMs": 24.00842501083389,
+      "batchId": "hero-apple-title::ko-role"
+    },
+    {
+      "id": "hero-apple-title::ko-role::t8",
+      "caseId": "hero-apple-title",
+      "candidateId": "t8",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.2434057146310806,
+      "logits": [
+        0.19075526297092438,
+        0.8281351327896118,
+        -1.0526504516601562
+      ],
+      "probabilities": [
+        0.31447344955291345,
+        0.5948323024868717,
+        0.09069424796021486
+      ],
+      "textLimit": 96,
+      "tokens": 239,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 239
+        }
+      ],
+      "elapsedMs": 24.00842501083389,
+      "batchId": "hero-apple-title::ko-role"
+    },
+    {
+      "id": "hero-apple-image::ko-role::i8",
+      "caseId": "hero-apple-image",
+      "candidateId": "i8",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.3496531397104263,
+      "logits": [
+        0.12683595716953278,
+        1.0572237968444824,
+        -1.2228171825408936
+      ],
+      "probabilities": [
+        0.2635169332385874,
+        0.6681451687113902,
+        0.06833789805002247
+      ],
+      "textLimit": 96,
+      "tokens": 250,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 250
+        }
+      ],
+      "elapsedMs": 25.115475000347942,
+      "batchId": "hero-apple-image::ko-role"
+    },
+    {
+      "id": "hero-apple-image::ko-role::i1",
+      "caseId": "hero-apple-image",
+      "candidateId": "i1",
+      "template": "ko-role",
+      "field": "image",
+      "score": 2.060123920440674,
+      "logits": [
+        0.8037127256393433,
+        0.4202013611793518,
+        -1.2564111948013306
+      ],
+      "probabilities": [
+        0.5528213899491797,
+        0.37672806006317616,
+        0.07045054998764415
+      ],
+      "textLimit": 96,
+      "tokens": 268,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 268
+        }
+      ],
+      "elapsedMs": 25.115475000347942,
+      "batchId": "hero-apple-image::ko-role"
+    },
+    {
+      "id": "hero-apple-image::ko-role::i5",
+      "caseId": "hero-apple-image",
+      "candidateId": "i5",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.4548363387584686,
+      "logits": [
+        0.21532317996025085,
+        0.9865692257881165,
+        -1.2395131587982178
+      ],
+      "probabilities": [
+        0.2944729490692502,
+        0.6367857080859953,
+        0.06874134284475442
+      ],
+      "textLimit": 96,
+      "tokens": 253,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 253
+        }
+      ],
+      "elapsedMs": 25.115475000347942,
+      "batchId": "hero-apple-image::ko-role"
+    },
+    {
+      "id": "hero-apple-image::ko-role::i7",
+      "caseId": "hero-apple-image",
+      "candidateId": "i7",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.4811284989118576,
+      "logits": [
+        0.18574301898479462,
+        1.0698177814483643,
+        -1.295385479927063
+      ],
+      "probabilities": [
+        0.2741134492467191,
+        0.66355837579217,
+        0.062328174961110976
+      ],
+      "textLimit": 96,
+      "tokens": 252,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 252
+        }
+      ],
+      "elapsedMs": 25.115475000347942,
+      "batchId": "hero-apple-image::ko-role"
+    },
+    {
+      "id": "hero-apple-image::ko-role::i4",
+      "caseId": "hero-apple-image",
+      "candidateId": "i4",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.7637899518013,
+      "logits": [
+        0.5463294386863708,
+        0.6370689272880554,
+        -1.2174605131149292
+      ],
+      "probabilities": [
+        0.4412327079381129,
+        0.48314262855317763,
+        0.07562466350870944
+      ],
+      "textLimit": 96,
+      "tokens": 264,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 264
+        }
+      ],
+      "elapsedMs": 25.115475000347942,
+      "batchId": "hero-apple-image::ko-role"
+    },
+    {
+      "id": "hero-apple-image::ko-role::i3",
+      "caseId": "hero-apple-image",
+      "candidateId": "i3",
+      "template": "ko-role",
+      "field": "image",
+      "score": 2.065626621246338,
+      "logits": [
+        0.8738783597946167,
+        0.2887515127658844,
+        -1.1917482614517212
+      ],
+      "probabilities": [
+        0.5939039157226009,
+        0.33082538592340005,
+        0.07527069835399901
+      ],
+      "textLimit": 96,
+      "tokens": 272,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 272
+        }
+      ],
+      "elapsedMs": 25.115475000347942,
+      "batchId": "hero-apple-image::ko-role"
+    },
+    {
+      "id": "hero-apple-image::ko-role::i2",
+      "caseId": "hero-apple-image",
+      "candidateId": "i2",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.978912591934204,
+      "logits": [
+        0.6947487592697144,
+        0.5544131398200989,
+        -1.2841638326644897
+      ],
+      "probabilities": [
+        0.49818511973011714,
+        0.43295600374793175,
+        0.06885887652195107
+      ],
+      "textLimit": 96,
+      "tokens": 268,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 268
+        }
+      ],
+      "elapsedMs": 25.115475000347942,
+      "batchId": "hero-apple-image::ko-role"
+    },
+    {
+      "id": "hero-apple-image::ko-role::i6",
+      "caseId": "hero-apple-image",
+      "candidateId": "i6",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.49139042198658,
+      "logits": [
+        0.198277547955513,
+        1.0556857585906982,
+        -1.293112874031067
+      ],
+      "probabilities": [
+        0.2791655937395916,
+        0.6580055344696504,
+        0.062828871790758
+      ],
+      "textLimit": 96,
+      "tokens": 254,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 254
+        }
+      ],
+      "elapsedMs": 25.115475000347942,
+      "batchId": "hero-apple-image::ko-role"
+    },
+    {
+      "id": "hero-apple-description::ko-role::d3",
+      "caseId": "hero-apple-description",
+      "candidateId": "d3",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.5340442657470703,
+      "logits": [
+        0.5675569176673889,
+        0.37444695830345154,
+        -0.9664873480796814
+      ],
+      "probabilities": [
+        0.4901833366449665,
+        0.40410288774752906,
+        0.10571377560750449
+      ],
+      "textLimit": 96,
+      "tokens": 279,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 279
+        }
+      ],
+      "elapsedMs": 27.799124974990264,
+      "batchId": "hero-apple-description::ko-role"
+    },
+    {
+      "id": "hero-apple-description::ko-role::d4",
+      "caseId": "hero-apple-description",
+      "candidateId": "d4",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.7996893525123596,
+      "logits": [
+        0.7457111477851868,
+        0.2797815203666687,
+        -1.0539782047271729
+      ],
+      "probabilities": [
+        0.5577550655098593,
+        0.3500199972658346,
+        0.09222493722430612
+      ],
+      "textLimit": 96,
+      "tokens": 288,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 288
+        }
+      ],
+      "elapsedMs": 27.799124974990264,
+      "batchId": "hero-apple-description::ko-role"
+    },
+    {
+      "id": "hero-apple-description::ko-role::d2",
+      "caseId": "hero-apple-description",
+      "candidateId": "d2",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.5268810987472534,
+      "logits": [
+        0.43769216537475586,
+        0.6192383766174316,
+        -1.0891889333724976
+      ],
+      "probabilities": [
+        0.4138589748014816,
+        0.4962458585426984,
+        0.08989516665582
+      ],
+      "textLimit": 96,
+      "tokens": 283,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 283
+        }
+      ],
+      "elapsedMs": 27.799124974990264,
+      "batchId": "hero-apple-description::ko-role"
+    },
+    {
+      "id": "hero-apple-description::ko-role::d7",
+      "caseId": "hero-apple-description",
+      "candidateId": "d7",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.0697101056575775,
+      "logits": [
+        0.3648878037929535,
+        0.32107335329055786,
+        -0.704822301864624
+      ],
+      "probabilities": [
+        0.4347373384881735,
+        0.41610081666259696,
+        0.14916184484922954
+      ],
+      "textLimit": 96,
+      "tokens": 278,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 278
+        }
+      ],
+      "elapsedMs": 27.799124974990264,
+      "batchId": "hero-apple-description::ko-role"
+    },
+    {
+      "id": "hero-apple-description::ko-role::d1",
+      "caseId": "hero-apple-description",
+      "candidateId": "d1",
+      "template": "ko-role",
+      "field": "description",
+      "score": 2.0612851977348328,
+      "logits": [
+        0.8796432614326477,
+        0.2700197994709015,
+        -1.181641936302185
+      ],
+      "probabilities": [
+        0.5984992852736616,
+        0.3253175781775932,
+        0.07618313654874516
+      ],
+      "textLimit": 96,
+      "tokens": 292,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 292
+        }
+      ],
+      "elapsedMs": 27.799124974990264,
+      "batchId": "hero-apple-description::ko-role"
+    },
+    {
+      "id": "hero-apple-description::ko-role::d5",
+      "caseId": "hero-apple-description",
+      "candidateId": "d5",
+      "template": "ko-role",
+      "field": "description",
+      "score": 2.0270484685897827,
+      "logits": [
+        0.8063791990280151,
+        0.3827457129955292,
+        -1.2206692695617676
+      ],
+      "probabilities": [
+        0.5597889545303552,
+        0.3664735537379808,
+        0.07373749173166398
+      ],
+      "textLimit": 96,
+      "tokens": 270,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 270
+        }
+      ],
+      "elapsedMs": 27.799124974990264,
+      "batchId": "hero-apple-description::ko-role"
+    },
+    {
+      "id": "hero-apple-description::ko-role::d6",
+      "caseId": "hero-apple-description",
+      "candidateId": "d6",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.547519475221634,
+      "logits": [
+        0.36340442299842834,
+        0.784731924533844,
+        -1.1841150522232056
+      ],
+      "probabilities": [
+        0.36539578856897353,
+        0.5568570809704038,
+        0.0777471304606227
+      ],
+      "textLimit": 96,
+      "tokens": 285,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 285
+        }
+      ],
+      "elapsedMs": 27.799124974990264,
+      "batchId": "hero-apple-description::ko-role"
+    },
+    {
+      "id": "hero-apple-description::ko-role::d8",
+      "caseId": "hero-apple-description",
+      "candidateId": "d8",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.431961938738823,
+      "logits": [
+        0.21394126117229462,
+        0.9664967656135559,
+        -1.2180206775665283
+      ],
+      "probabilities": [
+        0.2975077645594961,
+        0.6314355187151841,
+        0.07105671672531982
+      ],
+      "textLimit": 96,
+      "tokens": 255,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 255
+        }
+      ],
+      "elapsedMs": 27.799124974990264,
+      "batchId": "hero-apple-description::ko-role"
+    },
+    {
+      "id": "bebop-tving-title::ko-role::t2",
+      "caseId": "bebop-tving-title",
+      "candidateId": "t2",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.1336984187364578,
+      "logits": [
+        0.2263941913843155,
+        0.6548511981964111,
+        -0.9073042273521423
+      ],
+      "probabilities": [
+        0.35005081201177296,
+        0.5372885718580442,
+        0.11266061613018284
+      ],
+      "textLimit": 96,
+      "tokens": 211,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 211
+        }
+      ],
+      "elapsedMs": 20.77875001123175,
+      "batchId": "bebop-tving-title::ko-role"
+    },
+    {
+      "id": "bebop-tving-title::ko-role::t4",
+      "caseId": "bebop-tving-title",
+      "candidateId": "t4",
+      "template": "ko-role",
+      "field": "title",
+      "score": 0.9927836209535599,
+      "logits": [
+        0.0569157749414444,
+        0.8487752079963684,
+        -0.9358678460121155
+      ],
+      "probabilities": [
+        0.2794825353419438,
+        0.6169569438072986,
+        0.10356052085075763
+      ],
+      "textLimit": 96,
+      "tokens": 187,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 187
+        }
+      ],
+      "elapsedMs": 20.77875001123175,
+      "batchId": "bebop-tving-title::ko-role"
+    },
+    {
+      "id": "bebop-tving-title::ko-role::t1",
+      "caseId": "bebop-tving-title",
+      "candidateId": "t1",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.343512237071991,
+      "logits": [
+        0.22391515970230103,
+        0.8618991374969482,
+        -1.11959707736969
+      ],
+      "probabilities": [
+        0.31709902582362287,
+        0.6001610808040203,
+        0.08273989337235692
+      ],
+      "textLimit": 96,
+      "tokens": 176,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 176
+        }
+      ],
+      "elapsedMs": 20.77875001123175,
+      "batchId": "bebop-tving-title::ko-role"
+    },
+    {
+      "id": "bebop-tving-title::ko-role::t3",
+      "caseId": "bebop-tving-title",
+      "candidateId": "t3",
+      "template": "ko-role",
+      "field": "title",
+      "score": 0.9236489236354828,
+      "logits": [
+        -0.13882091641426086,
+        1.1672053337097168,
+        -1.0624698400497437
+      ],
+      "probabilities": [
+        0.19651990551578116,
+        0.7254484219127981,
+        0.0780316725714208
+      ],
+      "textLimit": 96,
+      "tokens": 183,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 183
+        }
+      ],
+      "elapsedMs": 20.77875001123175,
+      "batchId": "bebop-tving-title::ko-role"
+    },
+    {
+      "id": "bebop-tving-image::ko-role::i5",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i5",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.298101507127285,
+      "logits": [
+        -0.10601524263620377,
+        1.465631365776062,
+        -1.4041167497634888
+      ],
+      "probabilities": [
+        0.16426783432356284,
+        0.7908788853981503,
+        0.04485328027828691
+      ],
+      "textLimit": 96,
+      "tokens": 192,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 192
+        }
+      ],
+      "elapsedMs": 23.633500008145347,
+      "batchId": "bebop-tving-image::ko-role"
+    },
+    {
+      "id": "bebop-tving-image::ko-role::i2",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i2",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.4186639711260796,
+      "logits": [
+        0.11259471625089645,
+        1.1490505933761597,
+        -1.306069254875183
+      ],
+      "probabilities": [
+        0.24622992202391103,
+        0.6941732845723234,
+        0.0595967934037656
+      ],
+      "textLimit": 96,
+      "tokens": 197,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 197
+        }
+      ],
+      "elapsedMs": 23.633500008145347,
+      "batchId": "bebop-tving-image::ko-role"
+    },
+    {
+      "id": "bebop-tving-image::ko-role::i3",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i3",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.1481116712093353,
+      "logits": [
+        0.12673327326774597,
+        0.8642431497573853,
+        -1.0213783979415894
+      ],
+      "probabilities": [
+        0.29343083615139687,
+        0.6134825595976204,
+        0.09308660425098265
+      ],
+      "textLimit": 96,
+      "tokens": 214,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 214
+        }
+      ],
+      "elapsedMs": 23.633500008145347,
+      "batchId": "bebop-tving-image::ko-role"
+    },
+    {
+      "id": "bebop-tving-image::ko-role::i1",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i1",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.263421724550426,
+      "logits": [
+        0.005771229974925518,
+        1.211894154548645,
+        -1.2576504945755005
+      ],
+      "probabilities": [
+        0.2163007156420846,
+        0.7225542950996018,
+        0.06114498925831356
+      ],
+      "textLimit": 96,
+      "tokens": 175,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 175
+        }
+      ],
+      "elapsedMs": 23.633500008145347,
+      "batchId": "bebop-tving-image::ko-role"
+    },
+    {
+      "id": "bebop-tving-image::ko-role::i4",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i4",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.0210907980799675,
+      "logits": [
+        0.06282394379377365,
+        0.8646148443222046,
+        -0.9582668542861938
+      ],
+      "probabilities": [
+        0.27857232482562383,
+        0.6210854172296606,
+        0.10034225794471552
+      ],
+      "textLimit": 96,
+      "tokens": 212,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 212
+        }
+      ],
+      "elapsedMs": 23.633500008145347,
+      "batchId": "bebop-tving-image::ko-role"
+    },
+    {
+      "id": "bebop-tving-image::ko-role::i6",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i6",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.1805367767810822,
+      "logits": [
+        -0.18078789114952087,
+        1.4962308406829834,
+        -1.361324667930603
+      ],
+      "probabilities": [
+        0.15022464277416564,
+        0.8036392899048577,
+        0.046136067320976734
+      ],
+      "textLimit": 96,
+      "tokens": 180,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 180
+        }
+      ],
+      "elapsedMs": 23.633500008145347,
+      "batchId": "bebop-tving-image::ko-role"
+    },
+    {
+      "id": "bebop-tving-image::ko-role::i7",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i7",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.1805367767810822,
+      "logits": [
+        -0.18078789114952087,
+        1.4962308406829834,
+        -1.361324667930603
+      ],
+      "probabilities": [
+        0.15022464277416564,
+        0.8036392899048577,
+        0.046136067320976734
+      ],
+      "textLimit": 96,
+      "tokens": 180,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 180
+        }
+      ],
+      "elapsedMs": 23.633500008145347,
+      "batchId": "bebop-tving-image::ko-role"
+    },
+    {
+      "id": "bebop-tving-image::ko-role::i8",
+      "caseId": "bebop-tving-image",
+      "candidateId": "i8",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.1805367767810822,
+      "logits": [
+        -0.18078789114952087,
+        1.4962308406829834,
+        -1.361324667930603
+      ],
+      "probabilities": [
+        0.15022464277416564,
+        0.8036392899048577,
+        0.046136067320976734
+      ],
+      "textLimit": 96,
+      "tokens": 180,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 180
+        }
+      ],
+      "elapsedMs": 23.633500008145347,
+      "batchId": "bebop-tving-image::ko-role"
+    },
+    {
+      "id": "bebop-tving-description::ko-role::d3",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d3",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.4026033878326416,
+      "logits": [
+        0.21310269832611084,
+        0.9399711489677429,
+        -1.1895006895065308
+      ],
+      "probabilities": [
+        0.3017002286991108,
+        0.6240948467659152,
+        0.0742049245349739
+      ],
+      "textLimit": 96,
+      "tokens": 225,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 225
+        }
+      ],
+      "elapsedMs": 28.585199994267896,
+      "batchId": "bebop-tving-description::ko-role"
+    },
+    {
+      "id": "bebop-tving-description::ko-role::d6",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d6",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.8480385541915894,
+      "logits": [
+        0.5036213397979736,
+        0.802704393863678,
+        -1.3444172143936157
+      ],
+      "probabilities": [
+        0.39901562709289373,
+        0.5381211043404799,
+        0.06286326856662632
+      ],
+      "textLimit": 96,
+      "tokens": 230,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 230
+        }
+      ],
+      "elapsedMs": 28.585199994267896,
+      "batchId": "bebop-tving-description::ko-role"
+    },
+    {
+      "id": "bebop-tving-description::ko-role::d2",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d2",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.5641096830368042,
+      "logits": [
+        0.2925013303756714,
+        0.9401959180831909,
+        -1.2716083526611328
+      ],
+      "probabilities": [
+        0.3204713179487297,
+        0.6124622871259662,
+        0.06706639492530403
+      ],
+      "textLimit": 96,
+      "tokens": 237,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 237
+        }
+      ],
+      "elapsedMs": 28.585199994267896,
+      "batchId": "bebop-tving-description::ko-role"
+    },
+    {
+      "id": "bebop-tving-description::ko-role::d5",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d5",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.5052446871995926,
+      "logits": [
+        0.18507380783557892,
+        1.094425082206726,
+        -1.3201708793640137
+      ],
+      "probabilities": [
+        0.2699292556544196,
+        0.6701564435353302,
+        0.05991430081025029
+      ],
+      "textLimit": 96,
+      "tokens": 245,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 245
+        }
+      ],
+      "elapsedMs": 28.585199994267896,
+      "batchId": "bebop-tving-description::ko-role"
+    },
+    {
+      "id": "bebop-tving-description::ko-role::d8",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d8",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.5280878394842148,
+      "logits": [
+        0.23183010518550873,
+        1.025258183479309,
+        -1.296257734298706
+      ],
+      "probabilities": [
+        0.29172269657681815,
+        0.6449880310313556,
+        0.06328927239182623
+      ],
+      "textLimit": 96,
+      "tokens": 227,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 227
+        }
+      ],
+      "elapsedMs": 28.585199994267896,
+      "batchId": "bebop-tving-description::ko-role"
+    },
+    {
+      "id": "bebop-tving-description::ko-role::d7",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d7",
+      "template": "ko-role",
+      "field": "description",
+      "score": 0.9187847524881363,
+      "logits": [
+        -0.1762063354253769,
+        1.2360447645187378,
+        -1.0949910879135132
+      ],
+      "probabilities": [
+        0.18167978048627229,
+        0.7458293267393761,
+        0.07249089277435156
+      ],
+      "textLimit": 96,
+      "tokens": 227,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 227
+        }
+      ],
+      "elapsedMs": 28.585199994267896,
+      "batchId": "bebop-tving-description::ko-role"
+    },
+    {
+      "id": "bebop-tving-description::ko-role::d4",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d4",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.6263384073972702,
+      "logits": [
+        0.22607950866222382,
+        1.1277779340744019,
+        -1.4002588987350464
+      ],
+      "probabilities": [
+        0.2731917670348921,
+        0.6730855354611451,
+        0.05372269750396271
+      ],
+      "textLimit": 96,
+      "tokens": 238,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 238
+        }
+      ],
+      "elapsedMs": 28.585199994267896,
+      "batchId": "bebop-tving-description::ko-role"
+    },
+    {
+      "id": "bebop-tving-description::ko-role::d1",
+      "caseId": "bebop-tving-description",
+      "candidateId": "d1",
+      "template": "ko-role",
+      "field": "description",
+      "score": -0.1775081753730774,
+      "logits": [
+        -0.7167604565620422,
+        1.23027503490448,
+        -0.5392522811889648
+      ],
+      "probabilities": [
+        0.10867061479348628,
+        0.7615508269668283,
+        0.12977855823968548
+      ],
+      "textLimit": 96,
+      "tokens": 225,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 225
+        }
+      ],
+      "elapsedMs": 28.585199994267896,
+      "batchId": "bebop-tving-description::ko-role"
+    },
+    {
+      "id": "tutu-laftel-title::ko-role::t7",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t7",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.7074196338653564,
+      "logits": [
+        0.6029926538467407,
+        0.47186827659606934,
+        -1.1044269800186157
+      ],
+      "probabilities": [
+        0.4858043663636249,
+        0.4261032242074398,
+        0.0880924094289353
+      ],
+      "textLimit": 96,
+      "tokens": 162,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 162
+        }
+      ],
+      "elapsedMs": 21.397912496468052,
+      "batchId": "tutu-laftel-title::ko-role"
+    },
+    {
+      "id": "tutu-laftel-title::ko-role::t1",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t1",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.421885371208191,
+      "logits": [
+        0.401269793510437,
+        0.5885558128356934,
+        -1.020615577697754
+      ],
+      "probabilities": [
+        0.4086251129807864,
+        0.4927905130213228,
+        0.09858437399789079
+      ],
+      "textLimit": 96,
+      "tokens": 185,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 185
+        }
+      ],
+      "elapsedMs": 21.397912496468052,
+      "batchId": "tutu-laftel-title::ko-role"
+    },
+    {
+      "id": "tutu-laftel-title::ko-role::t3",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t3",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.087253376841545,
+      "logits": [
+        0.21114836633205414,
+        0.6384257674217224,
+        -0.876105010509491
+      ],
+      "probabilities": [
+        0.34840545756693136,
+        0.5341327003430147,
+        0.11746184209005399
+      ],
+      "textLimit": 96,
+      "tokens": 204,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 204
+        }
+      ],
+      "elapsedMs": 21.397912496468052,
+      "batchId": "tutu-laftel-title::ko-role"
+    },
+    {
+      "id": "tutu-laftel-title::ko-role::t8",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t8",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.4746853113174438,
+      "logits": [
+        0.4734889268875122,
+        0.5008354187011719,
+        -1.0011963844299316
+      ],
+      "probabilities": [
+        0.4431495473993088,
+        0.45543535409325964,
+        0.10141509850743141
+      ],
+      "textLimit": 96,
+      "tokens": 196,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 196
+        }
+      ],
+      "elapsedMs": 21.397912496468052,
+      "batchId": "tutu-laftel-title::ko-role"
+    },
+    {
+      "id": "tutu-laftel-title::ko-role::t2",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t2",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.176137238740921,
+      "logits": [
+        0.23925140500068665,
+        0.6699468493461609,
+        -0.9368858337402344
+      ],
+      "probabilities": [
+        0.35127222623021187,
+        0.5403715402749608,
+        0.10835623349482733
+      ],
+      "textLimit": 96,
+      "tokens": 181,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 181
+        }
+      ],
+      "elapsedMs": 21.397912496468052,
+      "batchId": "tutu-laftel-title::ko-role"
+    },
+    {
+      "id": "tutu-laftel-title::ko-role::t4",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t4",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.4339622557163239,
+      "logits": [
+        0.4305197298526764,
+        0.5443239808082581,
+        -1.0034425258636475
+      ],
+      "probabilities": [
+        0.4239272410879812,
+        0.4750243615792654,
+        0.10104839733275336
+      ],
+      "textLimit": 96,
+      "tokens": 156,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 156
+        }
+      ],
+      "elapsedMs": 21.397912496468052,
+      "batchId": "tutu-laftel-title::ko-role"
+    },
+    {
+      "id": "tutu-laftel-title::ko-role::t6",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t6",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.3595759570598602,
+      "logits": [
+        0.37932148575782776,
+        0.5752154588699341,
+        -0.9802544713020325
+      ],
+      "probabilities": [
+        0.4043397685737707,
+        0.49183805654351404,
+        0.10382217488271518
+      ],
+      "textLimit": 96,
+      "tokens": 156,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 156
+        }
+      ],
+      "elapsedMs": 21.397912496468052,
+      "batchId": "tutu-laftel-title::ko-role"
+    },
+    {
+      "id": "tutu-laftel-title::ko-role::t5",
+      "caseId": "tutu-laftel-title",
+      "candidateId": "t5",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.513809710741043,
+      "logits": [
+        0.4198726713657379,
+        0.6421585083007812,
+        -1.0939370393753052
+      ],
+      "probabilities": [
+        0.4050225563071145,
+        0.5058441394704634,
+        0.08913330422242217
+      ],
+      "textLimit": 96,
+      "tokens": 194,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 194
+        }
+      ],
+      "elapsedMs": 21.397912496468052,
+      "batchId": "tutu-laftel-title::ko-role"
+    },
+    {
+      "id": "tutu-laftel-image::ko-role::i7",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i7",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.1360559072345495,
+      "logits": [
+        -0.0015807542949914932,
+        1.100850224494934,
+        -1.137636661529541
+      ],
+      "probabilities": [
+        0.23081037465354567,
+        0.6950803589381146,
+        0.07410926640833959
+      ],
+      "textLimit": 96,
+      "tokens": 221,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 221
+        }
+      ],
+      "elapsedMs": 24.5885000040289,
+      "batchId": "tutu-laftel-image::ko-role"
+    },
+    {
+      "id": "tutu-laftel-image::ko-role::i1",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i1",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.7264915704727173,
+      "logits": [
+        0.43999385833740234,
+        0.8105759620666504,
+        -1.286497712135315
+      ],
+      "probabilities": [
+        0.3807369804318778,
+        0.5515270581880785,
+        0.06773596138004379
+      ],
+      "textLimit": 96,
+      "tokens": 197,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 197
+        }
+      ],
+      "elapsedMs": 24.5885000040289,
+      "batchId": "tutu-laftel-image::ko-role"
+    },
+    {
+      "id": "tutu-laftel-image::ko-role::i4",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i4",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.0484373327344656,
+      "logits": [
+        -0.028004193678498268,
+        1.0698423385620117,
+        -1.0764415264129639
+      ],
+      "probabilities": [
+        0.22998082344611448,
+        0.6894143446906195,
+        0.08060483186326603
+      ],
+      "textLimit": 96,
+      "tokens": 220,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 220
+        }
+      ],
+      "elapsedMs": 24.5885000040289,
+      "batchId": "tutu-laftel-image::ko-role"
+    },
+    {
+      "id": "tutu-laftel-image::ko-role::i3",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i3",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.0553389880806208,
+      "logits": [
+        0.028687844052910805,
+        0.9650495052337646,
+        -1.02665114402771
+      ],
+      "probabilities": [
+        0.2564918947455705,
+        0.6542298392368349,
+        0.08927826601759473
+      ],
+      "textLimit": 96,
+      "tokens": 216,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 216
+        }
+      ],
+      "elapsedMs": 24.5885000040289,
+      "batchId": "tutu-laftel-image::ko-role"
+    },
+    {
+      "id": "tutu-laftel-image::ko-role::i8",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i8",
+      "template": "ko-role",
+      "field": "image",
+      "score": 0.9537188410758972,
+      "logits": [
+        -0.0944855809211731,
+        1.108464002609253,
+        -1.0482044219970703
+      ],
+      "probabilities": [
+        0.21207874075624442,
+        0.706206161205816,
+        0.08171509803793958
+      ],
+      "textLimit": 96,
+      "tokens": 220,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 220
+        }
+      ],
+      "elapsedMs": 24.5885000040289,
+      "batchId": "tutu-laftel-image::ko-role"
+    },
+    {
+      "id": "tutu-laftel-image::ko-role::i6",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i6",
+      "template": "ko-role",
+      "field": "image",
+      "score": 0.965221481397748,
+      "logits": [
+        -0.010696394369006157,
+        0.9542734026908875,
+        -0.9759178757667542
+      ],
+      "probabilities": [
+        0.24965003996490606,
+        0.6552585523045882,
+        0.09509140773050573
+      ],
+      "textLimit": 96,
+      "tokens": 217,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 217
+        }
+      ],
+      "elapsedMs": 24.5885000040289,
+      "batchId": "tutu-laftel-image::ko-role"
+    },
+    {
+      "id": "tutu-laftel-image::ko-role::i5",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i5",
+      "template": "ko-role",
+      "field": "image",
+      "score": 0.9337914139032364,
+      "logits": [
+        -0.056098148226737976,
+        1.0136953592300415,
+        -0.9898895621299744
+      ],
+      "probabilities": [
+        0.23213499608010213,
+        0.676621877000699,
+        0.09124312691919889
+      ],
+      "textLimit": 96,
+      "tokens": 221,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 221
+        }
+      ],
+      "elapsedMs": 24.5885000040289,
+      "batchId": "tutu-laftel-image::ko-role"
+    },
+    {
+      "id": "tutu-laftel-image::ko-role::i2",
+      "caseId": "tutu-laftel-image",
+      "candidateId": "i2",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.12827567756176,
+      "logits": [
+        0.15097902715206146,
+        0.7971038222312927,
+        -0.9772966504096985
+      ],
+      "probabilities": [
+        0.3094324768535769,
+        0.5904380357551434,
+        0.10012948739127964
+      ],
+      "textLimit": 96,
+      "tokens": 221,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 221
+        }
+      ],
+      "elapsedMs": 24.5885000040289,
+      "batchId": "tutu-laftel-image::ko-role"
+    },
+    {
+      "id": "tutu-laftel-description::ko-role::d7",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d7",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.1233661193400621,
+      "logits": [
+        0.01911759562790394,
+        1.049834132194519,
+        -1.1042485237121582
+      ],
+      "probabilities": [
+        0.24223298322602946,
+        0.6789968851832733,
+        0.07877013159069728
+      ],
+      "textLimit": 96,
+      "tokens": 251,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 251
+        }
+      ],
+      "elapsedMs": 30.64886250649579,
+      "batchId": "tutu-laftel-description::ko-role"
+    },
+    {
+      "id": "tutu-laftel-description::ko-role::d3",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d3",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.9685020446777344,
+      "logits": [
+        0.7194217443466187,
+        0.495656281709671,
+        -1.2490803003311157
+      ],
+      "probabilities": [
+        0.5156849341039383,
+        0.4122914588083732,
+        0.07202360708768851
+      ],
+      "textLimit": 96,
+      "tokens": 273,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 273
+        }
+      ],
+      "elapsedMs": 30.64886250649579,
+      "batchId": "tutu-laftel-description::ko-role"
+    },
+    {
+      "id": "tutu-laftel-description::ko-role::d8",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d8",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.3282779902219772,
+      "logits": [
+        0.17730991542339325,
+        0.935329020023346,
+        -1.150968074798584
+      ],
+      "probabilities": [
+        0.29420609947154464,
+        0.6278489706505532,
+        0.07794492987790218
+      ],
+      "textLimit": 96,
+      "tokens": 261,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 261
+        }
+      ],
+      "elapsedMs": 30.64886250649579,
+      "batchId": "tutu-laftel-description::ko-role"
+    },
+    {
+      "id": "tutu-laftel-description::ko-role::d1",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d1",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.1127319037914276,
+      "logits": [
+        0.2827531397342682,
+        0.5233530402183533,
+        -0.8299787640571594
+      ],
+      "probabilities": [
+        0.384516021464102,
+        0.48910899430083776,
+        0.12637498423506008
+      ],
+      "textLimit": 96,
+      "tokens": 255,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 255
+        }
+      ],
+      "elapsedMs": 30.64886250649579,
+      "batchId": "tutu-laftel-description::ko-role"
+    },
+    {
+      "id": "tutu-laftel-description::ko-role::d4",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d4",
+      "template": "ko-role",
+      "field": "description",
+      "score": 0.9015705613419414,
+      "logits": [
+        0.0106470612809062,
+        0.8517497777938843,
+        -0.8909235000610352
+      ],
+      "probabilities": [
+        0.2684668766725554,
+        0.6225539296136464,
+        0.10897919371379815
+      ],
+      "textLimit": 96,
+      "tokens": 252,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 252
+        }
+      ],
+      "elapsedMs": 30.64886250649579,
+      "batchId": "tutu-laftel-description::ko-role"
+    },
+    {
+      "id": "tutu-laftel-description::ko-role::d2",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d2",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.8527724742889404,
+      "logits": [
+        0.6174360513687134,
+        0.5835574865341187,
+        -1.235336422920227
+      ],
+      "probabilities": [
+        0.47092270751543974,
+        0.45523574824312235,
+        0.07384154424143782
+      ],
+      "textLimit": 96,
+      "tokens": 263,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 263
+        }
+      ],
+      "elapsedMs": 30.64886250649579,
+      "batchId": "tutu-laftel-description::ko-role"
+    },
+    {
+      "id": "tutu-laftel-description::ko-role::d5",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d5",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.6215403378009796,
+      "logits": [
+        0.4617812931537628,
+        0.6645222306251526,
+        -1.1597590446472168
+      ],
+      "probabilities": [
+        0.41282238857856873,
+        0.5056063418984179,
+        0.08157126952301337
+      ],
+      "textLimit": 96,
+      "tokens": 258,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 258
+        }
+      ],
+      "elapsedMs": 30.64886250649579,
+      "batchId": "tutu-laftel-description::ko-role"
+    },
+    {
+      "id": "tutu-laftel-description::ko-role::d6",
+      "caseId": "tutu-laftel-description",
+      "candidateId": "d6",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.3838961198925972,
+      "logits": [
+        0.10377276688814163,
+        1.1367628574371338,
+        -1.2801233530044556
+      ],
+      "probabilities": [
+        0.24630213737064113,
+        0.6919744780822817,
+        0.0617233845470772
+      ],
+      "textLimit": 96,
+      "tokens": 257,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 257
+        }
+      ],
+      "elapsedMs": 30.64886250649579,
+      "batchId": "tutu-laftel-description::ko-role"
+    },
+    {
+      "id": "genre-netflix-title::ko-role::t7",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t7",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.5947400033473969,
+      "logits": [
+        0.4298402965068817,
+        0.7013981938362122,
+        -1.1648997068405151
+      ],
+      "probabilities": [
+        0.397619353960603,
+        0.5216793086729417,
+        0.08070133736645545
+      ],
+      "textLimit": 96,
+      "tokens": 191,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 191
+        }
+      ],
+      "elapsedMs": 20.89379998506047,
+      "batchId": "genre-netflix-title::ko-role"
+    },
+    {
+      "id": "genre-netflix-title::ko-role::t1",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t1",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.6068646907806396,
+      "logits": [
+        0.456953763961792,
+        0.6607149243354797,
+        -1.1499109268188477
+      ],
+      "probabilities": [
+        0.4121127169343915,
+        0.5052523750919576,
+        0.08263490797365082
+      ],
+      "textLimit": 96,
+      "tokens": 171,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 171
+        }
+      ],
+      "elapsedMs": 20.89379998506047,
+      "batchId": "genre-netflix-title::ko-role"
+    },
+    {
+      "id": "genre-netflix-title::ko-role::t6",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t6",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.451162874698639,
+      "logits": [
+        0.2944524884223938,
+        0.8273331522941589,
+        -1.1567103862762451
+      ],
+      "probabilities": [
+        0.3403524111061905,
+        0.5799038117268195,
+        0.07974377716699001
+      ],
+      "textLimit": 96,
+      "tokens": 188,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 188
+        }
+      ],
+      "elapsedMs": 20.89379998506047,
+      "batchId": "genre-netflix-title::ko-role"
+    },
+    {
+      "id": "genre-netflix-title::ko-role::t2",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t2",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.5129731595516205,
+      "logits": [
+        0.34172889590263367,
+        0.7969330549240112,
+        -1.1712442636489868
+      ],
+      "probabilities": [
+        0.35755796167460796,
+        0.5636884124113223,
+        0.07875362591406981
+      ],
+      "textLimit": 96,
+      "tokens": 192,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 192
+        }
+      ],
+      "elapsedMs": 20.89379998506047,
+      "batchId": "genre-netflix-title::ko-role"
+    },
+    {
+      "id": "genre-netflix-title::ko-role::t8",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t8",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.2733854800462723,
+      "logits": [
+        0.2207990437746048,
+        0.8022032976150513,
+        -1.0525864362716675
+      ],
+      "probabilities": [
+        0.32589948744441244,
+        0.582886955947021,
+        0.09121355660856659
+      ],
+      "textLimit": 96,
+      "tokens": 179,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 179
+        }
+      ],
+      "elapsedMs": 20.89379998506047,
+      "batchId": "genre-netflix-title::ko-role"
+    },
+    {
+      "id": "genre-netflix-title::ko-role::t4",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t4",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.2095766067504883,
+      "logits": [
+        0.22735410928726196,
+        0.7275623083114624,
+        -0.9822224974632263
+      ],
+      "probabilities": [
+        0.33928344557018125,
+        0.5595003088008773,
+        0.10121624562894135
+      ],
+      "textLimit": 96,
+      "tokens": 186,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 186
+        }
+      ],
+      "elapsedMs": 20.89379998506047,
+      "batchId": "genre-netflix-title::ko-role"
+    },
+    {
+      "id": "genre-netflix-title::ko-role::t5",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t5",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.7517499923706055,
+      "logits": [
+        0.4997457265853882,
+        0.7148882746696472,
+        -1.2520042657852173
+      ],
+      "probabilities": [
+        0.41433452337488214,
+        0.5137908228077561,
+        0.07187465381736179
+      ],
+      "textLimit": 96,
+      "tokens": 192,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 192
+        }
+      ],
+      "elapsedMs": 20.89379998506047,
+      "batchId": "genre-netflix-title::ko-role"
+    },
+    {
+      "id": "genre-netflix-title::ko-role::t3",
+      "caseId": "genre-netflix-title",
+      "candidateId": "t3",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.3741334527730942,
+      "logits": [
+        0.18447349965572357,
+        0.9708147644996643,
+        -1.1896599531173706
+      ],
+      "probabilities": [
+        0.2899888623775018,
+        0.6366269075142962,
+        0.07338423010820191
+      ],
+      "textLimit": 96,
+      "tokens": 197,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 197
+        }
+      ],
+      "elapsedMs": 20.89379998506047,
+      "batchId": "genre-netflix-title::ko-role"
+    },
+    {
+      "id": "genre-netflix-image::ko-role::i3",
+      "caseId": "genre-netflix-image",
+      "candidateId": "i3",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.9371224641799927,
+      "logits": [
+        0.3331716060638428,
+        1.222991704940796,
+        -1.60395085811615
+      ],
+      "probabilities": [
+        0.2794225156218835,
+        0.6803076539083618,
+        0.04026983046975479
+      ],
+      "textLimit": 96,
+      "tokens": 188,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 188
+        }
+      ],
+      "elapsedMs": 21.755824971478432,
+      "batchId": "genre-netflix-image::ko-role"
+    },
+    {
+      "id": "genre-netflix-image::ko-role::i4",
+      "caseId": "genre-netflix-image",
+      "candidateId": "i4",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.6772761642932892,
+      "logits": [
+        0.3963116705417633,
+        0.8475350737571716,
+        -1.2809644937515259
+      ],
+      "probabilities": [
+        0.36269804954639345,
+        0.5695200974445748,
+        0.06778185300903175
+      ],
+      "textLimit": 96,
+      "tokens": 158,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 158
+        }
+      ],
+      "elapsedMs": 21.755824971478432,
+      "batchId": "genre-netflix-image::ko-role"
+    },
+    {
+      "id": "genre-netflix-image::ko-role::i2",
+      "caseId": "genre-netflix-image",
+      "candidateId": "i2",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.3839063681662083,
+      "logits": [
+        -0.018095966428518295,
+        1.3773549795150757,
+        -1.4020023345947266
+      ],
+      "probabilities": [
+        0.18912914962982177,
+        0.7634755182723175,
+        0.04739533209786063
+      ],
+      "textLimit": 96,
+      "tokens": 179,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 179
+        }
+      ],
+      "elapsedMs": 21.755824971478432,
+      "batchId": "genre-netflix-image::ko-role"
+    },
+    {
+      "id": "genre-netflix-image::ko-role::i1",
+      "caseId": "genre-netflix-image",
+      "candidateId": "i1",
+      "template": "ko-role",
+      "field": "image",
+      "score": 1.7518576979637146,
+      "logits": [
+        0.3080213665962219,
+        1.092824935913086,
+        -1.4438363313674927
+      ],
+      "probabilities": [
+        0.2971390486119281,
+        0.6513217603948677,
+        0.05153919099320426
+      ],
+      "textLimit": 96,
+      "tokens": 197,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 197
+        }
+      ],
+      "elapsedMs": 21.755824971478432,
+      "batchId": "genre-netflix-image::ko-role"
+    },
+    {
+      "id": "genre-netflix-description::ko-role::d3",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d3",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.0944442227482796,
+      "logits": [
+        -0.10267286747694016,
+        1.257712721824646,
+        -1.1971170902252197
+      ],
+      "probabilities": [
+        0.19111610142224617,
+        0.7449124491282296,
+        0.06397144944952435
+      ],
+      "textLimit": 96,
+      "tokens": 223,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 223
+        }
+      ],
+      "elapsedMs": 31.213462498271838,
+      "batchId": "genre-netflix-description::ko-role"
+    },
+    {
+      "id": "genre-netflix-description::ko-role::d5",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d5",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.5998376607894897,
+      "logits": [
+        0.3113248348236084,
+        0.9380912184715271,
+        -1.2885128259658813
+      ],
+      "probabilities": [
+        0.32536427198533147,
+        0.6089351495066093,
+        0.06570057850805919
+      ],
+      "textLimit": 96,
+      "tokens": 187,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 187
+        }
+      ],
+      "elapsedMs": 31.213462498271838,
+      "batchId": "genre-netflix-description::ko-role"
+    },
+    {
+      "id": "genre-netflix-description::ko-role::d2",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d2",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.0472940132021904,
+      "logits": [
+        -0.06029392033815384,
+        1.1327159404754639,
+        -1.1075879335403442
+      ],
+      "probabilities": [
+        0.2151520519821412,
+        0.709354114060123,
+        0.07549383395773573
+      ],
+      "textLimit": 96,
+      "tokens": 228,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 228
+        }
+      ],
+      "elapsedMs": 31.213462498271838,
+      "batchId": "genre-netflix-description::ko-role"
+    },
+    {
+      "id": "genre-netflix-description::ko-role::d6",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d6",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.6529738456010818,
+      "logits": [
+        0.23993130028247833,
+        1.1295571327209473,
+        -1.4130425453186035
+      ],
+      "probabilities": [
+        0.27580893824015823,
+        0.6713792682528535,
+        0.0528117935069883
+      ],
+      "textLimit": 96,
+      "tokens": 199,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 199
+        }
+      ],
+      "elapsedMs": 31.213462498271838,
+      "batchId": "genre-netflix-description::ko-role"
+    },
+    {
+      "id": "genre-netflix-description::ko-role::d1",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d1",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.497707337141037,
+      "logits": [
+        0.17602857947349548,
+        1.1048728227615356,
+        -1.3216787576675415
+      ],
+      "probabilities": [
+        0.2662957058845605,
+        0.6741493075086991,
+        0.05955498660674049
+      ],
+      "textLimit": 96,
+      "tokens": 230,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 230
+        }
+      ],
+      "elapsedMs": 31.213462498271838,
+      "batchId": "genre-netflix-description::ko-role"
+    },
+    {
+      "id": "genre-netflix-description::ko-role::d7",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d7",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.6385131031274796,
+      "logits": [
+        0.24336005747318268,
+        1.1077748537063599,
+        -1.3951530456542969
+      ],
+      "probabilities": [
+        0.2802780671609607,
+        0.665272681256135,
+        0.054449251582904215
+      ],
+      "textLimit": 96,
+      "tokens": 195,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 195
+        }
+      ],
+      "elapsedMs": 31.213462498271838,
+      "batchId": "genre-netflix-description::ko-role"
+    },
+    {
+      "id": "genre-netflix-description::ko-role::d8",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d8",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.7952194809913635,
+      "logits": [
+        0.451626718044281,
+        0.8540397882461548,
+        -1.3435927629470825
+      ],
+      "probabilities": [
+        0.3757251612881267,
+        0.5618702730036045,
+        0.06240456570826877
+      ],
+      "textLimit": 96,
+      "tokens": 193,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 193
+        }
+      ],
+      "elapsedMs": 31.213462498271838,
+      "batchId": "genre-netflix-description::ko-role"
+    },
+    {
+      "id": "genre-netflix-description::ko-role::d4",
+      "caseId": "genre-netflix-description",
+      "candidateId": "d4",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.8525900840759277,
+      "logits": [
+        0.5213550329208374,
+        0.7709778547286987,
+        -1.3312350511550903
+      ],
+      "probabilities": [
+        0.4097736527775257,
+        0.5259613666806736,
+        0.06426498054180062
+      ],
+      "textLimit": 96,
+      "tokens": 191,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 191
+        }
+      ],
+      "elapsedMs": 31.213462498271838,
+      "batchId": "genre-netflix-description::ko-role"
+    },
+    {
+      "id": "policy-laftel-title::ko-role::t8",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t8",
+      "template": "ko-role",
+      "field": "title",
+      "score": 0.8857979103922844,
+      "logits": [
+        -0.011150427162647247,
+        0.8815279006958008,
+        -0.8969483375549316
+      ],
+      "probabilities": [
+        0.25946761895024245,
+        0.6335318281257833,
+        0.10700055292397422
+      ],
+      "textLimit": 96,
+      "tokens": 209,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 209
+        }
+      ],
+      "elapsedMs": 25.297274987678975,
+      "batchId": "policy-laftel-title::ko-role"
+    },
+    {
+      "id": "policy-laftel-title::ko-role::t6",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t6",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.1260809749364853,
+      "logits": [
+        0.20168857276439667,
+        0.6938402056694031,
+        -0.9243924021720886
+      ],
+      "probabilities": [
+        0.33782256024969615,
+        0.5526210038290779,
+        0.10955643592122602
+      ],
+      "textLimit": 96,
+      "tokens": 218,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 218
+        }
+      ],
+      "elapsedMs": 25.297274987678975,
+      "batchId": "policy-laftel-title::ko-role"
+    },
+    {
+      "id": "policy-laftel-title::ko-role::t7",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t7",
+      "template": "ko-role",
+      "field": "title",
+      "score": 0.5718322843313217,
+      "logits": [
+        -0.18350918591022491,
+        0.9107819199562073,
+        -0.7553414702415466
+      ],
+      "probabilities": [
+        0.21970515284274983,
+        0.6562734449968531,
+        0.12402140216039703
+      ],
+      "textLimit": 96,
+      "tokens": 213,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 213
+        }
+      ],
+      "elapsedMs": 25.297274987678975,
+      "batchId": "policy-laftel-title::ko-role"
+    },
+    {
+      "id": "policy-laftel-title::ko-role::t1",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t1",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.6260466873645782,
+      "logits": [
+        0.4630437195301056,
+        0.6688281893730164,
+        -1.1630029678344727
+      ],
+      "probabilities": [
+        0.4123381338380223,
+        0.506552613952106,
+        0.0811092522098716
+      ],
+      "textLimit": 96,
+      "tokens": 155,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 155
+        }
+      ],
+      "elapsedMs": 25.297274987678975,
+      "batchId": "policy-laftel-title::ko-role"
+    },
+    {
+      "id": "policy-laftel-title::ko-role::t2",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t2",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.0496819764375687,
+      "logits": [
+        -0.07571034133434296,
+        1.1634433269500732,
+        -1.1253923177719116
+      ],
+      "probabilities": [
+        0.20821451389956544,
+        0.7189001922187198,
+        0.07288529388171473
+      ],
+      "textLimit": 96,
+      "tokens": 182,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 182
+        }
+      ],
+      "elapsedMs": 25.297274987678975,
+      "batchId": "policy-laftel-title::ko-role"
+    },
+    {
+      "id": "policy-laftel-title::ko-role::t4",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t4",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.3597571551799774,
+      "logits": [
+        0.32058748602867126,
+        0.6848816275596619,
+        -1.0391696691513062
+      ],
+      "probabilities": [
+        0.3708895221310131,
+        0.5338945650710869,
+        0.09521591279789994
+      ],
+      "textLimit": 96,
+      "tokens": 203,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 203
+        }
+      ],
+      "elapsedMs": 25.297274987678975,
+      "batchId": "policy-laftel-title::ko-role"
+    },
+    {
+      "id": "policy-laftel-title::ko-role::t3",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t3",
+      "template": "ko-role",
+      "field": "title",
+      "score": 1.368106722831726,
+      "logits": [
+        0.198561429977417,
+        0.9382309317588806,
+        -1.169545292854309
+      ],
+      "probabilities": [
+        0.2985224836103706,
+        0.625477122035563,
+        0.07600039435406641
+      ],
+      "textLimit": 96,
+      "tokens": 193,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 193
+        }
+      ],
+      "elapsedMs": 25.297274987678975,
+      "batchId": "policy-laftel-title::ko-role"
+    },
+    {
+      "id": "policy-laftel-title::ko-role::t5",
+      "caseId": "policy-laftel-title",
+      "candidateId": "t5",
+      "template": "ko-role",
+      "field": "title",
+      "score": 0.9768629390746355,
+      "logits": [
+        0.01966390199959278,
+        0.9082143306732178,
+        -0.9571990370750427
+      ],
+      "probabilities": [
+        0.26259865388624154,
+        0.6385354945355715,
+        0.09886585157818692
+      ],
+      "textLimit": 96,
+      "tokens": 214,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 214
+        }
+      ],
+      "elapsedMs": 25.297274987678975,
+      "batchId": "policy-laftel-title::ko-role"
+    },
+    {
+      "id": "policy-laftel-description::ko-role::d8",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d8",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.1478986889123917,
+      "logits": [
+        0.08699490129947662,
+        0.9406208395957947,
+        -1.060903787612915
+      ],
+      "probabilities": [
+        0.2728179112375847,
+        0.6406161958311943,
+        0.08656589293122098
+      ],
+      "textLimit": 96,
+      "tokens": 232,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 232
+        }
+      ],
+      "elapsedMs": 27.633124991552904,
+      "batchId": "policy-laftel-description::ko-role"
+    },
+    {
+      "id": "policy-laftel-description::ko-role::d6",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d6",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.0260989144444466,
+      "logits": [
+        0.06036955863237381,
+        0.8740355372428894,
+        -0.9657293558120728
+      ],
+      "probabilities": [
+        0.2766583651317132,
+        0.6241866141109693,
+        0.09915502075731751
+      ],
+      "textLimit": 96,
+      "tokens": 221,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 221
+        }
+      ],
+      "elapsedMs": 27.633124991552904,
+      "batchId": "policy-laftel-description::ko-role"
+    },
+    {
+      "id": "policy-laftel-description::ko-role::d4",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d4",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.28896863758564,
+      "logits": [
+        0.1282612830400467,
+        0.9951221942901611,
+        -1.1607073545455933
+      ],
+      "probabilities": [
+        0.2735989557767017,
+        0.651009529522997,
+        0.07539151470030128
+      ],
+      "textLimit": 96,
+      "tokens": 199,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 199
+        }
+      ],
+      "elapsedMs": 27.633124991552904,
+      "batchId": "policy-laftel-description::ko-role"
+    },
+    {
+      "id": "policy-laftel-description::ko-role::d3",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d3",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.4088601395487785,
+      "logits": [
+        0.0649673268198967,
+        1.2350430488586426,
+        -1.3438928127288818
+      ],
+      "probabilities": [
+        0.22388101363195906,
+        0.7213976014574671,
+        0.05472138491057366
+      ],
+      "textLimit": 96,
+      "tokens": 207,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 207
+        }
+      ],
+      "elapsedMs": 27.633124991552904,
+      "batchId": "policy-laftel-description::ko-role"
+    },
+    {
+      "id": "policy-laftel-description::ko-role::d1",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d1",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.5399806797504425,
+      "logits": [
+        0.08887520432472229,
+        1.3146179914474487,
+        -1.4511054754257202
+      ],
+      "probabilities": [
+        0.216399590365058,
+        0.7372075307907957,
+        0.04639287884414641
+      ],
+      "textLimit": 96,
+      "tokens": 237,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 237
+        }
+      ],
+      "elapsedMs": 27.633124991552904,
+      "batchId": "policy-laftel-description::ko-role"
+    },
+    {
+      "id": "policy-laftel-description::ko-role::d7",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d7",
+      "template": "ko-role",
+      "field": "description",
+      "score": 0.7654369920492172,
+      "logits": [
+        -0.14383377134799957,
+        1.0212163925170898,
+        -0.9092707633972168
+      ],
+      "probabilities": [
+        0.21407709599251537,
+        0.6863490898716046,
+        0.09957381413588007
+      ],
+      "textLimit": 96,
+      "tokens": 250,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 250
+        }
+      ],
+      "elapsedMs": 27.633124991552904,
+      "batchId": "policy-laftel-description::ko-role"
+    },
+    {
+      "id": "policy-laftel-description::ko-role::d2",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d2",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.2929869294166565,
+      "logits": [
+        0.04691427946090698,
+        1.157167911529541,
+        -1.2460726499557495
+      ],
+      "probabilities": [
+        0.23204128656104678,
+        0.7042750298140465,
+        0.0636836836249067
+      ],
+      "textLimit": 96,
+      "tokens": 234,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 234
+        }
+      ],
+      "elapsedMs": 27.633124991552904,
+      "batchId": "policy-laftel-description::ko-role"
+    },
+    {
+      "id": "policy-laftel-description::ko-role::d5",
+      "caseId": "policy-laftel-description",
+      "candidateId": "d5",
+      "template": "ko-role",
+      "field": "description",
+      "score": 1.4841870814561844,
+      "logits": [
+        0.21937425434589386,
+        1.0044734477996826,
+        -1.2648128271102905
+      ],
+      "probabilities": [
+        0.2924565824888115,
+        0.6412474457058375,
+        0.06629597180535104
+      ],
+      "textLimit": 96,
+      "tokens": 236,
+      "tierAudit": [
+        {
+          "textLimit": 96,
+          "tokens": 236
+        }
+      ],
+      "elapsedMs": 27.633124991552904,
+      "batchId": "policy-laftel-description::ko-role"
+    }
+  ],
+  "batches": [
+    {
+      "id": "violet-netflix-title::ko-role",
+      "pairIds": [
+        "violet-netflix-title::ko-role::t3",
+        "violet-netflix-title::ko-role::t6",
+        "violet-netflix-title::ko-role::t8",
+        "violet-netflix-title::ko-role::t1",
+        "violet-netflix-title::ko-role::t4",
+        "violet-netflix-title::ko-role::t5",
+        "violet-netflix-title::ko-role::t7",
+        "violet-netflix-title::ko-role::t2"
+      ],
+      "inferenceMs": 144.3231999874115,
+      "tokenizationMs": 2.7622999623417854,
+      "feedMs": 0.41690003126859665,
+      "paddedShape": [
+        8,
+        196
+      ],
+      "memory": {
+        "workingSetBytes": 520433664,
+        "peakWorkingSetBytes": 534867968,
+        "privateBytes": 1070469120
+      }
+    },
+    {
+      "id": "violet-netflix-image::ko-role",
+      "pairIds": [
+        "violet-netflix-image::ko-role::i5",
+        "violet-netflix-image::ko-role::i4",
+        "violet-netflix-image::ko-role::i1",
+        "violet-netflix-image::ko-role::i8",
+        "violet-netflix-image::ko-role::i6",
+        "violet-netflix-image::ko-role::i3",
+        "violet-netflix-image::ko-role::i2",
+        "violet-netflix-image::ko-role::i7"
+      ],
+      "inferenceMs": 190.93329994939268,
+      "tokenizationMs": 2.9002998489886522,
+      "feedMs": 0.3627999685704708,
+      "paddedShape": [
+        8,
+        246
+      ],
+      "memory": {
+        "workingSetBytes": 561737728,
+        "peakWorkingSetBytes": 561737728,
+        "privateBytes": 1209159680
+      }
+    },
+    {
+      "id": "violet-netflix-description::ko-role",
+      "pairIds": [
+        "violet-netflix-description::ko-role::d1",
+        "violet-netflix-description::ko-role::d5",
+        "violet-netflix-description::ko-role::d8",
+        "violet-netflix-description::ko-role::d6",
+        "violet-netflix-description::ko-role::d4",
+        "violet-netflix-description::ko-role::d2",
+        "violet-netflix-description::ko-role::d3",
+        "violet-netflix-description::ko-role::d7"
+      ],
+      "inferenceMs": 168.3060999494046,
+      "tokenizationMs": 3.531999886035919,
+      "feedMs": 0.3333999775350094,
+      "paddedShape": [
+        8,
+        232
+      ],
+      "memory": {
+        "workingSetBytes": 562102272,
+        "peakWorkingSetBytes": 562102272,
+        "privateBytes": 1209159680
+      }
+    },
+    {
+      "id": "hero-apple-title::ko-role",
+      "pairIds": [
+        "hero-apple-title::ko-role::t7",
+        "hero-apple-title::ko-role::t5",
+        "hero-apple-title::ko-role::t6",
+        "hero-apple-title::ko-role::t4",
+        "hero-apple-title::ko-role::t2",
+        "hero-apple-title::ko-role::t1",
+        "hero-apple-title::ko-role::t3",
+        "hero-apple-title::ko-role::t8"
+      ],
+      "inferenceMs": 192.0674000866711,
+      "tokenizationMs": 4.651200026273727,
+      "feedMs": 0.3809998743236065,
+      "paddedShape": [
+        8,
+        251
+      ],
+      "memory": {
+        "workingSetBytes": 564232192,
+        "peakWorkingSetBytes": 564232192,
+        "privateBytes": 1209159680
+      }
+    },
+    {
+      "id": "hero-apple-image::ko-role",
+      "pairIds": [
+        "hero-apple-image::ko-role::i8",
+        "hero-apple-image::ko-role::i1",
+        "hero-apple-image::ko-role::i5",
+        "hero-apple-image::ko-role::i7",
+        "hero-apple-image::ko-role::i4",
+        "hero-apple-image::ko-role::i3",
+        "hero-apple-image::ko-role::i2",
+        "hero-apple-image::ko-role::i6"
+      ],
+      "inferenceMs": 200.92380000278354,
+      "tokenizationMs": 2.9221000149846077,
+      "feedMs": 0.34769997000694275,
+      "paddedShape": [
+        8,
+        272
+      ],
+      "memory": {
+        "workingSetBytes": 583876608,
+        "peakWorkingSetBytes": 583876608,
+        "privateBytes": 1486532608
+      }
+    },
+    {
+      "id": "hero-apple-description::ko-role",
+      "pairIds": [
+        "hero-apple-description::ko-role::d3",
+        "hero-apple-description::ko-role::d4",
+        "hero-apple-description::ko-role::d2",
+        "hero-apple-description::ko-role::d7",
+        "hero-apple-description::ko-role::d1",
+        "hero-apple-description::ko-role::d5",
+        "hero-apple-description::ko-role::d6",
+        "hero-apple-description::ko-role::d8"
+      ],
+      "inferenceMs": 222.3929997999221,
+      "tokenizationMs": 3.4395998809486628,
+      "feedMs": 0.37880009040236473,
+      "paddedShape": [
+        8,
+        292
+      ],
+      "memory": {
+        "workingSetBytes": 592994304,
+        "peakWorkingSetBytes": 592994304,
+        "privateBytes": 1486532608
+      }
+    },
+    {
+      "id": "bebop-tving-title::ko-role",
+      "pairIds": [
+        "bebop-tving-title::ko-role::t2",
+        "bebop-tving-title::ko-role::t4",
+        "bebop-tving-title::ko-role::t1",
+        "bebop-tving-title::ko-role::t3"
+      ],
+      "inferenceMs": 83.115000044927,
+      "tokenizationMs": 2.327699912711978,
+      "feedMs": 0.2628001384437084,
+      "paddedShape": [
+        4,
+        211
+      ],
+      "memory": {
+        "workingSetBytes": 593936384,
+        "peakWorkingSetBytes": 593936384,
+        "privateBytes": 1486532608
+      }
+    },
+    {
+      "id": "bebop-tving-image::ko-role",
+      "pairIds": [
+        "bebop-tving-image::ko-role::i5",
+        "bebop-tving-image::ko-role::i2",
+        "bebop-tving-image::ko-role::i3",
+        "bebop-tving-image::ko-role::i1",
+        "bebop-tving-image::ko-role::i4",
+        "bebop-tving-image::ko-role::i6",
+        "bebop-tving-image::ko-role::i7",
+        "bebop-tving-image::ko-role::i8"
+      ],
+      "inferenceMs": 189.06800006516278,
+      "tokenizationMs": 4.152600187808275,
+      "feedMs": 0.3724999260157347,
+      "paddedShape": [
+        8,
+        214
+      ],
+      "memory": {
+        "workingSetBytes": 594640896,
+        "peakWorkingSetBytes": 594640896,
+        "privateBytes": 1486532608
+      }
+    },
+    {
+      "id": "bebop-tving-description::ko-role",
+      "pairIds": [
+        "bebop-tving-description::ko-role::d3",
+        "bebop-tving-description::ko-role::d6",
+        "bebop-tving-description::ko-role::d2",
+        "bebop-tving-description::ko-role::d5",
+        "bebop-tving-description::ko-role::d8",
+        "bebop-tving-description::ko-role::d7",
+        "bebop-tving-description::ko-role::d4",
+        "bebop-tving-description::ko-role::d1"
+      ],
+      "inferenceMs": 228.68159995414317,
+      "tokenizationMs": 7.268400164321065,
+      "feedMs": 0.5212000105530024,
+      "paddedShape": [
+        8,
+        245
+      ],
+      "memory": {
+        "workingSetBytes": 594747392,
+        "peakWorkingSetBytes": 594747392,
+        "privateBytes": 1486532608
+      }
+    },
+    {
+      "id": "tutu-laftel-title::ko-role",
+      "pairIds": [
+        "tutu-laftel-title::ko-role::t7",
+        "tutu-laftel-title::ko-role::t1",
+        "tutu-laftel-title::ko-role::t3",
+        "tutu-laftel-title::ko-role::t8",
+        "tutu-laftel-title::ko-role::t2",
+        "tutu-laftel-title::ko-role::t4",
+        "tutu-laftel-title::ko-role::t6",
+        "tutu-laftel-title::ko-role::t5"
+      ],
+      "inferenceMs": 171.18329997174442,
+      "tokenizationMs": 3.6875999066978693,
+      "feedMs": 0.41660014539957047,
+      "paddedShape": [
+        8,
+        204
+      ],
+      "memory": {
+        "workingSetBytes": 595398656,
+        "peakWorkingSetBytes": 595398656,
+        "privateBytes": 1486532608
+      }
+    },
+    {
+      "id": "tutu-laftel-image::ko-role",
+      "pairIds": [
+        "tutu-laftel-image::ko-role::i7",
+        "tutu-laftel-image::ko-role::i1",
+        "tutu-laftel-image::ko-role::i4",
+        "tutu-laftel-image::ko-role::i3",
+        "tutu-laftel-image::ko-role::i8",
+        "tutu-laftel-image::ko-role::i6",
+        "tutu-laftel-image::ko-role::i5",
+        "tutu-laftel-image::ko-role::i2"
+      ],
+      "inferenceMs": 196.7080000322312,
+      "tokenizationMs": 4.9085000064224005,
+      "feedMs": 0.46669994480907917,
+      "paddedShape": [
+        8,
+        221
+      ],
+      "memory": {
+        "workingSetBytes": 595714048,
+        "peakWorkingSetBytes": 595714048,
+        "privateBytes": 1486532608
+      }
+    },
+    {
+      "id": "tutu-laftel-description::ko-role",
+      "pairIds": [
+        "tutu-laftel-description::ko-role::d7",
+        "tutu-laftel-description::ko-role::d3",
+        "tutu-laftel-description::ko-role::d8",
+        "tutu-laftel-description::ko-role::d1",
+        "tutu-laftel-description::ko-role::d4",
+        "tutu-laftel-description::ko-role::d2",
+        "tutu-laftel-description::ko-role::d5",
+        "tutu-laftel-description::ko-role::d6"
+      ],
+      "inferenceMs": 245.1909000519663,
+      "tokenizationMs": 6.008500000461936,
+      "feedMs": 0.5879001691937447,
+      "paddedShape": [
+        8,
+        273
+      ],
+      "memory": {
+        "workingSetBytes": 595832832,
+        "peakWorkingSetBytes": 595832832,
+        "privateBytes": 1486532608
+      }
+    },
+    {
+      "id": "genre-netflix-title::ko-role",
+      "pairIds": [
+        "genre-netflix-title::ko-role::t7",
+        "genre-netflix-title::ko-role::t1",
+        "genre-netflix-title::ko-role::t6",
+        "genre-netflix-title::ko-role::t2",
+        "genre-netflix-title::ko-role::t8",
+        "genre-netflix-title::ko-role::t4",
+        "genre-netflix-title::ko-role::t5",
+        "genre-netflix-title::ko-role::t3"
+      ],
+      "inferenceMs": 167.15039988048375,
+      "tokenizationMs": 2.6591999921947718,
+      "feedMs": 0.3161998465657234,
+      "paddedShape": [
+        8,
+        197
+      ],
+      "memory": {
+        "workingSetBytes": 595914752,
+        "peakWorkingSetBytes": 595914752,
+        "privateBytes": 1486532608
+      }
+    },
+    {
+      "id": "genre-netflix-image::ko-role",
+      "pairIds": [
+        "genre-netflix-image::ko-role::i3",
+        "genre-netflix-image::ko-role::i4",
+        "genre-netflix-image::ko-role::i2",
+        "genre-netflix-image::ko-role::i1"
+      ],
+      "inferenceMs": 87.02329988591373,
+      "tokenizationMs": 2.183800097554922,
+      "feedMs": 0.17620017752051353,
+      "paddedShape": [
+        4,
+        197
+      ],
+      "memory": {
+        "workingSetBytes": 595980288,
+        "peakWorkingSetBytes": 595980288,
+        "privateBytes": 1487581184
+      }
+    },
+    {
+      "id": "genre-netflix-description::ko-role",
+      "pairIds": [
+        "genre-netflix-description::ko-role::d3",
+        "genre-netflix-description::ko-role::d5",
+        "genre-netflix-description::ko-role::d2",
+        "genre-netflix-description::ko-role::d6",
+        "genre-netflix-description::ko-role::d1",
+        "genre-netflix-description::ko-role::d7",
+        "genre-netflix-description::ko-role::d8",
+        "genre-netflix-description::ko-role::d4"
+      ],
+      "inferenceMs": 249.7076999861747,
+      "tokenizationMs": 3.720599925145507,
+      "feedMs": 0.4596998915076256,
+      "paddedShape": [
+        8,
+        230
+      ],
+      "memory": {
+        "workingSetBytes": 596033536,
+        "peakWorkingSetBytes": 596033536,
+        "privateBytes": 1487581184
+      }
+    },
+    {
+      "id": "policy-laftel-title::ko-role",
+      "pairIds": [
+        "policy-laftel-title::ko-role::t8",
+        "policy-laftel-title::ko-role::t6",
+        "policy-laftel-title::ko-role::t7",
+        "policy-laftel-title::ko-role::t1",
+        "policy-laftel-title::ko-role::t2",
+        "policy-laftel-title::ko-role::t4",
+        "policy-laftel-title::ko-role::t3",
+        "policy-laftel-title::ko-role::t5"
+      ],
+      "inferenceMs": 202.3781999014318,
+      "tokenizationMs": 5.079299909994006,
+      "feedMs": 0.43509993702173233,
+      "paddedShape": [
+        8,
+        218
+      ],
+      "memory": {
+        "workingSetBytes": 596127744,
+        "peakWorkingSetBytes": 596127744,
+        "privateBytes": 1487581184
+      }
+    },
+    {
+      "id": "policy-laftel-description::ko-role",
+      "pairIds": [
+        "policy-laftel-description::ko-role::d8",
+        "policy-laftel-description::ko-role::d6",
+        "policy-laftel-description::ko-role::d4",
+        "policy-laftel-description::ko-role::d3",
+        "policy-laftel-description::ko-role::d1",
+        "policy-laftel-description::ko-role::d7",
+        "policy-laftel-description::ko-role::d2",
+        "policy-laftel-description::ko-role::d5"
+      ],
+      "inferenceMs": 221.06499993242323,
+      "tokenizationMs": 4.8074000515043736,
+      "feedMs": 0.3274001646786928,
+      "paddedShape": [
+        8,
+        250
+      ],
+      "memory": {
+        "workingSetBytes": 596307968,
+        "peakWorkingSetBytes": 596307968,
+        "privateBytes": 1487581184
+      }
+    }
+  ],
+  "afterInferenceMemory": {
+    "workingSetBytes": 596320256,
+    "peakWorkingSetBytes": 596320256,
+    "privateBytes": 1487581184
+  },
+  "totalWallMs": 4439.128099940717,
+  "finishedAt": "2026-11-13T13:15:43Z"
+}
