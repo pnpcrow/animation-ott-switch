@@ -1,0 +1,535 @@
+{
+  "kind": "hand-authored development diagnostic; not blind validation or model accuracy",
+  "generatedAt": "2026-11-13T16:25:27.046Z",
+  "sourceSha256": "361406ef77ada3b9e4dcf647286661e4e71822018e4a719740f3ff259d358f6f",
+  "linkSourceSha256": "410e2b1a2a7e73c2c330392c36fa2340efb1abacda4da7d93f4fd226b0a8fb99",
+  "browserVersion": "158.0.8127.18",
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "timings": {
+    "warmupPerField": 10,
+    "measuredPerField": 50,
+    "note": "Headless isolated Chromium; full field scan including scope discovery; performance.now resolution limits submillisecond timings."
+  },
+  "results": [
+    {
+      "id": "late-active-modal",
+      "htmlBytes": 58414,
+      "fields": [
+        {
+          "field": "title",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "어느 마녀가 죽을 때까지",
+          "expectedSelection": "어느 마녀가 죽을 때까지",
+          "visited": 13,
+          "truncated": false,
+          "inputBytes": 788,
+          "p50Ms": 0.10000014305114746,
+          "p95Ms": 0.20000004768371582,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "어느 마녀가 죽을 때까지"
+          ]
+        },
+        {
+          "field": "description",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다.",
+          "expectedSelection": "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다.",
+          "visited": 13,
+          "truncated": false,
+          "inputBytes": 894,
+          "p50Ms": 0.10000014305114746,
+          "p95Ms": 0.20000004768371582,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다."
+          ]
+        },
+        {
+          "field": "image",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "https://fixture.invalid/hero.svg",
+          "expectedSelection": "https://fixture.invalid/hero.svg",
+          "visited": 13,
+          "truncated": false,
+          "inputBytes": 1032,
+          "p50Ms": 0.10000014305114746,
+          "p95Ms": 0.20000004768371582,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "https://fixture.invalid/hero.svg"
+          ]
+        }
+      ],
+      "imageEvidence": {
+        "rendered": {
+          "width": 720,
+          "height": 405
+        },
+        "intrinsic": {
+          "width": 1440,
+          "height": 1440
+        },
+        "parentLabel": "작품 대표 이미지"
+      },
+      "providerDimensions": null
+    },
+    {
+      "id": "standalone-detail",
+      "htmlBytes": 704,
+      "fields": [
+        {
+          "field": "title",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "어느 마녀가 죽을 때까지",
+          "expectedSelection": "어느 마녀가 죽을 때까지",
+          "visited": 16,
+          "truncated": false,
+          "inputBytes": 870,
+          "p50Ms": 0,
+          "p95Ms": 0.10000014305114746,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "어느 마녀가 죽을 때까지"
+          ]
+        },
+        {
+          "field": "description",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 2,
+          "selected": "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다.",
+          "expectedSelection": "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다.",
+          "visited": 19,
+          "truncated": false,
+          "inputBytes": 1546,
+          "p50Ms": 0.09999990463256836,
+          "p95Ms": 0.19999980926513672,
+          "nativeXPathMatches": 2,
+          "candidateValues": [
+            "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다.",
+            "일반 안내 문구는 의미 있는 작품 소개가 있다는 단서 없이 자동으로 선택하지 않는다."
+          ]
+        },
+        {
+          "field": "image",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "https://fixture.invalid/hero.svg",
+          "expectedSelection": "https://fixture.invalid/hero.svg",
+          "visited": 16,
+          "truncated": false,
+          "inputBytes": 1114,
+          "p50Ms": 0.09999990463256836,
+          "p95Ms": 0.10000014305114746,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "https://fixture.invalid/hero.svg"
+          ]
+        }
+      ],
+      "imageEvidence": {
+        "rendered": {
+          "width": 720,
+          "height": 405
+        },
+        "intrinsic": {
+          "width": 1440,
+          "height": 1440
+        },
+        "parentLabel": "작품 대표 이미지"
+      },
+      "providerDimensions": null
+    },
+    {
+      "id": "ambiguous-detail",
+      "htmlBytes": 486,
+      "fields": [
+        {
+          "field": "title",
+          "goldCount": 2,
+          "retrievedGold": 2,
+          "candidateCount": 2,
+          "selected": null,
+          "expectedSelection": null,
+          "visited": 19,
+          "truncated": false,
+          "inputBytes": 1325,
+          "p50Ms": 0.09999990463256836,
+          "p95Ms": 0.10000014305114746,
+          "nativeXPathMatches": 2,
+          "candidateValues": [
+            "첫 번째 작품",
+            "두 번째 작품"
+          ]
+        },
+        {
+          "field": "description",
+          "goldCount": 0,
+          "retrievedGold": 0,
+          "candidateCount": 2,
+          "selected": null,
+          "expectedSelection": null,
+          "visited": 19,
+          "truncated": false,
+          "inputBytes": 1526,
+          "p50Ms": 0.09999990463256836,
+          "p95Ms": 0.20000004768371582,
+          "nativeXPathMatches": 2,
+          "candidateValues": [
+            "첫 번째 작품의 이야기이며 다른 작품과 섞어서 선택하지 않아야 하는 설명이다.",
+            "두 번째 작품의 이야기이며 다른 작품과 섞어서 선택하지 않아야 하는 설명이다."
+          ]
+        },
+        {
+          "field": "image",
+          "goldCount": 0,
+          "retrievedGold": 0,
+          "candidateCount": 0,
+          "selected": null,
+          "expectedSelection": null,
+          "visited": 13,
+          "truncated": false,
+          "inputBytes": 467,
+          "p50Ms": 0,
+          "p95Ms": 0.10000014305114746,
+          "nativeXPathMatches": 0,
+          "candidateValues": []
+        }
+      ],
+      "imageEvidence": null,
+      "providerDimensions": null
+    },
+    {
+      "id": "tooltip-and-body-decoys",
+      "htmlBytes": 732,
+      "fields": [
+        {
+          "field": "title",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "어느 마녀가 죽을 때까지",
+          "expectedSelection": "어느 마녀가 죽을 때까지",
+          "visited": 18,
+          "truncated": false,
+          "inputBytes": 870,
+          "p50Ms": 0,
+          "p95Ms": 0.10000014305114746,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "어느 마녀가 죽을 때까지"
+          ]
+        },
+        {
+          "field": "description",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다.",
+          "expectedSelection": "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다.",
+          "visited": 18,
+          "truncated": false,
+          "inputBytes": 976,
+          "p50Ms": 0.09999990463256836,
+          "p95Ms": 0.20000004768371582,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다."
+          ]
+        },
+        {
+          "field": "image",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "https://fixture.invalid/hero.svg",
+          "expectedSelection": "https://fixture.invalid/hero.svg",
+          "visited": 18,
+          "truncated": false,
+          "inputBytes": 1114,
+          "p50Ms": 0,
+          "p95Ms": 0.20000004768371582,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "https://fixture.invalid/hero.svg"
+          ]
+        }
+      ],
+      "imageEvidence": {
+        "rendered": {
+          "width": 720,
+          "height": 405
+        },
+        "intrinsic": {
+          "width": 1440,
+          "height": 1440
+        },
+        "parentLabel": "작품 대표 이미지"
+      },
+      "providerDimensions": null
+    },
+    {
+      "id": "tiny-provider-image",
+      "htmlBytes": 601,
+      "fields": [
+        {
+          "field": "title",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "어느 마녀가 죽을 때까지",
+          "expectedSelection": "어느 마녀가 죽을 때까지",
+          "visited": 13,
+          "truncated": false,
+          "inputBytes": 772,
+          "p50Ms": 0,
+          "p95Ms": 0.10000014305114746,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "어느 마녀가 죽을 때까지"
+          ]
+        },
+        {
+          "field": "description",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다.",
+          "expectedSelection": "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다.",
+          "visited": 13,
+          "truncated": false,
+          "inputBytes": 878,
+          "p50Ms": 0.09999990463256836,
+          "p95Ms": 0.10000014305114746,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다."
+          ]
+        },
+        {
+          "field": "image",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "https://fixture.invalid/hero.svg",
+          "expectedSelection": "https://fixture.invalid/hero.svg",
+          "visited": 13,
+          "truncated": false,
+          "inputBytes": 1016,
+          "p50Ms": 0.09999990463256836,
+          "p95Ms": 0.10000014305114746,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "https://fixture.invalid/hero.svg"
+          ]
+        }
+      ],
+      "imageEvidence": {
+        "rendered": {
+          "width": 720,
+          "height": 405
+        },
+        "intrinsic": {
+          "width": 1440,
+          "height": 1440
+        },
+        "parentLabel": "작품 대표 이미지"
+      },
+      "providerDimensions": {
+        "rendered": {
+          "width": 23,
+          "height": 23
+        },
+        "intrinsic": {
+          "width": 1440,
+          "height": 1440
+        },
+        "included": false
+      }
+    },
+    {
+      "id": "hidden-modal",
+      "htmlBytes": 675,
+      "fields": [
+        {
+          "field": "title",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "어느 마녀가 죽을 때까지",
+          "expectedSelection": "어느 마녀가 죽을 때까지",
+          "visited": 11,
+          "truncated": false,
+          "inputBytes": 772,
+          "p50Ms": 0,
+          "p95Ms": 0.10000014305114746,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "어느 마녀가 죽을 때까지"
+          ]
+        },
+        {
+          "field": "description",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다.",
+          "expectedSelection": "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다.",
+          "visited": 11,
+          "truncated": false,
+          "inputBytes": 878,
+          "p50Ms": 0,
+          "p95Ms": 0.20000004768371582,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "견습 마녀 메구는 자신의 운명을 바꾸기 위해 사람들의 기쁨의 눈물을 모으는 여행을 시작한다."
+          ]
+        },
+        {
+          "field": "image",
+          "goldCount": 1,
+          "retrievedGold": 1,
+          "candidateCount": 1,
+          "selected": "https://fixture.invalid/hero.svg",
+          "expectedSelection": "https://fixture.invalid/hero.svg",
+          "visited": 11,
+          "truncated": false,
+          "inputBytes": 1016,
+          "p50Ms": 0,
+          "p95Ms": 0.10000014305114746,
+          "nativeXPathMatches": 1,
+          "candidateValues": [
+            "https://fixture.invalid/hero.svg"
+          ]
+        }
+      ],
+      "imageEvidence": {
+        "rendered": {
+          "width": 720,
+          "height": 405
+        },
+        "intrinsic": {
+          "width": 1440,
+          "height": 1440
+        },
+        "parentLabel": "작품 대표 이미지"
+      },
+      "providerDimensions": null
+    }
+  ],
+  "progressive": {
+    "firstVisited": 12,
+    "firstCandidates": 1,
+    "firstDone": false,
+    "fullVisited": 807,
+    "stoppedDone": true,
+    "stoppedCandidates": 0,
+    "nativeMatches": true,
+    "locatorChangedIdentityAfterMutation": true,
+    "locatorValueChangedAfterMutation": true
+  },
+  "navigation": {
+    "candidates": [
+      {
+        "source": "href",
+        "status": "url",
+        "url": "https://fixture.invalid/title/matched",
+        "label": "어느 마녀가 죽을 때까지",
+        "sameOrigin": true,
+        "workHint": true,
+        "episodeHint": false,
+        "requiresVerification": true,
+        "context": {
+          "self": {
+            "tag": "a",
+            "role": "",
+            "classes": [],
+            "ariaLabel": "",
+            "text": "어느 마녀가 죽을 때까지",
+            "textTruncated": false
+          },
+          "parent": {
+            "tag": "article",
+            "role": "",
+            "classes": [],
+            "ariaLabel": "",
+            "text": "어느 마녀가 죽을 때까지",
+            "textTruncated": false
+          }
+        }
+      },
+      {
+        "source": "onclick",
+        "status": "url",
+        "url": "https://fixture.invalid/title/literal",
+        "label": "작품 상세 보기",
+        "sameOrigin": true,
+        "workHint": true,
+        "episodeHint": false,
+        "requiresVerification": true,
+        "context": {
+          "self": {
+            "tag": "button",
+            "role": "",
+            "classes": [],
+            "ariaLabel": "",
+            "text": "작품 상세 보기",
+            "textTruncated": false
+          },
+          "parent": {
+            "tag": "article",
+            "role": "",
+            "classes": [],
+            "ariaLabel": "",
+            "text": "작품 상세 보기",
+            "textTruncated": false
+          }
+        }
+      },
+      {
+        "source": "onclick",
+        "status": "unknown",
+        "reason": "script-target-not-literal",
+        "label": "동적 작품 상세 보기",
+        "workHint": false,
+        "episodeHint": false,
+        "requiresVerification": true,
+        "context": {
+          "self": {
+            "tag": "button",
+            "role": "",
+            "classes": [],
+            "ariaLabel": "",
+            "text": "동적 작품 상세 보기",
+            "textTruncated": false
+          },
+          "parent": {
+            "tag": "article",
+            "role": "",
+            "classes": [],
+            "ariaLabel": "",
+            "text": "동적 작품 상세 보기",
+            "textTruncated": false
+          }
+        }
+      }
+    ],
+    "visited": 39,
+    "truncated": false,
+    "inputBytes": 1345,
+    "executed": false
+  }
+}
