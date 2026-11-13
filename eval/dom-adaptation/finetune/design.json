@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "model": "monologg/koelectra-small-v3-discriminator",
+  "revision": "7488f8db0f208beff4a1f3f9bb3ed04650a89ed7",
+  "files": {
+    "pytorch_model.bin": {
+      "bytes": 56577499,
+      "sha256": "cb3a73908dd25ea9f5ccac1aafc164b941339f11f3499ea6f1a08a8435bb7522"
+    },
+    "config.json": {
+      "bytes": 458,
+      "sha256": "f243c4994815a04b20a084cd2ec24cc78326842d56a4923a8c6751ca0ea40c25"
+    },
+    "tokenizer_config.json": {
+      "bytes": 61,
+      "sha256": "cd074f01387ed507bc657bebc91c9653874194ba612ceecffe72e6d5c631988c"
+    },
+    "vocab.txt": {
+      "bytes": 263326,
+      "sha256": "9f50b0a44b0272dcf78bfd7a52a0815588f69918bb87ec60b21ca235c5aa0eb4"
+    }
+  },
+  "seed": 20261113,
+  "trainingCases": 66,
+  "retrospectiveCases": 18,
+  "validationStatus": "Previously published and inspected 18 cases; not fresh holdout or generalization evidence.",
+  "runtime": "stock PyTorch CPU fp32, eager attention, 4 threads",
+  "parameters": 14056449,
+  "sourceSha256": {
+    "C:\\Develop\\Repositories\\animation-ott-switch\\eval\\dom-adaptation\\finetune\\train.py": "8500cb37a1d826737b693202b8645bdf1b8eb3a64e1c1d9d47e506e892ab6675",
+    "C:\\Develop\\Repositories\\animation-ott-switch\\eval\\dom-adaptation\\finetune\\prepare.py": "d86e56e50f05c8193acc387269851be2779629c10a77ce3fe9cf5c740bc86ef5",
+    "C:\\Develop\\Repositories\\animation-ott-switch\\eval\\dom-adaptation\\finetune\\prepare-inputs.mjs": "e6588e9a455ba89399fe763fdaea3eba5d3365568d497007c6afa46eb35b7f79",
+    "eval\\dom-adaptation\\templates.mjs": "bb3f1e92b62aa7c8cbd74505125b411a9ee37766e4017fe45b260084fa2a4b1e",
+    "eval\\tiny-decision\\v2\\features.mjs": "01d561a330e0e46faff35a989255332bebecb69844494d74f827ebdea8d9df9a"
+  },
+  "dataSha256": {
+    ".tmp\\dom-adaptation\\finetune\\development-inputs.json": "5316ae3e690f904bcd5150bf4bcc67a77977c1f458630ec24af895d1c112e697",
+    ".tmp\\dom-adaptation\\finetune\\holdout-inputs.json": "2c32ffb67a364fb428a463ac56c7e3cce22d3b3f1a9ea526614ada146edd6ca9",
+    "eval\\light-dom\\data\\development-labels.json": "0befb471e18279b01bc735617731ed78e5b3dfff1510e40b663c33c4157a703b",
+    "eval\\light-dom\\data\\holdout-labels.json": "21699dbe709838822bc4b8aa59428caadc9685a07594bc4a0bfed7d8b641f252"
+  },
+  "versions": {
+    "torch": "2.15.0",
+    "transformers": "5.22.2",
+    "numpy": "2.5.4",
+    "tokenizers": "0.23.3"
+  },
+  "recipes": {
+    "frozenEncoder": {
+      "epochs": 200,
+      "learningRate": 0.01,
+      "weightDecay": 0.01,
+      "batch": "all 66 cached case lists per optimizer step",
+      "encoderDropout": false
+    },
+    "fullEncoder": {
+      "epochs": 3,
+      "encoderLearningRate": 2e-05,
+      "headLearningRate": 0.001,
+      "weightDecay": 0.01,
+      "batch": "one complete candidate list per optimizer step",
+      "gradientClip": 1.0,
+      "encoderDropout": true
+    }
+  },
+  "objective": "listwise negative log probability of any accepted candidate; NONE is a separately encoded outcome",
+  "frozenBeforeTrainingAt": "2026-11-13T14:16:52Z"
+}

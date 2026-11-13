@@ -20,6 +20,16 @@
       "sha256": "21699dbe709838822bc4b8aa59428caadc9685a07594bc4a0bfed7d8b641f252"
     }
   ],
+  "workIdentityOverrides": {
+    "new-search-laftel": {
+      "work": "spy-family",
+      "provider": "laftel",
+      "pathname": "/search",
+      "parameter": "keyword",
+      "value": "스파이 패밀리",
+      "reason": "Observed source URL explicitly searches for the same work as spy-family-apple."
+    }
+  },
   "summary": {
     "cases": 84,
     "pages": 28,
@@ -96,7 +106,7 @@
       "providers": [
         "laftel"
       ],
-      "namedWorkGroups": 7,
+      "namedWorkGroups": 8,
       "positive": 20,
       "absent": 7,
       "emptyConcretePools": 1
@@ -292,8 +302,8 @@
     {
       "provider": "apple",
       "train": {
-        "cases": 75,
-        "pages": 25,
+        "cases": 72,
+        "pages": 24,
         "providers": [
           "aniplus",
           "coupang",
@@ -307,7 +317,7 @@
         ],
         "namedWorkGroups": 13,
         "positive": 50,
-        "absent": 25,
+        "absent": 22,
         "emptyConcretePools": 2
       },
       "test": {
@@ -376,9 +386,6 @@
         "demon-slayer-laftel-title",
         "demon-slayer-laftel-image",
         "demon-slayer-laftel-description",
-        "new-search-laftel-title",
-        "new-search-laftel-image",
-        "new-search-laftel-description",
         "new-help-netflix-title",
         "new-help-netflix-image",
         "new-help-netflix-description",
@@ -409,7 +416,11 @@
         "hero-apple-image",
         "hero-apple-description"
       ],
-      "excludedSameWorkIds": [],
+      "excludedSameWorkIds": [
+        "new-search-laftel-title",
+        "new-search-laftel-image",
+        "new-search-laftel-description"
+      ],
       "missingPositiveFields": [],
       "canMeasureBothPositiveAndAbsent": false,
       "executed": false
@@ -676,8 +687,8 @@
     {
       "provider": "laftel",
       "train": {
-        "cases": 39,
-        "pages": 13,
+        "cases": 36,
+        "pages": 12,
         "providers": [
           "apple",
           "coupang",
@@ -686,8 +697,8 @@
           "tving",
           "watcha"
         ],
-        "namedWorkGroups": 9,
-        "positive": 27,
+        "namedWorkGroups": 8,
+        "positive": 24,
         "absent": 12,
         "emptyConcretePools": 1
       },
@@ -697,7 +708,7 @@
         "providers": [
           "laftel"
         ],
-        "namedWorkGroups": 7,
+        "namedWorkGroups": 8,
         "positive": 20,
         "absent": 7,
         "emptyConcretePools": 1
@@ -721,9 +732,6 @@
         "dandadan-netflix-title",
         "dandadan-netflix-image",
         "dandadan-netflix-description",
-        "spy-family-apple-title",
-        "spy-family-apple-image",
-        "spy-family-apple-description",
         "chainsaw-tving-title",
         "chainsaw-tving-image",
         "chainsaw-tving-description",
@@ -790,7 +798,10 @@
         "frieren-wavve-search-description",
         "witch-crunchyroll-title",
         "witch-crunchyroll-image",
-        "witch-crunchyroll-description"
+        "witch-crunchyroll-description",
+        "spy-family-apple-title",
+        "spy-family-apple-image",
+        "spy-family-apple-description"
       ],
       "missingPositiveFields": [],
       "canMeasureBothPositiveAndAbsent": true,

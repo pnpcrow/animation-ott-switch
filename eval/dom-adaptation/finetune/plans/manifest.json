@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "originalPath": ".tmp/dom-adaptation/finetune/development-inputs.json",
+      "archivePath": "eval/dom-adaptation/finetune/plans/development-inputs.json",
+      "bytes": 1500167,
+      "sha256": "5316ae3e690f904bcd5150bf4bcc67a77977c1f458630ec24af895d1c112e697"
+    },
+    {
+      "originalPath": ".tmp/dom-adaptation/finetune/holdout-inputs.json",
+      "archivePath": "eval/dom-adaptation/finetune/plans/holdout-inputs.json",
+      "bytes": 473788,
+      "sha256": "2c32ffb67a364fb428a463ac56c7e3cce22d3b3f1a9ea526614ada146edd6ca9"
+    },
+    {
+      "originalPath": ".tmp/dom-adaptation/finetune/browser-jobs.json",
+      "archivePath": "eval/dom-adaptation/finetune/plans/browser-jobs.json",
+      "bytes": 260792,
+      "sha256": "a1cf8e5ed6b2df2acfc0d9c5354182a3c8d4cd78292879208dcdda49241a1d71"
+    }
+  ]
+}

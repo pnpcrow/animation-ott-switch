@@ -1,6 +1,6 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { createHash } from "node:crypto";
-import { corpusRecords, summarize, providerHeldoutFolds } from "./protocol.mjs";
+import { corpusRecords, summarize, providerHeldoutFolds, workIdentityOverrides } from "./protocol.mjs";
 
 const root = new URL("../../", import.meta.url);
 const read = async path => {
@@ -14,6 +14,7 @@ const report = {
   status: "consumed-development-only",
   note: "These folds have not been trained or evaluated. They define provider- and work-disjoint development experiments, not a new untouched benchmark.",
   sources: files.map(({ path, sha256 }) => ({ path, sha256 })),
+  workIdentityOverrides,
   summary: summarize(records),
   perProvider: [...new Set(records.map(x => x.provider))].sort().map(provider => ({ provider, ...summarize(records.filter(x => x.provider === provider)) })),
   folds: providerHeldoutFolds(records),

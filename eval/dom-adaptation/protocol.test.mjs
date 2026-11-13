@@ -45,3 +45,11 @@ test("unmatched inputs, duplicate labels and impossible gold targets fail closed
   assert.throws(() => corpusRecords([input], [{ ...label, expectedId: "missing" }]), /outside pool/);
   assert.throws(() => corpusRecords([input], [{ ...label, acceptedIds: ["t1", "__none__"] }]), /Ambiguous/);
 });
+test("reviewed explicit work search identity is purged despite historical none-search grouping", () => {
+  const url = "https://laftel.net/search?keyword=스파이%20패밀리";
+  const rows = corpusRecords([{ ...input, pageEvidence: { url } }], [{ ...label, provenance: { pageId: "new-search-laftel", work: "none-search", url } }]);
+  assert.equal(rows[0].work, "spy-family");
+  const fold = providerHeldoutFolds([...rows, { ...records[4], work: "spy-family" }]).find(x => x.provider === "apple");
+  assert.deepEqual(fold.excludedSameWorkIds, ["x"]);
+  assert.throws(() => corpusRecords([input], [{ ...label, provenance: { pageId: "new-search-laftel", work: "none-search", url } }]), /override evidence/);
+});

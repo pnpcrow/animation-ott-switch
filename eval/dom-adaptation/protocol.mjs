@@ -5,6 +5,16 @@ const providerDomains = {
   wavve: "wavve.com", tving: "tving.com", coupang: "coupangplay.com", watcha: "watcha.com",
 };
 
+// Historical provenance grouped this explicit work search under none-search.
+// This reviewed identity is used for partitioning only, never as a model feature.
+export const workIdentityOverrides = {
+  "new-search-laftel": {
+    work: "spy-family", provider: "laftel", pathname: "/search",
+    parameter: "keyword", value: "스파이 패밀리",
+    reason: "Observed source URL explicitly searches for the same work as spy-family-apple.",
+  },
+};
+
 export function providerFor(url) {
   const host = new URL(url).hostname.toLowerCase();
   const matches = Object.entries(providerDomains).filter(([, domain]) => host === domain || host.endsWith(`.${domain}`));
@@ -33,11 +43,18 @@ export function corpusRecords(inputs, labels) {
     const pageIdentity = `${provider}\0${work}`;
     if (pages.has(pageId) && pages.get(pageId) !== pageIdentity) throw new Error("Inconsistent page identity");
     pages.set(pageId, pageIdentity);
+    const override = workIdentityOverrides[pageId];
+    if (override) {
+      for (const source of [url, input.pageEvidence.url]) {
+        const parsed = new URL(source);
+        if (provider !== override.provider || parsed.pathname !== override.pathname || parsed.searchParams.get(override.parameter) !== override.value) throw new Error("Work identity override evidence mismatch");
+      }
+    }
     return {
       id: input.id, pageId, provider,
       // The historical dataset names no-work groups none-*. Named work searches
       // retain their work identity, even when their requested detail field is absent.
-      work: work.startsWith("none-") ? null : work,
+      work: override?.work ?? (work.startsWith("none-") ? null : work),
       field: input.field, positive: !accepted.includes("__none__"),
       concreteCandidates: options.filter(id => id !== "__none__").length,
       status: "consumed-development",
