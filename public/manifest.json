@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "OTT Switch · 작품 보관함",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "보고 싶은 작품을 다른 OTT에서 찾아 이동하고, 카테고리별로 나만의 작품 보관함을 만드세요.",
   "minimum_chrome_version": "120",
   "permissions": ["storage"],
