@@ -1,5 +1,10 @@
 import type { PageTitle } from "../core/types";
 import {
+  collectLocalField,
+  selectLocalField,
+  type LocalField,
+} from "./dom-local";
+import {
   canonicalizeProviderUrl,
   cleanPageTitle,
   cleanTitle,
@@ -373,8 +378,16 @@ export function extractPage(
   const choices = modal
     ? [authoritative[0] ?? "", heading ?? ""]
     : [authoritative[0] ?? "", heading ?? "", ...metadata];
-  const title = choices.find(isTitle);
-  if (!title) return null;
+  // Only fill missing values, after route/modal identity validation. Local DOM
+  // hints do not override provider/schema evidence or manufacture work identity.
+  const localValue = (field: LocalField) =>
+    selectLocalField(
+      collectLocalField(wavveHero || tvingHero || root, field, value),
+    )?.value ?? "";
+  const title =
+    choices.find(isTitle) ||
+    cleanPageTitle(localValue("title"), provider, "title", visualTitles);
+  if (!isTitle(title)) return null;
   if (tvingLogo) {
     const agrees = (candidate: string) => {
       const direct = cleanPageTitle(candidate, "tving", "metadata", [title]);
@@ -434,12 +447,13 @@ export function extractPage(
   const wavvePoster = wavveHero
     ?.querySelector(".player-area .poster-box img.poster-thumb")
     ?.getAttribute("src");
-  const imageUrl = safeImageUrl(
-    modal
-      ? text(modalImage)
-      : text(wavvePoster) || meta(document, "og:image") || text(image),
-    value,
-  );
+  const imageUrl =
+    safeImageUrl(
+      modal
+        ? text(modalImage)
+        : text(wavvePoster) || meta(document, "og:image") || text(image),
+      value,
+    ) || safeImageUrl(localValue("image"), value);
   const modalDescription = netflixOverlay
     ? root.querySelector(
         '.previewModal--text, [data-uia="title-info-synopsis"]',
@@ -450,8 +464,8 @@ export function extractPage(
   const wavveSynopsis = wavveHero?.querySelector(
     ".video-detail-area .detail-info-box.player-detail .content-clamp .text",
   );
-  const description = (
-    modal
+  const description =
+    (modal
       ? text(modalDescription)
       : descriptionText(wavveSynopsis?.getAttribute("aria-label")) ||
         descriptionText(wavveSynopsis?.textContent) ||
@@ -462,8 +476,9 @@ export function extractPage(
             '[data-uia="title-info-synopsis"], [data-testid="description"], .synopsis',
           )?.textContent,
         ) ||
-        descriptionText(meta(document, "description"))
-  ).slice(0, 12000);
+        descriptionText(meta(document, "description"))) ||
+    descriptionText(localValue("description"));
+  const limitedDescription = description.slice(0, 12000);
   const date =
     text(work?.datePublished ?? work?.startDate) ||
     (tvingHero
@@ -483,7 +498,7 @@ export function extractPage(
     provider,
     url,
     title,
-    description,
+    description: limitedDescription,
     imageUrl,
     aliases,
     ...(year && year >= 1888 && year <= 2200 ? { year } : {}),
