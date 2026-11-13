@@ -8,6 +8,11 @@ import {
   safeProviderUrl,
 } from "../providers/identity";
 import { searchProvider } from "../providers/search";
+import {
+  invalidateResolutions,
+  openResolved,
+  resolveProvider,
+} from "./resolution";
 
 const lookupCache = new Map<string, { at: number; results: Availability[] }>();
 const pending = new Map<string, Promise<Availability[]>>();
@@ -127,6 +132,7 @@ async function lookup(page: PageTitle, force = false): Promise<Availability[]> {
 }
 
 async function notifyChanged() {
+  invalidateResolutions();
   cacheGeneration++;
   lookupCache.clear();
   await chrome.runtime
@@ -189,6 +195,28 @@ async function handle(
       return repository.importBackup(...request.args);
     case "lookup":
       return lookup(...request.args);
+    case "resolveProvider": {
+      validatePage(request.args[0]);
+      if (!providers.some((p) => p.id === request.args[1]))
+        throw new Error("지원하지 않는 OTT입니다.");
+      return resolveProvider(...request.args);
+    }
+    case "openResolved": {
+      validatePage(request.args[0]);
+      if (
+        !providers.some((p) => p.id === request.args[1]) ||
+        (request.args[2] !== undefined &&
+          (typeof request.args[2] !== "string" ||
+            !safeProviderUrl(request.args[1], request.args[2])))
+      )
+        throw new Error("올바른 OTT 작품 주소가 아닙니다.");
+      return openResolved(
+        request.args[0],
+        request.args[1],
+        request.args[2],
+        sender,
+      );
+    }
     case "openLibrary":
       await chrome.tabs.create({ url: chrome.runtime.getURL("library.html") });
       return;
@@ -203,9 +231,14 @@ chrome.runtime.onMessage.addListener((request: Request, sender, reply) => {
     .then(async (data) => {
       reply({ ok: true, data });
       if (
-        !["snapshot", "exportBackup", "lookup", "openLibrary"].includes(
-          request.action,
-        )
+        ![
+          "snapshot",
+          "exportBackup",
+          "lookup",
+          "openLibrary",
+          "resolveProvider",
+          "openResolved",
+        ].includes(request.action)
       )
         await notifyChanged();
     })

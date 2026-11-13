@@ -194,6 +194,10 @@ function App() {
     results: Availability[];
   } | null>(null);
   const [searching, setSearching] = useState(false);
+  const [openingProviders, setOpeningProviders] = useState<ProviderId[]>([]);
+  const lookupGeneration = useRef(0);
+  const preferredResults = useRef(new Set<ProviderId>());
+  const selectedBookmarkId = useRef<string | null>(null);
   const [mobileDetail, setMobileDetail] = useState(false);
   const importRef = useRef<HTMLInputElement>(null);
   const searchRef = useRef<HTMLInputElement>(null);
@@ -304,6 +308,17 @@ function App() {
       setView("all");
   }, [view, snapshot, activeCategory]);
   const selected = filtered.find((b) => b.id === selectedId) ?? null;
+  selectedBookmarkId.current = selected?.id ?? null;
+  useEffect(() => {
+    lookupGeneration.current++;
+    preferredResults.current.clear();
+    setSearching(false);
+    setOpeningProviders([]);
+    setAvailability(null);
+    return () => {
+      lookupGeneration.current++;
+    };
+  }, [selected?.id]);
   const chooseView = (next: View) => {
     setView(next);
     setMobileDetail(false);
@@ -337,8 +352,8 @@ function App() {
     );
     return link
       ? {
-          title: bookmark.title,
-          aliases: bookmark.aliases,
+          title: link.title || bookmark.title,
+          aliases: [...new Set([...bookmark.aliases, bookmark.title])],
           description: bookmark.description,
           imageUrl: bookmark.imageUrl,
           year: bookmark.year,
@@ -356,19 +371,101 @@ function App() {
       });
       return;
     }
+    const generation = ++lookupGeneration.current;
+    preferredResults.current.clear();
+    setAvailability({ id: bookmark.id, results: [] });
     setSearching(true);
     try {
-      setAvailability({
-        id: bookmark.id,
-        results: await api.lookup(page, true),
+      const results = await api.lookup(page, true, (result) => {
+        if (
+          generation !== lookupGeneration.current ||
+          selectedBookmarkId.current !== bookmark.id ||
+          preferredResults.current.has(result.provider)
+        )
+          return;
+        setAvailability((current) => ({
+          id: bookmark.id,
+          results: [
+            ...(current?.id === bookmark.id
+              ? current.results.filter((r) => r.provider !== result.provider)
+              : []),
+            result,
+          ],
+        }));
       });
+      if (
+        generation === lookupGeneration.current &&
+        selectedBookmarkId.current === bookmark.id
+      )
+        setAvailability((current) => ({
+          id: bookmark.id,
+          results: results.map((result) =>
+            preferredResults.current.has(result.provider) &&
+            current?.id === bookmark.id
+              ? (current.results.find((r) => r.provider === result.provider) ??
+                result)
+              : result,
+          ),
+        }));
     } catch (e) {
+      if (generation === lookupGeneration.current)
+        setNotice({
+          text:
+            e instanceof Error ? e.message : "OTT 검색을 완료하지 못했어요.",
+          error: true,
+        });
+    } finally {
+      if (generation === lookupGeneration.current) setSearching(false);
+    }
+  };
+  const openResult = async (
+    bookmark: Bookmark,
+    provider: ProviderId,
+    candidateUrl?: string,
+  ) => {
+    const page = pageForBookmark(bookmark);
+    if (!page) {
       setNotice({
-        text: e instanceof Error ? e.message : "OTT 검색을 완료하지 못했어요.",
+        text: "작품 정보 편집에서 OTT 작품 주소를 먼저 추가해 주세요.",
         error: true,
       });
+      return;
+    }
+    const generation = lookupGeneration.current;
+    preferredResults.current.add(provider);
+    setOpeningProviders((current) => [...current, provider]);
+    try {
+      const result = await api.openResolved(page, provider, candidateUrl);
+      if (
+        generation !== lookupGeneration.current ||
+        selectedBookmarkId.current !== bookmark.id
+      )
+        return;
+      setAvailability((current) => ({
+        id: bookmark.id,
+        results: [
+          ...(current?.id === bookmark.id
+            ? current.results.filter((r) => r.provider !== provider)
+            : []),
+          result,
+        ],
+      }));
+      setNotice({
+        text:
+          result.status === "available" && result.opened !== false
+            ? "제목이 일치하는 작품 페이지로 이동했어요."
+            : result.reason || "동일한 작품을 확인하지 못했어요.",
+      });
+    } catch (e) {
+      if (generation === lookupGeneration.current)
+        setNotice({
+          text:
+            e instanceof Error ? e.message : "작품 페이지를 확인하지 못했어요.",
+          error: true,
+        });
     } finally {
-      setSearching(false);
+      if (generation === lookupGeneration.current)
+        setOpeningProviders((current) => current.filter((p) => p !== provider));
     }
   };
   const selectFile = async (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -538,7 +635,7 @@ function App() {
             >
               <CircleHelp size={18} />
             </button>
-            <span>v0.1</span>
+            <span>v0.1.1</span>
           </div>
         </div>
       </aside>
@@ -859,7 +956,7 @@ function App() {
                         </div>
                         <button
                           className="text-button"
-                          disabled={searching}
+                          disabled={searching || openingProviders.length > 0}
                           onClick={() => void lookup(selected)}
                         >
                           {searching ? (
@@ -870,6 +967,12 @@ function App() {
                           {searching ? "확인 중" : "다른 OTT 찾기"}
                         </button>
                       </div>
+                      {(searching || openingProviders.length > 0) && (
+                        <p className="lookup-caption" role="status">
+                          작품 확인용 검색 탭이 잠시 열리고, 확인이 끝나면
+                          자동으로 닫혀요.
+                        </p>
+                      )}
                       <div className="provider-grid">
                         {providers.map((provider) => {
                           const found =
@@ -879,6 +982,10 @@ function App() {
                                 )
                               : undefined;
                           const saved = selected.links[provider.id];
+                          const isOpening = openingProviders.includes(
+                            provider.id,
+                          );
+                          const isChecking = isOpening || (searching && !found);
                           const url =
                             found?.status === "available" && found.url
                               ? found.url
@@ -932,14 +1039,27 @@ function App() {
                                   <ExternalLink size={13} />
                                 </a>
                               ) : (
-                                <button className="switch-link" disabled>
-                                  {found?.status === "unavailable"
-                                    ? "검색 결과 없음"
-                                    : found?.status === "ambiguous"
-                                      ? "직접 확인 필요"
-                                      : found
-                                        ? "확인 불가"
-                                        : "미확인"}
+                                <button
+                                  className="switch-link"
+                                  disabled={
+                                    isChecking ||
+                                    found?.status === "unavailable"
+                                  }
+                                  aria-label={`${provider.name}에서 제목 확인 후 이동`}
+                                  onClick={() =>
+                                    void openResult(selected, provider.id)
+                                  }
+                                >
+                                  {isChecking ? (
+                                    <LoaderCircle className="spin" size={13} />
+                                  ) : (
+                                    <ArrowLeftRight size={13} />
+                                  )}
+                                  {isChecking
+                                    ? "확인 중"
+                                    : found?.status === "unavailable"
+                                      ? "검색 결과 없음"
+                                      : "찾아서 이동"}
                                 </button>
                               )}
                               <div className="provider-card-foot">
@@ -951,10 +1071,13 @@ function App() {
                                         ? "작품 페이지 확인됨"
                                         : "저장된 작품 링크"
                                     : found?.reason ||
-                                      "OTT에서 직접 검색할 수 있어요"}
+                                      "검색 결과의 제목을 확인해 작품으로 이동해요"}
                                 </span>
                                 <a
-                                  href={provider.searchUrl(selected.title)}
+                                  href={provider.searchUrl(
+                                    pageForBookmark(selected)?.title ||
+                                      selected.title,
+                                  )}
                                   target="_blank"
                                   rel="noopener noreferrer"
                                   aria-label={
@@ -964,10 +1087,46 @@ function App() {
                                     " 검색"
                                   }
                                 >
-                                  검색
+                                  직접 검색
                                   <ChevronRight size={12} />
                                 </a>
                               </div>
+                              {found?.status === "ambiguous" && (
+                                <details className="provider-candidates">
+                                  <summary>
+                                    같은 제목의 작품{" "}
+                                    {found.candidates?.length || 0}개
+                                  </summary>
+                                  {found.candidates
+                                    ?.filter((candidate) =>
+                                      safeProviderUrl(
+                                        provider.id,
+                                        candidate.url,
+                                      ),
+                                    )
+                                    .map((candidate) => (
+                                      <div key={candidate.url}>
+                                        <span>{candidate.title}</span>
+                                        <button
+                                          className="text-button"
+                                          disabled={isOpening}
+                                          onClick={() =>
+                                            void openResult(
+                                              selected,
+                                              provider.id,
+                                              candidate.url,
+                                            )
+                                          }
+                                        >
+                                          {isOpening
+                                            ? "확인 중…"
+                                            : "이 작품으로 이동"}
+                                          <ExternalLink size={12} />
+                                        </button>
+                                      </div>
+                                    ))}
+                                </details>
+                              )}
                             </div>
                           );
                         })}
@@ -1597,8 +1756,9 @@ function ModalContent({
           <div>
             <h3>구독하는 OTT로 스위치</h3>
             <p>
-              확인된 작품은 바로 이동할 수 있습니다. 로그인이 필요하거나 동명
-              작품이 있으면 직접 검색해서 작품 주소를 연결해 주세요.
+              제목이 일치하는 작품을 확인하면 상세 페이지로 바로 이동합니다.
+              같은 제목이 여러 개면 후보를 고르고, 로그인이 필요하면 해당
+              OTT에서 로그인한 뒤 다시 확인해 주세요.
             </p>
           </div>
         </div>

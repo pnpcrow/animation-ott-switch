@@ -17,6 +17,7 @@ import type {
   Availability,
   LibrarySnapshot,
   PageTitle,
+  ProviderId,
   ProviderLink,
 } from "../core/types";
 import {
@@ -32,11 +33,13 @@ export function Overlay({ page }: { page: PageTitle }) {
   const [results, setResults] = useState<Availability[]>([]);
   const [manualProviders, setManualProviders] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
+  const [opening, setOpening] = useState<ProviderId[]>([]);
   const [saving, setSaving] = useState(false);
   const [notice, setNotice] = useState("");
   const [error, setError] = useState("");
   const trigger = useRef<HTMLButtonElement>(null);
   const generation = useRef(0);
+  const preferredResults = useRef(new Set<ProviderId>());
   const pageKey = page.url + page.title;
   const saved = snapshot?.bookmarks.find(
     (b) =>
@@ -78,6 +81,9 @@ export function Overlay({ page }: { page: PageTitle }) {
   useEffect(() => {
     setResults([]);
     setManualProviders([]);
+    setOpening([]);
+    setLoading(false);
+    preferredResults.current.clear();
     setNotice("");
     setError("");
     generation.current++;
@@ -87,13 +93,62 @@ export function Overlay({ page }: { page: PageTitle }) {
     setLoading(true);
     setError("");
     setManualProviders([]);
+    preferredResults.current.clear();
     try {
-      const next = await api.lookup(page, force);
-      if (id === generation.current) setResults(next);
+      const next = await api.lookup(page, force, (result) => {
+        if (
+          id !== generation.current ||
+          preferredResults.current.has(result.provider)
+        )
+          return;
+        setResults((current) => [
+          ...current.filter((r) => r.provider !== result.provider),
+          result,
+        ]);
+      });
+      if (id === generation.current)
+        setResults((current) =>
+          next.map((result) =>
+            preferredResults.current.has(result.provider)
+              ? (current.find((r) => r.provider === result.provider) ?? result)
+              : result,
+          ),
+        );
     } catch (e) {
       if (id === generation.current) setError((e as Error).message);
     } finally {
       if (id === generation.current) setLoading(false);
+    }
+  }
+  async function openResult(provider: ProviderId, candidateUrl?: string) {
+    const id = generation.current;
+    preferredResults.current.add(provider);
+    setOpening((current) => [...current, provider]);
+    setError("");
+    try {
+      const result = await api.openResolved(page, provider, candidateUrl);
+      if (id !== generation.current) return;
+      setResults((current) => [
+        ...current.filter((r) => r.provider !== provider),
+        result,
+      ]);
+      if (result.status === "available") {
+        if (candidateUrl)
+          setManualProviders((current) => [...new Set([...current, provider])]);
+        setNotice(
+          result.opened === false
+            ? result.reason ||
+                "작품을 확인했어요. 스위치를 눌러 이동할 수 있어요."
+            : "제목이 일치하는 작품 페이지로 이동했어요. 저장하면 이 연결을 보관할 수 있어요.",
+        );
+      } else {
+        setNotice(result.reason || "동일한 작품을 확인하지 못했어요.");
+      }
+    } catch (e) {
+      if (id === generation.current) setError((e as Error).message);
+    } finally {
+      if (id === generation.current)
+        setOpening((current) => current.filter((p) => p !== provider));
     }
   }
   useEffect(() => {
@@ -319,7 +374,7 @@ export function Overlay({ page }: { page: PageTitle }) {
                 <button
                   aria-label="OTT 다시 확인"
                   title="다시 확인"
-                  disabled={loading}
+                  disabled={loading || opening.length > 0}
                   onClick={() => {
                     void search(true);
                   }}
@@ -328,8 +383,14 @@ export function Overlay({ page }: { page: PageTitle }) {
                 </button>
               </div>
               <p className="switch-muted">
-                한국 기준 · 구독 중인 OTT가 먼저 표시돼요.
+                한국 기준 · 제목이 일치하는 작품 페이지로 바로 이동해요.
               </p>
+              {(loading || opening.length > 0) && (
+                <p className="switch-muted" role="status">
+                  작품 확인용 검색 탭이 잠시 열리고, 확인이 끝나면 자동으로
+                  닫혀요.
+                </p>
+              )}
               <div className="switch-service-list">
                 {ordered.map((provider) => {
                   const result = results.find(
@@ -340,22 +401,23 @@ export function Overlay({ page }: { page: PageTitle }) {
                     result.url &&
                     safeProviderUrl(provider.id, result.url);
                   const current = provider.id === page.provider;
+                  const isOpening = opening.includes(provider.id);
+                  const isChecking = isOpening || (loading && !result);
                   const subscribed =
                     snapshot?.settings.subscribedProviders.includes(
                       provider.id,
                     );
-                  const state =
-                    loading && !result
-                      ? "확인 중"
-                      : result?.status === "unavailable"
-                        ? "검색 결과 없음"
-                        : result?.status === "ambiguous"
-                          ? "동일 작품 확인 필요"
-                          : available
-                            ? current
-                              ? "현재 페이지"
-                              : "작품 페이지 확인"
-                            : "확인 필요";
+                  const state = isChecking
+                    ? "확인 중"
+                    : result?.status === "unavailable"
+                      ? "검색 결과 없음"
+                      : result?.status === "ambiguous"
+                        ? "동일 작품 확인 필요"
+                        : available
+                          ? current
+                            ? "현재 페이지"
+                            : "작품 페이지 확인"
+                          : "확인 필요";
                   return (
                     <div
                       className={`switch-service ${subscribed ? "subscribed" : ""}`}
@@ -387,9 +449,29 @@ export function Overlay({ page }: { page: PageTitle }) {
                           >
                             스위치 <ArrowUpRight size={12} />
                           </a>
-                        ) : (
+                        ) : current ? (
                           <button className="switch-go disabled" disabled>
-                            {current ? "현재" : "스위치"}
+                            현재
+                          </button>
+                        ) : (
+                          <button
+                            className="switch-go"
+                            disabled={
+                              isChecking || result?.status === "unavailable"
+                            }
+                            onClick={() => void openResult(provider.id)}
+                            aria-label={`${provider.name}에서 제목 확인 후 이동`}
+                          >
+                            {isChecking ? (
+                              <LoaderCircle className="spin" size={12} />
+                            ) : (
+                              <ArrowUpRight size={12} />
+                            )}
+                            {isChecking
+                              ? "확인 중"
+                              : result?.status === "unavailable"
+                                ? "검색 결과 없음"
+                                : "찾아서 이동"}
                           </button>
                         )}
                         {!current && !available && (
@@ -418,41 +500,14 @@ export function Overlay({ page }: { page: PageTitle }) {
                             ?.filter((c) => safeProviderUrl(provider.id, c.url))
                             .map((candidate) => (
                               <div key={candidate.url}>
-                                <a
-                                  href={candidate.url}
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                >
-                                  {candidate.title} <ArrowUpRight size={11} />
-                                </a>
+                                <span>{candidate.title}</span>
                                 <button
-                                  disabled={loading}
-                                  onClick={() => {
-                                    setManualProviders([
-                                      ...manualProviders,
-                                      provider.id,
-                                    ]);
-                                    setResults(
-                                      results.map((r) =>
-                                        r.provider === provider.id
-                                          ? {
-                                              ...r,
-                                              status: "available",
-                                              url: candidate.url,
-                                              title: candidate.title,
-                                              checkedAt: Date.now(),
-                                              reason:
-                                                "직접 선택한 작품입니다. 저장하면 연결을 보관합니다.",
-                                            }
-                                          : r,
-                                      ),
-                                    );
-                                    setNotice(
-                                      "버전을 선택했어요. 위의 저장 버튼으로 연결을 보관하세요.",
-                                    );
-                                  }}
+                                  disabled={isOpening}
+                                  onClick={() =>
+                                    void openResult(provider.id, candidate.url)
+                                  }
                                 >
-                                  이 버전 선택
+                                  {isOpening ? "확인 중…" : "이 작품으로 이동"}
                                 </button>
                               </div>
                             ))}
@@ -463,8 +518,9 @@ export function Overlay({ page }: { page: PageTitle }) {
                 })}
               </div>
               <p className="switch-footnote">
-                로그인·지역 제한이 있으면 직접 검색해 확인해 주세요. 작품
-                페이지가 있어도 구독 포함 여부는 서비스마다 달라요.
+                검색 결과와 상세 제목을 확인한 뒤 이동해요. 로그인·접근 확인이
+                필요하면 직접 검색을 이용해 주세요. 구독 포함 여부는 서비스마다
+                달라요.
               </p>
             </section>
           </div>

@@ -88,6 +88,8 @@ test("extension worker persists bookmarks, categories, settings and validates ba
 });
 
 test("overlay detects details, saves custom metadata, hides during playback and on search routes", async () => {
+  // This storage/visibility test does not invoke live logged-in provider resolution.
+  await rpc("updateSettings", [{ subscribedProviders: [] }]);
   await rpc("saveBookmark", [
     {
       page: {

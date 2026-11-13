@@ -459,6 +459,18 @@ p {
   gap: 2px;
   max-width: 190px;
 }
+.switch-candidates > div > span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+.switch-service-actions .switch-go:disabled {
+  background: #262b2f;
+  color: #828b90;
+  border-color: #30373c;
+}
+.switch-candidates button:disabled {
+  opacity: 0.55;
+}
 .switch-candidates button {
   flex-shrink: 0;
   border: 1px solid #5a604c;

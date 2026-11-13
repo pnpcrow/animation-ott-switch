@@ -1,0 +1,82 @@
+import { afterEach, describe, expect, it, vi } from "vitest";
+import { readDetailPage } from "../src/providers/search";
+
+const netflix = "https://www.netflix.com/title/12345678";
+const html =
+  '<html><head><title>Watch Frieren – Netflix Official Site</title><meta property="og:title" content="Watch Frieren"><meta property="og:description" content="A long journey."></head><body><h1>Frieren</h1></body></html>';
+afterEach(() => vi.unstubAllGlobals());
+
+describe("official detail title refresh", () => {
+  it("reads the original source page and returns a cleaned title", async () => {
+    const fetchMock = vi.fn().mockResolvedValue(new Response(html));
+    vi.stubGlobal("fetch", fetchMock);
+    expect(await readDetailPage("netflix", netflix)).toMatchObject({
+      provider: "netflix",
+      url: netflix,
+      title: "Frieren",
+      description: "A long journey.",
+    });
+    expect(fetchMock).toHaveBeenCalledWith(
+      netflix,
+      expect.objectContaining({
+        credentials: "omit",
+        signal: expect.any(AbortSignal),
+      }),
+    );
+  });
+
+  it.each([
+    "https://www.netflix.com/search?q=Frieren",
+    "https://www.netflix.com.evil.test/title/12345678",
+    "https://www.netflix.com/watch/12345678",
+    "https://laftel.net/item/12345678",
+    "javascript:alert(1)",
+  ])("refuses to request an unsafe or non-detail URL: %s", async (url) => {
+    const fetchMock = vi.fn();
+    vi.stubGlobal("fetch", fetchMock);
+    expect(await readDetailPage("netflix", url)).toBeNull();
+    expect(fetchMock).not.toHaveBeenCalled();
+  });
+
+  it("returns null for blocks, timeouts, an oversized page, and malformed metadata", async () => {
+    const fetchMock = vi
+      .fn()
+      .mockResolvedValueOnce(new Response("blocked", { status: 403 }))
+      .mockRejectedValueOnce(new DOMException("timeout", "TimeoutError"))
+      .mockResolvedValueOnce(
+        new Response(html, { headers: { "content-length": "9000000" } }),
+      )
+      .mockResolvedValueOnce(
+        new Response("<html><head><title>Netflix</title></head></html>"),
+      );
+    vi.stubGlobal("fetch", fetchMock);
+    for (let i = 0; i < 4; i++)
+      expect(await readDetailPage("netflix", netflix)).toBeNull();
+  });
+
+  it("rejects redirects to another work instead of changing the source identity", async () => {
+    const response = new Response(html);
+    Object.defineProperty(response, "url", {
+      value: "https://www.netflix.com/title/99999999",
+    });
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue(response));
+    expect(await readDetailPage("netflix", netflix)).toBeNull();
+  });
+
+  it("accepts a localized redirect that keeps the same official work ID", async () => {
+    const response = new Response(html);
+    Object.defineProperty(response, "url", {
+      value: "https://www.netflix.com/kr/title/12345678",
+    });
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue(response));
+    expect((await readDetailPage("netflix", netflix))?.title).toBe("Frieren");
+  });
+
+  it("rejects stale canonical metadata after a SPA-style source transition", async () => {
+    const response = new Response(
+      '<html><head><title>Watch Frieren | Netflix</title><meta property="og:url" content="https://www.netflix.com/title/99999999"></head></html>',
+    );
+    vi.stubGlobal("fetch", vi.fn().mockResolvedValue(response));
+    expect(await readDetailPage("netflix", netflix)).toBeNull();
+  });
+});

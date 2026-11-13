@@ -6,6 +6,7 @@ import type {
   Category,
   LibrarySnapshot,
   PageTitle,
+  ProviderId,
   SaveBookmarkInput,
   Settings,
 } from "./types";
@@ -31,6 +32,14 @@ export interface ApiMethods {
     result: { bookmarks: number; categories: number };
   };
   lookup: { args: [PageTitle, boolean?]; result: Availability[] };
+  resolveProvider: {
+    args: [PageTitle, ProviderId, boolean?];
+    result: Availability;
+  };
+  openResolved: {
+    args: [PageTitle, ProviderId, string?];
+    result: Availability;
+  };
   openLibrary: { args: []; result: void };
 }
 export type Action = keyof ApiMethods;
@@ -64,6 +73,14 @@ async function call<A extends Action>(
     return response.data;
   }
   // Dev preview uses an isolated localhost IndexedDB, never the extension database.
+  if (action === "resolveProvider" || action === "openResolved") {
+    return {
+      provider: args[1],
+      status: "unknown",
+      checkedAt: Date.now(),
+      reason: "작품 확인과 이동은 설치된 확장 프로그램에서 사용할 수 있습니다.",
+    } as ApiMethods[A]["result"];
+  }
   if (action === "lookup") {
     const { providers } = await import("../providers/identity");
     return providers.map((p) => ({
@@ -77,7 +94,10 @@ async function call<A extends Action>(
   if (action === "openLibrary") return undefined as ApiMethods[A]["result"];
   const { repository } = await import("./repository");
   const fn = repository[
-    action as Exclude<Action, "lookup" | "openLibrary">
+    action as Exclude<
+      Action,
+      "lookup" | "openLibrary" | "resolveProvider" | "openResolved"
+    >
   ] as (...values: unknown[]) => Promise<unknown>;
   const data = await fn.apply(repository, args);
   if (!["snapshot", "exportBackup"].includes(action))
@@ -101,7 +121,25 @@ export const api = {
   ) => call("updateSettings", patch),
   exportBackup: (categoryIds?: string[]) => call("exportBackup", categoryIds),
   importBackup: (raw: unknown) => call("importBackup", raw),
-  lookup: (page: PageTitle, force?: boolean) => call("lookup", page, force),
+  async lookup(
+    page: PageTitle,
+    force?: boolean,
+    onProgress?: (result: Availability) => void,
+  ): Promise<Availability[]> {
+    const { providers } = await import("../providers/identity");
+    return Promise.all(
+      providers.map(async (provider) => {
+        const result = await call("resolveProvider", page, provider.id, force);
+        onProgress?.(result);
+        return result;
+      }),
+    );
+  },
+  openResolved: (
+    page: PageTitle,
+    provider: ProviderId,
+    candidateUrl?: string,
+  ) => call("openResolved", page, provider, candidateUrl),
   openLibrary: () => call("openLibrary"),
   subscribe(listener: () => void) {
     if (!isExtension()) {

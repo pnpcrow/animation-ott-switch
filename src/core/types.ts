@@ -34,6 +34,8 @@ export interface Availability {
   url?: string;
   title?: string;
   reason?: string;
+  /** False when a verified switch was cancelled because the source tab moved. */
+  opened?: boolean;
   candidates?: { title: string; url: string }[];
 }
 export interface Revision {
