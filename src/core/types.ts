@@ -1,5 +1,16 @@
-export type ProviderId = 'laftel' | 'aniplus' | 'crunchyroll' | 'netflix' | 'prime' | 'apple' | 'wavve' | 'tving' | 'coupang' | 'watcha';
-export type AvailabilityStatus = 'available' | 'unavailable' | 'unknown' | 'ambiguous';
+export type ProviderId =
+  | "laftel"
+  | "aniplus"
+  | "crunchyroll"
+  | "netflix"
+  | "prime"
+  | "apple"
+  | "wavve"
+  | "tving"
+  | "coupang"
+  | "watcha";
+export type AvailabilityStatus =
+  "available" | "unavailable" | "unknown" | "ambiguous";
 export interface PageTitle {
   title: string;
   description: string;
@@ -14,7 +25,7 @@ export interface ProviderLink {
   url: string;
   title: string;
   verifiedAt: number;
-  source: 'page' | 'search' | 'manual';
+  source: "page" | "search" | "manual";
 }
 export interface Availability {
   provider: ProviderId;
@@ -25,7 +36,11 @@ export interface Availability {
   reason?: string;
   candidates?: { title: string; url: string }[];
 }
-export interface Revision { updatedAt: number; deviceId: string; deletedAt?: number }
+export interface Revision {
+  updatedAt: number;
+  deviceId: string;
+  deletedAt?: number;
+}
 export interface Bookmark extends Revision {
   id: string;
   title: string;
@@ -39,10 +54,52 @@ export interface Bookmark extends Revision {
   notes: string;
   createdAt: number;
 }
-export interface Category extends Revision { id: string; name: string; color: string; createdAt: number }
-export interface Settings extends Revision { id: 'settings'; subscribedProviders: ProviderId[]; region: string; openInNewTab: boolean }
-export interface LibrarySnapshot { schemaVersion: 1; bookmarks: Bookmark[]; categories: Category[]; settings: Settings }
-export interface BackupEnvelope { format: 'ott-switch'; schemaVersion: 1; exportedAt: number; scope: 'full' | 'group'; data: LibrarySnapshot }
-export type BookmarkPatch = Partial<Pick<Bookmark, 'title' | 'aliases' | 'description' | 'imageUrl' | 'year' | 'categoryIds' | 'links' | 'favorite' | 'notes'>>;
-export interface SaveBookmarkInput { page: PageTitle; categoryIds: string[]; links?: Partial<Record<ProviderId, ProviderLink>> }
-export interface ProviderDefinition { id: ProviderId; name: string; color: string; searchUrl: (title: string) => string }
+export interface Category extends Revision {
+  id: string;
+  name: string;
+  color: string;
+  createdAt: number;
+}
+export interface Settings extends Revision {
+  id: "settings";
+  subscribedProviders: ProviderId[];
+  region: string;
+  openInNewTab: boolean;
+}
+export interface LibrarySnapshot {
+  schemaVersion: 1;
+  bookmarks: Bookmark[];
+  categories: Category[];
+  settings: Settings;
+}
+export interface BackupEnvelope {
+  format: "ott-switch";
+  schemaVersion: 1;
+  exportedAt: number;
+  scope: "full" | "group";
+  data: LibrarySnapshot;
+}
+export type BookmarkPatch = Partial<
+  Pick<
+    Bookmark,
+    | "title"
+    | "aliases"
+    | "description"
+    | "imageUrl"
+    | "categoryIds"
+    | "links"
+    | "favorite"
+    | "notes"
+  >
+> & { year?: number | null };
+export interface SaveBookmarkInput {
+  page: PageTitle;
+  categoryIds: string[];
+  links?: Partial<Record<ProviderId, ProviderLink>>;
+}
+export interface ProviderDefinition {
+  id: ProviderId;
+  name: string;
+  color: string;
+  searchUrl: (title: string) => string;
+}
