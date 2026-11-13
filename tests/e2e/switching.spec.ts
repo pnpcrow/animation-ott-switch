@@ -11,7 +11,8 @@ import { tmpdir } from "node:os";
 import { join, resolve } from "node:path";
 import { removeTestProfile } from "./profile";
 
-type FixtureMode = "exact" | "mismatch" | "ambiguous";
+type FixtureMode =
+  "exact" | "mismatch" | "ambiguous" | "literal" | "literal-mismatch";
 let context: BrowserContext;
 let profile: string;
 let source: Page;
@@ -26,19 +27,23 @@ function sourceHtml() {
   return `<!doctype html><html><head><title>Watch Frieren | Crunchyroll</title><meta property="og:title" content="Watch Frieren | Crunchyroll"><meta property="og:url" content="${sourceUrl}"><meta property="og:description" content="A mage begins a new journey."></head><body><h1>Watch Frieren</h1></body></html>`;
 }
 function searchHtml() {
-  const cards = [
-    '<div class="title-card"><a href="/title/900099"><span class="fallback-text">Frieren Season 2</span></a></div>',
-    '<div class="title-card"><a href="/title/900001"><span class="fallback-text">Frieren</span></a></div>',
-    ...(mode === "ambiguous"
-      ? [
-          '<div class="title-card"><a href="/title/900002"><span class="fallback-text">Frieren</span></a></div>',
-        ]
-      : []),
-  ];
+  const cards = mode.startsWith("literal")
+    ? [
+        `<article><a href="/title/900099"><img alt="포스터"></a><button onclick="location.assign('/title/900001')"><h3>Frieren</h3></button></article>`,
+      ]
+    : [
+        '<div class="title-card"><a href="/title/900099"><span class="fallback-text">Frieren Season 2</span></a></div>',
+        '<div class="title-card"><a href="/title/900001"><span class="fallback-text">Frieren</span></a></div>',
+        ...(mode === "ambiguous"
+          ? [
+              '<div class="title-card"><a href="/title/900002"><span class="fallback-text">Frieren</span></a></div>',
+            ]
+          : []),
+      ];
   return `<!doctype html><html><head><title>Netflix Search</title></head><body><main id="results" class="search-results"><p>Loading results</p></main><script>setTimeout(() => { document.getElementById('results').innerHTML = ${JSON.stringify(cards.join(""))}; }, 250);</script></body></html>`;
 }
 function detailHtml(url: string) {
-  const title = mode === "mismatch" ? "A Different Story" : "Frieren";
+  const title = mode.endsWith("mismatch") ? "A Different Story" : "Frieren";
   return `<!doctype html><html><head><title>${title} | Netflix</title><meta property="og:title" content="${title} | Netflix"><meta property="og:url" content="${url}"><meta property="og:description" content="A verified fixture detail."></head><body><h1>${title}</h1></body></html>`;
 }
 
@@ -169,6 +174,48 @@ test("does not open a result whose detail title differs from the searched title"
   ).toBe(false);
   expect(source.url()).toBe(sourceUrl);
   expect(searchQueries).toEqual(["Frieren"]);
+});
+
+test("uses a literal JS work URL without borrowing its heading for a neighboring poster", async () => {
+  mode = "literal";
+  await source
+    .getByRole("button", { name: "Netflix에서 제목 확인 후 이동" })
+    .click();
+  await expect(
+    source
+      .locator(".switch-service")
+      .filter({ has: source.getByText("Netflix", { exact: true }) })
+      .getByRole("link", { name: "스위치" }),
+  ).toHaveAttribute("href", titleUrl, { timeout: 15000 });
+  await expect
+    .poll(
+      () => context.pages().filter((page) => page.url() === titleUrl).length,
+    )
+    .toBe(1);
+  expect(searchQueries).toEqual(["Frieren"]);
+});
+
+test("still verifies the actual detail behind a literal JS work URL", async () => {
+  mode = "literal-mismatch";
+  const helperCreated = context.waitForEvent("page");
+  await source
+    .getByRole("button", { name: "Netflix에서 제목 확인 후 이동" })
+    .click();
+  const helper = await helperCreated;
+  await expect(
+    source
+      .getByText(
+        "검색 결과와 상세 작품의 제목·연도가 다릅니다. 자동으로 이동하지 않았습니다.",
+      )
+      .first(),
+  ).toBeVisible({ timeout: 15000 });
+  await expect.poll(() => helper.isClosed()).toBe(true);
+  expect(
+    context
+      .pages()
+      .some((page) => page.url().startsWith("https://www.netflix.com/")),
+  ).toBe(false);
+  expect(source.url()).toBe(sourceUrl);
 });
 
 test("keeps matching versions ambiguous until the selected detail has been verified", async () => {

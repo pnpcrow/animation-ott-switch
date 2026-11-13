@@ -1,4 +1,4 @@
-import { describe, expect, it } from "vitest";
+import { describe, expect, it, vi } from "vitest";
 import { parseHTML } from "linkedom";
 import {
   isSearchUrl,
@@ -92,6 +92,47 @@ describe("rendered official search pages", () => {
     ]);
     expect(result.complete).toBe(false);
   });
+  it("does not borrow another work's heading from a shared article", () => {
+    const result = search(
+      "laftel",
+      `<main><article><a href="/item/1" aria-label="장송의 프리렌"><img alt="포스터"></a><a href="/item/2"><h3>약사의 혼잣말</h3></a><a href="/item/3">자세히 보기</a></article></main>`,
+    );
+    expect(result.candidates).toEqual([
+      { title: "장송의 프리렌", url: "https://laftel.net/item/1" },
+      { title: "약사의 혼잣말", url: "https://laftel.net/item/2" },
+    ]);
+  });
+  it.each(["article", "li"])(
+    "keeps sibling titles inside each small island of a shared %s",
+    (container) => {
+      const result = search(
+        "laftel",
+        `<main><${container}><div><a href="/item/1"><img alt="포스터"></a><h3>장송의 프리렌</h3></div><div><a href="/item/2"><img alt="포스터"></a><h3>약사의 혼잣말</h3></div></${container}></main>`,
+      );
+      expect(result.candidates).toEqual([
+        { title: "장송의 프리렌", url: "https://laftel.net/item/1" },
+        { title: "약사의 혼잣말", url: "https://laftel.net/item/2" },
+      ]);
+    },
+  );
+  it("allows one card's sibling title and duplicate links to the same work", () => {
+    const result = search(
+      "netflix",
+      `<main><div class="title-card"><a href="/watch/81726714?trackId=123"><img alt="포스터"></a><h3>장송의 프리렌</h3><a href="/title/81726714">More info</a></div></main>`,
+    );
+    expect(result.candidates).toEqual([
+      { title: "장송의 프리렌", url: "https://www.netflix.com/title/81726714" },
+    ]);
+  });
+  it("ignores hidden, nested-card and external-link titles around a work link", () => {
+    const result = search(
+      "laftel",
+      `<main><article><a href="/item/1" aria-label="장송의 프리렌"><img alt="포스터"></a><h3 hidden>숨겨진 작품</h3><h3 style="display: none">이전 작품</h3><div class="content-card"><h3>다른 카드의 작품</h3></div><a href="https://example.test/news"><h3>다른 페이지 제목</h3></a></article></main>`,
+    );
+    expect(result.candidates).toEqual([
+      { title: "장송의 프리렌", url: "https://laftel.net/item/1" },
+    ]);
+  });
   it("extracts Apple and Crunchyroll title evidence without returning search or episode links", () => {
     expect(
       search(
@@ -157,6 +198,124 @@ describe("rendered official search pages", () => {
     );
     expect(result.candidates).toEqual([]);
     expect(result.complete).toBe(false);
+  });
+  it.each([
+    'data-url="/item/41666"',
+    'data-href="/item/41666"',
+    `onclick="location.assign('/item/41666')"`,
+  ])("reads a declared detail action with its own title: %s", (attributes) => {
+    const result = search(
+      "laftel",
+      `<main><button ${attributes}>\n  <h3>장송의 프리렌</h3>\n</button></main>`,
+    );
+    expect(result.candidates).toEqual([
+      { title: "장송의 프리렌", url: "https://laftel.net/item/41666" },
+    ]);
+    expect(result.complete).toBe(false);
+    expect(result.actions).toBeUndefined();
+  });
+  it("uses the literal handler destination instead of its fallback href", () => {
+    const result = search(
+      "laftel",
+      `<main><a href="/item/1" onclick="location.href='/item/2'" aria-label="장송의 프리렌">자세히 보기</a></main>`,
+    );
+    expect(result.candidates).toEqual([
+      { title: "장송의 프리렌", url: "https://laftel.net/item/2" },
+    ]);
+  });
+  it("does not resolve or click unknown actions, including anchors with fallback hrefs", () => {
+    const document = documentFor(
+      `<main><a href="/item/1" onclick="route(workId)">장송의 프리렌</a><button onclick="location.href=getUrl()">장송의 프리렌</button></main>`,
+    );
+    const clicked = vi.fn();
+    document.querySelector("a")!.addEventListener("click", clicked);
+    document.querySelector("button")!.addEventListener("click", clicked);
+    const result = readSearchResults(
+      document,
+      "laftel",
+      "https://laftel.net/search?keyword=프리렌",
+    );
+    expect(result.candidates).toEqual([]);
+    expect(result.actions).toBeUndefined();
+    expect(clicked).not.toHaveBeenCalled();
+  });
+  it("does not accept unsafe, search, hidden, recommendation or episode action targets", () => {
+    const result = search(
+      "laftel",
+      `<main><button data-url="https://evil.test/item/1">장송의 프리렌</button><button data-url="/search?keyword=프리렌">장송의 프리렌</button><button data-url="/item/2?access_token=secret">장송의 프리렌</button><button data-url="/account/item/3">장송의 프리렌</button><button data-url="javascript:alert(1)">장송의 프리렌</button><button data-url="/item/4" hidden>장송의 프리렌</button><section aria-label="추천"><button data-url="/item/5">장송의 프리렌</button></section><div class="episode-card"><button data-url="/item/6">장송의 프리렌</button></div><nav><button data-url="/item/7">장송의 프리렌</button></nav></main>`,
+    );
+    expect(result.candidates).toEqual([]);
+    expect(result.actions).toBeUndefined();
+  });
+  it("does not borrow neighboring titles or accept clipped action text", () => {
+    const result = search(
+      "laftel",
+      `<main><article><h3>장송의 프리렌</h3><button data-url="/item/1">자세히 보기</button></article><button data-url="/item/2">${"긴 설명 ".repeat(100)}</button></main>`,
+    );
+    expect(result.candidates).toEqual([]);
+  });
+  it("does not borrow a shared heading across an unresolved sibling action", () => {
+    const result = search(
+      "laftel",
+      `<main><article><a href="/item/1"><img alt="포스터"></a><a href="/item/2" onclick="route(workId)">자세히 보기</a><h3>다른 작품 제목</h3></article></main>`,
+    );
+    expect(result.candidates).toEqual([]);
+  });
+  it.each([
+    ['div data-url="/item/2"', "div", true],
+    ['div data-href="/item/2"', "div", true],
+    [`button onclick="location.assign('/item/2')"`, "button", true],
+    ['button onclick="openWork(workId)"', "button", false],
+    ['div role="button"', "div", false],
+    ['div data-action="showWork"', "div", false],
+    ["button", "button", false],
+  ] as const)(
+    "keeps a non-anchor action's heading away from a neighboring anchor: %s",
+    (opening, closing, hasLiteralTarget) => {
+      const result = search(
+        "laftel",
+        `<main><article><a href="/item/1"><img alt="포스터"></a><${opening}><h3>다른 작품 제목</h3></${closing}></article></main>`,
+      );
+      expect(result.candidates).toEqual(
+        hasLiteralTarget
+          ? [{ title: "다른 작품 제목", url: "https://laftel.net/item/2" }]
+          : [],
+      );
+    },
+  );
+  it("retains a small island's own sibling title before unrelated outer actions", () => {
+    const result = search(
+      "laftel",
+      `<main><article><div><a href="/item/1"><img alt="포스터"></a><h3>장송의 프리렌</h3></div><button onclick="openWork(workId)"><h3>다른 작품 제목</h3></button></article></main>`,
+    );
+    expect(result.candidates).toEqual([
+      { title: "장송의 프리렌", url: "https://laftel.net/item/1" },
+    ]);
+  });
+  it("cleans action title wrappers and preserves stronger owned anchor evidence", () => {
+    const result = search(
+      "crunchyroll",
+      `<main><a href="/series/G123"><h3>장송의 프리렌</h3></a><button data-url="/series/G123" aria-label="Watch 다른 제목">다른 제목</button><button data-url="/series/G456" aria-label="Watch 약사의 혼잣말"><img alt="약사의 혼잣말"></button></main>`,
+    );
+    expect(result.candidates).toEqual([
+      {
+        title: "장송의 프리렌",
+        url: "https://www.crunchyroll.com/series/G123",
+      },
+      {
+        title: "약사의 혼잣말",
+        url: "https://www.crunchyroll.com/series/G456",
+      },
+    ]);
+  });
+  it("keeps verified provider-specific opaque actions available without inventing URLs", () => {
+    const result = search(
+      "wavve",
+      `<main><section><h2>프로그램1</h2><a role="button" href="javascript:void(0)" onclick="openProgram(workId)" aria-label="장송의 프리렌"><img alt="장송의 프리렌" src="https://image.wavve.com/poster.jpg"><div aria-hidden="true">장송의 프리렌</div></a></section></main>`,
+    );
+    expect(result.candidates).toEqual([]);
+    expect(result.actions).toHaveLength(1);
+    expect(result.actions?.[0].title).toBe("장송의 프리렌");
   });
   it("treats explicit empty results as exhaustive but ignores hidden empty placeholders", () => {
     expect(

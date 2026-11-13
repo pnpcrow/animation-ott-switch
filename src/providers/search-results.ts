@@ -1,6 +1,7 @@
 import type { ProviderId } from "../core/types";
 import type { SearchCandidate } from "./search";
 import { readSearchActions, type SearchAction } from "./search-actions";
+import { collectWorkLinkEvidence, type WorkLinkEvidence } from "./dom-links";
 import {
   canonicalizeProviderUrl,
   cleanPageTitle,
@@ -83,6 +84,10 @@ const CARD_SELECTOR = [
   "li",
   "article",
 ].join(",");
+const LINK_SELECTOR = 'a[href], [role="link"][data-href]';
+// These elements own their labels even when their destination is unknown.
+// An action heading must never become a neighboring anchor's work title.
+const TITLE_OWNER_SELECTOR = `${LINK_SELECTOR}, [data-href], [data-url], [onclick], button, [role="button"], [data-action]`;
 const EXCLUDED_SELECTOR = [
   "nav",
   "footer",
@@ -154,11 +159,70 @@ interface TitleEvidence {
   title: string;
   score: number;
 }
+
+function nearbyTitles(
+  anchor: Element,
+  titleSelector: string,
+  provider: ProviderId,
+  pageUrl: string,
+): string[] {
+  const card = anchor.closest(CARD_SELECTOR);
+  if (!card || card === anchor) return [];
+  const targetId = providerTitleId(titleUrl(anchor, provider, pageUrl) ?? "");
+  if (!targetId) return [];
+  // Expand only as far as the nearest title-bearing island. A generic article
+  // or li can contain an entire row, so it is not proof of shared ownership.
+  for (
+    let island = anchor.parentElement;
+    island && card.contains(island);
+    island = island.parentElement
+  ) {
+    const links = [...island.querySelectorAll(TITLE_OWNER_SELECTOR)].filter(
+      (link) => visible(link) && !link.closest(EXCLUDED_SELECTOR),
+    );
+    // An unresolved sibling action may belong to a different work, so a shared
+    // heading cannot establish ownership for this anchor.
+    if (
+      links.some(
+        (link) =>
+          link !== anchor &&
+          (!link.matches(LINK_SELECTOR) || link.hasAttribute("onclick")),
+      )
+    )
+      break;
+    const linkIds = new Map(
+      links.map((link) => [
+        link,
+        providerTitleId(titleUrl(link, provider, pageUrl) ?? ""),
+      ]),
+    );
+    // Every larger ancestor would contain this conflicting work as well.
+    if ([...linkIds.values()].some((id) => id && id !== targetId)) break;
+    const titles = [...island.querySelectorAll(titleSelector)]
+      .filter((node) => {
+        if (
+          anchor.contains(node) ||
+          !visible(node) ||
+          node.closest(EXCLUDED_SELECTOR) ||
+          node.closest(CARD_SELECTOR) !== card
+        )
+          return false;
+        const owner = node.closest(TITLE_OWNER_SELECTOR);
+        return !owner || linkIds.get(owner) === targetId;
+      })
+      .map((node) => meaningful(node.textContent ?? ""))
+      .filter(Boolean);
+    if (titles.length) return titles;
+    if (island === card) break;
+  }
+  return [];
+}
+
 function candidateTitle(
   anchor: Element,
   provider: ProviderId,
+  pageUrl: string,
 ): TitleEvidence | null {
-  const card = anchor.closest(CARD_SELECTOR);
   // TVING's real work label is a paragraph; image alt adds an accessibility
   // suffix ("포스터") and the card also contains separate subtitle badges.
   const titleSelector =
@@ -166,18 +230,19 @@ function candidateTitle(
       ? `${TITLE_SELECTOR}, .vertical-item-poster-text-center`
       : TITLE_SELECTOR;
   const explicit = [...anchor.querySelectorAll(titleSelector)]
+    .filter((node) => visible(node) && !node.closest(EXCLUDED_SELECTOR))
     .map((node) => meaningful(node.textContent ?? ""))
     .filter(Boolean);
   const images = [...anchor.querySelectorAll("img[alt]")]
+    .filter((node) => visible(node) && !node.closest(EXCLUDED_SELECTOR))
     .map((image) => meaningful(image.getAttribute("alt") ?? ""))
     .filter(Boolean);
+  // Owned headings/images outrank nearby text, so avoid walking neighboring
+  // links at all when the anchor already carries usable title evidence.
   const parentTitles =
-    card && card !== anchor
-      ? [...card.querySelectorAll(titleSelector)]
-          .filter((node) => !node.closest(EXCLUDED_SELECTOR))
-          .map((node) => meaningful(node.textContent ?? ""))
-          .filter(Boolean)
-      : [];
+    explicit.length || images.length
+      ? []
+      : nearbyTitles(anchor, titleSelector, provider, pageUrl);
   const references = [...explicit, ...images, ...parentTitles];
   const evidence: TitleEvidence[] = [
     ...explicit.map((title) => ({ title, score: 100 })),
@@ -213,6 +278,9 @@ function titleUrl(
   provider: ProviderId,
   pageUrl: string,
 ): string | null {
+  // An inline handler can override its fallback href. Only the bounded literal
+  // action reader may supply that destination; unknown handlers stay unresolved.
+  if (anchor.hasAttribute("onclick")) return null;
   let target: URL;
   try {
     target = new URL(
@@ -237,6 +305,29 @@ function titleUrl(
     if (id) return `https://www.netflix.com/title/${id}`;
   }
   return null;
+}
+
+function localActionTitle(
+  evidence: WorkLinkEvidence,
+  provider: ProviderId,
+): TitleEvidence | null {
+  // Reuse the bounded local read, never the action's parent/sibling text or an
+  // unrestricted subtree clone. A clipped text fragment is not a complete title.
+  const text = evidence.context.self.textTruncated
+    ? ""
+    : meaningful(evidence.context.self.text);
+  for (const [attribute, score] of [
+    ["aria-label", 75],
+    ["title", 70],
+  ] as const) {
+    const raw = evidence.element.getAttribute(attribute);
+    if (!raw || raw.length > 400) continue;
+    const title = meaningful(
+      cleanPageTitle(raw, provider, "label", text ? [text] : []),
+    );
+    if (title) return { title, score };
+  }
+  return text ? { title: text, score: 40 } : null;
 }
 
 function structuredCandidates(
@@ -381,15 +472,34 @@ export function readSearchResults(
     if (!previous || score > previous.score)
       deduplicated.set(id, { ...candidate, score });
   };
-  for (const anchor of document.querySelectorAll(
-    'a[href], [role="link"][data-href]',
-  )) {
+  for (const anchor of document.querySelectorAll(LINK_SELECTOR)) {
     if (deduplicated.size >= 200) break;
     if (!visible(anchor) || anchor.closest(EXCLUDED_SELECTOR)) continue;
     const url = titleUrl(anchor, provider, pageUrl);
     if (!url) continue;
-    const title = candidateTitle(anchor, provider);
+    const title = candidateTitle(anchor, provider, pageUrl);
     if (title) add({ title: title.title, url }, title.score);
+  }
+  const localLinks = collectWorkLinkEvidence(
+    document.querySelector('main, [role="main"]') ?? document.body ?? document,
+    pageUrl,
+    { maxCandidates: 64, maxVisited: 1800 },
+  );
+  for (const evidence of localLinks.candidates) {
+    if (deduplicated.size >= 200) break;
+    if (
+      evidence.status !== "url" ||
+      !evidence.url ||
+      !["data-href", "data-url", "onclick"].includes(evidence.source) ||
+      evidence.episodeHint ||
+      !visible(evidence.element) ||
+      evidence.element.closest(EXCLUDED_SELECTOR) ||
+      !safeProviderUrl(provider, evidence.url)
+    )
+      continue;
+    const url = canonicalizeProviderUrl(evidence.url);
+    const title = localActionTitle(evidence, provider);
+    if (url && title) add({ title: title.title, url }, title.score);
   }
   for (const candidate of structuredCandidates(document, provider, pageUrl))
     add(candidate, 80);
