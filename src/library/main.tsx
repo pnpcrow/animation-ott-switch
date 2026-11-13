@@ -33,7 +33,12 @@ import {
 } from "lucide-react";
 import { api } from "../core/client";
 import { MAX_BACKUP_BYTES, parseBackup } from "../core/backup";
-import { providers, safeProviderUrl } from "../providers/identity";
+import {
+  cleanSearchPage,
+  providers,
+  providerTitleId,
+  safeProviderUrl,
+} from "../providers/identity";
 import type {
   Availability,
   BackupEnvelope,
@@ -350,17 +355,29 @@ function App() {
     const link = Object.values(bookmark.links).find(
       (link) => link && safeProviderUrl(link.provider, link.url),
     );
-    return link
-      ? {
-          title: link.title || bookmark.title,
-          aliases: [...new Set([...bookmark.aliases, bookmark.title])],
-          description: bookmark.description,
-          imageUrl: bookmark.imageUrl,
-          year: bookmark.year,
-          provider: link.provider,
-          url: link.url,
-        }
-      : null;
+    if (!link) return null;
+    const refreshedSource =
+      availability?.id === bookmark.id
+        ? availability.results.find(
+            (result) =>
+              result.provider === link.provider &&
+              result.status === "available" &&
+              result.url &&
+              providerTitleId(result.url) === providerTitleId(link.url),
+          )
+        : undefined;
+    return cleanSearchPage(
+      {
+        title: link.title || bookmark.title,
+        aliases: [...new Set([...bookmark.aliases, bookmark.title])],
+        description: bookmark.description,
+        imageUrl: bookmark.imageUrl,
+        year: bookmark.year,
+        provider: link.provider,
+        url: link.url,
+      },
+      refreshedSource?.title ? [refreshedSource.title] : [],
+    );
   };
   const lookup = async (bookmark: Bookmark) => {
     const page = pageForBookmark(bookmark);
@@ -635,7 +652,7 @@ function App() {
             >
               <CircleHelp size={18} />
             </button>
-            <span>v0.1.1</span>
+          <span>v0.1.2</span>
           </div>
         </div>
       </aside>

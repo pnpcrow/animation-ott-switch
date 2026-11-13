@@ -21,6 +21,7 @@ import type {
   ProviderLink,
 } from "../core/types";
 import {
+  cleanSearchPage,
   providers,
   safeProviderUrl,
   providerTitleId,
@@ -53,6 +54,17 @@ export function Overlay({ page }: { page: PageTitle }) {
   const imageUrl = saved?.imageUrl ?? page.imageUrl;
   const description = saved?.description ?? page.description;
   const title = saved?.title ?? page.title;
+  const refreshedSource = results.find(
+    (result) =>
+      result.provider === page.provider &&
+      result.status === "available" &&
+      result.url &&
+      providerTitleId(result.url) === providerTitleId(page.url),
+  );
+  const searchTitle = cleanSearchPage(
+    page,
+    refreshedSource?.title ? [refreshedSource.title] : [],
+  ).title;
 
   useEffect(() => {
     let alive = true;
@@ -476,7 +488,7 @@ export function Overlay({ page }: { page: PageTitle }) {
                         )}
                         {!current && !available && (
                           <a
-                            href={provider.searchUrl(page.title)}
+                            href={provider.searchUrl(searchTitle)}
                             target="_blank"
                             rel="noopener noreferrer"
                             title={`${provider.name}에서 직접 검색`}
