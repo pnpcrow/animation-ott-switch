@@ -1,0 +1,13 @@
+{
+  "reason": "Review found rendered text-element dimensions mislabeled as image dimensions. Corrected image only for img, element otherwise in both languages, and reran every planned case.",
+  "disclosure": "The initial 66-case development selection en-natural, 27/66, had been printed before this factual correction. The 18-case run had completed but had not been scored. No variants or hyperparameters were selected using those 18 labels.",
+  "archivedLocallyAt": ".tmp/dom-adaptation/templates/pre-dimensions-fix",
+  "initialArtifactSha256": {
+    "templates.mjs": "665f5fa375a3f30dc4068a76a473f3d530b1dac6112ec06e73f6bf2da909abcb",
+    "development-jobs.json": "79b7446412e9b031974a3e74c481c33af41c3dd5e03b057ac90d48c0f791112a",
+    "retrospective-jobs.json": "449fe2273ae30d5de5a26e81ace472f5f8ca79db7a6540f341c2de0107f401f5",
+    "development.json": "6ba71fddad4ea02d00bd5ffce7d46502af5a2add2705b00f1aad1158e7304012",
+    "retrospective.json": "eadc6ff2f38eaaa8518cc7a318c06266c42cc171570857f6cf8ce296b261d682",
+    "selection.json": "b372747cbe5f548eed288343cc162dec0a57ca92a72afa0b5e2cc05897770b47"
+  }
+}

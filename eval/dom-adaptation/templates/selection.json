@@ -1,0 +1,107 @@
+{
+  "selected": {
+    "template": "en-natural",
+    "threshold": 1.371482402086258,
+    "summary": {
+      "attempted": 66,
+      "valid": 66,
+      "correct": 27,
+      "accuracy": 0.4090909090909091,
+      "accepted": 50,
+      "acceptedPrecision": 0.36,
+      "falseSelections": 32,
+      "correctAbstentions": 9,
+      "errors": 0,
+      "p50Ms": 136.3005000166595,
+      "p95Ms": 208.65930011495948
+    },
+    "positiveCorrect": 18
+  },
+  "perTemplate": [
+    {
+      "template": "en-natural",
+      "threshold": 1.371482402086258,
+      "summary": {
+        "attempted": 66,
+        "valid": 66,
+        "correct": 27,
+        "accuracy": 0.4090909090909091,
+        "accepted": 50,
+        "acceptedPrecision": 0.36,
+        "falseSelections": 32,
+        "correctAbstentions": 9,
+        "errors": 0,
+        "p50Ms": 136.3005000166595,
+        "p95Ms": 208.65930011495948
+      },
+      "positiveCorrect": 18
+    },
+    {
+      "template": "en-anchored",
+      "threshold": 2.1654991507530212,
+      "summary": {
+        "attempted": 66,
+        "valid": 66,
+        "correct": 22,
+        "accuracy": 0.3333333333333333,
+        "accepted": 14,
+        "acceptedPrecision": 0.2857142857142857,
+        "falseSelections": 10,
+        "correctAbstentions": 18,
+        "errors": 0,
+        "p50Ms": 160.787999862805,
+        "p95Ms": 293.8852999359369
+      },
+      "positiveCorrect": 4
+    },
+    {
+      "template": "en-contrast",
+      "threshold": 0.8803169680759311,
+      "summary": {
+        "attempted": 66,
+        "valid": 66,
+        "correct": 25,
+        "accuracy": 0.3787878787878788,
+        "accepted": 56,
+        "acceptedPrecision": 0.30357142857142855,
+        "falseSelections": 39,
+        "correctAbstentions": 8,
+        "errors": 0,
+        "p50Ms": 152.81819994561374,
+        "p95Ms": 239.2623999621719
+      },
+      "positiveCorrect": 17
+    },
+    {
+      "template": "ko-natural",
+      "threshold": 2.118296980857849,
+      "summary": {
+        "attempted": 66,
+        "valid": 66,
+        "correct": 22,
+        "accuracy": 0.3333333333333333,
+        "accepted": 33,
+        "acceptedPrecision": 0.21212121212121213,
+        "falseSelections": 26,
+        "correctAbstentions": 15,
+        "errors": 0,
+        "p50Ms": 163.258999818936,
+        "p95Ms": 231.64870007894933
+      },
+      "positiveCorrect": 7
+    }
+  ],
+  "policy": "One global threshold per template; development accuracy, fewer false selections, positive correctness, stable template ID, larger threshold. No timing criterion; no fresh labels.",
+  "lockedAt": "2026-11-13T14:17:50.408Z",
+  "automaticNavigation": false,
+  "sourceHashes": {
+    "eval/dom-adaptation/templates.mjs": "bb3f1e92b62aa7c8cbd74505125b411a9ee37766e4017fe45b260084fa2a4b1e",
+    "eval/tiny-decision/v2/features.mjs": "01d561a330e0e46faff35a989255332bebecb69844494d74f827ebdea8d9df9a",
+    "eval/light-dom/nli/run.py": "08ab144d710de9a6d187e1bc220309fd9157aae1da893898ee2d4a96922612bf",
+    "eval/light-dom/selection.mjs": "3aada00bf4fde5b02800561003731f1835ecfd96df1212d661a59b1afedc4f99"
+  },
+  "developmentJobsSha256": "b6b246ab03627f39c6734bd76bfb2f4a35ff983669ab1dfc2a3a81309b13c4e1",
+  "developmentReportSha256": "e98e2e1e80ec6a4ede6280973c9380bc6708d88d16b048c7f698c5159fd29637",
+  "developmentLabelsSha256": "0befb471e18279b01bc735617731ed78e5b3dfff1510e40b663c33c4157a703b",
+  "interpretation": "Only the previous 66 development cases choose templates/thresholds. All 84 observations have already been consumed by earlier experiments. This is not a new blind evaluation."
+}
