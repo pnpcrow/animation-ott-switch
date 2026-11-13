@@ -3,7 +3,7 @@
   "frozenAt": "2026-11-13T15:05:03.826Z",
   "predictionsInspected": false,
   "dataFreezeSha256": "69d8b9a27c0ce91e495ee9851ae060c0c27d836c553e39fd99f21954bcc531a7",
-  "scorerSha256": "a83b11896989c3a6dd8e0b59e0c4f1ac844835bb56539a882036293104a8fa3d",
+  "scorerSha256": "980857b519099dda07b9480a4f8b88835244c2ba230d7930242960f65d8311a5",
   "recipes": [
     "full-natural",
     "full-compact",
@@ -26,5 +26,8 @@
     "two held-out services only",
     "DOM candidate selection, not end-to-end cross-OTT matching",
     "CPU inference timings are not browser timings"
-  ]
+  ],
+  "previousScorerSha256": "a83b11896989c3a6dd8e0b59e0c4f1ac844835bb56539a882036293104a8fa3d",
+  "amendedAt": "2026-11-13T15:11:12.888Z",
+  "amendmentReason": "Before any model outputs: paired choice agreement counts only two valid selections, excluding null/null execution errors."
 }

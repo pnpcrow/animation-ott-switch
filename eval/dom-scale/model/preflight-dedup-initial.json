@@ -1,0 +1,1162 @@
+{
+  "schemaVersion": 1,
+  "status": "development preflight, no training",
+  "inputsSha256": "fc8edf472d0e9fe86b7f5f182d70145569ea8d0aafa5c64fa6b93745f85c2163",
+  "labelsSha256": "8262e030ae5edc9c5c95134f8e5e9815b9407929e24b853f8b01b8719cb2470f",
+  "split": {
+    "seed": 20261114,
+    "method": "SHA256-seeded work/page groups; every fifth group validates; no prediction-based stratification",
+    "groups": {
+      "work:jujutsu-kaisen": [
+        "scale-laftel-jujutsu-kaisen-search-title",
+        "scale-laftel-jujutsu-kaisen-search-image",
+        "scale-laftel-jujutsu-kaisen-search-description",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-title",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-image",
+        "scale-laftel-jujutsu-kaisen-search-opened-work-description",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-title",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-image",
+        "scale-laftel-jujutsu-kaisen-search-playback-entry-description",
+        "scale-prime-jujutsu-kaisen-search-title",
+        "scale-prime-jujutsu-kaisen-search-image",
+        "scale-prime-jujutsu-kaisen-search-description",
+        "scale-tving-jujutsu-kaisen-search-title",
+        "scale-tving-jujutsu-kaisen-search-image",
+        "scale-tving-jujutsu-kaisen-search-description",
+        "scale-coupang-jujutsu-kaisen-search-title",
+        "scale-coupang-jujutsu-kaisen-search-image",
+        "scale-coupang-jujutsu-kaisen-search-description",
+        "scale-tving-jujutsu-kaisen-detail-title",
+        "scale-tving-jujutsu-kaisen-detail-image",
+        "scale-tving-jujutsu-kaisen-detail-description",
+        "scale-aniplus-jujutsu-kaisen-search-title",
+        "scale-aniplus-jujutsu-kaisen-search-image",
+        "scale-aniplus-jujutsu-kaisen-search-description",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-title",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-image",
+        "scale-aniplus-jujutsu-kaisen-search-opened-work-description",
+        "scale-wavve-jujutsu-kaisen-search-title",
+        "scale-wavve-jujutsu-kaisen-search-image",
+        "scale-wavve-jujutsu-kaisen-search-description",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-title",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-image",
+        "scale-wavve-jujutsu-kaisen-search-opened-work-description",
+        "scale-watcha-jujutsu-kaisen-detail-title",
+        "scale-watcha-jujutsu-kaisen-detail-image",
+        "scale-watcha-jujutsu-kaisen-detail-description"
+      ],
+      "work:attack-on-titan": [
+        "scale-laftel-attack-on-titan-search-title",
+        "scale-laftel-attack-on-titan-search-image",
+        "scale-laftel-attack-on-titan-search-description",
+        "scale-laftel-attack-on-titan-search-opened-work-title",
+        "scale-laftel-attack-on-titan-search-opened-work-image",
+        "scale-laftel-attack-on-titan-search-opened-work-description",
+        "scale-crunchyroll-attack-on-titan-search-title",
+        "scale-crunchyroll-attack-on-titan-search-image",
+        "scale-crunchyroll-attack-on-titan-search-description",
+        "scale-prime-attack-on-titan-search-title",
+        "scale-prime-attack-on-titan-search-image",
+        "scale-prime-attack-on-titan-search-description",
+        "scale-tving-attack-on-titan-search-title",
+        "scale-tving-attack-on-titan-search-image",
+        "scale-tving-attack-on-titan-search-description",
+        "scale-coupang-attack-on-titan-search-title",
+        "scale-coupang-attack-on-titan-search-image",
+        "scale-coupang-attack-on-titan-search-description",
+        "scale-tving-attack-on-titan-detail-title",
+        "scale-tving-attack-on-titan-detail-image",
+        "scale-tving-attack-on-titan-detail-description",
+        "scale-aniplus-attack-on-titan-search-title",
+        "scale-aniplus-attack-on-titan-search-image",
+        "scale-aniplus-attack-on-titan-search-description",
+        "scale-aniplus-attack-on-titan-search-opened-work-title",
+        "scale-aniplus-attack-on-titan-search-opened-work-image",
+        "scale-aniplus-attack-on-titan-search-opened-work-description",
+        "scale-wavve-attack-on-titan-search-title",
+        "scale-wavve-attack-on-titan-search-image",
+        "scale-wavve-attack-on-titan-search-description",
+        "scale-wavve-attack-on-titan-search-opened-work-title",
+        "scale-wavve-attack-on-titan-search-opened-work-image",
+        "scale-wavve-attack-on-titan-search-opened-work-description",
+        "scale-watcha-attack-on-titan-search-title",
+        "scale-watcha-attack-on-titan-search-image",
+        "scale-watcha-attack-on-titan-search-description",
+        "scale-watcha-attack-on-titan-detail-title",
+        "scale-watcha-attack-on-titan-detail-image",
+        "scale-watcha-attack-on-titan-detail-description"
+      ],
+      "work:frieren": [
+        "scale-laftel-frieren-search-title",
+        "scale-laftel-frieren-search-image",
+        "scale-laftel-frieren-search-description",
+        "scale-laftel-frieren-search-opened-work-title",
+        "scale-laftel-frieren-search-opened-work-image",
+        "scale-laftel-frieren-search-opened-work-description",
+        "scale-laftel-frieren-search-playback-entry-title",
+        "scale-laftel-frieren-search-playback-entry-image",
+        "scale-laftel-frieren-search-playback-entry-description",
+        "scale-prime-frieren-search-title",
+        "scale-prime-frieren-search-image",
+        "scale-prime-frieren-search-description",
+        "scale-tving-frieren-search-title",
+        "scale-tving-frieren-search-image",
+        "scale-tving-frieren-search-description",
+        "scale-coupang-frieren-search-title",
+        "scale-coupang-frieren-search-image",
+        "scale-coupang-frieren-search-description",
+        "scale-tving-frieren-detail-title",
+        "scale-tving-frieren-detail-image",
+        "scale-tving-frieren-detail-description",
+        "scale-aniplus-frieren-search-title",
+        "scale-aniplus-frieren-search-image",
+        "scale-aniplus-frieren-search-description",
+        "scale-aniplus-frieren-search-opened-work-title",
+        "scale-aniplus-frieren-search-opened-work-image",
+        "scale-aniplus-frieren-search-opened-work-description",
+        "scale-wavve-frieren-search-title",
+        "scale-wavve-frieren-search-image",
+        "scale-wavve-frieren-search-description",
+        "scale-wavve-frieren-search-opened-work-title",
+        "scale-wavve-frieren-search-opened-work-image",
+        "scale-wavve-frieren-search-opened-work-description",
+        "scale-watcha-frieren-detail-title",
+        "scale-watcha-frieren-detail-image",
+        "scale-watcha-frieren-detail-description"
+      ],
+      "work:blade-of-the-immortal": [
+        "scale-prime-blade-of-the-immortal-detail-title",
+        "scale-prime-blade-of-the-immortal-detail-image",
+        "scale-prime-blade-of-the-immortal-detail-description"
+      ],
+      "work:karakuri-circus": [
+        "scale-prime-karakuri-circus-detail-title",
+        "scale-prime-karakuri-circus-detail-image",
+        "scale-prime-karakuri-circus-detail-description"
+      ],
+      "work:ghost-in-the-shell": [
+        "scale-prime-ghost-in-the-shell-detail-title",
+        "scale-prime-ghost-in-the-shell-detail-image",
+        "scale-prime-ghost-in-the-shell-detail-description"
+      ],
+      "work:hazbin-hotel": [
+        "scale-prime-hazbin-hotel-detail-title",
+        "scale-prime-hazbin-hotel-detail-image",
+        "scale-prime-hazbin-hotel-detail-description"
+      ],
+      "work:look-back": [
+        "scale-prime-look-back-detail-title",
+        "scale-prime-look-back-detail-image",
+        "scale-prime-look-back-detail-description"
+      ],
+      "work:witch": [
+        "scale-laftel-witch-detail-title",
+        "scale-laftel-witch-detail-image",
+        "scale-laftel-witch-detail-description",
+        "scale-laftel-witch-detail-playback-entry-title",
+        "scale-laftel-witch-detail-playback-entry-image",
+        "scale-laftel-witch-detail-playback-entry-description"
+      ],
+      "work:apothecary": [
+        "scale-laftel-apothecary-detail-title",
+        "scale-laftel-apothecary-detail-image",
+        "scale-laftel-apothecary-detail-description"
+      ],
+      "work:rezero": [
+        "scale-laftel-rezero-detail-title",
+        "scale-laftel-rezero-detail-image",
+        "scale-laftel-rezero-detail-description",
+        "scale-laftel-rezero-detail-playback-entry-title",
+        "scale-laftel-rezero-detail-playback-entry-image",
+        "scale-laftel-rezero-detail-playback-entry-description"
+      ],
+      "page:scale-coupang-home": [
+        "scale-coupang-home-title",
+        "scale-coupang-home-image",
+        "scale-coupang-home-description"
+      ],
+      "work:chainsaw-man": [
+        "scale-tving-chainsaw-man-detail-title",
+        "scale-tving-chainsaw-man-detail-image",
+        "scale-tving-chainsaw-man-detail-description",
+        "scale-watcha-chainsaw-man-detail-title",
+        "scale-watcha-chainsaw-man-detail-image",
+        "scale-watcha-chainsaw-man-detail-description"
+      ],
+      "work:class-marriage": [
+        "auth-class-marriage-modal-title",
+        "auth-class-marriage-modal-image",
+        "auth-class-marriage-modal-description",
+        "auth-class-marriage-player-title",
+        "auth-class-marriage-player-image",
+        "auth-class-marriage-player-description"
+      ]
+    },
+    "trainIds": [
+      "auth-class-marriage-modal-description",
+      "auth-class-marriage-modal-image",
+      "auth-class-marriage-modal-title",
+      "auth-class-marriage-player-description",
+      "auth-class-marriage-player-image",
+      "auth-class-marriage-player-title",
+      "scale-aniplus-attack-on-titan-search-description",
+      "scale-aniplus-attack-on-titan-search-image",
+      "scale-aniplus-attack-on-titan-search-opened-work-description",
+      "scale-aniplus-attack-on-titan-search-opened-work-image",
+      "scale-aniplus-attack-on-titan-search-opened-work-title",
+      "scale-aniplus-attack-on-titan-search-title",
+      "scale-aniplus-frieren-search-description",
+      "scale-aniplus-frieren-search-image",
+      "scale-aniplus-frieren-search-opened-work-description",
+      "scale-aniplus-frieren-search-opened-work-image",
+      "scale-aniplus-frieren-search-opened-work-title",
+      "scale-aniplus-frieren-search-title",
+      "scale-coupang-attack-on-titan-search-description",
+      "scale-coupang-attack-on-titan-search-image",
+      "scale-coupang-attack-on-titan-search-title",
+      "scale-coupang-frieren-search-description",
+      "scale-coupang-frieren-search-image",
+      "scale-coupang-frieren-search-title",
+      "scale-coupang-home-description",
+      "scale-coupang-home-image",
+      "scale-coupang-home-title",
+      "scale-crunchyroll-attack-on-titan-search-description",
+      "scale-crunchyroll-attack-on-titan-search-image",
+      "scale-crunchyroll-attack-on-titan-search-title",
+      "scale-laftel-apothecary-detail-description",
+      "scale-laftel-apothecary-detail-image",
+      "scale-laftel-apothecary-detail-title",
+      "scale-laftel-attack-on-titan-search-description",
+      "scale-laftel-attack-on-titan-search-image",
+      "scale-laftel-attack-on-titan-search-opened-work-description",
+      "scale-laftel-attack-on-titan-search-opened-work-image",
+      "scale-laftel-attack-on-titan-search-opened-work-title",
+      "scale-laftel-attack-on-titan-search-title",
+      "scale-laftel-frieren-search-description",
+      "scale-laftel-frieren-search-image",
+      "scale-laftel-frieren-search-opened-work-description",
+      "scale-laftel-frieren-search-opened-work-image",
+      "scale-laftel-frieren-search-opened-work-title",
+      "scale-laftel-frieren-search-playback-entry-description",
+      "scale-laftel-frieren-search-playback-entry-image",
+      "scale-laftel-frieren-search-playback-entry-title",
+      "scale-laftel-frieren-search-title",
+      "scale-laftel-rezero-detail-description",
+      "scale-laftel-rezero-detail-image",
+      "scale-laftel-rezero-detail-playback-entry-description",
+      "scale-laftel-rezero-detail-playback-entry-image",
+      "scale-laftel-rezero-detail-playback-entry-title",
+      "scale-laftel-rezero-detail-title",
+      "scale-laftel-witch-detail-description",
+      "scale-laftel-witch-detail-image",
+      "scale-laftel-witch-detail-playback-entry-description",
+      "scale-laftel-witch-detail-playback-entry-image",
+      "scale-laftel-witch-detail-playback-entry-title",
+      "scale-laftel-witch-detail-title",
+      "scale-prime-attack-on-titan-search-description",
+      "scale-prime-attack-on-titan-search-image",
+      "scale-prime-attack-on-titan-search-title",
+      "scale-prime-blade-of-the-immortal-detail-description",
+      "scale-prime-blade-of-the-immortal-detail-image",
+      "scale-prime-blade-of-the-immortal-detail-title",
+      "scale-prime-frieren-search-description",
+      "scale-prime-frieren-search-image",
+      "scale-prime-frieren-search-title",
+      "scale-prime-hazbin-hotel-detail-description",
+      "scale-prime-hazbin-hotel-detail-image",
+      "scale-prime-hazbin-hotel-detail-title",
+      "scale-prime-look-back-detail-description",
+      "scale-prime-look-back-detail-image",
+      "scale-prime-look-back-detail-title",
+      "scale-tving-attack-on-titan-detail-description",
+      "scale-tving-attack-on-titan-detail-image",
+      "scale-tving-attack-on-titan-detail-title",
+      "scale-tving-attack-on-titan-search-description",
+      "scale-tving-attack-on-titan-search-image",
+      "scale-tving-attack-on-titan-search-title",
+      "scale-tving-chainsaw-man-detail-description",
+      "scale-tving-chainsaw-man-detail-image",
+      "scale-tving-chainsaw-man-detail-title",
+      "scale-tving-frieren-detail-description",
+      "scale-tving-frieren-detail-image",
+      "scale-tving-frieren-detail-title",
+      "scale-tving-frieren-search-description",
+      "scale-tving-frieren-search-image",
+      "scale-tving-frieren-search-title",
+      "scale-watcha-attack-on-titan-detail-description",
+      "scale-watcha-attack-on-titan-detail-image",
+      "scale-watcha-attack-on-titan-detail-title",
+      "scale-watcha-attack-on-titan-search-description",
+      "scale-watcha-attack-on-titan-search-image",
+      "scale-watcha-attack-on-titan-search-title",
+      "scale-watcha-chainsaw-man-detail-description",
+      "scale-watcha-chainsaw-man-detail-image",
+      "scale-watcha-chainsaw-man-detail-title",
+      "scale-watcha-frieren-detail-description",
+      "scale-watcha-frieren-detail-image",
+      "scale-watcha-frieren-detail-title",
+      "scale-wavve-attack-on-titan-search-description",
+      "scale-wavve-attack-on-titan-search-image",
+      "scale-wavve-attack-on-titan-search-opened-work-description",
+      "scale-wavve-attack-on-titan-search-opened-work-image",
+      "scale-wavve-attack-on-titan-search-opened-work-title",
+      "scale-wavve-attack-on-titan-search-title",
+      "scale-wavve-frieren-search-description",
+      "scale-wavve-frieren-search-image",
+      "scale-wavve-frieren-search-opened-work-description",
+      "scale-wavve-frieren-search-opened-work-image",
+      "scale-wavve-frieren-search-opened-work-title",
+      "scale-wavve-frieren-search-title"
+    ],
+    "validationIds": [
+      "scale-aniplus-jujutsu-kaisen-search-description",
+      "scale-aniplus-jujutsu-kaisen-search-image",
+      "scale-aniplus-jujutsu-kaisen-search-opened-work-description",
+      "scale-aniplus-jujutsu-kaisen-search-opened-work-image",
+      "scale-aniplus-jujutsu-kaisen-search-opened-work-title",
+      "scale-aniplus-jujutsu-kaisen-search-title",
+      "scale-coupang-jujutsu-kaisen-search-description",
+      "scale-coupang-jujutsu-kaisen-search-image",
+      "scale-coupang-jujutsu-kaisen-search-title",
+      "scale-laftel-jujutsu-kaisen-search-description",
+      "scale-laftel-jujutsu-kaisen-search-image",
+      "scale-laftel-jujutsu-kaisen-search-opened-work-description",
+      "scale-laftel-jujutsu-kaisen-search-opened-work-image",
+      "scale-laftel-jujutsu-kaisen-search-opened-work-title",
+      "scale-laftel-jujutsu-kaisen-search-playback-entry-description",
+      "scale-laftel-jujutsu-kaisen-search-playback-entry-image",
+      "scale-laftel-jujutsu-kaisen-search-playback-entry-title",
+      "scale-laftel-jujutsu-kaisen-search-title",
+      "scale-prime-ghost-in-the-shell-detail-description",
+      "scale-prime-ghost-in-the-shell-detail-image",
+      "scale-prime-ghost-in-the-shell-detail-title",
+      "scale-prime-jujutsu-kaisen-search-description",
+      "scale-prime-jujutsu-kaisen-search-image",
+      "scale-prime-jujutsu-kaisen-search-title",
+      "scale-prime-karakuri-circus-detail-description",
+      "scale-prime-karakuri-circus-detail-image",
+      "scale-prime-karakuri-circus-detail-title",
+      "scale-tving-jujutsu-kaisen-detail-description",
+      "scale-tving-jujutsu-kaisen-detail-image",
+      "scale-tving-jujutsu-kaisen-detail-title",
+      "scale-tving-jujutsu-kaisen-search-description",
+      "scale-tving-jujutsu-kaisen-search-image",
+      "scale-tving-jujutsu-kaisen-search-title",
+      "scale-watcha-jujutsu-kaisen-detail-description",
+      "scale-watcha-jujutsu-kaisen-detail-image",
+      "scale-watcha-jujutsu-kaisen-detail-title",
+      "scale-wavve-jujutsu-kaisen-search-description",
+      "scale-wavve-jujutsu-kaisen-search-image",
+      "scale-wavve-jujutsu-kaisen-search-opened-work-description",
+      "scale-wavve-jujutsu-kaisen-search-opened-work-image",
+      "scale-wavve-jujutsu-kaisen-search-opened-work-title",
+      "scale-wavve-jujutsu-kaisen-search-title"
+    ],
+    "acceptedInPool": {
+      "scale-laftel-jujutsu-kaisen-search-title": [
+        "__none__"
+      ],
+      "scale-laftel-jujutsu-kaisen-search-image": [
+        "__none__"
+      ],
+      "scale-laftel-jujutsu-kaisen-search-description": [
+        "__none__"
+      ],
+      "scale-laftel-attack-on-titan-search-title": [
+        "__none__"
+      ],
+      "scale-laftel-attack-on-titan-search-image": [
+        "__none__"
+      ],
+      "scale-laftel-attack-on-titan-search-description": [
+        "__none__"
+      ],
+      "scale-laftel-frieren-search-title": [
+        "__none__"
+      ],
+      "scale-laftel-frieren-search-image": [
+        "__none__"
+      ],
+      "scale-laftel-frieren-search-description": [
+        "__none__"
+      ],
+      "scale-laftel-jujutsu-kaisen-search-opened-work-title": [
+        "t3"
+      ],
+      "scale-laftel-jujutsu-kaisen-search-opened-work-image": [
+        "i2"
+      ],
+      "scale-laftel-jujutsu-kaisen-search-opened-work-description": [
+        "d2"
+      ],
+      "scale-laftel-attack-on-titan-search-opened-work-title": [
+        "__none__"
+      ],
+      "scale-laftel-attack-on-titan-search-opened-work-image": [
+        "__none__"
+      ],
+      "scale-laftel-attack-on-titan-search-opened-work-description": [
+        "__none__"
+      ],
+      "scale-laftel-frieren-search-opened-work-title": [
+        "t3"
+      ],
+      "scale-laftel-frieren-search-opened-work-image": [
+        "i2"
+      ],
+      "scale-laftel-frieren-search-opened-work-description": [
+        "d2"
+      ],
+      "scale-laftel-jujutsu-kaisen-search-playback-entry-title": [
+        "__none__"
+      ],
+      "scale-laftel-jujutsu-kaisen-search-playback-entry-image": [
+        "__none__"
+      ],
+      "scale-laftel-jujutsu-kaisen-search-playback-entry-description": [
+        "__none__"
+      ],
+      "scale-laftel-frieren-search-playback-entry-title": [
+        "__none__"
+      ],
+      "scale-laftel-frieren-search-playback-entry-image": [
+        "__none__"
+      ],
+      "scale-laftel-frieren-search-playback-entry-description": [
+        "__none__"
+      ],
+      "scale-crunchyroll-attack-on-titan-search-title": [
+        "__none__"
+      ],
+      "scale-crunchyroll-attack-on-titan-search-image": [
+        "__none__"
+      ],
+      "scale-crunchyroll-attack-on-titan-search-description": [
+        "__none__"
+      ],
+      "scale-prime-jujutsu-kaisen-search-title": [
+        "__none__"
+      ],
+      "scale-prime-jujutsu-kaisen-search-image": [
+        "__none__"
+      ],
+      "scale-prime-jujutsu-kaisen-search-description": [
+        "__none__"
+      ],
+      "scale-prime-attack-on-titan-search-title": [
+        "__none__"
+      ],
+      "scale-prime-attack-on-titan-search-image": [
+        "__none__"
+      ],
+      "scale-prime-attack-on-titan-search-description": [
+        "__none__"
+      ],
+      "scale-prime-frieren-search-title": [
+        "__none__"
+      ],
+      "scale-prime-frieren-search-image": [
+        "__none__"
+      ],
+      "scale-prime-frieren-search-description": [
+        "__none__"
+      ],
+      "scale-tving-jujutsu-kaisen-search-title": [
+        "__none__"
+      ],
+      "scale-tving-jujutsu-kaisen-search-image": [
+        "__none__"
+      ],
+      "scale-tving-jujutsu-kaisen-search-description": [
+        "__none__"
+      ],
+      "scale-tving-frieren-search-title": [
+        "__none__"
+      ],
+      "scale-tving-frieren-search-image": [
+        "__none__"
+      ],
+      "scale-tving-frieren-search-description": [
+        "__none__"
+      ],
+      "scale-tving-attack-on-titan-search-title": [
+        "__none__"
+      ],
+      "scale-tving-attack-on-titan-search-image": [
+        "__none__"
+      ],
+      "scale-tving-attack-on-titan-search-description": [
+        "__none__"
+      ],
+      "scale-coupang-jujutsu-kaisen-search-title": [
+        "__none__"
+      ],
+      "scale-coupang-jujutsu-kaisen-search-image": [
+        "__none__"
+      ],
+      "scale-coupang-jujutsu-kaisen-search-description": [
+        "__none__"
+      ],
+      "scale-coupang-frieren-search-title": [
+        "__none__"
+      ],
+      "scale-coupang-frieren-search-image": [
+        "__none__"
+      ],
+      "scale-coupang-frieren-search-description": [
+        "__none__"
+      ],
+      "scale-coupang-attack-on-titan-search-title": [
+        "__none__"
+      ],
+      "scale-coupang-attack-on-titan-search-image": [
+        "__none__"
+      ],
+      "scale-coupang-attack-on-titan-search-description": [
+        "__none__"
+      ],
+      "scale-prime-blade-of-the-immortal-detail-title": [
+        "t2"
+      ],
+      "scale-prime-blade-of-the-immortal-detail-image": [
+        "i1",
+        "i3"
+      ],
+      "scale-prime-blade-of-the-immortal-detail-description": [
+        "d1"
+      ],
+      "scale-prime-karakuri-circus-detail-title": [
+        "t2"
+      ],
+      "scale-prime-karakuri-circus-detail-image": [
+        "i1",
+        "i3"
+      ],
+      "scale-prime-karakuri-circus-detail-description": [
+        "d1"
+      ],
+      "scale-prime-ghost-in-the-shell-detail-title": [
+        "t2"
+      ],
+      "scale-prime-ghost-in-the-shell-detail-image": [
+        "i1",
+        "i3"
+      ],
+      "scale-prime-ghost-in-the-shell-detail-description": [
+        "d1"
+      ],
+      "scale-prime-hazbin-hotel-detail-title": [
+        "t2"
+      ],
+      "scale-prime-hazbin-hotel-detail-image": [
+        "i1",
+        "i3"
+      ],
+      "scale-prime-hazbin-hotel-detail-description": [
+        "d1"
+      ],
+      "scale-prime-look-back-detail-title": [
+        "t2"
+      ],
+      "scale-prime-look-back-detail-image": [
+        "i1",
+        "i3"
+      ],
+      "scale-prime-look-back-detail-description": [
+        "d1"
+      ],
+      "scale-tving-jujutsu-kaisen-detail-title": [
+        "t3"
+      ],
+      "scale-tving-jujutsu-kaisen-detail-image": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "scale-tving-jujutsu-kaisen-detail-description": [
+        "d1"
+      ],
+      "scale-tving-attack-on-titan-detail-title": [
+        "t3"
+      ],
+      "scale-tving-attack-on-titan-detail-image": [
+        "i1"
+      ],
+      "scale-tving-attack-on-titan-detail-description": [
+        "d1"
+      ],
+      "scale-tving-frieren-detail-title": [
+        "t3"
+      ],
+      "scale-tving-frieren-detail-image": [
+        "i1",
+        "i3",
+        "i4"
+      ],
+      "scale-tving-frieren-detail-description": [
+        "d1"
+      ],
+      "scale-laftel-witch-detail-title": [
+        "t3"
+      ],
+      "scale-laftel-witch-detail-image": [
+        "i1"
+      ],
+      "scale-laftel-witch-detail-description": [
+        "d2"
+      ],
+      "scale-laftel-apothecary-detail-title": [
+        "t3"
+      ],
+      "scale-laftel-apothecary-detail-image": [
+        "i1"
+      ],
+      "scale-laftel-apothecary-detail-description": [
+        "__none__"
+      ],
+      "scale-laftel-witch-detail-playback-entry-title": [
+        "__none__"
+      ],
+      "scale-laftel-witch-detail-playback-entry-image": [
+        "__none__"
+      ],
+      "scale-laftel-witch-detail-playback-entry-description": [
+        "__none__"
+      ],
+      "scale-laftel-rezero-detail-title": [
+        "t3"
+      ],
+      "scale-laftel-rezero-detail-image": [
+        "i1"
+      ],
+      "scale-laftel-rezero-detail-description": [
+        "d2"
+      ],
+      "scale-laftel-rezero-detail-playback-entry-title": [
+        "__none__"
+      ],
+      "scale-laftel-rezero-detail-playback-entry-image": [
+        "__none__"
+      ],
+      "scale-laftel-rezero-detail-playback-entry-description": [
+        "__none__"
+      ],
+      "scale-coupang-home-title": [
+        "__none__"
+      ],
+      "scale-coupang-home-image": [
+        "__none__"
+      ],
+      "scale-coupang-home-description": [
+        "__none__"
+      ],
+      "scale-tving-chainsaw-man-detail-title": [
+        "t3"
+      ],
+      "scale-tving-chainsaw-man-detail-image": [
+        "i1"
+      ],
+      "scale-tving-chainsaw-man-detail-description": [
+        "d1"
+      ],
+      "scale-aniplus-frieren-search-title": [
+        "__none__"
+      ],
+      "scale-aniplus-frieren-search-image": [
+        "__none__"
+      ],
+      "scale-aniplus-frieren-search-description": [
+        "__none__"
+      ],
+      "scale-aniplus-attack-on-titan-search-title": [
+        "__none__"
+      ],
+      "scale-aniplus-attack-on-titan-search-image": [
+        "__none__"
+      ],
+      "scale-aniplus-attack-on-titan-search-description": [
+        "__none__"
+      ],
+      "scale-aniplus-jujutsu-kaisen-search-title": [
+        "__none__"
+      ],
+      "scale-aniplus-jujutsu-kaisen-search-image": [
+        "__none__"
+      ],
+      "scale-aniplus-jujutsu-kaisen-search-description": [
+        "__none__"
+      ],
+      "scale-aniplus-attack-on-titan-search-opened-work-title": [
+        "t6"
+      ],
+      "scale-aniplus-attack-on-titan-search-opened-work-image": [
+        "i2"
+      ],
+      "scale-aniplus-attack-on-titan-search-opened-work-description": [
+        "d2",
+        "d4"
+      ],
+      "scale-aniplus-jujutsu-kaisen-search-opened-work-title": [
+        "t6"
+      ],
+      "scale-aniplus-jujutsu-kaisen-search-opened-work-image": [
+        "i2"
+      ],
+      "scale-aniplus-jujutsu-kaisen-search-opened-work-description": [
+        "d2",
+        "d4"
+      ],
+      "scale-aniplus-frieren-search-opened-work-title": [
+        "t6"
+      ],
+      "scale-aniplus-frieren-search-opened-work-image": [
+        "i2"
+      ],
+      "scale-aniplus-frieren-search-opened-work-description": [
+        "d2",
+        "d4"
+      ],
+      "scale-wavve-frieren-search-title": [
+        "__none__"
+      ],
+      "scale-wavve-frieren-search-image": [
+        "__none__"
+      ],
+      "scale-wavve-frieren-search-description": [
+        "__none__"
+      ],
+      "scale-wavve-attack-on-titan-search-title": [
+        "__none__"
+      ],
+      "scale-wavve-attack-on-titan-search-image": [
+        "__none__"
+      ],
+      "scale-wavve-attack-on-titan-search-description": [
+        "__none__"
+      ],
+      "scale-wavve-frieren-search-opened-work-title": [
+        "t4"
+      ],
+      "scale-wavve-frieren-search-opened-work-image": [
+        "i2"
+      ],
+      "scale-wavve-frieren-search-opened-work-description": [
+        "d3",
+        "d4"
+      ],
+      "scale-wavve-attack-on-titan-search-opened-work-title": [
+        "__none__"
+      ],
+      "scale-wavve-attack-on-titan-search-opened-work-image": [
+        "__none__"
+      ],
+      "scale-wavve-attack-on-titan-search-opened-work-description": [
+        "__none__"
+      ],
+      "scale-wavve-jujutsu-kaisen-search-title": [
+        "__none__"
+      ],
+      "scale-wavve-jujutsu-kaisen-search-image": [
+        "__none__"
+      ],
+      "scale-wavve-jujutsu-kaisen-search-description": [
+        "__none__"
+      ],
+      "scale-wavve-jujutsu-kaisen-search-opened-work-title": [
+        "t4"
+      ],
+      "scale-wavve-jujutsu-kaisen-search-opened-work-image": [
+        "i2"
+      ],
+      "scale-wavve-jujutsu-kaisen-search-opened-work-description": [
+        "d4",
+        "d3"
+      ],
+      "scale-watcha-attack-on-titan-search-title": [
+        "__none__"
+      ],
+      "scale-watcha-attack-on-titan-search-image": [
+        "__none__"
+      ],
+      "scale-watcha-attack-on-titan-search-description": [
+        "__none__"
+      ],
+      "scale-watcha-jujutsu-kaisen-detail-title": [
+        "t2"
+      ],
+      "scale-watcha-jujutsu-kaisen-detail-image": [
+        "i1",
+        "i2"
+      ],
+      "scale-watcha-jujutsu-kaisen-detail-description": [
+        "d1",
+        "d2"
+      ],
+      "scale-watcha-chainsaw-man-detail-title": [
+        "t2"
+      ],
+      "scale-watcha-chainsaw-man-detail-image": [
+        "i1",
+        "i2"
+      ],
+      "scale-watcha-chainsaw-man-detail-description": [
+        "d1"
+      ],
+      "scale-watcha-frieren-detail-title": [
+        "t2"
+      ],
+      "scale-watcha-frieren-detail-image": [
+        "i1",
+        "i2"
+      ],
+      "scale-watcha-frieren-detail-description": [
+        "d1"
+      ],
+      "scale-watcha-attack-on-titan-detail-title": [
+        "t2"
+      ],
+      "scale-watcha-attack-on-titan-detail-image": [
+        "i1",
+        "i2"
+      ],
+      "scale-watcha-attack-on-titan-detail-description": [
+        "d1"
+      ],
+      "auth-class-marriage-modal-title": [
+        "t3"
+      ],
+      "auth-class-marriage-modal-image": [
+        "i2",
+        "i3"
+      ],
+      "auth-class-marriage-modal-description": [
+        "d3"
+      ],
+      "auth-class-marriage-player-title": [
+        "__none__"
+      ],
+      "auth-class-marriage-player-image": [
+        "__none__"
+      ],
+      "auth-class-marriage-player-description": [
+        "__none__"
+      ]
+    },
+    "excluded": [
+      {
+        "id": "scale-crunchyroll-jujutsu-kaisen-search-title",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-jujutsu-kaisen-search-image",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-jujutsu-kaisen-search-description",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-frieren-search-title",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-frieren-search-image",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-frieren-search-description",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-jujutsu-kaisen-detail-title",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-jujutsu-kaisen-detail-image",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-jujutsu-kaisen-detail-description",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-frieren-detail-title",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-frieren-detail-image",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-frieren-detail-description",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-jujutsu-kaisen-watch-title",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-jujutsu-kaisen-watch-image",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-crunchyroll-jujutsu-kaisen-watch-description",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-crunchyroll-attack-on-titan-search"
+      },
+      {
+        "id": "scale-laftel-apothecary-detail-playback-entry-title",
+        "reason": "collector flagged duplicate or unsuitable training observation",
+        "duplicateOf": "scale-laftel-apothecary-detail"
+      },
+      {
+        "id": "scale-laftel-apothecary-detail-playback-entry-image",
+        "reason": "collector flagged duplicate or unsuitable training observation",
+        "duplicateOf": "scale-laftel-apothecary-detail"
+      },
+      {
+        "id": "scale-laftel-apothecary-detail-playback-entry-description",
+        "reason": "collector flagged duplicate or unsuitable training observation",
+        "duplicateOf": "scale-laftel-apothecary-detail"
+      },
+      {
+        "id": "scale-watcha-jujutsu-kaisen-search-title",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-watcha-attack-on-titan-search"
+      },
+      {
+        "id": "scale-watcha-jujutsu-kaisen-search-image",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-watcha-attack-on-titan-search"
+      },
+      {
+        "id": "scale-watcha-jujutsu-kaisen-search-description",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-watcha-attack-on-titan-search"
+      },
+      {
+        "id": "scale-watcha-frieren-search-title",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-watcha-attack-on-titan-search"
+      },
+      {
+        "id": "scale-watcha-frieren-search-image",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-watcha-attack-on-titan-search"
+      },
+      {
+        "id": "scale-watcha-frieren-search-description",
+        "reason": "identical whole-negative-page model-visible representation",
+        "duplicateOf": "scale-watcha-attack-on-titan-search"
+      }
+    ],
+    "wholeNegativePageDuplicates": [
+      {
+        "modelRepresentationSha256": "a7a75b934d4538984c6172888bd1e3eeedfda048d0dc8c0acf24f5e0fedea1ef",
+        "canonicalPageId": "scale-crunchyroll-attack-on-titan-search",
+        "canonicalCaseIds": [
+          "scale-crunchyroll-attack-on-titan-search-title",
+          "scale-crunchyroll-attack-on-titan-search-image",
+          "scale-crunchyroll-attack-on-titan-search-description"
+        ],
+        "excludedPages": [
+          {
+            "pageId": "scale-crunchyroll-frieren-detail",
+            "caseIds": [
+              "scale-crunchyroll-frieren-detail-title",
+              "scale-crunchyroll-frieren-detail-image",
+              "scale-crunchyroll-frieren-detail-description"
+            ]
+          },
+          {
+            "pageId": "scale-crunchyroll-frieren-search",
+            "caseIds": [
+              "scale-crunchyroll-frieren-search-title",
+              "scale-crunchyroll-frieren-search-image",
+              "scale-crunchyroll-frieren-search-description"
+            ]
+          },
+          {
+            "pageId": "scale-crunchyroll-jujutsu-kaisen-detail",
+            "caseIds": [
+              "scale-crunchyroll-jujutsu-kaisen-detail-title",
+              "scale-crunchyroll-jujutsu-kaisen-detail-image",
+              "scale-crunchyroll-jujutsu-kaisen-detail-description"
+            ]
+          },
+          {
+            "pageId": "scale-crunchyroll-jujutsu-kaisen-search",
+            "caseIds": [
+              "scale-crunchyroll-jujutsu-kaisen-search-title",
+              "scale-crunchyroll-jujutsu-kaisen-search-image",
+              "scale-crunchyroll-jujutsu-kaisen-search-description"
+            ]
+          },
+          {
+            "pageId": "scale-crunchyroll-jujutsu-kaisen-watch",
+            "caseIds": [
+              "scale-crunchyroll-jujutsu-kaisen-watch-title",
+              "scale-crunchyroll-jujutsu-kaisen-watch-image",
+              "scale-crunchyroll-jujutsu-kaisen-watch-description"
+            ]
+          }
+        ]
+      },
+      {
+        "modelRepresentationSha256": "33760e430022b7807072d6be9ab93e4bc4e0558e3f726debfbee08130da1c5ef",
+        "canonicalPageId": "scale-watcha-attack-on-titan-search",
+        "canonicalCaseIds": [
+          "scale-watcha-attack-on-titan-search-title",
+          "scale-watcha-attack-on-titan-search-image",
+          "scale-watcha-attack-on-titan-search-description"
+        ],
+        "excludedPages": [
+          {
+            "pageId": "scale-watcha-frieren-search",
+            "caseIds": [
+              "scale-watcha-frieren-search-title",
+              "scale-watcha-frieren-search-image",
+              "scale-watcha-frieren-search-description"
+            ]
+          },
+          {
+            "pageId": "scale-watcha-jujutsu-kaisen-search",
+            "caseIds": [
+              "scale-watcha-jujutsu-kaisen-search-title",
+              "scale-watcha-jujutsu-kaisen-search-image",
+              "scale-watcha-jujutsu-kaisen-search-description"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "distribution": {
+    "train": {
+      "cases": 114,
+      "positive": 50,
+      "providers": {
+        "laftel": 36,
+        "aniplus": 12,
+        "coupang": 9,
+        "crunchyroll": 3,
+        "prime": 15,
+        "tving": 15,
+        "watcha": 12,
+        "wavve": 12
+      }
+    },
+    "validation": {
+      "cases": 42,
+      "positive": 21,
+      "providers": {
+        "aniplus": 6,
+        "coupang": 3,
+        "laftel": 9,
+        "prime": 9,
+        "tving": 6,
+        "watcha": 3,
+        "wavve": 6
+      }
+    }
+  },
+  "recipes": [
+    {
+      "recipe": "full-natural",
+      "cases": 180,
+      "pairs": 1343,
+      "maximumTokens": 302,
+      "selectedTierCounts": {
+        "96": 1343
+      },
+      "duplicateModelVisibleGroupsAcrossSplit": [
+        [
+          "scale-prime-jujutsu-kaisen-search-title",
+          "scale-prime-attack-on-titan-search-title",
+          "scale-prime-frieren-search-title"
+        ],
+        [
+          "scale-coupang-jujutsu-kaisen-search-image",
+          "scale-coupang-frieren-search-image",
+          "scale-coupang-attack-on-titan-search-image"
+        ]
+      ]
+    },
+    {
+      "recipe": "full-compact",
+      "cases": 180,
+      "pairs": 1343,
+      "maximumTokens": 160,
+      "selectedTierCounts": {
+        "96": 1319,
+        "64": 19,
+        "16": 2,
+        "32": 3
+      },
+      "duplicateModelVisibleGroupsAcrossSplit": [
+        [
+          "scale-prime-jujutsu-kaisen-search-title",
+          "scale-prime-attack-on-titan-search-title",
+          "scale-prime-frieren-search-title"
+        ],
+        [
+          "scale-coupang-jujutsu-kaisen-search-title",
+          "scale-coupang-frieren-search-title",
+          "scale-coupang-attack-on-titan-search-title",
+          "scale-coupang-home-title"
+        ],
+        [
+          "scale-coupang-jujutsu-kaisen-search-image",
+          "scale-coupang-frieren-search-image",
+          "scale-coupang-attack-on-titan-search-image",
+          "scale-coupang-home-image"
+        ]
+      ]
+    },
+    {
+      "recipe": "small-compact",
+      "cases": 180,
+      "pairs": 1343,
+      "maximumTokens": 160,
+      "selectedTierCounts": {
+        "96": 1319,
+        "64": 19,
+        "16": 2,
+        "32": 3
+      },
+      "duplicateModelVisibleGroupsAcrossSplit": [
+        [
+          "scale-prime-jujutsu-kaisen-search-title",
+          "scale-prime-attack-on-titan-search-title",
+          "scale-prime-frieren-search-title"
+        ],
+        [
+          "scale-coupang-jujutsu-kaisen-search-title",
+          "scale-coupang-frieren-search-title",
+          "scale-coupang-attack-on-titan-search-title",
+          "scale-coupang-home-title"
+        ],
+        [
+          "scale-coupang-jujutsu-kaisen-search-image",
+          "scale-coupang-frieren-search-image",
+          "scale-coupang-attack-on-titan-search-image",
+          "scale-coupang-home-image"
+        ]
+      ]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "purpose": "Development-only performance comparison; all fixed model recipes are independently scored on the blind test without retuning.",
+  "provider": "wasm",
+  "threads": 1,
+  "arena": true,
+  "memoryPattern": true,
+  "tokenize": true,
+  "validationCohort": "All 57 frozen development-validation field cases; never filter to correct predictions.",
+  "rounds": 2,
+  "order": "Listed order in round one; reverse order in round two. Fresh isolated Chromium for every run. No concurrent training, native prediction or other benchmark job.",
+  "configurations": [
+    { "id": "natural-main-full", "recipe": "full-natural", "mode": "main", "batch": "full" },
+    { "id": "natural-worker-micro2", "recipe": "full-natural", "mode": "worker", "batch": "micro2" },
+    { "id": "compact-worker-micro2", "recipe": "full-compact", "mode": "worker", "batch": "micro2" },
+    { "id": "small-worker-micro2", "recipe": "small-compact", "mode": "worker", "batch": "micro2" }
+  ],
+  "blindBrowserConfiguration": { "mode": "worker", "batch": "micro2", "recipe": "development-validation-selected" },
+  "runtimeChoice": "Worker micro2 and default arena selected from development probes before blind evaluation. Report observed native/browser choice changes rather than assuming score equivalence.",
+  "latency": "Per-field tokenization plus inference, with chunk times summed; automatic NONE-only cases separately reported. Cold first case retained. DOM/template/fixture I/O/load/reporting excluded from this latency.",
+  "processingLatency": "Also report complete per-field batch processing: encoding, padding/parity validation, tensor construction, inference/readback and disposal. DOM/template/fixture I/O/load/reporting remain excluded.",
+  "reportTransport": "Incremental per-case progress crosses worker/main/host boundaries; cumulative rows retained only in the model worker and host, with complete final report transferred at teardown.",
+  "memory": "Whole isolated Chromium process-set working set/private bytes at fixed milestones; sampled maximum, not continuous peak or model-only memory. Report absolute and baseline delta. Worker termination sampled immediately and after one second.",
+  "responsiveness": "16ms main-thread interval gaps including load/reporting/browser scheduling; diagnostic only, not user event latency.",
+  "failurePolicy": "Tokenization/runtime/shape errors retained as failures; never convert to automatic NONE or drop from the accuracy denominator.",
+  "changePolicy": "If a runner defect requires correction after the source freeze, retain the failed artifact, disclose the correction and rerun every affected comparable configuration without model/gold changes."
+}

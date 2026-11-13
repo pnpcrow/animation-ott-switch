@@ -1,0 +1,12 @@
+import { readFile, writeFile, mkdir } from "node:fs/promises";
+import { createHash } from "node:crypto";
+const sources = ["eval/dom-scale/collection-train/inputs.json","eval/dom-scale/collection-train/labels.json","eval/dom-scale/collection-train/additional-inputs.json","eval/dom-scale/collection-train/additional-labels.json"];
+const read = async path => { const bytes=await readFile(path); return { path, sha256:createHash("sha256").update(bytes).digest("hex"), rows:JSON.parse(bytes) }; };
+const files=await Promise.all(sources.map(read));
+const inputs=[...files[0].rows,...files[2].rows], labels=[...files[1].rows,...files[3].rows];
+if(new Set(inputs.map(x=>x.id)).size!==inputs.length||new Set(labels.map(x=>x.id)).size!==labels.length)throw new Error("Duplicate source IDs");
+if(JSON.stringify(inputs.map(x=>x.id).sort())!==JSON.stringify(labels.map(x=>x.id).sort()))throw new Error("Input/label mismatch");
+await mkdir("eval/dom-scale/model/data",{recursive:true});
+for(const [name,rows] of [["inputs",inputs],["labels",labels]])await writeFile(`eval/dom-scale/model/data/${name}.json`,JSON.stringify(rows,null,2)+"\n");
+await writeFile("eval/dom-scale/model/data/manifest.json",JSON.stringify({schemaVersion:1,status:"New captures only; no prior 84 cases mixed into training",sources:files.map(({rows,...rest})=>rest),cases:inputs.length,pages:new Set(labels.map(x=>x.provenance.pageId)).size},null,2)+"\n");
+console.log(JSON.stringify({cases:inputs.length,pages:new Set(labels.map(x=>x.provenance.pageId)).size}));

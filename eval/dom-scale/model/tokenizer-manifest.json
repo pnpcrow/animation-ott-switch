@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "sourceSha256": "6742695f9188422ed10993a40ee115dc186a3baa435f94c37a5c6f04c54e9e30",
+  "files": {
+    "tokenizer.json": {
+      "path": ".tmp/dom-scale/model/tokenizer/tokenizer.json",
+      "bytes": 814850,
+      "sha256": "d5c7a9a8996aca4fee55a3664381b012bd7dbb3e190061b2591c02502b7171b6"
+    },
+    "tokenizer_config.json": {
+      "path": ".tmp/dom-scale/model/tokenizer/tokenizer_config.json",
+      "bytes": 365,
+      "sha256": "e7d4612ce0d1b3cad0748f11a6a85de175e4dfcb04b1de66f5060b34fb09aeeb"
+    }
+  }
+}

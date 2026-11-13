@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "status": "New captures only; no prior 84 cases mixed into training",
+  "sources": [
+    {
+      "path": "eval/dom-scale/collection-train/inputs.json",
+      "sha256": "fc8edf472d0e9fe86b7f5f182d70145569ea8d0aafa5c64fa6b93745f85c2163"
+    },
+    {
+      "path": "eval/dom-scale/collection-train/labels.json",
+      "sha256": "8262e030ae5edc9c5c95134f8e5e9815b9407929e24b853f8b01b8719cb2470f"
+    },
+    {
+      "path": "eval/dom-scale/collection-train/additional-inputs.json",
+      "sha256": "83e087b15edd3670e14714ba689a3c97e30f51f63fb731b35508041a4b261eb8"
+    },
+    {
+      "path": "eval/dom-scale/collection-train/additional-labels.json",
+      "sha256": "f2f7a9f5e85ba798e05343de29c85d71f85fa17cdda0a014445a0a41b90b3170"
+    }
+  ],
+  "cases": 240,
+  "pages": 80
+}

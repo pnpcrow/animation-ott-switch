@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "frozenAt": "2026-11-13T15:15:15.864Z",
+  "holdoutOutputsInspected": false,
+  "hashes": {
+    "scripts/dom-scale-browser.mjs": "4d2de8618743a92fafb470a611167ca2dd71bfb77e6feaa0766d5a93e7f8b853",
+    "eval/dom-scale/runtime/contract.mjs": "899508b53ce8880265c143c29c73f80bad31eddfeb33ad296e1f7d6348e185c4",
+    "eval/dom-scale/runtime/inference.mjs": "7b38cbbb13dac8ff406a35e372063ba645077b85a99083ecf567023bda37d9b3",
+    "eval/dom-scale/runtime/page.mjs": "e23823c351db814aa5c439a40d5243b84e119fb8c7c75ea30fa8aabac2d3693b",
+    "eval/dom-scale/runtime/worker.mjs": "51b0142c5f6628e82979f4e39f3790706da86611da187b2fc5c29e73f13b3d1e",
+    "eval/dom-scale/runtime/tokenize.mjs": "93e787622d9d99bc2487c22180b04362c66b27d303c7733297bdbb4303074112",
+    "eval/dom-scale/runtime/benchmark.mjs": "8407c49b448358d58e80ca2acbe94055889860de9f5c0ccccfd974381a4b1e1f",
+    "eval/dom-scale/runtime/summarize.mjs": "309365fd3bf680812ac36a9d4ce46b78de45ce4068773d0c19609b4199a8b515",
+    "eval/dom-scale/runtime/freeze.mjs": "a24f777bb95f1f58ef1fc8c6457049c34bf1b08acbd2bab7e25398eefc5ba08d",
+    "eval/dom-scale/runtime/experiment-plan.json": "9e4f1481215c962473f8d60f5d2b64fc87fd4a2333b0a6b43f2a5c2287d198c0",
+    "eval/dom-scale/runtime/package-lock.json": "dd6b3c46d18c52d61d6378cdc782c91b061db9a41dcf951bb7542cca17fd24d8",
+    "eval/dom-scale/model/tokenizer-manifest.json": "a7b299e49735b7bdb1460d9f081a0d3dd30bfd3ffc08cad76986292261b5e3fc",
+    "eval/dom-scale/runtime/node_modules/@huggingface/tokenizers/dist/tokenizers.mjs": "1c4a848f86156201c033d6cd08c4cf81ae1088552acec3367f31ef086edf5af0",
+    "eval/tiny-decision/slayer/package-lock.json": "e17d6068b78a225e43dc21192ca6ba302db41eb19104ca1b193070ea8727edf4",
+    "eval/tiny-decision/slayer/node_modules/onnxruntime-web/dist/ort.wasm.min.mjs": "c21d9c326d453a4a61398270c804d5979e118540597cb0c07f7b3d64e6098234",
+    "eval/tiny-decision/slayer/node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded.mjs": "30ed0b5cd1182ede931fea448afb567d4dc705ec957af09f108a2be5f770dac3",
+    "eval/tiny-decision/slayer/node_modules/onnxruntime-web/dist/ort-wasm-simd-threaded.wasm": "4b884c203b0fa48d057be3332c65513ff85aa3c5bddd6946acc0fab7ecda001d"
+  }
+}

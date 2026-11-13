@@ -79,7 +79,8 @@ function compare(before,after){
  }
  return{before:before.recipe+'/'+before.mode,after:after.recipe+'/'+after.mode,cases:labels.length,
   correctGained:labels.filter(l=>!prior.get(l.id).correct&&next.get(l.id).correct).length,correctLost:labels.filter(l=>prior.get(l.id).correct&&!next.get(l.id).correct).length,
-  sameSelection:labels.filter(l=>prior.get(l.id).selected===next.get(l.id).selected).length,
+  sameSelection:labels.filter(l=>prior.get(l.id).validSelection&&next.get(l.id).validSelection&&prior.get(l.id).selected===next.get(l.id).selected).length,
+  comparableSelections:labels.filter(l=>prior.get(l.id).validSelection&&next.get(l.id).validSelection).length,
   accuracyDifference:after.metrics.accuracy-before.metrics.accuracy,
   pairedWorkClusterDifference95:{method:'paired percentile bootstrap by canonical work family',resamples:2000,clusters:groups.length,low:quantile(differences,.025),high:quantile(differences,.975)}};
 }
